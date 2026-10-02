@@ -1,0 +1,100 @@
+# Polynomial Complexity and Ridge Regularization
+
+A preregistered study of whether higher-degree polynomial regression improves validation prediction over a linear fit, and whether ridge regularization changes that comparison.
+
+**Current status:** One distinct configuration has a supplied, host-verified result. Seven planned configurations remain unmeasured, so the complexity–regularization hypothesis is unresolved.
+
+## Study Design
+
+The experiment uses the fixed public task `dev-linear`, version `polynomial-ridge-1`, with seed `7`.
+
+| Partition | Observations | Role |
+|---|---:|---|
+| Training | 80 | Fit model coefficients |
+| Validation | 64 | Compare and select configurations |
+| Withheld test | 96 | Unavailable for evaluation |
+
+Each observation contains a scalar input, scalar response, and split-specific identifier. The supplied manifest records generation using `stdlib random.Random` and includes SHA-256 digests for identifiers and split contents. These provenance records were supplied by the host; they were not independently recomputed for this report.
+
+The trusted host controls polynomial feature construction, intercept handling, penalty normalization, and numerical fitting. Only polynomial degree and regularization strength vary.
+
+The preregistered candidate sequence is:
+
+| Order | Degree | Ridge strength (`alpha`) | Status |
+|---:|---:|---:|---|
+| 1 | 1 | 0.0 | Measured |
+| 2 | 1 | 0.1 | No supplied measurement |
+| 3 | 2 | 0.0 | No supplied measurement |
+| 4 | 2 | 0.1 | No supplied measurement |
+| 5 | 4 | 0.0 | No supplied measurement |
+| 6 | 4 | 0.1 | No supplied measurement |
+| 7 | 8 | 0.0 | No supplied measurement |
+| 8 | 8 | 0.1 | No supplied measurement |
+
+Candidates are fitted exclusively on training observations. The sequence remains fixed regardless of intermediate validation results, subject to host resources.
+
+## Evaluation and Selection
+
+The primary metric is validation mean squared error:
+
+$$
+V(d,\alpha)=\frac{1}{64}\sum_{j=1}^{64}
+\left[y_j^{\mathrm{val}}-\widehat f_{d,\alpha}(x_j^{\mathrm{val}})\right]^2.
+$$
+
+Training MSE is retained as a diagnostic. Neither metric includes the ridge penalty term.
+
+Selection minimizes host-reported validation MSE among distinct completed candidates. Exact ties favor lower degree, then lower `alpha`. Selection uses the full supplied metric precision.
+
+The planned descriptive comparisons are:
+
+| Contrast | Definition | Interpretation of a positive value |
+|---|---|---|
+| Regularization benefit | $B_d=V(d,0.0)-V(d,0.1)$ | Regularization lowers validation error |
+| Complexity benefit | $C_{d,\alpha}=V(1,\alpha)-V(d,\alpha)$ | Higher degree improves over the linear reference |
+| Interaction | $I_d=B_d-B_1$ | Regularization benefits the higher degree more than degree one |
+
+Every contrast requires all measurements appearing in its definition. Missing results are not replaced by zeros or theoretical predictions.
+
+## Available Results
+
+The supplied record `execution-0002` reports an `actual_cpu_execution` with independent verification marked `valid`.
+
+| Configuration | Training MSE | Validation MSE |
+|---|---:|---:|
+| Degree 1, `alpha = 0.0` | 0.005661214895460485 | 0.007958542384134518 |
+
+The selected configuration is **degree 1, `alpha = 0.0`, among completed candidates only**. This does not establish superiority over any pending candidate.
+
+Validation MSE exceeds training MSE by approximately **0.00229733**. This derived difference is descriptive and does not independently establish overfitting.
+
+The host reports two CPU attempts but only one distinct evaluated configuration. It also reports an execution limit of 51 and 49 remaining CPU executions at the recorded point. These counts do not establish additional measurements or independent experimental repetitions.
+
+## Host Execution Contract
+
+The host preloads the data and performs fitting and validation. Each permitted action evaluates one literal candidate, expressed as either a `CONFIG` assignment or a standalone `run_candidate` call.
+
+Only these configuration fields are accepted:
+
+- `degree`: integer from 1 through 8.
+- `alpha`: finite number from 0 through 100.
+
+Imports, loops, functions, arithmetic expressions, filesystem access, printing, and other Python statements are prohibited. External datasets, API calls, figures, and arbitrary code execution are outside the shared permissions. Cached replay does not count as a new CPU attempt.
+
+The proposed continuation is to evaluate the remaining seven candidates separately in preregistered order.
+
+## Evidence and Limitations
+
+The host lists specification, execution-log, implementation, split-manifest, data, fitted-model, and prediction artifacts. Their contents were not independently inspected for this report.
+
+The current evidence supplies no confidence intervals, standard errors, significance tests, hidden-test scores, timing comparisons, monetary costs, or measured improvements over alternative configurations. Aggregate MSE values alone do not support uncertainty estimates for paired loss differences.
+
+Validation participates in model selection, so its score is a tuning criterion rather than an independent test estimate. Even a completed grid would identify the best observed candidate within these eight configurations on this fixed split.
+
+## Literature Context
+
+- [Ridge Regression: Structure, Cross-Validation, and Sketching](https://arxiv.org/abs/1910.02373v2): The supplied synopsis motivates examining feature covariance, regularization, and validation-based selection. It provides no measured result or quantitative validation-bias correction for this task.
+- [Agent Laboratory: Using LLM Agents as Research Assistants](https://arxiv.org/abs/2501.04227v2): Provides context for separating research planning, execution, interpretation, and reporting.
+- [AgentRxiv: Towards Collaborative Autonomous Research](https://arxiv.org/abs/2503.18102v1): Provides context for sharing and retrieving research reports.
+
+These sources support methodological context; they are not predictive baselines or execution evidence for the present experiment.

@@ -1,0 +1,596 @@
+{
+  "kind": "read_only_pilot_observation",
+  "observed_at": "2026-10-02T14:58:37.470344+00:00",
+  "unit_id": "linear-seed7",
+  "arm": "B",
+  "frozen_source_revision": "46580f975fe72bc508a7783202c96bc15b9e5d05",
+  "scope": "Only public/model/host execution files were read. No source/config/process changes, no model calls, no fitting executions, no owner answer data read. Frozen verifier replay is computation from completed artifacts only.",
+  "source_checks": [
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\__init__.py",
+      "expected": "a30c60a6e39cf4ca0357c2fa539712944c6fee913281e528c607b9b2ad2cc322",
+      "actual": "a30c60a6e39cf4ca0357c2fa539712944c6fee913281e528c607b9b2ad2cc322"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\__main__.py",
+      "expected": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "actual": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\arms.py",
+      "expected": "c7c192af37a48c0c410452f8571623512688edf6c054c0aebc0d5764c278cc88",
+      "actual": "c7c192af37a48c0c410452f8571623512688edf6c054c0aebc0d5764c278cc88"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\baseline.py",
+      "expected": "fd0863962a7f03662891f6ce512e0f04cdb1e0ae952e379fdaf031182dcfbd22",
+      "actual": "fd0863962a7f03662891f6ce512e0f04cdb1e0ae952e379fdaf031182dcfbd22"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\cli.py",
+      "expected": "fe0d387c70040b597a376d05bdda4ffb07e8e900c2485976a2da9b168cdd0a22",
+      "actual": "fe0d387c70040b597a376d05bdda4ffb07e8e900c2485976a2da9b168cdd0a22"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\comparison_arms.py",
+      "expected": "eaa32df4f164bc0d932de85ce4cc29996b7f800b7ee6cdba2d2e86e048c606a3",
+      "actual": "eaa32df4f164bc0d932de85ce4cc29996b7f800b7ee6cdba2d2e86e048c606a3"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\engine.py",
+      "expected": "7b141d3fdbb6354b057c947fd7faeb47a4740b03659c8812c469eac28ff19851",
+      "actual": "7b141d3fdbb6354b057c947fd7faeb47a4740b03659c8812c469eac28ff19851"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\evaluation.py",
+      "expected": "5f6a503690a311d30ca0a255ee47316ee76b9f6d062dc40c377eed9c3fee1cbb",
+      "actual": "5f6a503690a311d30ca0a255ee47316ee76b9f6d062dc40c377eed9c3fee1cbb"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\model.py",
+      "expected": "a5fa67b742f63a0657e884326ce27347a06ef4346fb107f7efc8987e869d7fa2",
+      "actual": "a5fa67b742f63a0657e884326ce27347a06ef4346fb107f7efc8987e869d7fa2"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\model_attempt_audit.py",
+      "expected": "3d46151d4388b25373e5c9c6518be49279306484900515cbe69f281824aedee8",
+      "actual": "3d46151d4388b25373e5c9c6518be49279306484900515cbe69f281824aedee8"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\model_request_audit.py",
+      "expected": "25eafd1f0d85be77997f0bb2de07f9f9a8f229a17e19a95b661c79e917b0ce12",
+      "actual": "25eafd1f0d85be77997f0bb2de07f9f9a8f229a17e19a95b661c79e917b0ce12"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\proposer.py",
+      "expected": "3363c3236ed975174aa22f187a634014e0e86c904926f448bd64ab24e76d14a4",
+      "actual": "3363c3236ed975174aa22f187a634014e0e86c904926f448bd64ab24e76d14a4"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\report_contract.py",
+      "expected": "71cb6fd95b65148b796ed7c491a1b0c958e435df3e73dc4018c587ef87ee144c",
+      "actual": "71cb6fd95b65148b796ed7c491a1b0c958e435df3e73dc4018c587ef87ee144c"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\selection.py",
+      "expected": "163905588a7f9089b953d4b5ab01589dd97c47fc94be716c84f75873a20cd2a4",
+      "actual": "163905588a7f9089b953d4b5ab01589dd97c47fc94be716c84f75873a20cd2a4"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\store.py",
+      "expected": "d9a5df829170a9e58285bbcda4d12f6c753968e95f0148a5f28f20db0d891ee6",
+      "actual": "d9a5df829170a9e58285bbcda4d12f6c753968e95f0148a5f28f20db0d891ee6"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\study.py",
+      "expected": "2b125feb16c36a927bb08eb57b28d39475d8ac75595822a9a77bf671ca3b82c5",
+      "actual": "2b125feb16c36a927bb08eb57b28d39475d8ac75595822a9a77bf671ca3b82c5"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\tasks.py",
+      "expected": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd",
+      "actual": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research\\verifier.py",
+      "expected": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05",
+      "actual": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+    }
+  ],
+  "model_receipts": [
+    {
+      "call_id": "upstream-0000",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 5.64000000001397,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 26540,
+        "output_tokens": 13,
+        "reasoning_output_tokens": 0
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0000\\result.json",
+      "result_sha256": "944b98c6d5e2fe4cb3a666eac5f632c4c3ea4a244a180585dfa3de9a8a79b7c8"
+    },
+    {
+      "call_id": "upstream-0001",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 5.547000000020489,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 26823,
+        "output_tokens": 17,
+        "reasoning_output_tokens": 0
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0001\\result.json",
+      "result_sha256": "0ba4be7c5ccfb85950155ed2b85e166e2e1d5004e0457077ed53503b41636742"
+    },
+    {
+      "call_id": "upstream-0002",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 12.15700000000652,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 26983,
+        "output_tokens": 158,
+        "reasoning_output_tokens": 0
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0002\\result.json",
+      "result_sha256": "c06fef4845d93683e73cfed88bfd3b448be1bbd3c4215742cac6a967934799f4"
+    },
+    {
+      "call_id": "upstream-0003",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 29.60899999999674,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 26632,
+        "output_tokens": 597,
+        "reasoning_output_tokens": 233
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0003\\result.json",
+      "result_sha256": "792356d3d4900cc862a97cc9124b3835ff7e4d2e3808bb6eb4dc6d54568a4f77"
+    },
+    {
+      "call_id": "upstream-0004",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 5.875,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 27391,
+        "output_tokens": 26,
+        "reasoning_output_tokens": 0
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0004\\result.json",
+      "result_sha256": "274f7a4537020bca4d502175108f614a6f5d1ab9c93203f23e9d40e47fcf480b"
+    },
+    {
+      "call_id": "upstream-0005",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 6.1560000000172295,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 18176,
+        "input_tokens": 27425,
+        "output_tokens": 25,
+        "reasoning_output_tokens": 0
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0005\\result.json",
+      "result_sha256": "0d8bb1853764a3434b38f9e41c4cbc8c4096468b4fa480bcb8c004f9cc94def9"
+    },
+    {
+      "call_id": "upstream-0006",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 7.829000000027008,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 21164,
+        "output_tokens": 59,
+        "reasoning_output_tokens": 44
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0006\\result.json",
+      "result_sha256": "f8924fbd5f2005f20406b0a7d1bab109daf6a0093235f196980d72ebdb2d0f5d"
+    },
+    {
+      "call_id": "upstream-0007",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 24.625,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 28096,
+        "output_tokens": 455,
+        "reasoning_output_tokens": 0
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0007\\result.json",
+      "result_sha256": "8587790f898f017761e5ba97afdb607cd73d4ca907bb7d3d7c47b4cb0e27f9ed"
+    },
+    {
+      "call_id": "upstream-0008",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 16.31199999997625,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 28928,
+        "output_tokens": 213,
+        "reasoning_output_tokens": 34
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0008\\result.json",
+      "result_sha256": "5f7805e2ce3273aa84193decf61c50d6282c8d3244a36b9c0db24554785cfb3e"
+    },
+    {
+      "call_id": "upstream-0009",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 18.09399999998277,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 29477,
+        "output_tokens": 421,
+        "reasoning_output_tokens": 30
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0009\\result.json",
+      "result_sha256": "559e1bf45163f6dcbe0538c56e30599f2cd73e205cd2d0c5e40a6f0113a39039"
+    },
+    {
+      "call_id": "upstream-0010",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 8.73499999998603,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 20022,
+        "output_tokens": 62,
+        "reasoning_output_tokens": 21
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0010\\result.json",
+      "result_sha256": "c5e708d5b66fae7efe3abf1615c2457cb5dd4eb74013b2500932f4f2082586b3"
+    },
+    {
+      "call_id": "upstream-0011",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 39.75,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 30495,
+        "output_tokens": 961,
+        "reasoning_output_tokens": 35
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0011\\result.json",
+      "result_sha256": "d9d949fa251374b9626f968eb0666fa920f6b37cfba3cd9151e5fe9571c2c4b4"
+    },
+    {
+      "call_id": "upstream-0012",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 6.297000000020489,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 20023,
+        "output_tokens": 28,
+        "reasoning_output_tokens": 0
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0012\\result.json",
+      "result_sha256": "35de5493bde824595684c18d43fb7ac41b62614432558c2e7922db34aa1d7347"
+    },
+    {
+      "call_id": "upstream-0013",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 41.06300000002375,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 32355,
+        "output_tokens": 934,
+        "reasoning_output_tokens": 52
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0013\\result.json",
+      "result_sha256": "3cda664767303d1308236bb3e292c6592ef7f5caf0050c99f4ba06188e73b51e"
+    },
+    {
+      "call_id": "upstream-0014",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 8.23499999998603,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 18176,
+        "input_tokens": 20022,
+        "output_tokens": 64,
+        "reasoning_output_tokens": 21
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0014\\result.json",
+      "result_sha256": "99a1cd8c9c3b81f485db9667ed2f1890f317538f692a34f537437b5dac1d6bf3"
+    },
+    {
+      "call_id": "upstream-0015",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 47.48499999998603,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 34100,
+        "output_tokens": 1365,
+        "reasoning_output_tokens": 50
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0015\\result.json",
+      "result_sha256": "3681952612af87c4d07c9be1e8d9726577eb0761a1ba79c8e83e4e9f06b85359"
+    },
+    {
+      "call_id": "upstream-0016",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 8.077999999979511,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 20022,
+        "output_tokens": 64,
+        "reasoning_output_tokens": 25
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0016\\result.json",
+      "result_sha256": "78ecc6ff1dfa59af5f8196f39abf9dd6539f472d73d869329f57bd777eaa5bbe"
+    },
+    {
+      "call_id": "upstream-0017",
+      "status": "completed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "wall_seconds": 57.90600000001723,
+      "tool_calls": [],
+      "usage": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12544,
+        "input_tokens": 36725,
+        "output_tokens": 1536,
+        "reasoning_output_tokens": 83
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\model\\upstream-0017\\result.json",
+      "result_sha256": "71e6cc1508ccdb41115b4d433bd5be7bf26279ac39b78f1b21489085ba2f989a"
+    }
+  ],
+  "cpu_receipts": [
+    {
+      "execution_id": "execution-0000",
+      "status": "success",
+      "config": {
+        "alpha": 0.0,
+        "degree": 1
+      },
+      "metrics": {
+        "train_mse": 0.005661214895460485,
+        "validation_mse": 0.007958542384134518
+      },
+      "verification": {
+        "valid": true,
+        "status": "verified",
+        "outcome": "success",
+        "metrics": {
+          "train_mse": 0.005661214895460485,
+          "validation_mse": 0.007958542384134518
+        },
+        "reasons": [],
+        "evidence": [
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\model.json",
+            "sha256": "377fc9139dc432f3a7a431e283104d24d0b36c8bb6e18094a59db17083f9a0b4"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\predictions.json",
+            "sha256": "735593beda6ec0cf37ab35cb79d15b466d3e829b1852fc5ca2723f8f746ac014"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\registered_spec.json",
+            "sha256": "83b2e0c4173709cdbd6c152e00fdcb0d7a95b1c358b4750b6b63e172e6c023ab"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\run.log",
+            "sha256": "c68838468e1b967ea58149459fb19e9093f054912817c21d69f13a941a261c25"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\source\\evidence_research\\__init__.py",
+            "sha256": "4414c6f853dac6f3a485232daab35c67d5f5b25d093ca1da73988e6facbbb9bc"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\source\\evidence_research\\tasks.py",
+            "sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\source\\evidence_research\\verifier.py",
+            "sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\split_manifest.json",
+            "sha256": "be768c0c26e80fb2b56b80412d0a44145354ff222fb02d41fe96ce42989fc807"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\train.json",
+            "sha256": "b04157ebdac7ea1ad8b0233a2e3ae59a4b59f9c6472670581eddae3eca3eda9f"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\validation.json",
+            "sha256": "4439ca701f0717755adeedb27c14259c9123320d512f52ad3564a85914b73669"
+          }
+        ],
+        "checks": [
+          "registered_spec_integrity",
+          "artifact_integrity",
+          "frozen_code_hashes",
+          "independent_fixed_baseline_comparison",
+          "disjoint_observed_splits",
+          "test_withheld",
+          "configuration_match",
+          "independent_cholesky_fit_reproduction",
+          "independent_metric_recomputation",
+          "claim_evidence_links",
+          "test_integrity_delegated_to_sealed_evaluation_owner"
+        ],
+        "comparison_valid": true,
+        "comparison": {
+          "metric": "validation_mse",
+          "baseline_value": 0.007958542384134504,
+          "candidate_value": 0.007958542384134518,
+          "baseline_config": {
+            "degree": 1,
+            "alpha": 0.0
+          },
+          "scope": "same task/seed/split/implementation on local CPU",
+          "test_used": false
+        },
+        "evaluator_sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\result.json",
+      "result_sha256": "42dc25682f17de9e68a02e082c1eeb014f208efa99bacb8458435521224219e0"
+    },
+    {
+      "execution_id": "execution-0002",
+      "status": "success",
+      "config": {
+        "alpha": 0.0,
+        "degree": 1
+      },
+      "metrics": {
+        "train_mse": 0.005661214895460485,
+        "validation_mse": 0.007958542384134518
+      },
+      "verification": {
+        "valid": true,
+        "status": "verified",
+        "outcome": "success",
+        "metrics": {
+          "train_mse": 0.005661214895460485,
+          "validation_mse": 0.007958542384134518
+        },
+        "reasons": [],
+        "evidence": [
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\model.json",
+            "sha256": "377fc9139dc432f3a7a431e283104d24d0b36c8bb6e18094a59db17083f9a0b4"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\predictions.json",
+            "sha256": "735593beda6ec0cf37ab35cb79d15b466d3e829b1852fc5ca2723f8f746ac014"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+            "sha256": "83b2e0c4173709cdbd6c152e00fdcb0d7a95b1c358b4750b6b63e172e6c023ab"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\run.log",
+            "sha256": "7d7093de44b4563f06334a2cbeb03190fe768e86bc1df7e6639f559a5f3c74d3"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\source\\evidence_research\\__init__.py",
+            "sha256": "4414c6f853dac6f3a485232daab35c67d5f5b25d093ca1da73988e6facbbb9bc"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+            "sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\source\\evidence_research\\verifier.py",
+            "sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+            "sha256": "be768c0c26e80fb2b56b80412d0a44145354ff222fb02d41fe96ce42989fc807"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\train.json",
+            "sha256": "b04157ebdac7ea1ad8b0233a2e3ae59a4b59f9c6472670581eddae3eca3eda9f"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\validation.json",
+            "sha256": "4439ca701f0717755adeedb27c14259c9123320d512f52ad3564a85914b73669"
+          }
+        ],
+        "checks": [
+          "registered_spec_integrity",
+          "artifact_integrity",
+          "frozen_code_hashes",
+          "independent_fixed_baseline_comparison",
+          "disjoint_observed_splits",
+          "test_withheld",
+          "configuration_match",
+          "independent_cholesky_fit_reproduction",
+          "independent_metric_recomputation",
+          "claim_evidence_links",
+          "test_integrity_delegated_to_sealed_evaluation_owner"
+        ],
+        "comparison_valid": true,
+        "comparison": {
+          "metric": "validation_mse",
+          "baseline_value": 0.007958542384134504,
+          "candidate_value": 0.007958542384134518,
+          "baseline_config": {
+            "degree": 1,
+            "alpha": 0.0
+          },
+          "scope": "same task/seed/split/implementation on local CPU",
+          "test_used": false
+        },
+        "evaluator_sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+      },
+      "result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\result.json",
+      "result_sha256": "fc3c80032310faa85be681f471248ce124ab5177bf8aa01c82c1178be40b4121"
+    }
+  ],
+  "baseline_result_exists": false,
+  "arm_response_exists": false
+}

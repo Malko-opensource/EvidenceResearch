@@ -1,0 +1,1468 @@
+{
+  "actual_history_evidence": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "sha256": "9b75bc90b4fa7ba8b18a9860ea6415bfd93b45f38b0b4651ed8a8eec6bbf109f"
+  },
+  "claims": [
+    {
+      "claim_id": "06fac51b837711c488fd4eb81e8dfb51022b434f995bae799e12d748c75d29b0",
+      "context": "실제 실행의 독립 계산 train MSE: 0.005798873846072956",
+      "end": 44,
+      "evidence": [
+        {
+          "display_rounding_tolerance": 5e-19,
+          "independent_value": 0.005798873846072956,
+          "metric": "train_mse",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\research\\evidence\\bf40b320786aa92945db1d0b\\result.json",
+          "sha256": "3672870aa165e5def3ebcf8802f88ce25dda502f6e4885444d0e28a00016c474"
+        }
+      ],
+      "kind": "measured",
+      "line": 2,
+      "number": "0.005798873846072956",
+      "outcome": "supported",
+      "reason": "Explicit deterministic report line containing actual independently computed task metric.",
+      "start": 24
+    },
+    {
+      "claim_id": "3421dfb0e3879cbebe1352a777238472734d85d53b17d77915365acd4485eec7",
+      "context": "실제 실행의 독립 계산 validation MSE: 0.0077919618179834735",
+      "end": 50,
+      "evidence": [
+        {
+          "display_rounding_tolerance": 5e-20,
+          "independent_value": 0.0077919618179834735,
+          "metric": "validation_mse",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\research\\evidence\\bf40b320786aa92945db1d0b\\result.json",
+          "sha256": "3672870aa165e5def3ebcf8802f88ce25dda502f6e4885444d0e28a00016c474"
+        }
+      ],
+      "kind": "measured",
+      "line": 3,
+      "number": "0.0077919618179834735",
+      "outcome": "supported",
+      "reason": "Explicit deterministic report line containing actual independently computed task metric.",
+      "start": 29
+    },
+    {
+      "claim_id": "94d3886067f977d738780c63cddf01a3fce587300c3e371f3b50599bd5d724c2",
+      "context": "  \"hypothesis\": \"A linear ridge penalty between 0.43 and 0.435 may slightly refine the measured validation minimum.\",",
+      "end": 52,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 36,
+      "number": "0.43",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 48
+    },
+    {
+      "claim_id": "667fe52dff68c7020286a40f32a193a2296dcee05a65d021da44a2b7a53db91d",
+      "context": "  \"hypothesis\": \"A linear ridge penalty between 0.43 and 0.435 may slightly refine the measured validation minimum.\",",
+      "end": 62,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 36,
+      "number": "0.435",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 57
+    },
+    {
+      "claim_id": "ac8277317f63f0fa6b07f1b95f9b11d322cecf2f61e958946215fa27453b88f3",
+      "context": "      \"value\": 0.005798873846072956",
+      "end": 35,
+      "evidence": [
+        {
+          "display_rounding_tolerance": 5e-19,
+          "independent_value": 0.005798873846072956,
+          "metric": "train_mse",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\research\\evidence\\bf40b320786aa92945db1d0b\\result.json",
+          "sha256": "3672870aa165e5def3ebcf8802f88ce25dda502f6e4885444d0e28a00016c474"
+        }
+      ],
+      "kind": "measured",
+      "line": 51,
+      "number": "0.005798873846072956",
+      "outcome": "supported",
+      "reason": "Known structured measured metric; independently reproduced actual CPU predictions and value.",
+      "start": 15
+    },
+    {
+      "claim_id": "4637622d109b3c7ab55cbee05acf16f76781798855f1e8a83214e4c2b409a946",
+      "context": "      \"value\": 0.0077919618179834735",
+      "end": 36,
+      "evidence": [
+        {
+          "display_rounding_tolerance": 5e-20,
+          "independent_value": 0.0077919618179834735,
+          "metric": "validation_mse",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\research\\evidence\\bf40b320786aa92945db1d0b\\result.json",
+          "sha256": "3672870aa165e5def3ebcf8802f88ce25dda502f6e4885444d0e28a00016c474"
+        }
+      ],
+      "kind": "measured",
+      "line": 58,
+      "number": "0.0077919618179834735",
+      "outcome": "supported",
+      "reason": "Known structured measured metric; independently reproduced actual CPU predictions and value.",
+      "start": 15
+    },
+    {
+      "claim_id": "2d51f8b3c7a834509d12a09a9155683a6f7764e14840459507e5c9e585a7a33e",
+      "context": "    \"seed\": 7,",
+      "end": 13,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\research\\evidence\\bf40b320786aa92945db1d0b\\registered_spec.json",
+          "sha256": "ad74de02265287f01e7fa5dee9768cf4aa0580bba476718df5bc12203b6da797"
+        }
+      ],
+      "kind": "method",
+      "line": 70,
+      "number": "7",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+      "start": 12
+    },
+    {
+      "claim_id": "9e28f02a27296ddeaac0cc208eb821c8d50e1eaa0588615c8a28267d6458678d",
+      "context": "    \"task_version\": \"polynomial-ridge-1\"",
+      "end": 39,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\research\\evidence\\bf40b320786aa92945db1d0b\\registered_spec.json",
+          "sha256": "ad74de02265287f01e7fa5dee9768cf4aa0580bba476718df5bc12203b6da797"
+        }
+      ],
+      "kind": "identifier",
+      "line": 73,
+      "number": "1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+      "start": 38
+    },
+    {
+      "claim_id": "acf69e9e72288d05290cdf76b48e8aa3d919132599d1365f35fe054026f68b3e",
+      "context": "      \"claim\": \"Frozen source synopsis, not a full-text copy. Ridge Regression: Structure, Cross-Validation, and Sketching, sections 2 and 3, studies squared-error fitting with a quadratic coefficient penalty and selection of regularization through held-out/cross-validation error. The closed-form ridge solution depends on the feature covariance and regularization strength. The paper discusses validation bias in a high-dimensional asymptotic regime. It does not identify an optimal polynomial degree or alpha for this task; those must be measured from the supplied public training and validation data. Mathematical facts are literature context, not local experimental evidence.\",",
+      "end": 134,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 77,
+      "number": "2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+      "start": 133
+    },
+    {
+      "claim_id": "0988cf962680b9cbe0f63330bce98e0ef61704c2ae7d5fb9d8384bd7da53f228",
+      "context": "      \"claim\": \"Frozen source synopsis, not a full-text copy. Ridge Regression: Structure, Cross-Validation, and Sketching, sections 2 and 3, studies squared-error fitting with a quadratic coefficient penalty and selection of regularization through held-out/cross-validation error. The closed-form ridge solution depends on the feature covariance and regularization strength. The paper discusses validation bias in a high-dimensional asymptotic regime. It does not identify an optimal polynomial degree or alpha for this task; those must be measured from the supplied public training and validation data. Mathematical facts are literature context, not local experimental evidence.\",",
+      "end": 140,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 77,
+      "number": "3",
+      "outcome": "classified_nonmeasurement",
+      "reason": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+      "start": 139
+    },
+    {
+      "claim_id": "d73e6916c16643305df27916a72374fea872fb2bbca3edd73f593f6c52dcf86b",
+      "context": "      \"claim\": \"Literature claim from Agent Laboratory section 3: experiments execute generated code; an LLM reward model guides code selection. Its section 5 discusses self-evaluation and hallucinated results. This is not independent evidence of task performance here.\",",
+      "end": 64,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 82,
+      "number": "3",
+      "outcome": "classified_nonmeasurement",
+      "reason": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+      "start": 63
+    },
+    {
+      "claim_id": "517d88bf3262dbd23e6ba6daf7c3348a3e9dd8b58f89defc03cc0f4dcc6917c3",
+      "context": "      \"claim\": \"Literature claim from Agent Laboratory section 3: experiments execute generated code; an LLM reward model guides code selection. Its section 5 discusses self-evaluation and hallucinated results. This is not independent evidence of task performance here.\",",
+      "end": 158,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 82,
+      "number": "5",
+      "outcome": "classified_nonmeasurement",
+      "reason": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+      "start": 157
+    },
+    {
+      "claim_id": "6a588778152f2730f6913683d54edacc0451b276a49b7586f9518ac529f3a014",
+      "context": "      \"claim\": \"Literature claim from AgentRxiv section 3: agents retrieve reports through a SentenceTransformer similarity search. Section 4.1 reports hallucination/reward-hacking risks and human checking of experimental outputs. Retrieved reports require verification before adoption.\",",
+      "end": 57,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 87,
+      "number": "3",
+      "outcome": "classified_nonmeasurement",
+      "reason": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+      "start": 56
+    },
+    {
+      "claim_id": "1d8ef9a31bee5711cb82a3d959037a9cd5843e1faa656532e2c318508fa196d6",
+      "context": "      \"claim\": \"Literature claim from AgentRxiv section 3: agents retrieve reports through a SentenceTransformer similarity search. Section 4.1 reports hallucination/reward-hacking risks and human checking of experimental outputs. Retrieved reports require verification before adoption.\",",
+      "end": 143,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 87,
+      "number": "4.1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+      "start": 140
+    },
+    {
+      "claim_id": "bbeb6a5eb4688c8b0421c32a3d1b32181131b3234ee902234930158d8f213126",
+      "context": "    \"seconds\": 654.4070000000647,",
+      "end": 32,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\independent-resource-audit.json",
+          "sha256": "256fdbdb0ceee90664fb4ea77b471a52e4bc54abe2220cd7d50304f5301c47f6"
+        },
+        {
+          "events_sha256": "de4ec6944e0926ae165fd319a2a29ffeffb61b6be9f823f0310d6f594d232e3c",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0000\\result.json",
+          "sha256": "49e1963132e31bcbf77a623b47bfc5b05eeb91f0cf6bea373244bc5d70c3af8c"
+        },
+        {
+          "events_sha256": "40d7960cd22a8430adc0aaf995052bb6649522d4efb2d6577fdf56b976f93ee6",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0001\\result.json",
+          "sha256": "6f283f2f45ab45683c99758087bff394bbfb8436871fd757fd10fea2c71f096d"
+        },
+        {
+          "events_sha256": "d565c9a133fce62824f105ae90cadcc3c8e3c08b616fc4b10164ad4547e49157",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0002\\result.json",
+          "sha256": "15a7adfb31ed9e1863cf061d9e396614f7a4ad9128857c5f8ef78c55e6b6b904"
+        },
+        {
+          "events_sha256": "966ff7f3da6644451f7721a9fcbb8a673bf7d875824fcb76931089270ce9c8fd",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0003\\result.json",
+          "sha256": "4d67ec7b5f42ee3c2eaf626441df944a3416dfeda87f33aa1bd95f5a06f209c9"
+        },
+        {
+          "events_sha256": "4e85c095cc007f11070cb156985e8abb5ece23b0a859034d354dea413eba5989",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0004\\result.json",
+          "sha256": "31d69c1f0959c4724838c39fcdd778090cd6691479231247a2ea1afb6834cede"
+        },
+        {
+          "events_sha256": "102f9f70a3fa404295d84873392cc551b3d31d6eeb26f4ea997c51aa83c5c49a",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0005\\result.json",
+          "sha256": "fc96e9f00ce8d7be245fe268314abcc8bf91673b218e946e85111b9b0de6d8c5"
+        },
+        {
+          "events_sha256": "517a6752f96afbab688ade58989863e957ac7700fa6ad7437b573b6711ac3e82",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0006\\result.json",
+          "sha256": "1f3f22cdfc04d30e24a5c40507cf01fd23f2c64b1e005b1f2f9c92ef9249b26d"
+        },
+        {
+          "events_sha256": "287e4774f4f9334eb9f35015ed789ab7b2953727a4c137eabbf72ed49cf9f9a4",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0007\\result.json",
+          "sha256": "285cfe58a7040800c8a272b12ccb0de2ebdc8dbe285a90108ba23a8b9c78b45f"
+        },
+        {
+          "events_sha256": "7ebcc46971c1d3ef836045d1955a9c84e7a512456a9fd714f20e8365027dc740",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0008\\result.json",
+          "sha256": "dd517222a8d7ee0a31fe4783606e76af9fe90d0c1b652077eb128d6df2e829a2"
+        },
+        {
+          "events_sha256": "f1d3113c376bb3baa65ec6b8ec40e640f1339db2b1b689e3a38bcb6350277131",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0009\\result.json",
+          "sha256": "2814e349e4295f5cf35a5ea348d6757c675ed4e7269a63e8ef93f4f2e4ea230a"
+        },
+        {
+          "events_sha256": "eb40291e566deb9e5838fd8646d2bf3ca7cb383d986624331244c032beb81e17",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0010\\result.json",
+          "sha256": "18da101ce2059291b1b1005bba63b8277c456dfa143a814fda7ce94d475fbcb2"
+        },
+        {
+          "events_sha256": "5e70780a46f8477ddcf8b615f9b9fb98fb532e9dbdc14ff801793560c3d391ac",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0011\\result.json",
+          "sha256": "26dcc4d81c416ef557cb8594166bd08c300470aac66e60eb3a7e971f8cfa0bcf"
+        },
+        {
+          "events_sha256": "72cfeaf81e67f7ab22ff2126866cc3a1cc58482c982fdad5d577703aca398fe9",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0012\\result.json",
+          "sha256": "2fbabd13ebd864c8f4dd05acee69b527cdcbffe8d9608d9f7b36fc30baf53299"
+        },
+        {
+          "events_sha256": "14b2ac07db52a6a812302b3897055283da9d7a111577618c03f1cb903a1ca561",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0013\\result.json",
+          "sha256": "fe755a3d3c5f1cc7154bdab77df24ca6f87ccea9aab3c7cf3425e73f7b7f199f"
+        },
+        {
+          "events_sha256": "0c80a59dd9cca9386c4f824ee6be7d1dcdba626be7ee19fb9faa3e2bcfb39a8a",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0014\\result.json",
+          "sha256": "598c9a43af453efe28d75b032ed049b5b68f92e210bfe837adbfd8c6488e3d85"
+        },
+        {
+          "events_sha256": "6dcfe70851396e69074aa7ea44013f03c83e8c6932ccc262ebd1d58e0c1a360b",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0015\\result.json",
+          "sha256": "9adaf40191691f8d47ef200fc0a825622dd5fcaf128f63f6f0c1f974985e57ad"
+        },
+        {
+          "events_sha256": "d00a24eae7a7c44d5a2a2d88c326be0db0448f1bf91e050b42c2c501fedc33c6",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0016\\result.json",
+          "sha256": "3de05a00577995b633d98514d79f3d45736d4cbe4bc758e58bc2dbb7dbdaf36b"
+        },
+        {
+          "events_sha256": "1a751906531af05c212eb5da64b15ab66d311d07d02dd524e502dc62872de4a9",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0017\\result.json",
+          "sha256": "76429e6f1185fc44176906f76f14695797129d1ce9fc285734a4c5219b343640"
+        },
+        {
+          "events_sha256": "655b01ef8a9046266758465339a5481185c75e7406572bdff9747124f5effac2",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0018\\result.json",
+          "sha256": "6a32331e74d68ec96ba44070b453fe6a3f10d3b5562c680ac6d7f6fe07ac5838"
+        },
+        {
+          "events_sha256": "0f8d9712ecb0daf6b6af8d5dfd3543f726add889742075f9948f1ef47da84213",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0019\\result.json",
+          "sha256": "0af7027925f53464a1a82fa90ea068a0b914663002fd6606933a4246a6064393"
+        },
+        {
+          "events_sha256": "13b999a94240f45dbdcd9f6717bb7160fbf7699bcec6f29475f3c4aa392025b2",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0020\\result.json",
+          "sha256": "1e6f777c2bd1a981da9ae48d4f2d821f0f1460ce4954763b27f6b29d92a61937"
+        },
+        {
+          "events_sha256": "31ac29459f93b0943901294144cae930516336f76a67e6b969b7288cccea6eac",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0021\\result.json",
+          "sha256": "d058ea8fe937364bd2a653ae8d9512864b3c05fd1fcf0a7c2b7bcd37949b142f"
+        },
+        {
+          "events_sha256": "55bb3806b6e51f18d151c2247a4620d721d663e729b6502917cfd7d0520f64f7",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0022\\result.json",
+          "sha256": "49f4284764dd83113720673f8f718c414ab7dad6aad9878c919d4cdb73f7cf8b"
+        },
+        {
+          "events_sha256": "55370a7620a8ee647c196d08d53e3d7bc92fd107fce68145e5a5413f15fc6a70",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0023\\result.json",
+          "sha256": "ce8ebd18ff2b359372ea043dd6c0499de5d6fbf55918ad0e9290d1f784d56c45"
+        },
+        {
+          "events_sha256": "75037a86b089c951b9c915b2f249642526b28b3ac9205571a539afa09253f318",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0024\\result.json",
+          "sha256": "0b2aafceab24ffeb57ec42cf6db9fcecb594849bd31223dda52b8eed3781e9b7"
+        },
+        {
+          "events_sha256": "2270325a6db1b8e3771e21af9a08617cbf7802a61cc0039dd8aeae8db8e75236",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0025\\result.json",
+          "sha256": "1796487e287c6fac98c633df3ec05495b864194b7a6489ecbcdccf35fdd7f8db"
+        },
+        {
+          "events_sha256": "1ff0791e41bdcd4dba4403ffc7903fe2bbf8a625adf20390155e7533b0c868db",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0026\\result.json",
+          "sha256": "db2d4f21934f31ab81099d0f0f89164774eeadc0ba54456f2122d856d7795623"
+        },
+        {
+          "events_sha256": "362596f3235ae2d7c8ff59cce3aaa9e20f3d59afab823ef08de30a174e2d933b",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0027\\result.json",
+          "sha256": "f16002509f9d675b2068073bfbe23e6fc1dae81ad6a8530f1b2355777ca930dc"
+        },
+        {
+          "events_sha256": "31999623c4bf0dc718c50296a7d300602b297d0be4fe37280649f15b800efebd",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0028\\result.json",
+          "sha256": "3292afd8253d355d9227fe5f6d59e657ffeadbec52008c0a07df0e199817cfec"
+        },
+        {
+          "display_rounding_tolerance": 5e-14,
+          "independent_value": 654.4070000000647,
+          "resource_metric": "model_seconds"
+        }
+      ],
+      "kind": "measured_resource",
+      "line": 95,
+      "number": "654.4070000000647",
+      "outcome": "supported",
+      "reason": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+      "start": 15
+    },
+    {
+      "claim_id": "5018c1b40fd5f46c6c285b8184edb8277c1e71f031b954cb9d49e5915ee438c4",
+      "context": "      \"input_tokens\": 1510099,",
+      "end": 29,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\independent-resource-audit.json",
+          "sha256": "256fdbdb0ceee90664fb4ea77b471a52e4bc54abe2220cd7d50304f5301c47f6"
+        },
+        {
+          "events_sha256": "de4ec6944e0926ae165fd319a2a29ffeffb61b6be9f823f0310d6f594d232e3c",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0000\\result.json",
+          "sha256": "49e1963132e31bcbf77a623b47bfc5b05eeb91f0cf6bea373244bc5d70c3af8c"
+        },
+        {
+          "events_sha256": "40d7960cd22a8430adc0aaf995052bb6649522d4efb2d6577fdf56b976f93ee6",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0001\\result.json",
+          "sha256": "6f283f2f45ab45683c99758087bff394bbfb8436871fd757fd10fea2c71f096d"
+        },
+        {
+          "events_sha256": "d565c9a133fce62824f105ae90cadcc3c8e3c08b616fc4b10164ad4547e49157",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0002\\result.json",
+          "sha256": "15a7adfb31ed9e1863cf061d9e396614f7a4ad9128857c5f8ef78c55e6b6b904"
+        },
+        {
+          "events_sha256": "966ff7f3da6644451f7721a9fcbb8a673bf7d875824fcb76931089270ce9c8fd",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0003\\result.json",
+          "sha256": "4d67ec7b5f42ee3c2eaf626441df944a3416dfeda87f33aa1bd95f5a06f209c9"
+        },
+        {
+          "events_sha256": "4e85c095cc007f11070cb156985e8abb5ece23b0a859034d354dea413eba5989",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0004\\result.json",
+          "sha256": "31d69c1f0959c4724838c39fcdd778090cd6691479231247a2ea1afb6834cede"
+        },
+        {
+          "events_sha256": "102f9f70a3fa404295d84873392cc551b3d31d6eeb26f4ea997c51aa83c5c49a",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0005\\result.json",
+          "sha256": "fc96e9f00ce8d7be245fe268314abcc8bf91673b218e946e85111b9b0de6d8c5"
+        },
+        {
+          "events_sha256": "517a6752f96afbab688ade58989863e957ac7700fa6ad7437b573b6711ac3e82",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0006\\result.json",
+          "sha256": "1f3f22cdfc04d30e24a5c40507cf01fd23f2c64b1e005b1f2f9c92ef9249b26d"
+        },
+        {
+          "events_sha256": "287e4774f4f9334eb9f35015ed789ab7b2953727a4c137eabbf72ed49cf9f9a4",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0007\\result.json",
+          "sha256": "285cfe58a7040800c8a272b12ccb0de2ebdc8dbe285a90108ba23a8b9c78b45f"
+        },
+        {
+          "events_sha256": "7ebcc46971c1d3ef836045d1955a9c84e7a512456a9fd714f20e8365027dc740",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0008\\result.json",
+          "sha256": "dd517222a8d7ee0a31fe4783606e76af9fe90d0c1b652077eb128d6df2e829a2"
+        },
+        {
+          "events_sha256": "f1d3113c376bb3baa65ec6b8ec40e640f1339db2b1b689e3a38bcb6350277131",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0009\\result.json",
+          "sha256": "2814e349e4295f5cf35a5ea348d6757c675ed4e7269a63e8ef93f4f2e4ea230a"
+        },
+        {
+          "events_sha256": "eb40291e566deb9e5838fd8646d2bf3ca7cb383d986624331244c032beb81e17",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0010\\result.json",
+          "sha256": "18da101ce2059291b1b1005bba63b8277c456dfa143a814fda7ce94d475fbcb2"
+        },
+        {
+          "events_sha256": "5e70780a46f8477ddcf8b615f9b9fb98fb532e9dbdc14ff801793560c3d391ac",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0011\\result.json",
+          "sha256": "26dcc4d81c416ef557cb8594166bd08c300470aac66e60eb3a7e971f8cfa0bcf"
+        },
+        {
+          "events_sha256": "72cfeaf81e67f7ab22ff2126866cc3a1cc58482c982fdad5d577703aca398fe9",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0012\\result.json",
+          "sha256": "2fbabd13ebd864c8f4dd05acee69b527cdcbffe8d9608d9f7b36fc30baf53299"
+        },
+        {
+          "events_sha256": "14b2ac07db52a6a812302b3897055283da9d7a111577618c03f1cb903a1ca561",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0013\\result.json",
+          "sha256": "fe755a3d3c5f1cc7154bdab77df24ca6f87ccea9aab3c7cf3425e73f7b7f199f"
+        },
+        {
+          "events_sha256": "0c80a59dd9cca9386c4f824ee6be7d1dcdba626be7ee19fb9faa3e2bcfb39a8a",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0014\\result.json",
+          "sha256": "598c9a43af453efe28d75b032ed049b5b68f92e210bfe837adbfd8c6488e3d85"
+        },
+        {
+          "events_sha256": "6dcfe70851396e69074aa7ea44013f03c83e8c6932ccc262ebd1d58e0c1a360b",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0015\\result.json",
+          "sha256": "9adaf40191691f8d47ef200fc0a825622dd5fcaf128f63f6f0c1f974985e57ad"
+        },
+        {
+          "events_sha256": "d00a24eae7a7c44d5a2a2d88c326be0db0448f1bf91e050b42c2c501fedc33c6",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0016\\result.json",
+          "sha256": "3de05a00577995b633d98514d79f3d45736d4cbe4bc758e58bc2dbb7dbdaf36b"
+        },
+        {
+          "events_sha256": "1a751906531af05c212eb5da64b15ab66d311d07d02dd524e502dc62872de4a9",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0017\\result.json",
+          "sha256": "76429e6f1185fc44176906f76f14695797129d1ce9fc285734a4c5219b343640"
+        },
+        {
+          "events_sha256": "655b01ef8a9046266758465339a5481185c75e7406572bdff9747124f5effac2",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0018\\result.json",
+          "sha256": "6a32331e74d68ec96ba44070b453fe6a3f10d3b5562c680ac6d7f6fe07ac5838"
+        },
+        {
+          "events_sha256": "0f8d9712ecb0daf6b6af8d5dfd3543f726add889742075f9948f1ef47da84213",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0019\\result.json",
+          "sha256": "0af7027925f53464a1a82fa90ea068a0b914663002fd6606933a4246a6064393"
+        },
+        {
+          "events_sha256": "13b999a94240f45dbdcd9f6717bb7160fbf7699bcec6f29475f3c4aa392025b2",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0020\\result.json",
+          "sha256": "1e6f777c2bd1a981da9ae48d4f2d821f0f1460ce4954763b27f6b29d92a61937"
+        },
+        {
+          "events_sha256": "31ac29459f93b0943901294144cae930516336f76a67e6b969b7288cccea6eac",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0021\\result.json",
+          "sha256": "d058ea8fe937364bd2a653ae8d9512864b3c05fd1fcf0a7c2b7bcd37949b142f"
+        },
+        {
+          "events_sha256": "55bb3806b6e51f18d151c2247a4620d721d663e729b6502917cfd7d0520f64f7",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0022\\result.json",
+          "sha256": "49f4284764dd83113720673f8f718c414ab7dad6aad9878c919d4cdb73f7cf8b"
+        },
+        {
+          "events_sha256": "55370a7620a8ee647c196d08d53e3d7bc92fd107fce68145e5a5413f15fc6a70",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0023\\result.json",
+          "sha256": "ce8ebd18ff2b359372ea043dd6c0499de5d6fbf55918ad0e9290d1f784d56c45"
+        },
+        {
+          "events_sha256": "75037a86b089c951b9c915b2f249642526b28b3ac9205571a539afa09253f318",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0024\\result.json",
+          "sha256": "0b2aafceab24ffeb57ec42cf6db9fcecb594849bd31223dda52b8eed3781e9b7"
+        },
+        {
+          "events_sha256": "2270325a6db1b8e3771e21af9a08617cbf7802a61cc0039dd8aeae8db8e75236",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0025\\result.json",
+          "sha256": "1796487e287c6fac98c633df3ec05495b864194b7a6489ecbcdccf35fdd7f8db"
+        },
+        {
+          "events_sha256": "1ff0791e41bdcd4dba4403ffc7903fe2bbf8a625adf20390155e7533b0c868db",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0026\\result.json",
+          "sha256": "db2d4f21934f31ab81099d0f0f89164774eeadc0ba54456f2122d856d7795623"
+        },
+        {
+          "events_sha256": "362596f3235ae2d7c8ff59cce3aaa9e20f3d59afab823ef08de30a174e2d933b",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0027\\result.json",
+          "sha256": "f16002509f9d675b2068073bfbe23e6fc1dae81ad6a8530f1b2355777ca930dc"
+        },
+        {
+          "events_sha256": "31999623c4bf0dc718c50296a7d300602b297d0be4fe37280649f15b800efebd",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0028\\result.json",
+          "sha256": "3292afd8253d355d9227fe5f6d59e657ffeadbec52008c0a07df0e199817cfec"
+        },
+        {
+          "display_rounding_tolerance": 0.5,
+          "independent_value": 1510099,
+          "resource_metric": "input_tokens"
+        }
+      ],
+      "kind": "measured_resource",
+      "line": 97,
+      "number": "1510099",
+      "outcome": "supported",
+      "reason": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+      "start": 22
+    },
+    {
+      "claim_id": "00fdc36b41d68899a78bdb9303ba65d09d1fd5314229ae41fffaf7cf62199df8",
+      "context": "      \"output_tokens\": 12590",
+      "end": 28,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\independent-resource-audit.json",
+          "sha256": "256fdbdb0ceee90664fb4ea77b471a52e4bc54abe2220cd7d50304f5301c47f6"
+        },
+        {
+          "events_sha256": "de4ec6944e0926ae165fd319a2a29ffeffb61b6be9f823f0310d6f594d232e3c",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0000\\result.json",
+          "sha256": "49e1963132e31bcbf77a623b47bfc5b05eeb91f0cf6bea373244bc5d70c3af8c"
+        },
+        {
+          "events_sha256": "40d7960cd22a8430adc0aaf995052bb6649522d4efb2d6577fdf56b976f93ee6",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0001\\result.json",
+          "sha256": "6f283f2f45ab45683c99758087bff394bbfb8436871fd757fd10fea2c71f096d"
+        },
+        {
+          "events_sha256": "d565c9a133fce62824f105ae90cadcc3c8e3c08b616fc4b10164ad4547e49157",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0002\\result.json",
+          "sha256": "15a7adfb31ed9e1863cf061d9e396614f7a4ad9128857c5f8ef78c55e6b6b904"
+        },
+        {
+          "events_sha256": "966ff7f3da6644451f7721a9fcbb8a673bf7d875824fcb76931089270ce9c8fd",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0003\\result.json",
+          "sha256": "4d67ec7b5f42ee3c2eaf626441df944a3416dfeda87f33aa1bd95f5a06f209c9"
+        },
+        {
+          "events_sha256": "4e85c095cc007f11070cb156985e8abb5ece23b0a859034d354dea413eba5989",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0004\\result.json",
+          "sha256": "31d69c1f0959c4724838c39fcdd778090cd6691479231247a2ea1afb6834cede"
+        },
+        {
+          "events_sha256": "102f9f70a3fa404295d84873392cc551b3d31d6eeb26f4ea997c51aa83c5c49a",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0005\\result.json",
+          "sha256": "fc96e9f00ce8d7be245fe268314abcc8bf91673b218e946e85111b9b0de6d8c5"
+        },
+        {
+          "events_sha256": "517a6752f96afbab688ade58989863e957ac7700fa6ad7437b573b6711ac3e82",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0006\\result.json",
+          "sha256": "1f3f22cdfc04d30e24a5c40507cf01fd23f2c64b1e005b1f2f9c92ef9249b26d"
+        },
+        {
+          "events_sha256": "287e4774f4f9334eb9f35015ed789ab7b2953727a4c137eabbf72ed49cf9f9a4",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0007\\result.json",
+          "sha256": "285cfe58a7040800c8a272b12ccb0de2ebdc8dbe285a90108ba23a8b9c78b45f"
+        },
+        {
+          "events_sha256": "7ebcc46971c1d3ef836045d1955a9c84e7a512456a9fd714f20e8365027dc740",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0008\\result.json",
+          "sha256": "dd517222a8d7ee0a31fe4783606e76af9fe90d0c1b652077eb128d6df2e829a2"
+        },
+        {
+          "events_sha256": "f1d3113c376bb3baa65ec6b8ec40e640f1339db2b1b689e3a38bcb6350277131",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0009\\result.json",
+          "sha256": "2814e349e4295f5cf35a5ea348d6757c675ed4e7269a63e8ef93f4f2e4ea230a"
+        },
+        {
+          "events_sha256": "eb40291e566deb9e5838fd8646d2bf3ca7cb383d986624331244c032beb81e17",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0010\\result.json",
+          "sha256": "18da101ce2059291b1b1005bba63b8277c456dfa143a814fda7ce94d475fbcb2"
+        },
+        {
+          "events_sha256": "5e70780a46f8477ddcf8b615f9b9fb98fb532e9dbdc14ff801793560c3d391ac",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0011\\result.json",
+          "sha256": "26dcc4d81c416ef557cb8594166bd08c300470aac66e60eb3a7e971f8cfa0bcf"
+        },
+        {
+          "events_sha256": "72cfeaf81e67f7ab22ff2126866cc3a1cc58482c982fdad5d577703aca398fe9",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0012\\result.json",
+          "sha256": "2fbabd13ebd864c8f4dd05acee69b527cdcbffe8d9608d9f7b36fc30baf53299"
+        },
+        {
+          "events_sha256": "14b2ac07db52a6a812302b3897055283da9d7a111577618c03f1cb903a1ca561",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0013\\result.json",
+          "sha256": "fe755a3d3c5f1cc7154bdab77df24ca6f87ccea9aab3c7cf3425e73f7b7f199f"
+        },
+        {
+          "events_sha256": "0c80a59dd9cca9386c4f824ee6be7d1dcdba626be7ee19fb9faa3e2bcfb39a8a",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0014\\result.json",
+          "sha256": "598c9a43af453efe28d75b032ed049b5b68f92e210bfe837adbfd8c6488e3d85"
+        },
+        {
+          "events_sha256": "6dcfe70851396e69074aa7ea44013f03c83e8c6932ccc262ebd1d58e0c1a360b",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0015\\result.json",
+          "sha256": "9adaf40191691f8d47ef200fc0a825622dd5fcaf128f63f6f0c1f974985e57ad"
+        },
+        {
+          "events_sha256": "d00a24eae7a7c44d5a2a2d88c326be0db0448f1bf91e050b42c2c501fedc33c6",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0016\\result.json",
+          "sha256": "3de05a00577995b633d98514d79f3d45736d4cbe4bc758e58bc2dbb7dbdaf36b"
+        },
+        {
+          "events_sha256": "1a751906531af05c212eb5da64b15ab66d311d07d02dd524e502dc62872de4a9",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0017\\result.json",
+          "sha256": "76429e6f1185fc44176906f76f14695797129d1ce9fc285734a4c5219b343640"
+        },
+        {
+          "events_sha256": "655b01ef8a9046266758465339a5481185c75e7406572bdff9747124f5effac2",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0018\\result.json",
+          "sha256": "6a32331e74d68ec96ba44070b453fe6a3f10d3b5562c680ac6d7f6fe07ac5838"
+        },
+        {
+          "events_sha256": "0f8d9712ecb0daf6b6af8d5dfd3543f726add889742075f9948f1ef47da84213",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0019\\result.json",
+          "sha256": "0af7027925f53464a1a82fa90ea068a0b914663002fd6606933a4246a6064393"
+        },
+        {
+          "events_sha256": "13b999a94240f45dbdcd9f6717bb7160fbf7699bcec6f29475f3c4aa392025b2",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0020\\result.json",
+          "sha256": "1e6f777c2bd1a981da9ae48d4f2d821f0f1460ce4954763b27f6b29d92a61937"
+        },
+        {
+          "events_sha256": "31ac29459f93b0943901294144cae930516336f76a67e6b969b7288cccea6eac",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0021\\result.json",
+          "sha256": "d058ea8fe937364bd2a653ae8d9512864b3c05fd1fcf0a7c2b7bcd37949b142f"
+        },
+        {
+          "events_sha256": "55bb3806b6e51f18d151c2247a4620d721d663e729b6502917cfd7d0520f64f7",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0022\\result.json",
+          "sha256": "49f4284764dd83113720673f8f718c414ab7dad6aad9878c919d4cdb73f7cf8b"
+        },
+        {
+          "events_sha256": "55370a7620a8ee647c196d08d53e3d7bc92fd107fce68145e5a5413f15fc6a70",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0023\\result.json",
+          "sha256": "ce8ebd18ff2b359372ea043dd6c0499de5d6fbf55918ad0e9290d1f784d56c45"
+        },
+        {
+          "events_sha256": "75037a86b089c951b9c915b2f249642526b28b3ac9205571a539afa09253f318",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0024\\result.json",
+          "sha256": "0b2aafceab24ffeb57ec42cf6db9fcecb594849bd31223dda52b8eed3781e9b7"
+        },
+        {
+          "events_sha256": "2270325a6db1b8e3771e21af9a08617cbf7802a61cc0039dd8aeae8db8e75236",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0025\\result.json",
+          "sha256": "1796487e287c6fac98c633df3ec05495b864194b7a6489ecbcdccf35fdd7f8db"
+        },
+        {
+          "events_sha256": "1ff0791e41bdcd4dba4403ffc7903fe2bbf8a625adf20390155e7533b0c868db",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0026\\result.json",
+          "sha256": "db2d4f21934f31ab81099d0f0f89164774eeadc0ba54456f2122d856d7795623"
+        },
+        {
+          "events_sha256": "362596f3235ae2d7c8ff59cce3aaa9e20f3d59afab823ef08de30a174e2d933b",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0027\\result.json",
+          "sha256": "f16002509f9d675b2068073bfbe23e6fc1dae81ad6a8530f1b2355777ca930dc"
+        },
+        {
+          "events_sha256": "31999623c4bf0dc718c50296a7d300602b297d0be4fe37280649f15b800efebd",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0028\\result.json",
+          "sha256": "3292afd8253d355d9227fe5f6d59e657ffeadbec52008c0a07df0e199817cfec"
+        },
+        {
+          "display_rounding_tolerance": 0.5,
+          "independent_value": 12590,
+          "resource_metric": "output_tokens"
+        }
+      ],
+      "kind": "measured_resource",
+      "line": 98,
+      "number": "12590",
+      "outcome": "supported",
+      "reason": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+      "start": 23
+    },
+    {
+      "claim_id": "08019cfe5cffd957994816d73faa0610f89052e661f20809ec6358e7547fa7c3",
+      "context": "  \"schema_version\": \"research-report-sufficiency-1\",",
+      "end": 50,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\research_report.json",
+          "sha256": "aba1337a3a3801bd500431c5e18ef91f08099ff4d20f2ba2ebf7c66da1a7d65e"
+        }
+      ],
+      "kind": "identifier",
+      "line": 102,
+      "number": "1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Report schema version suffix, not a measured research outcome.",
+      "start": 49
+    },
+    {
+      "claim_id": "fd634dd7b8c9ac00aba6de1abf437d2944222e6cb96aad081078b96519441e97",
+      "context": "    \"alpha\": 0.4305,",
+      "end": 19,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\research\\evidence\\bf40b320786aa92945db1d0b\\registered_spec.json",
+          "sha256": "ad74de02265287f01e7fa5dee9768cf4aa0580bba476718df5bc12203b6da797"
+        }
+      ],
+      "kind": "method",
+      "line": 104,
+      "number": "0.4305",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+      "start": 13
+    },
+    {
+      "claim_id": "428e7b56dac15c1030e90757068769ba68031b53b2e65ee8cafd9833e2ca2c6e",
+      "context": "    \"degree\": 1",
+      "end": 15,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\research\\evidence\\bf40b320786aa92945db1d0b\\registered_spec.json",
+          "sha256": "ad74de02265287f01e7fa5dee9768cf4aa0580bba476718df5bc12203b6da797"
+        }
+      ],
+      "kind": "method",
+      "line": 105,
+      "number": "1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+      "start": 14
+    },
+    {
+      "claim_id": "c0f9aaa4f9a03c896aa1d661af0ef2e15b68ef4440ffa03e90a48bb8f8e9e495",
+      "context": "  \"stop_reason\": \"model_no_justified_new_experiment: Stop for diminishing expected information value. Among the 28 verified configurations, degree 1 with alpha 0.4305 has the lowest measured validation MSE, 0.0077919618179834735 (run bf40b320786aa92945db1d0b). Nearby linear penalties have already been evaluated; quadratic refinement remains worse, and tested degrees 3–8 also perform worse. Further fine tuning has weak justification relative to another CPU attempt and is unlikely to change model selection. Select this best measured configuration using train/validation evidence only; global optimality and test performance remain unverified.\",",
+      "end": 114,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\independent-resource-audit.json",
+          "sha256": "256fdbdb0ceee90664fb4ea77b471a52e4bc54abe2220cd7d50304f5301c47f6"
+        },
+        {
+          "events_sha256": "de4ec6944e0926ae165fd319a2a29ffeffb61b6be9f823f0310d6f594d232e3c",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0000\\result.json",
+          "sha256": "49e1963132e31bcbf77a623b47bfc5b05eeb91f0cf6bea373244bc5d70c3af8c"
+        },
+        {
+          "events_sha256": "40d7960cd22a8430adc0aaf995052bb6649522d4efb2d6577fdf56b976f93ee6",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0001\\result.json",
+          "sha256": "6f283f2f45ab45683c99758087bff394bbfb8436871fd757fd10fea2c71f096d"
+        },
+        {
+          "events_sha256": "d565c9a133fce62824f105ae90cadcc3c8e3c08b616fc4b10164ad4547e49157",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0002\\result.json",
+          "sha256": "15a7adfb31ed9e1863cf061d9e396614f7a4ad9128857c5f8ef78c55e6b6b904"
+        },
+        {
+          "events_sha256": "966ff7f3da6644451f7721a9fcbb8a673bf7d875824fcb76931089270ce9c8fd",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0003\\result.json",
+          "sha256": "4d67ec7b5f42ee3c2eaf626441df944a3416dfeda87f33aa1bd95f5a06f209c9"
+        },
+        {
+          "events_sha256": "4e85c095cc007f11070cb156985e8abb5ece23b0a859034d354dea413eba5989",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0004\\result.json",
+          "sha256": "31d69c1f0959c4724838c39fcdd778090cd6691479231247a2ea1afb6834cede"
+        },
+        {
+          "events_sha256": "102f9f70a3fa404295d84873392cc551b3d31d6eeb26f4ea997c51aa83c5c49a",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0005\\result.json",
+          "sha256": "fc96e9f00ce8d7be245fe268314abcc8bf91673b218e946e85111b9b0de6d8c5"
+        },
+        {
+          "events_sha256": "517a6752f96afbab688ade58989863e957ac7700fa6ad7437b573b6711ac3e82",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0006\\result.json",
+          "sha256": "1f3f22cdfc04d30e24a5c40507cf01fd23f2c64b1e005b1f2f9c92ef9249b26d"
+        },
+        {
+          "events_sha256": "287e4774f4f9334eb9f35015ed789ab7b2953727a4c137eabbf72ed49cf9f9a4",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0007\\result.json",
+          "sha256": "285cfe58a7040800c8a272b12ccb0de2ebdc8dbe285a90108ba23a8b9c78b45f"
+        },
+        {
+          "events_sha256": "7ebcc46971c1d3ef836045d1955a9c84e7a512456a9fd714f20e8365027dc740",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0008\\result.json",
+          "sha256": "dd517222a8d7ee0a31fe4783606e76af9fe90d0c1b652077eb128d6df2e829a2"
+        },
+        {
+          "events_sha256": "f1d3113c376bb3baa65ec6b8ec40e640f1339db2b1b689e3a38bcb6350277131",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0009\\result.json",
+          "sha256": "2814e349e4295f5cf35a5ea348d6757c675ed4e7269a63e8ef93f4f2e4ea230a"
+        },
+        {
+          "events_sha256": "eb40291e566deb9e5838fd8646d2bf3ca7cb383d986624331244c032beb81e17",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0010\\result.json",
+          "sha256": "18da101ce2059291b1b1005bba63b8277c456dfa143a814fda7ce94d475fbcb2"
+        },
+        {
+          "events_sha256": "5e70780a46f8477ddcf8b615f9b9fb98fb532e9dbdc14ff801793560c3d391ac",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0011\\result.json",
+          "sha256": "26dcc4d81c416ef557cb8594166bd08c300470aac66e60eb3a7e971f8cfa0bcf"
+        },
+        {
+          "events_sha256": "72cfeaf81e67f7ab22ff2126866cc3a1cc58482c982fdad5d577703aca398fe9",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0012\\result.json",
+          "sha256": "2fbabd13ebd864c8f4dd05acee69b527cdcbffe8d9608d9f7b36fc30baf53299"
+        },
+        {
+          "events_sha256": "14b2ac07db52a6a812302b3897055283da9d7a111577618c03f1cb903a1ca561",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0013\\result.json",
+          "sha256": "fe755a3d3c5f1cc7154bdab77df24ca6f87ccea9aab3c7cf3425e73f7b7f199f"
+        },
+        {
+          "events_sha256": "0c80a59dd9cca9386c4f824ee6be7d1dcdba626be7ee19fb9faa3e2bcfb39a8a",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0014\\result.json",
+          "sha256": "598c9a43af453efe28d75b032ed049b5b68f92e210bfe837adbfd8c6488e3d85"
+        },
+        {
+          "events_sha256": "6dcfe70851396e69074aa7ea44013f03c83e8c6932ccc262ebd1d58e0c1a360b",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0015\\result.json",
+          "sha256": "9adaf40191691f8d47ef200fc0a825622dd5fcaf128f63f6f0c1f974985e57ad"
+        },
+        {
+          "events_sha256": "d00a24eae7a7c44d5a2a2d88c326be0db0448f1bf91e050b42c2c501fedc33c6",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0016\\result.json",
+          "sha256": "3de05a00577995b633d98514d79f3d45736d4cbe4bc758e58bc2dbb7dbdaf36b"
+        },
+        {
+          "events_sha256": "1a751906531af05c212eb5da64b15ab66d311d07d02dd524e502dc62872de4a9",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0017\\result.json",
+          "sha256": "76429e6f1185fc44176906f76f14695797129d1ce9fc285734a4c5219b343640"
+        },
+        {
+          "events_sha256": "655b01ef8a9046266758465339a5481185c75e7406572bdff9747124f5effac2",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0018\\result.json",
+          "sha256": "6a32331e74d68ec96ba44070b453fe6a3f10d3b5562c680ac6d7f6fe07ac5838"
+        },
+        {
+          "events_sha256": "0f8d9712ecb0daf6b6af8d5dfd3543f726add889742075f9948f1ef47da84213",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0019\\result.json",
+          "sha256": "0af7027925f53464a1a82fa90ea068a0b914663002fd6606933a4246a6064393"
+        },
+        {
+          "events_sha256": "13b999a94240f45dbdcd9f6717bb7160fbf7699bcec6f29475f3c4aa392025b2",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0020\\result.json",
+          "sha256": "1e6f777c2bd1a981da9ae48d4f2d821f0f1460ce4954763b27f6b29d92a61937"
+        },
+        {
+          "events_sha256": "31ac29459f93b0943901294144cae930516336f76a67e6b969b7288cccea6eac",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0021\\result.json",
+          "sha256": "d058ea8fe937364bd2a653ae8d9512864b3c05fd1fcf0a7c2b7bcd37949b142f"
+        },
+        {
+          "events_sha256": "55bb3806b6e51f18d151c2247a4620d721d663e729b6502917cfd7d0520f64f7",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0022\\result.json",
+          "sha256": "49f4284764dd83113720673f8f718c414ab7dad6aad9878c919d4cdb73f7cf8b"
+        },
+        {
+          "events_sha256": "55370a7620a8ee647c196d08d53e3d7bc92fd107fce68145e5a5413f15fc6a70",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0023\\result.json",
+          "sha256": "ce8ebd18ff2b359372ea043dd6c0499de5d6fbf55918ad0e9290d1f784d56c45"
+        },
+        {
+          "events_sha256": "75037a86b089c951b9c915b2f249642526b28b3ac9205571a539afa09253f318",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0024\\result.json",
+          "sha256": "0b2aafceab24ffeb57ec42cf6db9fcecb594849bd31223dda52b8eed3781e9b7"
+        },
+        {
+          "events_sha256": "2270325a6db1b8e3771e21af9a08617cbf7802a61cc0039dd8aeae8db8e75236",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0025\\result.json",
+          "sha256": "1796487e287c6fac98c633df3ec05495b864194b7a6489ecbcdccf35fdd7f8db"
+        },
+        {
+          "events_sha256": "1ff0791e41bdcd4dba4403ffc7903fe2bbf8a625adf20390155e7533b0c868db",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0026\\result.json",
+          "sha256": "db2d4f21934f31ab81099d0f0f89164774eeadc0ba54456f2122d856d7795623"
+        },
+        {
+          "events_sha256": "362596f3235ae2d7c8ff59cce3aaa9e20f3d59afab823ef08de30a174e2d933b",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0027\\result.json",
+          "sha256": "f16002509f9d675b2068073bfbe23e6fc1dae81ad6a8530f1b2355777ca930dc"
+        },
+        {
+          "events_sha256": "31999623c4bf0dc718c50296a7d300602b297d0be4fe37280649f15b800efebd",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\model\\improved-0028\\result.json",
+          "sha256": "3292afd8253d355d9227fe5f6d59e657ffeadbec52008c0a07df0e199817cfec"
+        },
+        {
+          "display_rounding_tolerance": 0.5,
+          "independent_value": 28,
+          "resource_metric": "actual_cpu_executions"
+        }
+      ],
+      "kind": "measured_resource",
+      "line": 108,
+      "number": "28",
+      "outcome": "supported",
+      "reason": "All 28 hash-linked CPU receipts independently verify and contain 28 distinct configurations, not 28 independent statistical repetitions.",
+      "start": 112
+    },
+    {
+      "claim_id": "4b14b600aec609e3ca6b7d1bb825e943a3fb23dad19dded268ded30df180069b",
+      "context": "  \"stop_reason\": \"model_no_justified_new_experiment: Stop for diminishing expected information value. Among the 28 verified configurations, degree 1 with alpha 0.4305 has the lowest measured validation MSE, 0.0077919618179834735 (run bf40b320786aa92945db1d0b). Nearby linear penalties have already been evaluated; quadratic refinement remains worse, and tested degrees 3–8 also perform worse. Further fine tuning has weak justification relative to another CPU attempt and is unlikely to change model selection. Select this best measured configuration using train/validation evidence only; global optimality and test performance remain unverified.\",",
+      "end": 148,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+          "sha256": "9b75bc90b4fa7ba8b18a9860ea6415bfd93b45f38b0b4651ed8a8eec6bbf109f"
+        }
+      ],
+      "kind": "method",
+      "line": 108,
+      "number": "1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Selected literal setting or tested degree range. Independent verification of every configuration confirms higher-degree recorded validation errors exceed the selected result; no population/test superiority is asserted.",
+      "start": 147
+    },
+    {
+      "claim_id": "d64cafe863717001284f9693cfeea58b2dcf617cf068b99f2c1513bdc8269a6d",
+      "context": "  \"stop_reason\": \"model_no_justified_new_experiment: Stop for diminishing expected information value. Among the 28 verified configurations, degree 1 with alpha 0.4305 has the lowest measured validation MSE, 0.0077919618179834735 (run bf40b320786aa92945db1d0b). Nearby linear penalties have already been evaluated; quadratic refinement remains worse, and tested degrees 3–8 also perform worse. Further fine tuning has weak justification relative to another CPU attempt and is unlikely to change model selection. Select this best measured configuration using train/validation evidence only; global optimality and test performance remain unverified.\",",
+      "end": 166,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+          "sha256": "9b75bc90b4fa7ba8b18a9860ea6415bfd93b45f38b0b4651ed8a8eec6bbf109f"
+        }
+      ],
+      "kind": "method",
+      "line": 108,
+      "number": "0.4305",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Selected literal setting or tested degree range. Independent verification of every configuration confirms higher-degree recorded validation errors exceed the selected result; no population/test superiority is asserted.",
+      "start": 160
+    },
+    {
+      "claim_id": "6b0b1fb123fd53f938655e0a1ed3821d541421f85a9e76f1355855dab2b5e4bc",
+      "context": "  \"stop_reason\": \"model_no_justified_new_experiment: Stop for diminishing expected information value. Among the 28 verified configurations, degree 1 with alpha 0.4305 has the lowest measured validation MSE, 0.0077919618179834735 (run bf40b320786aa92945db1d0b). Nearby linear penalties have already been evaluated; quadratic refinement remains worse, and tested degrees 3–8 also perform worse. Further fine tuning has weak justification relative to another CPU attempt and is unlikely to change model selection. Select this best measured configuration using train/validation evidence only; global optimality and test performance remain unverified.\",",
+      "end": 228,
+      "evidence": [
+        {
+          "display_rounding_tolerance": 5e-20,
+          "independent_value": 0.0077919618179834735,
+          "metric": "validation_mse",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\research\\evidence\\bf40b320786aa92945db1d0b\\result.json",
+          "sha256": "3672870aa165e5def3ebcf8802f88ce25dda502f6e4885444d0e28a00016c474"
+        }
+      ],
+      "kind": "measured",
+      "line": 108,
+      "number": "0.0077919618179834735",
+      "outcome": "supported",
+      "reason": "Actual selected validation MSE independently recomputed. All 28 preserved candidates confirm it is the minimum among observed results; global optimality is unestablished.",
+      "start": 207
+    },
+    {
+      "claim_id": "61476d0f88f15670996d292a76b6ba6e17206f4a1af6772af61a8706baa00822",
+      "context": "  \"stop_reason\": \"model_no_justified_new_experiment: Stop for diminishing expected information value. Among the 28 verified configurations, degree 1 with alpha 0.4305 has the lowest measured validation MSE, 0.0077919618179834735 (run bf40b320786aa92945db1d0b). Nearby linear penalties have already been evaluated; quadratic refinement remains worse, and tested degrees 3–8 also perform worse. Further fine tuning has weak justification relative to another CPU attempt and is unlikely to change model selection. Select this best measured configuration using train/validation evidence only; global optimality and test performance remain unverified.\",",
+      "end": 370,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+          "sha256": "9b75bc90b4fa7ba8b18a9860ea6415bfd93b45f38b0b4651ed8a8eec6bbf109f"
+        }
+      ],
+      "kind": "method",
+      "line": 108,
+      "number": "3",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Selected literal setting or tested degree range. Independent verification of every configuration confirms higher-degree recorded validation errors exceed the selected result; no population/test superiority is asserted.",
+      "start": 369
+    },
+    {
+      "claim_id": "5f8e348be037be7e12165eec3d5307f12ac9fddf8c8a846b45f1e7d34be22164",
+      "context": "  \"stop_reason\": \"model_no_justified_new_experiment: Stop for diminishing expected information value. Among the 28 verified configurations, degree 1 with alpha 0.4305 has the lowest measured validation MSE, 0.0077919618179834735 (run bf40b320786aa92945db1d0b). Nearby linear penalties have already been evaluated; quadratic refinement remains worse, and tested degrees 3–8 also perform worse. Further fine tuning has weak justification relative to another CPU attempt and is unlikely to change model selection. Select this best measured configuration using train/validation evidence only; global optimality and test performance remain unverified.\",",
+      "end": 372,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+          "sha256": "9b75bc90b4fa7ba8b18a9860ea6415bfd93b45f38b0b4651ed8a8eec6bbf109f"
+        }
+      ],
+      "kind": "method",
+      "line": 108,
+      "number": "8",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Selected literal setting or tested degree range. Independent verification of every configuration confirms higher-degree recorded validation errors exceed the selected result; no population/test superiority is asserted.",
+      "start": 371
+    },
+    {
+      "claim_id": "10e82032018a56ae7ef9d91313db207b886620fe9a0a0c587d6ef207c8177b88",
+      "context": "      \"question\": \"Removing the quadratic model's penalty may improve validation MSE by reducing shrinkage bias and clarify whether degree 2 warrants further tuning.\",",
+      "end": 140,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 131,
+      "number": "2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 139
+    },
+    {
+      "claim_id": "07b936b003900288ec4d7684103ee48756b60fd4ebe031c5451d09877f5857e9",
+      "context": "      \"question\": \"An intermediate quadratic ridge penalty may reduce validation MSE relative to the measured quadratic penalties and determine whether degree 2 can challenge the best measured linear model.\",",
+      "end": 160,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 139,
+      "number": "2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 159
+    },
+    {
+      "claim_id": "a82c7d172941596d2fa7924dbe6a7696d6fa5c79eea12e3955c06f1c361f0321",
+      "context": "      \"question\": \"An unpenalized quartic model may capture residual curvature unavailable to degrees 1–3 and improve validation MSE.\",",
+      "end": 103,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 143,
+      "number": "1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 102
+    },
+    {
+      "claim_id": "7273c636a1a5c0d029aa441a97d0f8f6af2d3e55888c13b7f3973efa994281f9",
+      "context": "      \"question\": \"An unpenalized quartic model may capture residual curvature unavailable to degrees 1–3 and improve validation MSE.\",",
+      "end": 105,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 143,
+      "number": "3",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 104
+    },
+    {
+      "claim_id": "16559f1ed62605360d4e843ef835bd318351b6833fa5d9a0f44e95d681031e68",
+      "context": "      \"question\": \"An unpenalized degree-5 model may capture residual structure absent from degrees 1–4 and improve validation MSE, although added variance may worsen performance.\",",
+      "end": 42,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 151,
+      "number": "5",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 41
+    },
+    {
+      "claim_id": "cf2f48b50b32e298fa6ac61b647339d5dc064c1deea93eef63c8256b9bdafdcc",
+      "context": "      \"question\": \"An unpenalized degree-5 model may capture residual structure absent from degrees 1–4 and improve validation MSE, although added variance may worsen performance.\",",
+      "end": 101,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 151,
+      "number": "1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 100
+    },
+    {
+      "claim_id": "e4b91a261eebbe82dc5e6763d5a89fef7a4a6ff3aa02b01a56fd62126534f552",
+      "context": "      \"question\": \"An unpenalized degree-5 model may capture residual structure absent from degrees 1–4 and improve validation MSE, although added variance may worsen performance.\",",
+      "end": 103,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 151,
+      "number": "4",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 102
+    },
+    {
+      "claim_id": "f5a3791db0c267608a8000cbc223b46898907920deaf352309ba378403757a84",
+      "context": "      \"question\": \"Light regularization of degree 5 may reduce variance and improve validation MSE relative to its unpenalized fit.\",",
+      "end": 51,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 155,
+      "number": "5",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 50
+    },
+    {
+      "claim_id": "d7e1522c72e7a211fa9144aa8d73deadb3598709ce141c0163a72a0a4d3ee09c",
+      "context": "      \"question\": \"An unpenalized degree-6 model may capture residual structure beyond degree 5 and improve validation MSE, though additional variance may worsen it.\",",
+      "end": 42,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 159,
+      "number": "6",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 41
+    },
+    {
+      "claim_id": "4fc80df6c0ba9fbeb9006d88fe2896044d9ab383c2d7a677cac453279387843f",
+      "context": "      \"question\": \"An unpenalized degree-6 model may capture residual structure beyond degree 5 and improve validation MSE, though additional variance may worsen it.\",",
+      "end": 95,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 159,
+      "number": "5",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 94
+    },
+    {
+      "claim_id": "fdb4be0b8952091ffbb6820d0850893a4a14d1e769b2b76611f5806f3cf53b5d",
+      "context": "      \"question\": \"A degree-7 model may capture residual structure absent from degree 6, although the verified higher-degree failures make improvement uncertain.\",",
+      "end": 29,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 163,
+      "number": "7",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 28
+    },
+    {
+      "claim_id": "2dd285f8c54e3aecbff46ca63c150afe25f9c263213c1138c6a6c11e3b29efdb",
+      "context": "      \"question\": \"A degree-7 model may capture residual structure absent from degree 6, although the verified higher-degree failures make improvement uncertain.\",",
+      "end": 87,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 163,
+      "number": "6",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 86
+    },
+    {
+      "claim_id": "4942602a24bb26f32189a2df67b7bd962ff41a452aca97ce17890562c1e66eeb",
+      "context": "      \"question\": \"The untested degree-8 model may capture residual structure that lower degrees miss, although verified degree-5 through degree-7 failures make improvement uncertain.\",",
+      "end": 40,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 167,
+      "number": "8",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 39
+    },
+    {
+      "claim_id": "6708d5f6dee93506dcf8efb06ed204d3f8bd558b826226d5884e2b3438cd4c02",
+      "context": "      \"question\": \"The untested degree-8 model may capture residual structure that lower degrees miss, although verified degree-5 through degree-7 failures make improvement uncertain.\",",
+      "end": 129,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 167,
+      "number": "5",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 128
+    },
+    {
+      "claim_id": "1dba17cc8f82771fb9a002684ed43769f5024d921a110acd7874aabd8e59c16f",
+      "context": "      \"question\": \"The untested degree-8 model may capture residual structure that lower degrees miss, although verified degree-5 through degree-7 failures make improvement uncertain.\",",
+      "end": 146,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 167,
+      "number": "7",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 145
+    },
+    {
+      "claim_id": "031846369b0c26041ab60beeb56fefee2da72c0ffb0e1a449763dfbc25bdd1f3",
+      "context": "      \"question\": \"Light regularization may suppress unstable high-order coefficients in degree 8 and reduce its validation MSE; whether it can outperform the measured linear model remains uncertain.\",",
+      "end": 97,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 171,
+      "number": "8",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 96
+    },
+    {
+      "claim_id": "0ee93655fdb6a704a812fd9e92c6cd1409a553c5913f9a394f848d2e69977d2e",
+      "context": "      \"question\": \"Increasing degree-8 regularization to alpha 0.1 may further reduce validation error by suppressing unstable polynomial coefficients; outperforming the measured linear model remains uncertain.\",",
+      "end": 38,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 175,
+      "number": "8",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 37
+    },
+    {
+      "claim_id": "c13fdad2ac3e7f5ca97dab6e2e924393fa64d987ef4203ff0d5cd024a1702553",
+      "context": "      \"question\": \"Increasing degree-8 regularization to alpha 0.1 may further reduce validation error by suppressing unstable polynomial coefficients; outperforming the measured linear model remains uncertain.\",",
+      "end": 66,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 175,
+      "number": "0.1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 63
+    },
+    {
+      "claim_id": "f542dde2fd3b891607b18413d99b770af4a86309ed5c4a595f29ecca74e3fbd9",
+      "context": "      \"question\": \"Increasing degree-8 regularization to alpha 1.0 may further suppress unstable polynomial coefficients and reduce validation MSE; beating the measured linear model remains uncertain.\",",
+      "end": 38,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 179,
+      "number": "8",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 37
+    },
+    {
+      "claim_id": "1fa2dc86736b96297628ada6d0c0a715150a1f7ac3e680d658103c1660537c20",
+      "context": "      \"question\": \"Increasing degree-8 regularization to alpha 1.0 may further suppress unstable polynomial coefficients and reduce validation MSE; beating the measured linear model remains uncertain.\",",
+      "end": 66,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 179,
+      "number": "1.0",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 63
+    },
+    {
+      "claim_id": "ddd71b283926babfd7c7a37ac064bb7f6450ed89980cef8fb7a22308dfc8362c",
+      "context": "      \"question\": \"Moderate regularization may reduce degree-7 validation error by suppressing unstable higher-order coefficients; outperforming the best measured linear model remains uncertain.\",",
+      "end": 62,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 183,
+      "number": "7",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 61
+    },
+    {
+      "claim_id": "95f8ecd4bfb1775b6fd45996baf67090887963e1a410420b035b74bf77252c80",
+      "context": "      \"question\": \"Increasing degree-7 regularization from alpha 0.1 to 0.2 may further reduce validation MSE before shrinkage bias dominates; outperforming the measured linear model remains uncertain.\",",
+      "end": 38,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 187,
+      "number": "7",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 37
+    },
+    {
+      "claim_id": "ca127d8aca979573d131aeba58934316bf3e50448a6a47782d8cbb35a5b8b783",
+      "context": "      \"question\": \"Increasing degree-7 regularization from alpha 0.1 to 0.2 may further reduce validation MSE before shrinkage bias dominates; outperforming the measured linear model remains uncertain.\",",
+      "end": 68,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 187,
+      "number": "0.1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 65
+    },
+    {
+      "claim_id": "0fd9024563ebd42751ff2398253f72f2187ae953362380221627fde6be906462",
+      "context": "      \"question\": \"Increasing degree-7 regularization from alpha 0.1 to 0.2 may further reduce validation MSE before shrinkage bias dominates; outperforming the measured linear model remains uncertain.\",",
+      "end": 75,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 187,
+      "number": "0.2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 72
+    },
+    {
+      "claim_id": "608616e572226122129a3e7af6667a586788771af89be987e27724c95e98f636",
+      "context": "      \"question\": \"Light regularization may reduce degree-6 validation MSE by suppressing unstable polynomial coefficients; outperforming the best measured linear model remains uncertain.\",",
+      "end": 59,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 191,
+      "number": "6",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 58
+    },
+    {
+      "claim_id": "6af54aed94baca07c21ec26ee3494667f39305ace219f21e29fa3dde9ac4bc15",
+      "context": "      \"question\": \"Refining the quadratic penalty near alpha 0.55 may lower its validation MSE, although surpassing the best measured linear model remains uncertain.\",",
+      "end": 65,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 195,
+      "number": "0.55",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 61
+    },
+    {
+      "claim_id": "af2a8fcd0b095cee9505a564519a8dbc4173fb9d9a5d94c4c74f671e3f52a29d",
+      "context": "      \"question\": \"Degree 7 with alpha 0.05 may improve its validation MSE by balancing the variance seen without regularization against the shrinkage error seen at larger penalties; surpassing the best measured linear model remains uncertain.\",",
+      "end": 27,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 199,
+      "number": "7",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 26
+    },
+    {
+      "claim_id": "cd21253edb0e1854ab7e481667275b49cb1a681f8cb5c295e47c1ba361e849c8",
+      "context": "      \"question\": \"Degree 7 with alpha 0.05 may improve its validation MSE by balancing the variance seen without regularization against the shrinkage error seen at larger penalties; surpassing the best measured linear model remains uncertain.\",",
+      "end": 43,
+      "evidence": [],
+      "kind": "proposal",
+      "line": 199,
+      "number": "0.05",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement.",
+      "start": 39
+    },
+    {
+      "claim_id": "b6c8760b64c58240b59979e8e92b0f6c456cccb9947b6ef8dac51381d9253da1",
+      "context": "      \"url\": \"https://arxiv.org/html/1910.02373v2\"",
+      "end": 49,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 79,
+      "number": "1910.02373v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Bibliographic URL matches the exact frozen primary-source synopsis. Paper statements remain literature claims and are not local empirical outcomes.",
+      "start": 37
+    },
+    {
+      "claim_id": "87c56ec0ea7f58c9a7a15c6b2325db8b8d33a60f5c00dba66c546d5faeecae6e",
+      "context": "      \"url\": \"https://arxiv.org/abs/2501.04227v2\"",
+      "end": 48,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 84,
+      "number": "2501.04227v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Bibliographic URL matches the exact frozen primary-source synopsis. Paper statements remain literature claims and are not local empirical outcomes.",
+      "start": 36
+    },
+    {
+      "claim_id": "0d765e9d7c1270633ed9b2058751d392073ed30f1d1e470d265c700b09b2f3a7",
+      "context": "      \"url\": \"https://arxiv.org/abs/2503.18102v1\"",
+      "end": 48,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 89,
+      "number": "2503.18102v1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Bibliographic URL matches the exact frozen primary-source synopsis. Paper statements remain literature claims and are not local empirical outcomes.",
+      "start": 36
+    }
+  ],
+  "comparison_improvement_claim": false,
+  "final_evaluation": false,
+  "independent_review_usage": null,
+  "independent_review_wall_seconds": null,
+  "inventory_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\numeric-inventory.json",
+  "inventory_sha256": "b0778725aad18a11a05242506c104d9d2678e04901aa47beb4fb5b6977a5e116",
+  "limits": "Quantity occurrences are not independent scientific claims. Model stop forecasts and stored hypotheses remain planning judgments. Local validation selection, report sufficiency and numeric truth do not establish equal literary quality, general scientific discovery, hidden-test superiority or framework improvement. Provider resources exclude engineering and independent semantic review costs.",
+  "original_report_modified": false,
+  "pending_claims": 0,
+  "regex_occurrences": 54,
+  "report_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\report.md",
+  "report_sha256": "6e3321c29a83c0b7bf263a3a909b154967dffe30f1d3a8d7a344044cf98c70bc",
+  "reviewer_role": "independent_verifier",
+  "semantic_review_source": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\review_pilot_linear7_improved.py",
+    "sha256": "d60bde47c993f194528f3e98192dd03b21d96b29d9425835c92198fc2792bc80"
+  },
+  "status": "complete",
+  "study_scope": "Minimal upstream B settings paired development diagnostic; excluded from confirmatory variance design.",
+  "supplemental_inventory": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\C\\independent_review\\complete-numeric-review-v1\\primary-supplemental-inventory.json",
+    "sha256": "429a828c566c970236508477350c2118327576073bc474bbdf0f7a022f6e187f"
+  },
+  "supplemental_occurrences": 3,
+  "unsupported_claims": 0,
+  "whole_report_numeric_audit_complete": true
+}

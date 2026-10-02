@@ -1,0 +1,1 @@
+Polynomial ridge regression model selection using training and validation mean squared error: polynomial degree, regularization strength, feature covariance, and paired comparisons of regularized and unregularized models across increasing complexity

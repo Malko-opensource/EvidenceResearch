@@ -1,0 +1,1 @@
+Polynomial ridge regression model complexity degree selection regularization strength feature covariance cross-validation validation prediction error linear versus polynomial models

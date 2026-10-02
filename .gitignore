@@ -1,6 +1,8 @@
 .venv/
 .runtime/
 __pycache__/
+*.sqlite3-wal
+*.sqlite3-shm
 *.pyc
 *.egg-info/
 build/

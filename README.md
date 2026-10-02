@@ -82,6 +82,21 @@ Linux/macOS에서는 `.venv/bin/python`을 사용한다. 선택적으로 `python
 GitHub 저장소는 코드·취득 manifest·실행 기록을 포함한다. 로컬에서 검토한 논문
 PDF와 원본 ZIP은 게시하지 않으며, 원문 링크와 고정 버전을 남긴다.
 
+개발용 paired pilot은 실행 전에 다음처럼 등록한다. 설정 파일은 모델·추론 수준·
+도구·CPU 및 모델 호출 자원·개발 과제와 seed를 명시한다. 등록 후 변경된 코드를
+같은 연구에 섞지 않으며, 한 연구에는 실행 프로세스 하나만 사용한다.
+
+```powershell
+.\.venv\Scripts\python.exe -m evidence_research.study pilot-register --config examples\pilot-settings.json --output runs\development\my-pilot
+.\.venv\Scripts\python.exe -m evidence_research.study pilot-run --output runs\development\my-pilot
+```
+
+같은 `pilot-run` 명령은 완료된 arm을 검증해 재사용한다. 본문과 JSON companion의
+숫자는 별도 독립 판정 파일을 `pilot-review --report-kind primary|companion`으로
+연결한다. 확정된 무동작 외부 실패를 재개할 때는 원본 영수증을 검사하는
+`pilot-continue --output ... --unit ... --arm B|C --reason ...`을 사용한다.
+실행 여부가 불명확하거나 등록된 자원이 소진됐다면 재실행을 거절한다.
+
 - [원문과 현재 코드의 근거](docs/sources.md)
 - [원본 baseline 어댑터와 차이](docs/baseline.md)
 - [설계](docs/design.md)

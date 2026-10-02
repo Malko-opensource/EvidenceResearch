@@ -1,0 +1,1 @@
+Polynomial ridge regression model selection using validation mean squared error: paired regularized and unregularized polynomial degree comparisons, feature covariance, and regularization benefits as model complexity increases

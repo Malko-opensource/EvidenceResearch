@@ -1,0 +1,7 @@
+{
+  "kind": "development_analysis_script_repair",
+  "cause": "Imported recompute_resource_audit from report_contract rather than evaluation; no model or CPU execution occurred in the failed analysis command.",
+  "fixed_source_sha256": "c0fc31de051a891f4162eb9b0bf069ab792b03e59405200713223d7a3d7e1ded",
+  "failed_log_sha256": "16e8efd1755943ba5d7b64a3ef31132622ab39439e74c17c8c2a8676a99def52",
+  "research_records_changed": false
+}

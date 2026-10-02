@@ -1,6 +1,8 @@
 # 사전 증거 검색 노출의 독립 비교 설계
 
-상태: 검토 가능한 개발 설계다. 모델 호출, 실제 on/off 비교, 통계적 채택 판정은 아직 수행하지 않았다. 주 비교 실험의 동결된 `evidence_research` 패키지를 수정하지 않는다.
+상태: 이 설계의 실제 개발 pilot을 `runs/development/memory-exposure-pilot-v1`에 사전 등록하고 수집했다. 등록된 9개 짝의 중복 제안 차이는 모두 0이며 채택 판정은 없다. 원본 응답·실제 CPU 증거를 재감사한 `ablation-summary.json`과 `design-input.json`이 계산 근거다. 소표본에서 양쪽 중복이 없었다는 관찰을 일반적인 기억 효과의 부재로 확대하지 않는다. 주 비교 실험의 동결된 `evidence_research` 패키지를 수정하지 않는다.
+
+별도 원본 재감사와 통계 검토는 `evidence/memory-pilot-independent-review/`에 있다. 일반 연속형 설계 함수가 출력한 후속 `n=9`는 이 이산 주 항목의 확인 설계로 채택하지 않는다. 두 조건 모두 중복 사건이 없어서 bootstrap 구간 `[0,0]`을 모집단 정밀도의 증거로 사용할 수 없다. 차이가 10 percentage points인 대안에는 paired 표준편차가 최소 .30이므로 해당 함수의 .05 보정은 보수적인 설계값이 아니다. 원래 계산과 실패한 설계 판단을 보존하고, 관련 과제와 exact paired-binary 평가가 필요하면 별도로 등록한다.
 
 ## 추정하려는 효과
 
@@ -26,13 +28,14 @@ CPU 보정은 양쪽의 공통 자원 봉투 안에서 동일 개수의 상한�
 
 ## 사전 평가 항목
 
-주 평가 항목은 독립 unit마다 `duplicate_OFF - duplicate_ON`이다. `duplicate`는 첫 유효 literal 제안의 실행 조건 fingerprint가 이미 완료된 보정 실행과 같으면 1, 새 조건이면 0이다. 분모는 사전에 등록된 다음 행동 결정 기회이며 후보 개수나 실제 실행 수에 따라 바뀌지 않는다. 원본 검증 증거에 연결된 목표 충족, 또는 명시적인 `no_justified_experiment` 이유를 가진 유효 중단 결정은 duplicate=0이다. 중단 이유는 모델의 계획 판단으로 남기고, 호스트가 저장된 실제 증거에서 선택한 best를 모델이 직접 찾아낸 결과라고 주장하지 않는다.
+주 평가 항목 이름은 **중복 제안 감소(중단 선택 포함)**이며 독립 unit마다 `duplicate_OFF - duplicate_ON`이다. `duplicate`는 첫 유효 literal 제안의 실행 조건 fingerprint가 이미 완료된 보정 실행과 같으면 1, 새 조건이면 0이다. 분모는 사전에 등록된 다음 행동 결정 기회이며 후보 개수나 실제 실행 수에 따라 바뀌지 않는다. 명시적인 `no_justified_experiment` 이유를 가진 유효 중단 결정은 duplicate=0이다. 중단 이유는 모델의 계획 판단으로 남기고, 호스트가 저장된 실제 증거에서 선택한 best를 모델이 직접 찾아낸 결과라고 주장하지 않는다. 현재 도구에는 공개 목표 임계값이 없으므로 LLM의 목표 충족 자기평가를 받아들이지 않는다. 임계값 중단을 추가하려면 별도 등록 기준과 실제 evidence ID·독립 metric 검사가 필요하다.
 
 불법 응답, 외부 자원 부족, 알려지지 않은 실행은 별도 상태로 보존하며 성공으로 대체하지 않는다. 결과를 본 뒤 분모에서 지우지 않는다. 주 평가의 완전성 조건은 두 조건 모두 실제 모델 응답, 유효 literal 제안 또는 유효 중단 결정과 불변 보정 증거가 있어야 한다. 불완전 pair가 있으면 통계적 채택을 보류한다. 유효 중단을 임의로 실패로 바꾸거나 무효 pair를 지워 좋은 결과만 계산하지 않는다.
 
 부 평가 항목은 다음과 같다.
 
 - 새로운 실제 CPU 실행 개수, 실제 중복 CPU 실행 개수와 동일 조건 재사용 횟수.
+- 유효 중단 비율과 새로운 유효 literal 제안 비율. 중복 감소가 중단 증가에서 나온 경우를 구분하며 생산성 향상으로 확대 해석하지 않는다.
 - 제안한 실험의 실제 validation MSE 및 owner가 보관한 별도 test MSE. 중복 제안은 원본 보정 산출물로 계산한다.
 - 등록 기준에 실패했던 보정 조건의 재제안 여부. 실패 보정이 없으면 null.
 - 실제 provider input/output tokens, model seconds, CPU seconds, 보정 비용과 제안 비용. 비공개 billing은 null이며 누락된 실패 token usage를 0으로 만들지 않는다.
@@ -44,8 +47,23 @@ CPU 보정은 양쪽의 공통 자원 봉투 안에서 동일 개수의 상한�
 
 먼저 사전에 정한 개발용 paired unit에서 실제 ablation pilot을 수집한다. B/C 주 비교의 분산을 이 다른 ON/OFF contrast의 분산으로 대입하지 않는다. 주 항목의 실제 paired delta와 고정된 의미 있는 감소폭·정밀도·검정력·variance-relative-SE를 `design_sample_size`에 넣는다. 부족한 pilot을 가짜 delta, 기존 논문 수치, 모의 응답으로 채우지 않는다.
 
+주 delta의 단위는 binary paired 관측의 **절대 비율 차이**다. `meaningful_gain=0.10`은 10 percentage points이며 상대 10% 감소가 아니다. paired duplicate 2×2 count, discordant pair 개수와 유효 중단/new-proposal 비율을 함께 남겨 소표본과 bootstrap 경계의 한계를 판단한다. 확인 평가의 정확 검정/McNemar 또는 sign 방법은 독립 owner가 별도 사전 등록해야 한다.
+
+각 unit의 ON/OFF 실제 모델 호출 순서는 등록된 unit 순서에 따라 교대로 바꾼다. 같은 모델/provider/명시적 effort와 원시 CLI 설정을 감사하고, 실제 시각과 경과 시간을 남겨 큰 시간 간격이 있으면 한계로 보고한다. provider가 모델 sampling seed와 서버 weight version을 공개하지 않으므로 내부 난수가 같다고 주장하지 않는다.
+
 확인 평가가 필요하면 pilot과 별도 공개 자료/owner test를 준비하고, 계산된 표본 수·순서·seed·소스·기준을 실행 전에 등록한다. 평가 결과가 구현 변경에 쓰이면 그 평가 자료를 개발 자료로 분류하고 새로운 확인 자료를 등록한다. 연구 루프 전체에는 고정된 반복 수·연속 실패 수·임의 실행 시간을 추가하지 않는다.
 
 ## 실행 도구의 범위
 
 새 `scripts/memory_ablation.py`는 동결된 Engine/Store/runner/verifier/provider와 independent request audit를 재사용할 수 있다. import monkeypatch, 평가기 변경, 가짜 측정값, 평가 파일을 모델 입력에 넣는 방식은 사용하지 않는다. 최초 구현은 등록·CPU 보정·검증·raw model 요청 하나·원본 결과 수집·중단 재개만 제공한다. 자동 통계 채택과 일반적인 memory 효과 주장은 하지 않는다. 실제 모델 실행은 독립 검토 후 root가 시작한다.
+
+예시 설정은 `examples/memory-ablation-settings.json`에 있다. 위 pilot은 이 설정의 별도 동결 등록으로 실행했다. 아래 명령은 새 독립 workspace를 지정하며, `collect`만 실제 모델 요청을 보낸다. 기존 같은 등록에서 `prepare`는 완료 CPU 실행을 재사용하고 `collect`는 완료 raw 응답과 선택 증거를 다시 감사한다. source가 달라지면 등록을 거부하며 저장된 `source-snapshot`을 사용하거나 새 진단을 등록해야 한다. 이미 실행 중인 같은 진단을 병렬 시작하지 않는다.
+
+```powershell
+python scripts/memory_ablation.py register --config examples/memory-ablation-settings.json --output runs/memory-exposure-pilot
+python scripts/memory_ablation.py prepare --output runs/memory-exposure-pilot
+python scripts/memory_ablation.py collect --output runs/memory-exposure-pilot
+python scripts/memory_ablation.py design --output runs/memory-exposure-pilot --destination runs/memory-exposure-pilot/design-input.json
+```
+
+개발 테스트의 실제 CPU 보정과 schema 검사에는 모델 호출이 없다: `python -m unittest tests.test_memory_ablation -v`. fixture provider는 actual paired 관측으로 채택되지 않는다. 이 검사 통과는 실제 ON/OFF 효과의 증거가 아니다.

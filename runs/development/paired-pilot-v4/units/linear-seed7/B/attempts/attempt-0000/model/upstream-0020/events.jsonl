@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0fd20-71a2-7db0-9d96-32a3548462a2"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression model complexity degree selection regularization strength feature covariance cross-validation validation prediction error linear versus polynomial models"}}
+{"type":"turn.completed","usage":{"input_tokens":20022,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":54,"reasoning_output_tokens":27}}

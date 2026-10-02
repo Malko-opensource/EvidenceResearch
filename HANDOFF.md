@@ -15,6 +15,41 @@
 소유자 비교 스크립트의 필드명 오류를 수정하면서 완료된 단계는 해시 영수증으로
 재사용했다. 이 확인은 B/C 개선 증거가 아니다.
 
+현재 비교 구현은 공개 commit `46580f975fe72bc508a7783202c96bc15b9e5d05`이며,
+`runs/development/paired-pilot-v4/pilot-registration.json`에 개발 9개 짝의 조건과
+소스가 고정돼 있다. 실제 모델 실행은 도구 session `80836`에서 진행 중이다.
+해당 session과 원장을 먼저 확인하고 이미 실행 중인 연구에 같은 명령을 병렬로
+추가하지 않는다. 완료된 arm과 모델 호출은 재사용하며, 확정된 외부 실패는
+원본 증거를 검사한 `pilot-continue`로만 이어 간다. 알 수 없는 실행은 재실행하지 않는다.
+평가자가 본 개발 결과와 숨겨진 test 자료를 연구 모델에게 전달하지 않는다.
+
+2026-10-03 방법론 검토: 이 pilot의 B는 MLE1/Paper0/literature1/phase4인
+최소전이 구성이다. pinned README 권장 YAML의 MLE3/Paper1/literature5/phase100과
+다르므로 원본 권장 설정 대비 개선의 주 비교로 삼지 않는다. 실행·등록은 변경하지
+않고 개발 진단으로 보존한다. 다음 별도 등록에서 권장 설정, 서로 다른 primary
+문헌 최소 5편, 전체 단계에 근거한 같은 자원 봉투와 예산 소진의 과제 실패 처리를
+검토한다. 그 새로운 contrast는 자체 pilot 분산으로 최종 표본을 설계해야 한다.
+
+별도 기억 노출 개발 진단은 `runs/development/memory-exposure-pilot-v1`에 등록했고,
+실제 수집 session `14447`은 정상 완료했다. `scripts/memory_ablation.py`도 source-snapshot에
+고정했다. 두 arm에 동일한 실제 CPU 보정 증거를 만들었으며 차이는 첫 결정 요청의
+`verified_memory` 노출이다. 완료된 모델/CPU 실행은 재사용하며 같은 수집을 병렬
+시작하지 않는다. 9개 짝 모두 실제 응답이 있고 중복 제안 차이는 모두 0이다.
+`design-input.json`은 원본 선택·증거를 재감사한 개발 계산이며 확인 평가 채택이
+아니다. 이는 자유 연구 전체의 기억 효과나 Goal 채택 판정이 아니다.
+독립 재감사는 `evidence/memory-pilot-independent-review/`에 있다. 일반 함수가
+출력한 후속 `n=9`는 희소 이산 사건의 확인 설계로 거부했다. 이 결과를 최종
+기억 효과의 표본 설계로 사용하지 않는다. 원본 숫자와 코드·등록은 보존한다.
+
+미래 개발 복사본은 `work/next-version`에 있다. 이 복사본의 변경을 현재 package에
+덮어쓰지 않는다. 진행 중인 등록의 소스 해시는 끝까지 유지한다. 별도 복사본에서
+기억 문맥 비용, 문헌 5편 연결, 실제 오류 복구 지표, 예산 소진 분류와 독립 검토
+완전성 검사를 개발하고 있다. 검증·상호 검토 후 새 등록에만 사용한다.
+
+이 연구가 진행 중인 동안 `evidence_research/`와 pilot 설정을 변경하지 않는다.
+수정이 필요하면 현재 증거를 보존한 채 새 개발 버전을 등록한다. 별도 보고서 검토
+도구와 기억 ablation 설계는 외부 파일에서 작업하며 최종 등록 전에 그 소스도 고정한다.
+
 다음 순서로 진행한다.
 
 1. 완료된 원본 adapted B 개발 재개 기록(`runs/development/B-upstream-dev-quadratic-seed7-resumed`)

@@ -1,0 +1,73 @@
+{
+  "calculation_source": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\review_pilot_linear7.py",
+    "sha256": "943dc57cdd5cdf0f8f1efdd4ed31ce0e929f3fd902b41f0d159ad220efba7992"
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\independent_review\\complete-numeric-review-v1\\independent-execution-and-resource-evidence.json",
+      "sha256": "82a343b477a92d81f19a1cc5849647231839e9046646cdc954e91ca713ea193d"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed7\\B\\attempts\\attempt-0000\\upstream\\baseline_result.json",
+      "sha256": "5e344ee60484dd369b67e93dda2abe56955b1c17f40957eb3959457584d9390e"
+    }
+  ],
+  "planned_grid": {
+    "candidates": [
+      [
+        1,
+        0.0
+      ],
+      [
+        1,
+        0.1
+      ],
+      [
+        2,
+        0.0
+      ],
+      [
+        2,
+        0.1
+      ],
+      [
+        4,
+        0.0
+      ],
+      [
+        4,
+        0.1
+      ],
+      [
+        8,
+        0.0
+      ],
+      [
+        8,
+        0.1
+      ]
+    ],
+    "count": 8,
+    "kind": "proposal_arithmetic",
+    "measured_distinct": 1,
+    "unmeasured": 7,
+    "unmeasured_candidates_executed": false
+  },
+  "remaining_cpu_allowance": {
+    "actual_attempts": 2,
+    "kind": "derived_resource_allowance",
+    "limit": 51,
+    "remaining": 49
+  },
+  "validation_minus_training": {
+    "display": 0.00229733,
+    "inputs": {
+      "train_mse": 0.005661214895460485,
+      "validation_mse": 0.007958542384134518
+    },
+    "rounding_matches": true,
+    "rounding_tolerance": 5e-09,
+    "value": 0.0022973274886740336
+  }
+}

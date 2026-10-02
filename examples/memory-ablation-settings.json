@@ -1,0 +1,38 @@
+{
+  "kind": "memory_exposure_development_pilot",
+  "model_id": "gpt-6.1-sol",
+  "resource_envelope": {
+    "device": "cpu",
+    "network": false,
+    "tools": ["trusted polynomial ridge literal configuration", "frozen literature retrieval"],
+    "reasoning_effort": "medium",
+    "proposal_calls_per_unit": 51,
+    "actual_cpu_executions_per_unit": 51,
+    "scope": "The two conditions share the same limits. This isolated diagnostic requests one next-action response after equal CPU calibration; unused permission is not measured usage or a Goal limit."
+  },
+  "calibration_configs": [
+    {"degree": 2, "alpha": 0.0},
+    {"degree": 8, "alpha": 100.0}
+  ],
+  "calibration_selection_rationale": "Host-selected before this diagnostic: an unregularized low-degree anchor and a heavily regularized higher-degree comparison. These are not LLM-selected configurations. Registered improvement criteria are independently evaluated and do not guarantee success/failure records in every unit.",
+  "sample_design_inputs": {
+    "meaningful_gain": 0.10,
+    "precision_halfwidth": 0.05,
+    "power": 0.80,
+    "variance_relative_se": 0.5
+  },
+  "design_units": "meaningful_gain and precision_halfwidth are absolute paired duplicate-proportion differences; .10 means 10 percentage points, not a relative decrease",
+  "pilot_design": "Nine distinct-seed paired units derive from ceil(2/.5^2)+1 under the frozen normal-variance planning approximation; each of three development regimes contributes three. This is a diagnostic pilot requirement, not a cap on research loops. Discrete paired outcomes and unknown model sampling seeds require independent review before confirmatory design.",
+  "units": [
+    {"unit_id": "linear-seed201", "task_id": "dev-linear", "seed": 201},
+    {"unit_id": "linear-seed307", "task_id": "dev-linear", "seed": 307},
+    {"unit_id": "linear-seed419", "task_id": "dev-linear", "seed": 419},
+    {"unit_id": "quadratic-seed503", "task_id": "dev-quadratic", "seed": 503},
+    {"unit_id": "quadratic-seed617", "task_id": "dev-quadratic", "seed": 617},
+    {"unit_id": "quadratic-seed733", "task_id": "dev-quadratic", "seed": 733},
+    {"unit_id": "noisy-seed809", "task_id": "dev-noisy", "seed": 809},
+    {"unit_id": "noisy-seed911", "task_id": "dev-noisy", "seed": 911},
+    {"unit_id": "noisy-seed1009", "task_id": "dev-noisy", "seed": 1009}
+  ],
+  "status": "Example only; no registration, actual model collection or memory-effect assertion has been performed."
+}

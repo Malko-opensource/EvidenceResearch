@@ -1,10 +1,32 @@
 {
   "goal_status": "active",
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "workspace": "EvidenceResearch",
   "implementation": "working_cpu_loop_and_independent_verifier; original_baseline_development_resume_completed; paired_comparison_in_progress",
   "improvement_proven": false,
   "final_evaluation_completed": false,
+  "active_study": {
+    "kind": "development_paired_pilot",
+    "path": "runs/development/paired-pilot-v4",
+    "status": "running",
+    "published_source_commit": "46580f975fe72bc508a7783202c96bc15b9e5d05",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "paired_units": 9,
+    "interpretation": "Minimal-phase development diagnostic only. B uses MLE1/Paper0/literature1/phase4 rather than upstream recommended MLE3/Paper1/literature5/phase100. This pilot cannot establish original-default superiority or supply the confirmatory variance design for that different contrast.",
+    "adoption_claim": false
+  },
+  "memory_study": {
+    "path": "runs/development/memory-exposure-pilot-v1",
+    "status": "actual_development_collection_completed; independently_audited; no_adoption",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "scope": "Verified host-selected prior evidence exposure in a next-action diagnostic; no general memory-effect or adoption claim.",
+    "observed_duplicate_deltas": "Nine registered paired differences were zero; no duplicate-reduction advantage observed in this pilot.",
+    "evidence": "runs/development/memory-exposure-pilot-v1/ablation-summary.json",
+    "independent_review": "evidence/memory-pilot-independent-review/independent-review.json",
+    "confirmatory_design": "Generic normal-variance n=9 output rejected for this zero-event paired-binary endpoint; preserve original calculation and design a separate appropriate confirmation if needed."
+  },
   "github": {
     "owner": "Malko-opensource",
     "repository": "EvidenceResearch",
@@ -20,7 +42,7 @@
     "cpu_logical": 16,
     "gpu_usage": "none"
   },
-  "next": "Freeze the matched medium-effort paired pilot with explicit resource limits; gather evidence and independently design final evaluation.",
+  "next": "Preserve and review the running minimal-phase diagnostic and separate memory pilot. Prepare a fresh preregistered paired development study using upstream recommended phases, enough distinct primary literature and a justified common resource envelope; obtain its own reviewed variability before final evaluation.",
   "verified_components": [
     "actual model development loop",
     "five actual CPU component runs",
@@ -31,6 +53,8 @@
   ],
   "blockers": [
     "old development baseline has one ambiguous execution-count statement; retained pending",
-    "final paired comparison and memory ablation not yet executed"
+    "current minimal B phase policy cannot establish the main original-default contrast",
+    "recommended literature count exceeds current corpus; future study needs a new frozen shared corpus",
+    "final paired comparison and memory-effect confirmation not yet completed"
   ]
 }
