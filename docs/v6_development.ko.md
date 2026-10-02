@@ -5,6 +5,16 @@
 이는 최종 확인 평가나 일반적인 과학 연구 성능의 향상을 뜻하지 않는다.
 상세 계약은 해당 버전의 docs/sampled-evaluation-c6.ko.md와 문헌·소스·의미 검증 문서에 있다.
 
+공개 commit `0be5988f4760263122188ef31e7f8dfba5ccea47`도 새 짧은 체크아웃과
+독립 환경에서 설치·원본35개 직접 취득·전체215 검사를 재현했다. 공개103개 파일의
+전후 Git blob·SHA가 일치한다. [새 공개 설치 보고서](../evidence/fresh-v6-install-0be5988/report.ko.md)에
+원시 명령·로그·provenance·감사 범위를 보존했다. 실제 모델·연구·등록 실행은 없었다.
+
+설치 receipt의 `original_project_or_old_checkout_reads_during_tests: 0`은 모든
+외부 sibling 체크아웃의 파일 열기를 독립적으로 센 값이 아니다. 실제 guard는 원
+EvidenceResearch와 새 `_er6` 내부 경계를 검사한다. 이전 체크아웃을 별도로 읽는
+명령은 수행하지 않았으나, 이 필드를 OS 전체 파일 접근 차단의 증명으로 해석하지 않는다.
+
 v5에서는 원본이 유효한 문헌 entry5개로 완료한 뒤 host가 서로 다른 문헌5개를
 추가 요구하여 B를 실패로 판정하는 비대칭을 발견했다. 원 판정은 보존하고 C
 완료와의 차이를 개선으로 채택하지 않는다. v6은 원본 entry 수와 공통 corpus의

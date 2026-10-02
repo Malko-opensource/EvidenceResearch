@@ -1,0 +1,134 @@
+{
+  "kind": "fresh_public_v6_installation_independent_validation",
+  "valid": true,
+  "public_repo": "https://github.com/Malko-opensource/EvidenceResearch.git",
+  "commit": "0be5988f4760263122188ef31e7f8dfba5ccea47",
+  "checkout": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er6",
+  "sparse_checkout": "versions/v6-development only",
+  "tracked_source_proof_files": 103,
+  "git_blob_bytes_before_after_unchanged": true,
+  "before": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\source-before.json",
+    "sha256": "cb16cc90b2d2ffdc94aeb6b187b298114d83f2b61903008e942780d54960a7d7"
+  },
+  "after": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\source-after.json",
+    "sha256": "52e6aff4d7495c6258955188be7c271298ead9c9248863c68bf367e73710c4ce"
+  },
+  "environment": {
+    "version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "prefix": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er6\\versions\\v6-development\\.venv",
+    "base_prefix": "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python",
+    "user_site_enabled": false,
+    "package_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er6\\versions\\v6-development\\evidence_research\\__init__.py",
+    "package_version": "0.3.0.dev0"
+  },
+  "own_venv_python_sha256": "a2a38c7f7fdb8948ce9875b23fcb2e145eee420874766d271a68409cb0e2ec04",
+  "venv_cfg": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\venv-pyvenv.cfg",
+    "sha256": "6f077e0ce34074047a05abde5904a3b203ce7efdd2c55379d76fc7fa8033b773"
+  },
+  "upstream": {
+    "commit": "d9017d90e329112d2a80b7712f37ee9094d2cd27",
+    "downloaded_files": 35,
+    "verified_fixed_files": 36,
+    "network_scope": "Pinned public raw source acquisition only; executed_upstream_code=false for acquisition",
+    "raw_sources_after_tests_still_match_fixed_external_pins": true
+  },
+  "offline_editable_install": true,
+  "packaging_scope": "Bundled setuptools/wheel exposed only to installer with --no-index --no-deps --no-build-isolation; not runtime env",
+  "checks": 215,
+  "unit_guard": {
+    "counts": {
+      "main_or_other_version_reads": 0,
+      "live_private_owner_access_attempts": 0,
+      "actual_model_processes": 0,
+      "network_events": 0,
+      "synthetic_python_fixture_subprocesses": 1,
+      "original_project_reads": 0
+    },
+    "scope": "Synthetic v6/runs/tf, c6-fixture-only temp paths and exact deterministic task subprocess permitted; actual live owner/model/network blocked"
+  },
+  "phase_receipts": [
+    {
+      "phase": "clone",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\clone.json",
+      "sha256": "6eec3e1c3a2a6eef4e0a32c5d74facc20d0f5668baaf890f9acce67448d36263"
+    },
+    {
+      "phase": "sparse-init",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\sparse-init.json",
+      "sha256": "36de18089bc389fce813d53472e6b00a6db7d8f44e570d6587daad46e926d466"
+    },
+    {
+      "phase": "sparse-set",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\sparse-set.json",
+      "sha256": "2aa36230348cb381aec799b6ee674d600048387dcf3a6802315b341718ad4915"
+    },
+    {
+      "phase": "exact-checkout",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\exact-checkout.json",
+      "sha256": "e1f02ea0834351aa508b47f60c672034ef4f238cf9a699a3b9dcee70ebdbbd39"
+    },
+    {
+      "phase": "public-source-before",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\public-source-before.json",
+      "sha256": "6714bf3aabeb2784c829f139b1cbf49e5d1cd15275ea2b8afef3c25f4b3b28f4"
+    },
+    {
+      "phase": "venv-create",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\venv-create.json",
+      "sha256": "f35963103229ec361aef1af50bf2f7e9e458546bfb21caecf1ac47b1e0f85cd9"
+    },
+    {
+      "phase": "upstream-acquisition",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\upstream-acquisition.json",
+      "sha256": "abe201ace1e0f3363f85f1191563f64e3db523c78fa54324a5ef535f85e036a1"
+    },
+    {
+      "phase": "offline-editable-install",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\offline-editable-install.json",
+      "sha256": "cabd89e54fc84a7a87ac2d051d5d1ab06aed529dd463bbb3a8c576b9ea8dff16"
+    },
+    {
+      "phase": "environment",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\environment.json",
+      "sha256": "8e9ddc6b3513de4467589684fe2d310d4066e5302d448814a578c383676611a5"
+    },
+    {
+      "phase": "fixed-upstream",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\fixed-upstream.json",
+      "sha256": "17a6f679832e29bd38dedadeab335f7e9e7da3d47256c3c002132329db26225e"
+    },
+    {
+      "phase": "doctor",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\doctor.json",
+      "sha256": "13f54c9d6eb543816e75793225f6eb6d59f3ba3978edb3c9a408059b0b2e7e7f"
+    },
+    {
+      "phase": "public-source-after",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\public-source-after.json",
+      "sha256": "49236c9baa005f9e45e1a90be930372c98db85b3c654ea7d4ce2741f6bbed823"
+    },
+    {
+      "phase": "unit-checks",
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\unit-checks.json",
+      "sha256": "5addbafc840714e7b10c27f37b976e7b317c6e0e0600c02ce890ed091beb5cc0"
+    }
+  ],
+  "doctor_authentication": {
+    "diagnostic": "Not logged in",
+    "logged_in": false
+  },
+  "model_access_established": false,
+  "actual_research_model_calls": 0,
+  "actual_research_trials": 0,
+  "trusted_cpu_unit_fixtures": "Included; one allowed standalone CPU fixture subprocess, not a research trial",
+  "original_project_or_old_checkout_reads_during_tests": 0,
+  "actual_private_owner_data_accessed": false,
+  "registration_executed": false,
+  "final_evaluation_executed": false,
+  "framework_improvement_proven": false,
+  "goal_complete": false,
+  "limits": "Published installation and engineering/verification fixtures. Synthetic source tasks and mocked model receipts do not establish actual B/C research outcomes."
+}

@@ -1,0 +1,19 @@
+{
+  "phase": "public-source-after",
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v6-install-0be5988\\source_check.py",
+    "--label",
+    "after"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er6",
+  "exit_code": 0,
+  "seconds": 0.125,
+  "stdout_sha256": "bc5e565b2e1d2d4444325bc5a279cb1d19a719b210bb937831c0dac3119f8119",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "packaging_tools_root": null,
+  "scope": "Fresh public exact-commit installation/control tests; no new research/model/publication"
+}

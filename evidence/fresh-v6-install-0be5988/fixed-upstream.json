@@ -1,0 +1,18 @@
+{
+  "phase": "fixed-upstream",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er6\\versions\\v6-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-c",
+    "import json;from evidence_research.baseline import frozen_upstream_sources;f=frozen_upstream_sources();print(json.dumps({\"fixed_files\":len(f),\"sources\":f}))"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er6\\versions\\v6-development",
+  "exit_code": 0,
+  "seconds": 0.23500000004423782,
+  "stdout_sha256": "9da8863d1e83cc9cb2ad82f00b1ea61115b51e7409a1c7d8a989cdbdfb5eef0c",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "packaging_tools_root": null,
+  "scope": "Fresh public exact-commit installation/control tests; no new research/model/publication"
+}

@@ -116,3 +116,10 @@ audit chain은 보존하고 별도 원 기준 정정 판정을 로컬 핸드오�
 measurement·review는 변경하지 않았고 새 모델·연구 CPU trial은 없다. verifier의
 수치 재계산은 있으므로 CPU 계산0이라고 표현하지 않는다. canonical pilot-summary를
 새 과학적 실패로 해석하지 말고 `work/current-handoff-20261003.json`의 정정 범위를 확인한다.
+
+공개 v6 `0be5988f4760263122188ef31e7f8dfba5ccea47`의 새 짧은 `_er6` 체크아웃도
+원본35개를 직접 취득하고 새 환경에서 전체215 검사를 통과했다. 공개103개 파일은
+전후 Git blob·SHA가 같다. `evidence/fresh-v6-install-0be5988/result.json` SHA는
+`cf03c97e3dca2a783d935ba5252193a7759a39d159870e7d40b7738e3e9497b2`이다.
+이 설치 체크아웃에서 실제 모델·연구·등록은 실행하지 않았다. 실제 v6 연구는 원
+`versions/v6-development/runs/p6`의 활성34004 한 개에서만 진행한다.

@@ -1,0 +1,25 @@
+{
+  "phase": "offline-editable-install",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er6\\versions\\v6-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "pip",
+    "--isolated",
+    "install",
+    "--no-index",
+    "--no-deps",
+    "--no-build-isolation",
+    "--editable",
+    "."
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er6\\versions\\v6-development",
+  "exit_code": 0,
+  "seconds": 1.672000000020489,
+  "stdout_sha256": "d13921a6a8691249d646d00efaafd4f68dd282d9f8d77b3a24523ba8256f0775",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "packaging_tools_root": "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages",
+  "scope": "Fresh public exact-commit installation/control tests; no new research/model/publication"
+}

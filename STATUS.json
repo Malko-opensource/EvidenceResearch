@@ -33,7 +33,7 @@
     "published": true,
     "url": "https://github.com/Malko-opensource/EvidenceResearch",
     "first_verified_commit": "3ba19f2469cb85fb0b25a48a115eaebc3cb5e6da",
-    "latest_verified_evidence_commit": "c95471c990d39554d0ad8427603d26865353085b",
+    "latest_verified_evidence_commit": "0be5988f4760263122188ef31e7f8dfba5ccea47",
     "detailed_record_manifest_sha256": "b71986a181f3c8359ca14151ce746b3110c33131001b4c225ce977c419c5cfb2",
     "specific_detailed_record_publication_approved": true
   },
@@ -45,7 +45,7 @@
     "cpu_logical": 16,
     "gpu_usage": "none",
     "latest_usage_observation": {
-      "weekly_used_percent": 46,
+      "weekly_used_percent": 53,
       "window_duration_minutes": 10080,
       "ordinary_usage_allowed": true,
       "billed_cost": null,
@@ -136,5 +136,21 @@
     "final_evaluation_completed": false,
     "improvement_proven": false,
     "readme_review_version_clarification": "docs/v6_development.ko.md"
+  },
+  "public_v6_installation": {
+    "commit": "0be5988f4760263122188ef31e7f8dfba5ccea47",
+    "valid": true,
+    "result": "evidence/fresh-v6-install-0be5988/result.json",
+    "result_sha256": "cf03c97e3dca2a783d935ba5252193a7759a39d159870e7d40b7738e3e9497b2",
+    "checks": 215,
+    "public_source_files_unchanged": 103,
+    "own_venv": true,
+    "offline_editable_install": true,
+    "fresh_pinned_upstream_sources": 35,
+    "actual_research_model_calls": 0,
+    "actual_research_trials": 0,
+    "registration_or_final_evaluation_executed": false,
+    "model_access_established_in_installation_checkout": false,
+    "scope": "Published engineering fixtures; no research outcome or superiority claim."
   }
 }

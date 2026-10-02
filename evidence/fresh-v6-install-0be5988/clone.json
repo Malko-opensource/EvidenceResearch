@@ -1,0 +1,17 @@
+{
+  "phase": "clone",
+  "command": [
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "--no-checkout",
+    "https://github.com/Malko-opensource/EvidenceResearch.git",
+    "_er6"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent",
+  "exit_code": 0,
+  "seconds": 0.8600000000442378,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "a12e9f7f25be43bf8e1086b9a4caa95749472a592efe09b0b5f96e42118c78bd",
+  "scope": "Fresh public exact-commit installation/control tests; no new research/model/publication"
+}

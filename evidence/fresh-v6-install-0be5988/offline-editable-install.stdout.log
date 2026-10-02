@@ -1,0 +1,13 @@
+Obtaining file:///C:/Users/Potato/Documents/ChatGPT/Research%20Agent/_er6/versions/v6-development
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: evidence-research
+  Building editable for evidence-research (pyproject.toml): started
+  Building editable for evidence-research (pyproject.toml): finished with status 'done'
+  Created wheel for evidence-research: filename=evidence_research-0.3.0.dev0-0.editable-py3-none-any.whl size=4939 sha256=c4f5739580134e0fd0b86c487edd05b58431beee8b124199fd9d31914304828b
+  Stored in directory: C:\Users\Potato\AppData\Local\Temp\pip-ephem-wheel-cache-97rsozv8\wheels\83\6b\fa\3f05e3f7f360a7ede6de16b06395bcfd202d3af6a1c82b09a6
+Successfully built evidence-research
+Installing collected packages: evidence-research
+Successfully installed evidence-research-0.3.0.dev0
