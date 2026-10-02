@@ -1,0 +1,281 @@
+{
+  "items": [
+    {
+      "claim_id": "8d34d288b1d056a6a1c042b0957630a3ed594553373e49feaada413b0e2eb406",
+      "context": "\\documentclass[11pt]{article}",
+      "end": 20,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\independent_review\\partial_report.tex",
+          "sha256": "52d82cafc37e7e288de37df7464be0cbff04a783ba75e84909d417f5ddcf8b52"
+        }
+      ],
+      "kind": "identifier",
+      "line": 1,
+      "number": "[11pt]",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Typesetting declaration or font encoding; not a study number or scientific outcome.",
+      "start": 14
+    },
+    {
+      "claim_id": "ca4c1044f6cdb9c4eb6c43bc75ac49b250c3c7d502ec82ddec7a4b04662b8035",
+      "context": "\\usepackage[margin=1in]{geometry}",
+      "end": 23,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\independent_review\\partial_report.tex",
+          "sha256": "52d82cafc37e7e288de37df7464be0cbff04a783ba75e84909d417f5ddcf8b52"
+        }
+      ],
+      "kind": "identifier",
+      "line": 2,
+      "number": "[margin=1in]",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Typesetting declaration or font encoding; not a study number or scientific outcome.",
+      "start": 11
+    },
+    {
+      "claim_id": "3612779d50d0fce0b71e8ad256e3e909a672446e9a3272a9da52c3ca6f1729ff",
+      "context": "\\usepackage[T1]{fontenc}",
+      "end": 15,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\independent_review\\partial_report.tex",
+          "sha256": "52d82cafc37e7e288de37df7464be0cbff04a783ba75e84909d417f5ddcf8b52"
+        }
+      ],
+      "kind": "identifier",
+      "line": 3,
+      "number": "[T1]",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Typesetting declaration or font encoding; not a study number or scientific outcome.",
+      "start": 11
+    },
+    {
+      "claim_id": "52207c10ea212217658497d5cefade83ce36928c4d4bda32e3af06a6daf7c640",
+      "context": "Polynomial feature expansion provides a simple approach to nonlinear regression, but selecting polynomial degree and coefficient regularization requires empirical comparisons because additional flexibility can change both approximation error and sensitivity to the training sample. We examine this selection problem on a fixed public regression task containing 80 training examples and 64 validation examples, with validation mean squared error (MSE) as the objective. The supplied observations motivate quadratic curvature as an initial hypothesis. Using the trusted host's existing feature expansion and fitting conventions, we evaluate the configuration with polynomial degree \\(d=2\\) and regularization strength \\(\\alpha=0.0\\), corresponding to an unpenalized quadratic fit. The independently verified host execution reports training MSE \\(0.0086303159202098\\) and validation MSE \\(0.012638906669511679\\). Validation error exceeds training error by approximately \\(0.004009\\); this descriptive difference does not establish overfitting or statistical significance. The supplied synopsis of \\textit{Ridge Regression: Structure, Cross-Validation, and Sketching} motivates considering regularization jointly with feature expansion, but does not determine suitable hyperparameters for these data. We specify a subsequent comparison across degrees \\(1\\) through \\(8\\) and multiple regularization strengths, selecting the lowest host-measured validation MSE and resolving exact ties by lower degree, then lower regularization strength. Those comparisons remain proposed rather than measured. The present contribution is therefore a verified quadratic baseline and an explicit evaluation protocol, rather than a new estimator or a demonstrated performance improvement. Only one configuration has supplied execution evidence, so the results establish neither the necessity of quadratic features nor the optimality of zero regularization. Independent test performance is unavailable, and any future validation-based selection must account for the potential optimism introduced by repeated comparisons.",
+      "end": 1774,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\independent_review\\verified_experiment_evidence.json",
+          "sha256": "2f8de41f5f3ad6fd358a71908fda3660b0337f760272bcca989ce59d55339efa"
+        }
+      ],
+      "kind": "derived_measured",
+      "line": 14,
+      "number": "one",
+      "outcome": "supported",
+      "reason": "There is one distinct executed configuration, degree=2/alpha=0, although it was actually executed twice. The claim counts configurations, not repeated executions.",
+      "start": 1771
+    },
+    {
+      "claim_id": "c4b979f3d0af45347b078249f2ecd19113d719c7ad832e829e4af33e3b0e8625",
+      "context": "Polynomial feature expansion provides a simple approach to nonlinear regression, but selecting polynomial degree and coefficient regularization requires empirical comparisons because additional flexibility can change both approximation error and sensitivity to the training sample. We examine this selection problem on a fixed public regression task containing 80 training examples and 64 validation examples, with validation mean squared error (MSE) as the objective. The supplied observations motivate quadratic curvature as an initial hypothesis. Using the trusted host's existing feature expansion and fitting conventions, we evaluate the configuration with polynomial degree \\(d=2\\) and regularization strength \\(\\alpha=0.0\\), corresponding to an unpenalized quadratic fit. The independently verified host execution reports training MSE \\(0.0086303159202098\\) and validation MSE \\(0.012638906669511679\\). Validation error exceeds training error by approximately \\(0.004009\\); this descriptive difference does not establish overfitting or statistical significance. The supplied synopsis of \\textit{Ridge Regression: Structure, Cross-Validation, and Sketching} motivates considering regularization jointly with feature expansion, but does not determine suitable hyperparameters for these data. We specify a subsequent comparison across degrees \\(1\\) through \\(8\\) and multiple regularization strengths, selecting the lowest host-measured validation MSE and resolving exact ties by lower degree, then lower regularization strength. Those comparisons remain proposed rather than measured. The present contribution is therefore a verified quadratic baseline and an explicit evaluation protocol, rather than a new estimator or a demonstrated performance improvement. Only one configuration has supplied execution evidence, so the results establish neither the necessity of quadratic features nor the optimality of zero regularization. Independent test performance is unavailable, and any future validation-based selection must account for the potential optimism introduced by repeated comparisons.",
+      "end": 1917,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\registered_spec.json",
+          "sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+        }
+      ],
+      "kind": "method",
+      "line": 14,
+      "number": "zero",
+      "outcome": "classified_nonmeasurement",
+      "reason": "The executed alpha is 0.0; the report denies that its optimality is established, which avoids an unsupported comparative claim.",
+      "start": 1913
+    },
+    {
+      "claim_id": "1d7948ff7fc3f921b3cac5f4a0b5565a940956d4479ee5b249653c3be864b6d8",
+      "context": "Polynomial regression provides a controlled setting for studying how model flexibility and coefficient regularization affect predictive error. Expanding a scalar input into polynomial features allows a linear estimator in feature space to represent nonlinear relationships, while ridge regularization penalizes coefficient magnitude. These choices are related: increasing polynomial degree changes the feature covariance and introduces additional coefficients, so a regularization strength that is suitable for one expansion need not be suitable for another. The supplied synopsis of \\textit{Ridge Regression: Structure, Cross-Validation, and Sketching} provides mathematical context for this dependence and for selecting regularization through held-out or cross-validation error (arXiv 1910.02373v2). It does not determine an appropriate degree or regularization strength for the present dataset. Our research question is whether a parsimonious quadratic model achieves lower validation mean squared error than linear or more flexible polynomial alternatives on a fixed public regression task. The task supplies 80 training examples and 64 validation examples, and permits polynomial degrees \\(d\\in\\{1,\\ldots,8\\}\\) and regularization strengths \\(\\alpha\\in[0,100]\\). The observed training values suggest curvature that could be represented by a quadratic model, but this observation motivates a candidate rather than establishing the underlying data-generating process.",
+      "end": 514,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "method",
+      "line": 17,
+      "number": "one",
+      "outcome": "classified_nonmeasurement",
+      "reason": "A conceptual statement about how changing feature expansion can change regularization behavior; it is not an empirical sample/execution count.",
+      "start": 511
+    },
+    {
+      "claim_id": "3a0f50a541ef8c11f212c0fcc7151bd2d964b539c928302a5f5996c456148542",
+      "context": "Polynomial regression provides a controlled setting for studying how model flexibility and coefficient regularization affect predictive error. Expanding a scalar input into polynomial features allows a linear estimator in feature space to represent nonlinear relationships, while ridge regularization penalizes coefficient magnitude. These choices are related: increasing polynomial degree changes the feature covariance and introduces additional coefficients, so a regularization strength that is suitable for one expansion need not be suitable for another. The supplied synopsis of \\textit{Ridge Regression: Structure, Cross-Validation, and Sketching} provides mathematical context for this dependence and for selecting regularization through held-out or cross-validation error (arXiv 1910.02373v2). It does not determine an appropriate degree or regularization strength for the present dataset. Our research question is whether a parsimonious quadratic model achieves lower validation mean squared error than linear or more flexible polynomial alternatives on a fixed public regression task. The task supplies 80 training examples and 64 validation examples, and permits polynomial degrees \\(d\\in\\{1,\\ldots,8\\}\\) and regularization strengths \\(\\alpha\\in[0,100]\\). The observed training values suggest curvature that could be represented by a quadratic model, but this observation motivates a candidate rather than establishing the underlying data-generating process.",
+      "end": 799,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 17,
+      "number": "1910.02373v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "The identifier matches the frozen supplied primary-source synopsis. Literature context is not local experimental verification.",
+      "start": 787
+    },
+    {
+      "claim_id": "1f8661585dfc35d79cd0d4648efaceb4a6c80336dc60eab14e2a7ea8cbd53fcc",
+      "context": "The available experimental evidence consists of one actual host execution with \\(d=2\\) and \\(\\alpha=0.0\\), corresponding to an unpenalized quadratic fit. The execution was independently verified as valid and reports training MSE \\(0.0086303159202098\\) and validation MSE \\(0.012638906669511679\\). The validation MSE exceeds the training MSE by approximately \\(0.004009\\). This difference is descriptive: it does not establish overfitting, statistical significance, or the superiority of another configuration. The measured result supplies a starting point for the proposed comparison and is consistent with investigating quadratic structure, but it cannot demonstrate that quadratic terms are necessary, that regularization is unhelpful, or that higher-degree alternatives perform worse. No comparison measurements, fitted coefficient values, uncertainty estimates, or independent test results have been supplied. We therefore distinguish the verified baseline from hypotheses about model structure and from evaluations that have yet to be performed.",
+      "end": 51,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\independent_review\\verified_experiment_evidence.json",
+          "sha256": "2f8de41f5f3ad6fd358a71908fda3660b0337f760272bcca989ce59d55339efa"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\tool_events.jsonl",
+          "sha256": "35efc7a361e2f15c80dd97212fffa5513f73193a3aef1dffa40aec70b967028d"
+        }
+      ],
+      "kind": "execution_count",
+      "line": 31,
+      "number": "one",
+      "outcome": "pending",
+      "reason": "The entire host pipeline logged two actual executions of one configuration. 'One actual host execution' could mean the single supplied candidate record, but it is inaccurate if interpreted as pipeline-wide execution count. The incomplete author report does not make that scope explicit; clarification is needed. Do not count this as a verified one-execution claim.",
+      "start": 48
+    },
+    {
+      "claim_id": "e6afb26aafdb2bed6d2ddc7459b6ff49a441959f5a4001d206a3cf8e9d715f6a",
+      "context": "The contributions of this report are a documented quadratic baseline on the fixed public split, an explicit protocol for jointly comparing polynomial degree and regularization, and a bounded interpretation of the available evidence. These contributions concern empirical reporting and experimental design; we do not introduce a new estimator or claim a demonstrated performance improvement. Subsequent host evaluations would allow the research question to be assessed by comparing measured validation errors under a common fitting procedure. Even then, the selected configuration should be described as the best among evaluated candidates on this particular validation set. Repeated comparisons can make the selected validation error optimistic as an estimate of performance on new observations, and a single split cannot establish robustness across sampling conditions. Additional evaluation on independently supplied data would be needed to support broader generalization claims. The present report consequently establishes a reproducible measured candidate and the conditions required for comparative conclusions, while leaving the proposed degree--regularization study open.",
+      "end": 808,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\split_manifest.json",
+          "sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+        }
+      ],
+      "kind": "method",
+      "line": 33,
+      "number": "single",
+      "outcome": "classified_nonmeasurement",
+      "reason": "The experiment uses one fixed training/validation split and data seed, so robustness across independent splits is not established.",
+      "start": 802
+    },
+    {
+      "claim_id": "3967c37c99026611d9f4691ff196fc2730b612904a05eedb9c237caa85abfa62",
+      "context": "The closest methodological reference is \\textit{Ridge Regression: Structure, Cross-Validation, and Sketching} (arXiv 1910.02373v2). The supplied frozen synopsis describes squared-error regression with a quadratic coefficient penalty, the dependence of ridge coefficients on feature covariance and regularization strength, and regularization selection through held-out or cross-validation error. These topics directly inform our proposed comparison because polynomial expansion changes the design matrix to which ridge regression is applied. Increasing degree introduces additional feature directions and changes their covariance, so selecting regularization independently of degree would leave part of the model-selection problem unexamined. Our study uses this established estimator family rather than proposing a modification to ridge regression. Its specific question concerns whether quadratic features provide sufficient predictive structure on the supplied scalar regression task, and whether shrinkage or additional polynomial terms reduce validation error. The literature provides a rationale for comparing these choices, but it supplies neither an optimal degree nor an optimal regularization strength for the present observations. In particular, the executed configuration \\(d=2,\\alpha=0.0\\) is an unpenalized member of the permitted family; its evaluation does not constitute an empirical demonstration of a benefit from ridge regularization.",
+      "end": 129,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 39,
+      "number": "1910.02373v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "The identifier matches the frozen supplied primary-source synopsis. Literature context is not local experimental verification.",
+      "start": 117
+    },
+    {
+      "claim_id": "14fd798da655caec2bd2972f32ed33e61ac2c46898b3bab14ddabebd3ead8498",
+      "context": "An important difference concerns the evaluation setting and the scope of the available evidence. The supplied synopsis of arXiv 1910.02373v2 discusses validation bias in a high-dimensional asymptotic regime, whereas our task contains 80 training observations, 64 validation observations, and permitted polynomial degrees from 1 through 8. We do not establish that the assumptions underlying those asymptotic analyses hold for this finite dataset, and therefore do not transfer their quantitative conclusions to our experiment. Their discussion nevertheless motivates distinguishing validation-based selection from independent assessment. Our proposed comparison evaluates linear, quadratic, and higher-degree alternatives using the same host fitting conventions and the same validation objective. These alternatives are applicable within the task and should receive direct empirical comparisons before any superiority claim is made. However, only the quadratic configuration with zero regularization currently has supplied execution evidence, with validation MSE \\(0.012638906669511679\\). The remaining comparisons are planned. Although sketching is included in the reference's scope, the supplied synopsis provides no quantitative sketching result, and the task exposes no sketching parameter or alternative computational implementation. Consequently, we do not evaluate sketching, claim computational savings, or interpret our baseline as a comparison against a sketched estimator.",
+      "end": 140,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 41,
+      "number": "1910.02373v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "The identifier matches the frozen supplied primary-source synopsis. Literature context is not local experimental verification.",
+      "start": 128
+    },
+    {
+      "claim_id": "8ef2fa80779ef80748c83d4b4054dd26e3ffa2a12f7883e3d1c1de5f98c6813b",
+      "context": "An important difference concerns the evaluation setting and the scope of the available evidence. The supplied synopsis of arXiv 1910.02373v2 discusses validation bias in a high-dimensional asymptotic regime, whereas our task contains 80 training observations, 64 validation observations, and permitted polynomial degrees from 1 through 8. We do not establish that the assumptions underlying those asymptotic analyses hold for this finite dataset, and therefore do not transfer their quantitative conclusions to our experiment. Their discussion nevertheless motivates distinguishing validation-based selection from independent assessment. Our proposed comparison evaluates linear, quadratic, and higher-degree alternatives using the same host fitting conventions and the same validation objective. These alternatives are applicable within the task and should receive direct empirical comparisons before any superiority claim is made. However, only the quadratic configuration with zero regularization currently has supplied execution evidence, with validation MSE \\(0.012638906669511679\\). The remaining comparisons are planned. Although sketching is included in the reference's scope, the supplied synopsis provides no quantitative sketching result, and the task exposes no sketching parameter or alternative computational implementation. Consequently, we do not evaluate sketching, claim computational savings, or interpret our baseline as a comparison against a sketched estimator.",
+      "end": 984,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\registered_spec.json",
+          "sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+        }
+      ],
+      "kind": "method",
+      "line": 41,
+      "number": "zero",
+      "outcome": "classified_nonmeasurement",
+      "reason": "The executed alpha is 0.0; the report denies that its optimality is established, which avoids an unsupported comparative claim.",
+      "start": 980
+    },
+    {
+      "claim_id": "4001e0791f549889e13c463ef8de0636112d3fb5d8936175044bc894e5ee4d14",
+      "context": "\\textit{Agent Laboratory: Using LLM Agents as Research Assistants} (arXiv 2501.04227v2) concerns the research workflow rather than an alternative regression model. According to the supplied summary, specialized agents undertake literature review, planning, code experimentation, interpretation, and reporting. This division of activities is relevant to how an empirical report is assembled, but it addresses a different question from selecting polynomial degree and regularization. Our setting places experiment execution with a trusted host: a literal configuration specifies the candidate, while the host performs fitting and returns measurements. Proposal generation and research writing therefore cannot establish predictive performance without corresponding execution evidence. The available host record identifies an actual CPU execution and reports independent verification as valid. Those properties support attribution of the reported errors to the executed candidate; they do not establish the effectiveness of an agent-based research workflow. We provide no comparison between research assistants, no estimate of researcher productivity, and no measurement of reporting quality. Such comparisons would require separate outcomes and an experimental design beyond the present regression task.",
+      "end": 86,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 43,
+      "number": "2501.04227v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "The identifier matches the frozen supplied primary-source synopsis. Literature context is not local experimental verification.",
+      "start": 74
+    },
+    {
+      "claim_id": "8914ab8d4b97b2d58ad074840860f70c769c12b6f51f555aabd7ff6c0b81cbac",
+      "context": "\\textit{AgentRxiv: Towards Collaborative Autonomous Research} (arXiv 2503.18102v1) provides another workflow-level comparison. Its supplied summary describes sharing and retrieving prior research reports through a local preprint server and similarity-based retrieval. By contrast, the present study uses a fixed supplied literature corpus and a fixed public training--validation split. Retrieved reports could inform hypotheses or identify relevant methods, but they would not replace measurements on these observations or establish that a configuration performs well under the host's conventions. We do not evaluate collaborative retrieval, report reuse, or the effect of access to additional literature. The two agent-oriented references therefore contextualize research assistance and information sharing, while the ridge reference supplies the methodological basis for the estimator comparison. Across these sources, our contribution remains limited to a verified starting configuration and a specified comparison protocol. Neither literature descriptions nor the single measured baseline support a claim of methodological novelty, successful hyperparameter optimization, or improved performance over unevaluated alternatives.",
+      "end": 81,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 45,
+      "number": "2503.18102v1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "The identifier matches the frozen supplied primary-source synopsis. Literature context is not local experimental verification.",
+      "start": 69
+    },
+    {
+      "claim_id": "95be3dfbbda18868ba5eee3bd9b537e951b81d0ab2edb988db01cf0721d0fa2e",
+      "context": "\\textit{AgentRxiv: Towards Collaborative Autonomous Research} (arXiv 2503.18102v1) provides another workflow-level comparison. Its supplied summary describes sharing and retrieving prior research reports through a local preprint server and similarity-based retrieval. By contrast, the present study uses a fixed supplied literature corpus and a fixed public training--validation split. Retrieved reports could inform hypotheses or identify relevant methods, but they would not replace measurements on these observations or establish that a configuration performs well under the host's conventions. We do not evaluate collaborative retrieval, report reuse, or the effect of access to additional literature. The two agent-oriented references therefore contextualize research assistance and information sharing, while the ridge reference supplies the methodological basis for the estimator comparison. Across these sources, our contribution remains limited to a verified starting configuration and a specified comparison protocol. Neither literature descriptions nor the single measured baseline support a claim of methodological novelty, successful hyperparameter optimization, or improved performance over unevaluated alternatives.",
+      "end": 713,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "method",
+      "line": 45,
+      "number": "two",
+      "outcome": "classified_nonmeasurement",
+      "reason": "The fixed corpus contains exactly the two referenced agent-workflow papers, Agent Laboratory and AgentRxiv; the ridge reference is separate.",
+      "start": 710
+    },
+    {
+      "claim_id": "1ad2f36bbbbd394f66cbc618c160e62f0634271b49b3227b09e7414cac9104da",
+      "context": "\\textit{AgentRxiv: Towards Collaborative Autonomous Research} (arXiv 2503.18102v1) provides another workflow-level comparison. Its supplied summary describes sharing and retrieving prior research reports through a local preprint server and similarity-based retrieval. By contrast, the present study uses a fixed supplied literature corpus and a fixed public training--validation split. Retrieved reports could inform hypotheses or identify relevant methods, but they would not replace measurements on these observations or establish that a configuration performs well under the host's conventions. We do not evaluate collaborative retrieval, report reuse, or the effect of access to additional literature. The two agent-oriented references therefore contextualize research assistance and information sharing, while the ridge reference supplies the methodological basis for the estimator comparison. Across these sources, our contribution remains limited to a verified starting configuration and a specified comparison protocol. Neither literature descriptions nor the single measured baseline support a claim of methodological novelty, successful hyperparameter optimization, or improved performance over unevaluated alternatives.",
+      "end": 1074,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\independent_review\\verified_experiment_evidence.json",
+          "sha256": "2f8de41f5f3ad6fd358a71908fda3660b0337f760272bcca989ce59d55339efa"
+        }
+      ],
+      "kind": "method",
+      "line": 45,
+      "number": "single",
+      "outcome": "classified_nonmeasurement",
+      "reason": "One distinct measured configuration supplies the regression baseline; no alternate configured candidate was measured in this pipeline.",
+      "start": 1068
+    }
+  ],
+  "report_sha256": "52d82cafc37e7e288de37df7464be0cbff04a783ba75e84909d417f5ddcf8b52"
+}

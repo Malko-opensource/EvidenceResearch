@@ -1,0 +1,25 @@
+C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\references\upstream\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\utils.py:444: SyntaxWarning: invalid escape sequence '\%'
+  string = string.replace("\%", "")  # noqa: W605
+**************************************************
+Beginning phase: literature review
+**************************************************
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Beginning subtask: literature review
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence_research\baseline.py", line 264, in run_upstream_baseline
+    lab.perform_research()
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\references\upstream\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\ai_lab_repo.py", line 158, in perform_research
+    while repeat: repeat = self.literature_review()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\references\upstream\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\ai_lab_repo.py", line 473, in literature_review
+    resp = self.phd.inference(self.research_topic, "literature review", step=0, temp=0.4)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\references\upstream\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\agents.py", line 260, in inference
+    model_resp = query_model(model_str=self.model, system_prompt=sys_prompt, prompt=prompt, temp=temp, openai_api_key=self.openai_api_key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence_research\baseline.py", line 192, in provider_bridge
+    response = query_model(*args, **safe)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<stdin>", line 5, in unavailable
+RuntimeError: provider deliberately unavailable for import smoke; no model experiment

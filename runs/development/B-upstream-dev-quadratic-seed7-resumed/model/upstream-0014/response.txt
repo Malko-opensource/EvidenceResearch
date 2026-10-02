@@ -1,0 +1,125 @@
+# Polynomial Ridge Regression on a Fixed Quadratic Task
+
+This repository documents a verified quadratic regression baseline and a proposed comparison of polynomial degree and ridge regularization on the fixed public task `dev-quadratic`, version `polynomial-ridge-1`.
+
+Only one configuration has supplied execution evidence. The remaining experiments are proposals; no improvement over alternative models has been demonstrated.
+
+## Task
+
+The host supplies a fixed dataset with:
+
+- **80 training observations** for fitting model coefficients.
+- **64 validation observations** for comparing configurations.
+- A scalar input and response for each observation.
+- Observation identifiers that are excluded from predictor features.
+
+The permitted parameters are polynomial degree `1` through `8` and regularization strength `alpha` between `0` and `100`. The objective is to minimize validation mean squared error (MSE).
+
+## Verified Result
+
+The trusted host evaluated the following configuration:
+
+```python
+CONFIG = {'degree': 2, 'alpha': 0.0}
+```
+
+| Degree | Alpha | Training MSE | Validation MSE |
+|---:|---:|---:|---:|
+| 2 | 0.0 | 0.0086303159202098 | 0.012638906669511679 |
+
+The supplied record identifies actual CPU execution and independent verification as valid. With zero regularization, this configuration is an unpenalized quadratic fit under the host’s implementation.
+
+Validation MSE exceeds training MSE by approximately `0.004009`. This descriptive difference does not establish overfitting or statistical significance. The reported digits reproduce the host measurements and do not indicate statistical precision.
+
+## Method
+
+Polynomial regression represents a scalar input using powers up to the selected degree:
+
+\[
+f_d(x)=b+\sum_{k=1}^{d}\beta_kx^k.
+\]
+
+Ridge regression adds a quadratic coefficient penalty to squared-error fitting. Under a conventional formulation with an unpenalized intercept:
+
+\[
+\min_{b,\boldsymbol{\beta}}
+\sum_{i=1}^{80}
+\left(y_i-b-\sum_{k=1}^{d}\beta_kx_i^k\right)^2
++\alpha\sum_{k=1}^{d}\beta_k^2.
+\]
+
+This equation describes the estimator family. The supplied evidence does not establish the host’s intercept treatment, feature scaling, loss normalization, solver, or floating-point precision.
+
+The host fits coefficients exclusively on training observations. Validation MSE is:
+
+\[
+\operatorname{MSE}_{\mathrm{val}}(d,\alpha)
+=
+\frac{1}{64}
+\sum_{j=1}^{64}
+\left(y_j^{\mathrm{val}}-\widehat f_{d,\alpha}(x_j^{\mathrm{val}})\right)^2.
+\]
+
+Training MSE is reported descriptively and does not determine model selection.
+
+## Proposed Experiments
+
+The planned first stage contains 20 configurations:
+
+| Degrees | Alpha values | Configurations |
+|---|---|---:|
+| 1, 2, 3, 4 | 0.0, 0.1, 1.0 | 12 |
+| 5, 6, 7, 8 | 0.1, 1.0 | 8 |
+
+After completing the first stage, the protocol evaluates its winning degree at six additional regularization strengths:
+
+`0.01`, `0.03`, `0.3`, `3.0`, `10.0`, and `100.0`.
+
+The full plan contains **26 distinct configurations**, including the verified quadratic baseline. **25 configurations lack supplied measurements.**
+
+Selection uses the lowest valid host-measured validation MSE. Exact ties are resolved by lower degree, then lower alpha, using supplied metric precision before display rounding.
+
+This staged search refines regularization at only one degree and omits unpenalized degrees 5 through 8. It does not establish a global optimum over the permitted parameter space.
+
+## Host Execution Protocol
+
+Data are preloaded. Each candidate must be submitted separately using either a literal `CONFIG` assignment or a standalone `run_candidate` call with a literal configuration dictionary.
+
+Only these fields are permitted:
+
+| Field | Constraint |
+|---|---|
+| `degree` | Integer from 1 through 8 |
+| `alpha` | Finite number from 0 through 100 |
+
+Imports, loops, functions, arithmetic expressions, filesystem access, printing, and other Python statements are prohibited. External datasets, figures, API calls, and arbitrary code execution are outside the shared permissions.
+
+The trusted host performs feature expansion, fitting, prediction, and metric calculation. Proposed or failed evaluations must not be reported as measured results.
+
+## Evidence and Reproducibility
+
+The execution record lists specification, log, implementation, split, data, model, and prediction artifacts. Their contents were not inspected for the supplied report.
+
+Reproduction outside the host requires its implementation conventions and the exact fixed data partition. No dependency versions, hardware specifications, runtime measurements, or installation commands were supplied.
+
+## Limitations
+
+The available result establishes a measured starting point. It does not establish:
+
+- That quadratic features outperform linear features.
+- That zero regularization outperforms positive regularization.
+- That higher-degree polynomials perform worse.
+- Robustness across alternative data splits or a particular noise model.
+- Independent test performance, uncertainty intervals, computational savings, or monetary cost.
+
+Repeated validation-based comparisons can make the selected validation error optimistic. Any eventual winner should be described as the best among evaluated candidates on this fixed validation split. Independent test access is withheld.
+
+## Related Literature
+
+The supplied frozen literature summaries provide methodological and workflow context:
+
+- **Ridge Regression: Structure, Cross-Validation, and Sketching** — arXiv `1910.02373v2`. Motivates jointly considering feature covariance and regularization, and selecting parameters using held-out or cross-validation error. It does not determine suitable parameters for this dataset.
+- **Agent Laboratory: Using LLM Agents as Research Assistants** — arXiv `2501.04227v2`. Contextualizes agent-assisted research workflows.
+- **AgentRxiv: Towards Collaborative Autonomous Research** — arXiv `2503.18102v1`. Contextualizes sharing and retrieving research reports.
+
+These references provide no additional local regression measurements. Cross-validation, sketching, and comparisons of research workflows were not performed in the reported experiment.

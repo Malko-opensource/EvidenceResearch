@@ -1,0 +1,25 @@
+{
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "unittest",
+    "tests.test_evaluation",
+    "-v"
+  ],
+  "execution_seconds": 1.0137192000402138,
+  "final_holdout_executed": false,
+  "log_artifacts": {
+    "stderr.log": "5f2815a8f71967b546e1880c5ba143f8973b9424f3229a7d8f5ea3ddfa4f5307",
+    "stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "real_model_calls": 0,
+  "returncode": 0,
+  "scope": "development contract validation only; not final research efficacy evaluation",
+  "source_sha256": {
+    "evidence_research\\evaluation.py": "8654e31db6dd537bce278d50c0af5f38f3cbc56326d3cb275038db5d229afd04",
+    "evidence_research\\tasks.py": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd",
+    "evidence_research\\verifier.py": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05",
+    "tests\\test_evaluation.py": "2bba0c30965c32617608f7353bd2524ea3102f84facb7bef7bf98211633e090f"
+  },
+  "tests": 19
+}

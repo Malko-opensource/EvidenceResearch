@@ -1,0 +1,24 @@
+test_efficiency_has_separate_noninferiority_sample_design (tests.test_evaluation.DesignTests.test_efficiency_has_separate_noninferiority_sample_design) ... ok
+test_failure_remains_success_rate_denominator (tests.test_evaluation.DesignTests.test_failure_remains_success_rate_denominator) ... ok
+test_insufficient_pilot_has_no_size_guess (tests.test_evaluation.DesignTests.test_insufficient_pilot_has_no_size_guess) ... ok
+test_no_observed_model_tools_is_required (tests.test_evaluation.DesignTests.test_no_observed_model_tools_is_required) ... ok
+test_sample_size_increases_with_variability (tests.test_evaluation.DesignTests.test_sample_size_increases_with_variability) ... ok
+test_uncertainty_does_not_turn_tie_into_improvement (tests.test_evaluation.DesignTests.test_uncertainty_does_not_turn_tie_into_improvement) ... ok
+test_actual_execution_and_independent_reproduction (tests.test_evaluation.ExecutionEvidenceTests.test_actual_execution_and_independent_reproduction) ... ok
+test_allowed_numerical_extremes_independently_reproduce (tests.test_evaluation.ExecutionEvidenceTests.test_allowed_numerical_extremes_independently_reproduce) ... ok
+test_archived_source_standalone_reproduction (tests.test_evaluation.ExecutionEvidenceTests.test_archived_source_standalone_reproduction) ... ok
+test_candidate_code_is_not_a_config (tests.test_evaluation.ExecutionEvidenceTests.test_candidate_code_is_not_a_config) ... ok
+test_changed_artifact_rejected (tests.test_evaluation.ExecutionEvidenceTests.test_changed_artifact_rejected) ... ok
+test_completed_evidence_cannot_be_overwritten (tests.test_evaluation.ExecutionEvidenceTests.test_completed_evidence_cannot_be_overwritten) ... ok
+test_failure_is_independently_confirmed (tests.test_evaluation.ExecutionEvidenceTests.test_failure_is_independently_confirmed) ... ok
+test_final_bundle_contains_no_test_rows (tests.test_evaluation.ExecutionEvidenceTests.test_final_bundle_contains_no_test_rows) ... ok
+test_forged_metrics_rejected_even_with_updated_result (tests.test_evaluation.ExecutionEvidenceTests.test_forged_metrics_rejected_even_with_updated_result) ... ok
+test_forged_predictions_rejected_even_with_updated_hashes (tests.test_evaluation.ExecutionEvidenceTests.test_forged_predictions_rejected_even_with_updated_hashes) ... ok
+test_report_numeric_review_catches_fabrication_and_pending (tests.test_evaluation.ExecutionEvidenceTests.test_report_numeric_review_catches_fabrication_and_pending) ... ok
+test_source_and_split_changes_rejected (tests.test_evaluation.ExecutionEvidenceTests.test_source_and_split_changes_rejected) ... ok
+test_test_leak_rejected (tests.test_evaluation.ExecutionEvidenceTests.test_test_leak_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.915s
+
+OK

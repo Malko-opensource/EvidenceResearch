@@ -1,0 +1,49 @@
+test_independent_report_adjudication_is_injected (test_comparison_arms.ImprovedCallbackTests.test_independent_report_adjudication_is_injected) ... ok
+test_no_private_payload_and_no_fabricated_target (test_comparison_arms.ImprovedCallbackTests.test_no_private_payload_and_no_fabricated_target) ... ok
+test_public_bundle_memory_and_cached_resume (test_comparison_arms.ImprovedCallbackTests.test_public_bundle_memory_and_cached_resume) ... ok
+test_registered_resource_budget_exhaustion_retains_best (test_comparison_arms.ImprovedCallbackTests.test_registered_resource_budget_exhaustion_retains_best) ... ok
+test_best_metadata_tamper_detected (test_core.StoreTests.test_best_metadata_tamper_detected) ... ok
+test_changed_prose_does_not_repeat_execution (test_core.StoreTests.test_changed_prose_does_not_repeat_execution) ... ok
+test_claim_and_registration_validation (test_core.StoreTests.test_claim_and_registration_validation) ... ok
+test_completed_artifact_tamper_fails_closed (test_core.StoreTests.test_completed_artifact_tamper_fails_closed) ... ok
+test_durable_receipt_reconciles_without_runner (test_core.StoreTests.test_durable_receipt_reconciles_without_runner) ... ok
+test_failure_search_and_changed_retry (test_core.StoreTests.test_failure_search_and_changed_retry) ... ok
+test_forged_measured_claim_rejected (test_core.StoreTests.test_forged_measured_claim_rejected) ... ok
+test_full_loop_resume_and_best (test_core.StoreTests.test_full_loop_resume_and_best) ... ok
+test_proposer_list_avoids_completed_configuration (test_core.StoreTests.test_proposer_list_avoids_completed_configuration) ... ok
+test_rejected_measurement_never_updates_best (test_core.StoreTests.test_rejected_measurement_never_updates_best) ... ok
+test_renamed_failed_config_is_penalized (test_core.StoreTests.test_renamed_failed_config_is_penalized) ... ok
+test_selection_priorities_are_not_measurements (test_core.StoreTests.test_selection_priorities_are_not_measurements) ... ok
+test_semantically_equal_registration_byte_tamper_detected (test_core.StoreTests.test_semantically_equal_registration_byte_tamper_detected) ... ok
+test_sql_immutability (test_core.StoreTests.test_sql_immutability) ... ok
+test_unknown_execution_never_reruns (test_core.StoreTests.test_unknown_execution_never_reruns) ... ok
+test_unverified_baseline_number_never_adopts (test_core.StoreTests.test_unverified_baseline_number_never_adopts) ... ok
+test_verified_task_failure_is_searchable (test_core.StoreTests.test_verified_task_failure_is_searchable) ... ok
+test_efficiency_has_separate_noninferiority_sample_design (test_evaluation.DesignTests.test_efficiency_has_separate_noninferiority_sample_design) ... ok
+test_failure_remains_success_rate_denominator (test_evaluation.DesignTests.test_failure_remains_success_rate_denominator) ... ok
+test_insufficient_pilot_has_no_size_guess (test_evaluation.DesignTests.test_insufficient_pilot_has_no_size_guess) ... ok
+test_no_observed_model_tools_is_required (test_evaluation.DesignTests.test_no_observed_model_tools_is_required) ... ok
+test_sample_size_increases_with_variability (test_evaluation.DesignTests.test_sample_size_increases_with_variability) ... ok
+test_uncertainty_does_not_turn_tie_into_improvement (test_evaluation.DesignTests.test_uncertainty_does_not_turn_tie_into_improvement) ... ok
+test_actual_execution_and_independent_reproduction (test_evaluation.ExecutionEvidenceTests.test_actual_execution_and_independent_reproduction) ... ok
+test_allowed_numerical_extremes_independently_reproduce (test_evaluation.ExecutionEvidenceTests.test_allowed_numerical_extremes_independently_reproduce) ... ok
+test_archived_source_standalone_reproduction (test_evaluation.ExecutionEvidenceTests.test_archived_source_standalone_reproduction) ... ok
+test_candidate_code_is_not_a_config (test_evaluation.ExecutionEvidenceTests.test_candidate_code_is_not_a_config) ... ok
+test_changed_artifact_rejected (test_evaluation.ExecutionEvidenceTests.test_changed_artifact_rejected) ... ok
+test_completed_evidence_cannot_be_overwritten (test_evaluation.ExecutionEvidenceTests.test_completed_evidence_cannot_be_overwritten) ... ok
+test_failure_is_independently_confirmed (test_evaluation.ExecutionEvidenceTests.test_failure_is_independently_confirmed) ... ok
+test_final_bundle_contains_no_test_rows (test_evaluation.ExecutionEvidenceTests.test_final_bundle_contains_no_test_rows) ... ok
+test_forged_metrics_rejected_even_with_updated_result (test_evaluation.ExecutionEvidenceTests.test_forged_metrics_rejected_even_with_updated_result) ... ok
+test_forged_predictions_rejected_even_with_updated_hashes (test_evaluation.ExecutionEvidenceTests.test_forged_predictions_rejected_even_with_updated_hashes) ... ok
+test_report_numeric_review_catches_fabrication_and_pending (test_evaluation.ExecutionEvidenceTests.test_report_numeric_review_catches_fabrication_and_pending) ... ok
+test_source_and_split_changes_rejected (test_evaluation.ExecutionEvidenceTests.test_source_and_split_changes_rejected) ... ok
+test_test_leak_rejected (test_evaluation.ExecutionEvidenceTests.test_test_leak_rejected) ... ok
+test_file_bridge_cannot_impersonate_real_model_evidence (test_model.ModelEvidenceTests.test_file_bridge_cannot_impersonate_real_model_evidence) ... ok
+test_model_tool_use_disqualifies_execution (test_model.ModelEvidenceTests.test_model_tool_use_disqualifies_execution) ... ok
+test_real_trace_contract_caches_only_identical_requests (test_model.ModelEvidenceTests.test_real_trace_contract_caches_only_identical_requests) ... ok
+test_unknown_model_execution_is_not_repeated (test_model.ModelEvidenceTests.test_unknown_model_execution_is_not_repeated) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 3.131s
+
+OK

@@ -1,0 +1,1 @@
+{"event_index": 0, "kind": "baseline_failure", "error": "RuntimeError: provider deliberately unavailable for import smoke; no model experiment"}

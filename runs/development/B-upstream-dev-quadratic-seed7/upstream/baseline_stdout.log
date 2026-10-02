@@ -1,0 +1,48 @@
+C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\references\upstream\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\utils.py:444: SyntaxWarning: invalid escape sequence '\%'
+  string = string.replace("\%", "")  # noqa: W605
+**************************************************
+Beginning phase: literature review
+**************************************************
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Beginning subtask: literature review
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ literature review ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```SUMMARY
+polynomial ridge regression regularization
+``` 
+~~~~~~~~~~~
+@@ Lab #0 Paper #0 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ literature review ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```SUMMARY
+ridge regression optimal regularization risk
+``` 
+~~~~~~~~~~~
+@@ Lab #0 Paper #0 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ literature review ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```SUMMARY
+cross-validation polynomial regression
+``` 
+~~~~~~~~~~~
+@@ Lab #0 Paper #0 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ literature review ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```FULL_TEXT
+2501.04227v2
+``` 
+~~~~~~~~~~~
+@@ Lab #0 Paper #0 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ literature review ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```ADD_PAPER
+2501.04227v2
+Agent Laboratory describes an LLM-assisted research workflow in which generated code is executed and an LLM reward model guides code selection. Its relevance is methodological: proposed polynomial ridge configurations require actual execution and validation MSE measurements. The supplied section 3 excerpt contains no quantitative experimental results for polynomial ridge regression and establishes no optimal degree or regularization strength. Section 5 discusses self-evaluation and hallucinated results, reinforcing the need to distinguish literature claims from host measurements. No task-specific performance, baseline improvement, or test-set result is available.
+``` 
+~~~~~~~~~~~
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence_research\baseline.py", line 274, in run_upstream_baseline
+    lab.perform_research()
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\references\upstream\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\ai_lab_repo.py", line 158, in perform_research
+    while repeat: repeat = self.literature_review()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\references\upstream\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\ai_lab_repo.py", line 526, in literature_review
+    if self.except_if_fail: raise Exception("Max tries during phase: Literature Review")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception: Max tries during phase: Literature Review

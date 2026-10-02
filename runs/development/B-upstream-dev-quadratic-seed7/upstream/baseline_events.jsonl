@@ -1,0 +1,10 @@
+{"event_index": 0, "kind": "model_call", "model": "gpt-6.1-sol", "prompt_sha256": "b23838ac9698f23f57dd9b25fc12c5bc771a08e2dc372b6e53a833a838810892", "response_sha256": "247e895e07f36160f50db11342a4e5bc6e88be9fe5656464bcda8573638305e8"}
+{"event_index": 1, "kind": "literature_search", "query": "polynomial ridge regression regularization", "requested": 5}
+{"event_index": 2, "kind": "model_call", "model": "gpt-6.1-sol", "prompt_sha256": "cd6e2e5e9e8c0b4f9d41e5eab82e18b27e61806e929a1f51c1f411c6f09a76b0", "response_sha256": "1eec81d36a884b5cdb046595f01377a5d43819856892d6f767110f39f1eeda5b"}
+{"event_index": 3, "kind": "literature_search", "query": "ridge regression optimal regularization risk", "requested": 5}
+{"event_index": 4, "kind": "model_call", "model": "gpt-6.1-sol", "prompt_sha256": "2fe71820310e15ed07eeac86df34f239aaac7f0a09f4855053599daee6dfb7e6", "response_sha256": "64e0e81a0134a624b279359d1557e4e12fbc26f0525794e3a415e68221e8979f"}
+{"event_index": 5, "kind": "literature_search", "query": "cross-validation polynomial regression", "requested": 5}
+{"event_index": 6, "kind": "model_call", "model": "gpt-6.1-sol", "prompt_sha256": "461f90906f0d84d90c78821430bcc05ee3d1ea20de7feefa470a9efaada0c86d", "response_sha256": "7bf62fce4247f5ad8404ec38ea3a7f386c437bc2c9433c69a3be788ffb0381d1"}
+{"event_index": 7, "kind": "literature_full_text", "id": "2501.04227v2"}
+{"event_index": 8, "kind": "model_call", "model": "gpt-6.1-sol", "prompt_sha256": "41f894ae1c927e06526eced72388ce3672aabfa6ab6c834ceb3f92bb719947a9", "response_sha256": "15611e918618a5f038eccf627d7a98b13f013e55bc13e219390a77dc885e13b2"}
+{"event_index": 9, "kind": "baseline_failure", "error": "Exception: Max tries during phase: Literature Review"}

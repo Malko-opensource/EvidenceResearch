@@ -1,0 +1,11 @@
+{
+  "baseline_result_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\upstream\\baseline_result.json",
+  "baseline_result_sha256": "9b191ef632f164fc67b253ff3a9985c87ca6e39858273530c05446c1ee583e35",
+  "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\upstream\\lab\\tex\\temp.tex",
+  "original_report_modified": false,
+  "original_sha256": "52d82cafc37e7e288de37df7464be0cbff04a783ba75e84909d417f5ddcf8b52",
+  "reviewed_report_is_final": false,
+  "scope": "development partial upstream report; pipeline stopped at an external model failure",
+  "snapshot_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\independent_review\\partial_report.tex",
+  "snapshot_sha256": "52d82cafc37e7e288de37df7464be0cbff04a783ba75e84909d417f5ddcf8b52"
+}

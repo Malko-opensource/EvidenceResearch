@@ -1,0 +1,20 @@
+{
+  "kind": "upstream_actual_adapted",
+  "commit": "d9017d90e329112d2a80b7712f37ee9094d2cd27",
+  "task_public_sha256": "927add6511f1e4e0080631a0d8cd10fa5a07dd9c7268d2243ba430176581d77c",
+  "settings": {
+    "model": "unavailable-smoke",
+    "max_steps": 100,
+    "mlesolver_max_steps": 3,
+    "papersolver_max_steps": 1,
+    "num_papers_lit_review": 1
+  },
+  "literature_sha256": "26a3219f96cedbe90fba656d4fbe62a5c72636de82019d329ddb3a391444d783",
+  "source_sha256": {
+    "utils": "ea23c00695613ab346ac6646f69dbf2b0972efda7c1cafeccd5ffdb4f5f439c8",
+    "agents": "d8d1eda040eb1fa897d84596a1b36f277e83da75433c1a9ac2d9efe5be5c749a",
+    "mlesolver": "cc110f2b07642532cca11bd8cbf74becfc41016c7f876c16f6d40379ec59882c",
+    "papersolver": "8c16d68577570fbf6332d3f070e5aec975ed3fd3e1440918940f16eb8911366c",
+    "ai_lab_repo": "799a3c078d835cd632487f52ed5b8e9f155bb9514ca104a30442ecfbcb7765ff"
+  }
+}

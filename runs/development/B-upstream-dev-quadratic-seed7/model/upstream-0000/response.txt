@@ -1,0 +1,3 @@
+```SUMMARY
+polynomial ridge regression regularization
+```

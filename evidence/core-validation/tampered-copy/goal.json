@@ -1,0 +1,1 @@
+{"memory_query":"dev-quadratic","objective":"Validate actual CPU evidence, failed/successful research memory and reuse","research_criterion":{"direction":"min","metric":"validation_mse","task_id":"dev-quadratic","threshold":0.15},"task_id":"dev-quadratic"}

@@ -1,0 +1,283 @@
+[
+  {
+    "claim_id": "91e108de7e8e8a7e094280ecf8317a3f50c8f8ff9eb84d15bae66387ff410e91",
+    "kind": "method",
+    "rationale": "Actual split files and their independently verified manifest contain 80 training and 64 validation observations; this number describes data or MSE normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "e4c5d6d34623f762521a56f8195ec4d1b2ac471084183bf6e536ab29464a5f61",
+    "kind": "method",
+    "rationale": "Actual split files and their independently verified manifest contain 80 training and 64 validation observations; this number describes data or MSE normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "2d715cab9d45e471b2b5c271420174859fdf15234960e07b2321af1b613129ed",
+    "kind": "method",
+    "rationale": "The actual preregistered configuration is degree=2, alpha=0.0. These are executed hyperparameters, not predictive measurements.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "374860ddec86b43ca5aa7c15089ec25c998acaf598af85347f974b83636ac433",
+    "kind": "method",
+    "rationale": "The actual preregistered configuration is degree=2, alpha=0.0. These are executed hyperparameters, not predictive measurements.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "af6084263dcfcca2563588e5b5067a23a9816e73825dcc33e21b7955adf153d4",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "The value equals independently recomputed predictions for this fixed split; both actual CPU executions agree.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000"
+  },
+  {
+    "claim_id": "862ee54c84a154947aa733daed46a62351e0ccc01f4c56da5fda24e48d59629a",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "The value equals independently recomputed predictions for this fixed split; both actual CPU executions agree.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000"
+  },
+  {
+    "claim_id": "f1306810afc93899db965f4a659865d65dfe3f4fa1203f8506d9b08a20df5285",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "6da73244014778ae98760d2737869b1247e9854401021032199d3567783647a7",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "6b300b9383f81f92b9a4a7d5fbaf3027f8c287024b75731b34ff0b77c2434f86",
+    "kind": "method",
+    "rationale": "Actual split files and their independently verified manifest contain 80 training and 64 validation observations; this number describes data or MSE normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "f2e9751632ee2044e5315c87ada949d014ad6ef5aa8760161c8dbc963cdad294",
+    "kind": "method",
+    "rationale": "Actual split files and their independently verified manifest contain 80 training and 64 validation observations; this number describes data or MSE normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "1b7cddbb9e040d50fe6046c1a45c474384279a07f1680193e3363b22b7893af4",
+    "kind": "method",
+    "rationale": "The trusted configuration validator allows integer degrees 1..8 and finite alpha 0..100. These are permitted settings, not experimental outcomes.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "3d5cd8cb7e1d0f2d58f8b830d02bc9fa5d0d45e914910c0ae1c510b1db36bbc2",
+    "kind": "method",
+    "rationale": "The trusted configuration validator allows integer degrees 1..8 and finite alpha 0..100. These are permitted settings, not experimental outcomes.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "15ad67e8bb0e9b9985245ca4edb54004c8c5cf53e840ba5fa9438a338a87e953",
+    "kind": "method",
+    "rationale": "The trusted configuration validator allows integer degrees 1..8 and finite alpha 0..100. These are permitted settings, not experimental outcomes.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "8a4cb803f65a2400962ad8f641650ec598c57fd4c46d7b1eb262bb2c1ef7fb6c",
+    "kind": "method",
+    "rationale": "The trusted configuration validator allows integer degrees 1..8 and finite alpha 0..100. These are permitted settings, not experimental outcomes.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "9a30c282b325c3c915a6c8b591f529cf73a9ca3558fb76ea0e0b4d4cc578d1ae",
+    "kind": "method",
+    "rationale": "This is an index, normalization constant, or squared-error exponent in the MSE definition, consistent with the fixed independent calculation; it is not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\source\\evidence_research\\verifier.py",
+    "source_sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+  },
+  {
+    "claim_id": "ab01f03f7f80c35bd9cb50d1f2298eda157a70a7f867eae5c7ddf134fe91e8a7",
+    "kind": "method",
+    "rationale": "Actual split files and their independently verified manifest contain 80 training and 64 validation observations; this number describes data or MSE normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "da30582f7390bda80bfe29d39d803511df810d2945ba6f56b81f0f3b4a388133",
+    "kind": "method",
+    "rationale": "This is an index, normalization constant, or squared-error exponent in the MSE definition, consistent with the fixed independent calculation; it is not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\source\\evidence_research\\verifier.py",
+    "source_sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+  },
+  {
+    "claim_id": "474b816659d0329c06c44094a97897bc728a943465631ce80cddf73cd659790b",
+    "kind": "method",
+    "rationale": "Actual split files and their independently verified manifest contain 80 training and 64 validation observations; this number describes data or MSE normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "00fa834264bcff42ef5934e2560371cb3948cb0fc9d84cbd69dd8321553aa70a",
+    "kind": "method",
+    "rationale": "This is an index, normalization constant, or squared-error exponent in the MSE definition, consistent with the fixed independent calculation; it is not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\source\\evidence_research\\verifier.py",
+    "source_sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+  },
+  {
+    "claim_id": "97efb178bca68e741dc5a81f10f823df222d592567bc9d81fde9551f7a3ea17d",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "140dfeb6e8c7090ce0ed8767264d7d9d4253e7fb5c0c2e3a06c6f1b2346e039a",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "5c9e895d3e493e1d40a48db99f9c8da143ba2998839ff6f28b4b6269d290f4ce",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "e578fb8aec72ab2127b08903688c17f9dba9e92eb315f9ceaf65d270d5f7b52c",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "e8794ba5cebb05fa3ff5222264883d98d9e59bd183d8b2f14c872549115f5e9b",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "63a5706579357b9f7b4d08be1d22c2b99f6167f934f3d128de14b4ea0a9c5797",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "1b2d1af751a4426eb0b21ef71af8b33f0873747bf5dbf44238e84fa40e29bf35",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "9ff48a95b14953639b82b92bd8e24cc90b2385d42c6e4ba902a0b5e8fc83813a",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "5c14c025125e0a394307757d00ffdf31c9e7cad5ef71b3ecd5379ef1e529588a",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "4b4e50a81c5ba73f0e5607314a7bced386074bff2971bbefb8d71f77602019bb",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "94deeba47133addd9b351309b7f1a5aa210f5553edffa7f7043779dcd905a20f",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "26d22a7944905a7c0218445dca2defd3d781ac64447a6a830b50e4e163c21afc",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "ac1471ac396906f4b9f4a804043b7341d33f3656c3b6066f34396772d72f5f88",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "aa20ad8c14975aafc3309e2aa221f834c1b404280f40826b3d6c1f2bb1081f3c",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "6f559d94205e98aae76429b03424d797124ddc5c2aa37e8f218c46272f75a9d7",
+    "kind": "proposal",
+    "rationale": "The sentence explicitly specifies a subsequent unexecuted degree/alpha comparison; this is not an achieved result."
+  },
+  {
+    "claim_id": "ffde7e12c22fa0774f016db10fc0f59f335cf6e5f0c76989937dba5e4aa2eb8d",
+    "kind": "method",
+    "rationale": "The actual preregistered configuration is degree=2, alpha=0.0. These are executed hyperparameters, not predictive measurements.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "1d6274b7f8cc3c21260ba50879b4cea5676deec01fd8eededce496c708611978",
+    "kind": "method",
+    "rationale": "The actual preregistered configuration is degree=2, alpha=0.0. These are executed hyperparameters, not predictive measurements.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "f22a18893403c14b982f973fd8c53929c3d7535771486c17950248c45f4f6c23",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "The value equals independently recomputed predictions for this fixed split; both actual CPU executions agree.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000"
+  },
+  {
+    "claim_id": "8b3056463e5b75587017472eec147f5e03629ff5bdd8f210f44e300e21a5fa0e",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "The value equals independently recomputed predictions for this fixed split; both actual CPU executions agree.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000"
+  },
+  {
+    "claim_id": "af4703262a594ca312ed6c5af298c67f9a5ae4a2fb7b5375f87031978831c206",
+    "kind": "method",
+    "rationale": "The actual preregistered configuration is degree=2, alpha=0.0. These are executed hyperparameters, not predictive measurements.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "cd23872aa104519a405ad7739f6be2d2adbadc8454661707c41ddd1354081f5b",
+    "kind": "method",
+    "rationale": "The actual preregistered configuration is degree=2, alpha=0.0. These are executed hyperparameters, not predictive measurements.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "b0abf866d9fc72bcc6375f949127293148713f88618f539e88328e3eda16580c",
+    "kind": "method",
+    "rationale": "Actual split files and their independently verified manifest contain 80 training and 64 validation observations; this number describes data or MSE normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "53180b0c4325b6a1175b19708baa43eebf4a70754399808af975298895099c59",
+    "kind": "method",
+    "rationale": "Actual split files and their independently verified manifest contain 80 training and 64 validation observations; this number describes data or MSE normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "8c97a94beeb52508b68f57c53dda18c63139a8d15e8ddd3730ecfe345f37d727",
+    "kind": "method",
+    "rationale": "The trusted configuration validator allows integer degrees 1..8 and finite alpha 0..100. These are permitted settings, not experimental outcomes.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "8f67b613fced2e83f642271a384f8b83c579af395413cc9a25cf83aac60b9b69",
+    "kind": "method",
+    "rationale": "The trusted configuration validator allows integer degrees 1..8 and finite alpha 0..100. These are permitted settings, not experimental outcomes.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "5707b02928b958fef193a6a7239ee9260230b0e30433100bafc051ede5664351",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "The value equals independently recomputed predictions for this fixed split; both actual CPU executions agree.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0000"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "acquired_date": "2026-10-02",
+  "kind": "authored_source_synopses",
+  "source_inspection": "arXiv original paper HTML/PDF; synopsis is not a full text copy",
+  "publication": "bibliographic links and short authored synopses only for ridge paper; no redistribution of its full non-exclusive-license paper",
+  "records": [
+    {
+      "id": "1910.02373v2",
+      "title": "Ridge Regression: Structure, Cross-Validation, and Sketching",
+      "authors": [
+        "Sifan Liu",
+        "Edgar Dobriban"
+      ],
+      "url": "https://arxiv.org/html/1910.02373v2",
+      "abstract": "The study analyzes ridge estimation, regularization selection through cross-validation, and sketching approximations.",
+      "text": "Frozen source synopsis, not a full-text copy. Ridge Regression: Structure, Cross-Validation, and Sketching, sections 2 and 3, studies squared-error fitting with a quadratic coefficient penalty and selection of regularization through held-out/cross-validation error. The closed-form ridge solution depends on the feature covariance and regularization strength. The paper discusses validation bias in a high-dimensional asymptotic regime. It does not identify an optimal polynomial degree or alpha for this task; those must be measured from the supplied public training and validation data. Mathematical facts are literature context, not local experimental evidence."
+    },
+    {
+      "id": "2501.04227v2",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "url": "https://arxiv.org/abs/2501.04227v2",
+      "abstract": "Specialized agents perform literature review, planning, code experimentation, interpretation, and research reporting.",
+      "text": "Literature claim from Agent Laboratory section 3: experiments execute generated code; an LLM reward model guides code selection. Its section 5 discusses self-evaluation and hallucinated results. This is not independent evidence of task performance here."
+    },
+    {
+      "id": "2503.18102v1",
+      "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+      "url": "https://arxiv.org/abs/2503.18102v1",
+      "abstract": "Agent laboratories share and retrieve prior reports using a local preprint server and similarity-based retrieval.",
+      "text": "Literature claim from AgentRxiv section 3: agents retrieve reports through a SentenceTransformer similarity search. Section 4.1 reports hallucination/reward-hacking risks and human checking of experimental outputs. Retrieved reports require verification before adoption."
+    }
+  ],
+  "records_sha256": "9c11b48ffdada4306ce899dc3ec91826ef10e8152e6452b86f98b58749d926cb"
+}
