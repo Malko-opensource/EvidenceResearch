@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "published_commit": "60979ec9e4305cefa384b96e90d8110f2883b88e",
+  "checkout_clean_after": true,
+  "auditor_source_equal": true,
+  "replay_result": {
+    "path": "fresh-published-60979ec.json",
+    "sha256": "b526c3614c463a317e79cc76e41c6c6ea828be4c7185211181a9e534b5ba0c80"
+  },
+  "guard_result": {
+    "path": "fresh-published-guard-validation.json",
+    "sha256": "3e20f7af8315bdd1fb228d6132de345381933c2b7df288c846fb50cb5f47421e"
+  },
+  "actual_model_calls": 0,
+  "new_runner_executions": 0,
+  "scope": "New remote checkout and its own published auditor, original absolute root unavailable through mapping; full original byte preservation, metrics/resource replay only."
+}

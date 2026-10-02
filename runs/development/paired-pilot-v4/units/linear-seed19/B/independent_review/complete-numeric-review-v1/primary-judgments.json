@@ -1,0 +1,1319 @@
+[
+  {
+    "claim_id": "7eb874f3fec42e5f93e8a69b53e021226896960f0bc1cabe8802aeae020b2355",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "aba1b8ce223a225283f3395acae57db1adc5bf3adcdf0014e10b1e04bd454fc0",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "3207f6f2a29a32c363991e7a173bc9aa5f0241a2ce48cfe3c5b3055aad61b54c",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "4c7fd933beea22feb4e8d4b8600d05ab7f3a1c92e78e45c726681b4f996ea6ed",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "5ebe3e098e5ae2b8507b0538af65b86a25b0b9592a7e20ff80908f3145afeccd",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "bde291dfb2d74a3d07e6f51518c3e61131ef686e23f2a13f879ad4e0816d2531",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "d93a0b72fbb35cbc2f8321d684285e245694d2f363b056bd3b047ea939e2530f",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "42e59798aba0cbe478297b8346215932e057d17ba4cd6da2e584ddf660778ba3",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "76c5c65357200653193ad8930c4f888023db7e6090c9126c98e29c41d28e7217",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "e76e5b317de0ece4e015205e718697fa01fd15e7d4e0cff9fc6cf32db82c49e6",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "f0ceeb1b01298ce0f3af2c4bad10f0c983f1fe6c4ea851dcb75783e06de8497d",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "2d991e046be5ba623b451b8cbffb3feb04748bd50a58d77341819618c4642192",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "db26ec51a2584922dd1a46918c87f7c5a6d27b296e9bdd1e7750f0224e67b5f7",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "7b5b1dc6cd315d8e7e69ea7896996f3fe679c26e3e88b1aed14161e67775f043",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "86ee003edc726e8eb9e8349dcc9213eefcccb7a68d43ae867e4b171f43d06498",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "fea35893852e5a872ff5896c3ab12e7922f9e3ee002e1cdb437c99e9bdcb3976",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "f41058449b32cd3dea4218ae2a69c0922187c7a5bd7342749f88517627a1204b",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "3d067b45a69bbc2b0fbd376df183127ad06e70a38b4727afb6c3e7f51b72a163",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "42db0063801aeecf36174c9422b0bb7a2df81311826a4f340134bfc22af7dace",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "af03066acff7f5a3fd0395d0475f60f141a919e755e4c58604063c56f75bcf1e",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "f94401ec8ede4060f531cd4b5a7c02ef8aa00f3db53bde33e6f9ecf07659a31f",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "064d27cc0bf90105cada0893670c10a0ec3ce1d4cf64fbfe41ed2e37dab7547e",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "1c534d2e7b0f951fa7e9d6f0caff8fb983bb3b0491f4978c1a3259ec32ad81e6",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "403535a91fe806bfb3eb477969a378505a6d672a409781d5c68411d1d415ab7f",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "db14b659713f3685d767049fcbf77b301c622e8dcfce2b4433156c3835e10cc6",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "fe6a08ad097d7c7d14b08a0c335b9ae3a746afb86ce7d706406cb911550ee71c",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "dedd3758453de5afceb09a3e5c32df70c648eb74d68577c31337fda8634f4110",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "1847c893abd324ab41d32a81e577a94e47b6107d6b8faab6824b2a12e997c01e",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "9b10cf7cec22efdbc3c1ea1c3274963f33262d8ce7ed89f989df699f5f815c47",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "28ae0d348b23861966d27634b1e643047d71843c04a690f3a1356c83f1948e0b",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "5ed6b9c26c445e998465b2529198b81dec7891da8ea19cd55a63aa9b13643388",
+    "kind": "identifier",
+    "rationale": "Named actual invocation identifier, not a new experiment quantity.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "8841b0c0f2824feed69d3411db16f3564352dcc0cfee4b730c6c4df97d68423b"
+  },
+  {
+    "claim_id": "9727564118b4fc8bbc24d321a73bfa3094259a3ac5c8a585181abd257eaee85e",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "27030a8256662132bf3740819d994f3e6899b0dc56c8844770953b3abedca678",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "b4b846aa8bedf14f9709497fe5f0b6312e01cd3d5f625b798ccb8481f4ea43f6",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "996827929344803ee1aea22127fc51edf0b2d28ce17fe93a5878d7c99c2a1c83",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "6c3c254f6f474d6e92c87c31103682285efde2085cd65f845e3760ddc1a25ae2",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "df188c8d6b089e54cc7e143fcdc64b97f823c7d01cab7e986f62d8ff1841695f",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "e9f8fcbf680de4df8102758edba20f8ae524eed232833246992187d7f262cd45",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "638fba159cb6db5808db516c94917ccead70d579cf839a307c9d5659a1a66592",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "064583637648723ec59bdae334eba6692824afdf5ef9dbefb57e7024c65c01b8",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "37ced72bbff70ab0aee40b36a341098559dc74a4ef811231dc861de86dc6da8e",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "f9814b364cd03b35f40b6caff8df1346804521ee4b95814116da564c469b61a9",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "526c294dd197d4503e77536a7ecf7836ff50de32b44ee1cd078fcda62269ab43",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "cf243538ae88cb2d1145a3c8281c3093885e1e55ffd7e81ff89f10a9ad279f6e",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "0af6f0cd569ed421f1718cbb2366792be525a394755634858d422f9677363b4a",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "ef6c2ab625d6512d3f614373841da20cef0db417e91054e0e583cec16ba85646",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "d5715165dfde9f6097bc082b9056b65474c515c5af5b74d7fa75a7cf5f927065",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "ffd3cbb37f8dcd56db06d8e8e90e486921eea2d58c4d0e2d38b1a01e7fc8dca5",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "d85dd0a12a15646e3df0099674d44cfc3fbae71c3a374c79bc6681e9ff726470",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "72f216b5517a458d2d00997786db7f2eb8a30a2c1b00c41f06f941161749c7ff",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "73f86c55db0f17d66bb5dcd1c1b66cee392df0fb7bbcfa45c64719c980bc13b4",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "4463074a8fd2c4b2c810489305ea92d7df9d48cafe79202b62193b7b616f6720",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "f79992de3f1ee93cd1e3ccd0045374e140fb98f01c6e11058c99798eab81bc85",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "e23950d6369156d23651226c6eea67b05a24ecb8a294fa89072fecb5bc42e1be",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "3bb9df901420ec942654b3ae7c51e7dead88c2797d2aa8a1f4727618295624ee",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "d87f21d767f2fa5df6b2cb00910b307ab2087a1a2fd581332b2ed0c2de8781c5",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "f3b42ceb77967ceab2d8516c826af164680f6e9bbf5a51df4a6e2108ee1316b4",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "c184eebf6fc95fbc88d49a3e46e69becfe3161ea7c981498510b686d4334f26c",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "693493631a71b77e75c85a774b000f8bccec5cc03728f2b09dcc4418addf7628",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "072ed2740e2789a73e2946fff04d835a6b6834fee5889cf8b0f97bdcabd34f50",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "3af6af2e984df4481cd1d3b3dc9f2071b4eb54a14a611fa1f2f3ddf45f5757a9",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "2809f86901c481abf7a7d4c6984ab31baa9d4a0c2b322d21b45de5b2d4b30069",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "b3b60a5e89811ee9bc2f95bc1fb9d24770e6c418686525bdcedecac0bbf727f5",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "6ab202ca79939393595a2b76bf205c569c9c29f369b1240f7819f6a29bb1c171",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "d977bed86abc7b3921ef78c73e23c582c98af6453fd5a8180a4a0580e99cbccc",
+    "kind": "identifier",
+    "rationale": "Named actual invocation identifier, not a new experiment quantity.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "8841b0c0f2824feed69d3411db16f3564352dcc0cfee4b730c6c4df97d68423b"
+  },
+  {
+    "claim_id": "83200ee62301bd537c38705317efb22494cc0dc4ffbd6114607f7020d54c9492",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "fb0ac5ca0e9f8002479900161ae8e692b6265881d10af4d264c08f0c409763da",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "c461a7b4cdf8c3c58b057d6d46436b9ed0168af6530b19ea03b3abf43199780c",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "d1886dfdf7936cfc7a6f447f7a39262e47d46c2439dcbd92fe360b0721fe832b",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "a8f58f8c6a034837dcf152675bfa654c7b4362affc1a4142327a13db4a3937c3",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "96d2df6b6d3d3e617400acf9120ccf8d8bcac01f1528b3fbd7878d83ad95c60b",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "831c554d85a11a28187013575e456aced8e291460dc7187cc4d252a75b510f58",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "2ce7a6218c4004f87e7d578d2c58dc81788f35972aefd3381ac7469ee47ec1ef",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "928bf6ca3f70c8f094a34a570632dcfe52116ca6288b0b96158e137538dbd9cb",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "41c066226819576191cb7aa18aaeaf4e5cbb482cc16c6af18a4678f6aaefcf1b",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "aa59963c9f2d5e8fea63297ffb5ce5e4dc4c100d060ff59803f94beac13b5521",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "5d04d4fc451c20bb528b5067e1655b08a70384953a0f5f474af8e0920dc32b40",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "952e75660a34516ecaf12774246e2dd54d959b07ffdf676008361ccee57841e7",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "b3e7d615430f3cf560ecf6e1f9cc5d4cbeafe6f557794e94d6d750ae6f70a3c6",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "77038dda0d399699c42fe9a0d86ef1d13852c1d627a90406880f8e3b44725be4",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "f2409ce39e7c8a4741497274219c5c61c445caf0c63b66865ca5805bcd245063",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "f8e29e0e4082d5cde65edf238c77590709507f5c29aead4706c17222b6415aae",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "3776ebbb301ede444eeba9c61946f9b8e93e0fbaab2b8e916620ee71b74dfabe",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "e1973decc1fd06de58d8df11a162f9f1d3214968066de471220c98880ce11823",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "73d5c6d0471e79434133d916e2f5f1b0128e4da176cbd346e1b2b82946f0add2",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "301f54a01df266dd0e34b1657b216c0452130d3ac9d2967f1c08cfa1edc8c4dd",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "6ae4c39697245b7c1e3c6c6d0d6cc3212e42d46c84f0852dd51c26d7f237dfc9",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "a62d6ad7b2912bcc68dac74054a1984bd1ea84ad41c1af93dc5cfdf5f3ad6601",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "044ceda2e3153abc205b51f84e7dbb262f00bde1ae0c69041f410a8e6745ae22",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "ad61ad0d18c0281d33d772b29298185165c7361bacf2ec69bbf5233a381f181b",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "f768cc24022cb442684149d1a34b8680978cf7fdb917487394716452c774478c",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "a94462b7b8d4a05faf6d31bb9521786a00d866066faabab72d7cc89667a745e5",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "7cc2b247952aad8ad67eedbfbc56bdc26a8a698446d51d77841a2c88dbcc1e7a",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "3454791b69072f580af7c75c7e18e218124ab8158e5140ca62bb75f2ec1718b4",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "3bd7608df705627f8e3affe18d67768635395b93e13db193de531ebe8bb88661",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "5565353ee1dbe91d78756fa679b8be4d28015e08f3e42e0e11cfd88ca67f6503",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "230a651557d666126fbfe2f01fb1636c385122d0dfbc48c017f2a42b31b0c119",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "9d175599a80e6812645a62937331c7768acd8937bbbbd1ec6bd29aa128c1beaa",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "670c24f73e21ada4dabcf94e0f5e2d16480b2e85860f1824b8e88af555f509a6",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "94191209767dd408c4883d5e2e4a89797015a1f4916d318359d0ad98c17c1a34",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "41ffeccc953345e37f7ea3b6414efb6b053fcf2579c7ce7a96ae3baf6b8c7808",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "691c0fd8ac3a27a06dff6a88ce6ec95332131cdd4c63e3b68663afa328a204ad",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "d48519f532aa667fb3ae55f26c254c4895ea4401978dda71d250451af46b168d",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "1bb626102f650d90f4e22c42501f27f8a8d4200f15086e3c394bb0c6c71faa85",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "0bbec3b80639dd389c631000777a1583cfb553325d03431a5b4c794225bf2f5e",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "c00a2ea2bd4d11f6985fbad644a46238c92e9046276a87ced7784064b7f9a464",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "2076f5d1f13fee07737f8297e38ed5113274bf25b62889188277a9a0b0afb8e6",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "6747de59b4d400148638e5b738e2398d5bbc6c16bccd1e7ca8a1f5fbd9d21f2e",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "d5947bf5ea8995b57dfa0d87aade67dbc1c628738ea8cf8ea92919443b192800",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "de23948dc9ddb5841360563668ff1815ba31e45dd5924dacb618501471e00759",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "932d824802d25044917fdda381cb23fe34bd27c04f65700a77361cb785fefaa3",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "ff26ded538621423b46c1fd316913972f13cf3b63af7fad4bb929a6722d5a996",
+    "kind": "identifier",
+    "rationale": "SHA-256 hash algorithm name, not measured task performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "dd28a7d157b17f2afa875d8b5f7d5e8f9b57d687573309c6ccbd502d7a6eb723",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "acc75dbcc11d150ecaa71794efe3c03c90d8feaee7735051242d682fa2338707",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "efc9862a583ff031b69fc182c0fc4c648a56861ab6a33d24239d838d95c3ec0f",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "b9cb683409ce327d1f863d6aad999d1af7a1b18a74d975b65c55a079b74e4a40",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "22fbe68770d4f06b9dc8bf3cee8b0b30690cb179a7fa1f5f3e23df8b0f091ed2",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "995c9f57d2ae45fea4aa33b215a38854e5c766d95614dd51ad623f23996485e6",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "6aec2da38dd3013c78c5f393c2f6ec7725bcaed818afee678a07bbbef3d59d37",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "5fd400a1b4863a309629157463402a346fb9d86e1244b9fa72b952b2291c81d8",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "d776748df193edda9f4166a13b2daa75a65fd8ab2c4f48be2a9ca26efdda6a30",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "9dd61fc8afbc589812fab4c90c4580656f4268b811ce7ef75924d319482b6b06",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "a74028ea2d17edd310367992a9f198f4300695f5af8b72e4d38d8f09d5ee8f63",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "c3cbf4be17ac419568f12c53b0610e7063741557199bcf8b0802dcf5fab645d8",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "8cc5239a78ffb1593a1e8b2945208d9a1d5d1096e95358f77104fbf83c56c441",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "6757f0ac32dfca422768f84ef4d412d8e6ae2509bbc80cad5db91ba5f237616e",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "67a40fbbf1acf99e7c638934f66c52498aeb975a001140ab5612d51f97e8a319",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "263c2c9aba14193e8dedff210d52d7fe07b035a9d352ffa521c97092eb8adee6",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "a1f3f2feb5f33b7b01ebed5dff282b25993d6280a8389cacaecc16e3837597e8",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "915dff8d0678ab08dd65a39c502807c3a68a9ae377bc772530f997140f34023e",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "18c3f1916773b49dc45118d38b48ab1b2137b74c0ca8a2fc3a8aa006fbc5b386",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "9904d2ce8d7eb18db98f79b403c8ee18b0b4a8b8ac974153c810ec907d58d820",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "234ff6c97fba7ef55c714deff91fa0167245db2d929de0629d0375a3b09ddcf7",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "5d2c0ef664378e70420a2a8e919ee686a9c200a7ea7e3d5d792cc070c3406374",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "ecb22d1cecec5beb3deaa647c6a8a6f33c29354fc849d131c0dccd5a042b1169",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "8c283f24481a4d7c381a56bde7093640b77dca9c7a8badb0d2912e8fcd6a65de",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "2dd9fc362d3090a1982a259c34294db7f124d809d65715015188b006aaa8097f",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "3cc2b9c6c67cb647b21cb4bf9a5b8a89effe1faec5beb7e771dccafcaa34c2d9",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "433ab9cbd96398b91397e9e826e75f170420629332dd6390ecbe0e63b5c9b826",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "93fd52ade5e07a4f8b390fda3032b6cb731937f235ec411200daea326f98722f",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "5673bf7b4767390a50997eb10fbed64dfcc7d93a586689cdfc2ef1164502e293",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "66451401a0b8463d8964333a12a0d45d121d089c1d87abb554ca7408bc9299b4",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "0bdf8ea6eec8da073ea334a3cb327e66e53ab5c12d9b14f3508c00c894836301",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "83f59cda3e348756532648b9914f305a3945a84987d97583c54958f54241590b",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "d1c07727348725ed7c97fa03dfa5a179e5b59a78bf6cac6f39436b46db245bac",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "b825fde681c671bb0ddb46ea644522f2e40023dab3955a4f000adc699594a08b",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "334ffbfb2293efbf04f7f66362ceeeef7421fe9a3b80d009ecae44288382e029",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "036a80c0109bd22463153d36e6142e8da8303b795351a08aff27b75adae9ef05",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "215e66716d3af71566f6fcccefa3755da4e0f8f6d226f67743ed05b40e75c081",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "08fba045a6991178070d41321c720fb501fd7746c8fab7b72acce5fe5dd9c458",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "0aa8c8adc5441f28000bdc931ba354b27d468ef7590b4110c6a33bd4d1539955",
+    "kind": "identifier",
+    "rationale": "Named actual invocation identifier, not a new experiment quantity.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "8841b0c0f2824feed69d3411db16f3564352dcc0cfee4b730c6c4df97d68423b"
+  },
+  {
+    "claim_id": "9a3237b123e9abb58fe5354041247082b7ae3a6658558dc424b8d3ebc9747f40",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "b7064d54319c214971c0c6073c8dd02028ce1b0b76468facb3490a71b2395164",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "5a0fd50a51b1dd16a8fa12699431a045570008a3bbec7960d37f2df89bca58ba",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "7b80ff8cff423fbfd19514cd2f3cf68f21a73df5dc7d720eb11d55bedc685487",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "e2930cb021a1cea63cf973dd679b8aac091cfd124372b5ee52d4e5f008f3c367",
+    "kind": "method",
+    "rationale": "Fixed shared CPU ceiling, not actual use or a Goal research-loop cap.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\callback-registration.json",
+    "source_sha256": "5f7680be45edff90228dd6ef85dea988e015e51294d3f7c8e0aa85e5726b2f1a"
+  },
+  {
+    "claim_id": "e5483e8da56146ddabaf26aa041e58b598bd7e891d77066bdfb7d0db03dd8372",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "9307d48aaa08f37a606b2d2159f89fb4ba42800611996e56618253908d0a31c8",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "17e17d8dfdfb0165e0460902a4fe1cb7102baf0f27e57e5a1df57c3fac4067e1",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "79461ee937108f71f08d2e4ac435db38acbf26cfdcbab73da2e0ae8ea6a5a5f8",
+    "kind": "identifier",
+    "rationale": "Named actual invocation identifier, not a new experiment quantity.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "8841b0c0f2824feed69d3411db16f3564352dcc0cfee4b730c6c4df97d68423b"
+  },
+  {
+    "claim_id": "d37758e02cae250e880f1b3be140392d430ea8c51d111f1a8e3e491a42365b1e",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "487941b476490823f82496bf765568e406600567ccfb247b96bc9789bff26620",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "fb4ae7b9a08c8b083e094dcda9073390e1c7a4ef18647bd6126b0a57642f7ded",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "ca6f31ad2ee0cd4fa2963479bef8bf4204fa8f25e3aa61b9cc81c45fab5acffe",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "4a7efbce9d764b3b0faa1fbb8123ea2367cd96cd9e941c6fbe5e6404f4c7f38d",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "c9564ddcf129e3eea4ed3ac6f1325095a1ef9a4b95677913c35eccc9313e2de7",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "48977ce50ca88b389aaf750374edf3419783a1b921388bc3e8d4a1311ece3e46",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "87cd80924eccd53761b0a5a44d5e11589a28b1d2cf543df34e940837cda4b159",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "c901cf29d7e8b65074920697b3bfde965bd9d3184cff79a752aa2a26ada2be47",
+    "kind": "identifier",
+    "rationale": "Named actual invocation identifier, not a new experiment quantity.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "8841b0c0f2824feed69d3411db16f3564352dcc0cfee4b730c6c4df97d68423b"
+  },
+  {
+    "claim_id": "cb5ad09f3eb2eabc723545c92c733089d3a5bb530b249cebdbe867c025ddbd1f",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "af572fead7bd3e12af2c2282841770efa8d95d5b4043bcd3413b39ec680f0b1b",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "ca574aa6515264361bbbc54bc7ecd941be7a73eb6d8bcbc848d3b6c3f0adb131",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "f83072d322697cce90b9619605471c6c8b135819daa6c2b2a9b8d08642600ff2",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "d38bee7d5adb538c91df7ea3bd7bb15ed2e919380581771cf34232d925e026c2",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "fff01c5acbb0732eb6b0d4ffea043b3270b10e02c109fb6a736b88729fca2e23",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "24e5a92b4d0d8b3095a06ef6c18a920ca1b52be15e2bc9784199fcfbd848ec08",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "018ed36a2e5ceb824223edf9c85aa038e2651488759dd077cc6ad7b90cbce381",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "aa52768c606f6995fc284f7b1d66fc9a2220c39dd19ae28469278a064280cfb6",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "d0e5e05772195c7bac40cc074fb2d1436d31054b0324d6e05fa5aa82b68f3730",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "d14dacf993cdaf3afbea58bc4911d43a7977b00ad8f21c1950f108b8add3e9b8",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "5fcd871754f17ca7ed5a9f775d55ba5c1b30f6160e757f881db1ef69ea74f2c1",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "1f79f0d9e5f4c28cbdefcae4e647eb85c73739a20dffe3c008e6defdd171bd9f",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "dd21ee4447205fc60a35e43bae31f3e9bb092a86b22b589fb53a262c01ba708c",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "ee5685c29c01fc7249e5478aa512082851e549992382984d1368a3486c58411f",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "5d259d8fc9d05c3e6c408ddacf580caff32f390c6359528d9391192a524a65be",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "3e7e11449b4d6087751dcd5ccc6aef9ca72fdf94a42e0afd23092df427850866",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "c7fce1b5917fd62fe69f7885649a753080af2253ecfb37d156d92c9ea9a81ba5",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "5da5f929502a1e78714758f78fb06a55e82f654012d3007cb1dac860c548ed90",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "a83844fd5af2f98c4672d8e068894980737c8761fc856a8c85482dec1d122695",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "eaa9f39835e1e73f43b6646544c202eed05b34beb2ae835d8596248cf4b94ba1",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "c1b96d4931f512cb49faec447d122bbdcebc3710f120931c71bfaaf7a159ad57",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "7e8cf99889520e94b4a0118bc37ca74e958e45604b698e08a99f6438fa22d409",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "f6940a850d5f835c5d2520e6f60f17fd70c1f93efb88d65f024de212b1346cca",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "970a935f270c7e2622b30efd413499d304556715150cf358d1feffcdd1f4ae5a",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "41743e29cc18d6a7e712b6a2a574183ebd2d705dd26883015309d021decb3fda",
+    "kind": "proposal",
+    "rationale": "Value/count/index in the explicitly unexecuted proposed grid. Independent arithmetic confirms the grid size and remaining count; no additional candidate measurement is asserted."
+  },
+  {
+    "claim_id": "a8384389e99e3993fc16b049461f46d4bc4c33f36dc17d6145619689cf985147",
+    "kind": "method",
+    "rationale": "Fixed shared CPU ceiling, not actual use or a Goal research-loop cap.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\callback-registration.json",
+    "source_sha256": "5f7680be45edff90228dd6ef85dea988e015e51294d3f7c8e0aa85e5726b2f1a"
+  },
+  {
+    "claim_id": "9d80f7184db64d38a35de59c4abb5aa23390f9fc418e9f29cfb2ced9779ff06f",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "0b478d6390d1ff382dc442d1dbde6e0279d9fd3c47e90bfb66baabc32cd5fa1b",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "ac99ae03d6d4d238d6bcd848868e24aa0de27ba5fc946eb526b95e6249fb234a",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "ce1a85f4876ecea5998e18feeba08a03d03dc4dff98ded182d5920acdb8a504a",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "d42a9d56e436b378c673d4b0725dd3087fa8d808a3f932197d4c44210c64487b",
+    "kind": "identifier",
+    "rationale": "Named actual invocation identifier, not a new experiment quantity.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "8841b0c0f2824feed69d3411db16f3564352dcc0cfee4b730c6c4df97d68423b"
+  },
+  {
+    "claim_id": "8bff1309af19064c8de0e88cbb7178a5c6d2f44d4fe1f3749888abbd561aff47",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "08f9485965c901305d174953773187c1138a1611b15ed7626eb99eaf9f2616ac",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "e8b1dc783b57e3a52aae6cfe17608e0d43ee268a2ff890651b47fc218c29d306",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independently reproduced actual CPU MSE, with local split scope and no independent test inference.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "97028704de66d9c868b6911ce473941a20f559ecba000c99f14e925a0ca00b5e",
+    "kind": "method",
+    "rationale": "Split count, MSE denominator or registered seed checked against public metadata; hidden test rows remain unopened.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "76160fadcc143d6902e9f41850c1b4ca540848e57a60d96f4335b4a63c0de978"
+  },
+  {
+    "claim_id": "115b68561a562bdd431457f52f60213017b098c9a3362880a7d0ab4a39f372d5",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  },
+  {
+    "claim_id": "ea956870ef595ebd1522e65133b37257598ddd0f0a0c9e809c127d1619ae9524",
+    "kind": "method",
+    "rationale": "Literal model/allowed-domain parameter, polynomial exponent/index or mathematical constant in independently read context; conditional estimator/contrast definition, not a measured performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-method-context.json",
+    "source_sha256": "5223eeea0ae09f799fd10628c19d4c909fb2f985526987c755705aa86aaeb673"
+  }
+]

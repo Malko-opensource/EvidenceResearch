@@ -1,0 +1,233 @@
+{
+  "public_reproduction_verified": true,
+  "prior_guard_failure_receipt": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v2\\result.json",
+    "sha256": "8c5357b6a0c66974a13104cda886e1940bb3a82f69169dcf03a3b45162c52164"
+  },
+  "kind": "actual_isolated_public_artifact_reproduction",
+  "source_files": {
+    "evidence\\checkpoint-replay-validation-v1\\result.json": "59c6433891335276425095bbbb9af9cecc35102b2b5364456fc5db0f1c0e9c9e",
+    "evidence\\checkpoint-replay-validation-v1\\run.py": "803fc40d049c35be398919f3205e9b79fada9d96c5ab2d5dcfc48b67d207d018",
+    "evidence\\checkpoint-replay-validation-v1\\source-manifest.json": "3a6a2c2b5f4cc8edfa5be2a5c81efa26cdfeeda27c8d1dca77c739b55479e6f4",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\agents.py": "d8d1eda040eb1fa897d84596a1b36f277e83da75433c1a9ac2d9efe5be5c749a",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\ai_lab_repo.py": "799a3c078d835cd632487f52ed5b8e9f155bb9514ca104a30442ecfbcb7765ff",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\LICENSE": "bf38a159d01e82d58f986c2d6dd06e03ba0b9cd59a6d286dd94109aac358e583",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\__init__.py": "a30c60a6e39cf4ca0357c2fa539712944c6fee913281e528c607b9b2ad2cc322",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\arms.py": "33ad265c6a06b5c96cbfc8e3760b5a6733f89806d91988530ed1766db0b19e28",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\baseline.py": "003dfb1d6bd631d4a63be984699ec1d304a7852153e38afa940840e39a882e76",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\cli.py": "fe0d387c70040b597a376d05bdda4ffb07e8e900c2485976a2da9b168cdd0a22",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\comparison_arms.py": "e9936619d3ff7fe0da1cd47a1ecf44db8e13a3f42d189ca8d3111ace9c8b00b9",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\engine.py": "7b141d3fdbb6354b057c947fd7faeb47a4740b03659c8812c469eac28ff19851",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\evaluation.py": "ece97c86cc541adc16a7876c15ebf4c62ccca3be1bd79c91986dea2d014f148c",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\model.py": "21a4b73168428ad4795db55d6c95c2d7f3f2e7c44e0d9bc80fbc9e6a5e8a8131",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\model_attempt_audit.py": "3d46151d4388b25373e5c9c6518be49279306484900515cbe69f281824aedee8",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\model_request_audit.py": "25eafd1f0d85be77997f0bb2de07f9f9a8f229a17e19a95b661c79e917b0ce12",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\proposer.py": "3363c3236ed975174aa22f187a634014e0e86c904926f448bd64ab24e76d14a4",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\report_contract.py": "71cb6fd95b65148b796ed7c491a1b0c958e435df3e73dc4018c587ef87ee144c",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\selection.py": "163905588a7f9089b953d4b5ab01589dd97c47fc94be716c84f75873a20cd2a4",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\store.py": "d9a5df829170a9e58285bbcda4d12f6c753968e95f0148a5f28f20db0d891ee6",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\study.py": "0a48066b0feac95fcb8bac2fcff6572ff91ac61099c61e265e0288ba2840e070",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\tasks.py": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\evidence_research\\verifier.py": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\tests\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\tests\\test_checkpoint_replay.py": "c098957bb27c1881abe8a5557754922fb10f0c7a29d9dde399dc3d9caa2f0576",
+    "evidence\\checkpoint-replay-validation-v1\\stderr.log": "9264c1cc63686a3896f4755e9b0b48120d36146b58bcbd4aba143ca768f3fc24",
+    "evidence\\checkpoint-replay-validation-v1\\stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence\\checkpoint-replay-validation-v2\\result.json": "e2010069a4598e5a453760640c6783335641bea43667931918c866533a13ea94",
+    "evidence\\checkpoint-replay-validation-v2\\run.py": "4526d630b9fa78bc34482f1b41c6f9206ce347f9eab8fbf564f4e06213c81462",
+    "evidence\\checkpoint-replay-validation-v2\\source-manifest.json": "99240aaf2f2dd1152444ad3a00b7fba03ba57311f34abded34ad1dfdc2fe934d",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\agents.py": "d8d1eda040eb1fa897d84596a1b36f277e83da75433c1a9ac2d9efe5be5c749a",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\ai_lab_repo.py": "799a3c078d835cd632487f52ed5b8e9f155bb9514ca104a30442ecfbcb7765ff",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\LICENSE": "bf38a159d01e82d58f986c2d6dd06e03ba0b9cd59a6d286dd94109aac358e583",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\__init__.py": "a30c60a6e39cf4ca0357c2fa539712944c6fee913281e528c607b9b2ad2cc322",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\arms.py": "a6b50a7c99a6c935dc577d9188c0d91ba862f2b17a7ccd15976ebd9f2a05f5c4",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\baseline.py": "003dfb1d6bd631d4a63be984699ec1d304a7852153e38afa940840e39a882e76",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\cli.py": "fe0d387c70040b597a376d05bdda4ffb07e8e900c2485976a2da9b168cdd0a22",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\comparison_arms.py": "e9936619d3ff7fe0da1cd47a1ecf44db8e13a3f42d189ca8d3111ace9c8b00b9",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\engine.py": "7b141d3fdbb6354b057c947fd7faeb47a4740b03659c8812c469eac28ff19851",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\evaluation.py": "ece97c86cc541adc16a7876c15ebf4c62ccca3be1bd79c91986dea2d014f148c",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\model.py": "21a4b73168428ad4795db55d6c95c2d7f3f2e7c44e0d9bc80fbc9e6a5e8a8131",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\model_attempt_audit.py": "3d46151d4388b25373e5c9c6518be49279306484900515cbe69f281824aedee8",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\model_request_audit.py": "25eafd1f0d85be77997f0bb2de07f9f9a8f229a17e19a95b661c79e917b0ce12",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\proposer.py": "3363c3236ed975174aa22f187a634014e0e86c904926f448bd64ab24e76d14a4",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\report_contract.py": "71cb6fd95b65148b796ed7c491a1b0c958e435df3e73dc4018c587ef87ee144c",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\selection.py": "163905588a7f9089b953d4b5ab01589dd97c47fc94be716c84f75873a20cd2a4",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\store.py": "d9a5df829170a9e58285bbcda4d12f6c753968e95f0148a5f28f20db0d891ee6",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\study.py": "72e5c0130f85ab64720acef178b00f1afe55dd0c3ce0e6a94a735bfbaa1890a8",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\tasks.py": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\verifier.py": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\tests\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\tests\\test_checkpoint_replay.py": "f6b28ffa256e277c7ee880e9c59fecb47f100901b402cd91f5d1f1b80a9b020d",
+    "evidence\\checkpoint-replay-validation-v2\\stderr.log": "dc6ca157afa3ef601b09ba5eaac45855b7164022a4eab55b6473fa57c2457df9",
+    "evidence\\checkpoint-replay-validation-v2\\stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence\\resume-replay-independent-audit\\finding.json": "3fda4ded997c6894d549b7ba945c74dd5a4c185f3e977261d7c9b3f163172d42",
+    "evidence\\resume-replay-independent-audit\\reproduce.py": "a692e4bfe7ec3303dffc3784c36e420c23797f2bfeda9e4fd0f1978785be0089",
+    "evidence\\resume-replay-independent-audit\\source\\future-arms.py": "c91f5e61b90feb119d002e2143f1b6cc3664462010a20124ff8ddbdfc344330f",
+    "evidence\\resume-replay-independent-audit\\source\\future-baseline.py": "a604076ea838e299991fb375709ca0741d785a2fc442f1abc81e96a47e1c27a4",
+    "evidence\\resume-replay-independent-audit\\source\\future-model.py": "21a4b73168428ad4795db55d6c95c2d7f3f2e7c44e0d9bc80fbc9e6a5e8a8131",
+    "evidence\\resume-replay-independent-audit\\source\\reproduce-at-audit.py": "7f994614bd6ac4cb19c9f86959d765cc94281d0c49d76a552fcc94ff1b8b4e67",
+    "evidence\\resume-replay-independent-audit\\source\\upstream-agents.py": "d8d1eda040eb1fa897d84596a1b36f277e83da75433c1a9ac2d9efe5be5c749a",
+    "evidence\\resume-replay-independent-audit\\source\\upstream-mlesolver.py": "cc110f2b07642532cca11bd8cbf74becfc41016c7f876c16f6d40379ec59882c"
+  },
+  "attempts": [
+    {
+      "case": "v2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\run.py"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf",
+      "exit_code": 0,
+      "seconds": 0.8572766999714077,
+      "outputs": {
+        "result.json": {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\v2\\result.json",
+          "sha256": "af779a287d0a0e13c989fb4e0d2a63fa6b26af7b0675b1384006cbb7a4cc6b91"
+        },
+        "stdout.log": {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\v2\\stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr.log": {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\v2\\stderr.log",
+          "sha256": "c2fb7d1e81c3792d9ae5d760b7da600fc5cabbc6b7925f2784802e635b342b75"
+        }
+      },
+      "isolated_live_sources_absent": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\work\\next-version",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\references",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\evidence_research"
+      ],
+      "stdout_sha256": "1337bdf08070b906778c5ab140015cca2a0882c072f0904dafa4ad565b3541e7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "v1",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v1\\run.py"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf",
+      "exit_code": 1,
+      "seconds": 0.5980342999682762,
+      "outputs": {
+        "result.json": {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\v1\\result.json",
+          "sha256": "99d531380f8b57b96f870ebf1f7c0cca729fcf05456173c1fa87822057aba671"
+        },
+        "stdout.log": {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\v1\\stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr.log": {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\v1\\stderr.log",
+          "sha256": "824b063c8ad4402d9580f597a752352b57298ebe77c353e3b7638d9e899d4a6d"
+        }
+      },
+      "isolated_live_sources_absent": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\work\\next-version",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\references",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\evidence_research"
+      ],
+      "stdout_sha256": "37e67e18b01627ebb35c2b006d44488439ca849af222f66f2f0283fc154508eb",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "historical-replay",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\reproduce.py",
+        "--snapshot-only"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf",
+      "exit_code": 0,
+      "seconds": 0.1237019999534823,
+      "outputs": {
+        "portable-replay.json": {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\historical-replay\\portable-replay.json",
+          "sha256": "5ed7944e9c5c0aa509c5934c82d6e3462f99f94feaaec633e86897a96af3a94e"
+        }
+      },
+      "isolated_live_sources_absent": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\work\\next-version",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\references",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\evidence_research"
+      ],
+      "stdout_sha256": "55653f4ab0c32a74162627475791ebc1b9c85f8b1e81a3f61d1b7dcddd3bbacd",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "case": "v1-short-placement",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "tests.test_checkpoint_replay",
+        "-v"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\s\\work\\next-version",
+      "exit_code": 0,
+      "seconds": 0.768001499993261,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "82e262d181e755b0259b31ea79c6fa4f16ec82093c5b93f1cc821c53b7f1438d",
+      "source_manifest_sha256": "3a6a2c2b5f4cc8edfa5be2a5c81efa26cdfeeda27c8d1dca77c739b55479e6f4",
+      "scope": "Same archived13 test and implementation bytes in a shallow snapshot layout; storage location only, never current14-test semantics."
+    }
+  ],
+  "guard_receipts": [
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\guard-logs\\historical-replay-38576.json",
+      "sha256": "03094e868d8db65d908203abd6c010189f66c03fb86bbe0af5f5588a07a97273",
+      "case": "historical-replay",
+      "blocked_attempts": [],
+      "owned_path_events": 54
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\guard-logs\\v1-30396.json",
+      "sha256": "37a2eeecd1e495312f764661114bb3e4e86bc3cd1e4d90786253eced5d6d443f",
+      "case": "v1",
+      "blocked_attempts": [],
+      "owned_path_events": 973
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\guard-logs\\v1-31540.json",
+      "sha256": "5eaa07e24b2eca6c5d8ccdcdadf20b8e44af0b44d9c1455a61fab35d098f027b",
+      "case": "v1",
+      "blocked_attempts": [],
+      "owned_path_events": 56
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\guard-logs\\v1-short-placement-35676.json",
+      "sha256": "e1dfe27d0e665059452aa8d2c38d013367611894bdad57b8c4f53faebe18c5dd",
+      "case": "v1-short-placement",
+      "blocked_attempts": [],
+      "owned_path_events": 1331
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\guard-logs\\v2-32508.json",
+      "sha256": "0bab698d81ed9d2379a8e9729f6dc2540e2a6a392b43271fc922e5cbba21c499",
+      "case": "v2",
+      "blocked_attempts": [],
+      "owned_path_events": 57
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\public-artifact-portability-v3\\guard-logs\\v2-5664.json",
+      "sha256": "cd4818d372e50b0f0c9b312471afc98160dd62b07a1171247c35a96665722e73",
+      "case": "v2",
+      "blocked_attempts": [],
+      "owned_path_events": 1442
+    }
+  ],
+  "all_passed": false,
+  "original_public_bytes_before_after_identical": true,
+  "original_live_or_ignored_source_tree_used": false,
+  "actual_model_calls": 0,
+  "main_and_current_study_modified": false,
+  "scope": "Public sidecar reproductions only. Original result/finding bytes are unchanged; v1 historical failure and new short-working-directory pass are separate records. No full CLI resume or research effect validation."
+}

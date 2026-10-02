@@ -1,0 +1,15 @@
+```PLAN
+Use the supplied 80 training observations and 64 validation observations, keeping the fixed seed-43 splits. Fit polynomial ridge regression through the host’s existing implementation; no external datasets or changes to preprocessing.
+
+Hypothesis: degree 2 captures the visible curvature, while additional polynomial terms may fit noise. This is a hypothesis, not an established result. The supplied synopsis of arXiv:1910.02373v2 motivates comparing degree and regularization jointly because ridge behavior depends on feature covariance; it does not identify optimal parameters here.
+
+Run a small, preregistered experiment:
+1. Evaluate degree 2 with alpha 0.0 first.
+2. As the host’s resource budget permits, evaluate these candidates in order: (2, 0.1), (2, 1.0), (3, 0.1), (4, 1.0), (1, 0.1), (2, 10.0), (8, 10.0).
+3. Submit each candidate individually using only one literal CONFIG assignment with degree and alpha. Fit exclusively on training observations and obtain validation_mse from the host.
+4. Stop when this list is exhausted or the host budget is reached. Select the evaluated candidate with the lowest actual validation MSE; resolve exact ties by lower degree, then lower alpha.
+
+The experimental angle is a compact curvature-versus-shrinkage comparison: test whether a strongly regularized higher-degree model can outperform a minimally regularized quadratic. This is a proposed comparison, not a claim of unprecedented methodology.
+
+Report each evaluated configuration and its host-measured validation MSE, the selected configuration, and the number of unique evaluated candidates. Describe the winner as best among evaluated candidates. Acknowledge that selection on the same validation split can produce optimistic error estimates. Do not claim global optimality, test performance, or improvement without execution evidence.
+```

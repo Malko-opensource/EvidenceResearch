@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "claim_id": "a63b92c742a2a803e6bdd3328bdc9f0b27ba1f75260ecfb49cab9a15b8134d26",
+      "context": "itional polynomial terms may fit noise. This is a hypothesis, not an established result. The supplied synopsis of arXiv:1910.02373v2 motivates comparing degree and regularization jointly because ridge behavior depends on feature covariance; it does not identify optimal parameters here.\\n\\nRun a small, preregist",
+      "end": 9334,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 1,
+      "number": "1910.02373v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Exact frozen bibliographic ID, not reproduced paper measurement.",
+      "start": 9322
+    },
+    {
+      "claim_id": "ee03946d1ecde2e6ae8eb529e855ac8390663f1e4480f4aa46c9cdde29d978c8",
+      "context": "es not identify optimal parameters here.\\n\\nRun a small, preregistered experiment:\\n1. Evaluate degree 2 with alpha 0.0 first.\\n2. As the host’s resource budget permits, evaluate these candidates in order: (2, 0.1), (2, 1.0), (3, 0.1), (4, 1.0), (1, 0.1), (2, 10.0), (8, 10.0).\\n3. Submit each candidate i",
+      "end": 9573,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+          "sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+        }
+      ],
+      "kind": "method",
+      "line": 1,
+      "number": "first",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Ordinal/literal parameter/formula subscript, fixed split/action convention or explicitly negated inference in reviewed context; no unrecorded execution claimed.",
+      "start": 9568
+    },
+    {
+      "claim_id": "7ecc4806685e1f56066b104a3086b078d84e1756180bd3c1a6bbfe8652e9c9de",
+      "context": ", 0.1), (2, 1.0), (3, 0.1), (4, 1.0), (1, 0.1), (2, 10.0), (8, 10.0).\\n3. Submit each candidate individually using only one literal CONFIG assignment with degree and alpha. Fit exclusively on training observations and obtain validation_mse from the host.\\n4. Stop when this list is exhausted or the host",
+      "end": 9779,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+          "sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+        }
+      ],
+      "kind": "method",
+      "line": 1,
+      "number": "one",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Ordinal/literal parameter/formula subscript, fixed split/action convention or explicitly negated inference in reviewed context; no unrecorded execution claimed.",
+      "start": 9776
+    },
+    {
+      "claim_id": "6acdc980b2a112bb28726677d2b6d06ef08431342c94544956daa327e0b3e563",
+      "context": "cally estimated.\",\"Provider billed monetary cost is unknown. A failed request without raw usage has unknown tokens, not zero tokens.\",\"A common information checklist does not establish equal literary quality or general scientific discovery quality.\",\"Both this companion and the unchanged original report",
+      "end": 11427,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+          "sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+        }
+      ],
+      "kind": "method",
+      "line": 1,
+      "number": "zero",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Ordinal/literal parameter/formula subscript, fixed split/action convention or explicitly negated inference in reviewed context; no unrecorded execution claimed.",
+      "start": 11423
+    },
+    {
+      "claim_id": "f0dd83caa72f4a12aa1a342d45d6e5baa32e705401c6f73925cf4f6011d148e0",
+      "context": "tical facts are literature context, not local experimental evidence.\",\"kind\":\"literature\",\"url\":\"https://arxiv.org/html/1910.02373v2\"},{\"claim\":\"Literature claim from Agent Laboratory section 3: experiments execute generated code; an LLM reward model guides code selection. Its section 5 discusses self-evaluatio",
+      "end": 13867,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 1,
+      "number": "1910.02373v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Exact frozen bibliographic ID, not reproduced paper measurement.",
+      "start": 13855
+    },
+    {
+      "claim_id": "48b9125149087cc2bda71be668cfad598c6068242d0dcacdd9f802cb94db8e36",
+      "context": "d results. This is not independent evidence of task performance here.\",\"kind\":\"literature\",\"url\":\"https://arxiv.org/abs/2501.04227v2\"},{\"claim\":\"Literature claim from AgentRxiv section 3: agents retrieve reports through a SentenceTransformer similarity search. Section 4.1 reports hallucination/reward-hacking ri",
+      "end": 14196,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 1,
+      "number": "2501.04227v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Exact frozen bibliographic ID, not reproduced paper measurement.",
+      "start": 14184
+    },
+    {
+      "claim_id": "9b2f29ef55c2159cd3b4e81439a4662cc2284013403c395ec2d9134e3f363c85",
+      "context": "ntal outputs. Retrieved reports require verification before adoption.\",\"kind\":\"literature\",\"url\":\"https://arxiv.org/abs/2503.18102v1\"}],\"resources\":{\"actual_cpu_executions\":2,\"actual_cpu_executions_per_unit\":51,\"proposal_calls_per_unit\":51,\"provider_billed_cost\":null,\"scope\":\"Raw completed and definitive failed",
+      "end": 14542,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 1,
+      "number": "2503.18102v1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Exact frozen bibliographic ID, not reproduced paper measurement.",
+      "start": 14530
+    }
+  ],
+  "report_sha256": "3193cf96ede35b0357d1e6fc64798cbe1d64b5f2ba96d622ac82086a5ce87c36"
+}

@@ -1,0 +1,91 @@
+{
+  "kind": "executable_transport_checkpoint_specification",
+  "implementation_status": "proposal_fixture_only_not_validation_of_next_version",
+  "actual_model_calls": 0,
+  "actual_cpu_experiments": 0,
+  "original_source": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\ai_lab_repo.py",
+    "sha256": "799a3c078d835cd632487f52ed5b8e9f155bb9514ca104a30442ecfbcb7765ff",
+    "save_state_ast_sha256": "9f89221ed722fd6c862a26895ca68b3363307a1fc972d9343ca4ec720c682941"
+  },
+  "original_save_state_ast_unchanged": true,
+  "class_level_wrapper_original_method_called": true,
+  "checkpoint_receipt": {
+    "kind": "fixture_checkpoint_cursor_contract",
+    "checkpoint_sha256": "c0e16dff69191864e7afa7bf49ed7ccefca3a9a7b050dd76fd64fd377660ab3e",
+    "checkpoint_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\transport-checkpoint-contract-v1\\checkpoints\\c0e16dff69191864e7afa7bf49ed7ccefca3a9a7b050dd76fd64fd377660ab3e.pkl",
+    "transport_cursor": 1,
+    "phase_status": {
+      "fixture_phase": true
+    },
+    "original_save_state_ast_sha256": "9f89221ed722fd6c862a26895ca68b3363307a1fc972d9343ca4ec720c682941",
+    "classification": "fixture_only_not_a_real_baseline_checkpoint"
+  },
+  "checkpoint_prefix_followed_by_same_prompt": {
+    "checkpoint_cursor": 1,
+    "new_logical_ordinal": 2,
+    "same_prompt": true,
+    "returned": "fresh B",
+    "fresh_provider_fixture_calls": 1,
+    "prior_prefix_replayed": false
+  },
+  "stale_checkpoint_tail_reconstruction": {
+    "checkpoint_cursor": 1,
+    "tail_completion_replayed": [
+      2
+    ],
+    "then_new_logical_ordinal": 3,
+    "fresh_provider_fixture_calls": 1,
+    "same_prompt_completion_multiplicity_preserved": 3
+  },
+  "repeated_stale_checkpoint_reconstruction": {
+    "checkpoint_cursor": 1,
+    "replayed_again_in_new_invocation": [
+      2
+    ],
+    "fresh_provider_fixture_calls": 0,
+    "scope": "The same logical reconstruction reuses its original completion; fresh logical ordinals remain independent."
+  },
+  "phase_role_request_mismatch_fails_closed_without_provider": true,
+  "initial_state_reconstructs_all_original_completions_in_order": [
+    1,
+    2,
+    3
+  ],
+  "logical_history": [
+    {
+      "logical_ordinal": 1,
+      "phase": "fixture_phase",
+      "role": "fixture_role",
+      "request_sha256": "b6e843cddc98e33f70943d86d4b27cdcd3ee0139d29c2f15f22a3bb039bee4b5",
+      "status": "completed",
+      "response": "fresh A",
+      "classification": "fixture_only_never_an_actual_model"
+    },
+    {
+      "logical_ordinal": 2,
+      "phase": "fixture_phase",
+      "role": "fixture_role",
+      "request_sha256": "b6e843cddc98e33f70943d86d4b27cdcd3ee0139d29c2f15f22a3bb039bee4b5",
+      "status": "completed",
+      "response": "fresh B",
+      "classification": "fixture_only_never_an_actual_model"
+    },
+    {
+      "logical_ordinal": 3,
+      "phase": "fixture_phase",
+      "role": "fixture_role",
+      "request_sha256": "b6e843cddc98e33f70943d86d4b27cdcd3ee0139d29c2f15f22a3bb039bee4b5",
+      "status": "completed",
+      "response": "fresh C",
+      "classification": "fixture_only_never_an_actual_model"
+    }
+  ],
+  "remaining_implementation_requirements": [
+    "durable fsync and atomic checkpoint bundle commit",
+    "unknown and definitive failed attempt handling",
+    "original CPU tool-response replay and cursor",
+    "request/role/cursor raw receipt auditing",
+    "actual next-version implementation fixture verification"
+  ]
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0fd5d-1784-7c12-af4b-e34af227c105"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression degree selection regularization strength validation mean squared error feature covariance model complexity shrinkage overfitting cross-validation"}}
+{"type":"turn.completed","usage":{"input_tokens":20102,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":27,"reasoning_output_tokens":0}}

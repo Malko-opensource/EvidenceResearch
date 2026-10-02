@@ -1,0 +1,1 @@
+Polynomial ridge regression degree and regularization selection using validation mean squared error feature covariance bias variance tradeoff higher degree shrinkage small sample generalization validation selection optimism

@@ -1,0 +1,75 @@
+{
+  "candidates": [
+    {
+      "hypothesis": "A linear model may capture the approximately affine relationship visible in the supplied data.",
+      "config": {"degree": 1, "alpha": 0.0},
+      "assessment": {
+        "relevance": 1.0,
+        "evidence_strength": 0.0,
+        "uncertainty": 0.35,
+        "normalized_cost": 0.1,
+        "rationale": "Highest initial priority based on qualitative inspection and low complexity. No execution receipts establish its validation performance; all assessment numbers are planning judgments."
+      },
+      "selection_reason": "Establish an unregularized linear reference for subsequent comparisons.",
+      "retry_of": null,
+      "retry_reason": null
+    },
+    {
+      "hypothesis": "Weak regularization may improve validation performance through modest coefficient shrinkage.",
+      "config": {"degree": 1, "alpha": 0.1},
+      "assessment": {
+        "relevance": 0.95,
+        "evidence_strength": 0.0,
+        "uncertainty": 0.45,
+        "normalized_cost": 0.1,
+        "rationale": "A controlled alpha comparison with the linear reference. Frozen ridge literature supports validation-based regularization selection but supplies no task-specific optimum."
+      },
+      "selection_reason": "Test weak shrinkage while holding degree fixed.",
+      "retry_of": null,
+      "retry_reason": null
+    },
+    {
+      "hypothesis": "Stronger linear shrinkage may help if weak regularization leaves excess estimation variance.",
+      "config": {"degree": 1, "alpha": 1.0},
+      "assessment": {
+        "relevance": 0.85,
+        "evidence_strength": 0.0,
+        "uncertainty": 0.55,
+        "normalized_cost": 0.1,
+        "rationale": "Provides a broader regularization comparison at low anticipated computational cost. Shrinkage could also introduce bias; neither outcome has been measured."
+      },
+      "selection_reason": "Assess alpha sensitivity before refining its range.",
+      "retry_of": null,
+      "retry_reason": null
+    },
+    {
+      "hypothesis": "A quadratic term may capture subtle curvature obscured by observation noise.",
+      "config": {"degree": 2, "alpha": 0.0},
+      "assessment": {
+        "relevance": 0.8,
+        "evidence_strength": 0.0,
+        "uncertainty": 0.6,
+        "normalized_cost": 0.15,
+        "rationale": "The supplied observations suggest a largely linear trend, but qualitative inspection cannot exclude curvature. An unregularized quadratic isolates the effect of adding degree."
+      },
+      "selection_reason": "Compare added quadratic flexibility against the unregularized linear reference.",
+      "retry_of": null,
+      "retry_reason": null
+    },
+    {
+      "hypothesis": "A weakly regularized cubic may capture asymmetric curvature while limiting coefficient variance.",
+      "config": {"degree": 3, "alpha": 0.1},
+      "assessment": {
+        "relevance": 0.7,
+        "evidence_strength": 0.0,
+        "uncertainty": 0.7,
+        "normalized_cost": 0.2,
+        "rationale": "A modest expansion of model capacity offers an initial check for nonlinear structure. Greater flexibility increases overfitting uncertainty; no verified successes or failures are available."
+      },
+      "selection_reason": "Probe cubic structure before considering more expensive, higher-degree candidates.",
+      "retry_of": null,
+      "retry_reason": null
+    }
+  ],
+  "stop_reason": null
+}

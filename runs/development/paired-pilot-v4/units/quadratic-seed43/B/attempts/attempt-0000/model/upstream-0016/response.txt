@@ -1,0 +1,1 @@
+Polynomial ridge regression joint degree and regularization selection using holdout validation mean squared error feature covariance bias variance tradeoff quadratic curvature higher degree shrinkage

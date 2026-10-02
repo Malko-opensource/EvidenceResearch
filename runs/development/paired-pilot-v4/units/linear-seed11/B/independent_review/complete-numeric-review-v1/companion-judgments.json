@@ -1,0 +1,600 @@
+[
+  {
+    "claim_id": "07abe83ee77de3fd6b6cc957857cfb6173f7375d4ae6b37f60c91be9cec5591d",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "2884e1a1d78922a0d14cfbebec72f9d98071b887e0c4ae0d4f6badd838bb03e7",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "8f001837958d3e4096fd0d18c40d995564fa92b56356bb478f3d919586cbbf73",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "9dc75f6c500b3bb122bfd45883b8fbbcab8e1e20bacee6f1dfdf04a0e9748a0b",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "790b62356604ce3a005d0adecd0b0acabb92c83a39992ad3b03462f597a9f32c",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "74adf6e980ca839ed3fa612987ee24883ed3080195003e1d8d1ae3e3e800466b",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "f52c1da932a54d8c9d8a048e7fe11b9a11b035f838f8b2e593f5655b3071854a",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "e027a30ade28401aada709cbc101d3d62eda49933b5cc35889b6ef00c89155c8",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "f40ddc324beae2ec7b72e289e876a3e7ba34a5fc6bdb85b935da2eb9c8e5f62a",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "d72ed52998603986cb9335cb66fcdde5ae454a5541a4a3a1e180fd3524809189",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "e077e0ab225e0c762058a1f52afca3805180300a3c0cddc792baa1053fbaa6ad",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "d761055d4e74c87b2ca148dce7eb8fa6c934cc08a090b55e6059815c85813d58",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "85a4d9f5e575f4ce4f57e24d364bbace60c8e3962abb7aa5a309e7b2d8ee0710",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "0ca4c4e8ca936d87301091c95c6b7c45dfe9cfd55a91ac1c5c31d3581fbb3068",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "1bb35875f991a71012aa793e95ce69291a1329389d8f41a81269b98d670b4df8",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "b9c4f77d777acebb1f9b1b36a48c1f6e1aafc0fb2422559b0c5cf5a455a5eabb",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "06163881760b597b84e3ae8074fcef03ac781e9e67216e36fd09720850b27665",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "e611a0e54771be4111748042a36fc0cbe970a2b66809b322b36540412bdadfb4",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "52e1461f6115eccdfc1c53328a76dabccfd10855303fd8fb0789e1cd37a01fe8",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "77566fc9b922fe76dbd070def128611a247427b662d5678203bbed148bbf3fe8",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "c655cb8f823f866dc1a651fe1766c487acd38867017c9768a1db1e96794973e4",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "8650625d87f159a34cf29f2aaaa8190464240a1854a9bb4127e339d918191364",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "ceb9fd147a0f22f804be990fabadc7b77f29cc1e5529b1c19af69fbefa6cc65f",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "30dc97f5f9ff1487184a56f92cdd43e707cb8e79f37072ceae93eb6df47aa1c7",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "c46bad92bbf17862e31fdf6d421661ccae55fbb5450addea1e0933a36805bd97",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "20b1fbca8f5ff67157cd2887c49736177e335a172465814ef949518eb818c5b2",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "24a64f1ccdb65b4147d21d577fed3655205408975edc7e0b47b759c9c6837b59",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "aa7130f28c8f3189cd5616f315e88e4766343414cad88f47366b9b24c9d71f76",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "181f1311187eb64e5335e0bc659235660052b15048ec3a365546894bf374a797",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "5bfb56a8ab5366845227949b0b2b0ba3d0f8501abdf2dfd46695f08a90d5f1c6",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "b00a79240ca992a68c1a339e85a3808264f1a1fd6e132dd4da4a9e163761d2ce",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "33276fd72f7cac94de310931d4e8d797d33ba73186dbe52312b474ea16d79538",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "c74a84878b9fe213b79ad236656cc71de51deaae80a933e70e5ca0dc818d8437",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "f8d54c4ad0c5420502eac6855a0d3c6eab8fad8bb8d45f4056a19d7a35529f3e",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "0e9c142f844c5c67a46667889533cad98a285b1c7b7f9d2c8922f1bf96220484",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "b3612ceae37e6140be8ee52b5332b4aa25aa8f932ca87f0a900b373ff6c54a10",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "efd03a8c69a646dde8c0b6b40248cedf0018f7bdca28ced108760fbb865dde48",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "cfdf2cf4eefcd152d6a6a2b1767506722d79c1da91cdf2898f874276aac75696",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "420c71ebcb31d7ade03999396cb52ba2621a0142d0ffc1fba9a842d192d87c66",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "237b792a45a044ec8aa29da4fc1c087965009e2de92a2cd303cd6e2dec4b9127",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "3bab0c8e91fa98ba5c12391d1c950630f11edaeb65ad81f4daa3983fc2ec178b",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "0bd8cc323ba0fe7863fe76af551ae7479d8f51669c1ed710ba70f059e71b88f4",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "b9b27aa18f3aa768abf72b9997cd0db8946c06447bfe0a9a2a648cf1b1fe8ed5",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "2aa4aeb9b3c899ac7eb6984e7a497d5a95e32c7d0998fcf59c2025b393e9343a",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "33e64a38ca7a32cf399e8b9d6c3cf87e6e4f5673f4189c50eae43bc1cbfb3feb",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "985719cc917cb93e7a8f82d866ffff4e23abdf9fb4e7ee8629e91e8d22bd5925",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "deed47e41551958995037ea0d6bf2cbe08c0c74e4bb08a4ccb6a836501cd295d",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "df2fdff4d1e29e5409ba9ca0e069303f66818f5c4162df9285d3bc97dd66a300",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "c6667ea555b00760dcafc1957acd845bdd82a8b22d756dc5dcdf7077a6b2ee25",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "105c6c5bdbed7ffd3e84cf2aed034654a7a5e1b273ecbfe1661497710e71d359",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "825ce2422ec497b85412b3c6394779f7a0b8904d74326df6e0b14a124dc160f1",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "406ceb7147600677acec069567116dc94dfdea39feff025abd79f044add827cd",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "aac3f5f84b4ba177d82f7b41244ae8a010a6ac7c55de2d462a13fd6f3d952eee",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "d418187bce76be6eddc874ccc2fd1767a6d8b8f8a5667eaaf2fe603ae301512b",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "9c3e6d6449e4f88d17d814fcea7acdc200891d68c3258f600a38f257915ad0a2",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "9c043c88da496a8f348c5f246b5c3cf3818b262ffcc00e0486785b8bc792ed04",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "8fa4caa8fc565889d66e32da4078edc2a10ed6371888e6ee28e359b70bb32961",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "9ee9d5428d3e90a5a46af72fb7244bfd11f41e6fae2dad11331724ee46d61733",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "fb8811b889e5ee943a40dae6c84fa3a5b0852974d24ede8cc200a9ae40f88cdf",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "7b2a401622d9e80b0513e9212d0fe8c222f21f49334f15ac8ae07b3b33980a15",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "32ad7fe1210b01eb25d57b98a60896334f0dd82e9ca1a1531743cec032223696",
+    "kind": "identifier",
+    "rationale": "Exact source identifier of the independently verified actual result, not an additional metric.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\result.json",
+    "source_sha256": "ea06f8772f39edf7286bc8f9b61241b66640d75aad7b6c9022041c9cea04e578"
+  },
+  {
+    "claim_id": "6288d36938f6675a8b885f9675014d6f3459120108c38c560efc984ea89f2c01",
+    "kind": "identifier",
+    "rationale": "Exact source identifier of the independently verified actual result, not an additional metric.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\result.json",
+    "source_sha256": "ea06f8772f39edf7286bc8f9b61241b66640d75aad7b6c9022041c9cea04e578"
+  },
+  {
+    "claim_id": "82aff884465c1316c244440d524a6a1854f59c0614fc495fdc88d3e15ca21b75",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Known structured measured metric; independently reproduced actual CPU predictions and value.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "ae1ed40061974053356452402ecfba8341d3371d84c63e8cabe796b3eea7c0a1",
+    "kind": "identifier",
+    "rationale": "Exact source identifier of the independently verified actual result, not an additional metric.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\result.json",
+    "source_sha256": "ea06f8772f39edf7286bc8f9b61241b66640d75aad7b6c9022041c9cea04e578"
+  },
+  {
+    "claim_id": "7f145cc5fe270844b01e2846f97e1085de4fe37569e6307a7ff66cde02e67171",
+    "kind": "identifier",
+    "rationale": "Exact source identifier of the independently verified actual result, not an additional metric.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\result.json",
+    "source_sha256": "ea06f8772f39edf7286bc8f9b61241b66640d75aad7b6c9022041c9cea04e578"
+  },
+  {
+    "claim_id": "563c39741db9a1062da12c7658c65bfc04602426a53839f762da78af7ae32ea3",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Known structured measured metric; independently reproduced actual CPU predictions and value.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "051da765a79484e1880747415aafc5de3f7ded938f192283204c33f3804ecca9",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "592d1183da148f56347f6916911b944b91db3eb48633ea1b7bd383b4e9c58004",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "05fd214b7704945548b2b3e2e9a7a65cafb1e473d1c530fc75eabcadf7bf9438",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "48b7715fe8c9b3701759b14ff54c15cfbd0b049c3240799c7f2333abeb4c56d1",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "2911877c303ae2d9983e3c2f8f090bab4b16cafd759c07d792158196c2538ed5",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "e8a11984e3cc9afacf347f3e9b7866ea3ef696c5268369cb4f65ebc5d70c0203",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "8ebe23a2e267c61501b1acf9cebe1219ef6d60a0559f8ec26fa4c0b356a19b8e",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "de415d7cb04011bd5ff4ee35eda0fc5df92bc9ed9021f93bb7181c01e15f42e3",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "28761cef2035574402ca4bcc3c8574b5ab649ea1ea87bffb3a58cabc612eb66d",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\independent-resource-audit.json",
+    "resource_metric": "model_seconds"
+  },
+  {
+    "claim_id": "3d50037d3c247d1dc7c19c2bf4b90d08ffc254a73a237daa9e2ec857ec89c09a",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\independent-resource-audit.json",
+    "resource_metric": "input_tokens"
+  },
+  {
+    "claim_id": "6926bade6d6155056661958365541f0855ca961627ed9d8e112aeeefb2e07848",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\independent-resource-audit.json",
+    "resource_metric": "output_tokens"
+  },
+  {
+    "claim_id": "226b894d5e5372326d3b91127010650115c50ac5fff75418c7f647688783501a",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "4112417a03bf71bc2f7c4071902688f0050006033ae7692e932ca5b90dd6d7e0",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+  },
+  {
+    "claim_id": "a2f70d83dd0f9aa96d3d4c91c1a45fcba91083cfed4a38dc4e34bc32d9b92c73",
+    "kind": "proposal",
+    "rationale": "Original hypothesis/ordered-grid parameter, explicitly a preexecution plan; only the named measured configuration was run."
+  },
+  {
+    "claim_id": "29304e16603869f09afb8bf9e6e0baecdb134d98f845aad7abadde20b6a889ea",
+    "kind": "proposal",
+    "rationale": "Original hypothesis/ordered-grid parameter, explicitly a preexecution plan; only the named measured configuration was run."
+  },
+  {
+    "claim_id": "9f917a6acc59648319db8ddc30f9a01edbc7888e65a8854266626dfceb6289d4",
+    "kind": "identifier",
+    "rationale": "Benchmark or schema-version name, not an actual task count/measurement.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\research_report.json",
+    "source_sha256": "303d5e6674916abb7e031fe1a3f0eb6ba090c1ed6f1b91537173299269ab176d"
+  },
+  {
+    "claim_id": "4453e3c6755475238e719e2da4571e3fca8d9e875a6e8a01c3c2f1d7d410e16a",
+    "kind": "measured_resource",
+    "rationale": "Independent hash-linked unique CPU inventory confirms two actual attempts, one distinct configuration.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\independent-resource-audit.json",
+    "resource_metric": "actual_cpu_executions"
+  },
+  {
+    "claim_id": "0f0eb82ba99534594de5b773bc0ae37f43f127ec1e8c18e2e86237fa4f68b817",
+    "kind": "method",
+    "rationale": "Registered shared resource allowance, not actual use or total research-loop cap.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\callback-registration.json",
+    "source_sha256": "8164ff2c4359f10ac21afedf3ef478e29b8d38c125c080665547acb526f2571b"
+  },
+  {
+    "claim_id": "d6f6209dd1808f796fa67118b03298d06a58cd237c947642d6fe4ca696c28e81",
+    "kind": "method",
+    "rationale": "Registered shared resource allowance, not actual use or total research-loop cap.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\callback-registration.json",
+    "source_sha256": "8164ff2c4359f10ac21afedf3ef478e29b8d38c125c080665547acb526f2571b"
+  },
+  {
+    "claim_id": "5bc70fb84227485c3a4562280a712adf4180bcaab7a00127c3d5849c8c0896be",
+    "kind": "identifier",
+    "rationale": "Benchmark or schema-version name, not an actual task count/measurement.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\research_report.json",
+    "source_sha256": "303d5e6674916abb7e031fe1a3f0eb6ba090c1ed6f1b91537173299269ab176d"
+  }
+]

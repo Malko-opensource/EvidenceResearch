@@ -1,0 +1,43 @@
+```REPLACE
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\title{Research Report: Polynomial Ridge Regression on a Fixed Training and Validation Split}
+\author{Agent Laboratory}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Abstract}
+[ABSTRACT HERE]
+
+\section{Introduction}
+[INTRODUCTION HERE]
+
+\section{Background}
+[BACKGROUND HERE]
+
+\section{Related Work}
+[RELATED WORK HERE]
+
+\section{Methods}
+[METHODS HERE]
+
+\section{Experimental Setup}
+[EXPERIMENTAL SETUP HERE]
+
+\section{Results}
+[RESULTS HERE]
+
+\section{Discussion}
+[DISCUSSION HERE]
+
+\end{document}
+```

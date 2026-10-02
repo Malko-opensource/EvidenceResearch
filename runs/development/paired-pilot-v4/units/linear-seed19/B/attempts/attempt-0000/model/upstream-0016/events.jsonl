@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0fd46-7333-7252-a328-68547d4aed6e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression degree and regularization parameter selection using held-out validation mean squared error, fixed hyperparameter grid search, validation selection bias, and linear versus polynomial model complexity"}}
+{"type":"turn.completed","usage":{"input_tokens":20090,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":37,"reasoning_output_tokens":0}}

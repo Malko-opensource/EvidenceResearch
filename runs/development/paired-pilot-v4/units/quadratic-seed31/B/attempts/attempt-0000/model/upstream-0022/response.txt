@@ -1,0 +1,149 @@
+# Polynomial Ridge Regression on Fixed Splits
+
+This repository documents a polynomial ridge regression study on the supplied `dev-quadratic` task. The study asks whether additional polynomial terms or positive regularization improve validation performance beyond an unregularized quadratic.
+
+The available evidence establishes one evaluated configuration. The remaining comparisons are planned and have no supplied measurements.
+
+## Verified Result
+
+Execution `execution-0002` was independently verified as valid.
+
+| Degree | Alpha | Training MSE | Validation MSE |
+|---|---|---|---|
+| 2 | 0.0 | 0.00779644267729052 | 0.007530714510483641 |
+
+The unregularized quadratic is provisionally retained because it is the sole configuration with reported performance. This does not establish an advantage over other degrees or penalties.
+
+Validation MSE is slightly below training MSE. That ordering is compatible with variation between the fixed splits and does not demonstrate absence of overfitting.
+
+## Data and Task
+
+| Setting | Value |
+|---|---|
+| Task | `dev-quadratic` |
+| Version | `polynomial-ridge-1` |
+| Seed | 31 |
+| Input | Scalar, real-valued `x` |
+| Response | Real-valued `y` |
+| Training observations | 80 |
+| Validation observations | 64 |
+| Withheld test observations | 96 |
+
+The supplied training and validation assignments remain fixed. Test inputs and responses are unavailable for fitting, selection, or reporting.
+
+The split manifest describes generation using Python’s `random.Random`, in training, validation, and test order. It supplies SHA-256 digests for provenance. These details do not establish the response-generating function, noise distribution, or independence assumptions, and the digests were not independently recomputed for the report.
+
+## Comparison Protocol
+
+The preregistered grid contains twelve configurations:
+
+- **Degrees:** `1`, `2`, `3`, `8`
+- **Penalties:** `0.0`, `0.1`, `1.0`
+
+Degree 1 provides a simpler comparator; degree 2 is the reference; degree 3 adds one term; degree 8 probes a larger polynomial class. Positive penalties assess coefficient shrinkage within each degree.
+
+Candidates are requested in this order:
+
+| Order | Degree | Alpha |
+|---|---|---|
+| 1 | 2 | 0.0 |
+| 2 | 2 | 0.1 |
+| 3 | 2 | 1.0 |
+| 4 | 1 | 0.0 |
+| 5 | 3 | 0.0 |
+| 6 | 8 | 0.0 |
+| 7 | 1 | 0.1 |
+| 8 | 3 | 0.1 |
+| 9 | 8 | 0.1 |
+| 10 | 1 | 1.0 |
+| 11 | 3 | 1.0 |
+| 12 | 8 | 1.0 |
+
+Only `(2, 0.0)` has supplied performance measurements. The other eleven candidates remain unevaluated in the available evidence.
+
+## Fitting and Evaluation
+
+The trusted host performs polynomial feature construction, preprocessing, coefficient fitting, and evaluation. Coefficients are fitted using training observations only.
+
+A degree-\(d\) predictor has the polynomial representation
+
+\[
+f_d(x)=\beta_0+\sum_{j=1}^{d}\beta_jx^j.
+\]
+
+The host’s feature scaling, intercept treatment, solver, and objective normalization are not established by the supplied execution record. Accordingly, `alpha` denotes the host’s penalty parameter without assuming a particular mathematical normalization.
+
+Evaluation uses unpenalized mean squared prediction error:
+
+\[
+\mathrm{MSE}=\frac{1}{n}\sum_{i=1}^{n}
+\left(y_i-\widehat f(x_i)\right)^2.
+\]
+
+Validation MSE is the sole selection criterion. Selection considers only distinct configurations with successfully reported measurements:
+
+1. Choose the lowest validation MSE.
+2. Resolve exact ties by lower degree.
+3. Resolve remaining exact ties by lower penalty.
+
+Rounded display values do not define ties.
+
+Planned comparisons assess degrees at a common penalty and penalties within a common degree. Each comparison requires measurements for both candidates. Equal numerical penalties across degrees do not guarantee equal effective shrinkage because the feature matrices differ.
+
+## Host Execution Interface
+
+The host accepts one literal configuration per action. The measured reference configuration is:
+
+```python
+CONFIG = {'degree': 2, 'alpha': 0.0}
+```
+
+The permitted fields are:
+
+| Field | Permitted values |
+|---|---|
+| `degree` | Integer from 1 through 8 |
+| `alpha` | Finite value from 0 through 100 |
+
+Data are preloaded. The interface permits a literal `CONFIG` assignment or a standalone `run_candidate` call with a literal configuration. Imports, loops, functions, arithmetic expressions, filesystem access, printing, and other Python statements are outside this interface.
+
+The host enforces model-request and actual CPU-attempt limits. Cached replay does not count as a new CPU attempt.
+
+## Execution Evidence
+
+The supplied receipt records:
+
+- Two actual CPU attempts.
+- One distinct configuration.
+- An actual CPU-attempt limit of 51.
+- 49 remaining CPU executions at the time of the receipt.
+- Independent verification of `execution-0002` as `valid`.
+- Test access as `withheld`.
+
+A receipt for `execution-0000` is listed, but its performance metrics are unavailable. The two-attempt count therefore does not establish independent replication.
+
+The remaining model-request allowance is unspecified. Available CPU capacity does not establish completion of additional candidates.
+
+## Interpretation and Limitations
+
+The verified quadratic result provides a reference measurement. Current evidence cannot determine whether linear models underfit, higher-degree terms help, or positive regularization improves prediction.
+
+Evaluation uses one fixed validation split. Aggregate MSE values alone do not provide uncertainty estimates, confidence intervals, or significance tests. Selecting among candidates using these validation observations may make the selected validation error optimistic as an estimate of future prediction risk.
+
+No hidden test performance, baseline improvement, timing comparison, hardware specification, memory measurement, or monetary cost is supplied.
+
+## Next Steps
+
+The proposed next step is for the trusted host to evaluate the remaining eleven candidates in the specified order, subject to both resource limits.
+
+Additional measurements would support descriptive comparisons within the measured grid. They would not establish optimality across the full permitted parameter space or performance on unseen test observations. Studies of selection stability across independent datasets or alternative partitions would require a separate protocol.
+
+## References
+
+The report draws on supplied summaries or a frozen synopsis of:
+
+- *Ridge Regression: Structure, Cross-Validation, and Sketching* — arXiv `1910.02373v2`. Statistical context for ridge estimation, feature covariance, and validation-based regularization selection.
+- *Agent Laboratory: Using LLM Agents as Research Assistants* — arXiv `2501.04227v2`. Context for organizing research assistance and distinguishing proposals from execution evidence.
+- *AgentRxiv: Towards Collaborative Autonomous Research* — arXiv `2503.18102v1`. Context for sharing and retrieving research reports.
+
+These references provide methodological and workflow context; they supply no comparative performance measurements for this task.

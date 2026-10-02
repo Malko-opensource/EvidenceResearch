@@ -1,0 +1,100 @@
+# Polynomial Ridge Regression on a Fixed Split
+
+This repository documents a preliminary polynomial ridge regression experiment on the public task `dev-linear`, version `polynomial-ridge-1`, with seed `11`.
+
+The study examines how polynomial degree and regularization affect validation mean squared error (MSE). One distinct configuration has been evaluated: degree `1` with regularization strength `0.1`. Its verified host measurement provides a reference for future comparisons; it does not establish an optimal model.
+
+## Task and Model
+
+| Property | Specification |
+|---|---|
+| Input and response | Scalar \(x\) and scalar \(y\) |
+| Training observations | 80 |
+| Validation observations | 64 |
+| Withheld test observations | 96 |
+| Permitted degree | Integer from 1 through 8 |
+| Permitted regularization | Finite `alpha` from 0 through 100 |
+| Selection objective | Validation MSE |
+
+Polynomial predictors have the form
+
+\[
+\widehat f_{d,\alpha}(x)
+=
+\widehat b+\sum_{j=1}^{d}\widehat\beta_jx^j.
+\]
+
+The trusted host constructs polynomial features, fits the ridge model using training observations, and evaluates predictions on the fixed splits. Higher degrees introduce additional polynomial terms; regularization penalizes coefficient magnitude.
+
+## Evaluated Configuration
+
+```python
+CONFIG = {'degree': 1, 'alpha': 0.1}
+```
+
+This configuration represents an affine predictor. The supplied execution summary does not specify feature scaling, intercept penalization, loss normalization, solver, or dependency versions. Accordingly, `alpha` is interpreted as the host parameter rather than equated to a penalty under an assumed implementation.
+
+## Recorded Results
+
+The following measurements belong to host invocation `execution-0002`, recorded as actual CPU execution with independent verification marked `valid`.
+
+| Split | Observations | Host-reported MSE |
+|---|---:|---:|
+| Training | 80 | 0.00518281274299233 |
+| Validation | 64 | 0.007427150027746186 |
+
+Predictive MSE is the average squared prediction error and excludes the fitting penalty.
+
+The validation–training MSE difference is approximately **0.00224434**, calculated from the reported values. This descriptive gap alone does not establish overfitting.
+
+The host records **two actual CPU attempts and one distinct configuration**, with receipts identified as `execution-0000` and `execution-0002`. These counts do not establish independent statistical replication. The numerical results above are attributed specifically to `execution-0002`.
+
+No alternative configuration, confidence interval, significance test, hidden-test error, runtime comparison, monetary cost, or measured baseline improvement is available.
+
+## Proposed Comparison
+
+The report proposes evaluating the finite grid
+
+\[
+d\in\{1,\ldots,8\},
+\qquad
+\alpha\in\{0,0.01,0.1,1,10,100\}.
+\]
+
+This grid contains **48 configurations**. Retaining the existing verified measurement would require **47 additional distinct evaluations**. The supplied accounting reports a limit of 51 actual CPU executions and 49 remaining executions, subject to separate model-request limits and successful execution.
+
+**The proposed grid has not been executed.**
+
+For future comparisons:
+
+- Keep the task, splits, fitting procedure, and metric fixed.
+- Retain each candidate’s configuration, execution identifier, verification status, and reported errors.
+- Record failed evaluations without assigning invented metrics.
+- Select the lowest validation MSE among successfully evaluated candidates.
+- Resolve exactly equal reported validation errors by smaller degree, then smaller `alpha`.
+
+Selection would identify the best observed candidate within the evaluated set. It would not establish an optimum over the continuous regularization interval. Repeated selection on the same validation split may introduce selection optimism.
+
+## Host Execution Protocol
+
+Training and validation data are preloaded. Each permitted action submits one literal candidate using a `CONFIG` assignment or a standalone `run_candidate` call.
+
+Only `degree` and `alpha` are legal configuration fields. Imports, loops, functions, arithmetic expressions, filesystem operations, and other Python statements are outside the interface. Figures, external datasets, API calls, and arbitrary code execution are also outside the shared permissions.
+
+Cached replay does not count as a new CPU attempt. The host performs experiments and verification; this README reports supplied evidence and prospective proposals.
+
+## Provenance and Reproducibility
+
+The supplied manifest records generation with standard-library `random.Random`, split order training–validation–test, and SHA-256 digests for split contents and identifiers. These details are recorded provenance; the digests were not independently recomputed for the report.
+
+Source, model, and prediction artifacts are listed in the supplied evidence, but their contents were not inspected. Reproducing the numerical result requires the registered host implementation and fixed data, alongside the configuration.
+
+## Literature Context
+
+The report draws on supplied frozen literature summaries:
+
+- [Ridge Regression: Structure, Cross-Validation, and Sketching](https://arxiv.org/abs/1910.02373v2): methodological context for shrinkage, feature covariance, and validation-based selection.
+- [Agent Laboratory: Using LLM Agents as Research Assistants](https://arxiv.org/abs/2501.04227v2): context for separating research proposals, execution, interpretation, and reporting.
+- [AgentRxiv: Towards Collaborative Autonomous Research](https://arxiv.org/abs/2503.18102v1): context for sharing and retrieving research evidence.
+
+These references motivate the methodology and provenance practices. They do not establish task-specific optimal hyperparameters or comparative superiority.

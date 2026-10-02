@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "claim_id": "cc82b56f97a6d69fc4f0ddc1b6b87a66c0f4184c1976e9d95f14577cbe74acad",
+      "context": "      \"url\": \"https://arxiv.org/html/1910.02373v2\"",
+      "end": 49,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 79,
+      "number": "1910.02373v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Bibliographic URL matches the exact frozen primary-source synopsis. Paper statements remain literature claims and are not local empirical outcomes.",
+      "start": 37
+    },
+    {
+      "claim_id": "7759c634dd18347f25965fba0dde9480c1c3744f9551c7fb349d80c85fbdb149",
+      "context": "      \"url\": \"https://arxiv.org/abs/2501.04227v2\"",
+      "end": 48,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 84,
+      "number": "2501.04227v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Bibliographic URL matches the exact frozen primary-source synopsis. Paper statements remain literature claims and are not local empirical outcomes.",
+      "start": 36
+    },
+    {
+      "claim_id": "9fabaeadfbed1c543b9dd592c47e83963a79d65cdcce0288280a9fd9c19c24f4",
+      "context": "      \"url\": \"https://arxiv.org/abs/2503.18102v1\"",
+      "end": 48,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 89,
+      "number": "2503.18102v1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Bibliographic URL matches the exact frozen primary-source synopsis. Paper statements remain literature claims and are not local empirical outcomes.",
+      "start": 36
+    },
+    {
+      "claim_id": "6e297276071333ec1fede4cfe52cec6a439b5495fe12d2d7cb93b6292d30e2ea",
+      "context": "  \"stop_reason\": \"model_no_justified_new_experiment: Select degree 1, alpha 0.77: verified run 0b25b63f619c2e31d4028d71 has the lowest observed validation MSE, 0.006124418484319417. Nearby linear alphas 0.769 and 0.775 performed slightly worse; every evaluated degree 2–8 configuration also performed worse. Further local refinement offers insufficient expected decision value to justify additional executions. This is a practical stopping judgment, not proof of a global optimum or a test-set performance claim.\",",
+      "end": 180,
+      "evidence": [
+        {
+          "independent_value": 0.006124418484319417,
+          "metric": "validation_mse",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\C\\research\\evidence\\0b25b63f619c2e31d4028d71\\result.json",
+          "sha256": "f2da7dd0d95ad06e11f8e011402b977d936c2b8d39877b1b513b935effdfb22e"
+        }
+      ],
+      "kind": "measured",
+      "line": 108,
+      "number": "0.006124418484319417",
+      "outcome": "supported",
+      "reason": "Terminal validation decimal missed by the primary regex; all original predictions independently reproduce it and observed minimum scope is checked.",
+      "start": 160
+    }
+  ],
+  "report_sha256": "5e5982d123805928d9248c6616d6a874ca76ad88d1e1621c952096cc711ad214"
+}

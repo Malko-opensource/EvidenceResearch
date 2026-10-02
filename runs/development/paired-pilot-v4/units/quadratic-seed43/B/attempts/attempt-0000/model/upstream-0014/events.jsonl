@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0fd69-7e60-71f1-ab95-8b94118f6c2d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression degree and regularization parameter selection using validation mean squared error, feature covariance, bias–variance tradeoff, and higher-degree shrinkage versus quadratic models"}}
+{"type":"turn.completed","usage":{"input_tokens":20051,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":72,"reasoning_output_tokens":34}}

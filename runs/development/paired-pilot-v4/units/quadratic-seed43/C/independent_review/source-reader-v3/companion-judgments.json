@@ -1,0 +1,269 @@
+[
+  {
+    "claim_id": "2f7c237edd042dd1e245162b6d077fa458d2bd1bad551b959a5796380de08bb0",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Known structured measured metric; independently reproduced actual CPU predictions and value.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\research\\evidence\\e19ac88fd459fbd2da2670a3"
+  },
+  {
+    "claim_id": "a529e87de592baf1f7303dc65b68bae2efcd7a0568147bf225b6f687200dc8fe",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Known structured measured metric; independently reproduced actual CPU predictions and value.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\research\\evidence\\e19ac88fd459fbd2da2670a3"
+  },
+  {
+    "claim_id": "d191dff770ad77d496b516cae4bcc5b2686ca5f42c2f757a5067655e1af78fbc",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\research\\evidence\\e19ac88fd459fbd2da2670a3\\registered_spec.json",
+    "source_sha256": "d2185ba086f70a54ed656d5a76ad68094a86b575559654856ada62ee0a31f970"
+  },
+  {
+    "claim_id": "903132768300c45fd6ef837030ddcb513b010e72b5a82be68799a72bf578daf2",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\research\\evidence\\e19ac88fd459fbd2da2670a3\\registered_spec.json",
+    "source_sha256": "d2185ba086f70a54ed656d5a76ad68094a86b575559654856ada62ee0a31f970"
+  },
+  {
+    "claim_id": "ede59026d416e8c433c4410d5f735331d4841b9b9000e8bf7a05eebe1f947856",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "9d7e279fa6b8a52f69ec39578f0458e66ffafd19c14aef6603c30a2b0c32c4b5",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "038dd928fc3dbe6bce03607609c379e092eac9467f3ed1242286436db1616f39",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "f6546701904a836ff18ea80a944860d8cd91935faaa7c863da8704dd6b0eb664",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "051be944f560aa286dbc6dc45a219745a5a2ef7775a0a92b56ba509b16e48b7d",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "06ea8f181194b339e71986f95f1f6b3762c7d54a9cd800c79752a165ce5aae18",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "307d0eeb0715bd0444f25c9569ee81c18d28c8fe0f8f1ca6899847517be71a2b",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\independent-resource-audit.json",
+    "resource_metric": "model_seconds"
+  },
+  {
+    "claim_id": "a6d892181a02e2c6444182d1131d6686597466587e2d6dd3051a893c54aa2673",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\independent-resource-audit.json",
+    "resource_metric": "input_tokens"
+  },
+  {
+    "claim_id": "9e08ff780ab9f3b16d444a858b02c6b0b5dfa9a9cc0e45a44df8fa22cb304903",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\independent-resource-audit.json",
+    "resource_metric": "output_tokens"
+  },
+  {
+    "claim_id": "bbda60dd0cda08de45dd0dbfe5fbd0956b59f884cc404058c7796fec697dfe3e",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\research\\evidence\\e19ac88fd459fbd2da2670a3\\registered_spec.json",
+    "source_sha256": "d2185ba086f70a54ed656d5a76ad68094a86b575559654856ada62ee0a31f970"
+  },
+  {
+    "claim_id": "e7f402208d29a86d38203f35ffdea03e7857045b3a180a0f2adc71483175dc03",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\research\\evidence\\e19ac88fd459fbd2da2670a3\\registered_spec.json",
+    "source_sha256": "d2185ba086f70a54ed656d5a76ad68094a86b575559654856ada62ee0a31f970"
+  },
+  {
+    "claim_id": "94cb617a97360ee2e72b76e031fe9a2a5ebc7ad208ce793f6f20d70e74158908",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "892ebcbcdf67aa008e71f0b5017099fd730c8f23838cb0c5d4d5f63f4ae29812",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "98522fd4bb3e26d1811b2ebe1dbea29325010f7b01470425194c687ad83cf9dc",
+    "kind": "identifier",
+    "rationale": "Schema/benchmark identifier, not a measured outcome.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\research_report.json",
+    "source_sha256": "1dd6e8827356a6ccf20bb986fadaf6d47ed444d1509bef752305d53d1f3c4d9d"
+  },
+  {
+    "claim_id": "fbc32228a9e870605bb888acf0f920bb4b925f090d14126802caae30b6d2d000",
+    "kind": "method",
+    "rationale": "Observed literal setting/tested degree range or untested degree1 planning choice; source-specific historical comparisons and failures independently checked. Future utility/local-minimum language is inference, never a measured probability.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+    "source_sha256": "fe401f9233824048a43a5e96a8db1f856a9501208eb9835efb3585773bc26a2c"
+  },
+  {
+    "claim_id": "c49c83145616225bd1ff1f09a7635ec0968cad116624b172a55b8b963230c981",
+    "kind": "method",
+    "rationale": "Observed literal setting/tested degree range or untested degree1 planning choice; source-specific historical comparisons and failures independently checked. Future utility/local-minimum language is inference, never a measured probability.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+    "source_sha256": "fe401f9233824048a43a5e96a8db1f856a9501208eb9835efb3585773bc26a2c"
+  },
+  {
+    "claim_id": "10b73a81a6b8a4ab567746ed4a08dca965cc80396ddcfc59a7aea34835fcde0c",
+    "kind": "method",
+    "rationale": "Observed literal setting/tested degree range or untested degree1 planning choice; source-specific historical comparisons and failures independently checked. Future utility/local-minimum language is inference, never a measured probability.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+    "source_sha256": "fe401f9233824048a43a5e96a8db1f856a9501208eb9835efb3585773bc26a2c"
+  },
+  {
+    "claim_id": "5ecd63f6547e84ff4ed9323b993eedc5a320e14c9e68d3acc0779c097a01cf2e",
+    "kind": "method",
+    "rationale": "Observed literal setting/tested degree range or untested degree1 planning choice; source-specific historical comparisons and failures independently checked. Future utility/local-minimum language is inference, never a measured probability.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+    "source_sha256": "fe401f9233824048a43a5e96a8db1f856a9501208eb9835efb3585773bc26a2c"
+  },
+  {
+    "claim_id": "1de8c1d91cb44dcd02781dca10fe71bc245060c41f98dac3413e3ad3491562b7",
+    "kind": "proposal",
+    "rationale": "Observed literal setting/tested degree range or untested degree1 planning choice; source-specific historical comparisons and failures independently checked. Future utility/local-minimum language is inference, never a measured probability.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+    "source_sha256": "fe401f9233824048a43a5e96a8db1f856a9501208eb9835efb3585773bc26a2c"
+  },
+  {
+    "claim_id": "a113eb488f1ad45c7b4b9995a9c8b08c9a0cc2cca1a2857fa32990c4d24b7dcf",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "7094a376d702ca660201d2f87e378956bb28e2a2369530c66fa2dc37e1cce39b",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "96207692ec1e3d7af867e267fff45b6e902e2909645dc6d177d8ab1386835fee",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "01b094dc97ca57aa6a683b57e4d62b4150de3f28c3e310dd93f23ba386915120",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "78c3b51010ed45882e7c450a748b825a7d411e053ace7ac033bcb643460601b2",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "c72174e11e5e8db46b9c1875352e56b22cd1f8bae2ddaceb7a5077fdda2f9deb",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "2b8cb9119e6035302e772823648cbccd118bedc80c6955fe3aafe1e7ea154707",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "ee0b010a6e5bb9537b43beed6e1c929ad74a5fc59e70b191c28fcdd34c66c3c9",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "581709dbec03238b441e92342d62dc388cd1566e28648b8543bec3e70ca49a38",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "9f20286066aec28855d0282f4be15018f35f9de84dc95249227139a896a0732f",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "099556b19c95640de5efe2ca357130ff0b6a616a84fc1a40396922f96f31f580",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "976f4918a629874a9a02e596fc8320aaf7fee1ff30f21060dc1ef3844ab69135",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "9d383c13cf4f6e3e655090fa9c6b8997a5f0067f6643c13997046c01e83fd8b7",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "59fda25daad42de602a4bb9eee3db02cb80201594f0ad541ddc7dcf51e56054a",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "86ca91c033065c75facca6518c192df902e8f99e3d221b57c6a180315b278b85",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "8e69bbc02dd2a35bc6c3428104a6a57a049929e35e5d69a53eea863414867065",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "4d14753b702dd3cf10613d05ceff641623075c079b369c0c1b31132bb2f92630",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "14abc17fb853242041f9140eb90f0a62bb492db21e580f4a6e85d1859da0c37a",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "3f561cb55e54c0facd5d633e2fd2664cf197d33f2bae20e24e7872dfe9b912c8",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "ff5028e215ddfdf5c00a4ea3bd4991bae0e04680960bc3288c1ad5c96faeebf1",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "9f8ee33b91f4a6bfc57fc9a8334109586a43f051948339529c245d22985946c1",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  },
+  {
+    "claim_id": "7ed322d52047b327b25ddc119b1cf9b04227eab0c1ebde384914982b39f7dfee",
+    "kind": "proposal",
+    "rationale": "Explicit stored preexecution or failed hypothesis. Future gain is unmeasured; accompanying historical parameter comparisons are separately recomputed from actual receipts."
+  }
+]

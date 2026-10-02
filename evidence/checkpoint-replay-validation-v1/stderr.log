@@ -1,0 +1,86 @@
+test_actual_checkpoint_wrapper_prefix_rng_and_stale_reconstruction (tests.test_checkpoint_replay.CheckpointReplayTests.test_actual_checkpoint_wrapper_prefix_rng_and_stale_reconstruction) ... ERROR
+test_checkpoint_raw_pickle_alone_and_torn_stage_do_not_replace_committed_head (tests.test_checkpoint_replay.CheckpointReplayTests.test_checkpoint_raw_pickle_alone_and_torn_stage_do_not_replace_committed_head) ... ERROR
+test_committed_cpu_prefix_does_not_replay_into_new_logical_cpu_call (tests.test_checkpoint_replay.CheckpointReplayTests.test_committed_cpu_prefix_does_not_replay_into_new_logical_cpu_call) ... ERROR
+test_committed_prefix_same_prompt_is_a_fresh_logical_request (tests.test_checkpoint_replay.CheckpointReplayTests.test_committed_prefix_same_prompt_is_a_fresh_logical_request) ... ok
+test_cpu_completed_without_logical_reply_requires_reconciliation (tests.test_checkpoint_replay.CheckpointReplayTests.test_cpu_completed_without_logical_reply_requires_reconciliation) ... ok
+test_definitive_failure_does_not_authorize_a_different_logical_request (tests.test_checkpoint_replay.CheckpointReplayTests.test_definitive_failure_does_not_authorize_a_different_logical_request) ... ok
+test_definitive_no_action_failure_retries_same_logical_request_and_counts_attempt (tests.test_checkpoint_replay.CheckpointReplayTests.test_definitive_no_action_failure_retries_same_logical_request_and_counts_attempt) ... ok
+test_host_abort_escapes_original_reward_exception_handler_and_stays_failed (tests.test_checkpoint_replay.CheckpointReplayTests.test_host_abort_escapes_original_reward_exception_handler_and_stays_failed) ... ok
+test_initial_reconstruction_preserves_identical_prompt_multiplicity (tests.test_checkpoint_replay.CheckpointReplayTests.test_initial_reconstruction_preserves_identical_prompt_multiplicity) ... ok
+test_model_cpu_model_tail_replays_exact_original_response (tests.test_checkpoint_replay.CheckpointReplayTests.test_model_cpu_model_tail_replays_exact_original_response) ... ERROR
+test_partial_model_logical_ledger_cannot_repeat_an_orphan_completion (tests.test_checkpoint_replay.CheckpointReplayTests.test_partial_model_logical_ledger_cannot_repeat_an_orphan_completion) ... ok
+test_stale_checkpoint_replays_tail_once_then_same_prompt_is_fresh (tests.test_checkpoint_replay.CheckpointReplayTests.test_stale_checkpoint_replays_tail_once_then_same_prompt_is_fresh) ... ok
+test_tail_role_phase_hostordinal_and_prompt_mismatches_fail_closed (tests.test_checkpoint_replay.CheckpointReplayTests.test_tail_role_phase_hostordinal_and_prompt_mismatches_fail_closed) ... ok
+
+======================================================================
+ERROR: test_actual_checkpoint_wrapper_prefix_rng_and_stale_reconstruction (tests.test_checkpoint_replay.CheckpointReplayTests.test_actual_checkpoint_wrapper_prefix_rng_and_stale_reconstruction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\tests\test_checkpoint_replay.py", line 289, in test_actual_checkpoint_wrapper_prefix_rng_and_stale_reconstruction
+    lab.save_state("data preparation")
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\evidence_research\baseline.py", line 210, in save_wrapper
+    return controller.save_checkpoint(upstream, original_save, instance, phase)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\evidence_research\baseline.py", line 225, in save_checkpoint
+    stage.mkdir()
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [WinError 206] ���� �̸��̳� Ȯ����� �ʹ� ��ϴ�: 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\work\\test-checkpoint-replay\\tmpkt0kd88t\\workflow-original\\transport_checkpoints\\.stage-00000001-1790957841909290000'
+
+======================================================================
+ERROR: test_checkpoint_raw_pickle_alone_and_torn_stage_do_not_replace_committed_head (tests.test_checkpoint_replay.CheckpointReplayTests.test_checkpoint_raw_pickle_alone_and_torn_stage_do_not_replace_committed_head)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\tests\test_checkpoint_replay.py", line 352, in test_checkpoint_raw_pickle_alone_and_torn_stage_do_not_replace_committed_head
+    lab.save_state("data preparation")
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\evidence_research\baseline.py", line 210, in save_wrapper
+    return controller.save_checkpoint(upstream, original_save, instance, phase)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\evidence_research\baseline.py", line 236, in save_checkpoint
+    original_save(instance, phase)
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\references\upstream\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\ai_lab_repo.py", line 112, in save_state
+    with open(f"state_saves/Paper{self.paper_index}.pkl", "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\evidence_research\baseline.py", line 232, in checkpoint_open
+    return builtins.open(staged_pickle, mode, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\work\\test-checkpoint-replay\\tmp2lkebbg5\\workflow\\transport_checkpoints\\.stage-00000001-1790957841936289300\\workflow.pkl'
+
+======================================================================
+ERROR: test_committed_cpu_prefix_does_not_replay_into_new_logical_cpu_call (tests.test_checkpoint_replay.CheckpointReplayTests.test_committed_cpu_prefix_does_not_replay_into_new_logical_cpu_call)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\tests\test_checkpoint_replay.py", line 192, in test_committed_cpu_prefix_does_not_replay_into_new_logical_cpu_call
+    old_return = original(code)
+                 ^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\evidence_research\arms.py", line 320, in __call__
+    atomic_json(path, receipt)
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\evidence_research\store.py", line 68, in atomic_json
+    with temp.open("wb") as stream:
+         ^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\work\\test-checkpoint-replay\\tmpr_yofghc\\original-cpu\\tool-replies\\00000000-9872544b6368de9284af9cb759f4c8860606edc4fff45988c9341b41fd945e98.json.21628.tmp'
+
+======================================================================
+ERROR: test_model_cpu_model_tail_replays_exact_original_response (tests.test_checkpoint_replay.CheckpointReplayTests.test_model_cpu_model_tail_replays_exact_original_response)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\tests\test_checkpoint_replay.py", line 170, in test_model_cpu_model_tail_replays_exact_original_response
+    original_return = tool(code)
+                      ^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\evidence_research\arms.py", line 320, in __call__
+    atomic_json(path, receipt)
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\checkpoint-replay-validation-v1\source_snapshot\work\next-version\evidence_research\store.py", line 68, in atomic_json
+    with temp.open("wb") as stream:
+         ^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version\\work\\test-checkpoint-replay\\tmpq6w3biux\\first-cpu\\tool-replies\\00000000-964102b1bf0ca02b8706ca5e7ec75dd29b3a0df651f0d09fdab6589643eefae6.json.21628.tmp'
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.386s
+
+FAILED (errors=4)

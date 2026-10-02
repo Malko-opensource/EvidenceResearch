@@ -1,0 +1,497 @@
+{
+  "items": [
+    {
+      "claim_id": "4fe35ffecc64436b7bcaf3fddabce7b388ec32b415e2b422caa7b48981da9feb",
+      "context": "tical facts are literature context, not local experimental evidence.\",\"kind\":\"literature\",\"url\":\"https://arxiv.org/html/1910.02373v2\"},{\"claim\":\"Literature claim from Agent Laboratory section 3: experiments execute generated code; an LLM reward model guides code selection. Its section 5 discusses self-evaluatio",
+      "end": 4371,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 1,
+      "number": "1910.02373v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Exact frozen bibliographic ID, not reproduced paper measurement.",
+      "start": 4359
+    },
+    {
+      "claim_id": "9da971aa05a3f59ec500c5150a11242b10440f7232edf058ef0c50a2f8197a55",
+      "context": "d results. This is not independent evidence of task performance here.\",\"kind\":\"literature\",\"url\":\"https://arxiv.org/abs/2501.04227v2\"},{\"claim\":\"Literature claim from AgentRxiv section 3: agents retrieve reports through a SentenceTransformer similarity search. Section 4.1 reports hallucination/reward-hacking ri",
+      "end": 4700,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 1,
+      "number": "2501.04227v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Exact frozen bibliographic ID, not reproduced paper measurement.",
+      "start": 4688
+    },
+    {
+      "claim_id": "1395fd5b14903cd79b3c9ac5530f20fef82f30fd243a6b26710128cb2fd49028",
+      "context": "ntal outputs. Retrieved reports require verification before adoption.\",\"kind\":\"literature\",\"url\":\"https://arxiv.org/abs/2503.18102v1\"}],\"resources\":{\"provider_billed_cost\":null,\"scope\":\"Raw completed model-call records; independent evaluator owns full attempt accounting.\",\"seconds\":440.22000000003027,\"token_usa",
+      "end": 5046,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 1,
+      "number": "2503.18102v1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Exact frozen bibliographic ID, not reproduced paper measurement.",
+      "start": 5034
+    },
+    {
+      "claim_id": "52dac291d2331f7ae76373df5be334249f07938ef9215088150471cfdde75423",
+      "context": "iciency-1\",\"selected_config\":{\"alpha\":0.0,\"degree\":4},\"selection_reason\":\"Prioritize the next degree with alpha held at zero to isolate the effect of added complexity. This is more directly supported by the observed cubic improvement than stronger quadratic regularization; weaker regularization remains ",
+      "end": 5458,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "zero",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 5454
+    },
+    {
+      "claim_id": "999a7743229fac29863979b46a997b912960686d8069d70f7f90d2647270aeb6",
+      "context": "ng the successful quadratic fit.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"A fifth-degree term may reduce validation MSE further, although the small gains from degrees three and four suggest limited benefit.\",\"reason\":\"Registered criterion not met; retained as f",
+      "end": 6458,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "fifth",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 6453
+    },
+    {
+      "claim_id": "bcd279d4ba419c84f1687fe15eaf9dd1ffd765f6444d2890616a458fa5913b8f",
+      "context": "d evidence.\"},{\"question\":\"A fifth-degree term may reduce validation MSE further, although the small gains from degrees three and four suggest limited benefit.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Weak regularization of the best observed quartic model may r",
+      "end": 6549,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "three",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 6544
+    },
+    {
+      "claim_id": "2e052e0d24701351940c83d218a8c9a36ec3f9ecf9e2ab9181f3ae9497b9d895",
+      "context": ".\"},{\"question\":\"A fifth-degree term may reduce validation MSE further, although the small gains from degrees three and four suggest limited benefit.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Weak regularization of the best observed quartic model may reduce val",
+      "end": 6558,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "four",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 6554
+    },
+    {
+      "claim_id": "f4222d6fba612ac40173863e6d3714cec7dc1cffbc808596e887cdd88ab3dcdc",
+      "context": "E while limiting shrinkage bias.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"A sixth-degree term may capture residual curvature that the unsuccessful unregularized fifth-degree model could not capture, reducing validation MSE.\",\"reason\":\"Registered criterion not m",
+      "end": 6873,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "sixth",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 6868
+    },
+    {
+      "claim_id": "cd8d169dc69276f3afe6e076fbd4052bec7cf2e5f9741c4ae0635da46eca4fc1",
+      "context": " failed evidence.\"},{\"question\":\"A sixth-degree term may capture residual curvature that the unsuccessful unregularized fifth-degree model could not capture, reducing validation MSE.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Regularizing the sixth-degree model m",
+      "end": 6958,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "fifth",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 6953
+    },
+    {
+      "claim_id": "97d6c41a7dd62f1d845af2928711618939121b6163dc0c3f0d8db8c949780912",
+      "context": "g validation MSE.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Regularizing the sixth-degree model may suppress higher-order coefficients enough to reduce validation MSE relative to its unregularized fit.\",\"reason\":\"Registered criterion not met; retained as failed ",
+      "end": 7123,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "sixth",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 7118
+    },
+    {
+      "claim_id": "1325d4dd9c47fd90db618066e5686191edcb6104b5e576b8bb1d8b326bd95185",
+      "context": "nregularized fit.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"An unregularized seventh-degree model may capture residual structure and improve validation MSE, although worsening results at degrees five and six make this uncertain.\",\"reason\":\"Registered criterion not",
+      "end": 7352,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "seventh",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 7345
+    },
+    {
+      "claim_id": "e18420f201016abdc88489c79c99800a55417233f53bd3f7464f5cb29529406d",
+      "context": "d seventh-degree model may capture residual structure and improve validation MSE, although worsening results at degrees five and six make this uncertain.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Weak ridge regularization may reduce the fifth-degree model's val",
+      "end": 7467,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "five",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 7463
+    },
+    {
+      "claim_id": "7eec29e0aa660ab4a9baa87bb5c2b753a7dd12b581f81af0189241e29810d8ff",
+      "context": "-degree model may capture residual structure and improve validation MSE, although worsening results at degrees five and six make this uncertain.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Weak ridge regularization may reduce the fifth-degree model's validation ",
+      "end": 7475,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "six",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 7472
+    },
+    {
+      "claim_id": "cb9d79d8a4bfe96cf9a06f4eb6ddbc2a404c955539770dddd7f47d271de204d1",
+      "context": "on\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Weak ridge regularization may reduce the fifth-degree model's validation error by limiting variance from its additional term.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"An eighth-degre",
+      "end": 7628,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "fifth",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 7623
+    },
+    {
+      "claim_id": "cf7d7355a4a7e98b16468789d5a74dea9f2e96a36c5a82f7f1ade4d163062814",
+      "context": "iance from its additional term.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"An eighth-degree term may capture residual structure that degrees five through seven did not capture, although their validation results make improvement uncertain.\",\"reason\":\"Registered cri",
+      "end": 7802,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "eighth",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 7796
+    },
+    {
+      "claim_id": "c442f920bc87c99d69a17548c3861c2c9c6e229a22126909af62f96994e6846c",
+      "context": " not met; retained as failed evidence.\"},{\"question\":\"An eighth-degree term may capture residual structure that degrees five through seven did not capture, although their validation results make improvement uncertain.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"W",
+      "end": 7863,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "five",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 7859
+    },
+    {
+      "claim_id": "e176b0951ed1740dec38f39a05e6850ebf3c3cfbed6c8f02de64181b242b373d",
+      "context": "ained as failed evidence.\"},{\"question\":\"An eighth-degree term may capture residual structure that degrees five through seven did not capture, although their validation results make improvement uncertain.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Weak regulariza",
+      "end": 7877,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "seven",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 7872
+    },
+    {
+      "claim_id": "eb06b406e7efca89bf5178908275f855fa749dd92a16051a2010faab0f167c73",
+      "context": "on\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Weak ridge regularization may reduce the eighth-degree model's validation error by suppressing unstable higher-order coefficients.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Stronger ri",
+      "end": 8313,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "eighth",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 8307
+    },
+    {
+      "claim_id": "905c12946b5c954a67097faf697c67233ff8505ead4054977b80e0920ac1f201",
+      "context": "led evidence.\"},{\"question\":\"Stronger ridge regularization may suppress higher-order coefficients enough to improve the eighth-degree model's validation MSE, despite the deterioration observed with weak regularization.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"We",
+      "end": 8579,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "eighth",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 8573
+    },
+    {
+      "claim_id": "88a7abab2fb9bd7f203d4a7e2b5ea04ea1d8e346b4043aa998e2f0af16dc206a",
+      "context": "d criterion not met; retained as failed evidence.\"},{\"question\":\"Weak ridge regularization may suppress variance in the seventh-degree fit without the deterioration observed with stronger regularization in neighboring high-degree models.\",\"reason\":\"Registered criterion not met; retained as failed evidence.",
+      "end": 8819,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "seventh",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 8812
+    },
+    {
+      "claim_id": "8760b36fe3c15cb9efdc5d6327d4b756da1b266514b9051123bafe08e09c6a2e",
+      "context": "ing high-degree models.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Increasing seventh-degree ridge regularization modestly beyond alpha 0.01 may extend its observed validation improvement, although beating the unregularized quartic remains uncertain.\",\"reason\":\"Reg",
+      "end": 9033,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "seventh",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 9026
+    },
+    {
+      "claim_id": "1b5211c638eebdc998bc10dc288a6e8b53813e5c23edfe9fe6a0cf1caf40783e",
+      "context": "eason\":\"Registered criterion not met; retained as failed evidence.\"},{\"question\":\"Weaker regularization may improve the sixth-degree model's validation MSE by reducing shrinkage bias while retaining some suppression of higher-order coefficients.\",\"reason\":\"Registered criterion not met; retained as failed",
+      "end": 9327,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "sixth",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 9322
+    },
+    {
+      "claim_id": "2f513841901a23c454c3c7003966ea00fa74c0e1f6dc2b1698afab3f3daab4cc",
+      "context": "istered criterion not met; retained as failed evidence.\"},{\"question\":\"A smaller positive ridge penalty may improve the sixth-degree model's validation MSE within the interval between alpha 0 and 0.01; surpassing the successful unregularized quartic remains uncertain.\",\"reason\":\"Registered criterion not ",
+      "end": 9587,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "sixth",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 9582
+    },
+    {
+      "claim_id": "549caa492cba251caf90ba547fcc2e31d0460615d9ec0e2c7607faf80e82f613",
+      "context": "etained as failed evidence.\"},{\"question\":\"An intermediate ridge penalty may locate a validation-MSE minimum for degree six between the tested alpha values 0.01 and 0.1; outperforming the unregularized quartic remains uncertain.\",\"reason\":\"Registered criterion not met; retained as failed evidence.\"}]}",
+      "end": 9896,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+          "sha256": "b94e83697a05138e5832794a40b442c565eb4efb60331a706bd37e05419e139c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+          "sha256": "c5a8eb707f2ae3767a4ea37d7191be7e547c5af39f52b4846947f7429af59f9d"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "six",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Spelled degree/ordinal in stored hypothesis or model stopping inference. Historical comparisons are checked separately; future improvement remains unmeasured.",
+      "start": 9893
+    }
+  ],
+  "report_sha256": "3a6564de8644eba24b463845ce984c27a0e86e21531ef4ee4ba437eb1ad17b5a"
+}

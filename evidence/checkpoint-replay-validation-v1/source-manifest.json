@@ -1,0 +1,122 @@
+{
+  "kind": "provider-free-implementation-validation-source-snapshot",
+  "files": [
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\arms.py",
+      "snapshot_path": "work/next-version/evidence_research/arms.py",
+      "sha256": "33ad265c6a06b5c96cbfc8e3760b5a6733f89806d91988530ed1766db0b19e28"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\baseline.py",
+      "snapshot_path": "work/next-version/evidence_research/baseline.py",
+      "sha256": "003dfb1d6bd631d4a63be984699ec1d304a7852153e38afa940840e39a882e76"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\cli.py",
+      "snapshot_path": "work/next-version/evidence_research/cli.py",
+      "sha256": "fe0d387c70040b597a376d05bdda4ffb07e8e900c2485976a2da9b168cdd0a22"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\comparison_arms.py",
+      "snapshot_path": "work/next-version/evidence_research/comparison_arms.py",
+      "sha256": "e9936619d3ff7fe0da1cd47a1ecf44db8e13a3f42d189ca8d3111ace9c8b00b9"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\engine.py",
+      "snapshot_path": "work/next-version/evidence_research/engine.py",
+      "sha256": "7b141d3fdbb6354b057c947fd7faeb47a4740b03659c8812c469eac28ff19851"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\evaluation.py",
+      "snapshot_path": "work/next-version/evidence_research/evaluation.py",
+      "sha256": "ece97c86cc541adc16a7876c15ebf4c62ccca3be1bd79c91986dea2d014f148c"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\model.py",
+      "snapshot_path": "work/next-version/evidence_research/model.py",
+      "sha256": "21a4b73168428ad4795db55d6c95c2d7f3f2e7c44e0d9bc80fbc9e6a5e8a8131"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\model_attempt_audit.py",
+      "snapshot_path": "work/next-version/evidence_research/model_attempt_audit.py",
+      "sha256": "3d46151d4388b25373e5c9c6518be49279306484900515cbe69f281824aedee8"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\model_request_audit.py",
+      "snapshot_path": "work/next-version/evidence_research/model_request_audit.py",
+      "sha256": "25eafd1f0d85be77997f0bb2de07f9f9a8f229a17e19a95b661c79e917b0ce12"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\proposer.py",
+      "snapshot_path": "work/next-version/evidence_research/proposer.py",
+      "sha256": "3363c3236ed975174aa22f187a634014e0e86c904926f448bd64ab24e76d14a4"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\report_contract.py",
+      "snapshot_path": "work/next-version/evidence_research/report_contract.py",
+      "sha256": "71cb6fd95b65148b796ed7c491a1b0c958e435df3e73dc4018c587ef87ee144c"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\selection.py",
+      "snapshot_path": "work/next-version/evidence_research/selection.py",
+      "sha256": "163905588a7f9089b953d4b5ab01589dd97c47fc94be716c84f75873a20cd2a4"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\store.py",
+      "snapshot_path": "work/next-version/evidence_research/store.py",
+      "sha256": "d9a5df829170a9e58285bbcda4d12f6c753968e95f0148a5f28f20db0d891ee6"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\study.py",
+      "snapshot_path": "work/next-version/evidence_research/study.py",
+      "sha256": "0a48066b0feac95fcb8bac2fcff6572ff91ac61099c61e265e0288ba2840e070"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\tasks.py",
+      "snapshot_path": "work/next-version/evidence_research/tasks.py",
+      "sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\verifier.py",
+      "snapshot_path": "work/next-version/evidence_research/verifier.py",
+      "sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\__init__.py",
+      "snapshot_path": "work/next-version/evidence_research/__init__.py",
+      "sha256": "a30c60a6e39cf4ca0357c2fa539712944c6fee913281e528c607b9b2ad2cc322"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\evidence_research\\__main__.py",
+      "snapshot_path": "work/next-version/evidence_research/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\next-version\\tests\\test_checkpoint_replay.py",
+      "snapshot_path": "work/next-version/tests/test_checkpoint_replay.py",
+      "sha256": "c098957bb27c1881abe8a5557754922fb10f0c7a29d9dde399dc3d9caa2f0576"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\ai_lab_repo.py",
+      "snapshot_path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/ai_lab_repo.py",
+      "sha256": "799a3c078d835cd632487f52ed5b8e9f155bb9514ca104a30442ecfbcb7765ff"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\agents.py",
+      "snapshot_path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/agents.py",
+      "sha256": "d8d1eda040eb1fa897d84596a1b36f277e83da75433c1a9ac2d9efe5be5c749a"
+    },
+    {
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\LICENSE",
+      "snapshot_path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/LICENSE",
+      "sha256": "bf38a159d01e82d58f986c2d6dd06e03ba0b9cd59a6d286dd94109aac358e583"
+    },
+    {
+      "original_path": null,
+      "snapshot_path": "work/next-version/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "empty test-package marker only"
+    }
+  ],
+  "scope": "Reviewed future-source byte copies; not a final study registration"
+}

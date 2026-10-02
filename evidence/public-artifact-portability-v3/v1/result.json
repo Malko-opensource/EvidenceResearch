@@ -1,0 +1,29 @@
+{
+  "kind": "actual_future_source_implementation_validation",
+  "source_manifest_sha256": "3a6a2c2b5f4cc8edfa5be2a5c81efa26cdfeeda27c8d1dca77c739b55479e6f4",
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "tests.test_checkpoint_replay",
+    "-v"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v1\\source_snapshot\\work\\next-version",
+  "exit_code": 1,
+  "elapsed_seconds": 0.5404420999693684,
+  "actual_model_calls": 0,
+  "provider_kind": "synthetic unit-test fixtures explicitly marked fixture_only",
+  "cpu_scope": "Small fixed CPU fits are implementation unit tests, not research arm trials",
+  "stdout": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v1\\stdout.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v1\\stderr.log",
+    "sha256": "824b063c8ad4402d9580f597a752352b57298ebe77c353e3b7638d9e899d4a6d"
+  },
+  "snapshot_sources_after_identical": true,
+  "main_registered_studies_modified": false,
+  "conclusion_scope": "Transport/checkpoint correctness in these fixtures only; no framework or memory performance improvement claim"
+}

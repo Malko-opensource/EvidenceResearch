@@ -1,0 +1,370 @@
+[
+  {
+    "claim_id": "5e03155a091e1f3e161dd8f90c938b54d6bb0b5f9c7ba2db57b4eecc9848893a",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Explicit deterministic report line containing actual independently computed task metric.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\research\\evidence\\f59e756a0e5decd6085eaac2"
+  },
+  {
+    "claim_id": "e70f98cfdfb5db301d1d14a26344f420f70d8b895227b23667761286686483dd",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Explicit deterministic report line containing actual independently computed task metric.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\research\\evidence\\f59e756a0e5decd6085eaac2"
+  },
+  {
+    "claim_id": "0940e6af8e2519f543ddb44d988798b2af1b1a128bbf99f506b5637ee8268c48",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Known structured measured metric; independently reproduced actual CPU predictions and value.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\research\\evidence\\f59e756a0e5decd6085eaac2"
+  },
+  {
+    "claim_id": "a5440075570331986bb468572cc7f590b7c47d10a25834da7a1988f608712808",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Known structured measured metric; independently reproduced actual CPU predictions and value.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\research\\evidence\\f59e756a0e5decd6085eaac2"
+  },
+  {
+    "claim_id": "4c43195c34cf62ce4692d3c1994bff474ba9ee23a8aa9dfe85d7bc26b4ab4bc8",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\research\\evidence\\f59e756a0e5decd6085eaac2\\registered_spec.json",
+    "source_sha256": "82d10db9bdfca04f9d54e8443a04da1c601a36fb00326bbaa5158b0a6343e5fa"
+  },
+  {
+    "claim_id": "4991516756422f9afd4967c899848599c4b594846c9ee4be257fba7f0f520f6e",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\research\\evidence\\f59e756a0e5decd6085eaac2\\registered_spec.json",
+    "source_sha256": "82d10db9bdfca04f9d54e8443a04da1c601a36fb00326bbaa5158b0a6343e5fa"
+  },
+  {
+    "claim_id": "32d8e4e1d0c16fde44ae8ba69a4de40a1755bec881ec0febdcc3dd844bd2dc61",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "7a9811b9ba0704050330ae239b61dfde2774265a975913960e355b6be26f78ca",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "1c6caf721f40851ad4f3a097bab6add2ccc0661fa4185d55bda60e62441f45d4",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "0a19a7a82a168f4afcd88b76b5d29704b3406bfcc6d5ce835a13d151cd337fd7",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "322e4c8790f7b3f83b2ab32c8e6df4511f57562c56dd2fae9c8645b41e3b27e2",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "8676a66b64b01d3d33b315540fc545cc4b9185f09c8cc68acf18be38ef764f07",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "552911c215fcf4c4ce8f14862d6b1320ea2836660235a3cfbae637fab7682931",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\independent-resource-audit.json",
+    "resource_metric": "model_seconds"
+  },
+  {
+    "claim_id": "b79b2e395de13d5c3f2a94ff1105fbe669eccdd0625b350c78a0273cc7f85f85",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\independent-resource-audit.json",
+    "resource_metric": "input_tokens"
+  },
+  {
+    "claim_id": "f40f6aead68a2990efd8108c747a1b24eb7b5f1ff224c1dd84897deb8e8ac9df",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\independent-resource-audit.json",
+    "resource_metric": "output_tokens"
+  },
+  {
+    "claim_id": "7da87cbd981fc4547c07a840f14ee68f063801c3f32a17cedd10b5d238cf5570",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\research\\evidence\\f59e756a0e5decd6085eaac2\\registered_spec.json",
+    "source_sha256": "82d10db9bdfca04f9d54e8443a04da1c601a36fb00326bbaa5158b0a6343e5fa"
+  },
+  {
+    "claim_id": "83fdef0b316a28ece9a3c52744913254e5d523b3c01b27007cb45598523e397e",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\research\\evidence\\f59e756a0e5decd6085eaac2\\registered_spec.json",
+    "source_sha256": "82d10db9bdfca04f9d54e8443a04da1c601a36fb00326bbaa5158b0a6343e5fa"
+  },
+  {
+    "claim_id": "f24ee9f20c0471621b4c2f4924da41ea947847b7fdac364bd98bdde321417821",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "93df1c29bbcf476bbf8fda9b05def06222c238d1f5fc981c0824dce380b55bf6",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "6b9e673e9d6b2535ed2d256ee63957a7dccc0e7445079025d9c73ddaac0a1c91",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "a3f5ebd91cd12d24aa51eff3d20126a5e8e937a301987bf5ffccaddf4466345f",
+    "kind": "identifier",
+    "rationale": "Report schema version suffix, not a measured research outcome.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\research_report.json",
+    "source_sha256": "585b852d47782b764c1dddda571157399c570392b4228ae4e44d9497db727605"
+  },
+  {
+    "claim_id": "1026a2acc413d39202751f392564746217ebfdc823e23293be43af415b7885fe",
+    "kind": "method",
+    "rationale": "Selected literal setting or tested degree range. Independent verification of every configuration confirms higher-degree recorded validation errors exceed the selected result; no population/test superiority is asserted.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\independent_review\\complete-numeric-review-v2\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "95c63548b0b63816b71d9d9e977950f2aba814eb0574d1bd59d121bf98ba8b39"
+  },
+  {
+    "claim_id": "88746f7ae7a2887f8e414e3415f73bd0841559c8a69d98ab2426605e0335ef00",
+    "kind": "method",
+    "rationale": "Selected literal setting or tested degree range. Independent verification of every configuration confirms higher-degree recorded validation errors exceed the selected result; no population/test superiority is asserted.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\independent_review\\complete-numeric-review-v2\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "95c63548b0b63816b71d9d9e977950f2aba814eb0574d1bd59d121bf98ba8b39"
+  },
+  {
+    "claim_id": "899f01e50d1d0c3b3d4247f79cfe0e594ab73cec5f9cc484f4a51fb851f23f41",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Actual selected validation MSE independently recomputed. All 25 preserved candidates confirm it is the minimum among observed results; global optimality is unestablished.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\research\\evidence\\f59e756a0e5decd6085eaac2"
+  },
+  {
+    "claim_id": "b998b19252580d692aa1bbe058dc17f67ae5a0c4d6cef27ce2dc43bfa2e49235",
+    "kind": "measured_resource",
+    "rationale": "All 25 hash-linked CPU receipts independently verify and contain 25 distinct configurations, not 25 independent statistical repetitions.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\independent-resource-audit.json",
+    "resource_metric": "actual_cpu_executions"
+  },
+  {
+    "claim_id": "5121626c9584e452599f622f06e1bfa7be5a3aefc964b6f6637cc6dd049eaea5",
+    "kind": "method",
+    "rationale": "Selected literal setting or tested degree range. Independent verification of every configuration confirms higher-degree recorded validation errors exceed the selected result; no population/test superiority is asserted.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\independent_review\\complete-numeric-review-v2\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "95c63548b0b63816b71d9d9e977950f2aba814eb0574d1bd59d121bf98ba8b39"
+  },
+  {
+    "claim_id": "b02f5724f94f01fd44eb4b98889c98c9711b8104c97235be5efed178623cc5ee",
+    "kind": "method",
+    "rationale": "Selected literal setting or tested degree range. Independent verification of every configuration confirms higher-degree recorded validation errors exceed the selected result; no population/test superiority is asserted.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\C\\independent_review\\complete-numeric-review-v2\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "95c63548b0b63816b71d9d9e977950f2aba814eb0574d1bd59d121bf98ba8b39"
+  },
+  {
+    "claim_id": "1cb971478f4211cdf5749d2110821e5725d36b89c9a9738291df4e0bc69c087c",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "87a3db98e8264f426afa7139807171edbf509dfa585016a2f7459bb6ef5c9b34",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "a2656b6ced7eb21639b6857df8ab2f917e7bb318ff992378fe777e5f55cc80a0",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "704ace29e7b5de5f8589c59867d0aa499f70e26bb78683f523fc642c399eb7d1",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "665e34a5c750cfc32d434ef43ef6ec17a8256f0da53d996813f642e6277d4284",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "ac9efb5bb5e3581f3f766b248014842f2d6d16375bd5edb3ee5c4e38af536f85",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "5af5b71dc950b6c2df3977ed32a7263a26a478d7106b79e155aaecaf634e0761",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "b4de2f5d02cd9211cc3ed6a6f56ee79359c6134868b230bd70970d3c6589360a",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "e2aed1118fd06b26342070cdcf240336de9dd6386bffd7e4d04dfe6cfbab5822",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "b09e8637cbdbcbc138ff3657cbc2ba565e7c7996cc9bf6a46959f95df008390c",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "4789a2ca3a115820949a75734a3c3c3acb7ef8f230ffe3deb54aab54151fefda",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "5a46e1a1ea8a5b8b595f8dcf099434bc71f49f1203b93a13bac1963033790239",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "6903e04fd6e0819b0ad7e89ca5c228e6e7df20939f49575079300cbc8138b716",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "77a3c270c6ddc7d9a54c572c9cd6271da4468e4aa1d648512ee36102b20ba33c",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "9258400f69c61b60022e3efcdc957c9ed6aecc64f9ea038c2ac02c3d007a7101",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "4a13923442d88d543525957ddd9bc0cb5a178f2d95667cbbae3546b2642cf235",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "6401dcc11d55f4532410cfc732e12e953a36b97392d7f5763f86e5aa77120572",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "d1f021c3d0e97d27ba9c10ed67b6ea9c000d832c18fea30ebeb2f45a96b10715",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "9e46e3744e84a148266bb9ec71c12497b95086fdef708fceb6ce68cc75bba919",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "617e3888a1ba4eb5b4247984479db2ae30f2698e37fd77cc8eb723eff27bd8e8",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "ae6d11ae47e6a72e56f1c12fd868e54036f9dcec52a7d3f7b01691e92c56678f",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "f303782c62b7333549b17218ef57b7de79c9e6ef821e34006216dcfa18050f6b",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "ecf1e3c27afabf6b3af579fd2a29b54adf3762fdc9688da3e8c24e8f256e693b",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "43d254ca5969c6f42e01a612a87692dbea6102aab9d3aa131146ee1527d5be5f",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "f2b3207b752ceeee32e04a585053c0207dac0d4b96444da3cff78c0ff603d8ac",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "5ff8ea2d7da90bd7dddc39c1f9a3ee61ef2f00027534e011afa2a89990104add",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "b225563c71aeed30d84a055dd48281904bf48c2f7e95c090acc93ec97730c846",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "195a924ff1f537da0f0b3bb8fd2635c3938bd43f563dc79a609deac707acfd3b",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "e0ac28ecde5440cdd505f91330e7955890fae9b5797379e845ef37c38415d976",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "d97693daf8574a3997855049c8003d268d8b8cc97c8da9a9ce4dba599a216dba",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "e89aa3f96125467aa837e072ea3e0b18b7fa0f954a4ce789b2c874e8cc8e7bba",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "01978351f0e4bf3a681a2046ce53694f09d0aa1c4b804df22e70a2cc6c5e577d",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "0c3b4d3eb3c950460791d1db51f1cf7a76d0d629ff2adcc323289effa53a3333",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "869288cd68073cf245ab8a246e0add067818ee8f9955fe02ab0198820aa01b5e",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "21105630a4b907b62bf42752c936f2f2d54e5ccd9d6982bb2f3768272db22c61",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "b720a92c03a21915796d53e3289ff6b9819709488fc195a4c29844367ed91cbc",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  },
+  {
+    "claim_id": "bd4607fb55b2e705b87291a22dcfba95b47a461954d46949d2613fc7ea6b6e92",
+    "kind": "proposal",
+    "rationale": "Parameter within a explicitly tagged proposed/stored hypothesis. The unresolved item preserves its original failed criterion and does not claim a successful numerical improvement."
+  }
+]

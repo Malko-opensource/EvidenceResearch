@@ -1,0 +1,28 @@
+```REPLACE
+The supplied host record reports one distinct evaluated configuration: polynomial degree \(d=2\) with regularization parameter \(\alpha=0.0\). This configuration is an unregularized quadratic fitted on the 80 training observations and assessed on the 64 validation observations from the fixed seed-43 split. Table~\ref{tab:verified-quadratic-result} reports the host-measured errors at their supplied precision. The named invocation, \texttt{execution-0002}, is recorded as an actual CPU execution with independent verification marked valid. Although the host reports two actual CPU attempts, its distinct-configuration count remains one. These accounting quantities do not establish independent statistical replications, and the supplied record does not provide a distribution of errors across repeated samples.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{ccrr}
+\hline
+Degree \(d\) & Penalty \(\alpha\) & Training MSE & Validation MSE \\
+\hline
+2 & 0.0 & 0.008910787936555437 & 0.008575589501453651 \\
+\hline
+\end{tabular}
+\caption{Available host-measured result on the fixed seed-43 split. The evaluated configuration uses no ridge shrinkage. No alternative configuration has a supplied measurement.}
+\label{tab:verified-quadratic-result}
+\end{table}
+
+The validation MSE is slightly below the training MSE, and both aggregate errors have similar magnitudes. This observation is consistent with the fitted quadratic transferring well to the supplied validation observations. It does not establish performance on an independent test sample or demonstrate that the model has recovered the response-generating relationship. Training and validation errors summarize different observations, so their ordering does not imply that validation prediction is systematically easier. Moreover, the reported decimal precision describes the supplied numerical record rather than statistical certainty. No confidence interval, standard error, or significance test accompanies these measurements. Without evaluated alternatives and corresponding residual evidence, neither uncertainty in a configuration difference nor a statistically supported improvement can be reported.
+
+Applying the preregistered selection rule to the available evidence gives
+\[
+\mathcal{C}_{\mathrm{eval}}=\{(2,0.0)\},
+\qquad
+\widehat c=(2,0.0).
+\]
+The quadratic is therefore retained provisionally as best among the single evaluated configuration; no tie-breaking criterion is needed. The remaining planned candidates, in order, are \((2,0.1)\), \((2,1.0)\), \((3,0.1)\), \((4,1.0)\), \((1,0.1)\), \((2,10.0)\), and \((8,10.0)\). Their outcomes are unavailable. Consequently, there is no measured comparison against a linear baseline, no completed shrinkage ablation within degree two, and no observed contrast between the unregularized quadratic and the strongly regularized degree-eight model. The supplied accounting reports 49 remaining CPU executions, but remaining capacity does not constitute execution evidence or explain why the comparison is incomplete.
+
+The result supports a measured quadratic reference for subsequent comparisons while leaving the curvature-versus-shrinkage hypothesis unresolved. Fair configuration comparisons would retain the same training observations, validation observations, preprocessing, host implementation, and evaluation metric. A common numerical penalty across degrees would still not guarantee equivalent effective shrinkage because the feature representation changes. The present evidence cannot establish that higher degrees overfit, that quadratic curvature is necessary, or that positive regularization is ineffective. Any later winner would remain best among evaluated candidates on this split, with possible optimism from validation-based selection. Test performance, runtime differences, monetary costs, and baseline improvements have no supplied measurements and are not reported.
+```

@@ -1,0 +1,268 @@
+{
+  "kind": "development_pilot",
+  "model_id": "gpt-6.1-sol",
+  "resource_envelope": {
+    "device": "cpu",
+    "network": false,
+    "tools": [
+      "trusted polynomial ridge literal configuration",
+      "frozen literature retrieval"
+    ],
+    "proposal_calls_per_unit": 777,
+    "reasoning_effort": "medium",
+    "reasoning_policy": "Both arms pass the explicit Codex CLI configuration model_reasoning_effort=medium under --ignore-user-config. Model identifier, provider, tools, task resources and requested effort are matched; unexposed server weight versions are not asserted.",
+    "upstream_settings": {
+      "max_steps": 100,
+      "mlesolver_max_steps": 3,
+      "papersolver_max_steps": 1,
+      "num_papers_lit_review": 5,
+      "resource_design": {
+        "kind": "unexecuted_source_based_resource_design",
+        "normal_path_reference": {
+          "observed_minimal_first_unit_calls": 26,
+          "additional_four_literature_summary_full_add_calls": 12,
+          "additional_default_mle_valid_trials_calls": 8,
+          "additional_paper_edits_and_judges": 6,
+          "additional_mle_adoption_reflections": 2,
+          "reference_total": 54,
+          "qualification": "Observed first unit is development only. These added terms are source-derived assumptions, not measurements. Full two-role normal dialogues can add up to3 to this reference."
+        },
+        "source_bounded_components": [
+          {
+            "name": "literature review phase",
+            "calls": 101,
+            "formula": "1 initial PhD request +100 source loop followup requests",
+            "source": "ai_lab_repo.py:471–524"
+          },
+          {
+            "name": "plan formulation phase",
+            "calls": 200,
+            "formula": "100 source iterations times at most2 roles",
+            "source": "ai_lab_repo.py:419–445"
+          },
+          {
+            "name": "data preparation phase",
+            "calls": 200,
+            "formula": "100 source iterations times at most2 roles",
+            "source": "ai_lab_repo.py:348–403"
+          },
+          {
+            "name": "interpretation phase",
+            "calls": 200,
+            "formula": "100 source iterations times at most2 roles",
+            "source": "ai_lab_repo.py:279–301"
+          },
+          {
+            "name": "MLE accepted trial path with in-command repair",
+            "calls": 27,
+            "formula": "(1 initial +2 solves times2 valid trials) times (1 generation+up to2judges+up to2repair requests) +up to2adoption reflections",
+            "source": "mlesolver.py:25,166–200,250–327,349–403"
+          },
+          {
+            "name": "initial report sections and searches",
+            "calls": 39,
+            "formula": "9 initial scaffold/section requests +5 source literature searches times6 attempts",
+            "source": "papersolver.py:335–370"
+          },
+          {
+            "name": "Paper1 valid edit/judge trial path",
+            "calls": 6,
+            "formula": "1 solver iteration times3 valid trials times(edit request+judge request)",
+            "source": "papersolver.py:269–294,420–455"
+          },
+          {
+            "name": "README generation and three reviewers",
+            "calls": 4,
+            "formula": "1 README request+3 reviewer requests; source review_override True/review_total_steps0 does not add another decision request",
+            "source": "ai_lab_repo.py:45,54,207–227; agents.py:191–201"
+          }
+        ],
+        "derived_shared_requests": 777,
+        "derived_shared_cpu_ceiling": 777,
+        "sum_check": 777,
+        "interpretation": "This ceiling preserves the complete source-defined100-step phase tolerances and a bounded-repair accepted-trial path. It is not a finite upper bound for the original implementation: MLE outer retries, initial report section retries and Paper edit retries have whileTrue or equivalent unbounded loops. If the common ceiling is consumed first, classify as per-unit budget incomplete/failure under the preregistered policy, never external capacity or Goal completion.",
+        "actual_use": "Neither arm is required to use777 requests orCPU attempts. B stops on original normal completion; C stops when no justified new candidate remains or common unit resources run out. Actual usage/cost/time and every failed attempt are independently audited.",
+        "goal_scope": "Fixed per-unit evaluation resource conditions derived from the source, not a limit on autonomous research-loop turns, time or consecutive failures."
+      }
+    },
+    "tool_contract": "The host has already supplied the public task's fixed training and validation data. Use only a literal CONFIG assignment, e.g. CONFIG = {'degree': 1, 'alpha': 0.0}, or the standalone call run_candidate({'degree': 1, 'alpha': 0.0}). The host parses these actions and runs actual polynomial ridge training and validation. No imports, loops, functions, arithmetic expressions, filesystem access, print, or other Python statements are allowed. Do not include the example configuration unless you selected it. A DATA PREPARATION SUBMIT_CODE must also use a valid CONFIG assignment; data are preloaded. For MLE-Solver REPLACE or EDIT, use only these same literal configuration statements. The only legal configuration fields are degree (integer 1..8) and alpha (finite 0..100). Each permitted action evaluates one literal candidate. The host enforces the preregistered model-request and actual CPU-attempt resources; cached replay is not a new CPU attempt. Figures, external datasets, API calls and arbitrary code execution are outside the shared tool permissions. Use the original protocol command fences requested by the current phase. The frozen literature corpus is small and includes a task-relevant ridge/cross-validation paper. Different search phrasings retrieve the same fixed corpus; read a relevant result and use ADD_PAPER instead of repeating SUMMARY searches. During reporting distinguish actual host measurements, parameters, literature, and proposals. There is no test-set measurement, timing comparison, monetary price, or baseline improvement unless the host explicitly supplied its execution evidence. Do not fabricate those values.",
+    "tool_contract_sha256": "7d8933f4e96a46c96788cc26a7fa8cfaa70524ae3351a622f42a5fb3d359766c",
+    "literature_snapshot": [
+      {
+        "id": "1910.02373v2",
+        "title": "Ridge Regression: Structure, Cross-Validation, and Sketching",
+        "authors": [
+          "Sifan Liu",
+          "Edgar Dobriban"
+        ],
+        "url": "https://arxiv.org/html/1910.02373v2",
+        "abstract": "The study analyzes ridge estimation, regularization selection through cross-validation, and sketching approximations.",
+        "text": "Frozen source synopsis, not a full-text copy. Ridge Regression: Structure, Cross-Validation, and Sketching, sections 2 and 3, studies squared-error fitting with a quadratic coefficient penalty and selection of regularization through held-out/cross-validation error. The closed-form ridge solution depends on the feature covariance and regularization strength. The paper discusses validation bias in a high-dimensional asymptotic regime. It does not identify an optimal polynomial degree or alpha for this task; those must be measured from the supplied public training and validation data. Mathematical facts are literature context, not local experimental evidence."
+      },
+      {
+        "id": "2501.04227v2",
+        "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+        "url": "https://arxiv.org/abs/2501.04227v2",
+        "abstract": "Specialized agents perform literature review, planning, code experimentation, interpretation, and research reporting.",
+        "text": "Literature claim from Agent Laboratory section 3: experiments execute generated code; an LLM reward model guides code selection. Its section 5 discusses self-evaluation and hallucinated results. This is not independent evidence of task performance here."
+      },
+      {
+        "id": "2503.18102v1",
+        "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+        "url": "https://arxiv.org/abs/2503.18102v1",
+        "abstract": "Agent laboratories share and retrieve prior reports using a local preprint server and similarity-based retrieval.",
+        "text": "Literature claim from AgentRxiv section 3: agents retrieve reports through a SentenceTransformer similarity search. Section 4.1 reports hallucination/reward-hacking risks and human checking of experimental outputs. Retrieved reports require verification before adoption."
+      },
+      {
+        "id": "hoerl-kennard-1970",
+        "title": "Ridge Regression: Biased Estimation for Nonorthogonal Problems",
+        "authors": [
+          "Arthur E. Hoerl",
+          "Robert W. Kennard"
+        ],
+        "url": "https://doi.org/10.1080/00401706.1970.10488634",
+        "abstract": "The original study motivates regularization for ill-conditioned regression designs and analyzes the bias and variance of ridge estimates.",
+        "text": "Frozen authored source synopsis, not a full-text copy. The original paper considers linear regression when the feature covariance is poorly conditioned. Adding a nonnegative diagonal term yields biased ridge coefficient estimates. Sections on ridge regression and mean-square error analyze how regularization can reduce estimator variance while introducing bias, and present a ridge trace for sensitivity analysis. These parameter-estimation results motivate comparing regularized and unregularized polynomial features. They do not establish that any chosen degree or penalty improves validation prediction on the supplied task. That claim requires actual trusted-host measurements under the fixed train/validation split.",
+        "source_inspection": {
+          "kind": "original_pdf_text_sections",
+          "scope": "Original PDF header/introduction and ridge/MSE sections directly inspected through extracted text; equations have OCR noise and are not transcribed as exact formulas.",
+          "primary_url": "https://homepages.math.uic.edu/~lreyzin/papers/ridge.pdf",
+          "local_acquisition_sha256": "b7e6262bf3ac50d0da28572319f35f2b39493e97946ddafbac5ad2d979904f4d",
+          "text_extraction_sha256": "ac34abd84f075364d9594b807933bf4f5d6461640bd354c1b1a977875b7adc02"
+        },
+        "doi": "10.1080/00401706.1970.10488634",
+        "year_metadata": 1970,
+        "applicability": "Ill-conditioned linear coefficient estimation; motivation for a measured polynomial-ridge comparison, not a task optimum or a local result."
+      },
+      {
+        "id": "craven-wahba-1978",
+        "title": "Smoothing noisy data with spline functions: Estimating the correct degree of smoothing by the method of generalized cross-validation",
+        "authors": [
+          "Peter Craven",
+          "Grace Wahba"
+        ],
+        "url": "https://link.springer.com/article/10.1007/BF01404567",
+        "abstract": "The publisher original Summary describes choosing smoothing strength for noisy observations by generalized cross-validation.",
+        "text": "Frozen authored source synopsis based only on the publisher original Summary, not a full-paper reproduction. The paper considers smoothing splines with a squared fitting error and a roughness penalty. Generalized cross-validation selects the smoothing parameter using residual error adjusted by the smoothing matrix trace, aiming to approximate prediction-risk selection without requiring a known noise variance. The stated analysis uses regular-mesh and asymptotic assumptions. This supports treating regularization selection as an evidence-dependent task, but it neither evaluates the supplied polynomial ridge implementation nor supplies local validation measurements. Spline smoothness, polynomial degree and ridge coefficient penalty are different controls; no equivalence or guaranteed improvement is assumed.",
+        "source_inspection": {
+          "kind": "publisher_original_summary_only",
+          "scope": "Springer original Summary directly inspected. Author-hosted27-page scan downloaded, but extraction was not readable and scan full text has not been inspected.",
+          "primary_url": "https://link.springer.com/article/10.1007/BF01404567",
+          "author_pdf_url": "https://pages.stat.wisc.edu/~wahba/stat860public/pdf1/craven.wahba.pdf",
+          "local_acquisition_sha256": "87ed21f00466636a51e3c21ff0ba9048cb07df322e5745c8fd8bdc9472e7416d"
+        },
+        "doi": "10.1007/BF01404567",
+        "year_metadata": {
+          "publisher_issue": 1978,
+          "publisher_issue_month": "December",
+          "author_scan_front_page": 1979,
+          "resolution": "Both original metadata readings are recorded; no invented reconciliation."
+        },
+        "applicability": "Generalized cross-validation for smoothing splines; conceptual motivation for selecting regularization from evidence, not proof of polynomial-ridge performance."
+      }
+    ],
+    "literature_snapshot_sha256": "cc1c0f836fd87b4566b2d9a14087893e5109878c8ea5414e69f4b5542255c2e3",
+    "execution_permissions": "Host-owned fixed fitting/verifier only; generated Python is parsed and never executed; no external data/network/hidden test rows.",
+    "resource_scope": "Per-unit matched comparison resources, not a cap on Goal research loops",
+    "actual_cpu_executions_per_unit": 777,
+    "cpu_resource_design": "Shared777 maximum equals source-derived model-request resource design times at most one actual literal CPU action per request. Count completed/failed CPU attempts across resume, not cache replay or rejected commands. See upstream_settings.resource_design; per-unit evaluation only."
+  },
+  "baseline_provenance": {
+    "kind": "upstream_adaptation",
+    "repository": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+    "commit": "d9017d90e329112d2a80b7712f37ee9094d2cd27",
+    "definition_loader": "evidence_research.baseline.run_upstream_baseline",
+    "execution_kind": "Original LaboratoryWorkflow, agents, MLESolver, PaperSolver and reward function definitions are executed; model/tool/import boundaries are explicitly adapted.",
+    "omitted_import_policy": "Only top-level optional imports are omitted; original function/class AST hashes are recorded.",
+    "agentRxiv_web_pdf_backend": false,
+    "adaptations": [
+      "Existing Codex CLI ChatGPT model provider replaces every upstream query_model boundary.",
+      "Fixed public task training/validation bundle and primary-source literature synopsis replace external search.",
+      "Literal candidate parser and trusted CPU fitting replace arbitrary generated Python execution.",
+      "compile_pdf=False; complete original report source and reviewers remain active.",
+      "Checkpoint restore and prompt-identical completed raw response cache prevent repetition after definitive provider failure.",
+      "Host tool exposes execution IDs, total actual CPU attempts, distinct configurations and hash-linked receipts; cached replay does not increment counts.",
+      "Both arms share the preregistered maximum of 777 actual CPU attempts and 777 model requests; actual utilization may differ.",
+      "The unchanged original upstream report and a common evidence-linked companion receive separate independent numeric reviews.",
+      "Serialized adapter invocation restores original import environment, warnings, logging and random-state side effects.",
+      "Phase configuration restored to pinned README MATH YAML MLE3/Paper1/literature5 plus constructor default100. Global777 requests and777 CPU limits are common per-unit resources; original loops/judges remain unchanged.",
+      "Five distinct primary-source bibliographic records and authored short synopses are shared; FULL_TEXT is an adapted synopsis lookup, not original full-paper delivery.",
+      "Original algorithm completion and host membership/distinct-synopsis postconditions are recorded separately; original pinned function bodies are unchanged.",
+      "Budget exhaustion is a preserved registered task failure, distinct from temporary external provider unavailability.",
+      "Both arms use the same fixed experimental-condition duplicate identity and runtime/protocol recovery definitions; hypothesis retries are separate."
+    ],
+    "comparison_scope": "Current-model C versus pinned original workflow using README-recommended solver MLE3/Paper1, literature5 and constructor phase100 under shared source-derived777 requests/CPU ceilings. This remains a CPU/public-tool adaptation, not original MATH-500 or AgentRxiv online multi-paper replication.",
+    "source_file_sha256": {
+      "utils": "ea23c00695613ab346ac6646f69dbf2b0972efda7c1cafeccd5ffdb4f5f439c8",
+      "agents": "d8d1eda040eb1fa897d84596a1b36f277e83da75433c1a9ac2d9efe5be5c749a",
+      "mlesolver": "cc110f2b07642532cca11bd8cbf74becfc41016c7f876c16f6d40379ec59882c",
+      "papersolver": "8c16d68577570fbf6332d3f070e5aec975ed3fd3e1440918940f16eb8911366c",
+      "ai_lab_repo": "799a3c078d835cd632487f52ed5b8e9f155bb9514ca104a30442ecfbcb7765ff"
+    },
+    "A_model_effect": {
+      "status": "unexecuted",
+      "reason": "Original paper model families unavailable through the currently authorized Codex transport; paper values are literature only.",
+      "estimable_contrast": "B vs C holds actual model identifier and provider/resource policy fixed; A vs B model replacement effect is not empirically estimated."
+    }
+  },
+  "units": [
+    {
+      "unit_id": "linear-seed137",
+      "task_id": "dev-linear",
+      "seed": 137
+    },
+    {
+      "unit_id": "linear-seed149",
+      "task_id": "dev-linear",
+      "seed": 149
+    },
+    {
+      "unit_id": "linear-seed163",
+      "task_id": "dev-linear",
+      "seed": 163
+    },
+    {
+      "unit_id": "quadratic-seed179",
+      "task_id": "dev-quadratic",
+      "seed": 179
+    },
+    {
+      "unit_id": "quadratic-seed191",
+      "task_id": "dev-quadratic",
+      "seed": 191
+    },
+    {
+      "unit_id": "quadratic-seed211",
+      "task_id": "dev-quadratic",
+      "seed": 211
+    },
+    {
+      "unit_id": "noisy-seed227",
+      "task_id": "dev-noisy",
+      "seed": 227
+    },
+    {
+      "unit_id": "noisy-seed241",
+      "task_id": "dev-noisy",
+      "seed": 241
+    },
+    {
+      "unit_id": "noisy-seed257",
+      "task_id": "dev-noisy",
+      "seed": 257
+    }
+  ],
+  "pilot_design": {
+    "purpose": "Development pilot of the restored recommended upstream phases versus the separate v5 evidence framework; its own reviewed variability is required for a fresh confirmatory suite.",
+    "pairs": 9,
+    "regimes": 3,
+    "repeats_per_regime": 3,
+    "variance_basis": "Retain current evaluator relative standard error .5 design: ceil(2/.5**2)+1=9 independent paired units; no research-loop cap.",
+    "seed_policy": "Nine distinct fixed seeds, sameB/C withinpair, unused by minimalpilot; independence remains a design assumption.",
+    "public_stopping_policy": "No public absolute threshold. OriginalB phase policy is restored. C uses verified anchor/evidence-based proposals and same777 resources; hidden test used only by independent owner.",
+    "report_policy": "Same frozen common required-content gate and independent whole report plus companion numeric review. Does not establish stylistic/scientific report quality equivalence.",
+    "policy_selection": "Use this development evidence to freeze strongerB policy before final separate tasks. If settings are revised after outcomes, preregister another development revision; never relabel observedunits final.",
+    "excluded_evidence": "Minimal-phase v4 data and memory-exposure binary pilot are development-only and never transplanted into this contrast or its confirmatory sample design.",
+    "adoption_criterion_scope": "Planned confirmatory criterion remains >20% provider token reduction by paired CI with held-out MSE noninferiority margin 10%, independent content/numeric gates; the pilot does not adopt."
+  }
+}

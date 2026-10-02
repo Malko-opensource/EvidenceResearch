@@ -1,0 +1,2027 @@
+{
+  "actual_cpu_executions": 2,
+  "distinct_configurations": 1,
+  "hidden_test_observations_opened": false,
+  "public_split_manifest": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "sha256": "6a482bbc4e8341ad2ce06e242b25f7a4b0e0c7fc65bcca80e9d014f9ae42564c"
+  },
+  "resource_audit": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\independent-resource-audit.json",
+    "sha256": "6f9c0e34e9d951d3757efe9e56595d134fc02f13230c921cbe78248204cb1b47"
+  },
+  "resources": {
+    "evidence": [
+      {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\independent-resource-audit.json",
+        "sha256": "6f9c0e34e9d951d3757efe9e56595d134fc02f13230c921cbe78248204cb1b47"
+      },
+      {
+        "events_sha256": "92693856e6561a30642e9668f1b669d57d47c9b014bb2ed233f0056bab3dce23",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0000\\result.json",
+        "sha256": "ca44cd868629a5c7a71ed8f75b321c6980f5773115943d310ace41e991d4dd47"
+      },
+      {
+        "events_sha256": "9aeb0998b264e41eee996fca9d0a3a6c2442a6625fb612e43534db468b714d49",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0001\\result.json",
+        "sha256": "5f2714517b44a38f94adbab2460c84e1ef505530691b24f1afea315d262ce5d1"
+      },
+      {
+        "events_sha256": "eb5a90750991d78400ca74adab5e03d30ccf7b716acd3559998d996ca578edac",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0002\\result.json",
+        "sha256": "dbe1dc97e3bcd20beb433bebdb665097b8930789700efe5c1f64e2f138b9d5dd"
+      },
+      {
+        "events_sha256": "53b5ec697cdde9d319d7e35425ad3dc5615d2628b358e1ceab1e23294f3030d2",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0003\\result.json",
+        "sha256": "8cbe876107e9f6008abeec7bfe562145dc05673fb3eab15b25accfc22d012f6c"
+      },
+      {
+        "events_sha256": "fb3e96761d00259b29c163697353227a4267e031a0d0d975584401ed825df278",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0004\\result.json",
+        "sha256": "b06a4eea502b298fb55dc8f04b0244c5ec4111379a665c56bc639b205280d7c0"
+      },
+      {
+        "events_sha256": "bafa5a6c2a56ab2d3b3d9098c66bdba3ead4785444dd59d6c630cdda54b6888a",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0005\\result.json",
+        "sha256": "9de0bb33121d222bf1f437a76826e235c695b35ab845c26090ac841d8dc6d84f"
+      },
+      {
+        "events_sha256": "0d5afbd810260c52643f9340d371a87126384d467bbb5f01f0a0a91a18888e8f",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0006\\result.json",
+        "sha256": "21619360771b0b6d79fa4810d682835667f574a0178f051b343f85dea7258e56"
+      },
+      {
+        "events_sha256": "f3e5c793faa3377d173019ec32777e8316b2f4ec8661f42dec6a9ec97af9b654",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0007\\result.json",
+        "sha256": "6d937db7bc532ef35ee83f0240e1b13860f8801bfb77482a2574039d6181aa8a"
+      },
+      {
+        "events_sha256": "ee04549ba6d2d450b90e9c52dba112935193a65a94466e841efa21e769f950dc",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0008\\result.json",
+        "sha256": "968584d58c49e373955939672d827569336f10ab2025e6a4fdf962c94bfe6f8e"
+      },
+      {
+        "events_sha256": "36d249f4aadefb51831223525830621ad1baaf4361fe7ac0b30c49fb6121a003",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0009\\result.json",
+        "sha256": "c29b7dda800c488424e13144c11fd8b5325234f613caeead47b5500349de5d40"
+      },
+      {
+        "events_sha256": "14992302ea0347690de247b8948e5b8b3e4c3b40dea11cca82b90dd8618f0b02",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0010\\result.json",
+        "sha256": "0613e32b436420c52e2700077527c89ccd829d8752b706395cd21460550b2273"
+      },
+      {
+        "events_sha256": "c0cd5efabe1f54c089b6ecbb48fa6e97a08c54eef06819ca8981e7bbd83f2a1e",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0011\\result.json",
+        "sha256": "ffd8eaaad2afca7dd2c202b8fc0980cf741d944b39f2e88a5e564061335fe2f1"
+      },
+      {
+        "events_sha256": "ab086fd3ecd8f414f71671c0478c08dceffe956277373d2ef8cfcbd91c57fedd",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0012\\result.json",
+        "sha256": "5b8d42269501fc684f06ce4127a475cd711f5b4f82391aaf61471396deee240c"
+      },
+      {
+        "events_sha256": "d0290ac7de907d724893d21ff6af9e0c0e9d984e5da72aa99656ff46abc03a68",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0013\\result.json",
+        "sha256": "f89f9e468a219e628f8a408e1f49452f5e6d4157ca80fa48dae8d4644e80cf21"
+      },
+      {
+        "events_sha256": "306f77780e5a8f4ef211f91c53eed32ae259f3865b3cea82c57f828768451142",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0014\\result.json",
+        "sha256": "5244f024fb8681db29f13dfa976f30fdcddf3cd669dd032640341831a3819d54"
+      },
+      {
+        "events_sha256": "f9c96ecedddd1b4b8c8467843dfbc6fa99e60b1598533065b336ad5c396de1ad",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0015\\result.json",
+        "sha256": "4e928d8252199cc1fb0645403b66503a92884cc54792ef55c66fedd140179e45"
+      },
+      {
+        "events_sha256": "707c62ad9d089f7cca65afebd7ab5dc6f9e024a6701c7a020a7a82d546b6d66a",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0016\\result.json",
+        "sha256": "ae066af7bb2b18208b216e35c6fc56beca9cb7c9db5a92fe164c9a6f04aecb50"
+      },
+      {
+        "events_sha256": "724c7b15b2adcab001fd31d53ba97b740faaee2edf291a7b2d6cfc8db2a2b3f5",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0017\\result.json",
+        "sha256": "40b2b7cbbb3fae87eea699bdda4afbc68d9ab28e27e0e470113be554f795a41b"
+      },
+      {
+        "events_sha256": "46c61ed82ed548c0783f1f7ba5e3066d446ae72c389633483eecb98a4c4a3254",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0018\\result.json",
+        "sha256": "fa993ccebd0bfb16a86206d12eec4e45b407e1636bfce718afccb277db85a32e"
+      },
+      {
+        "events_sha256": "de789676f24008a719baa13f6d506b96b941a222c10c6597742bb1a0db73ca96",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0019\\result.json",
+        "sha256": "9b3b46e4dfe4f0b72636e055ece85ce4d5294cb109f12a3747ac66a7bcbba61e"
+      },
+      {
+        "events_sha256": "9205532acad70d3eaa621363d2ea8f88c3a8fdf4afd9b5044aae69e34315d6e8",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0020\\result.json",
+        "sha256": "bf5ce8b9da0187f380c6d54b2a386b7086afbeea897b9441ad01cf3d06a89b16"
+      },
+      {
+        "events_sha256": "74dd66141f7ab3d63186626da08352ea34f5c8ea6fca5a65c60f3fa3e204abce",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0021\\result.json",
+        "sha256": "0f7ef9d7271501db7e0a03bddbc2ff14022dde412679ab05e04a6fb37ba34e8d"
+      },
+      {
+        "events_sha256": "6d9042ebd12b20c3c64370222840ea933019b68086c03a60895818b8e521f2f1",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0022\\result.json",
+        "sha256": "c41d31203684e70eb324ada0c0b720b628271b98300581f68d9452ea6c5ed348"
+      },
+      {
+        "events_sha256": "acaa68bfe8434dbb3fc1f3a5521fd53aa555b3061366e2ae8839f50c16d594a5",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0023\\result.json",
+        "sha256": "b2a216d6ab5055dcfe7ca12cf1610aae2a4ccc2a7711d48574975a3cc2f1d276"
+      },
+      {
+        "events_sha256": "ac5b386eeae1b3b6ea2542029850e177d33180352522e5d2a1a44e869c5eadf6",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0024\\result.json",
+        "sha256": "011d9cffffac80e0351bb563cc73aa443b2e0c5c2621a3f545e6d08e876f4034"
+      },
+      {
+        "events_sha256": "547d19b96bad56a6c837a153a23f51a13c00a1f29f979715859f4b87bf572d70",
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\model\\upstream-0025\\result.json",
+        "sha256": "1ccc9a8a1aa7e612f0ff748b8021a0e0cef6176081d0d21313d5d137d4dcf6c9"
+      }
+    ],
+    "measures": {
+      "actual_cpu_executions": 2,
+      "completed_input_tokens": 745270,
+      "completed_output_tokens": 15174,
+      "failed_model_attempts": 0,
+      "input_tokens": 745270,
+      "model_seconds": 683.3900000000722,
+      "output_tokens": 15174,
+      "provider_attempts": 26,
+      "provider_calls": 26,
+      "total_cpu_execution_seconds": 0.010543900076299906
+    },
+    "scope": "raw actual provider-request measures, no price conversion; unknown total tokens remain null",
+    "unknown_failed_token_usage": false
+  },
+  "runs": [
+    {
+      "result_evidence": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\result.json",
+        "sha256": "aef3e50ffa2220c1e3ab0c506f020e479c551452766a6dd0098001c02e557b81"
+      },
+      "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000",
+      "spec": {
+        "baseline": {
+          "alpha": 0.0,
+          "degree": 1
+        },
+        "command": "in_process:evidence_research.tasks.run_task(spec,run_dir)",
+        "config": {
+          "alpha": 0.1,
+          "degree": 1
+        },
+        "criterion": {
+          "direction": "min"
+        },
+        "data_sha256": "1d19b1e32601c6f09f28194b69c66b2963cc687272b9689a3ec95fe13e4d34f1",
+        "evaluator_sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05",
+        "evidence_kind": "actual_cpu_execution",
+        "execution_entrypoint": {
+          "callable": "evidence_research.tasks.run_task",
+          "kind": "in_process_trusted_callable"
+        },
+        "hypothesis": "Pinned upstream agent selected a literal polynomial ridge configuration.",
+        "implementation_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd",
+        "metric": "validation_mse",
+        "model": "gpt-6.1-sol",
+        "public_bundle_sha256": "a69b203592afc285fdcbbecff88bf86a4911efb027f13e577e20abbd0db6b007",
+        "reproduction_command": "python -m evidence_research.tasks --spec registered_spec.json --run-dir NEW_RUN_DIR",
+        "resource_envelope": {
+          "actual_cpu_executions_per_unit": 51,
+          "cpu_resource_design": "Shared per-unit maximum derives from 51 preregistered model-request actions times at most one literal CPU candidate per action. Both arms have the same maximum; actual use may differ. Completed and failed CPU attempts across continuation count; cache replay and rejected code do not. This is not a Goal research-loop cap.",
+          "device": "cpu",
+          "execution_permissions": "Host-owned fixed fitting/verifier only; generated Python is parsed and never executed; no external data/network/hidden test rows.",
+          "literature_snapshot": [
+            {
+              "abstract": "The study analyzes ridge estimation, regularization selection through cross-validation, and sketching approximations.",
+              "authors": [
+                "Sifan Liu",
+                "Edgar Dobriban"
+              ],
+              "id": "1910.02373v2",
+              "text": "Frozen source synopsis, not a full-text copy. Ridge Regression: Structure, Cross-Validation, and Sketching, sections 2 and 3, studies squared-error fitting with a quadratic coefficient penalty and selection of regularization through held-out/cross-validation error. The closed-form ridge solution depends on the feature covariance and regularization strength. The paper discusses validation bias in a high-dimensional asymptotic regime. It does not identify an optimal polynomial degree or alpha for this task; those must be measured from the supplied public training and validation data. Mathematical facts are literature context, not local experimental evidence.",
+              "title": "Ridge Regression: Structure, Cross-Validation, and Sketching",
+              "url": "https://arxiv.org/html/1910.02373v2"
+            },
+            {
+              "abstract": "Specialized agents perform literature review, planning, code experimentation, interpretation, and research reporting.",
+              "id": "2501.04227v2",
+              "text": "Literature claim from Agent Laboratory section 3: experiments execute generated code; an LLM reward model guides code selection. Its section 5 discusses self-evaluation and hallucinated results. This is not independent evidence of task performance here.",
+              "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+              "url": "https://arxiv.org/abs/2501.04227v2"
+            },
+            {
+              "abstract": "Agent laboratories share and retrieve prior reports using a local preprint server and similarity-based retrieval.",
+              "id": "2503.18102v1",
+              "text": "Literature claim from AgentRxiv section 3: agents retrieve reports through a SentenceTransformer similarity search. Section 4.1 reports hallucination/reward-hacking risks and human checking of experimental outputs. Retrieved reports require verification before adoption.",
+              "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+              "url": "https://arxiv.org/abs/2503.18102v1"
+            }
+          ],
+          "literature_snapshot_sha256": "9c11b48ffdada4306ce899dc3ec91826ef10e8152e6452b86f98b58749d926cb",
+          "network": false,
+          "proposal_calls_per_unit": 51,
+          "reasoning_effort": "medium",
+          "reasoning_policy": "Both arms pass the explicit Codex CLI configuration model_reasoning_effort=medium under --ignore-user-config. Model identifier, provider, tools, task resources and requested effort are matched; unexposed server weight versions are not asserted.",
+          "resource_scope": "Per-unit matched comparison resources, not a cap on Goal research loops",
+          "tool_contract": "The host has already supplied the public task's fixed training and validation data. Use only a literal CONFIG assignment, e.g. CONFIG = {'degree': 1, 'alpha': 0.0}, or the standalone call run_candidate({'degree': 1, 'alpha': 0.0}). The host parses these actions and runs actual polynomial ridge training and validation. No imports, loops, functions, arithmetic expressions, filesystem access, print, or other Python statements are allowed. Do not include the example configuration unless you selected it. A DATA PREPARATION SUBMIT_CODE must also use a valid CONFIG assignment; data are preloaded. For MLE-Solver REPLACE or EDIT, use only these same literal configuration statements. The only legal configuration fields are degree (integer 1..8) and alpha (finite 0..100). Each permitted action evaluates one literal candidate. The host enforces the preregistered model-request and actual CPU-attempt resources; cached replay is not a new CPU attempt. Figures, external datasets, API calls and arbitrary code execution are outside the shared tool permissions. Use the original protocol command fences requested by the current phase. The frozen literature corpus is small and includes a task-relevant ridge/cross-validation paper. Different search phrasings retrieve the same fixed corpus; read a relevant result and use ADD_PAPER instead of repeating SUMMARY searches. During reporting distinguish actual host measurements, parameters, literature, and proposals. There is no test-set measurement, timing comparison, monetary price, or baseline improvement unless the host explicitly supplied its execution evidence. Do not fabricate those values.",
+          "tool_contract_sha256": "7d8933f4e96a46c96788cc26a7fa8cfaa70524ae3351a622f42a5fb3d359766c",
+          "tools": [
+            "trusted polynomial ridge literal configuration",
+            "frozen literature retrieval"
+          ],
+          "upstream_settings": {
+            "max_steps": 4,
+            "mlesolver_max_steps": 1,
+            "num_papers_lit_review": 1,
+            "papersolver_max_steps": 0,
+            "resource_design": {
+              "call_budget_calculation": "phase limits (5 literature + 8 plan + 8 preparation + 8 interpretation) + 4 MLE generation/judge/repair + 18 report/readme/review = 51",
+              "expected_minimum_normal_calls": 24,
+              "experiment_basis": "one actual registered candidate; upstream initial MLE solve",
+              "max_steps_basis": "SUMMARY,FULL_TEXT,ADD_PAPER plus one submission/correction slot",
+              "report_basis": "all nine upstream initial scaffold/section stages; no extra EDIT round",
+              "scope": "development task envelope; never a cap on the overall research goal",
+              "unbounded_upstream_retry_loops": "additional retries consume the same registered model-call resources; exhaustion is a resource status, not goal failure"
+            }
+          }
+        },
+        "role": "baseline",
+        "seed": 11,
+        "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd",
+        "split_manifest_sha256": "1d477f30a7a6769bbab32a8dd98c2cec2fedde0199b91c2ffc55501da085dbb8",
+        "split_policy": "train fit; validation select; test withheld",
+        "task_bundle": {
+          "split_manifest": {
+            "generation": "stdlib random.Random; split order train,validation,test",
+            "seed": 11,
+            "splits": {
+              "test": {
+                "count": 96,
+                "ids_sha256": "8cc28b2d176739b6802fd95b86d7fc7997ef9776efd5e4311ac678ac26f5de31",
+                "sha256": "45458a512597491c091b3f1497ecc3e475ace7efd6dfdbc15592b28d26a7da7c"
+              },
+              "train": {
+                "count": 80,
+                "ids_sha256": "65500580203e1376b25516bff410221b5351a9e02193e16b00d2078d39765ec3",
+                "sha256": "a4523a176d6f3af911051acb52ce6b515e7b68e579b299a87b5a1183cf945528"
+              },
+              "validation": {
+                "count": 64,
+                "ids_sha256": "21423bf27b29d0c0dbe275c4ea1cafb327b20dd01e649e4c8e8a1cc9dea2f765",
+                "sha256": "516fafd0a79aff503f04bb227cbdab5908bb4d7da7d5cc0a0e2c4e5136dca5c0"
+              }
+            },
+            "task_id": "dev-linear",
+            "task_version": "polynomial-ridge-1"
+          },
+          "train": [
+            {
+              "id": "dev-linear:11:train:0",
+              "x": -0.14286133947054402,
+              "y": -0.026202941914592714
+            },
+            {
+              "id": "dev-linear:11:train:1",
+              "x": -0.1030497897006799,
+              "y": 0.14785725683473777
+            },
+            {
+              "id": "dev-linear:11:train:2",
+              "x": 0.023523819186813455,
+              "y": 0.39873766050997667
+            },
+            {
+              "id": "dev-linear:11:train:3",
+              "x": 0.035725917125416506,
+              "y": 0.43762872613869075
+            },
+            {
+              "id": "dev-linear:11:train:4",
+              "x": 0.38964816065040564,
+              "y": 1.1108557259876035
+            },
+            {
+              "id": "dev-linear:11:train:5",
+              "x": -0.5897962121264235,
+              "y": -0.6959153484265881
+            },
+            {
+              "id": "dev-linear:11:train:6",
+              "x": -1.2279883875244817,
+              "y": -1.76534800629774
+            },
+            {
+              "id": "dev-linear:11:train:7",
+              "x": -1.374358990890462,
+              "y": -2.1883281136163935
+            },
+            {
+              "id": "dev-linear:11:train:8",
+              "x": 1.4465802623963349,
+              "y": 3.1175407230249887
+            },
+            {
+              "id": "dev-linear:11:train:9",
+              "x": 0.3466881137357123,
+              "y": 0.9984427391662796
+            },
+            {
+              "id": "dev-linear:11:train:10",
+              "x": -1.0275177145795127,
+              "y": -1.3518841980838996
+            },
+            {
+              "id": "dev-linear:11:train:11",
+              "x": -1.321346684493435,
+              "y": -1.9691931517194876
+            },
+            {
+              "id": "dev-linear:11:train:12",
+              "x": -0.9293752116062126,
+              "y": -1.271874834007483
+            },
+            {
+              "id": "dev-linear:11:train:13",
+              "x": -0.10819661633014643,
+              "y": 0.22499366375612131
+            },
+            {
+              "id": "dev-linear:11:train:14",
+              "x": -0.17840665003002965,
+              "y": 0.13197987401860112
+            },
+            {
+              "id": "dev-linear:11:train:15",
+              "x": 0.42087512375753144,
+              "y": 1.0766394346032482
+            },
+            {
+              "id": "dev-linear:11:train:16",
+              "x": -0.000680543379625087,
+              "y": 0.3525342076020355
+            },
+            {
+              "id": "dev-linear:11:train:17",
+              "x": -0.6655113010083424,
+              "y": -0.8733248108131135
+            },
+            {
+              "id": "dev-linear:11:train:18",
+              "x": 1.492968601389253,
+              "y": 3.2405005934669404
+            },
+            {
+              "id": "dev-linear:11:train:19",
+              "x": 0.6234288644938486,
+              "y": 1.5180249473227376
+            },
+            {
+              "id": "dev-linear:11:train:20",
+              "x": -0.5541683489533503,
+              "y": -0.5890833921492916
+            },
+            {
+              "id": "dev-linear:11:train:21",
+              "x": -1.2893295013202222,
+              "y": -1.8552515935144105
+            },
+            {
+              "id": "dev-linear:11:train:22",
+              "x": 0.798863659231221,
+              "y": 1.7124072694001398
+            },
+            {
+              "id": "dev-linear:11:train:23",
+              "x": -0.3404594048821965,
+              "y": -0.12209244591217061
+            },
+            {
+              "id": "dev-linear:11:train:24",
+              "x": 1.3741271499594405,
+              "y": 2.8749451157875843
+            },
+            {
+              "id": "dev-linear:11:train:25",
+              "x": -0.8708477558111666,
+              "y": -1.16968885065916
+            },
+            {
+              "id": "dev-linear:11:train:26",
+              "x": 1.2308157843125445,
+              "y": 2.395155223800564
+            },
+            {
+              "id": "dev-linear:11:train:27",
+              "x": -0.30772683576215654,
+              "y": -0.11186306144927763
+            },
+            {
+              "id": "dev-linear:11:train:28",
+              "x": -1.2808849684989063,
+              "y": -2.0010259161793145
+            },
+            {
+              "id": "dev-linear:11:train:29",
+              "x": -0.6906732394495719,
+              "y": -0.944142666867901
+            },
+            {
+              "id": "dev-linear:11:train:30",
+              "x": -1.2385674049434896,
+              "y": -1.9317520744476813
+            },
+            {
+              "id": "dev-linear:11:train:31",
+              "x": 0.7741215509812767,
+              "y": 1.9725996267743864
+            },
+            {
+              "id": "dev-linear:11:train:32",
+              "x": -1.1460249617413476,
+              "y": -1.6620069684188479
+            },
+            {
+              "id": "dev-linear:11:train:33",
+              "x": -1.32031979117677,
+              "y": -1.939659477053689
+            },
+            {
+              "id": "dev-linear:11:train:34",
+              "x": 0.891064535531922,
+              "y": 2.0488679207121123
+            },
+            {
+              "id": "dev-linear:11:train:35",
+              "x": -0.15772536749693522,
+              "y": 0.20811282613865312
+            },
+            {
+              "id": "dev-linear:11:train:36",
+              "x": -0.9279467541289018,
+              "y": -1.275115971053369
+            },
+            {
+              "id": "dev-linear:11:train:37",
+              "x": 0.4311453711335014,
+              "y": 1.1339470959352596
+            },
+            {
+              "id": "dev-linear:11:train:38",
+              "x": -1.150476037080883,
+              "y": -1.719487594381311
+            },
+            {
+              "id": "dev-linear:11:train:39",
+              "x": -0.6906150684282051,
+              "y": -0.8166720371391912
+            },
+            {
+              "id": "dev-linear:11:train:40",
+              "x": 1.4127871686560747,
+              "y": 2.965453617949346
+            },
+            {
+              "id": "dev-linear:11:train:41",
+              "x": 1.1545953382469127,
+              "y": 2.4139438895599317
+            },
+            {
+              "id": "dev-linear:11:train:42",
+              "x": -0.8678693356966818,
+              "y": -1.2858123606954392
+            },
+            {
+              "id": "dev-linear:11:train:43",
+              "x": 0.42550696977138136,
+              "y": 1.2627292319636148
+            },
+            {
+              "id": "dev-linear:11:train:44",
+              "x": -1.1990017434483513,
+              "y": -1.7029215455230158
+            },
+            {
+              "id": "dev-linear:11:train:45",
+              "x": -0.7251673264151387,
+              "y": -0.9090227909613982
+            },
+            {
+              "id": "dev-linear:11:train:46",
+              "x": 0.8180690693184696,
+              "y": 1.8405994552911904
+            },
+            {
+              "id": "dev-linear:11:train:47",
+              "x": -1.2798043398347274,
+              "y": -1.8446629538353014
+            },
+            {
+              "id": "dev-linear:11:train:48",
+              "x": -1.2296484811142094,
+              "y": -1.8651775765570024
+            },
+            {
+              "id": "dev-linear:11:train:49",
+              "x": 0.3038515307458163,
+              "y": 0.9172792881914154
+            },
+            {
+              "id": "dev-linear:11:train:50",
+              "x": -0.3848878602203154,
+              "y": -0.4864234181562783
+            },
+            {
+              "id": "dev-linear:11:train:51",
+              "x": -0.04882640021236484,
+              "y": 0.37073767321081286
+            },
+            {
+              "id": "dev-linear:11:train:52",
+              "x": 0.22371373628984248,
+              "y": 0.8366677541578234
+            },
+            {
+              "id": "dev-linear:11:train:53",
+              "x": -1.0375940432218176,
+              "y": -1.5054785624087919
+            },
+            {
+              "id": "dev-linear:11:train:54",
+              "x": 1.225271192827449,
+              "y": 2.630535482959748
+            },
+            {
+              "id": "dev-linear:11:train:55",
+              "x": -0.9305980021102198,
+              "y": -1.3302706657563013
+            },
+            {
+              "id": "dev-linear:11:train:56",
+              "x": 0.7182731694499536,
+              "y": 1.7421559897295227
+            },
+            {
+              "id": "dev-linear:11:train:57",
+              "x": 1.3504075569259357,
+              "y": 2.8113733235469245
+            },
+            {
+              "id": "dev-linear:11:train:58",
+              "x": 1.1465692627992379,
+              "y": 2.397223713828355
+            },
+            {
+              "id": "dev-linear:11:train:59",
+              "x": -1.188480955905156,
+              "y": -1.7899512212218698
+            },
+            {
+              "id": "dev-linear:11:train:60",
+              "x": -1.383910584918652,
+              "y": -2.033612412071796
+            },
+            {
+              "id": "dev-linear:11:train:61",
+              "x": 0.6137383816751307,
+              "y": 1.4910114196892692
+            },
+            {
+              "id": "dev-linear:11:train:62",
+              "x": -0.7290558050390641,
+              "y": -0.86414579250027
+            },
+            {
+              "id": "dev-linear:11:train:63",
+              "x": -0.6196939605457886,
+              "y": -0.8118704377519236
+            },
+            {
+              "id": "dev-linear:11:train:64",
+              "x": -0.9736998097024223,
+              "y": -1.3582527978109113
+            },
+            {
+              "id": "dev-linear:11:train:65",
+              "x": -0.8148109880246244,
+              "y": -1.0963378508344974
+            },
+            {
+              "id": "dev-linear:11:train:66",
+              "x": 0.17809902847202697,
+              "y": 0.7868265896557228
+            },
+            {
+              "id": "dev-linear:11:train:67",
+              "x": -0.6593418222874349,
+              "y": -0.8751654868865255
+            },
+            {
+              "id": "dev-linear:11:train:68",
+              "x": 1.2520805354777256,
+              "y": 2.6579156659155436
+            },
+            {
+              "id": "dev-linear:11:train:69",
+              "x": -0.692418215913477,
+              "y": -0.832333498331986
+            },
+            {
+              "id": "dev-linear:11:train:70",
+              "x": -0.16288344005352196,
+              "y": 0.15307667565134409
+            },
+            {
+              "id": "dev-linear:11:train:71",
+              "x": -0.3936438888832119,
+              "y": -0.29008727874251106
+            },
+            {
+              "id": "dev-linear:11:train:72",
+              "x": 0.2165082687079558,
+              "y": 0.841096784991415
+            },
+            {
+              "id": "dev-linear:11:train:73",
+              "x": 1.1728206899094373,
+              "y": 2.566892565246112
+            },
+            {
+              "id": "dev-linear:11:train:74",
+              "x": 1.4414802640147122,
+              "y": 2.9269644543054776
+            },
+            {
+              "id": "dev-linear:11:train:75",
+              "x": 0.25332080454053685,
+              "y": 0.753711183592382
+            },
+            {
+              "id": "dev-linear:11:train:76",
+              "x": -1.0789584385631468,
+              "y": -1.5272903732299499
+            },
+            {
+              "id": "dev-linear:11:train:77",
+              "x": 1.2306373571784506,
+              "y": 2.6184710999816745
+            },
+            {
+              "id": "dev-linear:11:train:78",
+              "x": 0.6029100562290406,
+              "y": 1.501371115294878
+            },
+            {
+              "id": "dev-linear:11:train:79",
+              "x": 0.40855356473103877,
+              "y": 1.1315522658435275
+            }
+          ],
+          "validation": [
+            {
+              "id": "dev-linear:11:validation:0",
+              "x": -0.0532928317650283,
+              "y": 0.2955030668494854
+            },
+            {
+              "id": "dev-linear:11:validation:1",
+              "x": 1.498072879145266,
+              "y": 3.026943590896644
+            },
+            {
+              "id": "dev-linear:11:validation:2",
+              "x": -1.2742112997228483,
+              "y": -2.018886181699388
+            },
+            {
+              "id": "dev-linear:11:validation:3",
+              "x": 1.200587643748137,
+              "y": 2.5237159684356887
+            },
+            {
+              "id": "dev-linear:11:validation:4",
+              "x": 0.7112644032496798,
+              "y": 1.6395255860056397
+            },
+            {
+              "id": "dev-linear:11:validation:5",
+              "x": 1.24500773865612,
+              "y": 2.5049390326790664
+            },
+            {
+              "id": "dev-linear:11:validation:6",
+              "x": -0.4444977100582388,
+              "y": -0.46825653730748507
+            },
+            {
+              "id": "dev-linear:11:validation:7",
+              "x": 1.1133037773660326,
+              "y": 2.246039662946731
+            },
+            {
+              "id": "dev-linear:11:validation:8",
+              "x": -0.24854057406844188,
+              "y": -0.007153319625220651
+            },
+            {
+              "id": "dev-linear:11:validation:9",
+              "x": 0.2184224951535283,
+              "y": 0.6386608959498034
+            },
+            {
+              "id": "dev-linear:11:validation:10",
+              "x": 0.37488163997825774,
+              "y": 0.9966354979764799
+            },
+            {
+              "id": "dev-linear:11:validation:11",
+              "x": 0.32660070223172943,
+              "y": 1.0591431851728093
+            },
+            {
+              "id": "dev-linear:11:validation:12",
+              "x": -1.2593939135078691,
+              "y": -2.029039570147953
+            },
+            {
+              "id": "dev-linear:11:validation:13",
+              "x": 1.1393754873330804,
+              "y": 2.256380521588843
+            },
+            {
+              "id": "dev-linear:11:validation:14",
+              "x": 0.6846212296966434,
+              "y": 1.532675286280347
+            },
+            {
+              "id": "dev-linear:11:validation:15",
+              "x": 0.2428586361800682,
+              "y": 0.9212398718475232
+            },
+            {
+              "id": "dev-linear:11:validation:16",
+              "x": -0.17843251386384162,
+              "y": 0.09646346691061261
+            },
+            {
+              "id": "dev-linear:11:validation:17",
+              "x": 0.7506305317848465,
+              "y": 1.7226959803414894
+            },
+            {
+              "id": "dev-linear:11:validation:18",
+              "x": -1.410630509773605,
+              "y": -2.212818031968041
+            },
+            {
+              "id": "dev-linear:11:validation:19",
+              "x": -0.8093350688205116,
+              "y": -1.1112515537138277
+            },
+            {
+              "id": "dev-linear:11:validation:20",
+              "x": 0.5950040395457652,
+              "y": 1.3605644907488996
+            },
+            {
+              "id": "dev-linear:11:validation:21",
+              "x": 1.2613928203202178,
+              "y": 2.6724151797884326
+            },
+            {
+              "id": "dev-linear:11:validation:22",
+              "x": -0.7325093396808553,
+              "y": -0.8509798911762466
+            },
+            {
+              "id": "dev-linear:11:validation:23",
+              "x": 0.5344109373932646,
+              "y": 1.3667459548220138
+            },
+            {
+              "id": "dev-linear:11:validation:24",
+              "x": -0.8922767597795735,
+              "y": -1.1219647499642982
+            },
+            {
+              "id": "dev-linear:11:validation:25",
+              "x": 0.47997001402753803,
+              "y": 1.4160933506454099
+            },
+            {
+              "id": "dev-linear:11:validation:26",
+              "x": -0.17420255769094029,
+              "y": 0.14177826026560486
+            },
+            {
+              "id": "dev-linear:11:validation:27",
+              "x": 0.4976971876010141,
+              "y": 1.2510738505728154
+            },
+            {
+              "id": "dev-linear:11:validation:28",
+              "x": -0.9044826634040521,
+              "y": -1.3595041355310764
+            },
+            {
+              "id": "dev-linear:11:validation:29",
+              "x": 1.2426635965770156,
+              "y": 2.6977425565317388
+            },
+            {
+              "id": "dev-linear:11:validation:30",
+              "x": 1.1408067542505846,
+              "y": 2.374327360646383
+            },
+            {
+              "id": "dev-linear:11:validation:31",
+              "x": -0.5505394665175853,
+              "y": -0.5206978511779019
+            },
+            {
+              "id": "dev-linear:11:validation:32",
+              "x": -1.0914710208501055,
+              "y": -1.71701362251331
+            },
+            {
+              "id": "dev-linear:11:validation:33",
+              "x": 1.0461609149107138,
+              "y": 2.2864724535854246
+            },
+            {
+              "id": "dev-linear:11:validation:34",
+              "x": 0.6336532845528202,
+              "y": 1.6018288319816787
+            },
+            {
+              "id": "dev-linear:11:validation:35",
+              "x": -0.9926132683568588,
+              "y": -1.4066060985233666
+            },
+            {
+              "id": "dev-linear:11:validation:36",
+              "x": -0.148051646247096,
+              "y": 0.12476419778015481
+            },
+            {
+              "id": "dev-linear:11:validation:37",
+              "x": -0.25804559776451974,
+              "y": -0.009645113967073009
+            },
+            {
+              "id": "dev-linear:11:validation:38",
+              "x": 0.37720067471210594,
+              "y": 1.0093733223592585
+            },
+            {
+              "id": "dev-linear:11:validation:39",
+              "x": 1.0173552373476782,
+              "y": 2.2339186453616673
+            },
+            {
+              "id": "dev-linear:11:validation:40",
+              "x": 1.4461095174724532,
+              "y": 2.97287247483308
+            },
+            {
+              "id": "dev-linear:11:validation:41",
+              "x": -1.4055426729144818,
+              "y": -2.1207045612342403
+            },
+            {
+              "id": "dev-linear:11:validation:42",
+              "x": 1.118487163056907,
+              "y": 2.5346686866160866
+            },
+            {
+              "id": "dev-linear:11:validation:43",
+              "x": 0.21174588101092073,
+              "y": 0.813523730812214
+            },
+            {
+              "id": "dev-linear:11:validation:44",
+              "x": -0.5729089457701215,
+              "y": -0.627182822820486
+            },
+            {
+              "id": "dev-linear:11:validation:45",
+              "x": -1.0923565237554373,
+              "y": -1.5814272211779614
+            },
+            {
+              "id": "dev-linear:11:validation:46",
+              "x": -0.13550275884750884,
+              "y": 0.3048015894945022
+            },
+            {
+              "id": "dev-linear:11:validation:47",
+              "x": -0.7877729733454971,
+              "y": -0.9947004239380094
+            },
+            {
+              "id": "dev-linear:11:validation:48",
+              "x": -1.0773764223565017,
+              "y": -1.4314578109025273
+            },
+            {
+              "id": "dev-linear:11:validation:49",
+              "x": -0.16055769974693224,
+              "y": 0.1437528973030615
+            },
+            {
+              "id": "dev-linear:11:validation:50",
+              "x": 0.38989270930122366,
+              "y": 1.0202261145027467
+            },
+            {
+              "id": "dev-linear:11:validation:51",
+              "x": 1.3753819557570308,
+              "y": 2.755575216048477
+            },
+            {
+              "id": "dev-linear:11:validation:52",
+              "x": 0.5534782379429859,
+              "y": 1.424688038925462
+            },
+            {
+              "id": "dev-linear:11:validation:53",
+              "x": -0.9639417145947462,
+              "y": -1.2488214898741425
+            },
+            {
+              "id": "dev-linear:11:validation:54",
+              "x": -1.4676999951515133,
+              "y": -2.36654388135166
+            },
+            {
+              "id": "dev-linear:11:validation:55",
+              "x": -0.9627035731124145,
+              "y": -1.3108629458497718
+            },
+            {
+              "id": "dev-linear:11:validation:56",
+              "x": -0.6829351906794938,
+              "y": -0.8992761850400124
+            },
+            {
+              "id": "dev-linear:11:validation:57",
+              "x": 0.06126883999443078,
+              "y": 0.6122528222438071
+            },
+            {
+              "id": "dev-linear:11:validation:58",
+              "x": 0.34334300451298283,
+              "y": 1.021136764669587
+            },
+            {
+              "id": "dev-linear:11:validation:59",
+              "x": 0.8757967136753533,
+              "y": 1.8964887357366862
+            },
+            {
+              "id": "dev-linear:11:validation:60",
+              "x": 1.2187109565121563,
+              "y": 2.752281920093389
+            },
+            {
+              "id": "dev-linear:11:validation:61",
+              "x": 0.6671315294795974,
+              "y": 1.6976307661889434
+            },
+            {
+              "id": "dev-linear:11:validation:62",
+              "x": -1.11027023679384,
+              "y": -1.705872739134395
+            },
+            {
+              "id": "dev-linear:11:validation:63",
+              "x": 1.229896076173929,
+              "y": 2.6460855104505354
+            }
+          ]
+        },
+        "task_id": "dev-linear",
+        "task_version": "polynomial-ridge-1"
+      },
+      "verification": {
+        "checks": [
+          "registered_spec_integrity",
+          "artifact_integrity",
+          "frozen_code_hashes",
+          "independent_fixed_baseline_comparison",
+          "disjoint_observed_splits",
+          "test_withheld",
+          "configuration_match",
+          "independent_cholesky_fit_reproduction",
+          "independent_metric_recomputation",
+          "claim_evidence_links",
+          "test_integrity_delegated_to_sealed_evaluation_owner"
+        ],
+        "comparison": {
+          "baseline_config": {
+            "alpha": 0.0,
+            "degree": 1
+          },
+          "baseline_value": 0.007451130912622764,
+          "candidate_value": 0.007427150027746186,
+          "metric": "validation_mse",
+          "scope": "same task/seed/split/implementation on local CPU",
+          "test_used": false
+        },
+        "comparison_valid": true,
+        "evaluator_sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05",
+        "evidence": [
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\model.json",
+            "sha256": "ec429f0c66afb404c89437cdc689b845e408f069ffb834ceda221fef4efb5d5d"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\predictions.json",
+            "sha256": "c0ae99c015de25744d1e4d9ca23fd1043b2484d01f4a3f51efb148256e227005"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\registered_spec.json",
+            "sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\run.log",
+            "sha256": "32b85029c92f729e2cf661b92096e56c2ca5dd9964df7970b2c374acb4e00947"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\source\\evidence_research\\__init__.py",
+            "sha256": "4414c6f853dac6f3a485232daab35c67d5f5b25d093ca1da73988e6facbbb9bc"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\source\\evidence_research\\tasks.py",
+            "sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\source\\evidence_research\\verifier.py",
+            "sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\split_manifest.json",
+            "sha256": "6a482bbc4e8341ad2ce06e242b25f7a4b0e0c7fc65bcca80e9d014f9ae42564c"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\train.json",
+            "sha256": "8d4da42354aec83e2d490563e6806140c8351f225f11a38337d9a707b792a42d"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0000\\validation.json",
+            "sha256": "e7d300e301fd86d171415605e1cfb0cef6bc018236a751efb34b16599a7f25b2"
+          }
+        ],
+        "metrics": {
+          "train_mse": 0.00518281274299233,
+          "validation_mse": 0.007427150027746186
+        },
+        "outcome": "success",
+        "reasons": [],
+        "status": "verified",
+        "valid": true
+      }
+    },
+    {
+      "result_evidence": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\result.json",
+        "sha256": "ea06f8772f39edf7286bc8f9b61241b66640d75aad7b6c9022041c9cea04e578"
+      },
+      "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002",
+      "spec": {
+        "baseline": {
+          "alpha": 0.0,
+          "degree": 1
+        },
+        "command": "in_process:evidence_research.tasks.run_task(spec,run_dir)",
+        "config": {
+          "alpha": 0.1,
+          "degree": 1
+        },
+        "criterion": {
+          "direction": "min"
+        },
+        "data_sha256": "1d19b1e32601c6f09f28194b69c66b2963cc687272b9689a3ec95fe13e4d34f1",
+        "evaluator_sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05",
+        "evidence_kind": "actual_cpu_execution",
+        "execution_entrypoint": {
+          "callable": "evidence_research.tasks.run_task",
+          "kind": "in_process_trusted_callable"
+        },
+        "hypothesis": "Pinned upstream agent selected a literal polynomial ridge configuration.",
+        "implementation_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd",
+        "metric": "validation_mse",
+        "model": "gpt-6.1-sol",
+        "public_bundle_sha256": "a69b203592afc285fdcbbecff88bf86a4911efb027f13e577e20abbd0db6b007",
+        "reproduction_command": "python -m evidence_research.tasks --spec registered_spec.json --run-dir NEW_RUN_DIR",
+        "resource_envelope": {
+          "actual_cpu_executions_per_unit": 51,
+          "cpu_resource_design": "Shared per-unit maximum derives from 51 preregistered model-request actions times at most one literal CPU candidate per action. Both arms have the same maximum; actual use may differ. Completed and failed CPU attempts across continuation count; cache replay and rejected code do not. This is not a Goal research-loop cap.",
+          "device": "cpu",
+          "execution_permissions": "Host-owned fixed fitting/verifier only; generated Python is parsed and never executed; no external data/network/hidden test rows.",
+          "literature_snapshot": [
+            {
+              "abstract": "The study analyzes ridge estimation, regularization selection through cross-validation, and sketching approximations.",
+              "authors": [
+                "Sifan Liu",
+                "Edgar Dobriban"
+              ],
+              "id": "1910.02373v2",
+              "text": "Frozen source synopsis, not a full-text copy. Ridge Regression: Structure, Cross-Validation, and Sketching, sections 2 and 3, studies squared-error fitting with a quadratic coefficient penalty and selection of regularization through held-out/cross-validation error. The closed-form ridge solution depends on the feature covariance and regularization strength. The paper discusses validation bias in a high-dimensional asymptotic regime. It does not identify an optimal polynomial degree or alpha for this task; those must be measured from the supplied public training and validation data. Mathematical facts are literature context, not local experimental evidence.",
+              "title": "Ridge Regression: Structure, Cross-Validation, and Sketching",
+              "url": "https://arxiv.org/html/1910.02373v2"
+            },
+            {
+              "abstract": "Specialized agents perform literature review, planning, code experimentation, interpretation, and research reporting.",
+              "id": "2501.04227v2",
+              "text": "Literature claim from Agent Laboratory section 3: experiments execute generated code; an LLM reward model guides code selection. Its section 5 discusses self-evaluation and hallucinated results. This is not independent evidence of task performance here.",
+              "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+              "url": "https://arxiv.org/abs/2501.04227v2"
+            },
+            {
+              "abstract": "Agent laboratories share and retrieve prior reports using a local preprint server and similarity-based retrieval.",
+              "id": "2503.18102v1",
+              "text": "Literature claim from AgentRxiv section 3: agents retrieve reports through a SentenceTransformer similarity search. Section 4.1 reports hallucination/reward-hacking risks and human checking of experimental outputs. Retrieved reports require verification before adoption.",
+              "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+              "url": "https://arxiv.org/abs/2503.18102v1"
+            }
+          ],
+          "literature_snapshot_sha256": "9c11b48ffdada4306ce899dc3ec91826ef10e8152e6452b86f98b58749d926cb",
+          "network": false,
+          "proposal_calls_per_unit": 51,
+          "reasoning_effort": "medium",
+          "reasoning_policy": "Both arms pass the explicit Codex CLI configuration model_reasoning_effort=medium under --ignore-user-config. Model identifier, provider, tools, task resources and requested effort are matched; unexposed server weight versions are not asserted.",
+          "resource_scope": "Per-unit matched comparison resources, not a cap on Goal research loops",
+          "tool_contract": "The host has already supplied the public task's fixed training and validation data. Use only a literal CONFIG assignment, e.g. CONFIG = {'degree': 1, 'alpha': 0.0}, or the standalone call run_candidate({'degree': 1, 'alpha': 0.0}). The host parses these actions and runs actual polynomial ridge training and validation. No imports, loops, functions, arithmetic expressions, filesystem access, print, or other Python statements are allowed. Do not include the example configuration unless you selected it. A DATA PREPARATION SUBMIT_CODE must also use a valid CONFIG assignment; data are preloaded. For MLE-Solver REPLACE or EDIT, use only these same literal configuration statements. The only legal configuration fields are degree (integer 1..8) and alpha (finite 0..100). Each permitted action evaluates one literal candidate. The host enforces the preregistered model-request and actual CPU-attempt resources; cached replay is not a new CPU attempt. Figures, external datasets, API calls and arbitrary code execution are outside the shared tool permissions. Use the original protocol command fences requested by the current phase. The frozen literature corpus is small and includes a task-relevant ridge/cross-validation paper. Different search phrasings retrieve the same fixed corpus; read a relevant result and use ADD_PAPER instead of repeating SUMMARY searches. During reporting distinguish actual host measurements, parameters, literature, and proposals. There is no test-set measurement, timing comparison, monetary price, or baseline improvement unless the host explicitly supplied its execution evidence. Do not fabricate those values.",
+          "tool_contract_sha256": "7d8933f4e96a46c96788cc26a7fa8cfaa70524ae3351a622f42a5fb3d359766c",
+          "tools": [
+            "trusted polynomial ridge literal configuration",
+            "frozen literature retrieval"
+          ],
+          "upstream_settings": {
+            "max_steps": 4,
+            "mlesolver_max_steps": 1,
+            "num_papers_lit_review": 1,
+            "papersolver_max_steps": 0,
+            "resource_design": {
+              "call_budget_calculation": "phase limits (5 literature + 8 plan + 8 preparation + 8 interpretation) + 4 MLE generation/judge/repair + 18 report/readme/review = 51",
+              "expected_minimum_normal_calls": 24,
+              "experiment_basis": "one actual registered candidate; upstream initial MLE solve",
+              "max_steps_basis": "SUMMARY,FULL_TEXT,ADD_PAPER plus one submission/correction slot",
+              "report_basis": "all nine upstream initial scaffold/section stages; no extra EDIT round",
+              "scope": "development task envelope; never a cap on the overall research goal",
+              "unbounded_upstream_retry_loops": "additional retries consume the same registered model-call resources; exhaustion is a resource status, not goal failure"
+            }
+          }
+        },
+        "role": "baseline",
+        "seed": 11,
+        "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd",
+        "split_manifest_sha256": "1d477f30a7a6769bbab32a8dd98c2cec2fedde0199b91c2ffc55501da085dbb8",
+        "split_policy": "train fit; validation select; test withheld",
+        "task_bundle": {
+          "split_manifest": {
+            "generation": "stdlib random.Random; split order train,validation,test",
+            "seed": 11,
+            "splits": {
+              "test": {
+                "count": 96,
+                "ids_sha256": "8cc28b2d176739b6802fd95b86d7fc7997ef9776efd5e4311ac678ac26f5de31",
+                "sha256": "45458a512597491c091b3f1497ecc3e475ace7efd6dfdbc15592b28d26a7da7c"
+              },
+              "train": {
+                "count": 80,
+                "ids_sha256": "65500580203e1376b25516bff410221b5351a9e02193e16b00d2078d39765ec3",
+                "sha256": "a4523a176d6f3af911051acb52ce6b515e7b68e579b299a87b5a1183cf945528"
+              },
+              "validation": {
+                "count": 64,
+                "ids_sha256": "21423bf27b29d0c0dbe275c4ea1cafb327b20dd01e649e4c8e8a1cc9dea2f765",
+                "sha256": "516fafd0a79aff503f04bb227cbdab5908bb4d7da7d5cc0a0e2c4e5136dca5c0"
+              }
+            },
+            "task_id": "dev-linear",
+            "task_version": "polynomial-ridge-1"
+          },
+          "train": [
+            {
+              "id": "dev-linear:11:train:0",
+              "x": -0.14286133947054402,
+              "y": -0.026202941914592714
+            },
+            {
+              "id": "dev-linear:11:train:1",
+              "x": -0.1030497897006799,
+              "y": 0.14785725683473777
+            },
+            {
+              "id": "dev-linear:11:train:2",
+              "x": 0.023523819186813455,
+              "y": 0.39873766050997667
+            },
+            {
+              "id": "dev-linear:11:train:3",
+              "x": 0.035725917125416506,
+              "y": 0.43762872613869075
+            },
+            {
+              "id": "dev-linear:11:train:4",
+              "x": 0.38964816065040564,
+              "y": 1.1108557259876035
+            },
+            {
+              "id": "dev-linear:11:train:5",
+              "x": -0.5897962121264235,
+              "y": -0.6959153484265881
+            },
+            {
+              "id": "dev-linear:11:train:6",
+              "x": -1.2279883875244817,
+              "y": -1.76534800629774
+            },
+            {
+              "id": "dev-linear:11:train:7",
+              "x": -1.374358990890462,
+              "y": -2.1883281136163935
+            },
+            {
+              "id": "dev-linear:11:train:8",
+              "x": 1.4465802623963349,
+              "y": 3.1175407230249887
+            },
+            {
+              "id": "dev-linear:11:train:9",
+              "x": 0.3466881137357123,
+              "y": 0.9984427391662796
+            },
+            {
+              "id": "dev-linear:11:train:10",
+              "x": -1.0275177145795127,
+              "y": -1.3518841980838996
+            },
+            {
+              "id": "dev-linear:11:train:11",
+              "x": -1.321346684493435,
+              "y": -1.9691931517194876
+            },
+            {
+              "id": "dev-linear:11:train:12",
+              "x": -0.9293752116062126,
+              "y": -1.271874834007483
+            },
+            {
+              "id": "dev-linear:11:train:13",
+              "x": -0.10819661633014643,
+              "y": 0.22499366375612131
+            },
+            {
+              "id": "dev-linear:11:train:14",
+              "x": -0.17840665003002965,
+              "y": 0.13197987401860112
+            },
+            {
+              "id": "dev-linear:11:train:15",
+              "x": 0.42087512375753144,
+              "y": 1.0766394346032482
+            },
+            {
+              "id": "dev-linear:11:train:16",
+              "x": -0.000680543379625087,
+              "y": 0.3525342076020355
+            },
+            {
+              "id": "dev-linear:11:train:17",
+              "x": -0.6655113010083424,
+              "y": -0.8733248108131135
+            },
+            {
+              "id": "dev-linear:11:train:18",
+              "x": 1.492968601389253,
+              "y": 3.2405005934669404
+            },
+            {
+              "id": "dev-linear:11:train:19",
+              "x": 0.6234288644938486,
+              "y": 1.5180249473227376
+            },
+            {
+              "id": "dev-linear:11:train:20",
+              "x": -0.5541683489533503,
+              "y": -0.5890833921492916
+            },
+            {
+              "id": "dev-linear:11:train:21",
+              "x": -1.2893295013202222,
+              "y": -1.8552515935144105
+            },
+            {
+              "id": "dev-linear:11:train:22",
+              "x": 0.798863659231221,
+              "y": 1.7124072694001398
+            },
+            {
+              "id": "dev-linear:11:train:23",
+              "x": -0.3404594048821965,
+              "y": -0.12209244591217061
+            },
+            {
+              "id": "dev-linear:11:train:24",
+              "x": 1.3741271499594405,
+              "y": 2.8749451157875843
+            },
+            {
+              "id": "dev-linear:11:train:25",
+              "x": -0.8708477558111666,
+              "y": -1.16968885065916
+            },
+            {
+              "id": "dev-linear:11:train:26",
+              "x": 1.2308157843125445,
+              "y": 2.395155223800564
+            },
+            {
+              "id": "dev-linear:11:train:27",
+              "x": -0.30772683576215654,
+              "y": -0.11186306144927763
+            },
+            {
+              "id": "dev-linear:11:train:28",
+              "x": -1.2808849684989063,
+              "y": -2.0010259161793145
+            },
+            {
+              "id": "dev-linear:11:train:29",
+              "x": -0.6906732394495719,
+              "y": -0.944142666867901
+            },
+            {
+              "id": "dev-linear:11:train:30",
+              "x": -1.2385674049434896,
+              "y": -1.9317520744476813
+            },
+            {
+              "id": "dev-linear:11:train:31",
+              "x": 0.7741215509812767,
+              "y": 1.9725996267743864
+            },
+            {
+              "id": "dev-linear:11:train:32",
+              "x": -1.1460249617413476,
+              "y": -1.6620069684188479
+            },
+            {
+              "id": "dev-linear:11:train:33",
+              "x": -1.32031979117677,
+              "y": -1.939659477053689
+            },
+            {
+              "id": "dev-linear:11:train:34",
+              "x": 0.891064535531922,
+              "y": 2.0488679207121123
+            },
+            {
+              "id": "dev-linear:11:train:35",
+              "x": -0.15772536749693522,
+              "y": 0.20811282613865312
+            },
+            {
+              "id": "dev-linear:11:train:36",
+              "x": -0.9279467541289018,
+              "y": -1.275115971053369
+            },
+            {
+              "id": "dev-linear:11:train:37",
+              "x": 0.4311453711335014,
+              "y": 1.1339470959352596
+            },
+            {
+              "id": "dev-linear:11:train:38",
+              "x": -1.150476037080883,
+              "y": -1.719487594381311
+            },
+            {
+              "id": "dev-linear:11:train:39",
+              "x": -0.6906150684282051,
+              "y": -0.8166720371391912
+            },
+            {
+              "id": "dev-linear:11:train:40",
+              "x": 1.4127871686560747,
+              "y": 2.965453617949346
+            },
+            {
+              "id": "dev-linear:11:train:41",
+              "x": 1.1545953382469127,
+              "y": 2.4139438895599317
+            },
+            {
+              "id": "dev-linear:11:train:42",
+              "x": -0.8678693356966818,
+              "y": -1.2858123606954392
+            },
+            {
+              "id": "dev-linear:11:train:43",
+              "x": 0.42550696977138136,
+              "y": 1.2627292319636148
+            },
+            {
+              "id": "dev-linear:11:train:44",
+              "x": -1.1990017434483513,
+              "y": -1.7029215455230158
+            },
+            {
+              "id": "dev-linear:11:train:45",
+              "x": -0.7251673264151387,
+              "y": -0.9090227909613982
+            },
+            {
+              "id": "dev-linear:11:train:46",
+              "x": 0.8180690693184696,
+              "y": 1.8405994552911904
+            },
+            {
+              "id": "dev-linear:11:train:47",
+              "x": -1.2798043398347274,
+              "y": -1.8446629538353014
+            },
+            {
+              "id": "dev-linear:11:train:48",
+              "x": -1.2296484811142094,
+              "y": -1.8651775765570024
+            },
+            {
+              "id": "dev-linear:11:train:49",
+              "x": 0.3038515307458163,
+              "y": 0.9172792881914154
+            },
+            {
+              "id": "dev-linear:11:train:50",
+              "x": -0.3848878602203154,
+              "y": -0.4864234181562783
+            },
+            {
+              "id": "dev-linear:11:train:51",
+              "x": -0.04882640021236484,
+              "y": 0.37073767321081286
+            },
+            {
+              "id": "dev-linear:11:train:52",
+              "x": 0.22371373628984248,
+              "y": 0.8366677541578234
+            },
+            {
+              "id": "dev-linear:11:train:53",
+              "x": -1.0375940432218176,
+              "y": -1.5054785624087919
+            },
+            {
+              "id": "dev-linear:11:train:54",
+              "x": 1.225271192827449,
+              "y": 2.630535482959748
+            },
+            {
+              "id": "dev-linear:11:train:55",
+              "x": -0.9305980021102198,
+              "y": -1.3302706657563013
+            },
+            {
+              "id": "dev-linear:11:train:56",
+              "x": 0.7182731694499536,
+              "y": 1.7421559897295227
+            },
+            {
+              "id": "dev-linear:11:train:57",
+              "x": 1.3504075569259357,
+              "y": 2.8113733235469245
+            },
+            {
+              "id": "dev-linear:11:train:58",
+              "x": 1.1465692627992379,
+              "y": 2.397223713828355
+            },
+            {
+              "id": "dev-linear:11:train:59",
+              "x": -1.188480955905156,
+              "y": -1.7899512212218698
+            },
+            {
+              "id": "dev-linear:11:train:60",
+              "x": -1.383910584918652,
+              "y": -2.033612412071796
+            },
+            {
+              "id": "dev-linear:11:train:61",
+              "x": 0.6137383816751307,
+              "y": 1.4910114196892692
+            },
+            {
+              "id": "dev-linear:11:train:62",
+              "x": -0.7290558050390641,
+              "y": -0.86414579250027
+            },
+            {
+              "id": "dev-linear:11:train:63",
+              "x": -0.6196939605457886,
+              "y": -0.8118704377519236
+            },
+            {
+              "id": "dev-linear:11:train:64",
+              "x": -0.9736998097024223,
+              "y": -1.3582527978109113
+            },
+            {
+              "id": "dev-linear:11:train:65",
+              "x": -0.8148109880246244,
+              "y": -1.0963378508344974
+            },
+            {
+              "id": "dev-linear:11:train:66",
+              "x": 0.17809902847202697,
+              "y": 0.7868265896557228
+            },
+            {
+              "id": "dev-linear:11:train:67",
+              "x": -0.6593418222874349,
+              "y": -0.8751654868865255
+            },
+            {
+              "id": "dev-linear:11:train:68",
+              "x": 1.2520805354777256,
+              "y": 2.6579156659155436
+            },
+            {
+              "id": "dev-linear:11:train:69",
+              "x": -0.692418215913477,
+              "y": -0.832333498331986
+            },
+            {
+              "id": "dev-linear:11:train:70",
+              "x": -0.16288344005352196,
+              "y": 0.15307667565134409
+            },
+            {
+              "id": "dev-linear:11:train:71",
+              "x": -0.3936438888832119,
+              "y": -0.29008727874251106
+            },
+            {
+              "id": "dev-linear:11:train:72",
+              "x": 0.2165082687079558,
+              "y": 0.841096784991415
+            },
+            {
+              "id": "dev-linear:11:train:73",
+              "x": 1.1728206899094373,
+              "y": 2.566892565246112
+            },
+            {
+              "id": "dev-linear:11:train:74",
+              "x": 1.4414802640147122,
+              "y": 2.9269644543054776
+            },
+            {
+              "id": "dev-linear:11:train:75",
+              "x": 0.25332080454053685,
+              "y": 0.753711183592382
+            },
+            {
+              "id": "dev-linear:11:train:76",
+              "x": -1.0789584385631468,
+              "y": -1.5272903732299499
+            },
+            {
+              "id": "dev-linear:11:train:77",
+              "x": 1.2306373571784506,
+              "y": 2.6184710999816745
+            },
+            {
+              "id": "dev-linear:11:train:78",
+              "x": 0.6029100562290406,
+              "y": 1.501371115294878
+            },
+            {
+              "id": "dev-linear:11:train:79",
+              "x": 0.40855356473103877,
+              "y": 1.1315522658435275
+            }
+          ],
+          "validation": [
+            {
+              "id": "dev-linear:11:validation:0",
+              "x": -0.0532928317650283,
+              "y": 0.2955030668494854
+            },
+            {
+              "id": "dev-linear:11:validation:1",
+              "x": 1.498072879145266,
+              "y": 3.026943590896644
+            },
+            {
+              "id": "dev-linear:11:validation:2",
+              "x": -1.2742112997228483,
+              "y": -2.018886181699388
+            },
+            {
+              "id": "dev-linear:11:validation:3",
+              "x": 1.200587643748137,
+              "y": 2.5237159684356887
+            },
+            {
+              "id": "dev-linear:11:validation:4",
+              "x": 0.7112644032496798,
+              "y": 1.6395255860056397
+            },
+            {
+              "id": "dev-linear:11:validation:5",
+              "x": 1.24500773865612,
+              "y": 2.5049390326790664
+            },
+            {
+              "id": "dev-linear:11:validation:6",
+              "x": -0.4444977100582388,
+              "y": -0.46825653730748507
+            },
+            {
+              "id": "dev-linear:11:validation:7",
+              "x": 1.1133037773660326,
+              "y": 2.246039662946731
+            },
+            {
+              "id": "dev-linear:11:validation:8",
+              "x": -0.24854057406844188,
+              "y": -0.007153319625220651
+            },
+            {
+              "id": "dev-linear:11:validation:9",
+              "x": 0.2184224951535283,
+              "y": 0.6386608959498034
+            },
+            {
+              "id": "dev-linear:11:validation:10",
+              "x": 0.37488163997825774,
+              "y": 0.9966354979764799
+            },
+            {
+              "id": "dev-linear:11:validation:11",
+              "x": 0.32660070223172943,
+              "y": 1.0591431851728093
+            },
+            {
+              "id": "dev-linear:11:validation:12",
+              "x": -1.2593939135078691,
+              "y": -2.029039570147953
+            },
+            {
+              "id": "dev-linear:11:validation:13",
+              "x": 1.1393754873330804,
+              "y": 2.256380521588843
+            },
+            {
+              "id": "dev-linear:11:validation:14",
+              "x": 0.6846212296966434,
+              "y": 1.532675286280347
+            },
+            {
+              "id": "dev-linear:11:validation:15",
+              "x": 0.2428586361800682,
+              "y": 0.9212398718475232
+            },
+            {
+              "id": "dev-linear:11:validation:16",
+              "x": -0.17843251386384162,
+              "y": 0.09646346691061261
+            },
+            {
+              "id": "dev-linear:11:validation:17",
+              "x": 0.7506305317848465,
+              "y": 1.7226959803414894
+            },
+            {
+              "id": "dev-linear:11:validation:18",
+              "x": -1.410630509773605,
+              "y": -2.212818031968041
+            },
+            {
+              "id": "dev-linear:11:validation:19",
+              "x": -0.8093350688205116,
+              "y": -1.1112515537138277
+            },
+            {
+              "id": "dev-linear:11:validation:20",
+              "x": 0.5950040395457652,
+              "y": 1.3605644907488996
+            },
+            {
+              "id": "dev-linear:11:validation:21",
+              "x": 1.2613928203202178,
+              "y": 2.6724151797884326
+            },
+            {
+              "id": "dev-linear:11:validation:22",
+              "x": -0.7325093396808553,
+              "y": -0.8509798911762466
+            },
+            {
+              "id": "dev-linear:11:validation:23",
+              "x": 0.5344109373932646,
+              "y": 1.3667459548220138
+            },
+            {
+              "id": "dev-linear:11:validation:24",
+              "x": -0.8922767597795735,
+              "y": -1.1219647499642982
+            },
+            {
+              "id": "dev-linear:11:validation:25",
+              "x": 0.47997001402753803,
+              "y": 1.4160933506454099
+            },
+            {
+              "id": "dev-linear:11:validation:26",
+              "x": -0.17420255769094029,
+              "y": 0.14177826026560486
+            },
+            {
+              "id": "dev-linear:11:validation:27",
+              "x": 0.4976971876010141,
+              "y": 1.2510738505728154
+            },
+            {
+              "id": "dev-linear:11:validation:28",
+              "x": -0.9044826634040521,
+              "y": -1.3595041355310764
+            },
+            {
+              "id": "dev-linear:11:validation:29",
+              "x": 1.2426635965770156,
+              "y": 2.6977425565317388
+            },
+            {
+              "id": "dev-linear:11:validation:30",
+              "x": 1.1408067542505846,
+              "y": 2.374327360646383
+            },
+            {
+              "id": "dev-linear:11:validation:31",
+              "x": -0.5505394665175853,
+              "y": -0.5206978511779019
+            },
+            {
+              "id": "dev-linear:11:validation:32",
+              "x": -1.0914710208501055,
+              "y": -1.71701362251331
+            },
+            {
+              "id": "dev-linear:11:validation:33",
+              "x": 1.0461609149107138,
+              "y": 2.2864724535854246
+            },
+            {
+              "id": "dev-linear:11:validation:34",
+              "x": 0.6336532845528202,
+              "y": 1.6018288319816787
+            },
+            {
+              "id": "dev-linear:11:validation:35",
+              "x": -0.9926132683568588,
+              "y": -1.4066060985233666
+            },
+            {
+              "id": "dev-linear:11:validation:36",
+              "x": -0.148051646247096,
+              "y": 0.12476419778015481
+            },
+            {
+              "id": "dev-linear:11:validation:37",
+              "x": -0.25804559776451974,
+              "y": -0.009645113967073009
+            },
+            {
+              "id": "dev-linear:11:validation:38",
+              "x": 0.37720067471210594,
+              "y": 1.0093733223592585
+            },
+            {
+              "id": "dev-linear:11:validation:39",
+              "x": 1.0173552373476782,
+              "y": 2.2339186453616673
+            },
+            {
+              "id": "dev-linear:11:validation:40",
+              "x": 1.4461095174724532,
+              "y": 2.97287247483308
+            },
+            {
+              "id": "dev-linear:11:validation:41",
+              "x": -1.4055426729144818,
+              "y": -2.1207045612342403
+            },
+            {
+              "id": "dev-linear:11:validation:42",
+              "x": 1.118487163056907,
+              "y": 2.5346686866160866
+            },
+            {
+              "id": "dev-linear:11:validation:43",
+              "x": 0.21174588101092073,
+              "y": 0.813523730812214
+            },
+            {
+              "id": "dev-linear:11:validation:44",
+              "x": -0.5729089457701215,
+              "y": -0.627182822820486
+            },
+            {
+              "id": "dev-linear:11:validation:45",
+              "x": -1.0923565237554373,
+              "y": -1.5814272211779614
+            },
+            {
+              "id": "dev-linear:11:validation:46",
+              "x": -0.13550275884750884,
+              "y": 0.3048015894945022
+            },
+            {
+              "id": "dev-linear:11:validation:47",
+              "x": -0.7877729733454971,
+              "y": -0.9947004239380094
+            },
+            {
+              "id": "dev-linear:11:validation:48",
+              "x": -1.0773764223565017,
+              "y": -1.4314578109025273
+            },
+            {
+              "id": "dev-linear:11:validation:49",
+              "x": -0.16055769974693224,
+              "y": 0.1437528973030615
+            },
+            {
+              "id": "dev-linear:11:validation:50",
+              "x": 0.38989270930122366,
+              "y": 1.0202261145027467
+            },
+            {
+              "id": "dev-linear:11:validation:51",
+              "x": 1.3753819557570308,
+              "y": 2.755575216048477
+            },
+            {
+              "id": "dev-linear:11:validation:52",
+              "x": 0.5534782379429859,
+              "y": 1.424688038925462
+            },
+            {
+              "id": "dev-linear:11:validation:53",
+              "x": -0.9639417145947462,
+              "y": -1.2488214898741425
+            },
+            {
+              "id": "dev-linear:11:validation:54",
+              "x": -1.4676999951515133,
+              "y": -2.36654388135166
+            },
+            {
+              "id": "dev-linear:11:validation:55",
+              "x": -0.9627035731124145,
+              "y": -1.3108629458497718
+            },
+            {
+              "id": "dev-linear:11:validation:56",
+              "x": -0.6829351906794938,
+              "y": -0.8992761850400124
+            },
+            {
+              "id": "dev-linear:11:validation:57",
+              "x": 0.06126883999443078,
+              "y": 0.6122528222438071
+            },
+            {
+              "id": "dev-linear:11:validation:58",
+              "x": 0.34334300451298283,
+              "y": 1.021136764669587
+            },
+            {
+              "id": "dev-linear:11:validation:59",
+              "x": 0.8757967136753533,
+              "y": 1.8964887357366862
+            },
+            {
+              "id": "dev-linear:11:validation:60",
+              "x": 1.2187109565121563,
+              "y": 2.752281920093389
+            },
+            {
+              "id": "dev-linear:11:validation:61",
+              "x": 0.6671315294795974,
+              "y": 1.6976307661889434
+            },
+            {
+              "id": "dev-linear:11:validation:62",
+              "x": -1.11027023679384,
+              "y": -1.705872739134395
+            },
+            {
+              "id": "dev-linear:11:validation:63",
+              "x": 1.229896076173929,
+              "y": 2.6460855104505354
+            }
+          ]
+        },
+        "task_id": "dev-linear",
+        "task_version": "polynomial-ridge-1"
+      },
+      "verification": {
+        "checks": [
+          "registered_spec_integrity",
+          "artifact_integrity",
+          "frozen_code_hashes",
+          "independent_fixed_baseline_comparison",
+          "disjoint_observed_splits",
+          "test_withheld",
+          "configuration_match",
+          "independent_cholesky_fit_reproduction",
+          "independent_metric_recomputation",
+          "claim_evidence_links",
+          "test_integrity_delegated_to_sealed_evaluation_owner"
+        ],
+        "comparison": {
+          "baseline_config": {
+            "alpha": 0.0,
+            "degree": 1
+          },
+          "baseline_value": 0.007451130912622764,
+          "candidate_value": 0.007427150027746186,
+          "metric": "validation_mse",
+          "scope": "same task/seed/split/implementation on local CPU",
+          "test_used": false
+        },
+        "comparison_valid": true,
+        "evaluator_sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05",
+        "evidence": [
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\model.json",
+            "sha256": "ec429f0c66afb404c89437cdc689b845e408f069ffb834ceda221fef4efb5d5d"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\predictions.json",
+            "sha256": "c0ae99c015de25744d1e4d9ca23fd1043b2484d01f4a3f51efb148256e227005"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\registered_spec.json",
+            "sha256": "3dcb5704a334cef5663f63da4b9efd27500d02f3084b0185ea1c4fdb7f6e9892"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\run.log",
+            "sha256": "ddf2ed97f4ca69b10e70170756cba578dd0616c7a3e97e155ca0233ab1c02060"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\source\\evidence_research\\__init__.py",
+            "sha256": "4414c6f853dac6f3a485232daab35c67d5f5b25d093ca1da73988e6facbbb9bc"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+            "sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\source\\evidence_research\\verifier.py",
+            "sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+            "sha256": "6a482bbc4e8341ad2ce06e242b25f7a4b0e0c7fc65bcca80e9d014f9ae42564c"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\train.json",
+            "sha256": "8d4da42354aec83e2d490563e6806140c8351f225f11a38337d9a707b792a42d"
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\validation.json",
+            "sha256": "e7d300e301fd86d171415605e1cfb0cef6bc018236a751efb34b16599a7f25b2"
+          }
+        ],
+        "metrics": {
+          "train_mse": 0.00518281274299233,
+          "validation_mse": 0.007427150027746186
+        },
+        "outcome": "success",
+        "reasons": [],
+        "status": "verified",
+        "valid": true
+      }
+    }
+  ],
+  "source": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\review_pilot_linear11_19_baseline.py",
+    "sha256": "1f7f5a559c7aab3e2230d9447a959257065bd9711cd0cc3912907ecac07c272f"
+  }
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "claim_id": "89604866a08eaa6d6d0ee5720e49f996cc432a015eeca6efbbb4ba9ec87a3307",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Explicit deterministic report line containing actual independently computed task metric.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\research\\evidence\\9df1350149a267ead308f30a"
+  },
+  {
+    "claim_id": "1ff80c842b1c447ab71be7f34b11fd6961b9fa2e95e78451e5a7d71808a01533",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Explicit deterministic report line containing actual independently computed task metric.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\research\\evidence\\9df1350149a267ead308f30a"
+  },
+  {
+    "claim_id": "c181125475848a70dd56ba8ccb84ea129dcffe634b683f4ca9ec64fc687985a8",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Known structured measured metric; independently reproduced actual CPU predictions and value.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\research\\evidence\\9df1350149a267ead308f30a"
+  },
+  {
+    "claim_id": "b0e9b27ac6c29a626dbb640d94b932493d56f60041efc97e32267254cd2f912b",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Known structured measured metric; independently reproduced actual CPU predictions and value.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\research\\evidence\\9df1350149a267ead308f30a"
+  },
+  {
+    "claim_id": "3a453f141c4faa90f01000cc7348fd876f10d3c15483dd61649bc606b29cc3df",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\research\\evidence\\9df1350149a267ead308f30a\\registered_spec.json",
+    "source_sha256": "65e879ff68317ccc1ce6ab369112455c1f5a10dbafbebaba8b7e5f1d17fd4ace"
+  },
+  {
+    "claim_id": "f5259698fe054ec6c91e5b536df6829b2a2a426d97153c56401a875e3417220c",
+    "kind": "identifier",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\research\\evidence\\9df1350149a267ead308f30a\\registered_spec.json",
+    "source_sha256": "65e879ff68317ccc1ce6ab369112455c1f5a10dbafbebaba8b7e5f1d17fd4ace"
+  },
+  {
+    "claim_id": "3f0338b5a52499b003d50dfc2947bad7b5a13f29684e71b3d227955e431e0d03",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "4b1522042815957274caea082d85c08f778912d93feb9a1a189e20c4d0d27573",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "1cb35e78567517b4c22f316a30649d47e7b006e455d8ba5a18a3113853a9c813",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "0b9b197c24d968dbf859dfe233ed0c44f5f9b71dd6c6d1262c31686ee84f6d6d",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "d2dcee60d2ca5f566c28085a5d083a5b7d7c2176483c3c8b605533f6d4f9e5ec",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "d53c2ed3353a67905b0caaaaa708ae01fc2634ad3b72cec89bc8482cf43f7764",
+    "kind": "literature",
+    "rationale": "This is the exact frozen primary-source synopsis/URL; classified as literature context, never a local experimental claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "source_sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  {
+    "claim_id": "18941cafac6154ddce40b9e895f69b452332e29a31b2ea12e867674298305c20",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent-resource-audit.json",
+    "resource_metric": "model_seconds"
+  },
+  {
+    "claim_id": "79d3444d631d9130ace3557504150e4ee4880fa7ff13abbcac7dbc91e9977c99",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent-resource-audit.json",
+    "resource_metric": "input_tokens"
+  },
+  {
+    "claim_id": "32fd5743eeb54af27d249dfb26d63928bcfb9e75a9c890527b2c60aa75290417",
+    "kind": "measured_resource",
+    "rationale": "Structured measured resource field; independently recomputed raw request usage/settings/time, never inferred from a provider report.",
+    "resource_audit_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent-resource-audit.json",
+    "resource_metric": "output_tokens"
+  },
+  {
+    "claim_id": "91771a6187e913037a96e7df3ddfd9cfa3d8ac9c071efee05aa04f3a8ce8db1b",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\research\\evidence\\9df1350149a267ead308f30a\\registered_spec.json",
+    "source_sha256": "65e879ff68317ccc1ce6ab369112455c1f5a10dbafbebaba8b7e5f1d17fd4ace"
+  },
+  {
+    "claim_id": "bca1189b7611c0972e5a2d6b9c8b765cd279da65309216860d9072ae357e8fc1",
+    "kind": "method",
+    "rationale": "Executed configuration or exact provenance/command/artifact identifier checked by the independent common-report gate; not a performance claim.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\research\\evidence\\9df1350149a267ead308f30a\\registered_spec.json",
+    "source_sha256": "65e879ff68317ccc1ce6ab369112455c1f5a10dbafbebaba8b7e5f1d17fd4ace"
+  },
+  {
+    "claim_id": "af0d194c3de68e29d9fa2bfd1c7c0f094eb549f40251fb6c742cbbb4e2e8d3f7",
+    "kind": "identifier",
+    "rationale": "Fixed report schema suffix, not a measured outcome.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\report.md",
+    "source_sha256": "97c1b7d2a6cabbbb58c086bfe3d1c94b39d09b63bcd00efb85149d4de4036c57"
+  },
+  {
+    "claim_id": "f5433fe504efb9ad5d7ab4784889212f0ecb48995243d1dace697b7d31f6f3ba",
+    "kind": "method",
+    "rationale": "Literal selected setting/tested degree ranges. Full actual history independently confirms the stated conditional validation comparisons; no population/test/global superiority is asserted.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  },
+  {
+    "claim_id": "ab4c6c977466a05764563598866d0663aae7e3050d1066b3cac3738f581b0d84",
+    "kind": "method",
+    "rationale": "Literal selected setting/tested degree ranges. Full actual history independently confirms the stated conditional validation comparisons; no population/test/global superiority is asserted.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  },
+  {
+    "claim_id": "12cd1056c1c948a2c17afac40a9027a18bbe83193a5181fedb3c97ca615de945",
+    "kind": "method",
+    "rationale": "Literal selected setting/tested degree ranges. Full actual history independently confirms the stated conditional validation comparisons; no population/test/global superiority is asserted.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  },
+  {
+    "claim_id": "3ee105ec286d561cfb1ed3b5f9214e6730a1e2bf37a1bf3ee8c0f82a896006b0",
+    "kind": "method",
+    "rationale": "Literal selected setting/tested degree ranges. Full actual history independently confirms the stated conditional validation comparisons; no population/test/global superiority is asserted.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  },
+  {
+    "claim_id": "e95c4ebe059025440032e7778567633ce2741a4e91d1a171ad48feab0a253511",
+    "kind": "method",
+    "rationale": "Literal selected setting/tested degree ranges. Full actual history independently confirms the stated conditional validation comparisons; no population/test/global superiority is asserted.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  },
+  {
+    "claim_id": "5f1c78560156e89581cfd609035062b59a8bd93b0c6270bdd8b717d50ba480e6",
+    "kind": "method",
+    "rationale": "Literal selected setting/tested degree ranges. Full actual history independently confirms the stated conditional validation comparisons; no population/test/global superiority is asserted.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  },
+  {
+    "claim_id": "54bfee95f6e760a5bc26aed0b49705abe3944a66feae3685ae2de19a3921f739",
+    "kind": "method",
+    "rationale": "Literal selected setting/tested degree ranges. Full actual history independently confirms the stated conditional validation comparisons; no population/test/global superiority is asserted.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  },
+  {
+    "claim_id": "f4e5627c64ab9376d7b072f9d5f96787d883a6671255a022c8311e933aedfa45",
+    "kind": "method",
+    "rationale": "Literal historical/next-candidate parameter; referenced validation comparisons independently verify. Prospective expected gains remain proposals and each unresolved run retains its failed criterion.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  },
+  {
+    "claim_id": "9d62ecb2512245032f25aeb4fc413f479a2d41becd85b1eb59ca22b4e6dc144e",
+    "kind": "method",
+    "rationale": "Literal historical/next-candidate parameter; referenced validation comparisons independently verify. Prospective expected gains remain proposals and each unresolved run retains its failed criterion.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  },
+  {
+    "claim_id": "019b7afe50a89ac2ad1847249f0c556cb80d688f24acabee571dbc0f44860101",
+    "kind": "method",
+    "rationale": "Literal historical/next-candidate parameter; referenced validation comparisons independently verify. Prospective expected gains remain proposals and each unresolved run retains its failed criterion.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  },
+  {
+    "claim_id": "505c1814a8796ab25f9d976afbda68677d610d31be714bc6716136517c0235a9",
+    "kind": "method",
+    "rationale": "Literal historical/next-candidate parameter; referenced validation comparisons independently verify. Prospective expected gains remain proposals and each unresolved run retains its failed criterion.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  },
+  {
+    "claim_id": "7f058a9365725a75269e7c60d6c9f50975bca2cd451c4108defa19175220304b",
+    "kind": "method",
+    "rationale": "Literal historical/next-candidate parameter; referenced validation comparisons independently verify. Prospective expected gains remain proposals and each unresolved run retains its failed criterion.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\independent_review\\complete-numeric-review-v1\\independent-execution-history-and-resource-evidence.json",
+    "source_sha256": "14aaa713eb9b8a5582d49c209384305d4f2124e5d125711cea182c51ecb3ed68"
+  }
+]

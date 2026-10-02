@@ -1,0 +1,228 @@
+{
+  "case": "historical-replay",
+  "pid": 38576,
+  "argv": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\reproduce.py",
+    "--snapshot-only"
+  ],
+  "blocked_attempts": [],
+  "owned_path_events": [
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\reproduce.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\reproduce.py"
+    },
+    {
+      "event": "os.listdir",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\future-arms.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\future-arms.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\future-model.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\future-model.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\future-baseline.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\future-baseline.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\upstream-mlesolver.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\upstream-mlesolver.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\upstream-agents.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\upstream-agents.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\future-model.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\future-model.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\future-model.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\future-arms.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\future-arms.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\upstream-mlesolver.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\upstream-mlesolver.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\upstream-mlesolver.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\upstream-mlesolver.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\initializer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\fresh\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\fresh\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\one-use-prototype\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\one-use-prototype\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\one-use-prototype\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\one-use-prototype\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\one-use-prototype\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\one-use-prototype\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\one-use-prototype\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\one-use-prototype\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\upstream-agents.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\upstream-agents.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\upstream-agents.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\reviewer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\reviewer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\fixtures\\reviewer\\model_transport_events.jsonl"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\finding.json"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\source\\reproduce-at-audit.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\resume-replay-independent-audit\\portable-replay.json"
+    }
+  ],
+  "guard": "Original project open/list/scan denied; only provider-free unittest subprocess permitted"
+}

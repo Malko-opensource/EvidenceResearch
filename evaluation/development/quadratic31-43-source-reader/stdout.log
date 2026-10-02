@@ -1,0 +1,9 @@
+{"seed": 31, "arm": "B", "report": "primary", "occurrences": 290, "unsupported": 0, "pending": 0}
+{"seed": 31, "arm": "B", "report": "companion", "occurrences": 121, "unsupported": 0, "pending": 0}
+{"seed": 31, "arm": "C", "report": "primary", "occurrences": 54, "unsupported": 0, "pending": 0}
+{"seed": 31, "arm": "C", "report": "companion", "occurrences": 52, "unsupported": 0, "pending": 0}
+{"seed": 43, "arm": "B", "report": "primary", "occurrences": 328, "unsupported": 0, "pending": 0}
+{"seed": 43, "arm": "B", "report": "companion", "occurrences": 111, "unsupported": 0, "pending": 0}
+{"seed": 43, "arm": "C", "report": "primary", "occurrences": 51, "unsupported": 0, "pending": 0}
+{"seed": 43, "arm": "C", "report": "companion", "occurrences": 49, "unsupported": 0, "pending": 0}
+{"guarded_attempt_counts": {"actual_provider_calls": 0, "actual_runner_calls": 0, "private_owner_row_opens": 0}, "scope": "Reference verifier arithmetic only; no new model or runner execution"}

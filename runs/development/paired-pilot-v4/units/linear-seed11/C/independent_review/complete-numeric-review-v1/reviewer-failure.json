@@ -1,0 +1,11 @@
+{
+  "corrected_source_sha256": "ce2f4af53809384ee0c8cbbc18aae1d305d4a53ca05ee4a76c7ef741fef1e9e8",
+  "reason": "A broad numeric string replacement corrupted a pinned companion SHA in the first reviewer helper; the source-hash guard rejected adjudication. No participant report or evidence was altered and no final review was accepted from this attempt.",
+  "source_sha256": "10920a96510edd510954874bf7f52b74d815868d76977696a4b77edf47c8bf15",
+  "actual_fitting_executions": 0,
+  "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\review_pilot_linear11_improved.py",
+  "actual_model_calls": 0,
+  "correction": "A separate v2 script uses exact field/text replacements and a new review directory; original failed-attempt files are retained.",
+  "corrected_source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\review_pilot_linear11_improved_v2.py",
+  "status": "failed_independent_review_attempt"
+}

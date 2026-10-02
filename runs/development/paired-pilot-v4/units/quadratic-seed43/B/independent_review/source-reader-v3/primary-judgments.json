@@ -1,0 +1,1640 @@
+[
+  {
+    "claim_id": "aa34bbc4fb7b372238ab469cf791a842350c5e8aa596baf871b897fb2c0b3114",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "407b1c50f439b81a2a27aa9b9a30caf4cdf6f67354fc7a4093d1178c1ff7381d",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "7c4d22172e2e56bf2919d8b34f4eea5c04e62eb86b9101b0b1c0f57c8aea9ed9",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "6f42e48459de551b81af0736db2e16baca95092a87feaa5c6cab0de32013e615",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "7f99600750c56a2d82a7d6cd9edb95a3a81598fc7533062ff972625649286e03",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "6430dbde549fe24986cadc7883cafa42a175dba9473b0499d7d24f6219827b9a",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "40175c399e83fb764091ed4b8ad3317470808f8ca0e2c456c1959b0da14e1243",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "99be2b1ed6dc877cae38e38174c8dc93f2424ed3bcffd165595c59f5fb7eeac0",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "0a32399c40ad994dc9bcb2dcc9f51ab7e94b93a46998175f13aa1f7865edc5f7",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "fe0c3236e80ee0b7d60e67375a5c545c2bb193fa15b55757c15f8af35f28336b",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "e92b71695cf5cc5699f5c7041ec327921e9618d3de1f96a8df8345e02caf366e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "10855f60ba25da8f1970ddfac429b75fb777dbf70adf3e50213ead2ac662fa75",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "0ae91dc43672d7c992eb3eeedf46c7e96ff105bbdc6b1d7d02dd057e9d7108c2",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "eac55d7539ec08587b1feb6f07d6de22ea75377183d06e39997fcf1dbaf19e1c",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "433d69a96fa5d1ab6c5741761fa3b7c490abd2b0ca943dee4abe39bac579261e",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "ab1687b3abe0e265497a592dcb8bedd4f983cde595f70b3efe9583677f9c3a3a",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "ef7bb3a0c7d10fcf1d3f273717be02fd7ea772d42200e4d644daaa7ab9cf2099",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "ce03aa31bad3808acd6e967c3ee2911cc449357e461e592e86e8e9461acf174e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "f4e1d5df7db550f366c639be04ff7e3e18a2943d3555465165b72b6ef2ba692d",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "0248fbbb922ee878479c28bb70658bc92a7da6084e5c25c8f9080881022f28dd",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "9dfde4bdcd3f49d39dea713ec77a55873464f5d71e29348dc0e928f0fc729433",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "36ebcbfd0502b50ccee887c4416d922972f0be1a952d01a201135fde672b7e8c",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "6343a03a8e87fcf661ba684de049d159ff1cf2089e6ca5467422fac7a029079f",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "3480b1bc5a7889b3e4b986ce5eeb15728dcdb56dd5a9e6f5409ff609fd2663bc",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "aea0475f44804842b98f813464d5d10ed1302146b3bfb9a78fadabaa3a181b63",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "fe39c6a1b62f668c0184657e2c3e2e9d74cd200ab40edf1b41e5c3e2603a955c",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "88588fd86e3fce27c6e95f55b6b33910b092b88ec9dfb0bfb4e627465afece07",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "d9c3f189b415da5f7f33a66557f0f674dee2705f275210d23f22220134c11662",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "fec9c619004324c43b55535e5be512ebabc919045bed7fa12a745a3367801f01",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "c714a05d5a6504a0ff257c37cda7d9fe27784ea024c59056d39eb1366e8958c2",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "64f4a9375c681d9b5757dc62bcb832bacc491828a6171093461cd851a5289a0f",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "2ae1e53b229c30d24f50bce7b4e91e30807643f94c4052c01fc6afaf63e67322",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "cc8b2c25d02b0263f510ba079438054e6e3d28732b505cbc3d61f75cf550d45d",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "cce1b9bec38dd85556a8687ad8964226da7b6ec8052de6cfb4aa23dc8be09378",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "30b699993277e8096320c81406f4e18cd9fced686f582935b7a3f92f77e6f5bc",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "6110c3c38eaf2c137db4246fedd6d0c8d2d7a6f87b3171e6188fa0a1a34369c2",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "47151cad220e88e6adfd0c2d2027462704f82783393e985f0410286106a92539",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "5d569f1e2c0fa134ef34782105afa1da8efc196a9d05f6facfc105c40bf03777",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "731bf6bc727f2d7f24ca3fefbc1312ce6c49ba9cf928a066a4e6b2e6bd48bbc0",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "0cdf394d779a14a199bbb1f8cc3dc10cd11e581cdf18bfe810a7de37a1792c7c",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "dede83f8d014f40e39228ac24a465994164032ce3a40374560ef833663d5c1d0",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "f42c825d3226bd5933f0b9fb8ba577ac2fd38bc60f9a282faafca7b5b34334b1",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "408d7f03dc5442ebccc0395694b67190b8a40f9c43f37e86121f8924c5473d9c",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "d56079b4a31c9312d8ffb245642ef478a25c611efe38e0368dddc0e9ea344153",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "5cc3b91e219e64720952a350e6fcd45c933c5213279ab2e332f6421fc78eb8ce",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "2b3d8aefaa202bcaf62ae5b444d7c17bef73f75a757be7cfcc9fcd5d11f6cb21",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "ffc926166d4a66e54a2dc4f93298709a8cbecc8b178ae76b46de0c44815fb102",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "8a1fbbda04ca892f4065434af5a21de51f812f02ad82cf3ef47e8c610552b043",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "28407807b237f6050f15c28a7558dd3e38a266e45ebf86c25dc010483667dde4",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "aecc0893f4a60f9919da2a8fd60ebce237ecfc5aaa6ab183a9674d0c06981bfe",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "968e98818afb7660313b8c5ce79002a8413e59e8f2d52498b80b87785f609762",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "10c336f5ffe4b0f53b075fd518d802ecb3c9264e8d7210fa1e6d73326ccbb7c5",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "7f69277a660a3c709fe1fec7c3aae9ec4876dae0e7c0b8641515f68b47d1e4c2",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "537615e3400aeb8c28efd7f8abffc081ee1018ff1ceb2879a314b894c12b9836",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "1aa70c8d42302bcbaf125dc49159425491ca009d33dc55f36dbebefee4e9861b",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "8d8d85e4e67b915328a97f6f22190600260dcbb8d82534501b2a1aa33cda3edd",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "209c77949ee53970df3d241df02b533394ce64b919387f0060437c27f605e3ba",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "07093c5b769308ac457da113d7da4227706bc27011737bd36205bacf2aac9585",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "29bef51f520f7728fe7df34497604e8bdde6cb5700770bc19e584133a1020181",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "dff5b98b0c5e8fdac01a7f06a4794a3e5cb00293711b6406ffdae509c239376a",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "b091fdc9a0f4a56d7b145664e0fa294ac25db04e0a7fbe882767b13dc15b5047",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "762b7842e68e74d10f3b751d1587a8b318065dad9d644f0dfc1abc6d2f49eb1b",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "39e86019adbb9c360e726bc66b3806026b6a16a4cd25be302546574745e2dcc5",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "456e74d0458e7d144325adc7997b6ff665424579abb0ec20f89cb0d0592ca40f",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "3a8559d0d6e06e5daa2d2a784f541f1609ecec91645c4642648f98656f04fcbd",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "42edb6d188a991f4d8ee4c477206f3fa687a202c99c526417b5fc7894f856cbb",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "39ec9d3f2aa79d3517e849630a7863e20578dd6fb70f73a57e3af179ed68a723",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "08310edfc4b5a6da4eecd4cd923e512c75f4679ad30ba9cafa357fac5ac5bb13",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "4e25a0279952c1e30a548ac88a4c92d7208447bf1f25c50e33a9dcbdb09c8146",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "2c868d4ed619bfc3e87e4587ce5d36a0fcbe5d95dd2c2993d15bbc79dcae12aa",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "708ad4c1eb6d2a46ea97bfbad3c83c32966632b5b1d5d0e28b1b8b34fc28a57a",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "e4068df74f7ea2b29447cb4192485be5a49b808357e205c3ef898f31d67e05a7",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "be956504e737048ed6cd73064500f7e260402fae2b591b651b72b57dff53d279",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "d32be40832744f3202efb1298beff98ba2bc2621c37d9e15fca90a0c9f4cd069",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "147199d280b183085b4136b4bd80db13f7a0a6aea6ec0493a8edc2edda49a1c0",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "a8b202b2d0a8c7c649b5d49017f9a4c992f04a3671d1bff7fc80fb162d27a3ec",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "d150f2e4c2ae78278e74b31c3e7f180cf6288cbcdc181f091685489a083aa9a9",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "8998cb00420bd38cb686d0dfb5ffb6d1f4a57a29526ff419b9f7f4715e3c4de2",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "9deb706bb3834b16856d354b232ed26be2429c5fa83874f9b52045bb11d94669",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "2cab5705eef223907dcd12450bf996b988781ffe329262767cbdbb762b68daa4",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "cb5754ea226815433e226d03d7ad295a50f85f8fd9bcf9de56f7b04286f5e000",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "eeddce4bd0eeb499c2778a8967bb78bf3bb2b14a9944c11dbec85beaea77c610",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "fd6a7cd7feca9abae1f66cf5979f31648f530cdfa4934eb32b6f523406c41a44",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "b0ac3b91b30c0e477cf14422613184c26bce84a1a0d4333ca08e4a62e287f0da",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "d5e2db465bc581863b9dee3b423029ca507fb8022ca6b893b4f2dba9db771d7a",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "5c73921df36f6899782110ab9c4dfe51636950df648f1957d48b8c1cb3c72ccd",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "e1658ed8576f23569a352c8f5eb948d74d89a5b5b1b2ae6a62fec16dca1d664e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "b6cc84954b23547d7ba21094f214fc1104e9d81be2d3bf2ca3a693cabefbf280",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "38c13b8124b9fab99ddc0280e9b7f3cd1cafabb795cb6261abf21ef84e4fe163",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "309b3bcbae539387beb78c97f078c52b84258bfe360fef4129a6853d115fb88d",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "4c534c8e251e1f2121e50d0844dd702418646a9d20ca86cbedfb007fe9af971e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "f8c1822b257d948b390b4f8f16b5c9e6bbf3b7317b9c8026237e375e7d714ccd",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "1bf48d4a75fb7ea635d293140392670e05d69691d6222c77a4680d07167dd219",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "ca79949878f3d55dc41f78eb94a9dd1a17824b0ec16bff304e80bd9502e0256c",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "836bf4445ac2d2f6f4e5bdd026096d5a62ae2ff58d36cafbb824b5d2c4c7fc56",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "c3b789337d7f8f95ebef51ce91b9b8189f82ee966b2fad9a35bbffc569f83a4e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "c3d096791700a47f6c9c851f97349e10dcdd96e945a829cf8a900a47d8b365e9",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "d486c9cfd07f5fc472ef82fbcdd91f57a3571276f5a2dc730b5426af1463c551",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "97036bbf1ed1f5063fb61342b97d99de8f45b60095ac0fb5f2b5fa0808192d6e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "03bca6339fd4fe2538e40f9fd38c195df252954f522b9c3cfb0b33f426865a1e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "fa85d3364aaa5eaa0ba2678d4a90b8669bcfa990a3661824bd031d3d4172e3b0",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "c06ba2565cec4f2176047936c356ff4ce06e7c6e53dca52f80919a5fd77f7dfc",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "5c9c8288cc4cfbce7587ee8503c6709d78f80ab0500b31e1a36ca1a07d1ffd42",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "c8bb7768884427bc64a3593cee4613f5fd8d8cf09650568dbc95b0bba051e45e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "f6a6235044abcbbbe16e0409afecfd289c4792bc8c4140779863619da2559780",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "14e2677937b928443e93c4e241a8bb4c6f234d25798059570bf13c4294b73153",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "4bd27eb7e2b3bb0cef5ad1a0674b69e2728d2a27cdebecb100f36eebd032617d",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "7550f781098d468ba4b42d7f27a1331b9c7e69a064d2cc32ee66b9d182e17e04",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "44391db07c4d63f14c621a3ec52ba592c6d3203d3075a049b96a77908a6a8c6d",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "a7380fb9e8a6822a017205b531038f207f3b64af918d3fa7f88485d9f271a011",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "9d2f0efd5340f7e72816bcb05cccb0d474d0ed35ef0b2cf1a2357c04d45a5e2f",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "e7bb42683b5489aae3929c2e4fcaafe2caf73113c959670e2facf826c8e0a6ff",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "894f66972ecca7cb16622836d48f98203646b4a0abc0a25b8b47fae21e057f46",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "9908496284d6557f0a8fa2717c0733de3e5f47d4e1f219577628298b28eb8bea",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "730c23420d5efbb7ef043ee5e3fd98bb8f1469d03f6af828c8138f73aa0715b8",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "96b539e53dba09abcd18d007014388fa347a9ee5a5d0e3b9e26ab17a49236542",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "8f51b752373e2261d99f8b3680fca6d6ae38bad3cd0019e4e5a0fc1b4061dc6e",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "1c376aa7128c18d2b7b137fa875f144ba8a1b812dd8508440c66491bead402d6",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "d5de41c292803fa44433d824dbe772b5ae5a800341e6507d613767c674d13304",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "290eef2236e26afea111f0e6d838a4273359e6fac2a9ad6eb9d8cd3ec188276f",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "741fff8c3ddad03d5bf9c4028d8a7c98e5aacda04c242a50ca822a7f68ece2c1",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "1851527b54167fb22db1627890dcea00ed5f0c56ecc4ab79ef9c8cc1a40b423c",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "a4e3e1b48ba21ed639f83eaaf33c2827467962070f2fba9941e77811a040f473",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "67e350744f654da8edd2dd15843f65a00fa6766504789dc3db7ca0ae739a91ec",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "542fec2925b66c9df19724d89ff81916a992d0e01b54c00dc4aedc6f03f91160",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "b3f19d2deba38514da06942eff2dafb17cca0e18c366258f0cc2f9109b95073c",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "8e1e04082def77f5ef60b4b1f313954eefed1f79101bd86025ba5b0e48c315db",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "efc7eb912a6bf058efa02142e7e44233677d9c1e2c7f16719198b2c4bc266a41",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "128ae68cd52eb8f5e393f0a136b8ecbe4be2cf35198a45c15cad68c7bf427e8a",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "252a3c8752c27b0ebf0f28416777d0e247507453ebb6affa849861fa30c17865",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "f1a6bb258840995e41a28d366208db1f252bc3929cfe7b00e6d1091efe08b874",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "84f2548417b55cb5dd4f592eabce9c85a5eefb0c729060efbd3afb45a5426886",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "316d16770b9c1c0c052c19a433294f59034879f7540998fedf763b2bb9c54127",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "d6d15c5fa3283a86529734db1185ed6f5cc36782703e60b05bdc42a1d786502c",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "1be04fc4673932f92d8bc6187f8d44d0a94cb178fce0a5df65438e5e97d29183",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "3a099a4184cfe25551d113cc22143f92da44d83f54cda8d33a4f7898b4061226",
+    "kind": "identifier",
+    "rationale": "SHA-256 algorithm identifier, not an experimental measurement.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "14d616e26b214540e94d8a44209cd697e124d6249e6a1cf29e7cf473f6bb24ea",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "61fa6137c4c25e70d31f4beef30d2ec0d99ec44fd68647be0bb7aed344c161cc",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "0771a619e872e83120297d8227c35fdea855a6b5837e9007ca836bf0e1b400ba",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "e869a18c9f5900f45ab528a303c63b7a67a1d9bce8b3341e421183cdb4a92a42",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "aa89725274d6046bc0b016b6177ca33b769a11156ea5690187ef34f6a4e5df61",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "4ac8dafb645aa8ea4eac23e917c0af10fcd3fd33db9732c0c378dfe9410deeb2",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "49f9aa681752d56ac94cc7b14fde8c8e0a4120982a1263aaf15c14be742fe1e8",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "334e6bf15045873d820f582cab46f33bb9060d549ee919a10d9b84e264b17bab",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "689cc678d9dd342ba462ef4d513dc80a3addb3c81d938cde6882a65f864ec7e4",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "53ac56579ec41f2a76cab618209681ac12c4b1a1b45e9875186e0dbf77687538",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "a452a37555ed2f9901e3dddeda50c78b0d4acaaf7f61c0de3b322019db38f1f4",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "0c32fae25897203bcfb1dba3f41483dcd3ab614a1b62675757ee88b4483e2198",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "85e5e55f7170ab363cce9789548b0fbc2df0b04aac34e38bfaf794c7bf58f6fa",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "ffc0732ccc9866039838e6d0ce9b999f88a21527e0fe747a2efe94c4eb59a42e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "31f6ba3bb5e4f44c02ff6df2b865c5dc1c8e5e3ea022ce87c9f23f88a26c3bf8",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "a6e2b90b53f4c90829a827ef3121e79d8718416798d5304eac8927f3ef7d849d",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "97e38c917b0d759a42fe37fb6406f98c4579a769c56a52a7a64c6d84b84c6fc2",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "3bdeec7f73800f6c0c4f0428daefb506610a08cce9d30d9596f5d9ee0257f453",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "e3257461d27232fa83c2a7b0d9c0022d70e400eb5bb5eeb502114bbf1393e9e7",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "81929df44cfb0d9221d4b5b7573929e89d3afb93be389ec0e94e2a0b3cfc6b1a",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "516793efdd364c9f1c831481d3031a3841b9942c724e793a8fb68a4e4cde3cfb",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "8ae66efad1de6a06036b3a5833d21686631081fc1be900e9fae056f1f076e0fc",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "eb79e5c854a3d18995d93ff45fa2c853310bf93a445fd9a67e7a05930a47fda9",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "d74fe2449348513c0486f415f334a8191728863bf8b41f671a7e8c8de32c1f09",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "63237d774b01e740402609d00fd4b3b3c88225f4df42f13a41348c6a97b7c766",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "fa04efc2f584ddcc285f912ef9866aac43e3c31c8d74f43626553c055af0a840",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "c492b7c8e935f0d517ff49cf5a9bebe6e56470e852c317266391a98f1ecb3d22",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "fa7944d77c60b5b1594c68575da3efdada41a9c346089190daa78083c193fba6",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "7aaa961d75256b95e260ab32520364435f880ae0f49a3fc934df57d83a5054bc",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "ee37f525c7ac1f3d5d82af7e85e9e991ca293dd0673eddd5d3a93451e0eec838",
+    "kind": "method",
+    "rationale": "Registered CPU allowance, not actual usage or a Goal-loop limit.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\callback-registration.json",
+    "source_sha256": "c97cfa219306aeed7d63965aa9d336c0d29efa4a3a7278c7113e53b41c388f3e"
+  },
+  {
+    "claim_id": "9aabb42c7e1723e52069515ca511624f47de031e03c95d80304bbf413aa65d1f",
+    "kind": "identifier",
+    "rationale": "Exact original invocation identifier. Selected report input and complete2attempt/1condition history are checked separately.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+    "source_sha256": "eda553f5165d604fc933147555cf1564424f76a99e3547e01e071c1c1126dd70"
+  },
+  {
+    "claim_id": "3ff461f77680e4c43a8c0e7857922e40f13b1c2cfd615ce97d0b13ee09b4e458",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "78d06d9b207221ef996e9ab226dded39f96a4dee29e98c49243186d10c135e3e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "a0d814f662b4322ecd8ce84400d2a891d93c71eb33ccb8d6f043cbc05bcc92a4",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "a9cd21947d6e2ff149cf910c9cf5367f7ba114351195f148c9f0ca4ccc963810",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "06c7edf387f46f7ab85487fd6c5db960c8d087a89972e6c94ca8225fc8c3f22e",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "af0da921a508bd7cb6632162134a04f26ada5b71827e397bcaac6634a4d9486b",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "472b48286d30509784777d7df8ac684acdcd5a648432675974b682018c89d5ce",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "20e56b1716f61ac370018181f102ec4ff98ec6a503d533c97466286d88015740",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "f3f1ccf1aaa231046c64305f70063f126ad68227f8407ee580e51b731bb1f9e7",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "1110d50365c0c230195cc4f7986a8669bf3c82842b9d0bc1f9b576f70aaa3a99",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "a9e8dde7e58a07b4f03f066fa9a1c6e9520c3ef917e7149af17fc5fccc6969ee",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "49dd8b80edd5a9579da3f4a0bb3a471505743e985e8948017fe7d0f77e039f92",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "73e3bd844181a98d7e2cbbf009a157911b81e520b2cacebc773a8c53e567df30",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "0ea88d0df9faad1838ad1fc1142c8f9e3128f40f1464c599766872e0299f96e7",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "dc2b1e45a513c553e346c1a3255cb5e72d8da05d88340acd34135b322a8f0685",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "ebad48600431fa4336119d150c236d3668f2d1f2f694e6b8226536e53fe6a34e",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "8471e25dd84312b4a1b60100678c175cfb98ad245f41a1330696810cbd2a92ad",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "13bb239ae435fbf54cfcbacbb735adc240e0a380b54f1ad390c83db4ab407fe9",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "c35e8f6abae3c90f06e0095ef66c8e755ef61248743375c98130e629b8624ead",
+    "kind": "identifier",
+    "rationale": "Exact original invocation identifier. Selected report input and complete2attempt/1condition history are checked separately.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-execution-resource-and-report-input-evidence.json",
+    "source_sha256": "eda553f5165d604fc933147555cf1564424f76a99e3547e01e071c1c1126dd70"
+  },
+  {
+    "claim_id": "8d4712b6fffc0644847d8e224ab239b741d9667e9b578a665bbc80ff33058662",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "2a139746d1276801deb5b94436c823f2aca8fc356e96cf16a1faa5929711537c",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "a2a1e6c61c97965f2e296f28c28d00484fc2432631581f32f85eedf0d7bb7678",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "e7cab2c6311c857ad5300794361482a649a45cb919c7e2a5134911aadee920cc",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "1bf7f357e37429177f6352b0c002e57364c86130190bc7b5ed53f940c1ee4c47",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "870304632bf0ec692e6a6e4e03ebcd28d5d823fcfa37d32df41c67b2bab128a8",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "5e612ed8182ce43c184f6c79cc7475f62c5ebdd8a26b73c2d694d0b632f62ca3",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "640d7aeeb1f7949d9ac0bd8ef1c61053adb11a1361918e8459e7f6cd3cceba7c",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "b8734318dd08d08c0b8aaea355ddf02594053334fb7530d4bdf96393b8c07c04",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "a363fa85ac792f8bf1225114291e9b91bd524fd3c0cc6c14978d46d7d274f818",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "23da5e555b11ab09b3f53e14d1dfee21daf5cb39eb5b0c3fbf14b9a713b4b34a",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "4a37ff33031d9c1af70e854abb52ee1371c9f79e6b0cffd942664122ccaaebc3",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "ff40b11c207ca2f17c694b0cd0d534b57fb9905292c4c4e4d85da45bd818b27f",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "3ff51221365d810c3f6d0ffc604c071973f88f9534085899dfcdf4d5983bccdc",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "69d93adc40dc414b604f97a4e3a50e3e8ebef8488dc64f04d7d5cf0f0ea7f397",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "1a09eaa1c733cf5cbd0bf04f90eaa308e3d40c0e0985a989a62da0384f4ac5c7",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "9afb2bb8235edfcbf61350711f4edf3eb8f12989a48af0c974b3fc099fa02492",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "3cf99398870a61beca02f7ebae1b6c002727b6e0b0e41ccf23887d64341ab69e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "a7d521a38341e59843b9e51b764bf614f3c7f8f1cef404d14cc29d99cd348ffb",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "6d68f6b575eecdb36e6baf317e1fd7a0ec4c928dadd01d516c54e74a85f0790c",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "73e35146ed6df229186cfe275fcc3b19172cfe60a10f9f85281f53d61bfa55ef",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "cb298c7d80ee142ddb66812dd950409e3d2230d4c27527a99f3cfbc3a89743b0",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "d69a8103f88b6769837af1a0a8dc550cb98cd13038f8773fba3921b660820163",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "9434fb7e9fe24be59123ddd4ca0fe0fc7032a93703a06a98010de95b3613cac4",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "9a39c0caa92475aac6a2c7ee17245a7aa7b0827623dd9cd61c864f548c04b3db",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "6798d385a30e03ea74477276c00dc0b6e1ac72f169858d07c7171e89732a0c21",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "4889dc275a522a0522eecb3253195f45e005a09d695110b7ae98fa072d147f52",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "e17745b0c32e6337640a20c9e1f8359b5a61151b7e0a2f90782648ad79bec04c",
+    "kind": "method",
+    "rationale": "Known split count/denominator or seed; no withheld test observation read.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  {
+    "claim_id": "e25b4cf8b82cd85c59ee13de0d2a7f2b2da0e4264693ed193b0414afc9d66d54",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "430722d17ee5cc4f7dba4d1007b0d016b2251fcff93d8ce12c25d3ad00a0365c",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Named host MSE independently recomputed from original predictions, with fixed split scope.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\attempts\\attempt-0000\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "9d61d7016d22918662d76ac4085e87b52c7d5c9ff6e9f509cfc18eb621c379b7",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "fd61a3a8b46a8f563a39fa427c5c50d6754229d2459a0597bd821459c16f1e30",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "eebaf0f473510a218df134ddc44ab0a0842f5071aafb1f35977c1daa4ed6351e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "a40e714cea5de3d1c92d475ee5061aed1a6c6d481259d188d0918c51ba2298ad",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "8a5e5b82db214fb603279c15bcc852f114517831380d72a42aec4f3e3e0243f9",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "d70a37ff2edd70a5957484512d2f8af5d62e553f25831cbcba8184d9f80be45e",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "d1e276d04a8cc13dfa48ef21587491ffdcdc69c3c0aba6b2be388817c5a60a7c",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "46f633bd307521316808f17e008882b250af364f65ee86a4eaa77e4dbe4f6758",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "ff7fd05e3427d8a018986942ad6b708c6f79088090c17ea4e80f53eaa7bc2452",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "a5891c95da3ba0f328603ca6439396c7d0c7477fa5bccf41bde72ef2ee4a6dcd",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "2614973ffb9ec19d445b38f4d0b6030596339227ab0b33e3b1747050cb91ebad",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "765bbdae5de47f3cb747868323499b54b0796f678c333c1c4a0fc798899beec2",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "7f5f6e583805c20247742ff5bd6ce638ccb40a1c24b287f4e126bb1428afa7ac",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "a67e4ce5e25c6e5cb317bbc0b1b9c575bfaf3d1810d01c11e0fcf3db3be811ee",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "91f474cc770b7654d1ba451a98b1f67232d9fc235208a4fa7ce2d570786dacbd",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "101e8bc61189a050499090f752b47f392e6996777d720a7fc0af09a88bc2536a",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "07f8248cea4edd3933769fd06d55e80dd98a857ccf5cb9d949ab8c0653918fa5",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  },
+  {
+    "claim_id": "8b68a2ce851ffa2422a8399b8e9d2d6c70164d681cf178d4d3097787d03539b3",
+    "kind": "method",
+    "rationale": "Literal degree/penalty, polynomial exponent/index, conditional inverse/formula, or preexecution candidate-enumeration value in this exact independently read document; no alternative measured outcome implied.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\B\\independent_review\\source-reader-v3\\independent-method-and-report-scope.json",
+    "source_sha256": "75832cebd471f4bee30a9fdda54dcb3c962f76f9b6b25d34def9655b8e9cea09"
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "claim_id": "0315b92b0036bfa9504763ab0c4fa4a4fe5d72a396fe61618d19ef9c0b964233",
+      "context": "rovider billed monetary cost is unknown. A failed request without raw usage has unknown tokens, not zero tokens.\",\"A common information checklist does not establish equal literary quality or general scien",
+      "end": 9520,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\independent_review\\complete-numeric-review-v1\\independent-derived-arithmetic.json",
+          "sha256": "33d97d101ea06f90be37413f0165b1f0f0b1050aaf56d4a85b12f689c066fc4f"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\attempts\\attempt-0000\\experiments\\execution-0002\\split_manifest.json",
+          "sha256": "6a482bbc4e8341ad2ce06e242b25f7a4b0e0c7fc65bcca80e9d014f9ae42564c"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\callback-registration.json",
+          "sha256": "8164ff2c4359f10ac21afedf3ef478e29b8d38c125c080665547acb526f2571b"
+        }
+      ],
+      "kind": "proposal",
+      "line": 1,
+      "number": "zero",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Word-valued count/ordinal/literal degree in tagged original planning procedure or split/action convention; no extra execution or successful improvement asserted.",
+      "start": 9516
+    },
+    {
+      "claim_id": "9a6fc257a87f3b1e36b34e50cd56df73dfaf843e14a8385a813c800d9fbe9922",
+      "context": "rature context, not local experimental evidence.\",\"kind\":\"literature\",\"url\":\"https://arxiv.org/html/1910.02373v2\"},{\"claim\":\"Literature claim from Agent Laboratory section 3: experiments execute generated code; a",
+      "end": 11950,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 1,
+      "number": "1910.02373v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Exact frozen source bibliographic URL.",
+      "start": 11938
+    },
+    {
+      "claim_id": "d4da628bf42822297390c2068f5528a79ca9f0536441d664ce2cf94cbbbbb200",
+      "context": "ot independent evidence of task performance here.\",\"kind\":\"literature\",\"url\":\"https://arxiv.org/abs/2501.04227v2\"},{\"claim\":\"Literature claim from AgentRxiv section 3: agents retrieve reports through a SentenceTr",
+      "end": 12279,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 1,
+      "number": "2501.04227v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Exact frozen source bibliographic URL.",
+      "start": 12267
+    },
+    {
+      "claim_id": "31fef08b4b9e1940d31a0616a0e9a2adc30d948a44533fe23b4acf52a305db9d",
+      "context": "ved reports require verification before adoption.\",\"kind\":\"literature\",\"url\":\"https://arxiv.org/abs/2503.18102v1\"}],\"resources\":{\"actual_cpu_executions\":2,\"actual_cpu_executions_per_unit\":51,\"proposal_calls_per_u",
+      "end": 12625,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 1,
+      "number": "2503.18102v1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Exact frozen source bibliographic URL.",
+      "start": 12613
+    }
+  ],
+  "report_sha256": "303d5e6674916abb7e031fe1a3f0eb6ba090c1ed6f1b91537173299269ab176d"
+}

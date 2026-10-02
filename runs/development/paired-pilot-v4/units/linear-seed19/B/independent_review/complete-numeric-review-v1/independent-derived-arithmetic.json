@@ -1,0 +1,71 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed19\\B\\independent_review\\complete-numeric-review-v1\\independent-execution-and-resource-evidence.json",
+      "sha256": "8a432bcaf5e7d35871b3d83875c09639fdf82cece0fc268940167a03335a78ed"
+    }
+  ],
+  "proposal_grid": {
+    "actual_distinct": 1,
+    "candidates": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0.1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        0.1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0.1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "count": 9,
+    "kind": "proposal_arithmetic",
+    "remaining_candidates_executed": false,
+    "unmeasured": 8
+  },
+  "remaining_cpu_allowance": {
+    "actual": 2,
+    "limit": 51,
+    "remaining": 49
+  },
+  "source": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\review_pilot_linear11_19_baseline.py",
+    "sha256": "1f7f5a559c7aab3e2230d9447a959257065bd9711cd0cc3912907ecac07c272f"
+  },
+  "validation_minus_training": {
+    "display": "0.002419",
+    "inputs": {
+      "train_mse": 0.004302040179367455,
+      "validation_mse": 0.00672068755185014
+    },
+    "rounding_matches": true,
+    "value": 0.002418647372482685
+  }
+}

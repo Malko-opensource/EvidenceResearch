@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0fd66-1f13-7030-b405-b895362fcabb"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```SUMMARY\nridge regression cross-validation\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":26849,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":13,"reasoning_output_tokens":0}}

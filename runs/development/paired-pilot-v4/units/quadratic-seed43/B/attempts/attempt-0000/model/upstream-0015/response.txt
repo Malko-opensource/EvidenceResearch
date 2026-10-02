@@ -1,0 +1,48 @@
+```REPLACE
+We consider supervised regression with a scalar input \(x\in\mathbb{R}\) and response \(y\in\mathbb{R}\). The supplied task fixes the training sample \(\mathcal{D}_{\mathrm{tr}}=\{(x_i,y_i)\}_{i=1}^{80}\) and validation sample \(\mathcal{D}_{\mathrm{val}}=\{(x_k^{\mathrm{val}},y_k^{\mathrm{val}})\}_{k=1}^{64}\) using seed 43. These samples have distinct roles: training observations determine fitted coefficients, whereas validation observations assess candidate configurations and inform their selection. Polynomial regression represents a nonlinear relationship in the input through a model that remains linear in its coefficients. For degree \(d\), the mathematical representation is
+\[
+\phi_d(x)=(1,x,x^2,\ldots,x^d)^\top,\qquad
+f_{d,\beta}(x)=\phi_d(x)^\top\beta,
+\qquad \beta\in\mathbb{R}^{d+1}.
+\]
+A degree-one model represents an affine relationship, while degree two permits curvature through a quadratic term. Higher degrees permit additional variation in the fitted function. The polynomial function classes are nested: every polynomial of degree at most \(d\) is also representable at degree \(d+1\) by setting the additional coefficient to zero. This nesting concerns representational capacity, rather than predictive superiority. A more expressive class can accommodate patterns in the training sample that do not persist in other observations. Conversely, a restricted class can exclude structure relevant to prediction. The task permits \(d\in\{1,\ldots,8\}\), but neither this permitted range nor the visible curvature in the observations establishes which degree minimizes validation error. The representation above supplies notation; implementation-specific preprocessing remains fixed by the host.
+
+Ridge regression combines squared-error fitting with a quadratic coefficient penalty. To express the underlying principle without assuming unreported implementation conventions, let \(\Phi_d\) denote a training design matrix and let \(P\) denote a positive semidefinite penalty matrix. A general ridge objective is
+\[
+\widehat{\beta}_{d,\lambda}
+\in\operatorname*{arg\,min}_{\beta}
+\left\{
+\|y-\Phi_d\beta\|_2^2
++\lambda\beta^\top P\beta
+\right\},
+\qquad \lambda\geq 0.
+\]
+When the penalized system is invertible, its solution satisfies
+\[
+\widehat{\beta}_{d,\lambda}
+=(\Phi_d^\top\Phi_d+\lambda P)^{-1}\Phi_d^\top y.
+\]
+Here \(\lambda\) describes the mathematical penalty under a sum-of-squares convention. The experimental parameter \(\alpha\) is the host's regularization control; the supplied evidence does not specify its precise normalization, feature scaling, or intercept-penalty convention. For example, penalizing all coefficients corresponds to \(P=I\), whereas excluding an explicit intercept corresponds to a matrix with zero in the intercept position. These are illustrative conventions, not verified details of the host implementation. Likewise, replacing the residual sum of squares with its average changes the numerical penalty scale required to preserve the same objective. The conclusion available without these details is that \(\alpha=0.0\) removes ridge shrinkage and gives an unregularized polynomial fit. Positive values introduce shrinkage according to the fixed implementation. The supplied synopsis of \emph{Ridge Regression: Structure, Cross-Validation, and Sketching} supports this general description of quadratic penalization and dependence on feature covariance (arXiv 1910.02373v2).
+
+The interaction between polynomial degree and shrinkage follows from the geometry of the design matrix. Powers of the same scalar input need not provide independent or similarly scaled feature directions. Consequently, adding a polynomial term changes both the function class and the covariance structure encountered during estimation. Under the illustrative convention \(P=I\), write the eigendecomposition of the Gram matrix as \(\Phi_d^\top\Phi_d=Q\,\operatorname{diag}(s_1,\ldots,s_p)Q^\top\). On a direction with \(s_j>0\), ridge scales the corresponding ordinary least-squares component by
+\[
+\frac{s_j}{s_j+\lambda}.
+\]
+Directions with smaller \(s_j\) therefore receive greater relative shrinkage at the same \(\lambda\). This identity explains why regularization depends on feature geometry rather than only on the number of coefficients. It also explains why a common numerical penalty across degrees does not guarantee a common effective constraint on predictions. Increasing degree and increasing the penalty can have competing effects: additional terms allow more flexible functions, while shrinkage restricts coefficient estimation within that representation. Their net effect on prediction must be measured. A bias--variance interpretation provides useful conceptual context, but the present evidence does not supply repeated samples from which either component could be estimated. In particular, an unregularized quadratic's aggregate error cannot establish that higher-degree coefficients would fit noise or that shrinkage would introduce harmful bias.
+
+Held-out prediction error supplies the comparison criterion for this task. For a predictor fitted exclusively on \(\mathcal{D}_{\mathrm{tr}}\), validation mean squared error is
+\[
+\widehat{R}_{\mathrm{val}}(d,\alpha)
+=\frac{1}{64}\sum_{k=1}^{64}
+\left[
+y_k^{\mathrm{val}}
+-\widehat f_{d,\alpha}(x_k^{\mathrm{val}})
+\right]^2.
+\]
+Given a set \(\mathcal{C}_{\mathrm{eval}}\) of actually evaluated configurations, selection minimizes this quantity over \(\mathcal{C}_{\mathrm{eval}}\), with exact ties resolved by lower degree and then lower \(\alpha\). This finite-sample criterion differs from population prediction risk,
+\[
+R(\widehat f)=\mathbb{E}_{(X,Y)\sim\mathcal{P}}
+\left[(Y-\widehat f(X))^2\right],
+\]
+where \(\mathcal{P}\) denotes a prospective prediction distribution. Relating validation error to that risk requires assumptions about how the observed samples represent future observations; a fixed seed and split manifest establish data identity, not those statistical assumptions. Furthermore, selecting a configuration using validation error makes the selected score dependent on the selection procedure. Searching more candidates can favor configurations whose validation errors are unusually favorable on that particular sample. Cross-validation addresses related selection questions by rotating fitting and assessment across folds, but the present protocol uses one fixed validation split. The supplied ridge synopsis discusses validation bias in a high-dimensional asymptotic setting; it provides methodological context rather than a numerical correction for this experiment. Independent execution verification establishes the validity of a host record, whereas confidence intervals and generalization claims require additional statistical evidence. These distinctions allow the measured baseline, future candidate comparisons, and withheld test performance to be treated separately.
+```

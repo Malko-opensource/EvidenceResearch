@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "claim_id": "00f91b60b5cc61acabb237b95f713398f70e74f0e0229ea717d25f3962a72077",
+      "context": "      \"url\": \"https://arxiv.org/html/1910.02373v2\"",
+      "end": 49,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 79,
+      "number": "1910.02373v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Bibliographic primary-source identifier; not locally measured empirical evidence.",
+      "start": 37
+    },
+    {
+      "claim_id": "4b092262d85b584c90f164590def2974eaab876487242205c044849a058b26b7",
+      "context": "      \"url\": \"https://arxiv.org/abs/2501.04227v2\"",
+      "end": 48,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 84,
+      "number": "2501.04227v2",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Bibliographic primary-source identifier; not locally measured empirical evidence.",
+      "start": 36
+    },
+    {
+      "claim_id": "ad8d0ef26228e3353a4bd599340f2a9583ea317afc78ebbce5163b10c9252069",
+      "context": "      \"url\": \"https://arxiv.org/abs/2503.18102v1\"",
+      "end": 48,
+      "evidence": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+          "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+        }
+      ],
+      "kind": "literature",
+      "line": 89,
+      "number": "2503.18102v1",
+      "outcome": "classified_nonmeasurement",
+      "reason": "Bibliographic primary-source identifier; not locally measured empirical evidence.",
+      "start": 36
+    },
+    {
+      "claim_id": "393326b3e214ddb4d4097a925fd39ff890fa7c47ff0943fc317fe2df554f7f6c",
+      "context": "  \"stop_reason\": \"model_no_justified_new_experiment: Stop for diminishing expected information gain. The best verified configuration is degree 4, alpha 0.0, with validation_mse 0.007519794976732067. Tested regularization worsened degrees 2–5 and 8; refinements for degrees 6–7 remained worse than the incumbent. Further nearby alpha trials have weak justification relative to their additional evaluation cost. Select the best observed configuration using validation evidence only; global optimality and test performance are unverified.\",",
+      "end": 197,
+      "evidence": [
+        {
+          "independent_value": 0.007519794976732067,
+          "metric": "validation_mse",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed31\\C\\research\\evidence\\9df1350149a267ead308f30a\\result.json",
+          "sha256": "e74200be11fb6f410c7fd531263a50661e9ed8dfdecc62f239d9b52557856029"
+        }
+      ],
+      "kind": "measured",
+      "line": 108,
+      "number": "0.007519794976732067",
+      "outcome": "supported",
+      "reason": "Terminal validation decimal independently recomputed; all observed candidates checked.",
+      "start": 177
+    }
+  ],
+  "report_sha256": "97c1b7d2a6cabbbb58c086bfe3d1c94b39d09b63bcd00efb85149d4de4036c57"
+}

@@ -1,0 +1,223 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+
+\title{Research Report: Polynomial Ridge Regression on Fixed Training and Validation Splits}
+\author{Agent Laboratory}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Abstract}
+Polynomial regression requires choosing model complexity and regularization strength, but a limited validation sample can make these choices sensitive to sampling variation. We specify a preregistered comparison to investigate whether additional polynomial terms or coefficient shrinkage improve prediction beyond an unregularized quadratic on a fixed regression task. The protocol preserves the supplied split of 80 training observations and 64 validation observations, uses the host's polynomial ridge implementation and preprocessing, and selects among successfully evaluated candidates by validation mean squared error (MSE). The planned comparison crosses degrees \(d\in\{1,2,3,8\}\) with penalties \(\alpha\in\{0,0.1,1.0\}\), with exact ties resolved by lower degree and then lower penalty. The supplied execution evidence establishes one distinct evaluated configuration, \(d=2\) and \(\alpha=0.0\). Its independently verified training MSE is \(0.00779644267729052\), and its validation MSE is \(0.007530714510483641\). These measurements provide a reproducible reference result and support retaining this configuration provisionally within the observed candidate set. They do not establish an advantage over linear, cubic, or degree-eight models, nor demonstrate a benefit or disadvantage from positive regularization, because no alternative configuration has supplied performance measurements. The slightly lower validation error is compatible with variation between the fixed splits and does not establish absence of overfitting. The present report therefore contributes a verified quadratic reference and a specified comparison protocol; comparative conclusions remain pending further host measurements. Evaluation is limited to one fixed validation split, uncertainty is unquantified, and hidden test performance is unavailable. Subsequent selection using the same validation observations may introduce optimism into the selected validation error.
+
+\section{Introduction}
+Polynomial regression provides a controlled setting for studying how model complexity and coefficient regularization affect predictive performance. Increasing polynomial degree expands the set of relationships a model can represent, while a positive ridge penalty discourages large fitted coefficients. These choices can have different consequences: additional terms may capture structure omitted by a simpler model, but they may also fit variation specific to the training observations; shrinkage may reduce sensitivity to that variation, but it may introduce bias. Neither increasing degree nor increasing regularization guarantees a reduction in prediction error. This report investigates the question: do additional polynomial terms or positive ridge penalties improve validation performance beyond an unregularized quadratic on the supplied regression task? The study uses the fixed public training and validation observations for task \texttt{dev-quadratic}, version \texttt{polynomial-ridge-1}, with seed \(31\). Its purpose is a bounded empirical comparison rather than the development of a new regression estimator. A small candidate set makes the intended comparisons explicit and allows conclusions to be tied to the measurements actually available.
+
+The difficulty is that polynomial complexity and regularization interact, and their effects must be assessed using observations excluded from fitting. For a scalar input \(x\), a degree-\(d\) polynomial can be expressed as \(f_d(x)=\beta_0+\sum_{j=1}^{d}\beta_jx^j\). The interpretation of a ridge penalty depends on the feature representation, feature scaling, and treatment of the intercept. We therefore use the host's polynomial ridge implementation and preprocessing consistently across candidates, without assuming implementation details absent from the supplied evidence. The frozen synopsis of \emph{Ridge Regression: Structure, Cross-Validation, and Sketching} describes the dependence of ridge estimation on feature covariance and regularization strength and motivates choosing regularization through held-out or cross-validation error (arXiv 1910.02373v2). This literature provides methodological context; it does not identify an optimal degree or penalty for the present observations. Selection is additionally difficult because a finite validation sample provides an imperfect estimate of predictive risk. Repeatedly choosing configurations against that sample can favor candidates whose errors happen to be low on those particular observations.
+
+To address these issues, the proposed protocol fixes the training and validation splits at \(80\) and \(64\) observations, respectively, and preregisters the candidate set \(\mathcal{C}=\{1,2,3,8\}\times\{0.0,0.1,1.0\}\), where each pair specifies degree \(d\) and penalty \(\alpha\). Degree \(1\) provides a simpler comparator, degree \(2\) supplies the reference model, degree \(3\) introduces one additional polynomial term, and degree \(8\) probes a substantially more flexible representation. The three penalty values permit comparisons of shrinkage within each degree and comparisons of degree at matched penalties. Each candidate is fitted using training observations only. For the subset \(\mathcal{E}\subseteq\mathcal{C}\) with successfully reported host evaluations, selection follows
+\[
+(\widehat d,\widehat\alpha)
+\in
+\operatorname*{arg\,min}_{(d,\alpha)\in\mathcal{E}}
+\frac{1}{64}\sum_{i=1}^{64}
+\left(y_i^{\mathrm{val}}-\widehat f_{d,\alpha}(x_i^{\mathrm{val}})\right)^2,
+\]
+with exact ties resolved by lower degree and then lower penalty. Candidate requests follow the specified order and remain subject to the host's resource limits. The contributions are an explicit complexity--regularization comparison protocol, an independently verified quadratic reference measurement, and an evidence-bounded interpretation that distinguishes completed evaluation from proposed comparisons.
+
+The supplied execution record establishes performance for one distinct configuration, \(d=2\) and \(\alpha=0.0\). Execution \texttt{execution-0002}, independently verified as valid, reports training MSE \(0.00779644267729052\) and validation MSE \(0.007530714510483641\). These measurements support retaining the unregularized quadratic provisionally within the observed candidate set. They do not establish that it outperforms any alternative, because no alternative configuration has supplied performance measurements. Although the host records two actual CPU attempts, it records only one distinct configuration, and the other execution's metrics are unavailable; these counts therefore do not establish independent replication. The slightly lower validation MSE is compatible with sampling variation between the fixed splits and does not demonstrate absence of overfitting. No hidden test performance, quantified uncertainty, or baseline improvement is established. The remaining evaluations are necessary to answer whether linear models underfit, additional polynomial terms help, or shrinkage changes the comparison. Even after completing those evaluations, the selected validation error would remain subject to optimism from selection on a single validation split. The present report consequently provides a measured reference point and a reproducible selection protocol while leaving the central comparative hypotheses unresolved.
+
+\section{Background}
+We consider supervised regression with a scalar input \(x\in\mathbb{R}\) and response \(y\in\mathbb{R}\). The supplied observations are partitioned into a training set \(\mathcal{D}_{\mathrm{tr}}=\{(x_i,y_i)\}_{i=1}^{80}\) and a validation set \(\mathcal{D}_{\mathrm{val}}=\{(x_i^{\mathrm{val}},y_i^{\mathrm{val}})\}_{i=1}^{64}\). Their assignments are fixed for task \texttt{dev-quadratic}, version \texttt{polynomial-ridge-1}, with seed \(31\). Training observations determine fitted coefficients, while validation observations assess candidate predictions and support parameter selection. A polynomial predictor of degree at most \(d\) has the representation
+\[
+f_d(x)=\beta_0+\sum_{j=1}^{d}\beta_jx^j
+      =\boldsymbol{\phi}_d(x)^{\mathsf T}\boldsymbol{\beta},
+\qquad
+\boldsymbol{\phi}_d(x)=(1,x,\ldots,x^d)^{\mathsf T}.
+\]
+This representation is nonlinear in the input but linear in its coefficients. In raw polynomial coordinates, degree \(d\) permits \(d+1\) coefficients, including an intercept. The polynomial function classes are nested: every degree-two predictor can also be represented in a higher-degree class by setting its additional coefficients to zero. Consequently, under exact unregularized least-squares minimization over these classes, increasing degree cannot increase the minimum training squared error. This property concerns fitting the observed training responses; it provides no corresponding guarantee for validation error. Neither the task identifier nor the choice of a quadratic reference establishes that the unknown regression function is exactly quadratic.
+
+Ridge regression supplements squared-error fitting with a quadratic coefficient penalty. To describe the statistical principle without assuming undocumented host conventions, let \(Z_d\) denote the training design matrix after the implementation's feature construction and preprocessing. A general ridge objective can be written as
+\[
+\widehat{\boldsymbol{\theta}}_{d,\lambda}
+\in\operatorname*{arg\,min}_{\boldsymbol{\theta}}
+\left\{
+\| \boldsymbol{y}-Z_d\boldsymbol{\theta}\|_2^2
++\lambda\boldsymbol{\theta}^{\mathsf T}P_d\boldsymbol{\theta}
+\right\},
+\]
+where \(P_d\) is a positive semidefinite penalty matrix and \(\lambda\geq0\) is the penalty weight in this mathematical convention. For an identity penalty, all represented coefficients are penalized; an unpenalized intercept instead requires a zero penalty in its corresponding coordinate. When the relevant matrix is invertible, the solution satisfies
+\[
+\widehat{\boldsymbol{\theta}}_{d,\lambda}
+=
+\left(Z_d^{\mathsf T}Z_d+\lambda P_d\right)^{-1}
+Z_d^{\mathsf T}\boldsymbol{y}.
+\]
+This expression displays the dependence on both feature covariance and regularization. Normalizing the residual sum of squares by the training sample size changes the numerical relationship between the penalty weight and the fitted solution. Accordingly, \(\lambda\) here explains the general estimator, while \(\alpha\) denotes the parameter passed to the host; their precise relationship depends on the host's objective convention. The supplied frozen synopsis of \emph{Ridge Regression: Structure, Cross-Validation, and Sketching} supports this covariance-based account and the use of validation for regularization selection (arXiv 1910.02373v2). It does not specify the present host's scaling or intercept treatment.
+
+Polynomial degree and coefficient shrinkage address different aspects of estimation. Increasing degree expands representational capacity, potentially reducing approximation error when a lower-degree class omits relevant structure. It also introduces coefficients whose estimation may be sensitive to training variation. Polynomial columns can be strongly correlated, and their magnitudes depend on the input range and preprocessing. A positive ridge penalty can stabilize coefficient estimation by discouraging large coefficients, while introducing bias through shrinkage. These mechanisms explain why additional terms and regularization must be considered jointly. In particular, the same numerical \(\alpha\) across two degrees does not necessarily impose the same effective restriction on their fitted predictors, because their design matrices differ. For illustration, under an identity penalty in fixed design coordinates, the coefficient response along an eigenvector of \(Z_d^{\mathsf T}Z_d\) with eigenvalue \(s>0\) is multiplied, relative to unregularized fitting, by
+\[
+\frac{s}{s+\lambda}.
+\]
+Directions with smaller eigenvalues receive greater relative shrinkage. This is a mathematical property of the stated convention, rather than a measured description of the host's fitted coefficients. It motivates maintaining common host preprocessing across candidates and interpreting matched-\(\alpha\) comparisons as comparisons under a shared parameter value, rather than as controls for identical effective complexity.
+
+Predictive assessment uses mean squared error on observations excluded from coefficient fitting:
+\[
+\widehat R_{\mathrm{val}}(d,\alpha)
+=
+\frac{1}{64}
+\sum_{i=1}^{64}
+\left[
+y_i^{\mathrm{val}}
+-\widehat f_{d,\alpha}(x_i^{\mathrm{val}})
+\right]^2.
+\]
+The intended target is prediction risk on new observations from an appropriate population, whereas this quantity is an empirical error on one fixed validation sample. Interpreting it as an estimate of population risk requires assumptions about how the supplied observations represent that population; the split manifest alone does not establish those assumptions. Held-out validation and cross-validation both separate fitting from assessment, but the present protocol uses only the supplied partition. Selection is restricted to successfully measured members of \(\mathcal{C}=\{1,2,3,8\}\times\{0.0,0.1,1.0\}\), with exact ties resolved by lower degree and then lower \(\alpha\). Once validation responses influence this choice, the reported minimum also reflects selection and can be optimistic as an estimate of future prediction error. Its magnitude does not supply a confidence interval, demonstrate statistical significance, or establish performance on the withheld test observations. These distinctions are necessary for interpreting the available quadratic measurement and for assessing the proposed comparisons when additional host results become available.
+
+\section{Related Work}
+\emph{Ridge Regression: Structure, Cross-Validation, and Sketching} provides the closest methodological reference for the present study (arXiv 1910.02373v2). The supplied frozen synopsis describes squared-error estimation with a quadratic coefficient penalty, the dependence of the fitted solution on feature covariance and regularization strength, and selection of regularization through held-out or cross-validation error. Our proposed comparison uses these same principles but applies them to a bounded polynomial regression task. In particular, polynomial degree determines the feature representation, while the ridge parameter controls coefficient shrinkage within that representation. The planned candidate set,
+\[
+\mathcal{C}=\{1,2,3,8\}\times\{0.0,0.1,1.0\},
+\]
+therefore examines both representation complexity and regularization strength. Comparing penalties within a degree addresses shrinkage for a fixed representation; comparing degrees at a matched penalty addresses changes in representation under a common numerical penalty. However, equal penalty values need not imply equal effective regularization across degrees, because the feature covariance changes when polynomial terms are added. The cited work motivates this distinction but does not establish which candidate minimizes validation error on our observations. Our contribution is an application of established ridge-selection principles to a specified empirical comparison, rather than a new estimator or a theoretical characterization of optimal polynomial degree.
+
+The evaluation setting also differs from the high-dimensional asymptotic regime discussed in the supplied ridge synopsis. Our task contains \(80\) training observations, \(64\) validation observations, and candidate polynomial degrees no greater than \(8\). These dimensions do not by themselves justify applying asymptotic conclusions to the observed errors. Furthermore, our protocol preserves one fixed training--validation partition rather than carrying out repeated or multiple-fold cross-validation. Both procedures use observations excluded from a particular fit to assess prediction, but they obtain their estimates from different arrangements of fitting and evaluation data. Cross-validation is methodologically relevant; additional partitions are outside the specified experiment. The source's analysis of validation bias motivates caution about interpreting a selected validation minimum, but it supplies neither a task-specific bias correction nor an uncertainty estimate for our results. Its discussion of sketching concerns an additional computational approach that is outside the permitted degree-and-penalty configuration interface. Consequently, we make no comparison of approximation accuracy or computational efficiency. The applicable empirical comparisons are the preregistered polynomial ridge candidates, whose conclusions require actual host measurements.
+
+\emph{Agent Laboratory: Using LLM Agents as Research Assistants} is relevant to the organization of the research process rather than to polynomial regression itself (arXiv 2501.04227v2). According to the supplied summary, specialized agents undertake literature review, planning, code experimentation, interpretation, and reporting. The present report similarly distinguishes a literature-based motivation, a proposed experiment, execution evidence, and interpretation. Its operational setting is narrower: the trusted host executes permitted literal configurations, while reporting uses the supplied execution record. This distinction matters because a plausible experimental narrative does not constitute evidence that a candidate was evaluated. The available record supports one distinct configuration, \(d=2\) and \(\alpha=0.0\), with training MSE \(0.00779644267729052\) and validation MSE \(0.007530714510483641\). Neither the workflow described by Agent Laboratory nor our use of a structured reporting process establishes that additional candidates were completed. Agent Laboratory is therefore a contextual reference for research assistance, not a predictive baseline, and the present evidence cannot support claims about relative research productivity, reliability, or cost.
+
+\emph{AgentRxiv: Towards Collaborative Autonomous Research} describes agent laboratories sharing and retrieving prior reports through a local preprint server and similarity-based retrieval, according to the supplied summary (arXiv 2503.18102v1). Such retrieval can inform experimental planning by making prior questions and reported findings available, but relevance to a query does not establish comparability of datasets, preprocessing, or evaluation protocols. Our literature input is a fixed supplied corpus; no retrieval system or collaborative research mechanism is evaluated. AgentRxiv consequently addresses the circulation of research reports, whereas our empirical question concerns prediction under polynomial complexity and shrinkage. These references serve different roles: the ridge paper supplies statistical motivation, Agent Laboratory supplies workflow context, and AgentRxiv supplies context for report sharing. All three descriptions are limited to the supplied summaries or synopsis. None provides numerical evidence that the measured quadratic outperforms an alternative on this task. Establishing such an advantage requires the remaining host evaluations under the fixed comparison protocol.
+
+\section{Methods}
+We specify a controlled comparison of polynomial degree and ridge regularization using the fixed training set \(\mathcal{D}_{\mathrm{tr}}\) of \(80\) observations and validation set \(\mathcal{D}_{\mathrm{val}}\) of \(64\) observations. Their supplied assignments are preserved throughout the protocol. For each candidate \(c=(d,\alpha)\), the trusted host constructs and fits a polynomial ridge predictor using its existing implementation and preprocessing. In the notation introduced in the Background, the resulting predictor is denoted by \(\widehat f_{d,\alpha}\). Its raw polynomial representation is \(f_d(x)=\beta_0+\sum_{j=1}^{d}\beta_jx^j\), although the coordinates used for fitting depend on host preprocessing. The general estimation principle is
+\[
+\widehat{\boldsymbol{\theta}}_{d,\alpha}
+\in
+\operatorname*{arg\,min}_{\boldsymbol{\theta}}
+\left\{
+\left\|\boldsymbol{y}-Z_d\boldsymbol{\theta}\right\|_2^2
++
+\lambda_{\mathrm{host}}(\alpha)
+\boldsymbol{\theta}^{\mathsf T}P_d\boldsymbol{\theta}
+\right\},
+\]
+where \(Z_d\) represents the training features, \(P_d\) represents the host's coefficient-penalty convention, and \(\lambda_{\mathrm{host}}(\alpha)\) expresses the submitted parameter in the residual-sum-of-squares convention. This equation describes ridge estimation without asserting an undocumented normalization, feature scaling, or intercept treatment. Those implementation details are not recoverable from the supplied aggregate execution record and are not additional experimental choices. Coefficients are fitted using training observations only; validation responses are reserved for assessing and selecting configurations. No additional preprocessing, external observations, alternative partitioning, or test-set evaluation is introduced. The supplied synopsis of \emph{Ridge Regression: Structure, Cross-Validation, and Sketching} motivates this separation between fitting and regularization selection and the dependence of ridge estimation on feature covariance (arXiv 1910.02373v2). It provides methodological support rather than task-specific performance evidence.
+
+The preregistered candidate set is
+\[
+\mathcal{C}
+=
+\{1,2,3,8\}\times\{0.0,0.1,1.0\},
+\qquad |\mathcal{C}|=12.
+\]
+Degree \(2\) with zero penalty is the reference configuration. Degree \(1\) provides a restricted representation with which to assess whether quadratic flexibility improves prediction. Degree \(3\) adds one polynomial term beyond the reference, while degree \(8\) examines a substantially larger polynomial class. The positive penalties assess whether coefficient shrinkage changes validation performance within these representations. These choices specify comparisons; they do not presuppose that the linear candidate underfits, that higher degrees overfit, or that regularization improves prediction. Candidate requests follow the fixed sequence
+\[
+\begin{aligned}
+&(2,0.0),\ (2,0.1),\ (2,1.0),\\
+&(1,0.0),\ (3,0.0),\ (8,0.0),\\
+&(1,0.1),\ (3,0.1),\ (8,0.1),\\
+&(1,1.0),\ (3,1.0),\ (8,1.0).
+\end{aligned}
+\]
+The ordering establishes the quadratic reference before the remaining degree comparisons and makes a resource-limited prefix of the experiment identifiable. Each requested execution contains one literal configuration assignment specifying only degree and penalty. Training and evaluation are performed by the trusted host rather than by the reporting model. Requests remain subject to both the host's model-request budget and actual CPU-attempt budget, and the protocol stops when a relevant limit is reached. The supplied receipt reports \(2\) actual CPU attempts against a limit of \(51\), leaving \(49\) CPU executions, but this does not establish the remaining model-request allowance or completion of the other candidates. Cached replay is not counted as an additional CPU attempt. Execution counts and distinct-configuration counts are recorded separately because repeated invocations of one configuration do not extend the candidate comparison.
+
+For each successfully evaluated candidate, the protocol records the host-reported training and validation errors:
+\[
+\widehat R_{\mathrm{tr}}(d,\alpha)
+=
+\frac{1}{80}\sum_{i=1}^{80}
+\left[y_i-\widehat f_{d,\alpha}(x_i)\right]^2,
+\qquad
+\widehat R_{\mathrm{val}}(d,\alpha)
+=
+\frac{1}{64}\sum_{i=1}^{64}
+\left[y_i^{\mathrm{val}}
+-\widehat f_{d,\alpha}(x_i^{\mathrm{val}})\right]^2.
+\]
+Training error characterizes fit to the observations used for estimation; validation error is the sole selection criterion. Let \(\mathcal{E}\subseteq\mathcal{C}\) contain the distinct configurations with successfully reported host measurements available to the report. Selection is defined by lexicographic minimization:
+\[
+(\widehat d,\widehat\alpha)
+=
+\operatorname*{arg\,min}^{\mathrm{lex}}_{(d,\alpha)\in\mathcal{E}}
+\left(
+\widehat R_{\mathrm{val}}(d,\alpha),\,d,\,\alpha
+\right).
+\]
+Thus the lowest validation MSE determines the selected configuration, exact ties favor lower degree, and any remaining exact tie favors lower penalty. Display rounding does not define a tie. This rule selects within the measured subset, which can be smaller than the planned grid; it makes no claim about unevaluated configurations or the full permitted parameter space. In the supplied evidence, \(\mathcal{E}=\{(2,0.0)\}\). Execution \texttt{execution-0002}, independently verified as valid, reports training MSE \(0.00779644267729052\) and validation MSE \(0.007530714510483641\). Consequently, \((2,0.0)\) is retained provisionally as the sole measured candidate. The host's report of one distinct configuration and two CPU attempts does not establish independent replication, since metrics for the other invocation are not supplied.
+
+The planned analysis separates changes in representation from changes in penalty using descriptive validation-error differences. For each measured pair consisting of a candidate degree and the quadratic at a common penalty, define
+\[
+\Delta_{\mathrm{degree}}(d;\alpha)
+=
+\widehat R_{\mathrm{val}}(d,\alpha)
+-
+\widehat R_{\mathrm{val}}(2,\alpha),
+\qquad d\in\{1,3,8\}.
+\]
+For each measured pair within a degree, define
+\[
+\Delta_{\mathrm{penalty}}(\alpha;d)
+=
+\widehat R_{\mathrm{val}}(d,\alpha)
+-
+\widehat R_{\mathrm{val}}(d,0.0),
+\qquad \alpha\in\{0.1,1.0\}.
+\]
+A negative difference indicates lower observed validation error for the first configuration in the stated contrast. Equal numerical penalties across degrees are interpreted under the common host interface; they do not guarantee identical effective shrinkage because the feature matrices differ. Each contrast requires measurements for both participating configurations. None of these comparative differences can currently be reported from the supplied singleton evaluated set. Missing measurements are left unavailable rather than inferred from polynomial nesting, training error, the task identifier, or literature. The analysis does not calculate confidence intervals or significance tests from aggregate MSE values alone. Finally, preservation of the validation split ensures consistent comparisons but does not remove selection bias: once its responses determine the chosen configuration, the minimum validation error can be optimistic as an estimate of future prediction risk. The protocol therefore distinguishes the measured reference error, the provisional selection, and the unresolved comparative questions, with hidden test performance remaining unavailable.
+
+\section{Experimental Setup}
+The experimental setting is the supplied scalar regression task \texttt{dev-quadratic}, task version \texttt{polynomial-ridge-1}, with seed \(31\). Each public observation contains an identifier, a real-valued input \(x\), and a real-valued response \(y\). The host supplies \(80\) training observations and \(64\) validation observations, and the experiment preserves these assignments. The split manifest describes generation using \texttt{random.Random} from the Python standard library, with generation proceeding in training, validation, and test order. This information identifies the declared generation procedure but does not establish the response-generating function, noise distribution, or independence assumptions. The manifest also records \(96\) withheld test observations; their inputs and responses are unavailable for fitting, selection, or reporting. Split-specific SHA-256 digests identify the supplied data and observation identifiers. These digests are provenance information supplied by the host, rather than checks independently recomputed for this report. Training observations are used to estimate model coefficients, and validation observations are used to assess configurations under the fixed selection rule. The protocol introduces no new observations, transformations chosen outside the host implementation, randomized repartitioning, or augmentation. Consequently, comparisons would concern prediction on the same \(64\) validation observations after fitting on the same \(80\) training observations. This consistency avoids differences caused by assigning different evaluation samples to different candidates. It does not establish that the fixed validation observations represent every deployment population. Neither the task name nor the visible curvature of individual observations is treated as evidence that a quadratic is the true regression function. The experimental question is whether the specified changes in degree and penalty lower the measured validation error under this particular data partition.
+
+The trusted host performs polynomial feature construction, preprocessing, coefficient estimation, and evaluation. The configurable interface exposes only polynomial degree \(d\), restricted to integers from \(1\) through \(8\), and penalty \(\alpha\), restricted to finite values from \(0\) through \(100\). The preregistered comparison uses the smaller set \(\mathcal{C}=\{1,2,3,8\}\times\{0.0,0.1,1.0\}\), comprising twelve distinct configurations. The quadratic with \(\alpha=0.0\) is the reference. Degree \(1\) supplies a simpler comparator, degree \(3\) adds one polynomial term, and degree \(8\) probes a larger representation. The two positive penalties assess shrinkage within each representation. Each execution request contains one literal configuration assignment; arbitrary programs and additional implementation choices are outside the interface. The fixed request order is
+\[
+\begin{aligned}
+&(2,0.0),\ (2,0.1),\ (2,1.0),\\
+&(1,0.0),\ (3,0.0),\ (8,0.0),\\
+&(1,0.1),\ (3,0.1),\ (8,0.1),\\
+&(1,1.0),\ (3,1.0),\ (8,1.0).
+\end{aligned}
+\]
+This sequence specifies the intended experiment; its inclusion does not imply that all twelve requests were executed. Host preprocessing is held common as an implementation procedure across candidates. Its feature-scaling convention, intercept treatment, numerical solver, and mapping from the submitted penalty to the fitting objective are not established by the supplied aggregate receipt. We therefore describe positive \(\alpha\) as the host's regularization parameter without assigning it an undocumented objective normalization. Equal numerical penalties across degrees permit comparisons under the same interface value, although their effective shrinkage can differ because the feature matrices differ. The receipt lists source, model, prediction, specification, and split artifacts. Those listings identify supporting records but do not establish their contents beyond the evidence supplied here. No hardware specification, library version, execution duration, memory measurement, or monetary cost is supplied.
+
+Evaluation uses unpenalized mean squared prediction error on each supplied split. For a host-fitted predictor \(\widehat f_{d,\alpha}\), the recorded quantities are
+\[
+\widehat R_{\mathrm{tr}}(d,\alpha)
+=\frac{1}{80}\sum_{i=1}^{80}
+\left[y_i-\widehat f_{d,\alpha}(x_i)\right]^2,
+\qquad
+\widehat R_{\mathrm{val}}(d,\alpha)
+=\frac{1}{64}\sum_{i=1}^{64}
+\left[y_i^{\mathrm{val}}-\widehat f_{d,\alpha}(x_i^{\mathrm{val}})\right]^2.
+\]
+These metrics summarize residual prediction error and are distinct from any coefficient penalty used during fitting. Validation MSE is the sole selection criterion; training MSE documents fit to the estimation sample. Selection is restricted to distinct configurations with successfully reported measurements, with exact ties resolved by lower degree and then lower penalty. Rounded display values do not define an exact tie. For planned degree comparisons, both the candidate and quadratic must have measurements at the same \(\alpha\). For planned penalty comparisons, the positive-penalty candidate and its zero-penalty counterpart must both have measurements at the same degree. A missing measurement remains unavailable and is neither replaced by zero nor inferred from training error. Using common validation observations permits descriptive comparisons of aggregate errors, but it does not supply uncertainty estimates. In particular, aggregate MSE values do not reveal the dispersion of observation-level squared errors or their paired differences between predictors. The experiment therefore specifies no confidence interval, significance threshold, or statistical test based solely on those aggregates. The protocol also provides no repeated-split evaluation, bootstrap analysis, or additional cross-validation experiment. Such procedures would require evidence beyond the supplied execution record. A completed candidate grid would support ranking within that grid, while the broader permitted degree-and-penalty space would remain unsearched. Any selected validation minimum would additionally require cautious interpretation because validation responses influence the selection itself.
+
+The available execution evidence defines the completed portion of this setup. The supplied literal assignment specifies \(d=2\) and \(\alpha=0.0\). Its receipt identifies \texttt{execution-0002} as an actual CPU execution, reports independent verification as \texttt{valid}, and records test access as \texttt{withheld}. The corresponding measurements are
+\[
+\begin{array}{c c c c}
+\hline
+d & \alpha & \text{Training MSE} & \text{Validation MSE}\\
+\hline
+2 & 0.0 & 0.00779644267729052 & 0.007530714510483641\\
+\hline
+\end{array}
+\]
+These are host-reported measurements rather than values estimated from the literature or recomputed for this report. The receipt records two actual CPU attempts, one distinct configuration, an actual CPU execution limit of \(51\), and \(49\) remaining CPU executions at the time of that record. It also lists a receipt for \texttt{execution-0000}, whose performance metrics are not supplied. Accordingly, the attempt count does not provide two available performance observations or establish independent replication. Cached replay does not increment the actual CPU-attempt count. The remaining CPU allowance is a resource observation, not evidence of additional completed candidates, and the remaining model-request allowance is unspecified. The intended experiment stops when either applicable host limit is reached. With the currently supplied measurements, the evaluated set is \(\mathcal{E}=\{(2,0.0)\}\), so the selection rule retains the quadratic provisionally. The other eleven planned configurations lack reported metrics. Their absence prevents the matched-degree and matched-penalty comparisons from being completed. Verification supports the validity of the named execution under the host's checks; it does not establish a comparative advantage, quantify population uncertainty, or provide hidden test performance.
+
+\section{Results}
+Execution \texttt{execution-0002}, independently verified as valid, evaluated polynomial degree \(d=2\) with penalty \(\alpha=0.0\). The host reported training MSE \(0.00779644267729052\) on \(80\) observations and validation MSE \(0.007530714510483641\) on \(64\) observations. These are the only supplied performance measurements. Validation error was slightly below training error, which is compatible with sampling variation between splits; this ordering does not demonstrate absence of overfitting or establish population prediction risk.
+
+The measured candidate set is \(\mathcal{E}=\{(2,0.0)\}\), so the preregistered selection rule provisionally retains this configuration without invoking either tie breaker. The remaining eleven planned configurations have no reported metrics. Consequently, no comparison against linear, cubic, or degree-eight baselines is available, and no regularization ablation can be evaluated. The protocol requires common training observations, validation observations, and host preprocessing for subsequent comparisons. Matched numerical penalties would nevertheless not guarantee identical effective shrinkage across degrees.
+
+The host records two actual CPU attempts but only one distinct configuration. Metrics for the other invocation are unavailable, so these counts do not establish independent replication. Aggregate errors alone provide neither confidence intervals nor significance tests. Hidden test performance remains withheld. The reported quadratic error therefore serves as a reference measurement; comparative improvement, optimality beyond the measured set, and the effects of polynomial complexity and shrinkage remain unresolved.
+
+\section{Discussion}
+The study specifies a preregistered comparison of polynomial complexity and ridge regularization on fixed splits of \(80\) training observations and \(64\) validation observations. The completed empirical contribution is limited to the unregularized quadratic reference. For \(d=2\) and \(\alpha=0.0\), the independently verified host execution reports training MSE \(0.00779644267729052\) and validation MSE \(0.007530714510483641\). The selection rule therefore retains this configuration provisionally within the singleton measured set \(\mathcal{E}=\{(2,0.0)\}\). This decision does not establish that quadratic regression is preferable to the other planned representations or that regularization is unnecessary. The supplied ridge synopsis motivates validation-based selection and the dependence of shrinkage on feature covariance (arXiv 1910.02373v2), but it provides no task-specific optimal parameters. The report supplies a verified reference measurement and an explicit comparison protocol rather than a completed assessment of complexity and regularization.
+
+Several limitations constrain interpretation. Validation MSE is slightly lower than training MSE, an ordering compatible with sampling variation between the supplied splits. It does not demonstrate absence of overfitting, identify the response-generating function, or quantify prediction risk on future observations. The two recorded CPU attempts concern only one distinct configuration, and the other invocation has no supplied metrics; consequently, the record does not establish independent replication. Aggregate MSE values alone are insufficient to estimate uncertainty in paired candidate differences or support significance claims. Furthermore, feature scaling, intercept treatment, and objective normalization are not established by the supplied receipt, limiting interpretation of the numerical penalty beyond the host interface. Selection on one validation split can produce an optimistic validation minimum once alternatives are compared. The magnitude of that optimism is unmeasured, and hidden test performance remains unavailable.
+
+The immediate next step is for the trusted host to evaluate the remaining eleven preregistered candidates in the specified order, subject to both applicable resource limits. These proposed evaluations would permit degree comparisons at matched penalties and penalty comparisons within each degree. Any resulting ranking should remain restricted to successfully measured candidates, with exact ties resolved by lower degree and then lower penalty. If a higher-degree candidate lowers validation error, that finding would document an observed advantage on this split without establishing a universally preferable representation. If positive penalties lower error, the evidence would support shrinkage only for the measured degree and parameter values. Conversely, failure to improve would not exclude benefits from untested penalties or degrees. Separately preregistered future studies could assess selection stability across independent datasets or evaluation partitions; such studies are outside the present protocol and have not been performed. The central comparative questions therefore remain open until additional host measurements become available.
+
+\end{document}

@@ -1,0 +1,63 @@
+```REPLACE
+We consider supervised regression with scalar inputs \(x\in\mathbb{R}\) and responses \(y\in\mathbb{R}\). Let \(\mathcal{D}_{\mathrm{tr}}=\{(x_i^{\mathrm{tr}},y_i^{\mathrm{tr}})\}_{i=1}^{80}\) denote the supplied training observations and \(\mathcal{D}_{\mathrm{val}}=\{(x_i^{\mathrm{val}},y_i^{\mathrm{val}})\}_{i=1}^{64}\) denote the fixed validation observations. These splits belong to task \texttt{dev-linear}, version \texttt{polynomial-ridge-1}, with seed \(11\). Polynomial regression represents an input through the feature vector \(\phi_d(x)=(x,x^2,\ldots,x^d)^\top\), yielding the predictor
+\[
+f_{d}(x;b,\boldsymbol{\beta})
+=
+b+\phi_d(x)^\top\boldsymbol{\beta},
+\qquad
+\boldsymbol{\beta}\in\mathbb{R}^{d}.
+\]
+The permitted degree satisfies \(d\in\{1,\ldots,8\}\). A degree-one predictor is affine in the input, whereas higher degrees introduce curvature through additional powers of \(x\). Although these predictors can be nonlinear functions of the input, their dependence on the fitted coefficients remains linear. The corresponding unregularized function classes are nested: every degree-\(d\) polynomial is also representable at degree \(d+1\) by setting the additional coefficient to zero. Consequently, increasing degree cannot increase the minimum attainable unpenalized training squared error when the same intercept convention is used and optimization is exact. This representational property does not imply decreasing validation error. Additional coefficients must be estimated from a finite training sample, and their estimation can introduce variation without providing useful predictive structure. The supplied observations motivate examining a simple affine model, but neither the task identifier nor qualitative inspection establishes that the underlying response function is linear. No particular noise distribution or known data-generating regression function is assumed in the empirical interpretation.
+
+Ridge regression supplements squared-error fitting with a quadratic penalty on coefficients. Under a conventional formulation with an unpenalized intercept and a summed training loss, the estimator is
+\[
+(\widehat b,\widehat{\boldsymbol{\beta}})
+\in
+\operatorname*{arg\,min}_{b,\boldsymbol{\beta}}
+\left\{
+\sum_{i=1}^{80}
+\left(y_i^{\mathrm{tr}}-b-\phi_d(x_i^{\mathrm{tr}})^\top
+\boldsymbol{\beta}\right)^2
++
+\lambda\|\boldsymbol{\beta}\|_2^2
+\right\}.
+\]
+Here \(\lambda\geq0\) denotes the penalty in this mathematical convention. The experimental interface instead specifies the host parameter \(\alpha\in[0,100]\); its exact correspondence to \(\lambda\) depends on the host's loss normalization and intercept treatment. For example, replacing the summed loss with its average changes the relative penalty strength unless the penalty parameter is rescaled accordingly. These conventions are therefore relevant to reproducing a numerical setting such as \(\alpha=0.1\). The displayed objective introduces the standard ridge principle and does not independently establish the host's implementation details. For centered training features and responses under this conventional objective, let \(Z_d\in\mathbb{R}^{80\times d}\) be the centered feature matrix and \(\boldsymbol{y}_c\in\mathbb{R}^{80}\) the centered response vector. When \(\lambda>0\), the coefficient solution is
+\[
+\widehat{\boldsymbol{\beta}}
+=
+\left(Z_d^\top Z_d+\lambda I_d\right)^{-1}
+Z_d^\top\boldsymbol{y}_c.
+\]
+The penalty makes this coefficient system invertible even when feature columns are linearly dependent. At \(\lambda=0\), the objective reduces to ordinary least squares, for which coefficient uniqueness requires appropriate rank conditions. These statements describe estimator properties rather than measurements from the reported execution.
+
+The effect of regularization depends on the geometry of the feature representation. Writing a singular value decomposition as \(Z_d=U S V^\top\), ridge estimation weights the response along each represented feature direction by \(s_k/(s_k^2+\lambda)\), where \(s_k\) is the corresponding singular value. Equivalently, the fitted centered responses have the form
+\[
+\widehat{\boldsymbol{y}}_c
+=
+H_\lambda\boldsymbol{y}_c,
+\qquad
+H_\lambda
+=
+Z_d\left(Z_d^\top Z_d+\lambda I_d\right)^{-1}Z_d^\top,
+\qquad
+\operatorname{tr}(H_\lambda)
+=
+\sum_k\frac{s_k^2}{s_k^2+\lambda}.
+\]
+The trace gives a conventional measure of the effective degrees of freedom of the penalized feature fit, excluding the unpenalized intercept. Increasing the penalty reduces this quantity for a fixed feature matrix. Increasing polynomial degree changes the matrix itself, so complexity cannot be characterized by the penalty parameter alone. Polynomial columns can also be strongly correlated, particularly when successive powers have similar behavior over the observed input range. Ridge penalization can reduce sensitivity along poorly determined directions, while simultaneously introducing shrinkage bias. Moreover, the Euclidean coefficient penalty is sensitive to feature scaling: rescaling a polynomial column changes the penalty associated with an equivalent prediction function. These considerations explain why degree and regularization should be studied jointly under a fixed fitting procedure. The supplied synopsis of \emph{Ridge Regression: Structure, Cross-Validation, and Sketching} provides relevant context for covariance-dependent ridge estimation and validation-based regularization selection (arXiv 1910.02373v2). Its discussion of high-dimensional validation bias does not supply a quantitative prediction for this small polynomial task, and no singular values, effective degrees of freedom, or conditioning measurements are available from the supplied aggregate execution metrics.
+
+Predictive assessment uses mean squared error on observations excluded from coefficient fitting. For a candidate fitted on \(\mathcal{D}_{\mathrm{tr}}\), define
+\[
+\widehat R_{\mathrm{val}}(d,\alpha)
+=
+\frac{1}{64}
+\sum_{i=1}^{64}
+\left(
+y_i^{\mathrm{val}}
+-
+\widehat f_{d,\alpha}(x_i^{\mathrm{val}})
+\right)^2.
+\]
+This empirical quantity is distinct from the population risk \(R(\widehat f)=\mathbb{E}_{(X,Y)\sim P}[(Y-\widehat f(X))^2]\), where \(P\) denotes an underlying distribution if such a sampling model is adopted. Relating the two requires assumptions about sampling and distributional agreement that are not established by the aggregate metrics. Training MSE is additionally affected by using the same observations to estimate coefficients; a positive validation--training gap therefore does not, by itself, diagnose excessive model complexity. If a finite candidate set \(\mathcal C\) is evaluated, validation-based selection chooses a member minimizing \(\widehat R_{\mathrm{val}}\) within that set. Such a choice need not minimize population risk or attain the best validation error over every permitted degree and real-valued regularization strength. Repeated adaptive use of the same validation split can also favor candidates whose errors happen to be low on those particular observations. The present record contains only one distinct evaluated configuration, \(d=1\) and \(\alpha=0.1\), so it supplies no empirical ordering of alternative candidates. The withheld test split contains \(96\) observations according to the manifest, but its predictive error is unmeasured. These distinctions define the scope of the study: the verified execution characterizes a fitted candidate on one fixed training and validation split, while comparisons across configurations and conclusions about independent generalization require additional evidence.
+```

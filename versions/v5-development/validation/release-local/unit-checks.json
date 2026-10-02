@@ -1,0 +1,28 @@
+{
+  "phase": "unit-checks",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development",
+  "exit_code": 0,
+  "seconds": 21.18699999997625,
+  "logs": [
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\validation\\release-local\\unit-checks.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\validation\\release-local\\unit-checks.stderr.log",
+      "sha256": "da1d31d6221299ec452f8e389e5d407594d51794399a0a919910cf2e99256bf7"
+    }
+  ]
+}

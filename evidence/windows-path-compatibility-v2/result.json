@@ -1,0 +1,890 @@
+{
+  "kind": "source_based_windows_path_and_actual_isolated_storage_audit",
+  "source_manifest_sha256": "1f31391e7f154b1facfe9ef477d9a1a100532dde7cd5dc3141df1b2588712584",
+  "registered_unit_longest": "quadratic-seed179",
+  "platform": "nt",
+  "model_calls": 0,
+  "planned_outputs_touched": false,
+  "full_cli_resume_executed": false,
+  "assumptions": {
+    "maximum_pid_digits": 10,
+    "stage_time_ns_digits": 19,
+    "ordinal_digits": 8,
+    "attempt_digits": 4,
+    "scope": "Current777 request/CPU resource configuration and fixed task identifiers; arbitrary future task IDs, future epoch lengths and many new study copies need their own audit."
+  },
+  "summaries": [
+    {
+      "variant": "planned long release output",
+      "current_path_max_characters": 269,
+      "largest_categories": [
+        "B checkpoint staged cursor atomic temporary",
+        "B checkpoint committed manifest atomic temporary"
+      ],
+      "failed_storage_probes": [
+        "B checkpoint staged cursor atomic temporary",
+        "B checkpoint committed manifest atomic temporary"
+      ],
+      "historical_nested_copy_characters": 297
+    },
+    {
+      "variant": "planned short release output",
+      "current_path_max_characters": 239,
+      "largest_categories": [
+        "B checkpoint staged cursor atomic temporary",
+        "B checkpoint committed manifest atomic temporary"
+      ],
+      "failed_storage_probes": [],
+      "historical_nested_copy_characters": 267
+    }
+  ],
+  "calculated_paths": [
+    {
+      "variant": "planned long release output",
+      "category": "B checkpoint staged cursor atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\.stage-00001554-9999999999999999999\\cursor.json.9999999999.tmp",
+      "characters": 269,
+      "individual_component_max": 35,
+      "under_260_character_legacy_limit": false,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B checkpoint committed manifest atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\00001554-ffffffffffffffffffffffff\\manifest.json.9999999999.tmp",
+      "characters": 269,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": false,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B checkpoint head atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoint_head.json.9999999999.tmp",
+      "characters": 230,
+      "individual_component_max": 45,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B tool reply atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\tool-replies\\00000776-ffffffffffff.json.9999999999.tmp",
+      "characters": 242,
+      "individual_component_max": 41,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B CPU source copy",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\source\\evidence_research\\__init__.py",
+      "characters": 239,
+      "individual_component_max": 20,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B CPU independent verification",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\independent_verification.json",
+      "characters": 232,
+      "individual_component_max": 29,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B model raw response",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\model\\upstream-0776\\response.txt",
+      "characters": 208,
+      "individual_component_max": 20,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B no-action atomic receipt",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\host-no-action\\upstream-0776.json.9999999999.tmp",
+      "characters": 224,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B owner flat preserved bytes",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\original-state\\99999999.bin",
+      "characters": 209,
+      "individual_component_max": 20,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B owner immutable snapshot-map atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\snapshot-map.json.9999999999.tmp",
+      "characters": 214,
+      "individual_component_max": 32,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B owner attempt receipt atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\owner-attempt.json.9999999999.tmp",
+      "characters": 215,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B continuation lineage atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\owner-continuation-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "characters": 226,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "C CPU source copy",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\C\\research\\evidence\\ffffffffffffffffffffffff\\source\\evidence_research\\__init__.py",
+      "characters": 233,
+      "individual_component_max": 24,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "C proposal observation atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\C\\resource-observations\\improved-0776.json.9999999999.tmp",
+      "characters": 209,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "C failure lineage atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\C\\model-attempt-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "characters": 221,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "C model raw response",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\C\\model\\improved-0776\\response.txt",
+      "characters": 186,
+      "individual_component_max": 20,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "pilot source snapshot",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\source-snapshot\\evidence_research\\comparison_arms.py",
+      "characters": 180,
+      "individual_component_max": 20,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "pilot owner public-data atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\owner-development-data\\quadratic-seed179-public.json.9999999999.tmp",
+      "characters": 195,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned long release output",
+      "category": "historical nested owner-copy counterfactual",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\original-state\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\00001554-ffffffffffffffffffffffff\\manifest.json",
+      "characters": 297,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": false,
+      "current_implementation_path": false
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B checkpoint staged cursor atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\.stage-00001554-9999999999999999999\\cursor.json.9999999999.tmp",
+      "characters": 239,
+      "individual_component_max": 35,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B checkpoint committed manifest atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\00001554-ffffffffffffffffffffffff\\manifest.json.9999999999.tmp",
+      "characters": 239,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B checkpoint head atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoint_head.json.9999999999.tmp",
+      "characters": 200,
+      "individual_component_max": 45,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B tool reply atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\tool-replies\\00000776-ffffffffffff.json.9999999999.tmp",
+      "characters": 212,
+      "individual_component_max": 41,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B CPU source copy",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\source\\evidence_research\\__init__.py",
+      "characters": 209,
+      "individual_component_max": 17,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B CPU independent verification",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\independent_verification.json",
+      "characters": 202,
+      "individual_component_max": 29,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B model raw response",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\model\\upstream-0776\\response.txt",
+      "characters": 178,
+      "individual_component_max": 17,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B no-action atomic receipt",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\host-no-action\\upstream-0776.json.9999999999.tmp",
+      "characters": 194,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B owner flat preserved bytes",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\original-state\\99999999.bin",
+      "characters": 179,
+      "individual_component_max": 17,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B owner immutable snapshot-map atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\snapshot-map.json.9999999999.tmp",
+      "characters": 184,
+      "individual_component_max": 32,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B owner attempt receipt atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\owner-attempt.json.9999999999.tmp",
+      "characters": 185,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B continuation lineage atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\owner-continuation-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "characters": 196,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "C CPU source copy",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\C\\research\\evidence\\ffffffffffffffffffffffff\\source\\evidence_research\\__init__.py",
+      "characters": 203,
+      "individual_component_max": 24,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "C proposal observation atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\C\\resource-observations\\improved-0776.json.9999999999.tmp",
+      "characters": 179,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "C failure lineage atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\C\\model-attempt-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "characters": 191,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "C model raw response",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\C\\model\\improved-0776\\response.txt",
+      "characters": 156,
+      "individual_component_max": 17,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "pilot source snapshot",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\source-snapshot\\evidence_research\\comparison_arms.py",
+      "characters": 150,
+      "individual_component_max": 18,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "pilot owner public-data atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\owner-development-data\\quadratic-seed179-public.json.9999999999.tmp",
+      "characters": 165,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true
+    },
+    {
+      "variant": "planned short release output",
+      "category": "historical nested owner-copy counterfactual",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\original-state\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\00001554-ffffffffffffffffffffffff\\manifest.json",
+      "characters": 267,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": false,
+      "current_implementation_path": false
+    }
+  ],
+  "equal_length_actual_storage_probes": [
+    {
+      "variant": "planned long release output",
+      "category": "B checkpoint staged cursor atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\.stage-00001554-9999999999999999999\\cursor.json.9999999999.tmp",
+      "characters": 269,
+      "individual_component_max": 35,
+      "under_260_character_legacy_limit": false,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\.stage-00001554-9999999999999999999\\cursor.json.9999999999.tmp",
+      "status": "failed",
+      "error": {
+        "type": "FileNotFoundError",
+        "errno": 2,
+        "winerror": null,
+        "message": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\work\\\\wpv2\\\\probes\\\\v0\\\\ppppppppppppppppppppppppppppppppppppppppp\\\\units\\\\quadratic-seed179\\\\B\\\\attempts\\\\attempt-0776\\\\upstream\\\\transport_checkpoints\\\\.stage-00001554-9999999999999999999\\\\cursor.json.9999999999.tmp'"
+      },
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B checkpoint committed manifest atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\00001554-ffffffffffffffffffffffff\\manifest.json.9999999999.tmp",
+      "characters": 269,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": false,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\00001554-ffffffffffffffffffffffff\\manifest.json.9999999999.tmp",
+      "status": "failed",
+      "error": {
+        "type": "FileNotFoundError",
+        "errno": 2,
+        "winerror": null,
+        "message": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\work\\\\wpv2\\\\probes\\\\v0\\\\ppppppppppppppppppppppppppppppppppppppppp\\\\units\\\\quadratic-seed179\\\\B\\\\attempts\\\\attempt-0776\\\\upstream\\\\transport_checkpoints\\\\00001554-ffffffffffffffffffffffff\\\\manifest.json.9999999999.tmp'"
+      },
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B checkpoint head atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoint_head.json.9999999999.tmp",
+      "characters": 230,
+      "individual_component_max": 45,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoint_head.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B tool reply atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\tool-replies\\00000776-ffffffffffff.json.9999999999.tmp",
+      "characters": 242,
+      "individual_component_max": 41,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\tool-replies\\00000776-ffffffffffff.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B CPU source copy",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\source\\evidence_research\\__init__.py",
+      "characters": 239,
+      "individual_component_max": 20,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\source\\evidence_research\\__init__.py",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B CPU independent verification",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\independent_verification.json",
+      "characters": 232,
+      "individual_component_max": 29,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\independent_verification.json",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B model raw response",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\model\\upstream-0776\\response.txt",
+      "characters": 208,
+      "individual_component_max": 20,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\model\\upstream-0776\\response.txt",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B no-action atomic receipt",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\host-no-action\\upstream-0776.json.9999999999.tmp",
+      "characters": 224,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\host-no-action\\upstream-0776.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B owner flat preserved bytes",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\original-state\\99999999.bin",
+      "characters": 209,
+      "individual_component_max": 20,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\original-state\\99999999.bin",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B owner immutable snapshot-map atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\snapshot-map.json.9999999999.tmp",
+      "characters": 214,
+      "individual_component_max": 32,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\snapshot-map.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B owner attempt receipt atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\owner-attempt.json.9999999999.tmp",
+      "characters": 215,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\owner-attempt.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "B continuation lineage atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\B\\owner-continuation-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "characters": 226,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\B\\owner-continuation-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "C CPU source copy",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\C\\research\\evidence\\ffffffffffffffffffffffff\\source\\evidence_research\\__init__.py",
+      "characters": 233,
+      "individual_component_max": 24,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\C\\research\\evidence\\ffffffffffffffffffffffff\\source\\evidence_research\\__init__.py",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "C proposal observation atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\C\\resource-observations\\improved-0776.json.9999999999.tmp",
+      "characters": 209,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\C\\resource-observations\\improved-0776.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "C failure lineage atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\C\\model-attempt-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "characters": 221,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\C\\model-attempt-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "C model raw response",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\units\\quadratic-seed179\\C\\model\\improved-0776\\response.txt",
+      "characters": 186,
+      "individual_component_max": 20,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\units\\quadratic-seed179\\C\\model\\improved-0776\\response.txt",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "pilot source snapshot",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\source-snapshot\\evidence_research\\comparison_arms.py",
+      "characters": 180,
+      "individual_component_max": 20,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\source-snapshot\\evidence_research\\comparison_arms.py",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned long release output",
+      "category": "pilot owner public-data atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\development\\recommended-pilot-v5\\owner-development-data\\quadratic-seed179-public.json.9999999999.tmp",
+      "characters": 195,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v0\\ppppppppppppppppppppppppppppppppppppppppp\\owner-development-data\\quadratic-seed179-public.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B checkpoint staged cursor atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\.stage-00001554-9999999999999999999\\cursor.json.9999999999.tmp",
+      "characters": 239,
+      "individual_component_max": 35,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\.stage-00001554-9999999999999999999\\cursor.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B checkpoint committed manifest atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\00001554-ffffffffffffffffffffffff\\manifest.json.9999999999.tmp",
+      "characters": 239,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoints\\00001554-ffffffffffffffffffffffff\\manifest.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B checkpoint head atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoint_head.json.9999999999.tmp",
+      "characters": 200,
+      "individual_component_max": 45,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\upstream\\transport_checkpoint_head.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B tool reply atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\tool-replies\\00000776-ffffffffffff.json.9999999999.tmp",
+      "characters": 212,
+      "individual_component_max": 41,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\tool-replies\\00000776-ffffffffffff.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B CPU source copy",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\source\\evidence_research\\__init__.py",
+      "characters": 209,
+      "individual_component_max": 17,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\source\\evidence_research\\__init__.py",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B CPU independent verification",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\independent_verification.json",
+      "characters": 202,
+      "individual_component_max": 29,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\experiments\\execution-0776\\independent_verification.json",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B model raw response",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\model\\upstream-0776\\response.txt",
+      "characters": 178,
+      "individual_component_max": 17,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\model\\upstream-0776\\response.txt",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B no-action atomic receipt",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\host-no-action\\upstream-0776.json.9999999999.tmp",
+      "characters": 194,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\attempts\\attempt-0776\\host-no-action\\upstream-0776.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B owner flat preserved bytes",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\original-state\\99999999.bin",
+      "characters": 179,
+      "individual_component_max": 17,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\original-state\\99999999.bin",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B owner immutable snapshot-map atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\snapshot-map.json.9999999999.tmp",
+      "characters": 184,
+      "individual_component_max": 32,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\snapshot-map.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B owner attempt receipt atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\owner-attempt.json.9999999999.tmp",
+      "characters": 185,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\owner-attempts\\attempt-0776\\owner-attempt.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "B continuation lineage atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\B\\owner-continuation-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "characters": 196,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\B\\owner-continuation-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "C CPU source copy",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\C\\research\\evidence\\ffffffffffffffffffffffff\\source\\evidence_research\\__init__.py",
+      "characters": 203,
+      "individual_component_max": 24,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\C\\research\\evidence\\ffffffffffffffffffffffff\\source\\evidence_research\\__init__.py",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "C proposal observation atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\C\\resource-observations\\improved-0776.json.9999999999.tmp",
+      "characters": 179,
+      "individual_component_max": 33,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\C\\resource-observations\\improved-0776.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "C failure lineage atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\C\\model-attempt-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "characters": 191,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\C\\model-attempt-lineages\\ffffffffffffffffffffffff.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "C model raw response",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\units\\quadratic-seed179\\C\\model\\improved-0776\\response.txt",
+      "characters": 156,
+      "individual_component_max": 17,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\units\\quadratic-seed179\\C\\model\\improved-0776\\response.txt",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "pilot source snapshot",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\source-snapshot\\evidence_research\\comparison_arms.py",
+      "characters": 150,
+      "individual_component_max": 18,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\source-snapshot\\evidence_research\\comparison_arms.py",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    },
+    {
+      "variant": "planned short release output",
+      "category": "pilot owner public-data atomic temporary",
+      "absolute_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\runs\\p5\\owner-development-data\\quadratic-seed179-public.json.9999999999.tmp",
+      "characters": 165,
+      "individual_component_max": 44,
+      "under_260_character_legacy_limit": true,
+      "current_implementation_path": true,
+      "proxy_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\wpv2\\probes\\v1\\ppppppppppp\\owner-development-data\\quadratic-seed179-public.json.9999999999.tmp",
+      "status": "passed",
+      "error": null,
+      "operation_scope": "equal-length separate owned storage probe; not real output or a full CLI continuation"
+    }
+  ],
+  "captured_atomic_json_manifest_probes": [
+    {
+      "variant": "planned long release output",
+      "status": "failed",
+      "error": {
+        "type": "FileNotFoundError",
+        "errno": 2,
+        "winerror": null,
+        "message": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\work\\\\wpv2\\\\probes\\\\v0\\\\ppppppppppppppppppppppppppppppppppppppppp\\\\units\\\\quadratic-seed179\\\\B\\\\attempts\\\\attempt-0776\\\\upstream\\\\transport_checkpoints\\\\00001554-ffffffffffffffffffffffff\\\\manifest.json.32236.tmp'"
+      },
+      "real_pid_digits": 5
+    },
+    {
+      "variant": "planned short release output",
+      "status": "passed",
+      "error": null,
+      "real_pid_digits": 5
+    }
+  ],
+  "limitations": [
+    "Storage probes use synthetic bytes and equal-length separate paths, not actual baseline outputs.",
+    "Python file I/O does not verify Codex process command-line/output handling.",
+    "This does not establish complete CLI resume correctness under the planned release directory.",
+    "MAX_PATH behavior depends on OS/runtime/application long-path support. Observed failures are local evidence, not a universal Windows limit."
+  ]
+}

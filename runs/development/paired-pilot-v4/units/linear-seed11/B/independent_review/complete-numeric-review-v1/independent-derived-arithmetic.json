@@ -1,0 +1,227 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\linear-seed11\\B\\independent_review\\complete-numeric-review-v1\\independent-execution-and-resource-evidence.json",
+      "sha256": "bffac1bc35abb8f776d2a46c92eb27c1d4502fdc974cb96786afcc22e3341b72"
+    }
+  ],
+  "proposal_grid": {
+    "actual_distinct": 1,
+    "candidates": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0.01
+      ],
+      [
+        1,
+        0.1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        100
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        0.01
+      ],
+      [
+        2,
+        0.1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        100
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        0.01
+      ],
+      [
+        3,
+        0.1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        100
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        0.01
+      ],
+      [
+        4,
+        0.1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        100
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        5,
+        0.01
+      ],
+      [
+        5,
+        0.1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        100
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        0.01
+      ],
+      [
+        6,
+        0.1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        6,
+        100
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        7,
+        0.01
+      ],
+      [
+        7,
+        0.1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        100
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        0.01
+      ],
+      [
+        8,
+        0.1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        100
+      ]
+    ],
+    "count": 48,
+    "kind": "proposal_arithmetic",
+    "remaining_candidates_executed": false,
+    "unmeasured": 47
+  },
+  "remaining_cpu_allowance": {
+    "actual": 2,
+    "limit": 51,
+    "remaining": 49
+  },
+  "source": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\review_pilot_linear11_19_baseline.py",
+    "sha256": "1f7f5a559c7aab3e2230d9447a959257065bd9711cd0cc3912907ecac07c272f"
+  },
+  "validation_minus_training": {
+    "display": "0.00224434",
+    "inputs": {
+      "train_mse": 0.00518281274299233,
+      "validation_mse": 0.007427150027746186
+    },
+    "rounding_matches": true,
+    "value": 0.002244337284753856
+  }
+}

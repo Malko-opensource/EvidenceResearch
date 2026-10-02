@@ -1,0 +1,1 @@
+CONFIG = {'degree': 1, 'alpha': 0.1}

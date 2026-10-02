@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0fd37-dcc8-7cb2-ab60-a5eec67695a5"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```PLAN\nCONFIG = {'degree': 1, 'alpha': 0.1}\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":26621,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":194,"reasoning_output_tokens":168}}

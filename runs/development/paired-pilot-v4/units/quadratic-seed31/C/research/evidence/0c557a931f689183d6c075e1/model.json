@@ -1,0 +1,1 @@
+{"config":{"alpha":0.0,"degree":6},"fit_ids_sha256":"1c0fa3e6ff65852093067d727ba401a5b8747cc2b9ed7d3c7d26aa59bf627fbd","fit_split":"train","regularization":"sum_squared_error + alpha*sum(nonintercept_weight_squared)","weights":[-0.7161855460931008,0.46372298692944036,1.4443374520667775,0.07688588813952656,-0.18955762185157393,-0.031180200973843667,0.061602326442013626]}

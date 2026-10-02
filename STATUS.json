@@ -33,7 +33,7 @@
     "published": true,
     "url": "https://github.com/Malko-opensource/EvidenceResearch",
     "first_verified_commit": "3ba19f2469cb85fb0b25a48a115eaebc3cb5e6da",
-    "latest_verified_evidence_commit": "eac42430a1911dd335c1416cc931b5063bb0bf25"
+    "latest_verified_evidence_commit": "60979ec9e4305cefa384b96e90d8110f2883b88e"
   },
   "resources": {
     "python": "3.12.14",
@@ -41,9 +41,16 @@
     "current_model": "gpt-6.1-sol",
     "authentication": "existing ChatGPT account; secrets never stored",
     "cpu_logical": 16,
-    "gpu_usage": "none"
+    "gpu_usage": "none",
+    "latest_usage_observation": {
+      "weekly_used_percent": 46,
+      "window_duration_minutes": 10080,
+      "ordinary_usage_allowed": true,
+      "billed_cost": null,
+      "purchases_or_resets_performed": false
+    }
   },
-  "next": "Preserve and review the running minimal-phase diagnostic and separate memory pilot. Prepare a fresh preregistered paired development study using upstream recommended phases, enough distinct primary literature and a justified common resource envelope; obtain its own reviewed variability before final evaluation.",
+  "next": "Continue both registered development studies without editing their source. Review completed numeric and semantic reports independently, use recommended-phase pilot variability for a separate frozen final design, and publish completed evidence only.",
   "verified_components": [
     "actual model development loop",
     "five actual CPU component runs",
@@ -57,5 +64,37 @@
     "current minimal B phase policy cannot establish the main original-default contrast",
     "five-record primary-source synopsis corpus prepared; future adapter and checkpoint/cursor changes still require independent freeze validation",
     "final paired comparison and memory-effect confirmation not yet completed"
-  ]
+  ],
+  "publication_replay": {
+    "status": "new_published_checkout_verified",
+    "evidence": "evidence/portable-replay-development/fresh-publication-validation.json",
+    "actual_new_model_calls": 0,
+    "new_runner_executions": 0,
+    "scope": "Original first completed development pair metrics/resources; fresh semantic-review equivalence and framework superiority not established."
+  },
+  "development_observations": {
+    "completed_minimal_phase_pairs": 5,
+    "evidence": [
+      "evidence/paired-development-first/result.json",
+      "evidence/paired-development-linear11/result.json",
+      "evidence/paired-development-linear19/result.json",
+      "evidence/paired-development-quadratic31/result.json",
+      "evidence/paired-development-quadratic43/result.json"
+    ],
+    "interpretation": "C used more provider tokens in all five reviewed minimal-phase pairs. Three selected validation gains coincided with worse separate test MSE. Descriptive development evidence only."
+  },
+  "future_design": {
+    "source_copy": "work/next-version",
+    "execution_root": "versions/v5-development",
+    "status": "frozen, independently checked and preregistered; actual paired development running",
+    "study": "versions/v5-development/runs/p5",
+    "controller_session_id": 54799,
+    "registration_sha256": "5569d283aeb9a00087092b862ef6dace71cdf73917429c308161d1cf31ad0f81",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "source_check": "evaluation/development/future-semantic-08ffcd8c47ef/result.json",
+    "release_check": "versions/v5-development/validation/release-local/result.json",
+    "improvement_proven": false,
+    "final_evaluation_completed": false
+  }
 }

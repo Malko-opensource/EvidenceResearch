@@ -1,0 +1,61 @@
+{
+  "candidates": [
+    {
+      "hypothesis": "A linear model may adequately describe the approximately linear pattern in the supplied data.",
+      "config": {"degree": 1, "alpha": 0.0},
+      "assessment": {
+        "relevance": 1.0,
+        "evidence_strength": 0.0,
+        "uncertainty": 0.4,
+        "normalized_cost": 0.1,
+        "rationale": "First establish an unregularized linear baseline. The visible data motivate this hypothesis, but no execution receipts establish performance. All assessment numbers are planning judgments."
+      },
+      "selection_reason": "Highest-priority inexpensive baseline for subsequent validation-MSE comparisons.",
+      "retry_of": null,
+      "retry_reason": null
+    },
+    {
+      "hypothesis": "Modest coefficient shrinkage may improve linear-model validation error.",
+      "config": {"degree": 1, "alpha": 1.0},
+      "assessment": {
+        "relevance": 0.95,
+        "evidence_strength": 0.0,
+        "uncertainty": 0.55,
+        "normalized_cost": 0.1,
+        "rationale": "Holding degree fixed isolates regularization effects. Frozen source 1910.02373v2 supports validation-based regularization selection, but supplies no task-specific optimum."
+      },
+      "selection_reason": "Compare shrinkage against the unregularized baseline before exploring finer alpha values.",
+      "retry_of": null,
+      "retry_reason": null
+    },
+    {
+      "hypothesis": "A quadratic term may capture subtle curvature that a linear model misses.",
+      "config": {"degree": 2, "alpha": 0.0},
+      "assessment": {
+        "relevance": 0.85,
+        "evidence_strength": 0.0,
+        "uncertainty": 0.65,
+        "normalized_cost": 0.15,
+        "rationale": "Adds one degree of flexibility while retaining a direct comparison with the unregularized linear baseline. Curvature and any resulting improvement remain unverified."
+      },
+      "selection_reason": "Low-cost check for departures from linearity.",
+      "retry_of": null,
+      "retry_reason": null
+    },
+    {
+      "hypothesis": "A lightly regularized cubic model may capture more complex curvature without excessive coefficient variance.",
+      "config": {"degree": 3, "alpha": 0.1},
+      "assessment": {
+        "relevance": 0.75,
+        "evidence_strength": 0.0,
+        "uncertainty": 0.75,
+        "normalized_cost": 0.2,
+        "rationale": "Provides a broader flexibility probe at modest anticipated cost. Neither cubic structure nor this alpha has verified success; further experiments should depend on host validation results."
+      },
+      "selection_reason": "Explore a plausible nonlinear alternative before considering higher polynomial degrees.",
+      "retry_of": null,
+      "retry_reason": null
+    }
+  ],
+  "stop_reason": null
+}

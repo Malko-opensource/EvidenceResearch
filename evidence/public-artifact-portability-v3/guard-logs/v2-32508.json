@@ -1,0 +1,239 @@
+{
+  "case": "v2",
+  "pid": 32508,
+  "argv": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\run.py"
+  ],
+  "blocked_attempts": [],
+  "owned_path_events": [
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\run.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\run.py"
+    },
+    {
+      "event": "os.listdir",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source-manifest.json"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\arms.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\baseline.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\cli.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\comparison_arms.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\engine.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\evaluation.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\model.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\model_attempt_audit.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\model_request_audit.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\proposer.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\report_contract.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\selection.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\store.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\study.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\tasks.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\verifier.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\__init__.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\__main__.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\tests\\test_checkpoint_replay.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\references\\upstream\\agentlaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\ai_lab_repo.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\references\\upstream\\agentlaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\agents.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\references\\upstream\\agentlaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\license"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\tests\\__init__.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\stdout.log"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\stderr.log"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\arms.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\baseline.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\cli.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\comparison_arms.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\engine.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\evaluation.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\model.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\model_attempt_audit.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\model_request_audit.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\proposer.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\report_contract.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\selection.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\store.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\study.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\tasks.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\verifier.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\__init__.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\evidence_research\\__main__.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\tests\\test_checkpoint_replay.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\references\\upstream\\agentlaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\ai_lab_repo.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\references\\upstream\\agentlaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\agents.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\references\\upstream\\agentlaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\license"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source_snapshot\\work\\next-version\\tests\\__init__.py"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\source-manifest.json"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\stdout.log"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\stderr.log"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v1\\result.json"
+    },
+    {
+      "event": "open",
+      "path": "c:\\users\\potato\\documents\\chatgpt\\research agent\\pp-i9pju4pf\\evidence\\checkpoint-replay-validation-v2\\result.json"
+    }
+  ],
+  "guard": "Original project open/list/scan denied; only provider-free unittest subprocess permitted"
+}

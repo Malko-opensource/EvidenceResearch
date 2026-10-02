@@ -1,0 +1,18 @@
+```PLAN
+Use a small, preregistered polynomial ridge comparison to test whether added polynomial terms help beyond a quadratic and whether regularization changes that conclusion.
+
+Data and model: Use the supplied 80 training observations and 64 validation observations, preserving their fixed splits. Use the host’s polynomial ridge implementation and preprocessing. Fit only on training data; select degree and alpha solely by validation MSE. No external datasets or hidden test access are needed.
+
+Literature basis: The supplied synopsis of arXiv:1910.02373v2 supports validation-based ridge selection and highlights dependence on feature covariance and regularization. Extend that motivation with a compact comparison of polynomial complexity and shrinkage. This is a proposed experiment, not a claim of established novelty.
+
+Experiment: Request these candidates individually, in this fixed order:
+(2, 0.0), (2, 0.1), (2, 1.0),
+(1, 0.0), (3, 0.0), (8, 0.0),
+(1, 0.1), (3, 0.1), (8, 0.1),
+(1, 1.0), (3, 1.0), (8, 1.0).
+Each pair denotes (degree, alpha). Degree 1 checks underfitting, degree 3 checks one additional term, and degree 8 probes whether shrinkage helps a much more flexible model. Execute at most the host’s permitted request and CPU-attempt budget, stopping at its limit. Each execution submission must contain only one legal literal CONFIG assignment.
+
+Selection: Choose the successfully evaluated candidate with the lowest host-reported validation MSE. Break exact ties by lower degree, then lower alpha. Do not infer results for unevaluated candidates or claim a global optimum.
+
+Report: Record each evaluated configuration and its actual validation MSE. Compare degrees at matched alpha and alpha values within each degree where measurements exist. Report the selected parameters, observed differences, and the limitation that selection on a single validation split can produce optimistic estimates. All performance values remain unmeasured until the host supplies results.
+```

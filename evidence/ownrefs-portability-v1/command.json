@@ -1,0 +1,7 @@
+{
+  "shell": "PowerShell",
+  "working_directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+  "command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' -B 'evidence/ownrefs-portability-v1/verify.py' --work-root 'work/oref1' --blocked-ancestor '.' --receipt 'evidence/ownrefs-portability-v1/result.json' 1> 'evidence/ownrefs-portability-v1/stdout.log' 2> 'evidence/ownrefs-portability-v1/stderr.log'",
+  "exit_code": 0,
+  "scope": "Fixture-only targeted reproduction, no real model calls."
+}

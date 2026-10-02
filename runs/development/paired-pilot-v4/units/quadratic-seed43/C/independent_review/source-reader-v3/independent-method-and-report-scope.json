@@ -1,0 +1,17 @@
+{
+  "actual_owner_test_rows_opened": false,
+  "comparison_improvement_claim": false,
+  "literature": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\references\\task_literature.json",
+    "sha256": "abcbe55a101d44b439f9ec38f84cfdac3c381ebc50cf83f70a082f0872e42dc9"
+  },
+  "note": "Reviewed conditional polynomial/ridge definitions: nested exact least-squares classes cannot raise minimum training SSE; under invertibility ridge solves (Z'Z+lambda P)^-1 Z'y; Gram eigenvalue shrinkage s/(s+lambda) assumes identity penalty. MSE denominators are fixed80/64. These formula/parameter definitions and held-out/selection caveats are not additional measured effects. B's preregistered language denotes its original preexecution research plan, not a completed12/8-candidate comparison or confirmatory protocol. B reports selected metric input separately from2actual/1distinct host counts. C's expected decision value, stable local minimum and untested degree1 reasoning remain planning inferences.",
+  "public_split": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\paired-pilot-v4\\units\\quadratic-seed43\\C\\research\\evidence\\e19ac88fd459fbd2da2670a3\\split_manifest.json",
+    "sha256": "8d146824b967f5388deecb2f9d8df23a503039c903ed7f6994d49bcce986c4f5"
+  },
+  "source": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\review_pilot_quadratic31_43_v3.py",
+    "sha256": "ff7db6e81fa400500061b0f20424895495e30b50a77c340dd792ec764d7a1b49"
+  }
+}

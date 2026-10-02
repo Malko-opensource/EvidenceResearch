@@ -1,0 +1,1 @@
+Polynomial ridge regression degree and regularization selection using held-out validation error, fixed hyperparameter grids, validation selection bias, and linear versus nonlinear model complexity

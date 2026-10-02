@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0fd62-4923-78f3-ba67-9d5f052e8ad7"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression degree selection and regularization strength using validation mean squared error, feature covariance, bias-variance tradeoff, and validation selection optimism"}}
+{"type":"turn.completed","usage":{"input_tokens":20102,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":32,"reasoning_output_tokens":0}}
