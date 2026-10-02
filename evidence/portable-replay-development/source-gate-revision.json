@@ -1,0 +1,10 @@
+{
+  "independent_finding": "Archived verifier was initially linked only to its own spec/result hashes. Before reference-fit execution it now must match the externally supplied registration hash source map.",
+  "implementation_init_detail": "Archived runner __init__.py is a generated fixed stub and differs from the full package __init__.py; it is not executed in this audit. tasks.py/verifier.py are externally pinned before executing only reference-fit AST.",
+  "old_local_replay_status": "Preserved as pre-source-gate history; not the released auditor validation.",
+  "guard_evidence": "guard-validation.json",
+  "source_sha256": "10c37058b35dfc4a533930940e2e6d8950af8a89bcfa2285526bab9492c148a2",
+  "guard_source_sha256": "9e8bc2bfb7ce841a5d0c6b07cbf08371d4099af071214eb3d7f2b7df7e1ab710",
+  "actual_model_calls": 0,
+  "new_runner_executions": 0
+}

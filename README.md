@@ -108,3 +108,17 @@ PDF와 원본 ZIP은 게시하지 않으며, 원문 링크와 고정 버전을 �
 환산하지 않고 실제 청구 증거가 없으면 비용은 `null`로 기록한다.
 `.gitattributes`는 증거와 소스 사본의 줄바꿈을 포함한 원래 바이트를 보존한다.
 완료된 증거를 편집기로 다시 저장하거나 줄바꿈을 변환하면 해시 검증이 실패한다.
+
+완료된 최소전이 개발 짝 `linear-seed7`의 CPU 지표와 원시 모델 자원은 다른
+checkout 경로에서도 읽기 전용으로 재계산할 수 있다. 다음 명령은 모델을 새로
+호출하거나 연구 실행을 반복하지 않는다. 원본 경로는 파일을 찾기 위한 기준이며
+당시 사용자의 절대 경로를 실제로 열지 않는다. 새 출력 경로를 지정한다.
+
+```powershell
+python -X utf8 evaluation/replay_published_pair.py --root . --recorded-root 'C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch' --registration-sha256 a8fdd8c5500961350b289b8798a0ee9dde116ed2d07ee0ef13e131701ec0be92 --out work/published-pair-replay.json
+```
+
+이는 원본 해시·독립 fit·예측·별도 test MSE·원시 provider 토큰과 시간의
+재계산이다. 전체 보고서의 의미를 다시 판정하거나 최종 개선을 입증하지 않는다.
+선택한 개발 짝의 평가 자료는 실행이 끝난 후 재현용으로 공개했으며, 이후에는
+개발 자료로 취급한다. 진행 중인 과제와 미래 최종 평가 자료는 제공하지 않는다.

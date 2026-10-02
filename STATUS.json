@@ -32,7 +32,8 @@
     "repository": "EvidenceResearch",
     "published": true,
     "url": "https://github.com/Malko-opensource/EvidenceResearch",
-    "first_verified_commit": "3ba19f2469cb85fb0b25a48a115eaebc3cb5e6da"
+    "first_verified_commit": "3ba19f2469cb85fb0b25a48a115eaebc3cb5e6da",
+    "latest_verified_evidence_commit": "eac42430a1911dd335c1416cc931b5063bb0bf25"
   },
   "resources": {
     "python": "3.12.14",
@@ -54,7 +55,7 @@
   "blockers": [
     "old development baseline has one ambiguous execution-count statement; retained pending",
     "current minimal B phase policy cannot establish the main original-default contrast",
-    "recommended literature count exceeds current corpus; future study needs a new frozen shared corpus",
+    "five-record primary-source synopsis corpus prepared; future adapter and checkpoint/cursor changes still require independent freeze validation",
     "final paired comparison and memory-effect confirmation not yet completed"
   ]
 }

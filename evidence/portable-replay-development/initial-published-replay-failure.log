@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evaluation\replay_published_pair.py", line 200, in <module>
+    result = replay(args.root, args.recorded_root, args.study, args.unit, args.registration_sha256)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evaluation\replay_published_pair.py", line 150, in replay
+    owner = load(bundle.check(bundle.resolve(entry["owner_path"]), entry["owner_sha256"]))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evaluation\replay_published_pair.py", line 59, in check
+    require(actual.is_file() and not actual.is_symlink(), "Missing or symlink evidence")
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evaluation\replay_published_pair.py", line 31, in require
+    raise ValueError(reason)
+ValueError: Missing or symlink evidence

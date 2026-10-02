@@ -1,0 +1,13 @@
+{
+  "status": "missing_owner_data_rejected",
+  "published_commit": "eac42430a1911dd335c1416cc931b5063bb0bf25",
+  "cause": "First completed development pair owner/public data were absent from publication; no fallback to original absolute local path occurred.",
+  "remedy": "Release only completed linear-seed7 development data and verify a new remote checkout. Ongoing units and final hidden tasks remain unpublished.",
+  "actual_model_calls": 0,
+  "new_runner_executions": 0,
+  "evidence": {
+    "local-replay.log": "c2e1e824d5c5a6b4b1160e6e893096e4a18f8786c949e4b0ae46ac319f848b8b",
+    "initial-published-replay-failure.log": "45949b0d6b3c2526f1c7a1381ca5a04f81b4f0f9ece4cfd8fff629a4996aad49"
+  },
+  "auditor_source_sha256": "bb80c5a68d79eadb65b59767c6cecf972ccc7c0f9e8ce23772354437d19d862b"
+}

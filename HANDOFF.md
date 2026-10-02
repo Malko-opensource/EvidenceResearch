@@ -63,5 +63,11 @@
 7. 한국어 보고서·재현 명령·진행 상태를 갱신하고 `Malko-opensource/EvidenceResearch`
    저장소에 게시한다. 로컬 GitHub CLI의 계정과 브라우저 계정은 일치하는지 확인한다.
 
+게시된 첫 개발 짝의 경로 이동 감사는 `evaluation/replay_published_pair.py`를
+사용한다. 새 checkout에서 원본 경로의 증거를 열지 않고 새 root 아래로만
+매핑한다. 최초 공개 commit에는 완료된 짝의 owner/public 자료가 빠져 검사가
+거절됐다. 이 실패와 보완은 `evidence/portable-replay-development/`에 기록한다.
+전체 semantic report review의 대체물이 아니며, 새 model/runner 실행은 없다.
+
 사용자의 모든 완료 기준이 실제로 충족되기 전에는 `update_goal(complete)`를 호출하지
 않는다. 외부 자원 부족은 구현 오류와 구분하고 독립적으로 가능한 작업을 계속한다.
