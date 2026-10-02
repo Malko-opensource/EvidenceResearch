@@ -1,0 +1,49 @@
+{
+  "kind": "c8_frozen_whole_engineering_suite",
+  "valid": true,
+  "source_manifest_sha256": "6fce28fb5ed196717011906b9071091244f72bd7874728f2114cb399d2468d69",
+  "checks": 276,
+  "declared_expected_tests": 276,
+  "exit_code": 0,
+  "seconds": 49.42200000002049,
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c8",
+  "source_snapshot": "s",
+  "candidate110_unchanged": true,
+  "protected_source_files": 417,
+  "protected_sources_unchanged": true,
+  "guard": {
+    "counts": {
+      "other_project_or_version_access_attempts": 0,
+      "live_study_access_attempts": 0,
+      "nonfixture_process_attempts": 0,
+      "network_events": 0,
+      "allowed_cpu_fixture_subprocesses": 1
+    },
+    "scope": "Parent Python audit hook covers this workspace except candidate/proof/synthetic temp; runtime files elsewhere remain readable. The allowed archived CPU child replaces PYTHONPATH and is not covered by this hook. This is not an OS sandbox or a filesystem-wide read proof."
+  },
+  "guard_sha256": "164d0b18206c8e4565de99c14e2c75d340e6b631a84cc4d29460ec4cabaad67e",
+  "guard_basis_source_sha256": "403ce2f942002c3c89344a2366531023dc04b2db5a9824b61c0ea534e8db1ff4",
+  "logs": {
+    "stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr.log": "e96baee26007a3354384f1ae152e1ad39173d80e0508995275aad966395e1d1f"
+  },
+  "inherited_credentials_copied": false,
+  "actual_models_or_research_trials": 0,
+  "trusted_cpu_unit_fixture_child": "Explicit deterministic tiny CPU fixture; parent hook is not a global OS or child read proof",
+  "independent_ten_families_completed_by_this_suite": false,
+  "new_environment_installation_validated": false,
+  "framework_improvement_proven": false,
+  "goal_complete": false
+}

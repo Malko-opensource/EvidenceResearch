@@ -1,0 +1,8 @@
+{
+  "kind": "static_peer_commands_only_no_cli_suite_environment",
+  "python": "C:/Users/Potato/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+  "argv_prefix": ["-X", "utf8", "-B"],
+  "initial": {"script": "review.py", "exit_code": 1, "tool_chunk_id": "f6b089", "cause": "External single-line raw-success parser assumption; immutable first failure preserved."},
+  "finish": {"script": "finish_review.py", "exit_code": 0, "tool_chunk_id": "af9e5a", "scope": "Only affected raw parser, previously unvisited guard, and final source drift."},
+  "new_test_cli_environment_provider_fit_owner_git_actions": 0
+}

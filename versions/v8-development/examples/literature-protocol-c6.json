@@ -1,0 +1,14 @@
+{
+  "kind": "unexecuted_protocol_fragment",
+  "scope": "New c6 development design only; not a registered pilot or a reinterpretation of v5 outcomes",
+  "literature_protocol": {
+    "protocol_version": "shared-corpus-original-review-entries-2",
+    "required_shared_corpus_distinct_records": 5,
+    "original_minimum_review_entries": 5
+  },
+  "upstream_settings_fragment": {
+    "num_papers_lit_review": 5
+  },
+  "interpretation": "Both arms receive five distinct registered source synopses. The unchanged original workflow requires five review-list entries. Known-source duplicate entries are retained as diagnostics and do not alone fail the common task. Unknown IDs, missing synopses or exact-synopsis mismatches fail provenance. Neither corpus delivery nor companion references prove reading or comprehension.",
+  "new_evaluation_required": "Use a separately registered owner-sealed development suite drawn from the declared final task distribution, with different definitions and data; do not transplant the v4/v5 fixed-regime variance estimate as a confirmatory design."
+}

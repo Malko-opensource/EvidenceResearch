@@ -33,7 +33,7 @@
     "published": true,
     "url": "https://github.com/Malko-opensource/EvidenceResearch",
     "first_verified_commit": "3ba19f2469cb85fb0b25a48a115eaebc3cb5e6da",
-    "latest_verified_evidence_commit": "899c97cdab5d557db8b80a6bf479779ed13282d1",
+    "latest_verified_evidence_commit": "27be9b3bcfabebf42fe8bc5870c8ee0a619c7e2f",
     "detailed_record_manifest_sha256": "b71986a181f3c8359ca14151ce746b3110c33131001b4c225ce977c419c5cfb2",
     "specific_detailed_record_publication_approved": true
   },
@@ -49,12 +49,13 @@
       "window_duration_minutes": 10080,
       "ordinary_usage_allowed": true,
       "billed_cost": null,
-      "purchases_or_resets_performed": false
+      "purchases_or_resets_performed": false,
+      "scope": "Historical observation; not a current remaining-usage guarantee."
     }
   },
   "next": [
-    "Independently verify a separately preregistered callback registration repair before any fresh actual study.",
-    "Preserve all original source and report failure/pending gates; complete valid own paired development before separate untouched final.",
+    "Preserve prior failures and pending reports; complete prospective source-bound report integration validation before registering another actual study.",
+    "Obtain valid same-model paired development evidence and separately preregister an untouched final evaluation; retain fixed adoption criteria.",
     "Keep original-model A unavailable/unestimated and Goal active."
   ],
   "verified_components": [
@@ -200,5 +201,35 @@
     "captured_source_portability_checks": 38,
     "actual_model_or_research_trials": 0,
     "scope": "Published source variant installation and explicit synthetic captured38 components only; no supplemental5 portable replay, research improvement or final adoption."
+  },
+  "v8_development_release": {
+    "path": "versions/v8-development",
+    "package_version": "0.4.1.dev0",
+    "release_copy_receipt": "versions/v8-development/release-copy.json",
+    "release_copy_sha256": "4a78bb5d5d330e039cabc44d85272957254e1947c515b0aaa0548d91dd5816bd",
+    "own_environment_validation": "versions/v8-development/validation/release-local-v1/result.json",
+    "own_environment_validation_sha256": "2f4b8fd8a3efa890892b5faa387c9c4be353dff879f9f1b6541bedf422529877",
+    "runtime_source_files": 111,
+    "selected_public_source_files": 73,
+    "runtime_upstream_files_acquired_by_fixed_fetch_script": 35,
+    "reference_files_authenticated": 40,
+    "runtime_reference_closure": 38,
+    "optional_legacy_example_files_excluded": 3,
+    "own_venv": true,
+    "user_site_enabled": false,
+    "offline_editable_install": true,
+    "whole_engineering_checks": 276,
+    "independent_registered_families": 10,
+    "independent_subcases": 28,
+    "engineering_publication_manifest": "evidence/v8-engineering-publication-v1/manifest.json",
+    "publication_scope": "Selected source, installation, synthetic integration and engineering proof only; omitted complete local fixture trees prevent claiming full helper replay from this subset.",
+    "guard_scope": "Parent Python hook in this repository; allowed tiny CPU child replaces PYTHONPATH and is outside this hook. Not OS isolation.",
+    "engineering_actual_model_calls": 0,
+    "engineering_actual_research_trials": 0,
+    "actual_study_registered": false,
+    "actual_report_integration_complete": false,
+    "framework_improvement_proven": false,
+    "final_completed": false,
+    "report": "docs/v8_development.ko.md"
   }
 }

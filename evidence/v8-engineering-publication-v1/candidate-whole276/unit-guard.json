@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "other_project_or_version_access_attempts": 0,
+    "live_study_access_attempts": 0,
+    "nonfixture_process_attempts": 0,
+    "network_events": 0,
+    "allowed_cpu_fixture_subprocesses": 1
+  },
+  "scope": "Parent Python audit hook covers this workspace except candidate/proof/synthetic temp; runtime files elsewhere remain readable. The allowed archived CPU child replaces PYTHONPATH and is not covered by this hook. This is not an OS sandbox or a filesystem-wide read proof."
+}

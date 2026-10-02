@@ -1,0 +1,236 @@
+{
+  "kind": "ordinary_source_and_engineering_only_publication_candidate",
+  "source73": 73,
+  "basis110": 110,
+  "tested_own_runtime111": 111,
+  "own_environment_checks": 276,
+  "candidate_whole_checks": 276,
+  "independent_families": 10,
+  "independent_cases": 28,
+  "fixture_snapshot_modules": 20,
+  "fixture_snapshot_reference_manifests": 3,
+  "external_pins": {
+    "public_source_template": "35b7d5a2599d35f3aaffff4d4d72444b12da6e085391ab061c96f1457b539359",
+    "release_copy": "4a78bb5d5d330e039cabc44d85272957254e1947c515b0aaa0548d91dd5816bd",
+    "own_environment_result": "2f4b8fd8a3efa890892b5faa387c9c4be353dff879f9f1b6541bedf422529877",
+    "installed_output_peer": "f898cb350e8609cabebd2b3632b394674d9efc54cda2debc2440de9723067ea2",
+    "installed_output_peer_manifest": "180aa27055d81959f612439fc24d32b2f9d2d4bdd8c56b2f1692b3ca4f49c4ac",
+    "whole276_result": "69c1d5d9793aebed25e7dd52623008b12b5ec8242d081bd2c82cfa5d39701484",
+    "whole276_before": "686d379ba7b0ecbe31ab932d9b2358e02c89734feca840068c1d3523638388c2",
+    "independent10_result": "6a2e547bec77f7d7d71b434a40284c14d00b4d0f4a25716af766a232d93b2377",
+    "independent10_manifest": "29d7ae67d537e60adfdf3cb5ae6bceeb267499e5569652f5e992d88ed34613cd",
+    "basis_source_manifest": "6fce28fb5ed196717011906b9071091244f72bd7874728f2114cb399d2468d69",
+    "root_go": "4819ded65a7b74223b1d2490d849730179e9e52ff9cf6b5fa9e99517644809f4",
+    "upstream_manifest": "2b02fc8f6d2fef3f46758cb2e6855686371c94ac055298badf7d2f8970c3587f",
+    "prospective_config": "6deca8e6402e6048d67f35ee55635414b869e986abd9155de219191b4e72cd55",
+    "method_hash_only": "21bc0d8ddb1cd3e2bb8b77c958fe7540d972318f3b6bd691406db2bb8b0f2298"
+  },
+  "runtime_upstream_omitted_each_location": 35,
+  "stale_optional_examples_omitted": 3,
+  "prospective_config_units": [],
+  "engineering_pass_is_research_improvement": false,
+  "engineering_pass_is_actual_report_completeness": false,
+  "actual_v8_registered_in_selected_execution_scope": false,
+  "c9_status": "mutable local candidate, excluded from this publication",
+  "roles": {
+    "release_external_helper_v4": "sources_baseline authored narrow reference count repair, independently reviewed by root",
+    "installed_output_peer": "same helper author audited recorded output/log; not independent helper implementation reviewer",
+    "independent_c8_ten_families": "sources_baseline independently authored external fixtures; package implemented by core_framework and integrated by root"
+  },
+  "omitted_independent_metadata_rows": [
+    {
+      "relative": "native-B-registration.pinned.json",
+      "sha256": "fd54fd8a741ff8ca18293eb3af15cd5d2f9fff66cd146d5a9991eac3d79b1b44",
+      "reason": "Registration payload excluded; original method includes local actual-observation references, and native registrations are not selected."
+    },
+    {
+      "relative": "native-C-registration.pinned.json",
+      "sha256": "2961933a748ae6f1820f843891b843e425ceab612e3647238e622002e20b952e",
+      "reason": "Registration payload excluded; original method includes local actual-observation references, and native registrations are not selected."
+    },
+    {
+      "relative": "registration.pinned.json",
+      "sha256": "21bc0d8ddb1cd3e2bb8b77c958fe7540d972318f3b6bd691406db2bb8b0f2298",
+      "reason": "Registration payload excluded; original method includes local actual-observation references, and native registrations are not selected."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/.gitignore",
+      "sha256": "ff258351f2e19e200272248b92b883c1ff82e57a24ab9306bb6d18ffe7d2dbba",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/agents.py",
+      "sha256": "d8d1eda040eb1fa897d84596a1b36f277e83da75433c1a9ac2d9efe5be5c749a",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/ai_lab_repo.py",
+      "sha256": "799a3c078d835cd632487f52ed5b8e9f155bb9514ca104a30442ecfbcb7765ff",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/app.py",
+      "sha256": "3015bcf64679caa122eac01ba9afff1ab7736fe83385518017ec95f68b5b65ff",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/common_imports.py",
+      "sha256": "620cdb11f91540f87dee2d61a413c5271ebc428485703b838441ef3f6f4c3e42",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/experiment_configs/MATH_agentlab.yaml",
+      "sha256": "3c05ba7a537c4b990a324cc18af81d9b3f699c41cb63507e55027ccee7b779f4",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/experiment_configs/MATH_agentrxiv.yaml",
+      "sha256": "38b593838daed217afb165d1bc5c26645ebfa24fe6c04376502ccbaa1cddbfad",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/inference.py",
+      "sha256": "9f34099f0f1e7e548c7798887d9b33da6cfeef552d16e720fce343db423a5b2e",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/LICENSE",
+      "sha256": "bf38a159d01e82d58f986c2d6dd06e03ba0b9cd59a6d286dd94109aac358e583",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLab.png",
+      "sha256": "8c779332fc9da2a6a872ea5df7a9a8a0a3575a24799df1f2923c235a443b5a37",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLabLogo.png",
+      "sha256": "aaa800396e829c5592e3b6ceef59e8fee9c57205e895b2b1cc78b4662df57451",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLabWF.png",
+      "sha256": "2a5b19e31ca573d4a36ca47e66202f0a1e53192dbfc4385ed8bbf2e8a1144150",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/agentrxiv.png",
+      "sha256": "64683b7e1c0f523527843b63a01135a1145c1116e2cf867139d3ecc61fd56ffa",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/mlesolver.py",
+      "sha256": "cc110f2b07642532cca11bd8cbf74becfc41016c7f876c16f6d40379ec59882c",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/papersolver.py",
+      "sha256": "8c16d68577570fbf6332d3f070e5aec975ed3fd3e1440918940f16eb8911366c",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-arabic.md",
+      "sha256": "4591174adc08404a3cd9d3aa3a29320c31fcfd9c3e12d15d62d1da1fe8141fec",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-bengali.md",
+      "sha256": "e843b1bf47fab932d360d5a0260a77fd7481dc4697d48e29b432c97fc16e4d93",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-chinese.md",
+      "sha256": "b7b2db2020de3bad1e1df5480ffe0ef6161c2a9f002561f0595e0ebefa511359",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-farsi.md",
+      "sha256": "83f8b864919150ae39adaa804796d9a2c1892c19fec70a845cafab3c07ddf3b1",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-filipino.md",
+      "sha256": "18b39e8e924db5075eec991da55a4164717bff2e9f72682f2bd3fbe3cc11cce7",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-french.md",
+      "sha256": "1e00dca6a8daf9388ea35efbb3fbe2e34a5691c499dfaa121f69d75f2d1f8afa",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-hindi.md",
+      "sha256": "7eb1603f6cecd0505c185b7f075d1b1bf54907f1894c6bbcfd8c27140edf85c7",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-italian.md",
+      "sha256": "2376242a73551f644e6858eef40731d16e9fd390c01ca4d5e054b0ad32e1ff24",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-japanese.md",
+      "sha256": "88dddf18c47cc745a24b29f9ede6a92749752c5a4cccc67f3cf2f36f02b0b86f",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-korean.md",
+      "sha256": "343d1953c93ed22dd15fcb954b2e0671567208c9122a07b31fee5747aa5314fe",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-portugues.md",
+      "sha256": "6da9206ff4e57620824eac65f983db2dcd475083d0559f83ae4fae4d59889e64",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-russian.md",
+      "sha256": "98fdad8de23cd27c2520e5bc6376f1f997820e36ce6aec8df793c55d4876cba5",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-slovak.md",
+      "sha256": "a4e32e77a08f3020f584f7dc253bb05cad74d5268f77b5078f5f79b5bfd429e3",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-spanish.md",
+      "sha256": "bbebd9a76658cfe5955c55792fdef1ca78b41c930e7270b288390f9bd2cb303f",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-turkish.md",
+      "sha256": "d692011134271fe5f494d76d17c7eee40e87640cbce68561719b750dbbab454a",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-vietnamese.md",
+      "sha256": "1d3b9bfac57e8e49a0392b9b68c47a3ea6185c0b2c7540d7aa620d0e3d41aa3e",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/README.md",
+      "sha256": "8e1d25ccec75959f18d9326656cba4cf041b7e45eb06a2c0d8999ef516a2edeb",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/requirements.txt",
+      "sha256": "8c9f6a532faf44c83aafe64a2e00add6fa7db9757bdb954309bf9e474a68b390",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/tools.py",
+      "sha256": "171b36dd2507add4acb3c4608d2acc5f9d9cd7bc4631264d23efd40c3c816d23",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    },
+    {
+      "relative": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/utils.py",
+      "sha256": "ea23c00695613ab346ac6646f69dbf2b0972efda7c1cafeccd5ffdb4f5f439c8",
+      "reason": "Runtime upstream source35 omitted, authenticated acquisition manifest remains."
+    }
+  ],
+  "method_registration": "Original body and actual-observation references deliberately not included; hash only",
+  "guard_limits": "Parent Python hook is not OS-wide. One permitted tiny CPU engineering child replaces PYTHONPATH and is outside parent hook. Peer/preparation itself executes no fixtures.",
+  "portability": "This exact selected subset supports inspection of original results/log/source hashes. It is not the full fixture/output tree or a standalone replay closure; original helpers retain local engineering paths and excluded registration/upstream/raw synthetic dependencies.",
+  "new_tests_env_cli_provider_cpu_owner_git_publication_actions": 0
+}

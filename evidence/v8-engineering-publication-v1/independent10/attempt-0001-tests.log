@@ -1,0 +1,21 @@
+test_01_native_handoffs (__main__.IndependentCases.test_01_native_handoffs) ... ok
+test_02_precapture_conditions (__main__.IndependentCases.test_02_precapture_conditions) ... ok
+test_03_after_constructor_tamper (__main__.IndependentCases.test_03_after_constructor_tamper) ... ok
+test_04_rehash_and_source_negatives (__main__.IndependentCases.test_04_rehash_and_source_negatives) ... ok
+test_05_prefix_replay_unknown_and_qualification (__main__.IndependentCases.test_05_prefix_replay_unknown_and_qualification) ... ERROR
+
+======================================================================
+ERROR: test_05_prefix_replay_unknown_and_qualification (__main__.IndependentCases.test_05_prefix_replay_unknown_and_qualification)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\work\c8-independent-validation-v1\independent_fixture.py", line 289, in test_05_prefix_replay_unknown_and_qualification
+    facts=audit_context_boundary(target[0],packet.root)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\work\c8-independent-validation-v1\source-snapshot\evidence_research\context_boundary.py", line 459, in audit_context_boundary
+    raise ValueError('Context tape contains a transplanted or undiscovered physical receipt')
+ValueError: Context tape contains a transplanted or undiscovered physical receipt
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.280s
+
+FAILED (errors=1)

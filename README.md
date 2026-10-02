@@ -8,29 +8,30 @@
 개발 과제의 실제 모델 실행과 CPU 실험, 독립 수치 재계산은 동작한다. 해당 확인을
 최종 평가 통과나 일반적인 과학 연구 성능 향상으로 해석하면 안 된다.
 
-현재 독립 개발 버전은 [v7 안내](docs/v7_development.ko.md)의 `0.4.0.dev0`이다.
-공통 입력 경계와 실제 증거 자격 검사를 추가했고, 새 환경의 263개 공학 검사와
-별도 38개 독립 구성 사례를 확인했다. 이는 실제 비교 개선이나 최종 평가 통과를
-뜻하지 않는다. [v6 안내](docs/v6_development.ko.md)와 기존 결과는 원 조건으로 보존한다.
-v7에는 B callback 등록과 입력 경계 검사의 계약 불일치가 확인됐다.
-검증된 B/C 비교 근거로 채택하지 않으며, 별도 개발 사본에서 수정·검증 중이다.
+현재 독립 개발 버전은 [v8 안내](docs/v8_development.ko.md)의 `0.4.1.dev0`이다.
+B callback의 원래 모델·자원 등록 정보와 입력 경계 검사를 연결했다. 별도 환경의
+276개 공학 검사와 독립 10개 계열·28개 구성 사례를 확인했다. 이 결과는 보고서의
+모든 주장 검증, 실제 비교 개선 또는 최종 평가 통과를 뜻하지 않는다.
+[v7 안내](docs/v7_development.ko.md), [v6 안내](docs/v6_development.ko.md)와 이전
+실패·보류 결과는 원 조건으로 보존한다. 보고서 증거 표현의 후속 수정은 별도 로컬
+개발 사본에서 사전 등록 후 진행하며, v8의 새 실제 비교는 등록하지 않았다.
 
 ## 설치
 
-Python 3.12 이상이 필요하다. 런타임 외부 의존성은 없다. 저장소 루트에서 v7로 이동한다.
+Python 3.12 이상이 필요하다. 런타임 외부 의존성은 없다. 저장소 루트에서 v8로 이동한다.
 이후 아래 설치·CLI 명령은 해당 버전 디렉터리에서 실행한다.
 
 Windows에서는 짧은 새 clone 경로를 사용한다. 깊은 경로의 실패와 같은 공개
 소스의 짧은 경로 재현은 [설치 검증 안내](docs/windows_install_replay.md)에 있다.
 
 ```powershell
-Set-Location -LiteralPath versions\v7-development
+Set-Location -LiteralPath versions\v8-development
 python -m venv .venv
 .\.venv\Scripts\python.exe scripts\fetch_upstream.py
-.\.venv\Scripts\python.exe -m evidence_research doctor
+.\.venv\Scripts\python.exe -m evidence_research --help
 ```
 
-Linux/macOS에서는 먼저 `cd versions/v7-development`를 실행하고 `.venv/bin/python`을 사용한다.
+Linux/macOS에서는 먼저 `cd versions/v8-development`를 실행하고 `.venv/bin/python`을 사용한다.
 선택적으로 해당 환경의 `python -m pip install -e .`를
 실행하면 `evidence-research` 명령을 설치할 수 있다. 실제 모델 실행에는
 [Codex CLI의 기존 로그인](https://learn.chatgpt.com/docs/non-interactive-mode)이 필요하다.
@@ -81,8 +82,9 @@ Linux/macOS에서는 먼저 `cd versions/v7-development`를 실행하고 `.venv/
 마지막 명령은 별도 담당자의 최신 38개 구성 사례를 고정 소스 사본으로 재현한다.
 새 짧은 출력 디렉터리를 사용하며 기존 증거를 덮어쓰지 않는다.
 과거 기록의 경로와 시간은 당시 환경을 가리키며, 재현 지표·설정·소스 해시를 비교한다.
-최종 B/C 비교는 [현재 v7 검증 범위](docs/v7_development.ko.md)에 따라 자체 개발 증거로
-별도 사전 등록하고 새로운 과제와 고정 코드로 실행한다.
+최종 B/C 비교는 [현재 v8 검증 범위](docs/v8_development.ko.md)를 확인하고, 보고서 통합
+검증과 자체 개발 비교를 마친 뒤 별도 사전 등록한 새로운 과제와 고정 코드로 실행한다.
+v8의 새 실제 비교와 최종 평가는 아직 등록하지 않았다.
 [초기 평가 설계](docs/evaluation_protocol.md)는 과거 버전의 근거로 보존한다.
 A 원 연구 계열 모델에 접근할 수 없으면 그 한계를 기록한다.
 논문 수치를 재현한 결과로 대입하지 않는다.
@@ -104,7 +106,7 @@ PDF와 원본 ZIP은 게시하지 않으며, 원문 링크와 고정 버전을 �
 같은 연구에 섞지 않으며, 한 연구에는 실행 프로세스 하나만 사용한다.
 
 ```powershell
-.\.venv\Scripts\python.exe -m evidence_research.study pilot-sample-config --base-config examples\sampled-pilot-base-c7.json --variance-relative-se 0.5 --output work\my-pilot-private.json
+.\.venv\Scripts\python.exe -m evidence_research.study pilot-sample-config --base-config examples\sampled-pilot-base-v8.json --variance-relative-se 0.5 --output work\my-pilot-private.json
 .\.venv\Scripts\python.exe -m evidence_research.study pilot-register --config work\my-pilot-private.json --output runs\my-pilot
 .\.venv\Scripts\python.exe -m evidence_research.study pilot-run --output runs\my-pilot
 ```
@@ -138,7 +140,7 @@ checkout 경로에서도 읽기 전용으로 재계산할 수 있다. 다음 명
 
 ```powershell
 Push-Location -LiteralPath ..\..
-versions\v7-development\.venv\Scripts\python.exe -X utf8 evaluation/replay_published_pair.py --root . --recorded-root 'C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch' --registration-sha256 a8fdd8c5500961350b289b8798a0ee9dde116ed2d07ee0ef13e131701ec0be92 --out work/published-pair-replay.json
+versions\v8-development\.venv\Scripts\python.exe -X utf8 evaluation/replay_published_pair.py --root . --recorded-root 'C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch' --registration-sha256 a8fdd8c5500961350b289b8798a0ee9dde116ed2d07ee0ef13e131701ec0be92 --out work/published-pair-replay.json
 Pop-Location
 ```
 
@@ -148,6 +150,6 @@ Pop-Location
 개발 자료로 취급한다. 진행 중인 과제와 미래 최종 평가 자료는 제공하지 않는다.
 
 원본 권장 단계 비교를 도입한 [별도 v5 버전](versions/v5-development/README.md)은
-역사적 개발 기록으로 보존한다. 현재 개발 소스와 새 비교는 v7의 자체 환경·
-source snapshot·등록을 사용하며 메인 v4와 기존 결과를 덮어쓰지 않는다.
+역사적 개발 기록으로 보존한다. 현재 공개 개발 소스는 v8의 자체 환경과 source
+snapshot으로 검증했다. 새 비교는 보고서 통합 검증 후 별도로 등록하며 기존 결과를 보존한다.
 프레임워크 개선이나 최종 채택은 아직 미입증이다.

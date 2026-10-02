@@ -1,0 +1,45 @@
+{
+  "case_map_sha256": "dbb883d1408d381d4164cd7c04e2944900bc04d743a7fc065f53b0909c20a82e",
+  "copy_sha256": "1ab2da19edbadff413042af0f3441377ebe41c70f9cf6a0e5e23c8bd14f9eb30",
+  "framework_improvement_proven": false,
+  "goal_complete": false,
+  "limitations": [
+    "Both native callback fixture routes stop at a declared two-request engineering allowance, before CPU action.",
+    "No full pipeline success or actual model ability is measured.",
+    "Python action guards are not OS-level access instrumentation.",
+    "Independent 10-family validation, whole regression suite and fresh environment remain pending."
+  ],
+  "method_registration_sha256": "21bc0d8ddb1cd3e2bb8b77c958fe7540d972318f3b6bd691406db2bb8b0f2298",
+  "native_b_ast_unchanged_except_two_exact_registration_keys": true,
+  "new13": {
+    "path": "attempt-0002/result.json",
+    "sha256": "ad08592e1d1c6b4f091bfa5b0e5e875180965639d4f4fd5a191cae6c4b988a60"
+  },
+  "new_actual_provider_calls": 0,
+  "new_actual_research_fits": 0,
+  "prefix24": {
+    "path": "attempt-0003/result.json",
+    "sha256": "dcab016f5c25166c4f503f6153a0b96f591ffc8fa18f10238a400e46ea580bb5"
+  },
+  "preserved_initial_failure": {
+    "path": "attempt-0001/result.json",
+    "reason": "Fixture literature protocol positional arguments reversed; corrected to named arguments",
+    "sha256": "76706d70082aaf3630a11deea5ff3a8506570fcc520a60ed26828bb80e4cd5a7"
+  },
+  "private_owner_reads": 0,
+  "protected_source108_unchanged": true,
+  "source_manifest_sha256": "6fce28fb5ed196717011906b9071091244f72bd7874728f2114cb399d2468d69",
+  "status": "implementation_targeted_component_pass_awaiting_independent_and_whole",
+  "unchanged_exact_files": [
+    "evidence_research/baseline.py",
+    "evidence_research/comparison_arms.py",
+    "evidence_research/tasks.py",
+    "evidence_research/verifier.py",
+    "evidence_research/evaluation.py",
+    "evidence_research/study.py",
+    "evidence_research/model.py",
+    "evidence_research/report_semantics.py",
+    "references/source_facts_c7.json",
+    "references/task_literature_v2.json"
+  ]
+}

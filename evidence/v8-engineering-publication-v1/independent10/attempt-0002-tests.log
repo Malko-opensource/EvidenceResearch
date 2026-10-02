@@ -1,0 +1,7 @@
+test_04_rehash_and_source_negatives (__main__.IndependentCases.test_04_rehash_and_source_negatives) ... ok
+test_05_prefix_replay_unknown_and_qualification (__main__.IndependentCases.test_05_prefix_replay_unknown_and_qualification) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.785s
+
+OK

@@ -1,0 +1,15 @@
+{
+  "phase": "clean-runtime",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v8-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-c",
+    "import sys,site,json,importlib.metadata as m,evidence_research as e;print(json.dumps({\"prefix\":sys.prefix,\"base_prefix\":sys.base_prefix,\"user_site\":site.ENABLE_USER_SITE,\"package_path\":e.__file__,\"version\":m.version(\"evidence-research\"),\"module_version\":e.__version__}))"
+  ],
+  "exit_code": 0,
+  "seconds": 0.09399999998277053,
+  "stdout_sha256": "e6f713b6689f050a53121883bbd517ab4075e8e4760dd6fdbd1da3da560b3c48",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,348 @@
+{
+  "acquired_date": "2026-10-02",
+  "timezone": "Asia/Seoul",
+  "upstream_repo": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+  "upstream_commit": "d9017d90e329112d2a80b7712f37ee9094d2cd27",
+  "upstream_commit_time": "2025-08-20T21:46:42Z",
+  "upstream_license": "MIT; original LICENSE preserved",
+  "source_snapshot_status": "downloaded; no upstream code executed to acquire it; no dependencies installed",
+  "files": [
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/.gitignore",
+      "upstream_path": ".gitignore",
+      "bytes": 155,
+      "sha256": "ff258351f2e19e200272248b92b883c1ff82e57a24ab9306bb6d18ffe7d2dbba",
+      "git_blob_sha1": "ea6f4be0032ddb9a7ea66d75983ec5ea9cd3ad62",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/.gitignore"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/agents.py",
+      "upstream_path": "agents.py",
+      "bytes": 52333,
+      "sha256": "d8d1eda040eb1fa897d84596a1b36f277e83da75433c1a9ac2d9efe5be5c749a",
+      "git_blob_sha1": "4d7759e44aa3e018710be2d2370e1316cb8da6bc",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/agents.py"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/ai_lab_repo.py",
+      "upstream_path": "ai_lab_repo.py",
+      "bytes": 45580,
+      "sha256": "799a3c078d835cd632487f52ed5b8e9f155bb9514ca104a30442ecfbcb7765ff",
+      "git_blob_sha1": "d8e7c1e6d74d3af85e67a8d93acc9972270d1962",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/ai_lab_repo.py"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/app.py",
+      "upstream_path": "app.py",
+      "bytes": 6870,
+      "sha256": "3015bcf64679caa122eac01ba9afff1ab7736fe83385518017ec95f68b5b65ff",
+      "git_blob_sha1": "08114eee11a3a06b57cc6bf98a179ef3d343e4be",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/app.py"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/common_imports.py",
+      "upstream_path": "common_imports.py",
+      "bytes": 2797,
+      "sha256": "620cdb11f91540f87dee2d61a413c5271ebc428485703b838441ef3f6f4c3e42",
+      "git_blob_sha1": "7d968f3aea579f87e176abfe0bf0a0c182d1865c",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/common_imports.py"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/experiment_configs/MATH_agentlab.yaml",
+      "upstream_path": "experiment_configs/MATH_agentlab.yaml",
+      "bytes": 5296,
+      "sha256": "3c05ba7a537c4b990a324cc18af81d9b3f699c41cb63507e55027ccee7b779f4",
+      "git_blob_sha1": "1c330f05ecb0dcb8c272a0e80e031b767f460099",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/experiment_configs/MATH_agentlab.yaml"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/experiment_configs/MATH_agentrxiv.yaml",
+      "upstream_path": "experiment_configs/MATH_agentrxiv.yaml",
+      "bytes": 5361,
+      "sha256": "38b593838daed217afb165d1bc5c26645ebfa24fe6c04376502ccbaa1cddbfad",
+      "git_blob_sha1": "1f97198c56c85422e034c119226239b323bf16d7",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/experiment_configs/MATH_agentrxiv.yaml"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/inference.py",
+      "upstream_path": "inference.py",
+      "bytes": 10412,
+      "sha256": "9f34099f0f1e7e548c7798887d9b33da6cfeef552d16e720fce343db423a5b2e",
+      "git_blob_sha1": "c2ccd5f9dcf107bec8eaaa8c2fde211c96860c67",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/inference.py"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/LICENSE",
+      "upstream_path": "LICENSE",
+      "bytes": 1073,
+      "sha256": "bf38a159d01e82d58f986c2d6dd06e03ba0b9cd59a6d286dd94109aac358e583",
+      "git_blob_sha1": "23833fbb71c3d7c70fe04ea0b1c5deca35af2da4",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/LICENSE"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLab.png",
+      "upstream_path": "media/AgentLab.png",
+      "bytes": 489404,
+      "sha256": "8c779332fc9da2a6a872ea5df7a9a8a0a3575a24799df1f2923c235a443b5a37",
+      "git_blob_sha1": "799cab204ad2043e665bf58e14b97faa069754ac",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLab.png"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLabLogo.png",
+      "upstream_path": "media/AgentLabLogo.png",
+      "bytes": 126415,
+      "sha256": "aaa800396e829c5592e3b6ceef59e8fee9c57205e895b2b1cc78b4662df57451",
+      "git_blob_sha1": "3c5217750edf79478e328b7fb76e7b9c3d91707e",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLabLogo.png"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLabWF.png",
+      "upstream_path": "media/AgentLabWF.png",
+      "bytes": 342392,
+      "sha256": "2a5b19e31ca573d4a36ca47e66202f0a1e53192dbfc4385ed8bbf2e8a1144150",
+      "git_blob_sha1": "06721ed228253ebb50a2797d8d3af4523c1ef04d",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLabWF.png"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/agentrxiv.png",
+      "upstream_path": "media/agentrxiv.png",
+      "bytes": 306621,
+      "sha256": "64683b7e1c0f523527843b63a01135a1145c1116e2cf867139d3ecc61fd56ffa",
+      "git_blob_sha1": "b9fc1945cde0c77c583eb9b85732a2ea14a8d69e",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/media/agentrxiv.png"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/mlesolver.py",
+      "upstream_path": "mlesolver.py",
+      "bytes": 33070,
+      "sha256": "cc110f2b07642532cca11bd8cbf74becfc41016c7f876c16f6d40379ec59882c",
+      "git_blob_sha1": "902eb5e2bc9a9972ce3b5e8c8116efaebba743c3",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/mlesolver.py"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/papersolver.py",
+      "upstream_path": "papersolver.py",
+      "bytes": 33486,
+      "sha256": "8c16d68577570fbf6332d3f070e5aec975ed3fd3e1440918940f16eb8911366c",
+      "git_blob_sha1": "e9b59519842aaabfd8b6ed281dce7a0c7a2b6fa1",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/papersolver.py"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-arabic.md",
+      "upstream_path": "readme/README-arabic.md",
+      "bytes": 12208,
+      "sha256": "4591174adc08404a3cd9d3aa3a29320c31fcfd9c3e12d15d62d1da1fe8141fec",
+      "git_blob_sha1": "e858199c190969d12abc447514784a23c885897d",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-arabic.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-bengali.md",
+      "upstream_path": "readme/README-bengali.md",
+      "bytes": 18232,
+      "sha256": "e843b1bf47fab932d360d5a0260a77fd7481dc4697d48e29b432c97fc16e4d93",
+      "git_blob_sha1": "c00685a657a63ed8e80439ebb9830e2c927eb7ed",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-bengali.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-chinese.md",
+      "upstream_path": "readme/README-chinese.md",
+      "bytes": 8977,
+      "sha256": "b7b2db2020de3bad1e1df5480ffe0ef6161c2a9f002561f0595e0ebefa511359",
+      "git_blob_sha1": "583a885deeb880783aaa41264bfb0702930052d3",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-chinese.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-farsi.md",
+      "upstream_path": "readme/README-farsi.md",
+      "bytes": 13550,
+      "sha256": "83f8b864919150ae39adaa804796d9a2c1892c19fec70a845cafab3c07ddf3b1",
+      "git_blob_sha1": "611cd1cde335e104a73774aaac8df0d8e9e2b618",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-farsi.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-filipino.md",
+      "upstream_path": "readme/README-filipino.md",
+      "bytes": 11006,
+      "sha256": "18b39e8e924db5075eec991da55a4164717bff2e9f72682f2bd3fbe3cc11cce7",
+      "git_blob_sha1": "a12bc88d15100e14766b2103595f41c5db2ada27",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-filipino.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-french.md",
+      "upstream_path": "readme/README-french.md",
+      "bytes": 11092,
+      "sha256": "1e00dca6a8daf9388ea35efbb3fbe2e34a5691c499dfaa121f69d75f2d1f8afa",
+      "git_blob_sha1": "ed57aa93d3e02f7e9075150c3ec0aeec4885b0a5",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-french.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-hindi.md",
+      "upstream_path": "readme/README-hindi.md",
+      "bytes": 17806,
+      "sha256": "7eb1603f6cecd0505c185b7f075d1b1bf54907f1894c6bbcfd8c27140edf85c7",
+      "git_blob_sha1": "8049b3e924919dd38678a2d48b5983c340e01e67",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-hindi.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-italian.md",
+      "upstream_path": "readme/README-italian.md",
+      "bytes": 10424,
+      "sha256": "2376242a73551f644e6858eef40731d16e9fd390c01ca4d5e054b0ad32e1ff24",
+      "git_blob_sha1": "e1d291302bcb9c1afb7fac88e8b8932aac3199a5",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-italian.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-japanese.md",
+      "upstream_path": "readme/README-japanese.md",
+      "bytes": 10942,
+      "sha256": "88dddf18c47cc745a24b29f9ede6a92749752c5a4cccc67f3cf2f36f02b0b86f",
+      "git_blob_sha1": "dd6f6e94cb3f776f6eb0d0caaf8958518b54e1b9",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-japanese.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-korean.md",
+      "upstream_path": "readme/README-korean.md",
+      "bytes": 10612,
+      "sha256": "343d1953c93ed22dd15fcb954b2e0671567208c9122a07b31fee5747aa5314fe",
+      "git_blob_sha1": "fe9f5e27259e863823a6e9f6011030be647019aa",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-korean.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-portugues.md",
+      "upstream_path": "readme/README-portugues.md",
+      "bytes": 10509,
+      "sha256": "6da9206ff4e57620824eac65f983db2dcd475083d0559f83ae4fae4d59889e64",
+      "git_blob_sha1": "fb8a32e38273058e9330f85a14ae090bd118d4ef",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-portugues.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-russian.md",
+      "upstream_path": "readme/README-russian.md",
+      "bytes": 15384,
+      "sha256": "98fdad8de23cd27c2520e5bc6376f1f997820e36ce6aec8df793c55d4876cba5",
+      "git_blob_sha1": "6e23931c4265ba2cf300eda46de3ef8e29fd0617",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-russian.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-slovak.md",
+      "upstream_path": "readme/README-slovak.md",
+      "bytes": 10360,
+      "sha256": "a4e32e77a08f3020f584f7dc253bb05cad74d5268f77b5078f5f79b5bfd429e3",
+      "git_blob_sha1": "3685508e557bf8735e34c577d019183983cc4765",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-slovak.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-spanish.md",
+      "upstream_path": "readme/README-spanish.md",
+      "bytes": 10617,
+      "sha256": "bbebd9a76658cfe5955c55792fdef1ca78b41c930e7270b288390f9bd2cb303f",
+      "git_blob_sha1": "8ea689571f804ecf57189a916e1beec95a3559a5",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-spanish.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-turkish.md",
+      "upstream_path": "readme/README-turkish.md",
+      "bytes": 10508,
+      "sha256": "d692011134271fe5f494d76d17c7eee40e87640cbce68561719b750dbbab454a",
+      "git_blob_sha1": "0e9af635f11dc55acd0e09316ac16ecc5240b87a",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-turkish.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-vietnamese.md",
+      "upstream_path": "readme/README-vietnamese.md",
+      "bytes": 11783,
+      "sha256": "1d3b9bfac57e8e49a0392b9b68c47a3ea6185c0b2c7540d7aa620d0e3d41aa3e",
+      "git_blob_sha1": "1d0395812207843012d0b74322d055b557c25f7e",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-vietnamese.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/README.md",
+      "upstream_path": "README.md",
+      "bytes": 10123,
+      "sha256": "8e1d25ccec75959f18d9326656cba4cf041b7e45eb06a2c0d8999ef516a2edeb",
+      "git_blob_sha1": "1d4f2c58f361c363d5139636d83d919f0f90a534",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/README.md"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/requirements.txt",
+      "upstream_path": "requirements.txt",
+      "bytes": 2265,
+      "sha256": "8c9f6a532faf44c83aafe64a2e00add6fa7db9757bdb954309bf9e474a68b390",
+      "git_blob_sha1": "b3f57e4aa85cb73f3e7d1d3305968d26ceffcb62",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/requirements.txt"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/tools.py",
+      "upstream_path": "tools.py",
+      "bytes": 13410,
+      "sha256": "171b36dd2507add4acb3c4608d2acc5f9d9cd7bc4631264d23efd40c3c816d23",
+      "git_blob_sha1": "860ceba02d9588ee9c7a0c2051aee69d1f4f83b1",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/tools.py"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/utils.py",
+      "upstream_path": "utils.py",
+      "bytes": 16770,
+      "sha256": "ea23c00695613ab346ac6646f69dbf2b0972efda7c1cafeccd5ffdb4f5f439c8",
+      "git_blob_sha1": "b424bdeee86171ea09171dac6294ccc5583f0261",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/d9017d90e329112d2a80b7712f37ee9094d2cd27/utils.py"
+    }
+  ],
+  "papers": [
+    {
+      "id": "2501.04227v2",
+      "path": "references/2501.04227v2.pdf",
+      "kind": "original_pdf",
+      "bytes": 3644380,
+      "sha256": "67b9543ae1d8e3ad86a65e2a436ddbd12700d7c8f4a66c5b4c2a6fccc1674d75",
+      "url": "https://arxiv.org/pdf/2501.04227v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "2501.04227v2",
+      "path": "references/2501.04227v2.html",
+      "kind": "original_html",
+      "bytes": 472114,
+      "sha256": "9b3a0bb4d871c62c8763d474b3f3bce694849364c5a4078b50af017b655e9d7f",
+      "url": "https://arxiv.org/html/2501.04227v2",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "2501.04227v2",
+      "path": "references/2501.04227v2.txt",
+      "kind": "pypdf_text_extraction",
+      "bytes": 172967,
+      "sha256": "3b2338ad6a014058f7bf06d58ab97c77c8175e9104d4265dbd7c1a4fdb090d1a",
+      "url": null,
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "2503.18102v1",
+      "path": "references/2503.18102v1.pdf",
+      "kind": "original_pdf",
+      "bytes": 2757188,
+      "sha256": "762045781a10140f714e0f23388014286a50cce79f385d6b4a1475162cce9669",
+      "url": "https://arxiv.org/pdf/2503.18102v1",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "2503.18102v1",
+      "path": "references/2503.18102v1.html",
+      "kind": "original_html",
+      "bytes": 227980,
+      "sha256": "622fef3e7eb042bcfe408045780b9ad8a9121795965e0be9d88df4947245a591",
+      "url": "https://arxiv.org/html/2503.18102v1",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "2503.18102v1",
+      "path": "references/2503.18102v1.txt",
+      "kind": "pypdf_text_extraction",
+      "bytes": 94704,
+      "sha256": "7d89a6502e3f512f4bfba6b1e01a1e925ee143e003f7bedf0075a702bca632d0",
+      "url": null,
+      "license": "CC BY 4.0"
+    }
+  ],
+  "reproduction_status": "Source acquisition and AST import checks do not reproduce paper performance; actual adapted runs have separate registrations and logs."
+}

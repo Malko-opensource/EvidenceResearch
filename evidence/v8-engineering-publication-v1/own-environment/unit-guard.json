@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "other_project_or_version_access_attempts": 0,
+    "live_study_access_attempts": 0,
+    "nonfixture_process_attempts": 0,
+    "network_events": 0,
+    "allowed_cpu_fixture_subprocesses": 1
+  },
+  "scope": "Parent Python hook covers this workspace open/list/scandir except release/proof/short synthetic temp. Runtime elsewhere remains readable. The allowed tiny CPU child replaces PYTHONPATH and is not covered. This is not an OS sandbox or all-sibling read proof."
+}

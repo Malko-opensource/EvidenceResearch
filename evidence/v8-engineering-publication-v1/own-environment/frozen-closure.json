@@ -1,0 +1,15 @@
+{
+  "phase": "frozen-closure",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v8-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-c",
+    "import json;from evidence_research.baseline import frozen_upstream_sources;from evidence_research.report_semantics import frozen_semantic_reference_hashes;print(json.dumps({\"upstream\":frozen_upstream_sources(),\"semantic\":frozen_semantic_reference_hashes()}))"
+  ],
+  "exit_code": 0,
+  "seconds": 0.10899999999674037,
+  "stdout_sha256": "a57ea7f45724fb817b4f540da9f307310adb5b0bdc9b0d6e24162e13482a796a",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

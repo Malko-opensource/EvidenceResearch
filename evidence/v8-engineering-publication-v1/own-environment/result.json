@@ -1,0 +1,145 @@
+{
+  "valid": true,
+  "checks": 276,
+  "guard": {
+    "counts": {
+      "other_project_or_version_access_attempts": 0,
+      "live_study_access_attempts": 0,
+      "nonfixture_process_attempts": 0,
+      "network_events": 0,
+      "allowed_cpu_fixture_subprocesses": 1
+    },
+    "scope": "Parent Python hook covers this workspace open/list/scandir except release/proof/short synthetic temp. Runtime elsewhere remains readable. The allowed tiny CPU child replaces PYTHONPATH and is not covered. This is not an OS sandbox or all-sibling read proof."
+  },
+  "environment": {
+    "prefix": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v8-development\\.venv",
+    "base_prefix": "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python",
+    "user_site": false,
+    "package_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v8-development\\evidence_research\\__init__.py",
+    "version": "0.4.1.dev0",
+    "module_version": "0.4.1.dev0"
+  },
+  "kind": "version8_own_environment_engineering_validation",
+  "phases": [
+    {
+      "phase": "venv-create",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "venv",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v8-development\\.venv"
+      ],
+      "exit_code": 0,
+      "seconds": 3.5,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "offline-editable-install",
+      "command": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v8-development\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "pip",
+        "--isolated",
+        "install",
+        "--no-index",
+        "--no-deps",
+        "--no-build-isolation",
+        "--editable",
+        "."
+      ],
+      "exit_code": 0,
+      "seconds": 1.187000000034459,
+      "stdout_sha256": "93cb4946321f6365d2340d1dc6c9358abca05ea34172c723a30886ed43bb0b17",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "clean-runtime",
+      "command": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v8-development\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "-c",
+        "import sys,site,json,importlib.metadata as m,evidence_research as e;print(json.dumps({\"prefix\":sys.prefix,\"base_prefix\":sys.base_prefix,\"user_site\":site.ENABLE_USER_SITE,\"package_path\":e.__file__,\"version\":m.version(\"evidence-research\"),\"module_version\":e.__version__}))"
+      ],
+      "exit_code": 0,
+      "seconds": 0.09399999998277053,
+      "stdout_sha256": "e6f713b6689f050a53121883bbd517ab4075e8e4760dd6fdbd1da3da560b3c48",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "cli-help",
+      "command": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v8-development\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "evidence_research",
+        "--help"
+      ],
+      "exit_code": 0,
+      "seconds": 0.09399999998277053,
+      "stdout_sha256": "4b07cf83fc4aa921fd4995d0ebf2b6c250435696dc380f3b22e6213616e09253",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "frozen-closure",
+      "command": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v8-development\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "-c",
+        "import json;from evidence_research.baseline import frozen_upstream_sources;from evidence_research.report_semantics import frozen_semantic_reference_hashes;print(json.dumps({\"upstream\":frozen_upstream_sources(),\"semantic\":frozen_semantic_reference_hashes()}))"
+      ],
+      "exit_code": 0,
+      "seconds": 0.10899999999674037,
+      "stdout_sha256": "a57ea7f45724fb817b4f540da9f307310adb5b0bdc9b0d6e24162e13482a796a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "unit-checks",
+      "command": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v8-development\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "seconds": 49.92200000002049,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3ca214fcac8223ca2c301e85858095c9b13c1af6e6ecdf250275ffce8e21489"
+    }
+  ],
+  "basis_source_file_count": 110,
+  "source_file_count": 111,
+  "source_unchanged": true,
+  "protected_source_files": 417,
+  "protected_sources_unchanged": true,
+  "copy_receipt_sha256": "4a78bb5d5d330e039cabc44d85272957254e1947c515b0aaa0548d91dd5816bd",
+  "go_contract_sha256": "4819ded65a7b74223b1d2490d849730179e9e52ff9cf6b5fa9e99517644809f4",
+  "actual_model_calls": 0,
+  "actual_research_trials": 0,
+  "study_registration": false,
+  "external_dependency_downloads": 0,
+  "inherited_credentials_copied": false,
+  "doctor_or_authentication_check": false,
+  "build_tools": "Bundled build tools exposed only during offline installer, removed for runtime/CLI/tests.",
+  "guard_limit": "Python hook covers workspace open/list/scandir and network/process events; permitted tiny CPU child replaces PYTHONPATH and is not covered. No OS-wide or all-sibling read proof.",
+  "framework_improvement_proven": false,
+  "goal_complete": false
+}
