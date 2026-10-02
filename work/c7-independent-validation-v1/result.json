@@ -1,0 +1,549 @@
+{
+  "actual_provider_calls": 0,
+  "actual_report_adoption_eligible": false,
+  "actual_research_trials": 0,
+  "additional_unittest_regression_count": 2,
+  "candidate_source_stable": true,
+  "component_execution": {
+    "guards": {
+      "protected_original_accesses": 0,
+      "provider_calls_blocked": 0
+    },
+    "path": "work\\t7\\rctx0003\\result.json",
+    "sha256": "988302c4f9544ede564bdcc50875b1627e8e777e4eaf68df8a97b3b245d6dfba",
+    "trusted_cpu_component_executions": 12
+  },
+  "current_v6_pending_reclassified": false,
+  "goal_complete": false,
+  "held_snapshot": {
+    "manifest_sha256": "8cd4412f647572f8b39a2b69aef615fb19c70665a9e1027b310a214d3e996cc0",
+    "path": "work\\c7-independent-validation-v1\\held-source-run-0003",
+    "receipt_sha256": "24ea950639a61983c315d19afef2da4397536d5ca743ba4df8448c2e30dd7134"
+  },
+  "limits": [
+    "This verifies finite engineering predicates/fixtures, not research performance, model replacement or causal memory effects.",
+    "The exact 309 listed source/test/static-reference files were rehashed; private ongoing study outcomes were neither read nor hashed.",
+    "Replay audits file-open/list/scandir access to its listed protected original roots; it is not a global operating-system security proof.",
+    "Numerical shape/statistical control dictionaries are explicitly fictional; convenience gates do not authenticate actual execution or replace full owner artifact validation.",
+    "Finite literature forms support attribution to supplied authored synopses; they do not prove full-paper reading, unrestricted NLP entailment or authenticated reviewer identity.",
+    "Unknown monetary cost remains null. Current v6 pending judgments and acceptance criteria remain unchanged."
+  ],
+  "listed_original_source_changes": [],
+  "listed_original_source_files_guarded": 309,
+  "monetary_cost": null,
+  "original_case_plan_sha256": "cbe5916a919a59e85fb741c2c412e334c9a757cecccfb45c7270e7fd9160ab2b",
+  "original_method_registration_sha256": "2256eca0decfd566006cfacc60ba9ddc8ffc8543b8fd5aa9f51f21f044d1bdef",
+  "private_owner_test_or_generation_reads": false,
+  "registered_case_count": 36,
+  "registered_case_verdicts": [
+    {
+      "adapter": "historical_context_resources",
+      "adoption_eligible": false,
+      "id": "prefix-valid-both",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "supported_if_exact_values_and_visible_scope",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_prefix_valid_both (test_context_semantics.ContextSemantics.test_prefix_valid_both)"
+    },
+    {
+      "adapter": "historical_context_resources",
+      "adoption_eligible": false,
+      "id": "prefix-final-relabel",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_prefix_final_relabel (test_context_semantics.ContextSemantics.test_prefix_final_relabel)"
+    },
+    {
+      "adapter": "historical_context_resources",
+      "adoption_eligible": false,
+      "id": "prefix-arbitrary-subset",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_prefix_arbitrary_subset (test_context_semantics.ContextSemantics.test_prefix_arbitrary_subset)"
+    },
+    {
+      "adapter": "historical_context_resources",
+      "adoption_eligible": false,
+      "id": "prefix-order",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_prefix_order (test_context_semantics.ContextSemantics.test_prefix_order)"
+    },
+    {
+      "adapter": "historical_context_resources",
+      "adoption_eligible": false,
+      "id": "prefix-replay-doublecount",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_prefix_replay_doublecount (test_context_semantics.ContextSemantics.test_prefix_replay_doublecount)"
+    },
+    {
+      "adapter": "historical_context_resources",
+      "adoption_eligible": false,
+      "id": "prefix-unknown-failure",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "unknown_or_pending_not_zero",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_prefix_unknown_failure (test_context_semantics.ContextSemantics.test_prefix_unknown_failure)"
+    },
+    {
+      "adapter": "historical_context_resources",
+      "adoption_eligible": false,
+      "id": "prefix-source-tamper",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_prefix_source_tamper (test_context_semantics.ContextSemantics.test_prefix_source_tamper)"
+    },
+    {
+      "adapter": "historical_context_resources",
+      "adoption_eligible": false,
+      "id": "prefix-missing-logical-tail",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "pending_unknown",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_prefix_missing_logical_tail (test_context_semantics.ContextSemantics.test_prefix_missing_logical_tail)"
+    },
+    {
+      "adapter": "historical_scope",
+      "adoption_eligible": false,
+      "id": "history-unqualified",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "pending_or_reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_history_unqualified (test_context_semantics.ContextSemantics.test_history_unqualified)"
+    },
+    {
+      "adapter": "historical_scope",
+      "adoption_eligible": false,
+      "id": "history-list-valid",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "supported_if_bound",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_history_list_valid (test_context_semantics.ContextSemantics.test_history_list_valid)"
+    },
+    {
+      "adapter": "historical_scope",
+      "adoption_eligible": false,
+      "id": "history-appendix",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_history_appendix (test_context_semantics.ContextSemantics.test_history_appendix)"
+    },
+    {
+      "adapter": "historical_scope",
+      "adoption_eligible": false,
+      "id": "history-unrelated-design",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_history_unrelated_design (test_context_semantics.ContextSemantics.test_history_unrelated_design)"
+    },
+    {
+      "adapter": "historical_scope",
+      "adoption_eligible": false,
+      "id": "history-negated-intro",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_history_negated_intro (test_context_semantics.ContextSemantics.test_history_negated_intro)"
+    },
+    {
+      "adapter": "historical_scope",
+      "adoption_eligible": false,
+      "id": "history-mixed-final",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject_positive_final_clause",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_history_mixed_final (test_context_semantics.ContextSemantics.test_history_mixed_final)"
+    },
+    {
+      "adapter": "historical_scope",
+      "adoption_eligible": false,
+      "id": "history-mixed-forecast",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject_forecast_as_measurement",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_history_mixed_forecast (test_context_semantics.ContextSemantics.test_history_mixed_forecast)"
+    },
+    {
+      "adapter": "historical_scope",
+      "adoption_eligible": false,
+      "id": "history-monetary-unknown",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "separate_supported_prefix_and_unknown_limitation",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_history_monetary_unknown (test_context_semantics.ContextSemantics.test_history_monetary_unknown)"
+    },
+    {
+      "adapter": "report_input_availability",
+      "adoption_eligible": false,
+      "id": "availability-context-not-history",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "scoped_support_only",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_availability_context_not_history (test_context_semantics.ContextSemantics.test_availability_context_not_history)"
+    },
+    {
+      "adapter": "report_input_availability",
+      "adoption_eligible": false,
+      "id": "availability-path-not-value",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject_value_availability_inference",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_availability_path_not_value (test_context_semantics.ContextSemantics.test_availability_path_not_value)"
+    },
+    {
+      "adapter": "report_input_availability",
+      "adoption_eligible": false,
+      "id": "availability-other-phase",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "pending_unqualified_absence",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_availability_other_phase (test_context_semantics.ContextSemantics.test_availability_other_phase)"
+    },
+    {
+      "adapter": "report_input_availability",
+      "adoption_eligible": false,
+      "id": "availability-posthoc-context",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_availability_posthoc_context (test_context_semantics.ContextSemantics.test_availability_posthoc_context)"
+    },
+    {
+      "adapter": "report_input_availability",
+      "adoption_eligible": false,
+      "id": "availability-reading-upgrade",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_availability_reading_upgrade (test_context_semantics.ContextSemantics.test_availability_reading_upgrade)"
+    },
+    {
+      "adapter": "derived_metric_arithmetic",
+      "adoption_eligible": false,
+      "id": "gap-valid",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "supported_derived_measured_only",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_gap_valid (test_noncontext_semantics.NoncontextSemantics.test_gap_valid)"
+    },
+    {
+      "adapter": "derived_metric_arithmetic",
+      "adoption_eligible": false,
+      "id": "gap-wrong-split-sign",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_gap_wrong_split_sign (test_noncontext_semantics.NoncontextSemantics.test_gap_wrong_split_sign)"
+    },
+    {
+      "adapter": "derived_metric_arithmetic",
+      "adoption_eligible": false,
+      "id": "gap-ratio-zero",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "unknown_or_reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_gap_ratio_zero (test_noncontext_semantics.NoncontextSemantics.test_gap_ratio_zero)"
+    },
+    {
+      "adapter": "derived_metric_arithmetic",
+      "adoption_eligible": false,
+      "id": "gap-generalization-cause",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject_broad_upgrade",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_gap_generalization_cause (test_noncontext_semantics.NoncontextSemantics.test_gap_generalization_cause)"
+    },
+    {
+      "adapter": "observed_minimum",
+      "adoption_eligible": false,
+      "id": "minimum-pair-subset",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_minimum_pair_subset (test_noncontext_semantics.NoncontextSemantics.test_minimum_pair_subset)"
+    },
+    {
+      "adapter": "source_fact_attribution",
+      "adoption_eligible": false,
+      "id": "literature-valid-template-both",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "supported_attribution_only",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_literature_valid_template_both (test_noncontext_semantics.NoncontextSemantics.test_literature_valid_template_both)"
+    },
+    {
+      "adapter": "source_fact_attribution",
+      "adoption_eligible": false,
+      "id": "literature-paraphrase-extra",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "pending_or_reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_literature_paraphrase_extra (test_noncontext_semantics.NoncontextSemantics.test_literature_paraphrase_extra)"
+    },
+    {
+      "adapter": "source_fact_attribution",
+      "adoption_eligible": false,
+      "id": "literature-reading-copy",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_literature_reading_copy (test_noncontext_semantics.NoncontextSemantics.test_literature_reading_copy)"
+    },
+    {
+      "adapter": "source_fact_attribution",
+      "adoption_eligible": false,
+      "id": "literature-universe",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "pending_if_unqualified",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_literature_universe (test_noncontext_semantics.NoncontextSemantics.test_literature_universe)"
+    },
+    {
+      "adapter": "source_bound_nonresult",
+      "adoption_eligible": false,
+      "id": "planning-question-both",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "classified_nonresult_if_exact_scope",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_planning_question_both (test_context_semantics.ContextSemantics.test_planning_question_both)"
+    },
+    {
+      "adapter": "source_bound_nonresult",
+      "adoption_eligible": false,
+      "id": "planning-past-in-question",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject_nonresult_exclusion",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_planning_past_in_question (test_noncontext_semantics.NoncontextSemantics.test_planning_past_in_question)"
+    },
+    {
+      "adapter": "source_bound_nonresult",
+      "adoption_eligible": false,
+      "id": "planning-normative-minimum",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "different_scope_outcomes",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_planning_normative_minimum (test_noncontext_semantics.NoncontextSemantics.test_planning_normative_minimum)"
+    },
+    {
+      "adapter": "source_bound_nonresult",
+      "adoption_eligible": false,
+      "id": "planning-prior-adjective",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "classified_nonresult_only_with_prior_proof",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_planning_prior_adjective (test_context_semantics.ContextSemantics.test_planning_prior_adjective)"
+    },
+    {
+      "adapter": "source_bound_nonresult",
+      "adoption_eligible": false,
+      "id": "limitation-mixed-positive",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject_positive_clause_exclusion",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_limitation_mixed_positive (test_noncontext_semantics.NoncontextSemantics.test_limitation_mixed_positive)"
+    },
+    {
+      "adapter": "whole_report_coverage",
+      "adoption_eligible": false,
+      "id": "coverage-no-digit-key",
+      "log": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\tests.log",
+        "sha256": "3498bd71092343dec7ec387b0a3178caeada6d9ccef23f7cf5e8323e9d1a7962"
+      },
+      "registered_expected": "reject_missing_span",
+      "scope": "Exact synthetic transport/tiny explicit-array component case; not an actual research result",
+      "status": "engineering_pass",
+      "test_id": "test_coverage_no_digit_key (test_noncontext_semantics.NoncontextSemantics.test_coverage_no_digit_key)"
+    }
+  ],
+  "research_improvement_proven": false,
+  "schema_version": "independent-c7-common-method-component-validation-1",
+  "source_pins": {
+    "context_boundary.py": "a1b7e949deaefbc39651d0937bb494d6ab4052deacb762186833b7397e6f6e27",
+    "evaluation.py": "3dd8b5c96f02a431b2e507798bd8b4072f292c90574c261aee28df5fb54781d1",
+    "report_semantics.py": "bcfb3dc95facb0eeaec52ee5587c512a654a0aebc2316ff9f4ef98c53b06e529",
+    "study.py": "127c4fb4750b21bb32306c9eb462e39ea30409878dd814fbd1a00477dd5f155b"
+  },
+  "status": "registered_component_cases_pass",
+  "supplemental_receipts": [
+    {
+      "path": "work\\c7-independent-validation-v1\\integration-attempt-0005.json",
+      "sha256": "08faca0c11d12def7c8242f336fdb1976859330d6cb906a82b4081b76815157f"
+    },
+    {
+      "path": "work\\c7-independent-validation-v1\\qualification-attempt-0005.json",
+      "sha256": "67b5ed0becfe697bdf499142c9f06b8110cab8234b1cdeecf04c9a056806a1db"
+    },
+    {
+      "path": "work\\c7-independent-validation-v1\\nonresult-qualification-attempt-0003.json",
+      "sha256": "f80a80e1eda95bf784d7d3e1bb85989017a2a68004530d06577a55b519a74a3d"
+    },
+    {
+      "path": "work\\c7-independent-validation-v1\\fixture-settings-attempt-0003.json",
+      "sha256": "4a7a9d7144aabb184eb75291eab39ca6b49cfc8cdce6c10a01a907059fa7d12a"
+    },
+    {
+      "path": "work\\c7-independent-validation-v1\\fact-registry-review-0002.json",
+      "sha256": "092d7e711ae80b8020e238bf9412a7dc6b676d782455d798986148059105e03d"
+    }
+  ],
+  "supplemental_regressions": {
+    "all_nonresult_fixture_report_rejected": true,
+    "empty_report_rejected": true,
+    "finite_synopsis_registry_review_complete": true,
+    "fixture_cpu_arithmetic_production_rejected": true,
+    "integration_metadata_and_external_source_closure": true,
+    "rehashed_caller_actual_labels_rejected": true,
+    "rehashed_full_guard_omission_rejected": true
+  },
+  "total_replayed_tests": 38
+}

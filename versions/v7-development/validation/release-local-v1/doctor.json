@@ -1,0 +1,23 @@
+{
+  "phase": "doctor",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v7-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "evidence_research",
+    "doctor"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v7-development",
+  "exit_code": 0,
+  "seconds": 0.0940000000409782,
+  "stdout": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v7-development\\validation\\release-local-v1\\doctor.stdout.log",
+    "sha256": "419ff8042d1c666cdf1e973aed07bd554f21bf000a7058f723e84a52d90008e6"
+  },
+  "stderr": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v7-development\\validation\\release-local-v1\\doctor.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

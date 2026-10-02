@@ -1,0 +1,1 @@
+{"status": "pass", "tests_run": 38, "failures": 0, "errors": 0, "guards": {"protected_original_accesses": 0, "provider_calls_blocked": 0}, "trusted_cpu_component_executions": 12}

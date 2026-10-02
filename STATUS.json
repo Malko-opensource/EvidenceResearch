@@ -52,7 +52,11 @@
       "purchases_or_resets_performed": false
     }
   },
-  "next": "Continue frozen v5/v6 controllers and independent report reviews. Use only this new matched sampled-development contrast for a separate final design; no final registration or superiority claim yet.",
+  "next": [
+    "Collect and independently review the frozen fresh v7 actual development comparison",
+    "Use complete actual paired evidence to preregister a separate untouched final evaluation",
+    "Keep model replacement effect A unestimated and preserve original pending/failed evidence"
+  ],
   "verified_components": [
     "actual model development loop",
     "five actual CPU component runs",
@@ -152,5 +156,35 @@
     "registration_or_final_evaluation_executed": false,
     "model_access_established_in_installation_checkout": false,
     "scope": "Published engineering fixtures; no research outcome or superiority claim."
+  },
+  "v7_development_release": {
+    "path": "versions/v7-development",
+    "package_version": "0.4.0.dev0",
+    "own_environment_validation": "versions/v7-development/validation/release-local-v1/result.json",
+    "own_environment_validation_sha256": "c69550ba12decf8145b0be36271d3db31304346e9e5676d4e72d8c3bf9d68c62",
+    "release_copy_receipt": "versions/v7-development/release-copy.json",
+    "release_copy_sha256": "43ac31f07e8937fc993ccf4435258dd01392d8b47357f5d6cfbf16e02b38e55d",
+    "source_basis_count": 108,
+    "exact_basis_files": 106,
+    "explicit_derived_documentation_files": 2,
+    "package_modules": 20,
+    "fixed_reference_closure": 38,
+    "source_publication_selection": 71,
+    "runtime_upstream_files_acquired_by_fixed_fetch_script": 35,
+    "optional_legacy_example_files_excluded": 2,
+    "own_venv": true,
+    "user_site_enabled": false,
+    "offline_editable_install": true,
+    "whole_engineering_checks": 263,
+    "unit_phase_wall_seconds": 48.063,
+    "engineering_actual_model_calls": 0,
+    "engineering_research_trials": 0,
+    "protected_source_test_static_reference_files_unchanged": 309,
+    "guard_scope": "Parent Python hook within this repository; allowed archived CPU fixture child replaces PYTHONPATH and is outside the hook. Not OS-wide isolation.",
+    "read_only_doctor_establishes_actual_model_authentication": false,
+    "actual_comparison": "Fresh development preregistered locally; outcomes not adopted; current detailed records excluded from this publication",
+    "report": "docs/v7_development.ko.md",
+    "framework_improvement_proven": false,
+    "final_completed": false
   }
 }

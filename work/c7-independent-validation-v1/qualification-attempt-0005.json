@@ -1,0 +1,70 @@
+{
+  "actual_provider_calls": 0,
+  "caller_label_error": "semantic predicate result differs from independent recomputation",
+  "candidate_report_semantics_sha256": "bcfb3dc95facb0eeaec52ee5587c512a654a0aebc2316ff9f4ef98c53b06e529",
+  "case": "fixture_cpu_arithmetic_production_qualification",
+  "coverage_and_qualification": {
+    "claims": 1,
+    "inventory": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\bctx0001\\C\\qualification-05\\inventory.json",
+      "sha256": "84237c45bdbe2b54cb9f0cc67b5ef3aeec0f3851558f3991c41af09d448e6483"
+    },
+    "limits": "fixed predicates validate evidence and scope; exhaustive interpretation is an accountable independent reviewer judgement, not automatic NLP entailment or authenticated human identity; copied corpus and references do not prove agent reading or comprehension",
+    "nonactual_original_provenance": [
+      {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\bctx0001\\C\\callback-registration.json",
+        "sha256": "06e6ed45724105de835eabe422e54263d5e0681e1306764f4749872fc630af97"
+      },
+      {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\bctx0001\\C\\model\\improved-0000\\result.json",
+        "sha256": "f7f7a42b35caceb157236bd18a8c3f074870a7dff127727273f764bdc92fc8c8"
+      },
+      {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\bctx0001\\C\\model\\improved-0001\\result.json",
+        "sha256": "54342f87d596ccd93808c0757706951ad8a954c9cde88bf48bbf5cb39b5d4708"
+      },
+      {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\bctx0001\\C\\model\\improved-0002\\result.json",
+        "sha256": "0711838a19eba36e56e755c28046c66ce2f7e89809e5bde92eefa11025132bc8"
+      },
+      {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\bctx0001\\C\\research\\runs\\cpu-0\\registered_spec.json",
+        "sha256": "8cb502c2b1beea8576ec1ee290466d6a6784b032bf335f3521944167423076d8"
+      },
+      {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\bctx0001\\C\\research\\runs\\cpu-1\\registered_spec.json",
+        "sha256": "6b3a9b50220c9791e34102f5995766203ad7cf0c984f8c09bbc0770064ed39b2"
+      }
+    ],
+    "pending_items": 0,
+    "predicate_source": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c7\\evidence_research\\report_semantics.py",
+      "sha256": "bcfb3dc95facb0eeaec52ee5587c512a654a0aebc2316ff9f4ef98c53b06e529"
+    },
+    "report": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\bctx0001\\C\\qualification-05\\report.txt",
+      "sha256": "203b6a3fe20a8f7b47e60def534cb146b8006d770d3ecf9c98cd715aaca52f02"
+    },
+    "review": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\bctx0001\\C\\qualification-05\\review.json",
+      "sha256": "aba9ad1ccb39609825a062c9397a7ed01250500a0c02b02bbd91d91cfdcd9b8f"
+    },
+    "review_coverage_complete": true,
+    "review_usage": null,
+    "review_wall_seconds": null,
+    "semantic_evidence_qualification": "component_fixture",
+    "semantic_report_audit_complete": false,
+    "units": 1,
+    "unsupported_semantic_result_claims": 0
+  },
+  "error": "independent semantic review is pending or lacks actual eligible evidence",
+  "explicit_cpu_spec": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\bctx0001\\C\\research\\runs\\cpu-0\\registered_spec.json",
+  "new_cpu_executions": 0,
+  "owner_private_reads": false,
+  "production_rejected": true,
+  "rehashed_caller_actual_labels_rejected": true,
+  "research_trials": 0,
+  "schema_version": "independent-explicit-fixture-qualification-attack-1",
+  "spec_fixture_only": true,
+  "spec_sha256": "8cb502c2b1beea8576ec1ee290466d6a6784b032bf335f3521944167423076d8"
+}

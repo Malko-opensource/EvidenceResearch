@@ -1,0 +1,84 @@
+{
+  "acquired_date": "2026-10-03",
+  "kind": "authored_primary_source_synopses_future_study",
+  "source_inspection": "Original sources directly inspected at the per-record scope. The added Craven/Wahba record is based on the publisher original Summary only; its downloaded scan full text is not claimed read.",
+  "publication": "Bibliographic links and short authored source synopses only. Added copyrighted PDF/scan acquisition is read-only local reference; no full-text redistribution. This file is not the active minimal-pilot literature input.",
+  "records": [
+    {
+      "id": "1910.02373v2",
+      "title": "Ridge Regression: Structure, Cross-Validation, and Sketching",
+      "authors": [
+        "Sifan Liu",
+        "Edgar Dobriban"
+      ],
+      "url": "https://arxiv.org/html/1910.02373v2",
+      "abstract": "The study analyzes ridge estimation, regularization selection through cross-validation, and sketching approximations.",
+      "text": "Frozen source synopsis, not a full-text copy. Ridge Regression: Structure, Cross-Validation, and Sketching, sections 2 and 3, studies squared-error fitting with a quadratic coefficient penalty and selection of regularization through held-out/cross-validation error. The closed-form ridge solution depends on the feature covariance and regularization strength. The paper discusses validation bias in a high-dimensional asymptotic regime. It does not identify an optimal polynomial degree or alpha for this task; those must be measured from the supplied public training and validation data. Mathematical facts are literature context, not local experimental evidence."
+    },
+    {
+      "id": "2501.04227v2",
+      "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+      "url": "https://arxiv.org/abs/2501.04227v2",
+      "abstract": "Specialized agents perform literature review, planning, code experimentation, interpretation, and research reporting.",
+      "text": "Literature claim from Agent Laboratory section 3: experiments execute generated code; an LLM reward model guides code selection. Its section 5 discusses self-evaluation and hallucinated results. This is not independent evidence of task performance here."
+    },
+    {
+      "id": "2503.18102v1",
+      "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+      "url": "https://arxiv.org/abs/2503.18102v1",
+      "abstract": "Agent laboratories share and retrieve prior reports using a local preprint server and similarity-based retrieval.",
+      "text": "Literature claim from AgentRxiv section 3: agents retrieve reports through a SentenceTransformer similarity search. Section 4.1 reports hallucination/reward-hacking risks and human checking of experimental outputs. Retrieved reports require verification before adoption."
+    },
+    {
+      "id": "hoerl-kennard-1970",
+      "title": "Ridge Regression: Biased Estimation for Nonorthogonal Problems",
+      "authors": [
+        "Arthur E. Hoerl",
+        "Robert W. Kennard"
+      ],
+      "url": "https://doi.org/10.1080/00401706.1970.10488634",
+      "abstract": "The original study motivates regularization for ill-conditioned regression designs and analyzes the bias and variance of ridge estimates.",
+      "text": "Frozen authored source synopsis, not a full-text copy. The original paper considers linear regression when the feature covariance is poorly conditioned. Adding a nonnegative diagonal term yields biased ridge coefficient estimates. Sections on ridge regression and mean-square error analyze how regularization can reduce estimator variance while introducing bias, and present a ridge trace for sensitivity analysis. These parameter-estimation results motivate comparing regularized and unregularized polynomial features. They do not establish that any chosen degree or penalty improves validation prediction on the supplied task. That claim requires actual trusted-host measurements under the fixed train/validation split.",
+      "source_inspection": {
+        "kind": "original_pdf_text_sections",
+        "scope": "Original PDF header/introduction and ridge/MSE sections directly inspected through extracted text; equations have OCR noise and are not transcribed as exact formulas.",
+        "primary_url": "https://homepages.math.uic.edu/~lreyzin/papers/ridge.pdf",
+        "local_acquisition_sha256": "b7e6262bf3ac50d0da28572319f35f2b39493e97946ddafbac5ad2d979904f4d",
+        "text_extraction_sha256": "ac34abd84f075364d9594b807933bf4f5d6461640bd354c1b1a977875b7adc02"
+      },
+      "doi": "10.1080/00401706.1970.10488634",
+      "year_metadata": 1970,
+      "applicability": "Ill-conditioned linear coefficient estimation; motivation for a measured polynomial-ridge comparison, not a task optimum or a local result."
+    },
+    {
+      "id": "craven-wahba-1978",
+      "title": "Smoothing noisy data with spline functions: Estimating the correct degree of smoothing by the method of generalized cross-validation",
+      "authors": [
+        "Peter Craven",
+        "Grace Wahba"
+      ],
+      "url": "https://link.springer.com/article/10.1007/BF01404567",
+      "abstract": "The publisher original Summary describes choosing smoothing strength for noisy observations by generalized cross-validation.",
+      "text": "Frozen authored source synopsis based only on the publisher original Summary, not a full-paper reproduction. The paper considers smoothing splines with a squared fitting error and a roughness penalty. Generalized cross-validation selects the smoothing parameter using residual error adjusted by the smoothing matrix trace, aiming to approximate prediction-risk selection without requiring a known noise variance. The stated analysis uses regular-mesh and asymptotic assumptions. This supports treating regularization selection as an evidence-dependent task, but it neither evaluates the supplied polynomial ridge implementation nor supplies local validation measurements. Spline smoothness, polynomial degree and ridge coefficient penalty are different controls; no equivalence or guaranteed improvement is assumed.",
+      "source_inspection": {
+        "kind": "publisher_original_summary_only",
+        "scope": "Springer original Summary directly inspected. Author-hosted27-page scan downloaded, but extraction was not readable and scan full text has not been inspected.",
+        "primary_url": "https://link.springer.com/article/10.1007/BF01404567",
+        "author_pdf_url": "https://pages.stat.wisc.edu/~wahba/stat860public/pdf1/craven.wahba.pdf",
+        "local_acquisition_sha256": "87ed21f00466636a51e3c21ff0ba9048cb07df322e5745c8fd8bdc9472e7416d"
+      },
+      "doi": "10.1007/BF01404567",
+      "year_metadata": {
+        "publisher_issue": 1978,
+        "publisher_issue_month": "December",
+        "author_scan_front_page": 1979,
+        "resolution": "Both original metadata readings are recorded; no invented reconciliation."
+      },
+      "applicability": "Generalized cross-validation for smoothing splines; conceptual motivation for selecting regularization from evidence, not proof of polynomial-ridge performance."
+    }
+  ],
+  "records_sha256": "cc1c0f836fd87b4566b2d9a14087893e5109878c8ea5414e69f4b5542255c2e3",
+  "prepared_at": "2026-10-02T15:14:36.598742+00:00",
+  "active_study_input": false,
+  "source_acquisition_receipt": "evidence/additional-literature-acquisition.json"
+}

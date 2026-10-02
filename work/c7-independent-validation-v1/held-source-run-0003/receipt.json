@@ -1,0 +1,40 @@
+{
+  "actual_provider_calls": 0,
+  "actual_research_improvement": false,
+  "candidate_source_stable": true,
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c7-independent-validation-v1\\held-source-run-0003\\fixture-snapshot\\reproduce_components.py",
+    "--capsule",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c7-independent-validation-v1\\held-source-run-0003",
+    "--output",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003"
+  ],
+  "component_result": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\t7\\rctx0003\\result.json",
+    "sha256": "988302c4f9544ede564bdcc50875b1627e8e777e4eaf68df8a97b3b245d6dfba"
+  },
+  "component_result_summary": {
+    "errors": 0,
+    "failures": 0,
+    "guards": {
+      "protected_original_accesses": 0,
+      "provider_calls_blocked": 0
+    },
+    "status": "pass",
+    "tests_run": 38,
+    "trusted_cpu_component_executions": 12
+  },
+  "frozen_changed": [],
+  "goal_complete": false,
+  "owner_private_reads": false,
+  "research_trials": 0,
+  "returncode": 0,
+  "schema_version": "independent-held-source-run-receipt-1",
+  "scope": "Independent engineering component validation against exact captured source; no actual research trial or superiority result.",
+  "source_manifest_sha256": "8cd4412f647572f8b39a2b69aef615fb19c70665a9e1027b310a214d3e996cc0",
+  "status": "component_pass"
+}

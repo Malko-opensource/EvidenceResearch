@@ -1,0 +1,22 @@
+{
+  "phase": "fixed-references",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v7-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-c",
+    "import json;from evidence_research.baseline import frozen_upstream_sources;from evidence_research.report_semantics import FACT_REGISTRY_SHA256,FACT_CORPUS_SHA256;print(json.dumps({\"fixed_upstream\":frozen_upstream_sources(),\"registry\":FACT_REGISTRY_SHA256,\"corpus\":FACT_CORPUS_SHA256}))"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v7-development",
+  "exit_code": 0,
+  "seconds": 0.125,
+  "stdout": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v7-development\\validation\\release-local-v1\\fixed-references.stdout.log",
+    "sha256": "54735bcb31f8a0e3bc609470baeb74415a431c34764369c63fe3f5a743a5bd97"
+  },
+  "stderr": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v7-development\\validation\\release-local-v1\\fixed-references.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

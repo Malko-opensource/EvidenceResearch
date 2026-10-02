@@ -1,0 +1,406 @@
+{
+  "adoption_eligible": false,
+  "candidate_source_before": {
+    "evidence_research\\__init__.py": "49cf38d4903fc1248d89127b76c7d27985a1cda9c57ed0e16ecab489cfd4c7cf",
+    "evidence_research\\__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "evidence_research\\arms.py": "9d508d83163156aaca411ea5d1880c7e8a7fb69a6b7d72c22941c48e863ed3e1",
+    "evidence_research\\baseline.py": "5758651d13749705e75d3cbd3f509c01e4d246e154ee99f969b8aeefab74cde0",
+    "evidence_research\\cli.py": "fe0d387c70040b597a376d05bdda4ffb07e8e900c2485976a2da9b168cdd0a22",
+    "evidence_research\\comparison_arms.py": "47f8bfe5647ba23a611f75027c5365b0bb6867edc06ef3959daa7172edd3408f",
+    "evidence_research\\context_boundary.py": "a1b7e949deaefbc39651d0937bb494d6ab4052deacb762186833b7397e6f6e27",
+    "evidence_research\\engine.py": "7b141d3fdbb6354b057c947fd7faeb47a4740b03659c8812c469eac28ff19851",
+    "evidence_research\\evaluation.py": "3dd8b5c96f02a431b2e507798bd8b4072f292c90574c261aee28df5fb54781d1",
+    "evidence_research\\model.py": "21a4b73168428ad4795db55d6c95c2d7f3f2e7c44e0d9bc80fbc9e6a5e8a8131",
+    "evidence_research\\model_attempt_audit.py": "3d46151d4388b25373e5c9c6518be49279306484900515cbe69f281824aedee8",
+    "evidence_research\\model_request_audit.py": "25eafd1f0d85be77997f0bb2de07f9f9a8f229a17e19a95b661c79e917b0ce12",
+    "evidence_research\\proposer.py": "3363c3236ed975174aa22f187a634014e0e86c904926f448bd64ab24e76d14a4",
+    "evidence_research\\report_contract.py": "71cb6fd95b65148b796ed7c491a1b0c958e435df3e73dc4018c587ef87ee144c",
+    "evidence_research\\report_semantics.py": "bcfb3dc95facb0eeaec52ee5587c512a654a0aebc2316ff9f4ef98c53b06e529",
+    "evidence_research\\selection.py": "163905588a7f9089b953d4b5ab01589dd97c47fc94be716c84f75873a20cd2a4",
+    "evidence_research\\store.py": "d9a5df829170a9e58285bbcda4d12f6c753968e95f0148a5f28f20db0d891ee6",
+    "evidence_research\\study.py": "127c4fb4750b21bb32306c9eb462e39ea30409878dd814fbd1a00477dd5f155b",
+    "evidence_research\\tasks.py": "f7b56e070b70c3a2f5222701b61152a82a29d4f54da2493f65af10bad936c04a",
+    "evidence_research\\verifier.py": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05",
+    "references\\manifest.json": "2b02fc8f6d2fef3f46758cb2e6855686371c94ac055298badf7d2f8970c3587f",
+    "references\\source_facts_c7.json": "54217c18c38a544c9ee1094eb772170914d3f0277f9ba88ffd4192d236344907",
+    "references\\task_literature_v2.json": "64d0f27c0faae3d18fb4a57e24de80c2612ee0785936ddfa79f754aa91c6e5c9",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\.gitignore": "ff258351f2e19e200272248b92b883c1ff82e57a24ab9306bb6d18ffe7d2dbba",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\LICENSE": "bf38a159d01e82d58f986c2d6dd06e03ba0b9cd59a6d286dd94109aac358e583",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\README.md": "8e1d25ccec75959f18d9326656cba4cf041b7e45eb06a2c0d8999ef516a2edeb",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\agents.py": "d8d1eda040eb1fa897d84596a1b36f277e83da75433c1a9ac2d9efe5be5c749a",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\ai_lab_repo.py": "799a3c078d835cd632487f52ed5b8e9f155bb9514ca104a30442ecfbcb7765ff",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\app.py": "3015bcf64679caa122eac01ba9afff1ab7736fe83385518017ec95f68b5b65ff",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\common_imports.py": "620cdb11f91540f87dee2d61a413c5271ebc428485703b838441ef3f6f4c3e42",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\experiment_configs\\MATH_agentlab.yaml": "3c05ba7a537c4b990a324cc18af81d9b3f699c41cb63507e55027ccee7b779f4",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\experiment_configs\\MATH_agentrxiv.yaml": "38b593838daed217afb165d1bc5c26645ebfa24fe6c04376502ccbaa1cddbfad",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\inference.py": "9f34099f0f1e7e548c7798887d9b33da6cfeef552d16e720fce343db423a5b2e",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\media\\AgentLab.png": "8c779332fc9da2a6a872ea5df7a9a8a0a3575a24799df1f2923c235a443b5a37",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\media\\AgentLabLogo.png": "aaa800396e829c5592e3b6ceef59e8fee9c57205e895b2b1cc78b4662df57451",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\media\\AgentLabWF.png": "2a5b19e31ca573d4a36ca47e66202f0a1e53192dbfc4385ed8bbf2e8a1144150",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\media\\agentrxiv.png": "64683b7e1c0f523527843b63a01135a1145c1116e2cf867139d3ecc61fd56ffa",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\mlesolver.py": "cc110f2b07642532cca11bd8cbf74becfc41016c7f876c16f6d40379ec59882c",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\papersolver.py": "8c16d68577570fbf6332d3f070e5aec975ed3fd3e1440918940f16eb8911366c",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-arabic.md": "4591174adc08404a3cd9d3aa3a29320c31fcfd9c3e12d15d62d1da1fe8141fec",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-bengali.md": "e843b1bf47fab932d360d5a0260a77fd7481dc4697d48e29b432c97fc16e4d93",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-chinese.md": "b7b2db2020de3bad1e1df5480ffe0ef6161c2a9f002561f0595e0ebefa511359",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-farsi.md": "83f8b864919150ae39adaa804796d9a2c1892c19fec70a845cafab3c07ddf3b1",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-filipino.md": "18b39e8e924db5075eec991da55a4164717bff2e9f72682f2bd3fbe3cc11cce7",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-french.md": "1e00dca6a8daf9388ea35efbb3fbe2e34a5691c499dfaa121f69d75f2d1f8afa",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-hindi.md": "7eb1603f6cecd0505c185b7f075d1b1bf54907f1894c6bbcfd8c27140edf85c7",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-italian.md": "2376242a73551f644e6858eef40731d16e9fd390c01ca4d5e054b0ad32e1ff24",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-japanese.md": "88dddf18c47cc745a24b29f9ede6a92749752c5a4cccc67f3cf2f36f02b0b86f",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-korean.md": "343d1953c93ed22dd15fcb954b2e0671567208c9122a07b31fee5747aa5314fe",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-portugues.md": "6da9206ff4e57620824eac65f983db2dcd475083d0559f83ae4fae4d59889e64",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-russian.md": "98fdad8de23cd27c2520e5bc6376f1f997820e36ce6aec8df793c55d4876cba5",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-slovak.md": "a4e32e77a08f3020f584f7dc253bb05cad74d5268f77b5078f5f79b5bfd429e3",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-spanish.md": "bbebd9a76658cfe5955c55792fdef1ca78b41c930e7270b288390f9bd2cb303f",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-turkish.md": "d692011134271fe5f494d76d17c7eee40e87640cbce68561719b750dbbab454a",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\readme\\README-vietnamese.md": "1d3b9bfac57e8e49a0392b9b68c47a3ea6185c0b2c7540d7aa620d0e3d41aa3e",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\requirements.txt": "8c9f6a532faf44c83aafe64a2e00add6fa7db9757bdb954309bf9e474a68b390",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\tools.py": "171b36dd2507add4acb3c4608d2acc5f9d9cd7bc4631264d23efd40c3c816d23",
+    "references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27\\utils.py": "ea23c00695613ab346ac6646f69dbf2b0972efda7c1cafeccd5ffdb4f5f439c8"
+  },
+  "case_plan_sha256": "cbe5916a919a59e85fb741c2c412e334c9a757cecccfb45c7270e7fd9160ab2b",
+  "component_only": true,
+  "context_peer_held_sha256": "a1b7e949deaefbc39651d0937bb494d6ab4052deacb762186833b7397e6f6e27",
+  "extra_regression_case_count": 2,
+  "files": [
+    {
+      "bytes": 322,
+      "path": "source-snapshot/evidence_research/__init__.py",
+      "sha256": "49cf38d4903fc1248d89127b76c7d27985a1cda9c57ed0e16ecab489cfd4c7cf"
+    },
+    {
+      "bytes": 48,
+      "path": "source-snapshot/evidence_research/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "bytes": 84437,
+      "path": "source-snapshot/evidence_research/arms.py",
+      "sha256": "9d508d83163156aaca411ea5d1880c7e8a7fb69a6b7d72c22941c48e863ed3e1"
+    },
+    {
+      "bytes": 53370,
+      "path": "source-snapshot/evidence_research/baseline.py",
+      "sha256": "5758651d13749705e75d3cbd3f509c01e4d246e154ee99f969b8aeefab74cde0"
+    },
+    {
+      "bytes": 7967,
+      "path": "source-snapshot/evidence_research/cli.py",
+      "sha256": "fe0d387c70040b597a376d05bdda4ffb07e8e900c2485976a2da9b168cdd0a22"
+    },
+    {
+      "bytes": 52187,
+      "path": "source-snapshot/evidence_research/comparison_arms.py",
+      "sha256": "47f8bfe5647ba23a611f75027c5365b0bb6867edc06ef3959daa7172edd3408f"
+    },
+    {
+      "bytes": 34907,
+      "path": "source-snapshot/evidence_research/context_boundary.py",
+      "sha256": "a1b7e949deaefbc39651d0937bb494d6ab4052deacb762186833b7397e6f6e27"
+    },
+    {
+      "bytes": 8601,
+      "path": "source-snapshot/evidence_research/engine.py",
+      "sha256": "7b141d3fdbb6354b057c947fd7faeb47a4740b03659c8812c469eac28ff19851"
+    },
+    {
+      "bytes": 111757,
+      "path": "source-snapshot/evidence_research/evaluation.py",
+      "sha256": "3dd8b5c96f02a431b2e507798bd8b4072f292c90574c261aee28df5fb54781d1"
+    },
+    {
+      "bytes": 9471,
+      "path": "source-snapshot/evidence_research/model.py",
+      "sha256": "21a4b73168428ad4795db55d6c95c2d7f3f2e7c44e0d9bc80fbc9e6a5e8a8131"
+    },
+    {
+      "bytes": 10976,
+      "path": "source-snapshot/evidence_research/model_attempt_audit.py",
+      "sha256": "3d46151d4388b25373e5c9c6518be49279306484900515cbe69f281824aedee8"
+    },
+    {
+      "bytes": 5017,
+      "path": "source-snapshot/evidence_research/model_request_audit.py",
+      "sha256": "25eafd1f0d85be77997f0bb2de07f9f9a8f229a17e19a95b661c79e917b0ce12"
+    },
+    {
+      "bytes": 4842,
+      "path": "source-snapshot/evidence_research/proposer.py",
+      "sha256": "3363c3236ed975174aa22f187a634014e0e86c904926f448bd64ab24e76d14a4"
+    },
+    {
+      "bytes": 6349,
+      "path": "source-snapshot/evidence_research/report_contract.py",
+      "sha256": "71cb6fd95b65148b796ed7c491a1b0c958e435df3e73dc4018c587ef87ee144c"
+    },
+    {
+      "bytes": 84287,
+      "path": "source-snapshot/evidence_research/report_semantics.py",
+      "sha256": "bcfb3dc95facb0eeaec52ee5587c512a654a0aebc2316ff9f4ef98c53b06e529"
+    },
+    {
+      "bytes": 3516,
+      "path": "source-snapshot/evidence_research/selection.py",
+      "sha256": "163905588a7f9089b953d4b5ab01589dd97c47fc94be716c84f75873a20cd2a4"
+    },
+    {
+      "bytes": 37875,
+      "path": "source-snapshot/evidence_research/store.py",
+      "sha256": "d9a5df829170a9e58285bbcda4d12f6c753968e95f0148a5f28f20db0d891ee6"
+    },
+    {
+      "bytes": 47395,
+      "path": "source-snapshot/evidence_research/study.py",
+      "sha256": "127c4fb4750b21bb32306c9eb462e39ea30409878dd814fbd1a00477dd5f155b"
+    },
+    {
+      "bytes": 18182,
+      "path": "source-snapshot/evidence_research/tasks.py",
+      "sha256": "f7b56e070b70c3a2f5222701b61152a82a29d4f54da2493f65af10bad936c04a"
+    },
+    {
+      "bytes": 12655,
+      "path": "source-snapshot/evidence_research/verifier.py",
+      "sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+    },
+    {
+      "bytes": 19547,
+      "path": "source-snapshot/references/manifest.json",
+      "sha256": "2b02fc8f6d2fef3f46758cb2e6855686371c94ac055298badf7d2f8970c3587f"
+    },
+    {
+      "bytes": 11008,
+      "path": "source-snapshot/references/source_facts_c7.json",
+      "sha256": "54217c18c38a544c9ee1094eb772170914d3f0277f9ba88ffd4192d236344907"
+    },
+    {
+      "bytes": 7449,
+      "path": "source-snapshot/references/task_literature_v2.json",
+      "sha256": "64d0f27c0faae3d18fb4a57e24de80c2612ee0785936ddfa79f754aa91c6e5c9"
+    },
+    {
+      "bytes": 155,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/.gitignore",
+      "sha256": "ff258351f2e19e200272248b92b883c1ff82e57a24ab9306bb6d18ffe7d2dbba"
+    },
+    {
+      "bytes": 52333,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/agents.py",
+      "sha256": "d8d1eda040eb1fa897d84596a1b36f277e83da75433c1a9ac2d9efe5be5c749a"
+    },
+    {
+      "bytes": 45580,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/ai_lab_repo.py",
+      "sha256": "799a3c078d835cd632487f52ed5b8e9f155bb9514ca104a30442ecfbcb7765ff"
+    },
+    {
+      "bytes": 6870,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/app.py",
+      "sha256": "3015bcf64679caa122eac01ba9afff1ab7736fe83385518017ec95f68b5b65ff"
+    },
+    {
+      "bytes": 2797,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/common_imports.py",
+      "sha256": "620cdb11f91540f87dee2d61a413c5271ebc428485703b838441ef3f6f4c3e42"
+    },
+    {
+      "bytes": 5296,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/experiment_configs/MATH_agentlab.yaml",
+      "sha256": "3c05ba7a537c4b990a324cc18af81d9b3f699c41cb63507e55027ccee7b779f4"
+    },
+    {
+      "bytes": 5361,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/experiment_configs/MATH_agentrxiv.yaml",
+      "sha256": "38b593838daed217afb165d1bc5c26645ebfa24fe6c04376502ccbaa1cddbfad"
+    },
+    {
+      "bytes": 10412,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/inference.py",
+      "sha256": "9f34099f0f1e7e548c7798887d9b33da6cfeef552d16e720fce343db423a5b2e"
+    },
+    {
+      "bytes": 1073,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/LICENSE",
+      "sha256": "bf38a159d01e82d58f986c2d6dd06e03ba0b9cd59a6d286dd94109aac358e583"
+    },
+    {
+      "bytes": 489404,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLab.png",
+      "sha256": "8c779332fc9da2a6a872ea5df7a9a8a0a3575a24799df1f2923c235a443b5a37"
+    },
+    {
+      "bytes": 126415,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLabLogo.png",
+      "sha256": "aaa800396e829c5592e3b6ceef59e8fee9c57205e895b2b1cc78b4662df57451"
+    },
+    {
+      "bytes": 342392,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/AgentLabWF.png",
+      "sha256": "2a5b19e31ca573d4a36ca47e66202f0a1e53192dbfc4385ed8bbf2e8a1144150"
+    },
+    {
+      "bytes": 306621,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/media/agentrxiv.png",
+      "sha256": "64683b7e1c0f523527843b63a01135a1145c1116e2cf867139d3ecc61fd56ffa"
+    },
+    {
+      "bytes": 33070,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/mlesolver.py",
+      "sha256": "cc110f2b07642532cca11bd8cbf74becfc41016c7f876c16f6d40379ec59882c"
+    },
+    {
+      "bytes": 33486,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/papersolver.py",
+      "sha256": "8c16d68577570fbf6332d3f070e5aec975ed3fd3e1440918940f16eb8911366c"
+    },
+    {
+      "bytes": 12208,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-arabic.md",
+      "sha256": "4591174adc08404a3cd9d3aa3a29320c31fcfd9c3e12d15d62d1da1fe8141fec"
+    },
+    {
+      "bytes": 18232,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-bengali.md",
+      "sha256": "e843b1bf47fab932d360d5a0260a77fd7481dc4697d48e29b432c97fc16e4d93"
+    },
+    {
+      "bytes": 8977,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-chinese.md",
+      "sha256": "b7b2db2020de3bad1e1df5480ffe0ef6161c2a9f002561f0595e0ebefa511359"
+    },
+    {
+      "bytes": 13550,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-farsi.md",
+      "sha256": "83f8b864919150ae39adaa804796d9a2c1892c19fec70a845cafab3c07ddf3b1"
+    },
+    {
+      "bytes": 11006,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-filipino.md",
+      "sha256": "18b39e8e924db5075eec991da55a4164717bff2e9f72682f2bd3fbe3cc11cce7"
+    },
+    {
+      "bytes": 11092,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-french.md",
+      "sha256": "1e00dca6a8daf9388ea35efbb3fbe2e34a5691c499dfaa121f69d75f2d1f8afa"
+    },
+    {
+      "bytes": 17806,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-hindi.md",
+      "sha256": "7eb1603f6cecd0505c185b7f075d1b1bf54907f1894c6bbcfd8c27140edf85c7"
+    },
+    {
+      "bytes": 10424,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-italian.md",
+      "sha256": "2376242a73551f644e6858eef40731d16e9fd390c01ca4d5e054b0ad32e1ff24"
+    },
+    {
+      "bytes": 10942,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-japanese.md",
+      "sha256": "88dddf18c47cc745a24b29f9ede6a92749752c5a4cccc67f3cf2f36f02b0b86f"
+    },
+    {
+      "bytes": 10612,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-korean.md",
+      "sha256": "343d1953c93ed22dd15fcb954b2e0671567208c9122a07b31fee5747aa5314fe"
+    },
+    {
+      "bytes": 10509,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-portugues.md",
+      "sha256": "6da9206ff4e57620824eac65f983db2dcd475083d0559f83ae4fae4d59889e64"
+    },
+    {
+      "bytes": 15384,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-russian.md",
+      "sha256": "98fdad8de23cd27c2520e5bc6376f1f997820e36ce6aec8df793c55d4876cba5"
+    },
+    {
+      "bytes": 10360,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-slovak.md",
+      "sha256": "a4e32e77a08f3020f584f7dc253bb05cad74d5268f77b5078f5f79b5bfd429e3"
+    },
+    {
+      "bytes": 10617,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-spanish.md",
+      "sha256": "bbebd9a76658cfe5955c55792fdef1ca78b41c930e7270b288390f9bd2cb303f"
+    },
+    {
+      "bytes": 10508,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-turkish.md",
+      "sha256": "d692011134271fe5f494d76d17c7eee40e87640cbce68561719b750dbbab454a"
+    },
+    {
+      "bytes": 11783,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/readme/README-vietnamese.md",
+      "sha256": "1d3b9bfac57e8e49a0392b9b68c47a3ea6185c0b2c7540d7aa620d0e3d41aa3e"
+    },
+    {
+      "bytes": 10123,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/README.md",
+      "sha256": "8e1d25ccec75959f18d9326656cba4cf041b7e45eb06a2c0d8999ef516a2edeb"
+    },
+    {
+      "bytes": 2265,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/requirements.txt",
+      "sha256": "8c9f6a532faf44c83aafe64a2e00add6fa7db9757bdb954309bf9e474a68b390"
+    },
+    {
+      "bytes": 13410,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/tools.py",
+      "sha256": "171b36dd2507add4acb3c4608d2acc5f9d9cd7bc4631264d23efd40c3c816d23"
+    },
+    {
+      "bytes": 16770,
+      "path": "source-snapshot/references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/utils.py",
+      "sha256": "ea23c00695613ab346ac6646f69dbf2b0972efda7c1cafeccd5ffdb4f5f439c8"
+    },
+    {
+      "bytes": 11279,
+      "path": "fixture-snapshot/transport_fixture.py",
+      "sha256": "78bc5c8f2b06da54d8cdeb89c786f9abc3687f53d2e017fc9712b4e708e5a9e2"
+    },
+    {
+      "bytes": 24705,
+      "path": "fixture-snapshot/test_context_semantics.py",
+      "sha256": "24deec39b031edef748d5c75554ee97e293ec82fa88466d052c6e359ccca4d58"
+    },
+    {
+      "bytes": 12804,
+      "path": "fixture-snapshot/test_noncontext_semantics.py",
+      "sha256": "b9fed443c36aba7ad679a30e4e6a6d5dc40259145af39b6d0989c5cf5bbac40c"
+    },
+    {
+      "bytes": 3999,
+      "path": "fixture-snapshot/reproduce_components.py",
+      "sha256": "a46bd8b713fe182e9ccdca55efff0f1f4cd3178f4ef32eae76305411137269e0"
+    },
+    {
+      "bytes": 4816,
+      "path": "prospective-pins/c7-method-registration-v1.json",
+      "sha256": "2256eca0decfd566006cfacc60ba9ddc8ffc8543b8fd5aa9f51f21f044d1bdef"
+    },
+    {
+      "bytes": 9542,
+      "path": "prospective-pins/fixture-plan.json",
+      "sha256": "cbe5916a919a59e85fb741c2c412e334c9a757cecccfb45c7270e7fd9160ab2b"
+    },
+    {
+      "bytes": 24933,
+      "path": "prospective-pins/manifest.json",
+      "sha256": "cc64059988d82cb51b7e47e67a69289f468aa926aa19b8b7c26a7e0286eeb922"
+    }
+  ],
+  "original_case_count": 36,
+  "protected_original_roots": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence_research",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v6-development",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c6",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c7",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs"
+  ],
+  "registration_sha256": "2256eca0decfd566006cfacc60ba9ddc8ffc8543b8fd5aa9f51f21f044d1bdef",
+  "schema_version": "independent-held-source-component-snapshot-1",
+  "semantics_peer_held_sha256": "bcfb3dc95facb0eeaec52ee5587c512a654a0aebc2316ff9f4ef98c53b06e529"
+}

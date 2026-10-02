@@ -1,0 +1,40 @@
+{
+  "kind": "version7_release_execution_contract",
+  "basis_before_sha256": "a2a4eaf635c8618a8ca45f8b6686059554a7b31058f0a9571dc5c9cf4dbe8bd0",
+  "target": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v7-development",
+  "actions": [
+    "copy",
+    "install_validate"
+  ],
+  "independent_case_review_complete": true,
+  "independent_review": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c7-independent-validation-v1\\result.json",
+    "sha256": "3d8cfe321575d687f69f14966f020743d4ec3b56f55c3986861eb0b196f85ba0"
+  },
+  "no_actual_research": true,
+  "document_overrides": [
+    {
+      "relative": "README.md",
+      "basis_sha256": "ba9e48893a7f6d9318df55e8d25aec9862c16a8f95cfef31b7ceaa56fc0da460",
+      "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c7-release-preparation-v1\\public-docs\\README.md",
+      "sha256": "d20672808de62ec7025c4812e2bb8b9fa6769514268ec0bb4088cb823511b6ff",
+      "qualification": "publication_scope_derived_documentation"
+    },
+    {
+      "relative": "docs/c7_development_status.ko.md",
+      "basis_sha256": "da23b72df4d632bd0531906b5fa9c23fabea5a8ddf0bb85e251861fc575ba51f",
+      "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c7-release-preparation-v1\\public-docs\\c7_development_status.ko.md",
+      "sha256": "5d80600ed67baf1ef421fab691b692348d552c57bcb1f27bb7e6b4aa225c12b7",
+      "qualification": "publication_scope_derived_documentation"
+    }
+  ],
+  "parent_evidence_check": {
+    "independent_manifest_sha256": "efb8f56b6f3b5d97a25b72233995d17b8c82cff5057bfdcfc02ace91a3d726fa",
+    "files_checked": 255,
+    "registered_cases": 36,
+    "additional_regressions": 2,
+    "whole_checks": 263
+  },
+  "authorization_scope": "Existing user Goal authorization: new isolated code/environment engineering only; no actual research or publication by this contract",
+  "created_utc": "2026-10-02T20:14:15.921399+00:00"
+}

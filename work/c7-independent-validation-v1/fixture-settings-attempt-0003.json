@@ -1,0 +1,136 @@
+{
+  "actual_provider_calls": 0,
+  "all_outer_hashes_recomputed": true,
+  "artifacts": [
+    {
+      "bytes": 3521,
+      "path": "work\\t7\\gctx0003\\callback-registration.json",
+      "sha256": "06e6ed45724105de835eabe422e54263d5e0681e1306764f4749872fc630af97"
+    },
+    {
+      "bytes": 3215,
+      "path": "work\\t7\\gctx0003\\model-transport.jsonl",
+      "sha256": "6f9d6dae88c6474a228219d8d56e337a59b2ad7363b1248c4cdc1a4a91047d15"
+    },
+    {
+      "bytes": 1333,
+      "path": "work\\t7\\gctx0003\\context-boundaries\\binding.json",
+      "sha256": "85fb89857cd41071dcfc719118368cce8dfae531362d282abf6d14d4601f5b87"
+    },
+    {
+      "bytes": 6015,
+      "path": "work\\t7\\gctx0003\\context-boundaries\\host-tape.jsonl",
+      "sha256": "62231f0d02545a66f2b2be9b343b7ca025b7442a2ce735a8b2e280a0b2893ec1"
+    },
+    {
+      "bytes": 7496,
+      "path": "work\\t7\\gctx0003\\context-boundaries\\input-bd336e3f85c12d4ba337.json",
+      "sha256": "4f559ce36bf1801d8b397b682817d6b6b498fbe4ffe537c223f3a0429ccca2f7"
+    },
+    {
+      "bytes": 7395,
+      "path": "work\\t7\\gctx0003\\context-boundaries\\input-f3bd12b0c437dfa8a90d.json",
+      "sha256": "6a4ef37e924bbe55166cc43b3694135c7a36e6b53aeb3409e31313a23b8621fb"
+    },
+    {
+      "bytes": 7395,
+      "path": "work\\t7\\gctx0003\\context-boundaries\\input-fdc75a4f43d15f1965f2.json",
+      "sha256": "9cd36fd3f73c8a49a5698b3d6b670aeb84cf47dcedf3f36090be24df6cdd5bc8"
+    },
+    {
+      "bytes": 79,
+      "path": "work\\t7\\gctx0003\\model\\improved-0000\\events.jsonl",
+      "sha256": "e75914e7e3c4e06d6dbc151dad39470ff4f09b5793b9b6d31905637bf9db1b4a"
+    },
+    {
+      "bytes": 5832,
+      "path": "work\\t7\\gctx0003\\model\\improved-0000\\request.json",
+      "sha256": "4e01699b1e269c14bfc0b80e31d7909555327ecd48eb5402fd70ac2aa81da1fc"
+    },
+    {
+      "bytes": 51,
+      "path": "work\\t7\\gctx0003\\model\\improved-0000\\response.txt",
+      "sha256": "af5ded45145f0019713351cd0a06409be701c421bc06936f6844bd6bbc1c9360"
+    },
+    {
+      "bytes": 714,
+      "path": "work\\t7\\gctx0003\\model\\improved-0000\\result.json",
+      "sha256": "fb90ef69068ed3230fac896086ac7bf84a0629920ecb5d0b03e3689951aee346"
+    },
+    {
+      "bytes": 55,
+      "path": "work\\t7\\gctx0003\\model\\improved-0000\\stderr.log",
+      "sha256": "0605c697ab366af1acacaf3e71878cec0ecdbe62bbb9ef4ae7441508c8e372fb"
+    },
+    {
+      "bytes": 79,
+      "path": "work\\t7\\gctx0003\\model\\improved-0001\\events.jsonl",
+      "sha256": "a4f25cce411ddbf822bd0d3612491eb09874584d69472f0acdf5000a15de4205"
+    },
+    {
+      "bytes": 5832,
+      "path": "work\\t7\\gctx0003\\model\\improved-0001\\request.json",
+      "sha256": "fe6a3798cef8f94e070f5b8fbb6c16b3cabe9a8c205d9bd32c122112793ec28b"
+    },
+    {
+      "bytes": 51,
+      "path": "work\\t7\\gctx0003\\model\\improved-0001\\response.txt",
+      "sha256": "af5ded45145f0019713351cd0a06409be701c421bc06936f6844bd6bbc1c9360"
+    },
+    {
+      "bytes": 714,
+      "path": "work\\t7\\gctx0003\\model\\improved-0001\\result.json",
+      "sha256": "8b6d789b778372e35bf6c63a1fd8e91705ab5d8eec5e12de32d020fe94ceb4e6"
+    },
+    {
+      "bytes": 55,
+      "path": "work\\t7\\gctx0003\\model\\improved-0001\\stderr.log",
+      "sha256": "0605c697ab366af1acacaf3e71878cec0ecdbe62bbb9ef4ae7441508c8e372fb"
+    },
+    {
+      "bytes": 79,
+      "path": "work\\t7\\gctx0003\\model\\improved-0002\\events.jsonl",
+      "sha256": "aaa73918e3ba86134f54e02ebd459d4954d80010caf5f44913043981336cfe80"
+    },
+    {
+      "bytes": 5582,
+      "path": "work\\t7\\gctx0003\\model\\improved-0002\\request.json",
+      "sha256": "473b2fca9ad6abee409e259e2db654f24070e9cb6497f8ef01edfc3d62c7844b"
+    },
+    {
+      "bytes": 51,
+      "path": "work\\t7\\gctx0003\\model\\improved-0002\\response.txt",
+      "sha256": "af5ded45145f0019713351cd0a06409be701c421bc06936f6844bd6bbc1c9360"
+    },
+    {
+      "bytes": 714,
+      "path": "work\\t7\\gctx0003\\model\\improved-0002\\result.json",
+      "sha256": "9d81aa08ffaf1a0e642a3f875df0223d8e99fa30dee914bd94cfcea64abe57b3"
+    },
+    {
+      "bytes": 55,
+      "path": "work\\t7\\gctx0003\\model\\improved-0002\\stderr.log",
+      "sha256": "0605c697ab366af1acacaf3e71878cec0ecdbe62bbb9ef4ae7441508c8e372fb"
+    }
+  ],
+  "component_error": "actual full prompt differs from the frozen proposal-only guard",
+  "component_fixture_guard_rejected": true,
+  "cpu_executions": 0,
+  "mutation": "Target full_prompt guard omitted; raw fingerprint/result/capture/tape/transport hashes refreshed",
+  "original_fixture_prefix_measures": {
+    "actual_cpu_executions": 0,
+    "completed_provider_calls": 2,
+    "cpu_execution_seconds": 0.0,
+    "distinct_configurations": 0,
+    "failed_provider_attempts": 0,
+    "input_tokens": 30,
+    "output_tokens": 6,
+    "wall_seconds": 2.5
+  },
+  "owner_private_reads": false,
+  "production_error": "actual full prompt differs from the frozen proposal-only guard",
+  "production_rejected": true,
+  "schema_version": "independent-rehashed-fixture-guard-attack-1",
+  "source_context_sha256": "a1b7e949deaefbc39651d0937bb494d6ab4052deacb762186833b7397e6f6e27",
+  "source_semantics_sha256": "bcfb3dc95facb0eeaec52ee5587c512a654a0aebc2316ff9f4ef98c53b06e529"
+}

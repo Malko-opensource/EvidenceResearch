@@ -20,4 +20,4 @@ references/*.zip
 model-public/
 work/
 private-evaluation/
-versions/*/runs/
+runs/p5/

@@ -1,0 +1,21 @@
+{
+  "command": [
+    "C:/Users/Potato/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c7-release-preparation-v1\\release_tools.py",
+    "validate",
+    "--go-receipt",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c7-release-preparation-v1\\parent-go-v1.json",
+    "--go-sha256",
+    "4d6c175ac712b642971d9ec2100c10f903d97b48b67fc2ec2b84afae161f5fc8",
+    "--release-copy-sha256",
+    "43ac31f07e8937fc993ccf4435258dd01392d8b47357f5d6cfbf16e02b38e55d"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\c7-release-preparation-v1",
+  "exit_code": 0,
+  "seconds": 54.64000000001397,
+  "stdout_sha256": "90b6b53893d6288e5d9cdb6249a3e2ab0f31bff20c2884158ec553e1e8d6f47e",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

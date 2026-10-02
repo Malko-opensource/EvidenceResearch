@@ -1,0 +1,155 @@
+{
+  "facts": [
+    {
+      "allowed_forms": [
+        {
+          "form_id": "0",
+          "language": "en",
+          "text": "The supplied Liu-Dobriban synopsis states that the closed-form ridge solution depends on feature covariance and regularization strength."
+        },
+        {
+          "form_id": "1",
+          "language": "ko",
+          "text": "제공된 Liu-Dobriban 문헌 요약은 ridge의 폐형식 해가 특성 공분산과 정규화 강도에 의존한다고 서술한다."
+        }
+      ],
+      "conditions": [
+        "Sections 2 and 3 source synopsis; mathematical/literature context only"
+      ],
+      "fact_id": "liu-ridge-covariance",
+      "polarity": "attributed_positive",
+      "source_excerpt": "Frozen source synopsis, not a full-text copy. Ridge Regression: Structure, Cross-Validation, and Sketching, sections 2 and 3, studies squared-error fitting with a quadratic coefficient penalty and selection of regularization through held-out/cross-validation error. The closed-form ridge solution depends on the feature covariance and regularization strength. The paper discusses validation bias in a high-dimensional asymptotic regime. It does not identify an optimal polynomial degree or alpha for this task; those must be measured from the supplied public training and validation data. Mathematical facts are literature context, not local experimental evidence.",
+      "source_id": "1910.02373v2",
+      "source_record_sha256": "a4cf3594ecc681cd6b94e7595ebac450559e3ba281e965b693b8bbb33d5b4eb7",
+      "subject": "closed-form ridge solution",
+      "url": "https://arxiv.org/html/1910.02373v2"
+    },
+    {
+      "allowed_forms": [
+        {
+          "form_id": "0",
+          "language": "en",
+          "text": "The supplied Liu-Dobriban synopsis does not identify an optimal polynomial degree or alpha for this task; those choices require actual public train/validation measurements."
+        },
+        {
+          "form_id": "1",
+          "language": "ko",
+          "text": "제공된 Liu-Dobriban 문헌 요약은 이 과제의 최적 다항식 차수나 alpha를 제시하지 않는다. 해당 선택은 실제 공개 학습·검증 측정이 필요하다."
+        }
+      ],
+      "conditions": [
+        "Supplied polynomial task; local measurements required"
+      ],
+      "fact_id": "liu-no-task-optimum",
+      "polarity": "attributed_denial",
+      "source_excerpt": "Frozen source synopsis, not a full-text copy. Ridge Regression: Structure, Cross-Validation, and Sketching, sections 2 and 3, studies squared-error fitting with a quadratic coefficient penalty and selection of regularization through held-out/cross-validation error. The closed-form ridge solution depends on the feature covariance and regularization strength. The paper discusses validation bias in a high-dimensional asymptotic regime. It does not identify an optimal polynomial degree or alpha for this task; those must be measured from the supplied public training and validation data. Mathematical facts are literature context, not local experimental evidence.",
+      "source_id": "1910.02373v2",
+      "source_record_sha256": "a4cf3594ecc681cd6b94e7595ebac450559e3ba281e965b693b8bbb33d5b4eb7",
+      "subject": "task-specific polynomial degree or alpha",
+      "url": "https://arxiv.org/html/1910.02373v2"
+    },
+    {
+      "allowed_forms": [
+        {
+          "form_id": "0",
+          "language": "en",
+          "text": "For poorly conditioned linear feature covariance, the supplied Hoerl-Kennard synopsis describes ridge as introducing coefficient bias while potentially reducing estimator variance; it does not establish a validation benefit on this task."
+        },
+        {
+          "form_id": "1",
+          "language": "ko",
+          "text": "특성 공분산의 조건이 나쁜 선형 회귀에 대해, 제공된 Hoerl-Kennard 요약은 ridge가 계수 편향을 도입하면서 추정량 분산을 줄일 가능성을 설명한다. 이는 이 과제의 검증 예측 이득을 입증하지 않는다."
+        }
+      ],
+      "conditions": [
+        "Poorly conditioned linear feature covariance; possible estimator-variance reduction with bias, not local prediction gain"
+      ],
+      "fact_id": "hoerl-conditional-bias-variance",
+      "polarity": "attributed_conditional",
+      "source_excerpt": "Frozen authored source synopsis, not a full-text copy. The original paper considers linear regression when the feature covariance is poorly conditioned. Adding a nonnegative diagonal term yields biased ridge coefficient estimates. Sections on ridge regression and mean-square error analyze how regularization can reduce estimator variance while introducing bias, and present a ridge trace for sensitivity analysis. These parameter-estimation results motivate comparing regularized and unregularized polynomial features. They do not establish that any chosen degree or penalty improves validation prediction on the supplied task. That claim requires actual trusted-host measurements under the fixed train/validation split.",
+      "source_id": "hoerl-kennard-1970",
+      "source_record_sha256": "ac83b9f2ec2dcd9543f6156c5bf91dd8fb8d5d6b303d16394cf43ef19fcf6a97",
+      "subject": "ridge coefficient estimation",
+      "url": "https://doi.org/10.1080/00401706.1970.10488634"
+    },
+    {
+      "allowed_forms": [
+        {
+          "form_id": "0",
+          "language": "en",
+          "text": "Under regular-mesh and asymptotic assumptions for smoothing splines, the supplied publisher-summary synopsis describes generalized cross-validation selecting smoothing strength from residual error and the smoothing-matrix trace; it supplies no local polynomial-ridge measurements."
+        },
+        {
+          "form_id": "1",
+          "language": "ko",
+          "text": "제공된 출판사 Summary 기반 요약은 정규 격자와 점근 가정의 smoothing spline에서 일반화 교차 검증이 잔차 오차와 smoothing 행렬 trace로 평활 강도를 선택한다고 설명한다. 이는 현재 다항식 ridge의 실험 측정이 아니다."
+        }
+      ],
+      "conditions": [
+        "Publisher original Summary only; smoothing splines; regular-mesh/asymptotic assumptions; not local polynomial ridge measurement"
+      ],
+      "fact_id": "craven-gcv-spline-scope",
+      "polarity": "attributed_conditional",
+      "source_excerpt": "Frozen authored source synopsis based only on the publisher original Summary, not a full-paper reproduction. The paper considers smoothing splines with a squared fitting error and a roughness penalty. Generalized cross-validation selects the smoothing parameter using residual error adjusted by the smoothing matrix trace, aiming to approximate prediction-risk selection without requiring a known noise variance. The stated analysis uses regular-mesh and asymptotic assumptions. This supports treating regularization selection as an evidence-dependent task, but it neither evaluates the supplied polynomial ridge implementation nor supplies local validation measurements. Spline smoothness, polynomial degree and ridge coefficient penalty are different controls; no equivalence or guaranteed improvement is assumed.",
+      "source_id": "craven-wahba-1978",
+      "source_record_sha256": "09d631122263c0d814f84678ca7daf4c8bb3df5cd4bedbc22b5e69f2711e9322",
+      "subject": "generalized cross-validation smoothing parameter",
+      "url": "https://link.springer.com/article/10.1007/BF01404567"
+    },
+    {
+      "allowed_forms": [
+        {
+          "form_id": "0",
+          "language": "en",
+          "text": "The supplied Agent Laboratory synopsis describes an LLM reward guiding code selection and discusses self-evaluation and hallucinated results; this is not independent evidence of performance on the present task."
+        },
+        {
+          "form_id": "1",
+          "language": "ko",
+          "text": "제공된 Agent Laboratory 요약은 코드 선택을 안내하는 LLM 보상과 자기 평가·환각 결과 문제를 설명한다. 이는 현재 과제 성능에 대한 독립 실행 증거가 아니다."
+        }
+      ],
+      "conditions": [
+        "Sections 3 and 5 source synopsis; external framework description, not current task evidence"
+      ],
+      "fact_id": "laboratory-reward-not-independent",
+      "polarity": "attributed_positive",
+      "source_excerpt": "Literature claim from Agent Laboratory section 3: experiments execute generated code; an LLM reward model guides code selection. Its section 5 discusses self-evaluation and hallucinated results. This is not independent evidence of task performance here.",
+      "source_id": "2501.04227v2",
+      "source_record_sha256": "cdefbc8af7d5e3e7cd51dfea5d73f222a9a639ba64b4b31c15c14c506190070f",
+      "subject": "original Agent Laboratory code selection",
+      "url": "https://arxiv.org/abs/2501.04227v2"
+    },
+    {
+      "allowed_forms": [
+        {
+          "form_id": "0",
+          "language": "en",
+          "text": "The supplied AgentRxiv synopsis describes SentenceTransformer report retrieval and hallucination/reward-hacking risks; retrieved reports require verification before adoption."
+        },
+        {
+          "form_id": "1",
+          "language": "ko",
+          "text": "제공된 AgentRxiv 요약은 SentenceTransformer 보고서 검색과 환각·보상 해킹 위험을 설명한다. 검색된 보고서는 채택 전에 검증해야 한다."
+        }
+      ],
+      "conditions": [
+        "Sections 3 and 4.1 source synopsis; retrieved claims need checking before adoption"
+      ],
+      "fact_id": "agentrxiv-retrieval-needs-verification",
+      "polarity": "attributed_positive",
+      "source_excerpt": "Literature claim from AgentRxiv section 3: agents retrieve reports through a SentenceTransformer similarity search. Section 4.1 reports hallucination/reward-hacking risks and human checking of experimental outputs. Retrieved reports require verification before adoption.",
+      "source_id": "2503.18102v1",
+      "source_record_sha256": "9fc2f5059b1ea61194b720e57ae04bb22ddc618d3524c6e86c8dc8145048d303",
+      "subject": "AgentRxiv report retrieval",
+      "url": "https://arxiv.org/abs/2503.18102v1"
+    }
+  ],
+  "full_paper_reading_proof": false,
+  "kind": "finite_authored_synopsis_attribution_templates",
+  "limits": "Finite exact source-bound forms only; arbitrary paraphrase, entailment, missing conditions/polarity or local improvement is not supported. New fact/forms require new source freeze before future execution.",
+  "local_measured_result_proof": false,
+  "schema_version": "source-fact-registry-c7-1",
+  "source_corpus_sha256": "64d0f27c0faae3d18fb4a57e24de80c2612ee0785936ddfa79f754aa91c6e5c9",
+  "source_records_sha256": "cc1c0f836fd87b4566b2d9a14087893e5109878c8ea5414e69f4b5542255c2e3"
+}
