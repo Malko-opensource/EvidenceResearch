@@ -8,7 +8,7 @@
   "active_study": {
     "kind": "development_paired_pilot",
     "path": "runs/development/paired-pilot-v4",
-    "status": "running",
+    "status": "collection_completed; original_numeric_reviews_complete; separate_owner_engineering_reconciliation_local",
     "published_source_commit": "46580f975fe72bc508a7783202c96bc15b9e5d05",
     "model": "gpt-6.1-sol",
     "reasoning_effort": "medium",
@@ -33,7 +33,7 @@
     "published": true,
     "url": "https://github.com/Malko-opensource/EvidenceResearch",
     "first_verified_commit": "3ba19f2469cb85fb0b25a48a115eaebc3cb5e6da",
-    "latest_verified_evidence_commit": "9cdc234c86d4a532b47be27401e5c43d188d90cc",
+    "latest_verified_evidence_commit": "c95471c990d39554d0ad8427603d26865353085b",
     "detailed_record_manifest_sha256": "b71986a181f3c8359ca14151ce746b3110c33131001b4c225ce977c419c5cfb2",
     "specific_detailed_record_publication_approved": true
   },
@@ -52,7 +52,7 @@
       "purchases_or_resets_performed": false
     }
   },
-  "next": "Continue both registered development studies without editing their source. Review completed numeric and semantic reports independently, use recommended-phase pilot variability for a separate frozen final design, and publish completed evidence only.",
+  "next": "Continue frozen v5/v6 controllers and independent report reviews. Use only this new matched sampled-development contrast for a separate final design; no final registration or superiority claim yet.",
   "verified_components": [
     "actual model development loop",
     "five actual CPU component runs",
@@ -62,18 +62,18 @@
     "independent numeric verifier"
   ],
   "blockers": [
-    "old development baseline has one ambiguous execution-count statement; retained pending",
-    "current minimal B phase policy cannot establish the main original-default contrast",
-    "recommended-phase source is independently frozen; future comparison must separate original phase integrity from common task/report acceptance",
-    "final paired comparison and memory-effect confirmation not yet completed"
+    "original-model A unavailable; model replacement effect unestimated",
+    "minimal-phase v4 does not establish recommended-phase superiority or supply this contrast's final variance",
+    "v5 B-only distinct-literature completion gate prevents clean common-task superiority interpretation; preserve original outcomes",
+    "new v6 actual independently complete paired evidence, adequate planning and fresh final confirmation remain outstanding"
   ],
   "publication_replay": {
-    "status": "first_pair_published_reader_verified; four_more_approved_pairs_recomputed_from_fresh_9cdc234_data_with_new_owner_reader",
+    "status": "published_c954_reader_verified_from_fresh_checkout",
     "evidence": "evidence/portable-replay-development/fresh-publication-validation.json",
     "actual_new_model_calls": 0,
     "new_runner_executions": 0,
     "scope": "Saved development metrics/resources only; no complete semantic-review equivalence, new research experiment or framework superiority claim.",
-    "four_unit_evidence": "evidence/publication-review-completed-v4/fresh-9cdc234-units.json",
+    "four_unit_evidence": "evidence/fresh-published-reader-c95471c/result.json",
     "four_unit_reader": "evaluation/replay_published_units.py",
     "private_owner_file_opened_or_test_rows_written": false
   },
@@ -111,5 +111,30 @@
     "release_check": "versions/v5-development/validation/release-local/result.json",
     "improvement_proven": false,
     "final_evaluation_completed": false
+  },
+  "new_development": {
+    "execution_root": "versions/v6-development",
+    "study": "versions/v6-development/runs/p6",
+    "status": "frozen_and_preregistered; actual_development_collection_started",
+    "registration_sha256": "5d5aa351cdeac52f0745fda323acfb8ea8c6b8a4c1e9f1a6b84892182761e862",
+    "private_registration_uploaded": false,
+    "controller_session_id": 34004,
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "paired_units": 9,
+    "count_scope": "normal-theory variance precision .5 planning assumption; not power proof or research-loop cap",
+    "component_checks": "evidence/c6-check-v1/result.json",
+    "component_checks_count": 215,
+    "release_copy": "versions/v6-development/release-copy.json",
+    "independent_environment": "versions/v6-development/validation/release-local-v2/result.json",
+    "independent_environment_checks": 215,
+    "failed_external_audit_guard_preserved": "versions/v6-development/validation/release-local-v1/result.json",
+    "source": "19 framework files plus fixed upstream manifest/35 raw references frozen",
+    "policy": "common corpus versus original review-entry count; owner-private independent split RNG; source-bound exact draws; complete common numeric and semantic gates",
+    "private_task_definitions_or_seed_published": false,
+    "final_registered": false,
+    "final_evaluation_completed": false,
+    "improvement_proven": false,
+    "readme_review_version_clarification": "docs/v6_development.ko.md"
   }
 }

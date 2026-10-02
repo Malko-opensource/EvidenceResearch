@@ -1,0 +1,121 @@
+{
+  "kind": "unexecuted_candidate_contract_source_snapshot",
+  "parent_registration_sha256": "5569d283aeb9a00087092b862ef6dace71cdf73917429c308161d1cf31ad0f81",
+  "files": [
+    {
+      "path": "docs/literature-contract-c6.ko.md",
+      "sha256": "2b043a9ca1bfb69402da38a3248c65485078dcc8356f6020d0305b3171e542ea"
+    },
+    {
+      "path": "evidence_research/__init__.py",
+      "sha256": "a30c60a6e39cf4ca0357c2fa539712944c6fee913281e528c607b9b2ad2cc322"
+    },
+    {
+      "path": "evidence_research/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "path": "evidence_research/arms.py",
+      "sha256": "43edfc603ba928ad29e73875c5044610ec78ff6f0de4b8f3f8bebc6205774563"
+    },
+    {
+      "path": "evidence_research/baseline.py",
+      "sha256": "37ab94ce3435194409347c54c2cdef37cd1055f333ef1aa9b55783f7f4bb620e"
+    },
+    {
+      "path": "evidence_research/cli.py",
+      "sha256": "fe0d387c70040b597a376d05bdda4ffb07e8e900c2485976a2da9b168cdd0a22"
+    },
+    {
+      "path": "evidence_research/comparison_arms.py",
+      "sha256": "e9936619d3ff7fe0da1cd47a1ecf44db8e13a3f42d189ca8d3111ace9c8b00b9"
+    },
+    {
+      "path": "evidence_research/engine.py",
+      "sha256": "7b141d3fdbb6354b057c947fd7faeb47a4740b03659c8812c469eac28ff19851"
+    },
+    {
+      "path": "evidence_research/evaluation.py",
+      "sha256": "38a9284e1e693ca068f7c09b549823b3d77b45afe858bcdc233bb3338ee5aea6"
+    },
+    {
+      "path": "evidence_research/model.py",
+      "sha256": "21a4b73168428ad4795db55d6c95c2d7f3f2e7c44e0d9bc80fbc9e6a5e8a8131"
+    },
+    {
+      "path": "evidence_research/model_attempt_audit.py",
+      "sha256": "3d46151d4388b25373e5c9c6518be49279306484900515cbe69f281824aedee8"
+    },
+    {
+      "path": "evidence_research/model_request_audit.py",
+      "sha256": "25eafd1f0d85be77997f0bb2de07f9f9a8f229a17e19a95b661c79e917b0ce12"
+    },
+    {
+      "path": "evidence_research/proposer.py",
+      "sha256": "3363c3236ed975174aa22f187a634014e0e86c904926f448bd64ab24e76d14a4"
+    },
+    {
+      "path": "evidence_research/report_contract.py",
+      "sha256": "71cb6fd95b65148b796ed7c491a1b0c958e435df3e73dc4018c587ef87ee144c"
+    },
+    {
+      "path": "evidence_research/report_semantics.py",
+      "sha256": "dbbde283d753f5f7343ee31339ac40598d0f252035b009b6687487b00589d56c"
+    },
+    {
+      "path": "evidence_research/selection.py",
+      "sha256": "163905588a7f9089b953d4b5ab01589dd97c47fc94be716c84f75873a20cd2a4"
+    },
+    {
+      "path": "evidence_research/store.py",
+      "sha256": "d9a5df829170a9e58285bbcda4d12f6c753968e95f0148a5f28f20db0d891ee6"
+    },
+    {
+      "path": "evidence_research/study.py",
+      "sha256": "e29fd99799a1f4608e5a99bf2ee2f465d2fee7c7e78578c41d717f9bab5ea54a"
+    },
+    {
+      "path": "evidence_research/tasks.py",
+      "sha256": "5cd37d8278e7f5787a55693b7adb8e122d4e986c4bf7e41046be470d9c5dffd0"
+    },
+    {
+      "path": "evidence_research/verifier.py",
+      "sha256": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05"
+    },
+    {
+      "path": "examples/literature-protocol-c6.json",
+      "sha256": "e9eabfceff0d4868a98db9a73c27dc92dd8ae1f88b4fd32bd7385cafba85ee4e"
+    },
+    {
+      "path": "references/task_literature_v2.json",
+      "sha256": "64d0f27c0faae3d18fb4a57e24de80c2612ee0785936ddfa79f754aa91c6e5c9"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/agents.py",
+      "sha256": "d8d1eda040eb1fa897d84596a1b36f277e83da75433c1a9ac2d9efe5be5c749a"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/ai_lab_repo.py",
+      "sha256": "799a3c078d835cd632487f52ed5b8e9f155bb9514ca104a30442ecfbcb7765ff"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/mlesolver.py",
+      "sha256": "cc110f2b07642532cca11bd8cbf74becfc41016c7f876c16f6d40379ec59882c"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/papersolver.py",
+      "sha256": "8c16d68577570fbf6332d3f070e5aec975ed3fd3e1440918940f16eb8911366c"
+    },
+    {
+      "path": "references/upstream/AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27/utils.py",
+      "sha256": "ea23c00695613ab346ac6646f69dbf2b0972efda7c1cafeccd5ffdb4f5f439c8"
+    },
+    {
+      "path": "tests/test_literature_integrity_policy_c6.py",
+      "sha256": "d12f3c65c67679869bb09a98bbb9022077599051c5701300b73e6c0203e03cf4"
+    }
+  ],
+  "scope": "Source-contract fixtures only. Not model or research task performance evidence.",
+  "frozen_parent_sources_unchanged": true,
+  "captured_candidate_sources_stable": true
+}

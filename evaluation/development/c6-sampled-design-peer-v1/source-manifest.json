@@ -1,0 +1,26 @@
+{
+  "kind": "read_only_candidate_methodology_snapshot",
+  "files": {
+    "evidence_research/__init__.py": "a30c60a6e39cf4ca0357c2fa539712944c6fee913281e528c607b9b2ad2cc322",
+    "evidence_research/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "evidence_research/arms.py": "43edfc603ba928ad29e73875c5044610ec78ff6f0de4b8f3f8bebc6205774563",
+    "evidence_research/baseline.py": "37ab94ce3435194409347c54c2cdef37cd1055f333ef1aa9b55783f7f4bb620e",
+    "evidence_research/cli.py": "fe0d387c70040b597a376d05bdda4ffb07e8e900c2485976a2da9b168cdd0a22",
+    "evidence_research/comparison_arms.py": "e9936619d3ff7fe0da1cd47a1ecf44db8e13a3f42d189ca8d3111ace9c8b00b9",
+    "evidence_research/engine.py": "7b141d3fdbb6354b057c947fd7faeb47a4740b03659c8812c469eac28ff19851",
+    "evidence_research/evaluation.py": "a1ad7d20b579412841a0491ee5e0bb0ec138820428c18c92fdff91a6e5b59be3",
+    "evidence_research/model.py": "21a4b73168428ad4795db55d6c95c2d7f3f2e7c44e0d9bc80fbc9e6a5e8a8131",
+    "evidence_research/model_attempt_audit.py": "3d46151d4388b25373e5c9c6518be49279306484900515cbe69f281824aedee8",
+    "evidence_research/model_request_audit.py": "25eafd1f0d85be77997f0bb2de07f9f9a8f229a17e19a95b661c79e917b0ce12",
+    "evidence_research/proposer.py": "3363c3236ed975174aa22f187a634014e0e86c904926f448bd64ab24e76d14a4",
+    "evidence_research/report_contract.py": "71cb6fd95b65148b796ed7c491a1b0c958e435df3e73dc4018c587ef87ee144c",
+    "evidence_research/report_semantics.py": "4acab5fe4d04ef25d2bfc05bab51fc06d53fe7d6351b5dfb06989c750c080a64",
+    "evidence_research/selection.py": "163905588a7f9089b953d4b5ab01589dd97c47fc94be716c84f75873a20cd2a4",
+    "evidence_research/store.py": "d9a5df829170a9e58285bbcda4d12f6c753968e95f0148a5f28f20db0d891ee6",
+    "evidence_research/study.py": "e29fd99799a1f4608e5a99bf2ee2f465d2fee7c7e78578c41d717f9bab5ea54a",
+    "evidence_research/tasks.py": "5cd37d8278e7f5787a55693b7adb8e122d4e986c4bf7e41046be470d9c5dffd0",
+    "evidence_research/verifier.py": "bd7927c7a109b1f0daedcad32d0a0437a93e1e3ba6b049890f7886f0f5476a05",
+    "tests/test_sampled_pilot.py": "dcc7f9b1cd20363d8e27f5568bb8ea7b5ac87ae640d6991b76f4063b6f2920b0"
+  },
+  "scope": "Historical reviewed candidate bytes only; root may revise afterward"
+}

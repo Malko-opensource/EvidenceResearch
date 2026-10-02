@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "main_or_other_version_reads": 0,
+    "live_private_owner_access_attempts": 0,
+    "actual_model_processes": 0,
+    "network_events": 0,
+    "synthetic_python_fixture_subprocesses": 1
+  },
+  "scope": "Synthetic v6/runs/tf, c6-fixture-only temp paths and exact deterministic task subprocess permitted; actual live owner/model/network blocked"
+}

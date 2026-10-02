@@ -1,0 +1,28 @@
+{
+  "kind": "read_only_sampler_control_peer_fixture_result",
+  "manifest_sha256": "20185e5be3613bf4748fcf3410990a363bfefc42122865644d0d764e9b0dbf1e",
+  "success": true,
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "fixed_upstream_reference_files": 36,
+  "source_bytes_unchanged": true,
+  "blocked_actual_call_counts": {
+    "evidence_research.model.CodexProvider.complete": 0,
+    "evidence_research.tasks.run_task": 0,
+    "evidence_research.arms.run_task": 0,
+    "evidence_research.tasks.fit": 0,
+    "evidence_research.evaluation._owner_metric": 0,
+    "subprocess.Popen": 0,
+    "socket.socket": 0
+  },
+  "guards": {
+    "original_project_reads": 0,
+    "subprocess_events": 0,
+    "network_events": 0
+  },
+  "real_model_calls": 0,
+  "research_cpu_executions": 0,
+  "synthetic_owner_fixture_files_only": true,
+  "limits": "Registration/control and data privacy fixtures; no statistical power, comparative improvement or actual final reproducibility claim"
+}

@@ -29,3 +29,15 @@ The isolated relocation and tamper checks are in
 `development/published-units-replay-v1/`. These completed public tasks are
 development material; their results cannot serve as a new framework version's
 unseen final evaluation.
+
+The newly published reader was run from an exact fresh public `c95471c` checkout.
+`evidence/fresh-published-reader-c95471c/result.json` links the scalar replay,
+7,518 guarded file opens and zero original-owner, model or runner access. The
+Python file-open guard does not establish operating-system isolation.
+
+The separate v6 component/source fixtures are in `evidence/c6-check-v1/`, the c6
+independent sampler/literature/semantic capsules and
+`development/c6-sampled-design-peer-v2/`. Its own environment proofs are under
+`versions/v6-development/validation/`. These records contain no newly registered
+private task definitions or actual study outcomes. Preserve the first external
+audit-guard failure and the corrected proof together.

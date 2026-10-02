@@ -1,0 +1,12 @@
+{
+  "kind": "fixture_bootstrap_error",
+  "source_sha256": "89236c4147376dba10e155acf1d83082136ce88de3b44e3cc513d9ed53422244",
+  "actual_tests": 15,
+  "errors": 15,
+  "failure_point": "setUp before any test body",
+  "cause": "AttributeError: CodexProvider has no attribute propose",
+  "correction": "Patch the actual complete API",
+  "real_model_calls": 0,
+  "research_cpu_executions": 0,
+  "scope": "This tooling error is retained separately from the corrected contract fixture results."
+}

@@ -47,7 +47,7 @@
 `versions/v5-development/runs/p5/pilot-registration.json`의 SHA256은
 `5569d283aeb9a00087092b862ef6dace71cdf73917429c308161d1cf31ad0f81`이다.
 실제 controller session `54799`가 실행 중이다. 동일 controller를 추가하지 않는다.
-메인 v4 controller `80836`도 진행 중이며 둘의 package·등록 조건을 수정하지 않는다.
+메인 v4 controller `80836`은 수집을 정상 완료했다. 두 버전의 package·등록 조건을 수정하지 않는다.
 private handoff `work/current-handoff-20261003.json`에 각 상태를 저장한다.
 
 v5는 MLE3/Paper1/literature5/phase100, gpt-6.1-sol/medium과 같은 과제별 자원을
@@ -97,3 +97,22 @@ manifest·소스를 인증한 뒤 결정적 개발 test 자료를 메모리 안�
 같은 공개 v5 소스의 긴 Windows 경로에서 발생한 두 검사 실패와 짧은 경로의
 161개 전체 통과를 모두 보존했다. `docs/windows_install_replay.md`에서 원본 증거와
 재현 명령을 확인한다. 실행 중인 package를 이 설치 검증에 맞춰 수정하지 않았다.
+
+현재 게시된 reader/source/install checkpoint는 `c95471c990d39554d0ad8427603d26865353085b`
+이며 새 공개 checkout reader 검증은 `evidence/fresh-published-reader-c95471c/`에 있다.
+승인된 네 짝만 대상으로 원 owner 접근과 새 연구 실행 없이 재계산했다.
+상세 게시 승인을 다른 v4 짝이나 진행 중인 v5/v6 자료로 확대하지 않는다.
+
+다음 개발 비교는 `versions/v6-development`에 고정했다. 후보 및 새 환경의 전체215
+검사를 통과했고 같은 법칙의 비공개 새 개발9쌍을 등록했다. 등록 SHA는
+`5d5aa351cdeac52f0745fda323acfb8ea8c6b8a4c1e9f1a6b84892182761e862`, controller `34004`이다.
+package19개와 외부 manifest/원본35개를 수정하거나 같은 controller를 중복 시작하지 않는다.
+v5 `54799`도 원 조건으로 실행 중이다. 최종 등록은 아직 없다. 정책과 수치/의미 리뷰
+범위는 `docs/v6_development.ko.md`에 있다. 독립 판정 완료한 자체 실제 개발 분산으로만
+최종 계획을 인증한다. v5 B-only distinct 문헌 postcondition 차이는 개선 증거로 채택하지 않는다.
+
+v4 owner 정리 guard 오류는 cache 읽기를 새 실행으로 잘못 분류했다. 잘못된 실패와
+audit chain은 보존하고 별도 원 기준 정정 판정을 로컬 핸드오프에 연결했다. 원 raw·
+measurement·review는 변경하지 않았고 새 모델·연구 CPU trial은 없다. verifier의
+수치 재계산은 있으므로 CPU 계산0이라고 표현하지 않는다. canonical pilot-summary를
+새 과학적 실패로 해석하지 말고 `work/current-handoff-20261003.json`의 정정 범위를 확인한다.

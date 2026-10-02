@@ -1,0 +1,15 @@
+{
+  "kind": "source_contract_fixture_result",
+  "success": true,
+  "tests_run": 22,
+  "errors": 0,
+  "failures": 0,
+  "seconds": 0.48354220000328496,
+  "manifest_sha256": "e63eb42f6bb46f3723bf9fd746e469364ad777d964f4bfa524398d4e38f318ad",
+  "snapshot_source_files": 61,
+  "source_bytes_unchanged": true,
+  "real_model_calls": 0,
+  "research_cpu_executions": 0,
+  "fixture_guards": "Each test blocks and asserts zero provider.complete/task.run_task/subprocess/network calls",
+  "scope": "Candidate contract implementation only; no comparative performance/adoption claim"
+}

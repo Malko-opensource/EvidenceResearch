@@ -1,0 +1,29 @@
+{
+  "phase": "offline-editable-install",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v6-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "pip",
+    "--isolated",
+    "install",
+    "--no-index",
+    "--no-deps",
+    "--no-build-isolation",
+    "--editable",
+    "."
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v6-development",
+  "exit_code": 0,
+  "seconds": 1.8910000000032596,
+  "stdout": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v6-development\\validation\\release-local-v1\\offline-editable-install.stdout.log",
+    "sha256": "fed0630e4e703deb270e6ee0e8050815368a9f1246da53e02e9954f0fe01bbeb"
+  },
+  "stderr": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v6-development\\validation\\release-local-v1\\offline-editable-install.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

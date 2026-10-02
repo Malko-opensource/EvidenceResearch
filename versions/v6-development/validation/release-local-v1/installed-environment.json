@@ -1,0 +1,22 @@
+{
+  "phase": "installed-environment",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v6-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-c",
+    "import json,sys,importlib.metadata as m,evidence_research;print(json.dumps({\"prefix\":sys.prefix,\"base_prefix\":sys.base_prefix,\"package_path\":evidence_research.__file__,\"package_version\":m.version(\"evidence-research\")}))"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v6-development",
+  "exit_code": 0,
+  "seconds": 0.0940000000409782,
+  "stdout": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v6-development\\validation\\release-local-v1\\installed-environment.stdout.log",
+    "sha256": "8d245f47c844370fdf946800024374e0d7da362a74225bb74864a17d8c39e30d"
+  },
+  "stderr": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v6-development\\validation\\release-local-v1\\installed-environment.stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

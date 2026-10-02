@@ -1,0 +1,121 @@
+test_cli_registration_does_not_print_owner_seed_or_answer_definitions (tests.test_sampled_pilot.SampledDevelopmentTests.test_cli_registration_does_not_print_owner_seed_or_answer_definitions) ... FAIL
+test_final_development_definition_reuse_is_rejected_before_writing (tests.test_sampled_pilot.SampledDevelopmentTests.test_final_development_definition_reuse_is_rejected_before_writing) ... ok
+test_final_draw_receipt_rejects_within_law_rehashed_owner_definition (tests.test_sampled_pilot.SampledDevelopmentTests.test_final_draw_receipt_rejects_within_law_rehashed_owner_definition) ... ok
+test_invalid_or_relabelled_sampled_definition_leaves_no_registration (tests.test_sampled_pilot.SampledDevelopmentTests.test_invalid_or_relabelled_sampled_definition_leaves_no_registration) ... ok
+test_new_study_requires_explicit_literature_policy_before_creating_evidence (tests.test_sampled_pilot.SampledDevelopmentTests.test_new_study_requires_explicit_literature_policy_before_creating_evidence) ... ok
+test_old_fixed_task_pilot_cannot_supply_new_distribution_variance (tests.test_sampled_pilot.SampledDevelopmentTests.test_old_fixed_task_pilot_cannot_supply_new_distribution_variance) ... ERROR
+test_owner_config_is_immutable_and_precision_input_is_explicit (tests.test_sampled_pilot.SampledDevelopmentTests.test_owner_config_is_immutable_and_precision_input_is_explicit) ... ok
+test_private_test_rng_changes_do_not_follow_the_public_seed_or_other_splits (tests.test_sampled_pilot.SampledDevelopmentTests.test_private_test_rng_changes_do_not_follow_the_public_seed_or_other_splits) ... ok
+test_sampled_proposer_inputs_exclude_private_definitions_and_test_rows_and_resume (tests.test_sampled_pilot.SampledDevelopmentTests.test_sampled_proposer_inputs_exclude_private_definitions_and_test_rows_and_resume) ... ERROR
+test_sampler_plan_and_final_law_match_without_reusing_definitions (tests.test_sampled_pilot.SampledDevelopmentTests.test_sampler_plan_and_final_law_match_without_reusing_definitions) ... ok
+test_unfinished_sampled_pilot_cannot_certify_final_planning (tests.test_sampled_pilot.SampledDevelopmentTests.test_unfinished_sampled_pilot_cannot_certify_final_planning) ... ERROR
+test_within_law_altered_and_rehashed_definition_is_not_an_actual_sample (tests.test_sampled_pilot.SampledDevelopmentTests.test_within_law_altered_and_rehashed_definition_is_not_an_actual_sample) ... ok
+test_final_secure_default_branch_hides_private_fields (__main__.main.<locals>.IndependentNegativeFixtures.test_final_secure_default_branch_hides_private_fields) ... ok
+test_private_field_injected_into_public_payload_is_rejected_even_after_rehash (__main__.main.<locals>.IndependentNegativeFixtures.test_private_field_injected_into_public_payload_is_rejected_even_after_rehash) ... ok
+test_secure_default_branch_calls_randbits256_and_does_not_print_owner_seed (__main__.main.<locals>.IndependentNegativeFixtures.test_secure_default_branch_calls_randbits256_and_does_not_print_owner_seed) ... ERROR
+
+======================================================================
+ERROR: test_old_fixed_task_pilot_cannot_supply_new_distribution_variance (tests.test_sampled_pilot.SampledDevelopmentTests.test_old_fixed_task_pilot_cannot_supply_new_distribution_variance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\tests\test_sampled_pilot.py", line 185, in test_old_fixed_task_pilot_cannot_supply_new_distribution_variance
+    register_pilot(config, study)
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\study.py", line 202, in register_pilot
+    for path, digest in frozen_upstream_sources().items()}
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\baseline.py", line 66, in frozen_upstream_sources
+    if manifest_path.is_symlink() or _file_hash(manifest_path) != UPSTREAM_MANIFEST_SHA256:
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\baseline.py", line 144, in _file_hash
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+                          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\c6-independent-sampler-v2\\source-snapshot\\references\\manifest.json'
+
+======================================================================
+ERROR: test_sampled_proposer_inputs_exclude_private_definitions_and_test_rows_and_resume (tests.test_sampled_pilot.SampledDevelopmentTests.test_sampled_proposer_inputs_exclude_private_definitions_and_test_rows_and_resume)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\tests\test_sampled_pilot.py", line 57, in test_sampled_proposer_inputs_exclude_private_definitions_and_test_rows_and_resume
+    register_pilot(config, study)
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\study.py", line 202, in register_pilot
+    for path, digest in frozen_upstream_sources().items()}
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\baseline.py", line 66, in frozen_upstream_sources
+    if manifest_path.is_symlink() or _file_hash(manifest_path) != UPSTREAM_MANIFEST_SHA256:
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\baseline.py", line 144, in _file_hash
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+                          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\c6-independent-sampler-v2\\source-snapshot\\references\\manifest.json'
+
+======================================================================
+ERROR: test_unfinished_sampled_pilot_cannot_certify_final_planning (tests.test_sampled_pilot.SampledDevelopmentTests.test_unfinished_sampled_pilot_cannot_certify_final_planning)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\tests\test_sampled_pilot.py", line 171, in test_unfinished_sampled_pilot_cannot_certify_final_planning
+    register_pilot(config, study)
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\study.py", line 202, in register_pilot
+    for path, digest in frozen_upstream_sources().items()}
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\baseline.py", line 66, in frozen_upstream_sources
+    if manifest_path.is_symlink() or _file_hash(manifest_path) != UPSTREAM_MANIFEST_SHA256:
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\baseline.py", line 144, in _file_hash
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+                          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\c6-independent-sampler-v2\\source-snapshot\\references\\manifest.json'
+
+======================================================================
+ERROR: test_secure_default_branch_calls_randbits256_and_does_not_print_owner_seed (__main__.main.<locals>.IndependentNegativeFixtures.test_secure_default_branch_calls_randbits256_and_does_not_print_owner_seed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evaluation\audit_c6_sampler_independently_v2.py", line 75, in test_secure_default_branch_calls_randbits256_and_does_not_print_owner_seed
+    registered=register_pilot(config,self.root / "synthetic-registration")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\study.py", line 202, in register_pilot
+    for path, digest in frozen_upstream_sources().items()}
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\baseline.py", line 66, in frozen_upstream_sources
+    if manifest_path.is_symlink() or _file_hash(manifest_path) != UPSTREAM_MANIFEST_SHA256:
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\evidence_research\baseline.py", line 144, in _file_hash
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+                          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\c6-independent-sampler-v2\\source-snapshot\\references\\manifest.json'
+
+======================================================================
+FAIL: test_cli_registration_does_not_print_owner_seed_or_answer_definitions (tests.test_sampled_pilot.SampledDevelopmentTests.test_cli_registration_does_not_print_owner_seed_or_answer_definitions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evidence\c6-independent-sampler-v2\source-snapshot\tests\test_sampled_pilot.py", line 114, in test_cli_registration_does_not_print_owner_seed_or_answer_definitions
+    self.assertEqual(exit_code, 0)
+AssertionError: 2 != 0
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.237s
+
+FAILED (failures=1, errors=4)

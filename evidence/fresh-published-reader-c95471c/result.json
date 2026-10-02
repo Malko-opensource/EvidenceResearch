@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "commit": "c95471c990d39554d0ad8427603d26865353085b",
+  "reader_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\published-9cdc234-replay\\evaluation\\replay_published_units.py",
+  "reader_sha256": "b9970cda47f3a3694e1cac9364c2d2206200d1c3fe5bfb0c82b8f8254ec24369",
+  "scalar_replay_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-published-reader-c95471c\\scalar-replay.json",
+  "scalar_replay_sha256": "bde472692a1a4fb6765299466dc13c305f3e677b79fd097275f303ce55842de6",
+  "seconds": 23.48499999998603,
+  "guarded_file_opens": 7518,
+  "unique_read_paths": 2816,
+  "outside_checkout_or_original_owner_attempts": [],
+  "new_model_calls": 0,
+  "new_experiment_runner_executions": 0,
+  "test_rows_written_or_printed": false,
+  "adopted": false,
+  "goal_complete": false,
+  "scope": "Newly published reader from exact fresh public commit on four approved development pairs; Python Path.open guard, not OS isolation or fresh semantic review."
+}

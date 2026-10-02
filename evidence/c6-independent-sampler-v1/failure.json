@@ -1,0 +1,11 @@
+{
+  "status": "helper_preparation_failed",
+  "error": "FileNotFoundError: work/c6/tests/__init__.py does not exist; no candidate import or fixture executed",
+  "source": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\audit_c6_sampler_independently.py",
+    "sha256": "03fff5c73526b7412545be157efd31252d5318ff9a7ee2269202a3c0a98e7457"
+  },
+  "actual_model_requests": 0,
+  "research_runner_calls": 0,
+  "original_owner_rows_opened": false
+}
