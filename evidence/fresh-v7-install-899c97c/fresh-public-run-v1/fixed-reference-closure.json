@@ -1,0 +1,16 @@
+{
+  "phase": "fixed-reference-closure",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er7\\versions\\v7-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-c",
+    "from evidence_research.baseline import frozen_upstream_sources;assert len(frozen_upstream_sources())==36;print(\"own fixed upstream36 validated; authored facts2 externally hashed\")"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er7\\versions\\v7-development",
+  "exit_code": 0,
+  "seconds": 0.09399999998277053,
+  "stdout_sha256": "6c230e825bbf13e49d57fd2a0b1d3794951c5f95f3c91126d1dde155e3762a96",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

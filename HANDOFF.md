@@ -1,6 +1,8 @@
 # 후속 핸드오프
 
 현재 개발 소스는 `versions/v7-development`의 `0.4.0.dev0`이다. 새 own 환경에서 263개 공학 검사가 통과했고 정확한 원시 증거는 `versions/v7-development/validation/release-local-v1/result.json`에 있다. 실제 개발 비교는 별도 로컬 등록으로 진행하며 개선·최종 평가를 완료 처리하지 않는다. [v7 검증 범위](docs/v7_development.ko.md)를 먼저 읽는다.
+v7의 B callback 등록 writer와 고정 입력 경계 auditor 사이에 필수 model/envelope metadata 계약 불일치가 확인됐다. 해당 v7 경계와 보고서의 실패·보류는 유지한다. 별도 `work/c8` 사본의 구현 전 등록에 따라 최소 writer/선행 검사 수정과 실제 callback 통합 검사를 진행한다. 기존 v7 및 과거 증거·기준을 바꾸지 않는다. 새 공개 사본의 자체 환경에서 263개 검사와 고정 소스 38개 구성 재현은 통과했으며 [공개 설치 결과](evidence/fresh-v7-install-899c97c/fresh-public-run-v1/result.json)에 연결된다. 이 설치 성공은 실제 경로 결함의 해소나 개선 입증이 아니다.
+
 
 이 컴퓨터의 실행 상태·단일 controller 식별자·사전등록과 후속 판단은 공개하지 않는 `work/current-handoff-20261003.json`에서 이어 간다. 기존 컨트롤러를 중단하거나 같은 연구를 병렬로 다시 시작하지 않는다. 아래 기록은 이전 단계의 보존 기록이며 당시 진행 상태를 현재 상태로 해석하지 않는다.
 

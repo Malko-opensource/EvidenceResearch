@@ -1,0 +1,23 @@
+{
+  "phase": "offline-editable",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er7\\versions\\v7-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "pip",
+    "--isolated",
+    "install",
+    "--no-index",
+    "--no-deps",
+    "--no-build-isolation",
+    "--editable",
+    "."
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er7\\versions\\v7-development",
+  "exit_code": 0,
+  "seconds": 1.0780000000377186,
+  "stdout_sha256": "a05dd4bbadb81c8ffed03721bc88a59c818845842a80e889bbc2659c5e55f50f",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

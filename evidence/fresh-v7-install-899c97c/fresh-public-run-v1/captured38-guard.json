@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "original_project_access_attempts": 0,
+    "outside_allowed_root_access_attempts": 0,
+    "unknown_run_access_attempts": 0,
+    "nonfixture_process_attempts": 0,
+    "network_events": 0,
+    "allowed_cpu_fixture_subprocesses": 0
+  },
+  "scope": "Parent Python open/list/scandir/process/network hook permits new checkout/proof/explicit synthetic temp and Python runtime. The one allowed CPU child replaces PYTHONPATH and is outside this hook; fixed runner over registered tiny synthetic arrays is trusted. This is not an OS sandbox or a global filesystem proof."
+}

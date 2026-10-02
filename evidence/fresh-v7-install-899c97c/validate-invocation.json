@@ -1,0 +1,22 @@
+{
+  "command": [
+    "C:/Users/Potato/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\fresh-v7-public-install-preparation-v1\\validate_public.py",
+    "validate",
+    "--replay38",
+    "--go",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\fresh-v7-public-install-preparation-v1\\parent-go-v1.json",
+    "--go-sha256",
+    "704687493bff004578116153e80485deda942615a8f6db42e3b103e656b22002",
+    "--public-commit",
+    "899c97cdab5d557db8b80a6bf479779ed13282d1"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\fresh-v7-public-install-preparation-v1",
+  "exit_code": 0,
+  "seconds": 69.26600000000326,
+  "stdout_sha256": "a780e7667d4f49176de0d00df245ff497c7c0dbb7a0947ef0129b22a42102275",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

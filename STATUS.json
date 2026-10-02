@@ -33,7 +33,7 @@
     "published": true,
     "url": "https://github.com/Malko-opensource/EvidenceResearch",
     "first_verified_commit": "3ba19f2469cb85fb0b25a48a115eaebc3cb5e6da",
-    "latest_verified_evidence_commit": "0be5988f4760263122188ef31e7f8dfba5ccea47",
+    "latest_verified_evidence_commit": "899c97cdab5d557db8b80a6bf479779ed13282d1",
     "detailed_record_manifest_sha256": "b71986a181f3c8359ca14151ce746b3110c33131001b4c225ce977c419c5cfb2",
     "specific_detailed_record_publication_approved": true
   },
@@ -53,9 +53,9 @@
     }
   },
   "next": [
-    "Collect and independently review the frozen fresh v7 actual development comparison",
-    "Use complete actual paired evidence to preregister a separate untouched final evaluation",
-    "Keep model replacement effect A unestimated and preserve original pending/failed evidence"
+    "Independently verify a separately preregistered callback registration repair before any fresh actual study.",
+    "Preserve all original source and report failure/pending gates; complete valid own paired development before separate untouched final.",
+    "Keep original-model A unavailable/unestimated and Goal active."
   ],
   "verified_components": [
     "actual model development loop",
@@ -182,9 +182,23 @@
     "protected_source_test_static_reference_files_unchanged": 309,
     "guard_scope": "Parent Python hook within this repository; allowed archived CPU fixture child replaces PYTHONPATH and is outside the hook. Not OS-wide isolation.",
     "read_only_doctor_establishes_actual_model_authentication": false,
-    "actual_comparison": "Fresh development preregistered locally; outcomes not adopted; current detailed records excluded from this publication",
+    "actual_comparison": "Development evidence only; original failed/pending gates retained; no improvement or final adoption.",
     "report": "docs/v7_development.ko.md",
     "framework_improvement_proven": false,
-    "final_completed": false
+    "final_completed": false,
+    "known_contract_defect": "B callback-registration writer omits model_id/resource_envelope required by the same frozen ContextBoundary auditor; v7 affected report support not adopted; separate prospective source repair."
+  },
+  "public_v7_installation": {
+    "commit": "899c97cdab5d557db8b80a6bf479779ed13282d1",
+    "result": "evidence/fresh-v7-install-899c97c/fresh-public-run-v1/result.json",
+    "result_sha256": "492829dbb0dd954e008b67be34e4ded3ccd0199e404b372b9dcdf0b239dd3c8a",
+    "valid": true,
+    "own_venv": true,
+    "offline_editable_install": true,
+    "source106_unchanged": true,
+    "checks": 263,
+    "captured_source_portability_checks": 38,
+    "actual_model_or_research_trials": 0,
+    "scope": "Published source variant installation and explicit synthetic captured38 components only; no supplemental5 portable replay, research improvement or final adoption."
   }
 }
