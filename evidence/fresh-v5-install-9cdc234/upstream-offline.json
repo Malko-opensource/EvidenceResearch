@@ -1,0 +1,24 @@
+{
+  "name": "upstream-offline",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\published-9cdc234-replay\\versions\\v5-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "scripts/fetch_upstream.py",
+    "--offline"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\published-9cdc234-replay\\versions\\v5-development",
+  "exit_code": 0,
+  "seconds": 0.375,
+  "logs": [
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-install-9cdc234\\upstream-offline.stdout.log",
+      "sha256": "ffee7341141b97ace032dcfeae08665d264c650781c614960e451e12e0216b86"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-install-9cdc234\\upstream-offline.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

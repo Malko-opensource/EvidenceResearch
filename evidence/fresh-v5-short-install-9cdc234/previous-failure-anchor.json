@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-install-9cdc234\\result.json",
+      "sha256": "a88eb54c08e3598b8e26481f257241116541d5443c8029eab25a58d86f635e4b"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-install-9cdc234\\full-suite.json",
+      "sha256": "8ae5e0ed52115aa46fad3bbf92c865ecf2ff5c30bd9443be1aed6c01308c8c28"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-install-9cdc234\\full-suite.stderr.log",
+      "sha256": "70f07de198d166ad3703b76e8865c0cc8f2ac7a887e3aad2f8833ce09176842e"
+    }
+  ],
+  "preserved": true
+}

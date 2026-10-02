@@ -1,0 +1,99 @@
+{
+  "commit": "9cdc234c86d4a532b47be27401e5c43d188d90cc",
+  "valid": true,
+  "phases": [
+    {
+      "name": "upstream-offline",
+      "command": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er9\\versions\\v5-development\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "scripts/fetch_upstream.py",
+        "--offline"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er9\\versions\\v5-development",
+      "exit_code": 0,
+      "seconds": 0.31200000003445894,
+      "logs": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-offline.stdout.log",
+          "bytes": 360,
+          "sha256": "766a9d5524bbb81e5ad310a74d2fce5e8b6a875bed98e7d99833d2414e88797b"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-offline.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er9\\versions\\v5-development\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er9\\versions\\v5-development",
+      "exit_code": 0,
+      "seconds": 26.34399999998277,
+      "logs": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\full-suite.stdout.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\full-suite.stderr.log",
+          "bytes": 26906,
+          "sha256": "2c982f8121bb442ad68ceacad205798d472971da10a93d9579f97e40c08415bb"
+        }
+      ]
+    },
+    {
+      "name": "cli-help",
+      "command": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er9\\versions\\v5-development\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-B",
+        "-m",
+        "evidence_research.study",
+        "--help"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er9\\versions\\v5-development",
+      "exit_code": 0,
+      "seconds": 0.15600000001722947,
+      "logs": [
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\cli-help.stdout.log",
+          "bytes": 655,
+          "sha256": "db1ff10fa9e5c2c7d51bb01336feff8606d877805bae31b76eeb40d78487c03f"
+        },
+        {
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\cli-help.stderr.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    }
+  ],
+  "git_working_tree_clean": true,
+  "source_bytes_unchanged": true,
+  "independent_venv": true,
+  "include_system_site_packages": false,
+  "editable_distribution_install_performed": false,
+  "actual_model_calls": 0,
+  "research_task_experiments": 0,
+  "private_owner_files_read": 0,
+  "goal_complete": false,
+  "scope": "Short-path fresh public source-run installation and full suite. Real CPU unit fixtures are contract tests; no research trial or superiority claim."
+}

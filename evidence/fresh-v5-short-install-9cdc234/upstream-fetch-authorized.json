@@ -1,0 +1,25 @@
+{
+  "name": "upstream-fetch-authorized",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er9\\versions\\v5-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "scripts/fetch_upstream.py"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er9\\versions\\v5-development",
+  "exit_code": 0,
+  "seconds": 7.813000000023749,
+  "logs": [
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-fetch-authorized.stdout.log",
+      "bytes": 361,
+      "sha256": "5195c0fd3f216400b59d0c89feedf7212b5456affa843cdbcf6d14031e5c0b3d"
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-fetch-authorized.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

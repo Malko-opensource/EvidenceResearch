@@ -12,6 +12,9 @@
 
 Python 3.12 이상이 필요하다. 런타임 외부 의존성은 없다. 새 프로젝트 디렉터리에서:
 
+Windows에서는 짧은 새 clone 경로를 사용한다. 깊은 경로의 실패와 같은 공개
+소스의 짧은 경로 재현은 [설치 검증 안내](docs/windows_install_replay.md)에 있다.
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m evidence_research doctor

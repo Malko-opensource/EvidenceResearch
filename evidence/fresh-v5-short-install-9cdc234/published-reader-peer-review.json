@@ -1,0 +1,23 @@
+{
+  "schema_version": "published-replay-reader-peer-review-1",
+  "reviewer_agent": "/root/core_framework",
+  "source_path": "evaluation/replay_published_units.py",
+  "scope": "Read-only static peer review; no replay, model call, runner execution, private owner file read or source edit.",
+  "external_registration_pin": "a8fdd8c5500961350b289b8798a0ee9dde116ed2d07ee0ef13e131701ec0be92",
+  "external_publication_pin": "b71986a181f3c8359ca14151ce746b3110c33131001b4c225ce977c419c5cfb2",
+  "checks": [
+    "Fixed external registration/publication pins precede approved-file and registered-source hash verification",
+    "Generated original owner serializer bytes match registered owner JSON SHA without opening private owner JSON",
+    "Public task conditions, seed, task version, split hashes and original test value SHA are linked",
+    "AST execution is confined to definitions/expressions from externally pinned trusted source bytes",
+    "Relocated path guard rejects outside-root, traversal, drive-relative, alternate streams and symlink evidence"
+  ],
+  "concrete_source_pin_bypass_or_private_owner_direct_open_found": false,
+  "limitations": [
+    "This is a trust boundary for fixed source bytes, not a sandbox for arbitrary untrusted AST code",
+    "Resource totals are independently recalculated over the mutually checked response/resource-audit inventories; completeness of those inventories inherits the original pinned owner audit rather than rediscovering every request directory in the publication manifest",
+    "No actual resource accounting mismatch was established by this read-only review",
+    "Historical report-review status is checked, without fresh semantic adjudication or superiority/adoption assertion"
+  ],
+  "reviewed_source_sha256": "b9970cda47f3a3694e1cac9364c2d2206200d1c3fe5bfb0c82b8f8254ec24369"
+}

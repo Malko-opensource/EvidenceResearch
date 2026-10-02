@@ -1,0 +1,21 @@
+{
+  "schema_version": "batch-release-check-execution-1",
+  "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+  "index_before_sha256": "328fe9a438a9a6520cbaa665f849c9913205437563acff05744c8dccfb2f297d",
+  "index_after_sha256": "328fe9a438a9a6520cbaa665f849c9913205437563acff05744c8dccfb2f297d",
+  "index_stable": true,
+  "git_index_processes": 2,
+  "git_object_processes": 1,
+  "blob_requests": 6758,
+  "staged_blob_bytes": 216105692,
+  "wall_seconds": 4.7795539000071585,
+  "credential_values_printed": false,
+  "git_mutation": false,
+  "model_calls": 0,
+  "scope": "Publication scanner runtime only; no research performance/model-cost claim",
+  "output": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\release-check-batch-parity-v1\\batch-result.json",
+    "sha256": "c421136cafdca2789ee3d7d5ec8a69f0e9e1e9012e0bd65f816963e1ca736f3f"
+  },
+  "preflight_index_processes": 1
+}

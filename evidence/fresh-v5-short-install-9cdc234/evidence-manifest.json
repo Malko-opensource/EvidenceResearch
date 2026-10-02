@@ -1,0 +1,185 @@
+{
+  "schema_version": "fresh-short-install-evidence-1",
+  "files": {
+    "checkout.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\checkout.json",
+      "bytes": 998,
+      "sha256": "ee85a6c7cca73784a16c59ac529b36312c37cdc8cfc9bb1c57c37b8ff58433e3"
+    },
+    "checkout.stderr.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\checkout.stderr.log",
+      "bytes": 272,
+      "sha256": "1a1d8f25309f47f5fd782051d5e1ea53af7386ec45948bbc914c90cd94ae6413"
+    },
+    "checkout.stdout.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\checkout.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cli-help.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\cli-help.json",
+      "bytes": 977,
+      "sha256": "cb16589076d0cba92e60b61922e55268924c73d392e627377f9f5fba9974c576"
+    },
+    "cli-help.stderr.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\cli-help.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "cli-help.stdout.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\cli-help.stdout.log",
+      "bytes": 655,
+      "sha256": "db1ff10fa9e5c2c7d51bb01336feff8606d877805bae31b76eeb40d78487c03f"
+    },
+    "clone.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\clone.json",
+      "bytes": 1118,
+      "sha256": "aadf2d3aaa7e1682c28d2ebbc2a237723a0e22a6e28667712e911c43aca59f8b"
+    },
+    "clone.stderr.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\clone.stderr.log",
+      "bytes": 78,
+      "sha256": "6fa427b10e7382e8428984d6eeec8ded307ba4453dbcc77ff432c7cd8128d88c"
+    },
+    "clone.stdout.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\clone.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "diagnosis.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\diagnosis.json",
+      "bytes": 1614,
+      "sha256": "d9df73bf960731241640f94a4aa8e6a966a0283ea1b835a190bce915052a36e7"
+    },
+    "full-suite.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\full-suite.json",
+      "bytes": 1006,
+      "sha256": "a2b8e4244b3c87816f479f79248425035d135f88093f120dc6b59d9f753acd7c"
+    },
+    "full-suite.stderr.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\full-suite.stderr.log",
+      "bytes": 26906,
+      "sha256": "2c982f8121bb442ad68ceacad205798d472971da10a93d9579f97e40c08415bb"
+    },
+    "full-suite.stdout.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\full-suite.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "previous-failure-anchor.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\previous-failure-anchor.json",
+      "bytes": 772,
+      "sha256": "497cce95c38652e7ba7d2ffdef827c068fb7ab16ec27cb9ebd5d614985bf8f1d"
+    },
+    "published-reader-peer-review.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\published-reader-peer-review.json",
+      "bytes": 1853,
+      "sha256": "1803f91ccc5fb3a6c6325a580f256e7c410b12a9948e2d3d1a08267bce6afe28"
+    },
+    "report.ko.md": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\report.ko.md",
+      "bytes": 3793,
+      "sha256": "27901c9faf4aacfcd5c19c6cb8dad84fa6376700a04935812fc28f62b11e6d76"
+    },
+    "result.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\result.json",
+      "bytes": 3897,
+      "sha256": "d68d321bd661281646a35530f1d8ddf369ae87f0819db57cdd331b21f39049de"
+    },
+    "source-manifest.after.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\source-manifest.after.json",
+      "bytes": 25229,
+      "sha256": "11ec49a91f3208311fc07628ff6cad2e773edd32c738f454c83b73e5bbe80039"
+    },
+    "source-manifest.before.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\source-manifest.before.json",
+      "bytes": 25229,
+      "sha256": "11ec49a91f3208311fc07628ff6cad2e773edd32c738f454c83b73e5bbe80039"
+    },
+    "sparse.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\sparse.json",
+      "bytes": 975,
+      "sha256": "b4c23c24e304524490f2c3ce3e92a09c0e2c48373880588e79acda2cb9358c56"
+    },
+    "sparse.stderr.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\sparse.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "sparse.stdout.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\sparse.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "upstream-fetch-authorized.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-fetch-authorized.json",
+      "bytes": 1002,
+      "sha256": "68ac4881a016ac20f5e6d7357efa37f6d3c0eafceb0e8a51c59193564eb061c9"
+    },
+    "upstream-fetch-authorized.stderr.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-fetch-authorized.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "upstream-fetch-authorized.stdout.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-fetch-authorized.stdout.log",
+      "bytes": 361,
+      "sha256": "5195c0fd3f216400b59d0c89feedf7212b5456affa843cdbcf6d14031e5c0b3d"
+    },
+    "upstream-fetch.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-fetch.json",
+      "bytes": 971,
+      "sha256": "19419e4ae02000465ff30e7f0439396f2a166a773178e176b0348679c01249d4"
+    },
+    "upstream-fetch.stderr.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-fetch.stderr.log",
+      "bytes": 4234,
+      "sha256": "591585a8b5b52901969785243f116e9ad0f37414a85f33607ca4868a32d0039a"
+    },
+    "upstream-fetch.stdout.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-fetch.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "upstream-offline.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-offline.json",
+      "bytes": 995,
+      "sha256": "857e9157f871840d29333cacff4e05c6f0905abd519a824a6be739d51800a1fd"
+    },
+    "upstream-offline.stderr.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-offline.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "upstream-offline.stdout.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\upstream-offline.stdout.log",
+      "bytes": 360,
+      "sha256": "766a9d5524bbb81e5ad310a74d2fce5e8b6a875bed98e7d99833d2414e88797b"
+    },
+    "validate_fresh_v5_short.source.py": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\validate_fresh_v5_short.source.py",
+      "bytes": 7052,
+      "sha256": "c94bc7dc6412db8157315ec7e7f92dc772ffc5f2f1bfc107732c4e44870befa3"
+    },
+    "venv.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\venv.json",
+      "bytes": 979,
+      "sha256": "5d7928dc7578701697e3d7a8577467e4f47a98cc85bd979d3754a8d048d7aeea"
+    },
+    "venv.stderr.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\venv.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "venv.stdout.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\fresh-v5-short-install-9cdc234\\venv.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "actual_model_calls": 0,
+  "research_task_experiments": 0,
+  "registered_sources_modified": false,
+  "git_publication": false,
+  "goal_complete": false
+}

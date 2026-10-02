@@ -33,7 +33,9 @@
     "published": true,
     "url": "https://github.com/Malko-opensource/EvidenceResearch",
     "first_verified_commit": "3ba19f2469cb85fb0b25a48a115eaebc3cb5e6da",
-    "latest_verified_evidence_commit": "60979ec9e4305cefa384b96e90d8110f2883b88e"
+    "latest_verified_evidence_commit": "9cdc234c86d4a532b47be27401e5c43d188d90cc",
+    "detailed_record_manifest_sha256": "b71986a181f3c8359ca14151ce746b3110c33131001b4c225ce977c419c5cfb2",
+    "specific_detailed_record_publication_approved": true
   },
   "resources": {
     "python": "3.12.14",
@@ -62,18 +64,21 @@
   "blockers": [
     "old development baseline has one ambiguous execution-count statement; retained pending",
     "current minimal B phase policy cannot establish the main original-default contrast",
-    "five-record primary-source synopsis corpus prepared; future adapter and checkpoint/cursor changes still require independent freeze validation",
+    "recommended-phase source is independently frozen; future comparison must separate original phase integrity from common task/report acceptance",
     "final paired comparison and memory-effect confirmation not yet completed"
   ],
   "publication_replay": {
-    "status": "new_published_checkout_verified",
+    "status": "first_pair_published_reader_verified; four_more_approved_pairs_recomputed_from_fresh_9cdc234_data_with_new_owner_reader",
     "evidence": "evidence/portable-replay-development/fresh-publication-validation.json",
     "actual_new_model_calls": 0,
     "new_runner_executions": 0,
-    "scope": "Original first completed development pair metrics/resources; fresh semantic-review equivalence and framework superiority not established."
+    "scope": "Saved development metrics/resources only; no complete semantic-review equivalence, new research experiment or framework superiority claim.",
+    "four_unit_evidence": "evidence/publication-review-completed-v4/fresh-9cdc234-units.json",
+    "four_unit_reader": "evaluation/replay_published_units.py",
+    "private_owner_file_opened_or_test_rows_written": false
   },
   "development_observations": {
-    "completed_minimal_phase_pairs": 5,
+    "independently_described_minimal_phase_pairs": 5,
     "evidence": [
       "evidence/paired-development-first/result.json",
       "evidence/paired-development-linear11/result.json",
@@ -82,6 +87,16 @@
       "evidence/paired-development-quadratic43/result.json"
     ],
     "interpretation": "C used more provider tokens in all five reviewed minimal-phase pairs. Three selected validation gains coincided with worse separate test MSE. Descriptive development evidence only."
+  },
+  "public_source_installation": {
+    "commit": "9cdc234c86d4a532b47be27401e5c43d188d90cc",
+    "deep_windows_path_result": "failed: 2 of 161 checkpoint fixture tests with WinError206; evidence preserved",
+    "deep_path_evidence": "evidence/fresh-v5-install-9cdc234/result.json",
+    "short_windows_path_result": "passed: same-source independent venv, own upstream35, full161 tests and CLI",
+    "short_path_evidence": "evidence/fresh-v5-short-install-9cdc234/result.json",
+    "actual_model_calls": 0,
+    "research_task_experiments": 0,
+    "editable_or_wheel_install_validated": false
   },
   "future_design": {
     "source_copy": "work/next-version",

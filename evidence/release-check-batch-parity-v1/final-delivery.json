@@ -1,0 +1,50 @@
+{
+  "schema_version": "batch-release-check-final-delivery-1",
+  "files": {
+    "evidence-manifest.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\release-check-batch-parity-v1\\evidence-manifest.json",
+      "bytes": 4357,
+      "sha256": "a4a73d7e1ad92396dbc8f8ba246901924ce743366f84a97fc27fb0a584f1e2f1"
+    },
+    "report.ko.md": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\release-check-batch-parity-v1\\report.ko.md",
+      "bytes": 3335,
+      "sha256": "05d78e7c315b569a0a1d803bd468e4acdd40381aaf270efdb4d01dcccae9d2cb"
+    },
+    "verify_evidence.py": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\release-check-batch-parity-v1\\verify_evidence.py",
+      "bytes": 2866,
+      "sha256": "a80a997a32f9dbe9e0fa981c6ef9681bb698be5146d51775cbe75137dec99c15"
+    },
+    "verify.stdout.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\release-check-batch-parity-v1\\verify.stdout.log",
+      "bytes": 243,
+      "sha256": "4c97d2bc1bb928c5bf993c8d2301df43ab008f39b7868e8c82430045bfc1ec06"
+    },
+    "verify.stderr.log": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\release-check-batch-parity-v1\\verify.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "peer-review.json": {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\release-check-batch-parity-v1\\peer-review.json",
+      "bytes": 929,
+      "sha256": "2e876f2d35f9668ef06677ceb91f1407815911dd00e0becbdf08b4d2cc663c66"
+    }
+  },
+  "source_sha256": "ec8e0a4859c0d914a7195c0a8ad459bb6419f5cbe80c241e37e0e2a6c2295047",
+  "saved_evidence_verification": {
+    "argv": [
+      "-B",
+      "evidence/release-check-batch-parity-v1/verify_evidence.py"
+    ],
+    "exit_code": 0
+  },
+  "staged_manifest_exact_equal": true,
+  "file_count": 6758,
+  "current_worktree_scan_valid": false,
+  "pending_reconciliation": "STATUS.json differs from staged bytes; auditor made no changes",
+  "source_frozen": true,
+  "actual_model_calls": 0,
+  "git_mutation": false
+}

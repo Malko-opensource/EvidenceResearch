@@ -1,0 +1,92 @@
+{
+  "valid": true,
+  "guard_attempts": {
+    "original_project_access": 0,
+    "private_owner_or_request_open": 0,
+    "subprocess_or_network": 0
+  },
+  "pure_definition_execution_names": [
+    "_owner_metric",
+    "canonical_bytes",
+    "canonical_json",
+    "split_manifest",
+    "task_data",
+    "value_hash"
+  ],
+  "private_owner_files_present": false,
+  "owner_requests_present": false,
+  "model_or_runner_package_imported": false,
+  "negative_fixtures": [
+    {
+      "fixture": "wrong_external_registration_pin",
+      "rejected": true,
+      "reason": "Unrecognized external study registration pin",
+      "pure_functions_executed": 0
+    },
+    {
+      "fixture": "wrong_external_manifest_pin",
+      "rejected": true,
+      "reason": "Unrecognized human-approved publication manifest pin",
+      "pure_functions_executed": 0
+    },
+    {
+      "fixture": "archived_generator_byte_mutation",
+      "rejected": true,
+      "reason": "Original bytes changed: runs/development/paired-pilot-v4/source-snapshot/evidence_research/tasks.py",
+      "pure_functions_executed": 0
+    },
+    {
+      "fixture": "prediction_and_its_self_hash_rewritten",
+      "rejected": true,
+      "reason": "Original bytes changed: runs/development/paired-pilot-v4/units/linear-seed11/B/attempts/attempt-0000/experiments/execution-0000/predictions.json",
+      "pure_functions_executed": 0
+    },
+    {
+      "fixture": "scalar_owner_measurement_mutation",
+      "rejected": true,
+      "reason": "Original bytes changed: runs/development/paired-pilot-v4/units/linear-seed11/B/owner-measurement.json",
+      "pure_functions_executed": 0
+    },
+    {
+      "fixture": "missing_original_prediction",
+      "rejected": true,
+      "reason": "Missing or symlink evidence",
+      "pure_functions_executed": 0
+    },
+    {
+      "fixture": "unmapped_old_absolute",
+      "rejected": true,
+      "reason": "Recorded evidence lies outside the explicitly mapped original root",
+      "pure_functions_executed": 0
+    },
+    {
+      "fixture": "parent_traversal",
+      "rejected": true,
+      "reason": "Parent traversal in evidence path",
+      "pure_functions_executed": 0
+    },
+    {
+      "fixture": "drive_relative",
+      "rejected": true,
+      "reason": "Drive-relative path refused",
+      "pure_functions_executed": 0
+    },
+    {
+      "fixture": "rooted_relative",
+      "rejected": true,
+      "reason": "Rooted relative path refused",
+      "pure_functions_executed": 0
+    },
+    {
+      "fixture": "alternate_stream",
+      "rejected": true,
+      "reason": "Alternate stream path refused",
+      "pure_functions_executed": 0
+    }
+  ],
+  "new_model_calls": 0,
+  "new_runner_executions": 0,
+  "generated_rows_persisted_or_printed": false,
+  "reader_sha256": "b9970cda47f3a3694e1cac9364c2d2206200d1c3fe5bfb0c82b8f8254ec24369",
+  "scope": "Pure deterministic generation plus independent fit/owner scalar arithmetic only; exact external byte pins checked before compiled pure references."
+}

@@ -1,0 +1,27 @@
+{
+  "contracts": {
+    "python": "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "argv": [
+      "-B",
+      "evidence/release-check-batch-parity-v1/test_batch_contract.py"
+    ],
+    "exit_code": 0,
+    "working_directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch"
+  },
+  "actual_index_scan": {
+    "python": "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "argv": [
+      "-B",
+      "scripts/release_check_batch.py",
+      "--root",
+      ".",
+      "--output",
+      "evidence/release-check-batch-parity-v1/batch-result.json",
+      "--receipt",
+      "evidence/release-check-batch-parity-v1/batch-receipt.json"
+    ],
+    "exit_code": 1,
+    "working_directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "scope": "Fail-closed working-file mismatch; no repeated legacy processes/index mutation/model calls."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\release-check.json",
+  "snapshot_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\release-check-batch-parity-v1\\legacy-release-check.json",
+  "sha256": "24ece019b8b3dfd175e729930938b9c11cc2ca70348a9de94ebef564e1978326",
+  "valid": true,
+  "file_count": 6758,
+  "rejected_count": 0,
+  "scope": "Existing completed staged-scan output copied read-only for exact parity; no old process or index mutation."
+}

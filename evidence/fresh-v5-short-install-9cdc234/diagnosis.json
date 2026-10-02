@@ -1,0 +1,29 @@
+{
+  "schema_version": "windows-short-install-diagnosis-1",
+  "old_failure_count": 2,
+  "old_failure_code": "WinError 206",
+  "old_failed_checkpoint_paths": [
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\published-9cdc234-replay\\versions\\v5-development\\runs\\development\\transport-fixture-only\\tmp3tf5j3b6\\mle-first\\upstream\\transport_checkpoints\\.stage-00000001-1790962075728987700",
+      "characters": 248
+    },
+    {
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\published-9cdc234-replay\\versions\\v5-development\\runs\\development\\transport-fixture-only\\tmpa07pmgkm\\phase-first\\upstream\\transport_checkpoints\\.stage-00000001-1790962075840530000",
+      "characters": 250
+    }
+  ],
+  "new_short_checkout": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er9",
+  "version_root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er9\\versions\\v5-development",
+  "published_commit": "9cdc234c86d4a532b47be27401e5c43d188d90cc",
+  "published_version_file_count": 93,
+  "new_full_test_count": 161,
+  "old_failed_proof_hashes_unchanged": true,
+  "venv_config": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\_er9\\versions\\v5-development\\.venv\\pyvenv.cfg",
+    "sha256": "fab65126fb54c4403aa9b8475f22dc0e526bc0157f0a66afbcae24ef8a3e99b5"
+  },
+  "packaging_scope": "independent venv source-run, not editable/wheel distribution install",
+  "actual_model_calls": 0,
+  "research_trial_count": 0,
+  "private_owner_files_read": 0
+}
