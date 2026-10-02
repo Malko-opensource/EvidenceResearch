@@ -1,0 +1,11 @@
+{
+  "kind": "exact_content_hash_recovery",
+  "original_record": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\derived_arithmetic.json",
+  "record_sha256": "00cc492e274394f6f2c9d101ca2452d28cadc4115a8ab5f1730918ce7284ec41",
+  "original_source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\review_final_upstream.py",
+  "recorded_source_sha256": "83043a9b6f8d602f4cb1a49b82a2b9886ccfe89a1bd676be613ce194b1d40449",
+  "recovered_archive": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\draft-review-source-recovery\\review_final_upstream-83043a9b6f8d602f4cb1a49b82a2b9886ccfe89a1bd676be613ce194b1d40449.py",
+  "archive_sha256": "83043a9b6f8d602f4cb1a49b82a2b9886ccfe89a1bd676be613ce194b1d40449",
+  "draft_status": "incomplete_review_not_adoption_evidence",
+  "original_evidence_modified": false
+}

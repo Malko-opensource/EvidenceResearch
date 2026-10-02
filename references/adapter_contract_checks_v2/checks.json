@@ -1,0 +1,68 @@
+{
+  "kind": "adapter_implementation_checks",
+  "comparison_evidence": false,
+  "actual_new_model_calls": 0,
+  "actual_cpu_task_executions": 0,
+  "checks": [
+    {
+      "check": "unsafe_generated_program_rejected",
+      "input": "import os",
+      "passed": true
+    },
+    {
+      "check": "unsafe_generated_program_rejected",
+      "input": "print(0.0)",
+      "passed": true
+    },
+    {
+      "check": "unsafe_generated_program_rejected",
+      "input": "CONFIG = {'degree': 1 + 1, 'alpha': 0.0}",
+      "passed": true
+    },
+    {
+      "check": "unsafe_generated_program_rejected",
+      "input": "__import__('os').system('bad')",
+      "passed": true
+    },
+    {
+      "check": "unsafe_generated_program_rejected",
+      "input": "run_candidate({'degree': True, 'alpha': 0})",
+      "passed": true
+    },
+    {
+      "check": "unsafe_generated_program_rejected",
+      "input": "CONFIG = {'degree': 2, 'alpha': float('nan')}",
+      "passed": true
+    },
+    {
+      "check": "arbitrary_pickle_global_rejected",
+      "passed": true
+    },
+    {
+      "check": "completed_actual_response_hash_checked_and_reused",
+      "passed": true,
+      "response_sha256": "4159b7b6ca620ba2e79da9aff55fa5fcd5fbcb1fcc38788fef730ad41eeb6f62",
+      "actual_new_model_calls": 0
+    },
+    {
+      "check": "prior_attempts_consume_same_registered_resource_envelope",
+      "passed": true
+    },
+    {
+      "check": "completed_CPU_response_replay_does_not_increment_attempts",
+      "passed": true
+    },
+    {
+      "check": "shared_CPU_budget_includes_prior_actual_executions",
+      "passed": true
+    },
+    {
+      "check": "unknown_CPU_blocks_before_any_new_model_or_task_action",
+      "passed": true
+    },
+    {
+      "check": "changed_raw_response_refused",
+      "passed": true
+    }
+  ]
+}

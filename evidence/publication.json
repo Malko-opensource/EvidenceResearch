@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/Malko-opensource/EvidenceResearch",
+  "owner_verified_by": "authenticated GitHub CLI user endpoint and repository ADMIN permission",
+  "public": true,
+  "first_commit": "3ba19f2469cb85fb0b25a48a115eaebc3cb5e6da",
+  "remote_commit_verified": true,
+  "readme_blob_sha1": "d3089aa5476aec961d20af9321252101a30db32c",
+  "date": "2026-10-02",
+  "research_goal_status": "active",
+  "framework_improvement_proven": false,
+  "credentials_persisted": false
+}

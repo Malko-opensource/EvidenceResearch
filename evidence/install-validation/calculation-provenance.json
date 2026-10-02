@@ -1,0 +1,8 @@
+{
+  "completed_report_sha256": "0dc2034cfcc4e287f54575357409c34c698db234c66f27fcf96d32f26dc77953",
+  "calculation_source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evidence\\install-validation\\source\\install_validation.py",
+  "calculation_source_sha256": "28d9e9667479299e8e7286496f1a7ea936f0d1846dc6f935a8292401d881ab81",
+  "calculation": "compare checks, source_hashes and observed fields of independently executed frozen CPU report against the published original",
+  "completed_execution_repeated": false,
+  "comparison_script_error_record": "comparison-script-failure.json"
+}

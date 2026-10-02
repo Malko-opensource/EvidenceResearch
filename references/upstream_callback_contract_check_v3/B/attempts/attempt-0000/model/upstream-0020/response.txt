@@ -1,0 +1,1 @@
+polynomial ridge regression degree selection regularization feature covariance validation mean squared error cross-validation small sample generalization

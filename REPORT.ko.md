@@ -17,6 +17,7 @@
 | --- | --- | --- |
 | 실제 CPU 기능 검사 | 실행 5회, 중복 실행 0회, 기능 검사 9개 통과 | `evidence/core-validation-final/report.json`, `runner-invocations.json` |
 | 고정 소스로 재실행 | 관찰값·실행 ID·소스 해시 일치 | `evidence/core-validation-final/reproduction-check.json` |
+| 공개 저장소의 독립 설치 | 별도 clone·venv에서 원본 35개 파일 검증, 51개 검사 통과, 당시 소스의 CPU 관찰값 일치 | `evidence/install-validation/report.json`, 각 단계의 해시 연결 로그 |
 | 실제 모델 제안 실험 | validation MSE 0.012638906669511679 | `evidence/model-development/evidence/bbe438e4943ebb772dc9f0e2/` |
 | 원본 adapted 개발 실행 | 같은 설정의 실제 측정 MSE 0.012638906669511679; 과제 지표 향상 미입증 | `runs/development/B-upstream-dev-quadratic-seed7-literature/independent_review/verified_experiment_evidence.json` |
 
@@ -25,7 +26,9 @@
 작성은 일시적인 모델 용량 부족으로 중단된 후 완료됐다. 원본 기록을 보존한
 `runs/development/B-upstream-dev-quadratic-seed7-resumed/development_result.json`에
 재개 계보와 최종 보고서 해시가 있다. 재개 중 새 CPU 실행은 없었다. 전체 보고서의
-수치 주장은 독립 검토 중이며, 보고서 생성 성공만으로 과제 개선을 판정하지 않는다.
+수량 표현 248개를 독립 검토했으며, 실행 횟수의 범위가 불명확한 표현 하나는 보류했다.
+판정과 근거는 `independent_review/full-report-review-v2/comprehensive_numeric_adjudication.json`에
+있다. 보고서 생성 성공만으로 과제 개선을 판정하지 않는다.
 
 독립 평가 도구는 별개 train/validation/test, 고정 구현·평가 해시, 실제 예측의
 수치 재계산과 모델 호출 감사 증거를 요구한다. 과제·모델·seed·도구 권한·자원

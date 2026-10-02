@@ -1,0 +1,1 @@
+Polynomial ridge regression degree selection and regularization strength for minimizing validation mean squared error: feature covariance, quadratic structure, higher-order polynomial features, cross-validation, and validation selection bias

@@ -1,0 +1,17 @@
+{
+  "name": "unit-checks",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\install-checkout\\.venv\\Scripts\\python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-q"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\work\\install-checkout",
+  "exit_code": 0,
+  "elapsed_seconds": 3.437999999965541,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "1ac4f177c0f54bd00adb14808ab5001c87d71296c140c584234a16e17e6c5867"
+}

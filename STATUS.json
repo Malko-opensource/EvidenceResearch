@@ -8,8 +8,9 @@
   "github": {
     "owner": "Malko-opensource",
     "repository": "EvidenceResearch",
-    "published": false,
-    "url": "https://github.com/Malko-opensource/EvidenceResearch"
+    "published": true,
+    "url": "https://github.com/Malko-opensource/EvidenceResearch",
+    "first_verified_commit": "3ba19f2469cb85fb0b25a48a115eaebc3cb5e6da"
   },
   "resources": {
     "python": "3.12.14",
@@ -19,7 +20,7 @@
     "cpu_logical": 16,
     "gpu_usage": "none"
   },
-  "next": "Publish development checkpoint; independently review completed baseline report; gather matched pilot and freeze final evaluation.",
+  "next": "Freeze the matched medium-effort paired pilot with explicit resource limits; gather evidence and independently design final evaluation.",
   "verified_components": [
     "actual model development loop",
     "five actual CPU component runs",
@@ -29,7 +30,7 @@
     "independent numeric verifier"
   ],
   "blockers": [
-    "paired pilot and complete independent baseline report adjudication pending",
+    "old development baseline has one ambiguous execution-count statement; retained pending",
     "final paired comparison and memory ablation not yet executed"
   ]
 }

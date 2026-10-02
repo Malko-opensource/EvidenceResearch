@@ -1,0 +1,1342 @@
+[
+  {
+    "claim_id": "e6bb6bdfa72379caab27e279646dfdb11099bdd01950db34f8cadad1878f0949",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "c0d8b755ed0d4e51e3564f3ebfc81aa69653233c491ce9aa7e44c58f62649640",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "44a461916440146c9a4074584141bc7ea914fa788efbf3e8a0abc7c6d5c65cc8",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "35903ce89c4b271c7ccc59a6c38d1247177b85dede2f78f4088f74af000a7974",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "9a2b61e07b459173a2045e8a6f7529939f906d49924652e46d5474ed2a86b331",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "219d09f019ffd65e7e1e83edb93ccd918229b791903441950f4aaf9828be8163",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "3502c387c5a71e2bcbce5b600dc7478bf9dc71fd57009c9ede6d204a54a0a9dd",
+    "kind": "proposal",
+    "rationale": "Permitted degrees for future comparisons; the report does not claim these alternatives were executed."
+  },
+  {
+    "claim_id": "958eaa1b0cc7c5c17499b5a5848c81550d9849713e7819f6f18854ae933bff2c",
+    "kind": "proposal",
+    "rationale": "Permitted degrees for future comparisons; the report does not claim these alternatives were executed."
+  },
+  {
+    "claim_id": "1cbb49c757bea63a0fc6a604d47a8531ae34494c277b65001f60d2b9796afd47",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "3603d8e0b93916145b0f399da0dfe222e3e9037e1137934575ceba0916cd2f28",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "661add8c4cc3a0ad0290be3b58b8915a0f859205e7103917ce735a7c22bd7913",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "88531da9ac584f4bb73f66c39f72960337454825378b09bb8de76c3bd9ba392b",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "f1a02c027eb558acd0b03cd28b087735076a34f71668e537e0c056984799fde9",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "f6f5c2a6a0e03526d56874d6eb2f93cf6acbfa468076d09c231fc2031ae31ef2",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "9165cceebae508451610e35f546dfb81c20c2c556e5cde0ff47e11ab972c094f",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "4315aa54487382d2cbf459c79c4c7ae17d4027403b5438b2e8ebf1337006b0ae",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "c2cb4441696e16e813a325fa2a1d9b891f848a89e0f9f30014dff6f6bad620e9",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "9a09286527e4a53fd8de4e89526b75918e22ad777a1d38665e8b3677fc0cb9d9",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "3d02656a3e32db84a4a574641fb035805bf6145a2ca6198105b00dd90a13d0cd",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "e4c18681ec62759000aa7445feb01f3187597f09111f0ed0fa855880136cd21a",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "3f8f2b60f6b8c284875e17f46b74c1d5efe64418db99c772464276d3c60869b5",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "4c2b35876b6a348f86e77349c82c842ca9a7bd4050e0e7fe14236f97c75e5cb0",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "c830b05b9c07823bfdca185914937a9ac2d2c31ff9abc9f859f09f381772011e",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "b75f87d662b1016a089a0b0f701f81b7f9fbb91d432eb8d14b54434849f1f3e7",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "b63de196a19d27c475f66634d4ef26e8ff8acc1fd5c6d04a9abe8c9022df37e3",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "fd68a9c78a63ac8d126e0cb75ea39c363df77e5844c0082e476d67f8f13efc50",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "1a85018f0e358de0e0d20bcbaa90a0a9fb3e01c6dd0fe7a695f0cec7c142ba22",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "4d6e5b822f4b7bd1a6789beb6ab3389980ccb811c39b90deb74d45f4ecb28555",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "03bacc584229af636874fb5b9256465b4e1bc52e2711b827a77e2ad0a95a8ca3",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "f4a6dc88d39b594013b594047ee8f5262fcb7b94a02b743350f18656f4378d1c",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "633301850224a3d13dbf603a6ca11079791871e0eab4737dfdc22d22bcc3801f",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "9d40eb4fdbe1feb4329b50afafba43f1906b943f970b64ca81d10620c182ab6d",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "414e9479ad28839548e14bf044daba5e48ddaad01be198eff25ab694cefb1810",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "56ae1d35249c0c09a4e7a2e78c02a69627a36ff51e9eb08b606422f9a2ef5d44",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "640d976039374f6839320cc3791fdaf4daec6b9708921e4b8b320a2fc54cf608",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "30b58dd40a5af142945af700f7c813114a777cbda260108976754c3d40059be5",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "591110968dcb16afbd04bd6f2d9a5f8288747f2480a563250b166f41077f2d31",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "051bb1d1d4cc83845be54f926f197cae475d9a7f4e95ee080298e46e3c83d2c6",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "fb1cb02c306efbf7b61dcebc8e6aac26dd4cd1c97a86134ff219b893d74cfa4c",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "c34ccabf77fe2cb8883a34c111bac02f58ec0744e62e318816bc6cd6dc3e1e2a",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "72e9ea96817ead2de9001fa3e315905b2b0b33bf8bc8c6db545e4e075e15ce57",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "d358c202ec5b38ef79a84292f9b65662bcc30c3b4cff6eb3061de50bb41a9f54",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "07093959755aba65b5e6119eca67fbd828226c1286e37e9a51a68a1cf901346e",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "737de86d66f6853c04ca18f91768023caebdd12a57292aab7a1264b5ff5d0b5a",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "3bb4c88e6623d7fa07c991e8e7adce573352113da8ce43725ce51030718d2d1b",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "8326a197c96529c2437300ce80f849e35e666ab9deeb6e3be240c3a1cddab4ac",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "0e9fcf45a7e711be2b84a3922955ae3d2b2f5bc27f1d38f97f8cbd1ff6ff01ce",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "4a4e19acc52577932473cc490a95ee511e4c88e7837ce3418f36b259f70fa126",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "9a66db43ac7f92af62cab5d5ebe500722966e68771285078cc5ca3b6fcebd7be",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "fe8d4b08f465033270616a501e5a1fbbccba96be8da265ed7eecd13379e67d86",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "67486823df5f8114e7a188b1b0928a2059ea2c4d74f0a4842adba74ac4c1c8ad",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "faf1b369b4d69e6fb13ca1e1a1196fddd5b2462d964ca0479f3408cb231a556f",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "1c32830b6e8fe69844b784fc58cafc3af0bd7b49750115e862b700cff62abbcd",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "5c84c63f51e8fb3511a5b6fbd010c5a666c5b22e586c3033ab7fcee39e2d8d00",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "fc444bd7c20b2c0cdf644411f4ee40d65195259c05573f2d1f7d73a39ac5047e",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "ade1af387c69aae9b78bdbe6600491c0ed15b2175456fb9789a164d54ef6c2d8",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "99b0b1fa2500ed901f0c148b52f60402b0d12ca946098e4523e75ac1b2062224",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "48d0afad3cfba759ec22da59b2e932afb6d9e1a9c5ba482b85d8272a3fe1c868",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "1477946d0af2528315ae5e266deae92af12ed34ac80579285fb3e1f456e2b34c",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "2c8c6e791f3d6456c145b28b52bc5e041374e89a2fe964c46fb8549fcafa0d71",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "0a8fc97beb7c494c9190bb39359c1e5f5893b93ced4e26c26a5b926add792d65",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "37daa022ed2d6a813911c7aadd2c1461acb89a9898c17468fb9a56e9303490be",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "9447305a0b95d5f8da339a64963919e4ad5238d0f1dfb03f601174dae48edeb9",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "7cf7b9e9250d01a776bc96a13c06e0a8192c3443bc9d9df2018262f796b6b66a",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "7848f34bb29da1031384b54bd091c42592b2b364137df385c342ec60258053de",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "afb1e51774b32a5d5ff9c4888a24fd1418123b9fb4577904a4223a7dd15139aa",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "ab246be09c3900b7ff44309e00d46ea14d2027e98bbae4525f899751dd98e47f",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "53b6ae9f840f69409e1bf7f7dbf9e59ca2d1247be15e157fe8f68c0868e1e8e9",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "dbfec4176ef9c3b97ef04b891eac617662e69d9485db9e2a7fa6436473d42939",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "5deee15267a3a728c109e23f03df7eaf1715e9cf51047e896e37c4929999ebd1",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "293610b3bc4e76213b5f815e32c00a0a78443050d3a0beb830614eb67c2cdd8a",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "b8c5a63a44327c6c95966f8891433312bad55e8db48666ba262f5687771afe01",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "2aa369b6f6af8fef680c6c92c5bfb9f5fb5c7291910ff532aef2d7fc4ab9be40",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "42ec9602184ef2efb9e3501ef32f2e5c6ad7a35f50472a72490fc4b5a2878421",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "5b09a42b823e92bc38394dd2a06b505740ded21a928e929ef37cfb42b4c4319c",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "eb0eddef943acb483299c90e1796e467b8c75e1d03e5041d2224e1c404742193",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "00cdafbd8b736e4b14e069fc8ea601f73232d798a07ca79c8e9d278cbc82ef0f",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "b5806777983c636bb7dc261fa7f3749a57152c862308a7f8f9da98b34de30672",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "6f735ccbfdfe075122d0328700839ee175ba308dc4206480bb56b83a08a2d2aa",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "ce0011ddcb22b2dfdbb7423bad4786c684ad2c04559dd091ea07b2186808c851",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "378c9a566eadb2c554ab29d9a514e64d3f54fb02b77be9fd34cdadcad5168526",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "a9493124d9090b5b895377f7b03dbef908e0cf83cb55eabb3cbfd094e81bb64b",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "817fe2f7807c5b1c07ab88af84a1749010121a70083ea7f5e368b2dcc887d89c",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "0959ab2a419029670b52faecca0105985a8106ceb44c1181f9d2dd70dc96e9d8",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "27667d83dab12e591b184f249c46de858a274a6e42bf6f3427fcfaa1bef0e90a",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "0a45a2d43643a620c1c593e909ca30b0862d6da10f1d063ede429836db4a4a9b",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "295b2da0f95096dff45897f448c7299296a0b721476e55d59af0a19c40ee8a67",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "c59fe7c099d77f2bcc13141f34ccbb8726d10412a98f6faed78ea1b88938376f",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "eec60ff1fbf8c3d2444673017d6e2145d538d39622f11e6c1e338062cbf4f041",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "292a7178ab2e2672b754ba1ced965eaf957ec93ea0cf190e406a8907c9bc2f72",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "a10240212cd808bcce2ecbc9730e74462e2e4c4bb6e43dd6c47771ba2bfb098c",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "cea1e541232d4cbc7abc8d191295c5f33c7324cb3da1e4a3688a737c269f6918",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "be62c5414e31d215234df831145379244360f9b98c575e189e8efbeb4fd03a8f",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "41698ea29e892bf61bf984e69e608267960c792897053ad59df7a994ccb095d7",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "5aa0bbe24e11cbbb228cdfead3968521cdf9b4b016cd61e1289f8c3d40b499e6",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "09c754f797d6fb9e752511d001f69ad1d66bfbbec7a94d021fca16b14b4b0129",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "33a794f01355d5cd4378049b6803139ea6947772029f540e52424b870809e759",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "02d3659541e8453955a959ba138861e22410268e9fd02e5cab212e7fba53f3ed",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "50a0c2f2070346c3453a9c6b21231a4cd73228dd4ea8eca8066aeee4aceb0b13",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "8c03090b69f6c64102c16df6e40771eeed70c577bac80376ecf981311ec94bf4",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "654f420931d8881d028d3ae6fc5ddde6a9f07fc5adbfa4f7989ddc0af8782376",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "ce47c6db0311028d742632d0c5717d71deea7fb9f963866e0e9df9a0ebc50e5b",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "5a4dfa2220c08ce5d0e57e582ea08df7bba5a1981c7da360811b611485f52006",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "e1427290d5bea9d2fe7e105d6f72a8f41179ee1a5387a45462d1b9bea699b7cf",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "2a8d5af914a759b147adc52fb0c980881bf0333871cdaeb291d142096e0afe7a",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "7cd17407a4d3d5a7144e37a095bd1e92562c6f049654a78fd93ac948057ef4f8",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "9fe7e017c28da4348e182a8e920a42e27a7f66ee34a6326a8ff2b797c100e3a2",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "25faf11c7a9b632331f51f3d08856c6b6e827bdcce09e87f137df07402b32f19",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "171714d212887ccaa2e617520982e9d8adca5092e1174a8026ca5bbae431afd1",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "560ebfcad3c4e42ce9f3f56fe42555ee228027886bbe3505672babece38704aa",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "f1c223bd2770be3b33ddb46fb18ce2da226d597e5009739c872066ca13053b32",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "6e31c8f5641b29e9b551798175db032db3291251e26e41f95d48e40e8f0699bd",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "11a119f35d072733ef555420c095ed15f3a0e0d939346396ed9c7898fbd5c7e5",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "c5e24a9b4d08a506dbaed07a94977b74c8ae56c7c226f51e794a077e75b9a7d1",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "8357da8047c85c81c3c52f9078dc51ceccb3ace924c4fb6b828eacca0299aa88",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "201915d1c13953509fc21cd64ea7c157f5ff2f21abe0ed399f8ca3a1a985bb45",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "a23b57d4c332d13bbeaf499cffba85af20eb3838f3911f2d2b0018af23a4ccc5",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "737c4bcb2fe6621abec1b3b390ee792e5314ff4f88bb61d00a61d7daf67564a7",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "fa0b32b3fce3d2668bffb8b32cb3a67d919916639469fbcdc8d0cfee8c9bbfe6",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "100f886e2dd7a7efe72972ef9120e447f5a62a01ccd38278a7d6ef5b4954caec",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "63d73783175784e61a59a192351a5b293501156060e09f52c59aa1d3695e1947",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "68e87297848cd15ddf50c10fc294e441133e12e0f0ebe370f3aa6deb37f35810",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "c8d5d200fc6b66b3a92fb694d5a0c6c70ff44233fb5323b04c89654f08f0dcf6",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "895689a0da908e4336f8a7b9e0e5e85062791fd2d047e05525498f48290794af",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "6eb7c7d43caca11a3cf7995f0fa06b9e42bd237c46094a9bbdbe738508aeb94e",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "63c131b1cef5b4ab016dff7620cad6cfbd01835917d1a2ae769cc0e6e40ad50b",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "c25824da5f94ed4c18a4aa43c1ea8aa476a26479baa8c122f9150b16d13e443e",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "095804526f53f56686c87fa977671f5e9ec25fcfe9ded630cb42774f92e680fc",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "3744eb277533dcea2cc427104a4ab2371e9fb9ad54b93e21c304d4c094f0995e",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "f6d8009338215e4caac5417d7262fb90f6a0f3172f7cea8b11d83662f1037b80",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "12ac8e08bc0a2ea654719abcde2c095d9c5d2df681ca889c568732e6df4a5c4e",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "c142f1fee72bf81a616bb13ef3d1c6ce27e3068228a1c507e0efaf18ca34ea13",
+    "kind": "identifier",
+    "rationale": "Suffix of polynomial-ridge-1 task version, consistent with the actual registration; not an experiment count.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "a20dbd55578d5a870e64e25433674fa0a1ba69c13650af1c72ca3120cb531e2e",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "5ad5fd5197005e0fb27efc9ba149790ff843b12076236a69b117a5f229f19721",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "a7b67007ff461dd1e26119c68ae94d22a789d0183538feedf4b9daefb5cff0dd",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "4e7f960b265adaf988deac946e4e187bf8916339ee5bb1be61bf2545b85acc33",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "364aee7347115aa90b7378f295f8da349f0bf5865c38ea8b77448b939c89a3d1",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "007a9bb080564be48641b9476b1d439120eff81fbd2fefd27c3f1dc140d0d332",
+    "kind": "method",
+    "rationale": "Allowed degree/alpha limits or standard constant; the frozen validator enforces degrees 1..8 and alpha 0..100. No performance outcome is claimed.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\source\\evidence_research\\tasks.py",
+    "source_sha256": "cb9966fea4bf835b92249401a0cfa04e37cbff9a87a7c325c58c854f2c1d7efd"
+  },
+  {
+    "claim_id": "440c2836b9d1af1d07305468f680f30ca454525d470d82a04b05ca7e1e5d3a73",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "fee5f03c8d397be5c0166e7abda3df56c720fc06dd3d9bdab817fc90c3827bac",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "f2312ccc8effb9f8b7c0a05593e2efdf3a0bea6cfa9adc847f3e671f3d2f6e60",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "4eeff9ca50a54a38e220cd2457458554f58598a783fc6076aa4e305d4b9049cf",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "d399668c9d03521532b8f118bd830a4d8cae8efddac33677a167b91bb5b0c9fc",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "d54e30daff353311ff3cb7718387fc1979bcc8f199a117beabc6dbc1f605e7ad",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "23088b72212b0b424b6f5a6089c7afacd7ed9b31d3ea42a53f99f17713b1cf08",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "af29ca9e27ce4f71b17157db64b99191804aceadc875fe20c1f1c8eac5bb0224",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "16189e58c5a818434549ac61c8c18296c754cee32952db6779a5df48aaa3f125",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "647da1ccd9fcc52bae9af4a9b0d804e71aa1568db7bf152c215500beb2757341",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "7f58cc033904b57d11a3eea6fffe4d21fa2e50a8703f6a083f7b78712dc6e671",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "c7307375097a6f989b5315c3ab89b204736c616009996142cf67a4d004398165",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "4fc81694d56b4ea111618fd388efba2199dd36fa1567c8146dad53474d385e17",
+    "kind": "method",
+    "rationale": "Index, exponent, inverse, MSE normalization, ridge or SVD mathematical notation; independently checked method context, not measured performance.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-resumed\\independent_review\\full-report-review-v2\\mathematical_context.json",
+    "source_sha256": "13e045539e13159c93cda844be9237b7070098d9431019feec2c08e5e0169294"
+  },
+  {
+    "claim_id": "aef667a1df7a5ea524224166d991aae2636068ab667eed7f4457e872b57f9620",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "7ba82129b4c6cdd8f53eaff7ae0379daeee485d33934de36e810054be53c097e",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "091f6931646c61b6e48dd9fa7d9312d08c1c210b6b34d6c9f2cd7265a5be0c08",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "d6f73f67a9f3b47b73453a749a194555db016cf88a89d27d2dab97b128dcf982",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "67931b716a87dc0c00600ac78bb9bd66e4da7b19c2ae006592a1375e10a5a9de",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "1b2bca48e21d70e6ef7a6894073d03e5acb2bc089e735e398c2818b89e5dc5aa",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "1bc4ebf2a12fcdf0efd58f49da627dd03207cf7e1e1937eacbbf5d58d6ab5553",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "3d8079a57e3a5bd084aed60150fba66b3d9e2bff659efde74bd4fcd65de5ebfa",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "ff156bbade1c1c20e01e6eeee54a97cb5b8ae957d0d968c8a1ff12ef569c4af9",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "1451b0ed1e437249413e6da36e7ddd7b5998b5889b8b8800701f868afc12fd20",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "cf0531ccee08204d6e482ef35dc51afe947e1f40f508ee30193b002b62af95ff",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "9c30f204a27d87081da30f9900c5d5a0897985677f2de1e0807974f4a9c675ff",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "a76c8c9482d06ebedf78361575fb9d5098ca146b7bdd38a7fc615f3594bc9c73",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "a6db8a04d88a1dd7962f6de0dc56353c41962c90dac90c5c1a898773aa505927",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "95ff3aa2b8f8ec389d8f9b70da047873913157dbbcaefc9dbfa8f215e50c00b9",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "a41726c1ad54c28a22546864e8ddc99e73d462f53eef604a9c91251516d307b8",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "d428a0cb94ac8cd6482dec62811a86971c5fb7879430f947ff4e041dcf49f901",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "2fcedf80de204ac4e5b9415c34c134364c7dab214f2d6104a25912ba60df58dd",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "ae8aa5f8474d8a8422862424368b02d364bcb2ecddf7e0034b5c28846bc5aaaf",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "16937fa40029db07b16a129204f46dce69763fbf6c6efea2b096d9b95b9259b4",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "ef8195d96caeff8a81df0b06dd11bbf01accf8a16c65cbbd19af26d080a6ef0a",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "18ba34cc4474ab55a0bebeb0411db46281467c64e771e7892390879e3320a65b",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "cc8f6d3d72fe9277038cae12fe5f86b19fc261da077fea2b8f18435edfd83f95",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "6f809510b8a55f5839b69bc65f51b3b07cca5565d2b14f38984be762c613210d",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "4f0384664e1850e7efb336e727db6abf2f6945be9dad2a110522d8ee820dbf53",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "78492d8204b3149eae25a6eaa5fcec4d88d5c0408e4f9d15f564dd2062913343",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "9230156d7d9d7459aae9144a57e6da982f4bdb81c41f6be4188333f6a8dccf21",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "811269074470e45ca3feaec9cf35b2ddc6ef62bbf99f8ff559f7e445c4e06799",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "9a12864e5988f1f3bdda65029f7f0c1447bf35f1bacbfa1257fb0d6fc993dde2",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "27bddb9d7f2680ea41c31df8b88510b05d10f0bd5d86c1f1b1869724f08d52a0",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "5282492e00ae884b85e1172e09d9dfbf49f6e9fce4233c4c10521324b5fb5079",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "1daf5643448623a0334a979752554d8684f4cf928d2a2aa5eb9ad5161347f204",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "60b9b8c0fa4b9168422f52e60a5ae4687ae4f4c0bfa56d1b813e8fd0d3bca0d0",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "1d92b95fbc587a2317a2bd8730c781c72b217e3544e38b0278ccc3e46b830515",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "3fe62a58728e4fdd6e782186995d9499db0c1928a1c5c8223a6bb4e5310e3704",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "8d15e3865683ec1d83c2e5e81f9fa6152f049aee38f7294e9e5b7a6e44f7485c",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "a6d80d7ef81dc35b3c08a611e3345a2ae7c84e966c01a151fc73f101a7bd4e5d",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "29888cf480f9bcd9b9ba5a83fad7b7f1bb94aa0f74ef0cbe21058652041d6004",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "0abc1f7aa7716675c1b2f757e5c223939bb723eb0ef0afe8935d8e1c4a704961",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "609f4a4825c88a2f38ee57c6d0a1826f96d872128a41e8cd4511cc2bcf808537",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "eb1b1acaa2ca3000c6f6c9171f118205ff77cf630b52d83578c7490b064da6e9",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "95b1457e9e005ac214e7104ebf47a539b0b386f940c1046fe6d7232cf03750a5",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "f992577f86e88b73525b20e91f184612b2e416c0853d6eb4070ff95dd4771489",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "f381fae30ff5e216bbbf0762380aa1dca81b13874e6dc5f0f658350e4af79199",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "702088712cda21b18ecf3b2585c1a335dd0451ddcaca319eac891458335a91be",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "b442dd016d5979dd8840c150a3eb3cdfc466b7b4450b145863bfc0593bb96f10",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "3b2be3d39d434467a01e99bfa6ef1688e5969b1a4ae74643dec48fbc662212aa",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "26a367cd1cd65c7cb9181b4809e352187e9eff0a1b308b2ab6571023617302bd",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "dfe2cd441ceace9bcf168a57aadc34c0329c796a0501d51cd3842a215ce85a15",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "6df1dcc7a18f74f8db32a0efc887d4a3aadcba0431b23fecc43726c70054b108",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "7016013d5b3dd7a467fd1006a25c85a47b23c5e79a63591375ee85c0e1f18002",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "7cae1073deb7f348ff2c360f1a76ce3755c7fb4856d683818ea633740672ed21",
+    "kind": "method",
+    "rationale": "Verified actual train/validation rows and manifest contain the stated sizes; these define sample partition or normalization.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\split_manifest.json",
+    "source_sha256": "9b2d13210feb9424c28529a04edebd80a134d7427286db2a85c35035d074e07b"
+  },
+  {
+    "claim_id": "6ecb37dd64a6b4f758273c586cbb8f264a783a249aace599dfa68438e3749d23",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "54506d3a7ec17016c173f9151d90598d077bc2c260a6e1063f64a5ab9ca53960",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "6fdf5708f79e450c7f6991737118810b5814756269a5838ff6e5203a4f665d23",
+    "kind": "measured",
+    "metric": "train_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "a55c30cf2acc958510ea058dd1b23bb6f93fbebedf378b3a8def6a7234b07077",
+    "kind": "measured",
+    "metric": "validation_mse",
+    "rationale": "Independent prediction and metric recomputation succeeds for both preserved actual CPU executions; the displayed value matches.",
+    "run_dir": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002"
+  },
+  {
+    "claim_id": "7a09825fdfc69b51445e48397f89f901a26b0631b4cfb61c29c90a26451f6173",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "15a38d76fbf4bcb099262ce4b9a7533b36d99b5923c4ab0eabf32e4a02a86d76",
+    "kind": "method",
+    "rationale": "Executed degree=2/alpha=0.0 settings, or definition of that unpenalized quadratic model. Configuration is fixed in the registration.",
+    "source_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\runs\\development\\B-upstream-dev-quadratic-seed7-literature\\experiments\\execution-0002\\registered_spec.json",
+    "source_sha256": "bd18318dc3c0b8c396e48ca43cc8feb0c6ebe11515d5b9ade54da421d2c07756"
+  },
+  {
+    "claim_id": "2e40de609425fd2f7215dbef8e21554a0e3535eb7384656616f2d4da25e6df33",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "2a88fa82834af357e4c32c311383257815425084f8a25f0ffbb029028fbf5d7b",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  },
+  {
+    "claim_id": "fee376a38232cea0830a91a07dde1109f0bbbfe9e33c4e8f5f6a13c05c1f1418",
+    "kind": "proposal",
+    "rationale": "This occurrence belongs to the explicitly unexecuted finite grid or its independently calculated configuration count, not actual executed experiments."
+  }
+]

@@ -77,7 +77,7 @@ degree=1, alpha=0 참조보다 test MSE가 15% 이상 낮은 경우다.
 회귀 benchmark의 개선은 해당 CPU 과제에만 적용된다. 실제 문헌 조사·과학적 발견
 전체의 품질 향상은 별도의 과제와 독립 평가 없이는 주장할 수 없다.
 
-## 별도 VERSION 2 효율성 확인 설계
+## 별도 VERSION 4 효율성 확인 설계
 
 최종 사전 등록 전에 주 가설을 계산 자원 효율로 정하면
 `design_efficiency_sample_size`와 `register_protocol(endpoint='efficiency')`를 사용한다.
@@ -92,15 +92,72 @@ test MSE의 `log(C/B)` 구간 상한이 `log(1.10)`보다 작아야 한다. 즉 
 선언한 허용오차이며 모든 과학 연구의 품질 허용치가 아니다. 최종 실행 전에 확정한다.
 
 비용 절감과 품질 비열등성을 **모두** 요구하는 intersection-union 판정이다. v1 품질
-개선 또는 v2 효율 중 유리한 쪽을 골라 성공이라고 하지 않는다. 양쪽 pilot 분산으로
+개선 또는 효율 중 유리한 쪽을 골라 성공이라고 하지 않는다. 양쪽 pilot 분산으로
 표본수를 별도 계산하고 큰 수를 고정한다. 품질 계획 가설은 `log(C/B)=0`이다.
 
 모델 호출·토큰·시간은 원본 completion JSONL와 provider artifact hash로 재계산한다.
+`model_request_audit`는 완료·실패 요청의 실제 model/explicit reasoning effort를
+등록 envelope와 대조한다. 원본 fingerprint, 정확한 guard 포함 full prompt,
+provider source hash와 CLI model/effort/read-only/ignore-user-config/ephemeral/JSON/
+approval-never/public-cwd/stdin/response-path 설정을 검사한다. 모델 이름이 같다는
+이유로 서로 다른 추론 설정을 같은 자원으로 인정하지 않는다. 서버 weight 버전과
+모델 sampling seed가 노출되지 않는 한 동일하다고 주장하지 않는다.
+
+양쪽은 `actual_cpu_executions_per_unit`라는 같은 CPU 실행 예산을 등록한다.
+이 개발 설계의 51은 등록된 proposal 자원/최대 host 후보 행동에서 유도한
+**과제별 비교 자원**이며 Goal 루프 횟수 제한이 아니다. callback inventory와 arm
+폴더의 원본 실행 자료를 별도로 대조한다. 성공·실패 CPU 호출을 모두 포함하고
+parser가 거절한 제안은 실제 실행으로 세지 않는다. 선택 후보의 시간은
+`selected_execution_seconds`, 모든 실제 CPU 시도의 시간 합은
+`total_cpu_execution_seconds`로 별도 보고한다. cached 모델 응답의 transport
+event를 실제 새 호출이나 새로운 provider 시간으로 다시 합산하지 않는다.
+
+provider 토큰 지표는 연구 실행 provider의 추론 자원이다. framework 구현,
+상위 작업 에이전트의 대화/추론, 독립 의미 검토의 비용을 포함한 전체 개발 비용으로
+부르지 않는다. 독립 수치 검토의 시간·토큰이 직접 계측되지 않으면 null로 기록하고
+0으로 가정하지 않는다. 이 비용 범위는 최종 사전 등록에서 고정한다.
 중복·복구·기억 활용 보조 수치는 host audit와 원본 event 파일에 연결한다.
 실행·검증 실패는 immutable owner receipt로 남기고 성공률 분모에서 제외하지 않는다.
 한 arm 실패가 나머지 독립 과제의 실행을 지우지 않는다. 외부 모델 자원 부재는
 실험 실패와 구분하고 동일 자원이 없는 상태에서 추가 모델 호출을 하지 않는다.
 재개 시 완료 arm과 실패 receipt의 해시를 검사하며 자동 재실행하지 않는다.
+
+현재 개발 버전은 `paired-efficiency-4-conservative-bound-report-contract`다.
+이 규칙은 최종 실행 전에 별도 사전 등록해야 하며 과거 v2/v3 사전 등록 파일을
+소급 변경하지 않는다. 완료 요청과 definite 실패 요청의 횟수와 소요 시간을 모두
+합산한다. 실패에는 원본 `turn.failed`, 도구 행동 없음, 호스트 행동/응답 소비 없음,
+정확한 모델·요청 fingerprint, 해시와 명시적 재개 lineage가 필요하다. 불명확한 실행
+상태를 실패 완료로 간주하지 않는다. 토큰 사용량을 제공하지 않은 실패는 null로 남긴다.
+
+C의 전체 토큰이 알려져 있고 B의 실패 토큰만 미지인 경우, B 완료 요청 토큰 합을
+`B_known`이라는 **하한**으로 사용한다. 비음수 미지 사용량에 대해
+`1-C_total/B_known <= 1-C_total/B_true`이므로 각 짝 절감률도 보수적 하한이다.
+같은 bootstrap 재표집 index에서 표본평균과 percentile 끝점은 이 단조성을 유지한다.
+따라서 하한으로 계산한 구간이 채택 기준을 넘으면 해당 절감 기준을 보수적으로
+충족하지만, 실제 토큰 비용이나 정확한 절감률을 측정했다고 쓰지 않는다. 이 논리는
+bootstrap의 근사·독립 표본 가정을 제거하지 않는다. C의 미지 사용량은 절감률 분자의
+상한을 알 수 없게 하므로 효율 판정이 inconclusive다. 미지 토큰을 0으로 대체하지 않는다.
+
+pilot도 최종 실행과 같은 운영 정책을 사용한다. 임의 절대 MSE threshold로 조기
+종료한 기존 smoke는 최종 정책의 분산 추정값에 섞지 않는다. 서로 다른 regime의
+자료 seed를 따로 두며 B/C 각 짝만 같은 seed와 split을 사용한다. 서로 다른 seed가
+통계적 독립을 증명하지는 않으며 독립 짝이라는 표본 설계 가정을 명시한다.
+
+## 양쪽 보고서의 공통 필수 내용
+
+효율 비교에서 B의 긴 원본 보고서와 C의 짧은 요약 때문에 필수 연구 내용을
+생략한 절감을 채택하지 않는다. 양쪽 모두 `research-report-sufficiency-1` JSON
+companion을 제공한다. 목표·가설·선택 설정·선택 근거, 과제 버전/seed/split/source/evaluator
+해시, 실제 실행 entrypoint와 별도 재현 명령, 실제 지표와 원본 증거 해시, 미해결
+질문/실패 이유, 한계, 문헌 주장/URL, 자원 회계의 알려진 범위와 다음 질문을 요구한다.
+`verify_report_contract`는 선택 실행의 독립 검증 지표와 설정/출처/증거를 대조한다.
+스키마만 채우거나 LLM이 스스로 성공이라고 판정해서 통과할 수 없다.
+
+원본 보고서와 companion의 수치 주장은 각각 별도 inventory와 독립 review를
+만들고 host telemetry의 `report_review_paths=[{path,sha256},...]`에 연결한다.
+검토 범위는 `whole_report_and_companion_numeric_inventories`다. 두 보고서 모두
+필수 정보와 전체 숫자 검토를 통과해야 효율 개선을 채택한다. 이 검사는 공통 정보
+충족을 확인하며, 문장 품질·독창성·과학 연구 전체의 품질이 동등하다고 주장하지 않는다.
 
 ## 보고서 수치의 별도 독립 판정
 
@@ -110,6 +167,11 @@ test MSE의 `log(C/B)` 구간 상한이 `log(1.10)`보다 작아야 한다. 즉 
 reviewer_role='independent_verifier')`에 measured/literature/method/identifier/
 inference/proposal/unsupported 구분과 근거를 제공한다. 실제 측정 주장은 해당 실행을
 다시 검증하고 표시 정밀도를 고려해 수치가 독립 지표와 일치하는지 확인한다.
+토큰·provider 시간·요청 횟수·실제 CPU 시간은 `measured_resource`로 구분한다.
+독립 판정자는 `resource_audit_path`와 `resource_metric`을 연결하며 평가기는
+`independent-resource-audit.json`의 실제 요청 디렉터리, 실패 lineage와 CPU
+inventory에서 자원 수치를 다시 계산한다. 측정된 자원을 method 설정이나
+문헌 주장으로 분류하지 않는다. 미지 토큰 총량은 측정값으로 채택하지 않는다.
 분류되지 않은 수치는 pending이며 근거 없는 주장 0이라고 간주하지 않는다.
 
 이 도구는 원본 prose의 의미를 완전 자동 판정하지 않는다. 의미 분류와 숫자를

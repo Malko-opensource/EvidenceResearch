@@ -4,6 +4,25 @@ EvidenceResearch는 Agent Laboratory의 문헌 조사 → 계획 → 실험 → 
 AgentRxiv의 검색·재사용을 출발점으로 삼는다. 원본 구현과의 관계·차이는
 [원문 근거](sources.md)와 [원본 실행 어댑터](baseline.md)에 기록한다.
 
+```mermaid
+flowchart LR
+    S[목표와 자원 상태] --> M[검증된 기억 검색]
+    M --> P[모델의 후보 비교와 제안]
+    P --> R[조건과 성공 기준 사전 등록]
+    R --> E[고정 CPU 실행기]
+    E --> A[로그와 산출물 및 해시]
+    A --> V[독립 계산과 설정 검증]
+    V --> D[채택 또는 기각 또는 보류]
+    D --> M
+    D --> S
+    A --> Q[별도 보고서 검토자]
+    Q --> F[고정된 비교 평가]
+```
+
+모델 제안에는 후보 설정만 실행 권한을 부여한다. 실행 증거는 별도로 저장하고,
+비교 평가와 보고서 판정은 실행기의 수치 주장이나 모델의 자기평가를 그대로
+채택하지 않는다. 미실행 제안은 실제 실행 결과와 다른 종류로 남긴다.
+
 연구 상태는 SQLite에 저장한다. OBSERVE → RETRIEVE → PROPOSE → REGISTER → IMPLEMENT
 → EXECUTE → VERIFY → DECIDE → UPDATE_MEMORY 전이를 해시로 연결한 감사 사건에 남긴다.
 사전 등록은 과제, 데이터 분할, seed, 설정, 구현·평가 해시, 모델, 자원·도구 조건,

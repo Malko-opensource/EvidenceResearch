@@ -15,9 +15,11 @@ import shutil
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from evidence_research.arms import literal_candidate, UpstreamCodexBridge
+from evidence_research import arms
+from evidence_research.arms import literal_candidate, UpstreamCodexBridge, AllowlistedExperimentTool
 from evidence_research.baseline import _OriginalCheckpointUnpickler
 from evidence_research.model import ModelUnavailable
+from evidence_research.tasks import make_spec
 
 
 class NoModelExecution:
@@ -60,6 +62,10 @@ def main():
     request = json.loads((first / "request.json").read_text())["prompt"]
     system, remainder = request.removeprefix("UPSTREAM SYSTEM PROMPT:\n").split("\n\nUPSTREAM USER PROMPT:\n", 1)
     prompt, _contract = remainder.split("\n\nSHARED HOST EXECUTION CONTRACT:\n", 1)
+    # A transport cache reuses only the identical preregistered prompt. Restore
+    # that earlier contract in this isolated check process; changed conditions
+    # must produce a fresh identity rather than reuse an old response.
+    arms.TOOL_CONTRACT = _contract
     response = bridge("gpt-6.1-sol", prompt, system)
     assert response == (first / "response.txt").read_text(encoding="utf-8")
     assert bridge.calls[-1]["reused_completed_evidence"]
@@ -73,6 +79,29 @@ def main():
         checks.append({"check": "prior_attempts_consume_same_registered_resource_envelope", "passed": True})
     else:
         raise AssertionError("Prior requests were not counted against the resource envelope")
+    cpu_records = [json.loads(line) for line in (previous / "experiments" / "tool_events.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
+    def forbidden_runner(*args, **kwargs):
+        raise AssertionError("No new CPU execution is authorized for replay checks")
+    tool = AllowlistedExperimentTool(output / "cpu-replay", lambda config: make_spec("dev-quadratic", 7, config),
+        runner=forbidden_runner, prior_records=cpu_records, max_cpu_executions=2)
+    code = (previous / "upstream" / "lab" / "src" / "load_data.py").read_text(encoding="utf-8").strip()
+    replay = json.loads(tool(code))
+    assert replay["actual_cpu_attempts_to_date"] == 2 and replay["distinct_configs_to_date"] == 1
+    assert len(tool.completed) == 2
+    checks.append({"check": "completed_CPU_response_replay_does_not_increment_attempts", "passed": True})
+    try:
+        tool("CONFIG = {'degree': 3, 'alpha': 0.0}")
+    except ModelUnavailable:
+        checks.append({"check": "shared_CPU_budget_includes_prior_actual_executions", "passed": True})
+    else:
+        raise AssertionError("Prior CPU attempts were omitted from the resource budget")
+    try:
+        AllowlistedExperimentTool(output / "unknown-CPU", lambda config: make_spec("dev-quadratic", 7, config),
+            runner=forbidden_runner, prior_records=cpu_records + [{**cpu_records[0], "invocation": 9999}], max_cpu_executions=51)
+    except ModelUnavailable:
+        checks.append({"check": "unknown_CPU_blocks_before_any_new_model_or_task_action", "passed": True})
+    else:
+        raise AssertionError("An unknown prior CPU attempt was silently ignored")
     tampered = output / "tampered-prior" / "model" / first.name
     shutil.copytree(first, tampered)
     with (tampered / "response.txt").open("a", encoding="utf-8") as stream:

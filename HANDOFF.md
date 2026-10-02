@@ -10,6 +10,11 @@
 실행은 별도 버전이며 이유를 기록한다. 과거 증거를 새 버전에 맞춰 변경하지 않는다.
 모의 모델 fixture, 실제 모델 호출, 실제 CPU 실험과 최종 비교 결과를 구분한다.
 
+첫 공개 commit은 `3ba19f2469cb85fb0b25a48a115eaebc3cb5e6da`다. 새 clone과 별도 venv의
+설치·소스 취득·검사·CPU 재현은 `evidence/install-validation/report.json`에 있다.
+소유자 비교 스크립트의 필드명 오류를 수정하면서 완료된 단계는 해시 영수증으로
+재사용했다. 이 확인은 B/C 개선 증거가 아니다.
+
 다음 순서로 진행한다.
 
 1. 완료된 원본 adapted B 개발 재개 기록(`runs/development/B-upstream-dev-quadratic-seed7-resumed`)

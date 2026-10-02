@@ -35,7 +35,7 @@ run_upstream_baseline(
 
 직접 `LaboratoryWorkflow`를 호출하므로 원본 CLI의 경로 삭제·서버 시작은 실행하지 않는다. 원본 보고서 코드가 필요로 하는 전역 `research_topic`, `compile_pdf`를 공급한다. `compile_pdf=False`로 LaTeX 소스만 생성한다. **원본 AgentRxiv PDF/web backend는 이 CPU 어댑터가 지원하지 않으며, 활성화 요청은 오류로 반환한다.** 기억 재사용 효과는 별도 비교/ablation과 실제 기억 기록으로 검증해야 한다.
 
-모듈 alias와 현재 디렉터리가 process 전체에 영향을 주므로 B는 전용 독립 프로세스에서 호출한다. import 때의 원본 logging/warnings/env 변경도 그 프로세스에 한정한다. 기존 KoMap, 다른 checkout, 기존 환경이나 프로세스를 참조하거나 중단하지 않는다.
+모듈 alias와 현재 디렉터리가 process 전체에 영향을 주므로 서로 다른 Python 작업과 병렬 실행하는 경우 B는 전용 독립 프로세스에서 호출해야 한다. 제공된 study CLI는 새 호스트 프로세스에서 B/C를 직렬 호출한다. 어댑터가 alias·현재 디렉터리·원본 import의 두 환경 변수·경고 필터·logging 설정·Python random 상태를 실행 뒤 복원하므로 다음 arm에 import 부작용을 남기지 않는다. 기존 KoMap, 다른 checkout, 기존 환경이나 프로세스를 참조하거나 중단하지 않는다.
 
 ## 실행 증거와 재개
 
@@ -61,6 +61,10 @@ python -m evidence_research.arms --development-baseline runs/development/B-conti
 개발 자원 설계는 정상 문헌 검색·읽기·추가 및 제출 슬롯을 위한 단계 `max_steps=4`, 원본 MLE 초기 실행, 원본 보고서의 아홉 초기 단계와 추가 수정 없음이다. 원본 분기별 모델 요청 상한을 합산한 51회는 한 과제의 B/C 공통 자원 조건이며 Goal 연구 횟수 상한이 아니다. 상세 산식은 `development_protocol.json`의 `resource_design`에 실행 전에 저장한다.
 
 2026-10-02 개발 중 첫 B 실행은 문헌 단계가 완료되지 않아 실패했다. 고정 문헌에 과제 관련 ridge 논문의 출처를 추가하고 같은 입력을 B/C에 공유한 다음 실행에서는 실제 CPU 계산과 독립 검증이 완료됐다. 보고서 도중 provider의 `Selected model is at capacity` 오류가 발생했고 그 실패를 보존한 새 디렉터리에서 체크포인트 재개를 실행했다. 이 개발 기록은 최종 평가나 일반 연구 능력 향상의 증거로 사용하지 않는다. 개별 상태와 수치는 `runs/development/*/development_result.json`, 모델 `events.jsonl`, 실제 실험 `result.json`과 `independent_verification.json`을 따른다.
+
+재개한 [개발 결과](../runs/development/B-upstream-dev-quadratic-seed7-resumed/development_result.json)는 원본 workflow의 정상 반환과 최종 보고서 생성을 확인했다. 선택한 설정은 `degree=2, alpha=0.0`이며, 실제 [CPU 산출물](../runs/development/B-upstream-dev-quadratic-seed7-literature/experiments/execution-0002/result.json)과 [독립 검증](../runs/development/B-upstream-dev-quadratic-seed7-literature/experiments/execution-0002/independent_verification.json)에 연결된 validation MSE는 `0.012638906669511679`다. C의 개발 결과와 같으므로 지표 향상의 증거로 보고하지 않는다.
+
+[재개 기록](../runs/development/B-upstream-dev-quadratic-seed7-resumed/upstream/baseline_result.json)과 [전송 원장](../runs/development/B-upstream-dev-quadratic-seed7-resumed/model_transport_events.jsonl)은 추가 CPU 실행 없이 완료된 보고서 응답 7개를 재사용했음을 보인다. 전체 lineage의 실제 모델 완료는 26건이고 명시적인 capacity 실패 영수증은 1건이다. 원본 실패 기록과 시간이 그대로 남아 있다. `report refinement`의 Boolean flag는 원본 코드가 reviewer 완료 후 flag 갱신 전 반환하므로 `false`로 남는다. 원본을 바꾸거나 완료 플래그를 소급 수정하지 않았으며 실제 reviewer 출력·정상 반환으로 단계 완료를 확인한다. 보고서의 수치 주장 판정은 별도 독립 검토이며 성공 상태나 LLM reviewer 점수만으로 주장 전체를 승인하지 않는다.
 
 ## 비교를 사전 고정할 항목
 

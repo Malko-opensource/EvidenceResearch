@@ -59,10 +59,13 @@ Linux/macOS에서는 `.venv/bin/python`을 사용한다. 선택적으로 `python
 ```powershell
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 .\.venv\Scripts\python.exe scripts\core_validation.py --output work\core-validation
+.\.venv\Scripts\python.exe evidence\core-validation-final\source-snapshot\scripts\core_validation.py --output work\frozen-reproduction
 ```
 
 단위검사의 모델 응답 fixture와 실제 모델 실행은 명확히 구분한다. core validation은
 실제 CPU 실행으로 성공·실패 검색, 재사용, 재개, 중복 방지와 변조 거절을 확인한다.
+마지막 명령은 공개한 개발 검증 당시의 소스 사본으로 새 디렉터리에 재현한다.
+과거 기록의 경로와 시간은 당시 환경을 가리키며, 재현 지표·설정·소스 해시를 비교한다.
 최종 B/C 비교는 [사전 평가 설계](docs/evaluation_protocol.md)에 따라 별도 과제와
 고정 코드로 실행한다. A 원 연구 계열 모델에 접근할 수 없으면 그 한계를 기록한다.
 논문 수치를 재현한 결과로 대입하지 않는다.
