@@ -1,0 +1,22 @@
+{
+  "actual_model_A": {
+    "available": false,
+    "effect_estimated": false
+  },
+  "adoption_eligible": false,
+  "context_schema": "original-context-boundary-2-local-binding-development",
+  "criteria_modified_by_capsule": false,
+  "development_only": true,
+  "efficiency_protocol": "paired-efficiency-8-common-source-bound-reporting-sampled-task-contract",
+  "final_evaluation_performed": false,
+  "framework_improvement_proven": false,
+  "future_scientific_adoption_requirements": [
+    "Independent whole primary AND companion numeric and semantic coverage complete, supported actual evidence qualification, unsupported claims0, common report sufficiency.",
+    "Paired token gain95% lower confidence bound greater than20% AND paired log(test-MSE C/B)95% upper bound less than log(1.10), with the fixed remaining protocol conditions."
+  ],
+  "historical_numeric_schema": "historical-numeric-context-1",
+  "kind": "unchanged_frozen_research_criteria_summary_not_new_registration",
+  "quality_protocol": "paired-evaluation-5-common-source-bound-reporting-sampled-task-contract",
+  "semantic_schema": "whole-report-semantics-4-c9-common-evidence-development",
+  "source_manifest_sha256": "926a8f0da4869641d25abdaa6937aa542f51c53055a15487423e9d73ab73bf94"
+}

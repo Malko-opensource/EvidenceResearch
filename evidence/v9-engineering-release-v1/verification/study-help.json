@@ -1,0 +1,17 @@
+{
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v9-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-m",
+    "evidence_research.study",
+    "--help"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v9-development",
+  "exit_code": 0,
+  "phase": "study-help",
+  "seconds": 0.21899999998277053,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "e1fbd076ecde05c684970395e3c5a25ce104907d2024461625ad75e732ea1106"
+}

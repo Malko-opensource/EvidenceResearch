@@ -1,0 +1,52 @@
+{
+  "actual_model_calls": 0,
+  "adoption_eligible": false,
+  "current13_63_or_release_qualified": false,
+  "eligible": false,
+  "expected": "pending",
+  "failure": null,
+  "family": "qualification_and_adoption",
+  "fixture_only": true,
+  "guard": {
+    "counts": {
+      "data_generation_attempts": 0,
+      "native_callback_attempts": 0,
+      "network_attempts": 0,
+      "new_task_execution_attempts": 0,
+      "old_or_source_write_attempts": 0,
+      "outside_allowed_access": 0,
+      "process_attempts": 0,
+      "provider_attempts": 0
+    },
+    "scope": "Python audit/profile; explicit synthetic15 input files, own runtime58 snapshot/proof/temp and Python runtime only; not OS-wide."
+  },
+  "id": "legacy_missing_mapping_unknown",
+  "input_metadata_stable": true,
+  "kind": "failure_only_current_CBC2_original_legacy_branch_assertion",
+  "limits": [
+    "Only the failed original branch is checked;62 successful assertions/native2+6 simulations were not repeated.",
+    "Original stored CRLF bytes/hash are preserved; source-bound original API/universal-newline text is used only for exact fixture text comparison.",
+    "A new CBC2 capture/source/path view is explicitly nonactual. Current62+new1 composition and any release gate need separate metadata review; this receipt alone makes no63PASS claim."
+  ],
+  "method_sha256": "37ea29d2014ed571e40a61331539d535434b667fd01aebb435e70a5857338a8d",
+  "new_native_callback_invocations": 0,
+  "new_simulated_completions": 0,
+  "new_task_execution_invocations": 0,
+  "observed": {
+    "actual_complete": false,
+    "assertions_checked": 2,
+    "pending": true
+  },
+  "original_cases_sha256": "f9789c28b60112be362920fe4d4e237b159c70049ef3c9f95c50da04d15b0bd4",
+  "original_failed_result_preserved": true,
+  "original_failed_result_sha256": "886660c7e19a5ef67fce8f0d8f999dcf4a183f29defe7f325f4f8c2fa2d7275c",
+  "private_owner_reads": 0,
+  "retained62_result_sha256": "a4de6179dec7a5efadaf235e3139a7798107f8fc8ae479002fc52dd350072acd",
+  "runtime_closure_manifest_sha256": "15eb08e192e8454bc68c4152d15e25f73a65ba0369751f79d7aa1fa3ebbe5cc2",
+  "seconds": 0.34852800000226125,
+  "source_manifest_sha256": "926a8f0da4869641d25abdaa6937aa542f51c53055a15487423e9d73ab73bf94",
+  "source_runtime58_stable": true,
+  "status": "pass",
+  "successful_current_assertions_repeated": 0,
+  "verifier_reference_arithmetic_calls": 0
+}

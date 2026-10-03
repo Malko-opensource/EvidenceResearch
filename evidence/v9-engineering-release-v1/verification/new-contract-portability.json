@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v9-development\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v9-development\\validation\\release-local-dev1-v1\\verification\\run_portability.source.py"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v9-development",
+  "exit_code": 0,
+  "phase": "new-contract-portability",
+  "seconds": 27.67200000002049,
+  "stderr_sha256": "7528c66b162db6fd27cbd84066d404a3f3abd5979d64742d66d8c9ab5d3ca676",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

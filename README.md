@@ -8,30 +8,34 @@
 개발 과제의 실제 모델 실행과 CPU 실험, 독립 수치 재계산은 동작한다. 해당 확인을
 최종 평가 통과나 일반적인 과학 연구 성능 향상으로 해석하면 안 된다.
 
-현재 독립 개발 버전은 [v8 안내](docs/v8_development.ko.md)의 `0.4.1.dev0`이다.
-B callback의 원래 모델·자원 등록 정보와 입력 경계 검사를 연결했다. 별도 환경의
-276개 공학 검사와 독립 10개 계열·28개 구성 사례를 확인했다. 이 결과는 보고서의
-모든 주장 검증, 실제 비교 개선 또는 최종 평가 통과를 뜻하지 않는다.
-[v7 안내](docs/v7_development.ko.md), [v6 안내](docs/v6_development.ko.md)와 이전
-실패·보류 결과는 원 조건으로 보존한다. 보고서 증거 표현의 후속 수정은 별도 로컬
-개발 사본에서 사전 등록 후 진행하며, v8의 새 실제 비교는 등록하지 않았다.
+현재 개발 버전은 [v9 안내](docs/v9_development.ko.md)의 `0.5.0.dev1`이다.
+원래 입력 경계와 등록 조건의 바인딩, 공개 데이터 무결성, 과거 시점의 수량·자원
+표현과 원본 제안의 출처 검사를 강화했다. 현재 코드의 13개 검사 계열·63개 사례는
+54개 새 판정, 8개 보존 판정, 1개 후속 판정으로 증거를 연결했다. 별도 환경의
+101개 선택 검사, CLI 도움말 2개와 고정 참조 38개도 확인했다.
+이는 공학 검증이며 실제 연구 개선과 전체 보고서 검증을 대신하지 않는다.
+
+이전 [v8](docs/v8_development.ko.md), [v7](docs/v7_development.ko.md),
+[v6](docs/v6_development.ko.md)의 코드·실패·보류는 원 조건으로 보존한다.
+새 v9 개발 비교를 별도 로컬에 사전 등록했으며, 비공개 평가 데이터와 실제
+상세 기록은 이번 코드 게시 범위에 포함하지 않는다. 최종 평가는 등록하지 않았다.
 
 ## 설치
 
-Python 3.12 이상이 필요하다. 런타임 외부 의존성은 없다. 저장소 루트에서 v8로 이동한다.
+Python 3.12 이상이 필요하다. 런타임 외부 의존성은 없다. 저장소 루트에서 v9로 이동한다.
 이후 아래 설치·CLI 명령은 해당 버전 디렉터리에서 실행한다.
 
 Windows에서는 짧은 새 clone 경로를 사용한다. 깊은 경로의 실패와 같은 공개
 소스의 짧은 경로 재현은 [설치 검증 안내](docs/windows_install_replay.md)에 있다.
 
 ```powershell
-Set-Location -LiteralPath versions\v8-development
+Set-Location -LiteralPath versions\v9-development
 python -m venv .venv
 .\.venv\Scripts\python.exe scripts\fetch_upstream.py
 .\.venv\Scripts\python.exe -m evidence_research --help
 ```
 
-Linux/macOS에서는 먼저 `cd versions/v8-development`를 실행하고 `.venv/bin/python`을 사용한다.
+Linux/macOS에서는 먼저 `cd versions/v9-development`를 실행하고 `.venv/bin/python`을 사용한다.
 선택적으로 해당 환경의 `python -m pip install -e .`를
 실행하면 `evidence-research` 명령을 설치할 수 있다. 실제 모델 실행에는
 [Codex CLI의 기존 로그인](https://learn.chatgpt.com/docs/non-interactive-mode)이 필요하다.
@@ -74,17 +78,16 @@ Linux/macOS에서는 먼저 `cd versions/v8-development`를 실행하고 `.venv/
 ```powershell
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 .\.venv\Scripts\python.exe scripts\core_validation.py --output work\core-validation
-.\.venv\Scripts\python.exe ..\..\work\c7-independent-validation-v1\held-source-run-0003\fixture-snapshot\reproduce_components.py --capsule ..\..\work\c7-independent-validation-v1\held-source-run-0003 --output ..\..\work\t7\replay-new
 ```
 
 단위검사의 모델 응답 fixture와 실제 모델 실행은 명확히 구분한다. core validation은
 실제 CPU 실행으로 성공·실패 검색, 재사용, 재개, 중복 방지와 변조 거절을 확인한다.
-마지막 명령은 별도 담당자의 최신 38개 구성 사례를 고정 소스 사본으로 재현한다.
-새 짧은 출력 디렉터리를 사용하며 기존 증거를 덮어쓰지 않는다.
+과거 c7 구성 재현 명령과 결과는 [v7 안내](docs/v7_development.ko.md)에 보존한다.
+현재 검사 범위는 v9 안내의 원시 로그·ID와 비교한다. 새 출력 경로를 사용하고 완료 증거를 덮어쓰지 않는다.
 과거 기록의 경로와 시간은 당시 환경을 가리키며, 재현 지표·설정·소스 해시를 비교한다.
-최종 B/C 비교는 [현재 v8 검증 범위](docs/v8_development.ko.md)를 확인하고, 보고서 통합
-검증과 자체 개발 비교를 마친 뒤 별도 사전 등록한 새로운 과제와 고정 코드로 실행한다.
-v8의 새 실제 비교와 최종 평가는 아직 등록하지 않았다.
+최종 B/C 비교는 [현재 v9 검증 범위](docs/v9_development.ko.md)를 확인하고, 실제 개발
+비교의 모든 보고서 검증과 변동성 판단을 마친 뒤 새로운 과제와 고정 코드로 사전 등록한다.
+개발 확인과 공학 검사로 최종 개선을 선언하지 않는다.
 [초기 평가 설계](docs/evaluation_protocol.md)는 과거 버전의 근거로 보존한다.
 A 원 연구 계열 모델에 접근할 수 없으면 그 한계를 기록한다.
 논문 수치를 재현한 결과로 대입하지 않는다.
@@ -106,7 +109,7 @@ PDF와 원본 ZIP은 게시하지 않으며, 원문 링크와 고정 버전을 �
 같은 연구에 섞지 않으며, 한 연구에는 실행 프로세스 하나만 사용한다.
 
 ```powershell
-.\.venv\Scripts\python.exe -m evidence_research.study pilot-sample-config --base-config examples\sampled-pilot-base-v8.json --variance-relative-se 0.5 --output work\my-pilot-private.json
+.\.venv\Scripts\python.exe -m evidence_research.study pilot-sample-config --base-config examples\sampled-pilot-base-v9.json --variance-relative-se 0.5 --output work\my-pilot-private.json
 .\.venv\Scripts\python.exe -m evidence_research.study pilot-register --config work\my-pilot-private.json --output runs\my-pilot
 .\.venv\Scripts\python.exe -m evidence_research.study pilot-run --output runs\my-pilot
 ```
@@ -140,7 +143,7 @@ checkout 경로에서도 읽기 전용으로 재계산할 수 있다. 다음 명
 
 ```powershell
 Push-Location -LiteralPath ..\..
-versions\v8-development\.venv\Scripts\python.exe -X utf8 evaluation/replay_published_pair.py --root . --recorded-root 'C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch' --registration-sha256 a8fdd8c5500961350b289b8798a0ee9dde116ed2d07ee0ef13e131701ec0be92 --out work/published-pair-replay.json
+versions\v9-development\.venv\Scripts\python.exe -X utf8 evaluation/replay_published_pair.py --root . --recorded-root 'C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch' --registration-sha256 a8fdd8c5500961350b289b8798a0ee9dde116ed2d07ee0ef13e131701ec0be92 --out work/published-pair-replay.json
 Pop-Location
 ```
 
@@ -150,6 +153,7 @@ Pop-Location
 개발 자료로 취급한다. 진행 중인 과제와 미래 최종 평가 자료는 제공하지 않는다.
 
 원본 권장 단계 비교를 도입한 [별도 v5 버전](versions/v5-development/README.md)은
-역사적 개발 기록으로 보존한다. 현재 공개 개발 소스는 v8의 자체 환경과 source
-snapshot으로 검증했다. 새 비교는 보고서 통합 검증 후 별도로 등록하며 기존 결과를 보존한다.
+역사적 개발 기록으로 보존한다. 현재 v9 소스는 별도 환경의 선택 검사와 고정 참조로
+검증했다. 새 개발 비교는 별도로 사전 등록했으며 실제 보고서 검증은 아직 완료하지 않았다.
+기존 결과는 원 조건으로 보존한다.
 프레임워크 개선이나 최종 채택은 아직 미입증이다.

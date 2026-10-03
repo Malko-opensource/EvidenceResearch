@@ -231,5 +231,39 @@
     "framework_improvement_proven": false,
     "final_completed": false,
     "report": "docs/v8_development.ko.md"
+  },
+  "v9_development_release": {
+    "path": "versions/v9-development",
+    "package_version": "0.5.0.dev1",
+    "engineering_capsule": "evidence/v9-engineering-release-v1/manifest.json",
+    "runtime_source_files": 125,
+    "selected_public_source_files": 87,
+    "authenticated_runtime_references": 38,
+    "reference_body_files": 40,
+    "engineering_coverage": {
+      "original_passed": 357,
+      "forward_passed": 7,
+      "execution_harnesses": 2,
+      "single_fresh364_pass": false
+    },
+    "independent_component_coverage": {
+      "families": 13,
+      "cases": 63,
+      "fresh54": 54,
+      "retained8": 8,
+      "forward1": 1,
+      "single_fresh63_pass": false,
+      "old55_promoted": 0
+    },
+    "own_environment_selected_tests": 101,
+    "CLI_help_checks": 2,
+    "own_environment_result_sha256": "d69001b926bb548dca1ef82376cad6aad90e9a3caf11c96f3c4b604889a12e12",
+    "installed_output_peer_sha256": "1fe823ae04ca23fa5d7c9d363f386f7a9e86b1568f3d08555553d0ffc86b003f",
+    "scope": "Code and selected engineering evidence; omitted private/raw fixture links are local only. No actual research gain or full remote63 replay claim.",
+    "actual_development_registration": "Separate local preregistration; private config/data and actual detail files excluded from this ordinary publication.",
+    "actual_report_integration_complete": false,
+    "framework_improvement_proven": false,
+    "final_completed": false,
+    "report": "docs/v9_development.ko.md"
   }
 }
