@@ -1,1 +1,0 @@
-Polynomial ridge regression degree and regularization parameter selection using validation mean squared error, feature covariance, bias–variance tradeoff, and higher-degree shrinkage versus quadratic models

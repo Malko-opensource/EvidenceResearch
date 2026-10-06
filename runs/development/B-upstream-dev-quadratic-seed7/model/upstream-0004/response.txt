@@ -1,4 +1,0 @@
-```ADD_PAPER
-2501.04227v2
-Agent Laboratory describes an LLM-assisted research workflow in which generated code is executed and an LLM reward model guides code selection. Its relevance is methodological: proposed polynomial ridge configurations require actual execution and validation MSE measurements. The supplied section 3 excerpt contains no quantitative experimental results for polynomial ridge regression and establishes no optimal degree or regularization strength. Section 5 discusses self-evaluation and hallucinated results, reinforcing the need to distinguish literature claims from host measurements. No task-specific performance, baseline improvement, or test-set result is available.
-```

@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-10-03T16:01:13.945027+00:00",
+  "initial_files": [
+    "BRIEF.ko.md",
+    "episode.json",
+    "solution.py",
+    "input.csv",
+    "task.py"
+  ],
+  "hashes": {
+    "BRIEF.ko.md": "f8613ce5bd8e246f3ae290d9eb97cffe833c9f56e2e8657006a525346ddace9e",
+    "episode.json": "942dde8f710ff7c6975cc8051f4a456971b3959189d7efd95d3124bdfa83bf77",
+    "solution.py": "148120933540d3975e979260b00ec3b062448b27ed11941f068072a69c96e0db",
+    "input.csv": "62100a2fd5250a0e8431bfdaf230ad862199be1df865035e9be93f407e2fc1ab",
+    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+  },
+  "initial_episode_hashes_match": true,
+  "memory_present": false,
+  "ledger_present": false,
+  "task_invocations_present": false,
+  "observation": "Directory listing contained only the five supplied files before any edits."
+}

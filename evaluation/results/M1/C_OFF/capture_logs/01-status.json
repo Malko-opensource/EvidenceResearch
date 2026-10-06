@@ -1,0 +1,41 @@
+{
+  "index": 1,
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "research_cli",
+    "--workspace",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research",
+    "status"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+  "started_at": "2026-10-03T16:24:28.315636+00:00",
+  "completed_at": "2026-10-03T16:24:28.376060+00:00",
+  "returncode": 0,
+  "stdout": "{\"ok\": true, \"data\": {\"workspace\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\M1\\\\C_OFF\\\\research\", \"goals\": [], \"goal_total\": 0, \"hypotheses\": [], \"hypothesis_total\": 0, \"registrations\": [], \"total\": 0, \"limit\": 20, \"offset\": 0, \"allowed_actions\": [\"goal\", \"hypothesis\", \"register\", \"memory\", \"show\", \"export\"], \"revision\": 1}}\n",
+  "stderr": "",
+  "log_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\capture_logs\\01-status.json",
+  "response": {
+    "ok": true,
+    "data": {
+      "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research",
+      "goals": [],
+      "goal_total": 0,
+      "hypotheses": [],
+      "hypothesis_total": 0,
+      "registrations": [],
+      "total": 0,
+      "limit": 20,
+      "offset": 0,
+      "allowed_actions": [
+        "goal",
+        "hypothesis",
+        "register",
+        "memory",
+        "show",
+        "export"
+      ],
+      "revision": 1
+    }
+  }
+}

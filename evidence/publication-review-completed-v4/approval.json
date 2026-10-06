@@ -1,7 +1,0 @@
-{
-  "record_kind": "parent_transcription_of_direct_human_authorization",
-  "human_answer": "상세 기록 게시 승인",
-  "manifest_sha256": "b71986a181f3c8359ca14151ce746b3110c33131001b4c225ce977c419c5cfb2",
-  "target": "https://github.com/Malko-opensource/EvidenceResearch",
-  "scope": "Completed development raw model/CPU records, public train/validation artifacts, independent judgments and scalar test MSE only; exact manifest2791 files. Owner original rows, owner-request, ongoing/final tasks and secrets excluded."
-}

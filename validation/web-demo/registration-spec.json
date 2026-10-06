@@ -1,0 +1,39 @@
+{
+  "artifacts": [
+    {
+      "name": "result",
+      "path": "result.json"
+    }
+  ],
+  "change": "고정 가중 입력으로 평균·분산을 계산하는 개발용 실험",
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+    "task.py"
+  ],
+  "comparison": "소스와 분리해 고정한 독립 기대값 mean=5, variance=8",
+  "criteria": [
+    {
+      "metric": "pass_rate",
+      "op": ">=",
+      "threshold": 1
+    }
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\web-demo-20261004\\experiment",
+  "data_split": {
+    "development": "공개 고정 입력 [1,5,9], 가중치 [1,2,1]",
+    "evaluation": "개발용 연결 검사; 성능 비교 과제 아님"
+  },
+  "hypothesis_id": "hyp_7eb71f6df1b040ec9c6d5f61be85bff2",
+  "metrics": [
+    "pass_rate"
+  ],
+  "seed": 0,
+  "source_version": {
+    "files": {
+      "task.py": "844e2c448af3e5820bdef8269d7f3e5300b6f12156e738e99dfb6c72e8a18c22"
+    },
+    "label": "web-demo-v1"
+  },
+  "validator": "web-fixed",
+  "validator_sha256": "9db5cb1d72a51533bc9bc37c8a185f3191fab3f65f29eaba37ea6bfbb1a0f26f"
+}

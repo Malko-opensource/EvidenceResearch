@@ -1,0 +1,59 @@
+{
+  "hypothesis_id": "hyp_2fda25926c67438fa6a6378871aee7e9",
+  "change": "Normalize identifiers, reject invalid/nonfinite values first, select latest valid event_id row and later input on equal timestamps, and compute final group means with exact accumulation of parsed doubles.",
+  "comparison": "Initial full-row-equality tactic and the written latest-valid-event contract; adoption decided only by csv-fixed-v1 preserved-artifact verification.",
+  "data_split": {
+    "development": "Provided public M1 input.csv and written BRIEF.ko.md; no hidden cases or other solutions inspected.",
+    "evaluation": "Owner-frozen independent M1 evaluation through csv-fixed-v1; implementation and cases unseen."
+  },
+  "seed": 0,
+  "source_version": {
+    "label": "m1-c-on-latest-valid-fraction-v1",
+    "files": {
+      "solution.py": "475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573",
+      "input.csv": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+      "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+    }
+  },
+  "metrics": [
+    "pass_rate"
+  ],
+  "criteria": [
+    {
+      "metric": "pass_rate",
+      "op": ">=",
+      "threshold": 1
+    }
+  ],
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "task.py",
+    "M1"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON",
+  "artifacts": [
+    {
+      "name": "result.json",
+      "path": "result.json"
+    },
+    {
+      "name": "invocations.jsonl",
+      "path": "invocations.jsonl"
+    },
+    {
+      "name": "solution.py",
+      "path": "solution.py"
+    },
+    {
+      "name": "input.csv",
+      "path": "input.csv"
+    }
+  ],
+  "validator": "csv-fixed-v1",
+  "task_id": "M1",
+  "conditions": {
+    "dependency_policy": "standard library",
+    "input_mutation": "forbidden",
+    "numeric_semantics": "finite binary double parsing; exact mean of parsed doubles converted back to double"
+  }
+}

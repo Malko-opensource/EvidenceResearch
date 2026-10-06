@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "data": {
+    "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\web-demo\\restored-workspace",
+    "files": 8,
+    "resume": "Inspect status; archived running/unknown executions are never automatically rerun"
+  }
+}

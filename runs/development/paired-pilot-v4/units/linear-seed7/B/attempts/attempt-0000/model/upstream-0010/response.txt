@@ -1,1 +1,0 @@
-Polynomial ridge regression model complexity and degree selection using validation error, paired regularized and unregularized comparisons, feature covariance, bias–variance tradeoff, and regularization strength selection

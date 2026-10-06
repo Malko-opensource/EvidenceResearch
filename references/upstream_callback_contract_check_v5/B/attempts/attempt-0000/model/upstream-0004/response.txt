@@ -1,3 +1,0 @@
-```SUBMIT_CODE
-CONFIG = {'degree': 2, 'alpha': 0.0}
-```

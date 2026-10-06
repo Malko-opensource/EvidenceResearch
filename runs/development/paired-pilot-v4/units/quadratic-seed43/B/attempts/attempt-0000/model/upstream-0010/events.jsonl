@@ -1,4 +1,0 @@
-{"type":"thread.started","thread_id":"01a0fd67-e84e-7410-9516-c58e79451477"}
-{"type":"turn.started"}
-{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression degree and regularization selection using validation mean squared error, feature covariance, bias–variance tradeoff, and curvature versus shrinkage in small samples"}}
-{"type":"turn.completed","usage":{"input_tokens":20051,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":59,"reasoning_output_tokens":22}}

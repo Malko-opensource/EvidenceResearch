@@ -1,0 +1,12 @@
+{
+  "purpose": "Read-only confirmation of saved JSON, final work invocation count, and registered source hash",
+  "command": "$episodePath = 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M2\\C_ON'\n$saved = @{}\nforeach ($episodeFile in @('transcript.json','episode-summary.json','spec.json','verification.json','final-record.json','memory-after.json')) { $item = Get-Content -LiteralPath (Join-Path $episodePath $episodeFile) -Raw | ConvertFrom-Json; $saved[$episodeFile] = 'valid JSON' }\n$saved['final_work_invocation_count'] = @(Get-Content -LiteralPath 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M2\\C_ON\\research\\.research\\runs\\run_1ad6b0baf96a49dc8b4dd4f602a13c34\\work\\invocations.jsonl').Count\n$saved['final_solution_sha256'] = (Get-FileHash -LiteralPath (Join-Path $episodePath 'solution.py') -Algorithm SHA256).Hash.ToLowerInvariant()\n$saved | ConvertTo-Json -Compress",
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+  "response": {
+    "chunk_id": "409b44",
+    "wall_time_seconds": 0.1507938,
+    "exit_code": 0,
+    "original_token_count": 80,
+    "output": "{\"transcript.json\":\"valid JSON\",\"spec.json\":\"valid JSON\",\"final_solution_sha256\":\"2447a0e7b1b92bb8ab06f654e42862df60d44483a0148e00326a371e302f8189\",\"final-record.json\":\"valid JSON\",\"memory-after.json\":\"valid JSON\",\"verification.json\":\"valid JSON\",\"episode-summary.json\":\"valid JSON\",\"final_work_invocation_count\":1}\r\n"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": "0.4.0",
+  "packages": [
+    {
+      "name": "pip",
+      "version": "25.0.1"
+    },
+    {
+      "name": "research-state-cli",
+      "version": "0.4.0"
+    }
+  ],
+  "mcp_installed": false,
+  "core_runtime_dependencies": [],
+  "isolated_cli_help": true,
+  "model_calls": false
+}

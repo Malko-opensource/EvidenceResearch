@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "research_state": {
+      "type": "stdio",
+      "command": "python.exe",
+      "args": [
+        "-I",
+        "-m",
+        "research_cli.mcp_server",
+        "--root",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\research-root"
+      ],
+      "env": {
+        "PATH": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts;C:\\Users\\Potato\\.codex\\tmp\\arg0\\codex-arg07NxiJ4;C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin;C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\jxrlib\\jxrlib\\bin;C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin;C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\nodejs\\;C:\\Program Files\\Bandizip\\;C:\\Program Files\\Sunshine;C:\\Program Files\\Sunshine\\tools;C:\\Program Files\\Tailscale\\;C:\\Users\\Potato\\Documents\\Codex\\tools\\goose-rust\\cargo\\bin;C:\\Users\\Potato\\.local\\bin;C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\Potato\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Potato\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Potato\\Documents\\Codex\\tools\\PortableGit\\cmd;C:\\Users\\Potato\\Documents\\Codex\\tools\\gh\\bin;C:\\Users\\Potato\\AppData\\Roaming\\npm;C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback;C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin;C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd;C:\\Users\\Potato\\AppData\\Local\\OpenAI\\Codex\\bin\\f1e5e36960c35938;C:\\Users\\Potato\\AppData\\Local\\OpenAI\\Codex\\bin\\8aaf1547b825b104"
+      }
+    }
+  }
+}

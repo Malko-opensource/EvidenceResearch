@@ -1,0 +1,28 @@
+{
+  "version": "0.3.0",
+  "at": "2026-10-03T17:06:22.433522+00:00",
+  "installed_packages": [
+    {
+      "name": "pip",
+      "version": "25.0.1"
+    },
+    {
+      "name": "research-state-cli",
+      "version": "0.3.0"
+    }
+  ],
+  "runtime_dependencies": [],
+  "offline_installation": true,
+  "isolated_outside_source_package": true,
+  "installed_module": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Lib\\site-packages\\research_cli\\__init__.py",
+    "version": "0.3.0"
+  },
+  "laya_exchange_passed": true,
+  "state_mutation_by_laya": false,
+  "actual_laya_inference": false,
+  "responses": "synthetic fixtures",
+  "model_credentials_required": false,
+  "bundle_sha256": "297a5140d3d1338cd679aec3879625053ae6c66dc3c2b169bd238dced78c42d4",
+  "wheel_sha256": "6aab607842c97b79ac7dc14c69cc6ac30ba8c6002d1036379f2af4569c33fabc"
+}

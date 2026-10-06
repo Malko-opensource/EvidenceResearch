@@ -1,0 +1,30 @@
+{
+  "task_id": "D",
+  "hypothesis_id": "hyp_1ccc891dcebd43049ea2636b1dab1248",
+  "change": "Replace the list-per-group draft with a standard-library implementation that accumulates a float total and count, then divides total by count for every group. Expected final solution.py SHA-256 was calculated from solution-draft.py before registration.",
+  "comparison": "The provided list-based arithmetic-mean implementation in solution.py. It is a functional comparator only; no baseline run or performance comparison is claimed.",
+  "data_split": {
+    "development": "Only BRIEF.ko.md and the public input.csv were inspected: group a values 1 and 3 imply 2.0; group b value 10 implies 10.0. All group,value strings are valid according to the public brief.",
+    "evaluation": "The separately frozen owner validator csv-fixed-v1 evaluates preserved artifacts. Its code and independent cases are not inspected by this external consumer. This DEVELOPMENT task is excluded from all research performance comparisons."
+  },
+  "seed": 0,
+  "source_version": {
+    "label": "candidate-d1",
+    "files": {
+      "solution.py": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+      "input.csv": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+      "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+    }
+  },
+  "metrics": ["pass_rate"],
+  "criteria": [{"metric": "pass_rate", "op": ">=", "threshold": 1.0}],
+  "command": ["C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe", "task.py", "D"],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+  "artifacts": [
+    {"name": "solution.py", "path": "solution.py"},
+    {"name": "input.csv", "path": "input.csv"},
+    {"name": "result.json", "path": "result.json"},
+    {"name": "invocations.jsonl", "path": "invocations.jsonl"}
+  ],
+  "validator": "csv-fixed-v1"
+}

@@ -1,4 +1,0 @@
-{"type":"thread.started","thread_id":"01a0fce3-498d-7062-b41b-acae38f5781f"}
-{"type":"turn.started"}
-{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression degree selection and regularization strength tuning for validation mean squared error, feature covariance under polynomial expansion, bias-variance tradeoff, and cross-validation risk estimation"}}
-{"type":"turn.completed","usage":{"input_tokens":19992,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":37,"reasoning_output_tokens":0}}

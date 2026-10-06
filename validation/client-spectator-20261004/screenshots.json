@@ -1,0 +1,504 @@
+[
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/01-before-desktop.jpg",
+    "sha256": "cc338f2b77386f500ecf07ae3764140ad134f2d6e727b30770157add6c2b939f",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 1213,
+        "height": 576.8021240234375,
+        "scrollHeight": 577,
+        "scrollWidth": 1213,
+        "width": 1228,
+        "x": 26,
+        "y": 171.1979217529297
+      },
+      {
+        "class": "research-canvas",
+        "clientWidth": 901,
+        "height": 576.8021240234375,
+        "scrollHeight": 575,
+        "scrollWidth": 901,
+        "width": 902.6666870117188,
+        "x": 26,
+        "y": 171.1979217529297
+      },
+      {
+        "class": "focus-pane result-focus",
+        "clientWidth": 277,
+        "height": 576.8021240234375,
+        "scrollHeight": 577,
+        "scrollWidth": 277,
+        "width": 292,
+        "x": 946.6666870117188,
+        "y": 171.1979217529297
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\nv0.8.0\n\n에이전트 제어 · 함께 보는 연구\n\n연구 상태 연결\nNATIVE WebMCP · 25/25\n연구의 지금\n기록 21\n오후 11:42:53 조회 · 읽기 상태 동기화\n함께 살펴보는 연구\n고정 고객 응답 CSV의 팀별 만족도 보고 검증\n연구 종료\n외부 연구 상태 보고\n연구의 흐름\n표시 3 / 3개 시도 · 조회 3개\n가설\n실험\n증거\n검증\n결정\n사전등록\n실행 원본\n실행 검사\n등록 산출물\n가설 결정\nSeed 0 실험\n실행 성공\n시험한 가설\n가설 제안\n실제 산출물\n해시 일치\n고정 기준 검사\n검증 실패\n외부 결정\n기각\nSeed 2 실험\n실행 성공\nSeed 1 실험\n실행 성공\n실선 · 원본에 기록된 연결\n강조 · 에이전트가 선택한 경로\n다른 시도의 근거는 관계 장면에서 펼칩니다\n선택한 시도\n무엇을 확인했는가\n실행\n실행 성공\n검증\n검증 실패\n결정\n기각\n만족도\n단위 미등록\n72\n71.04\n76\n80.96\n● 독립 측정\n│ 사전등록 기준\n\n사전등록 >= 80 · 기준보다 8 낮음\n\n사전등록 기준 미충족\n\n남은 불확실성\n\n등록 당시 목표와 현재 목표의 적용 범위 확인 필요\n\n선택 지표의 단위가 사전등록되지 않음\n\n에이전트 관전\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요",
+    "width": 1280
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/02-brief-initial.jpg",
+    "sha256": "17ac266249b0411e60139ac4d2eaac0e17cba64e60940a7aaa177a20b3814c1d",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 996,
+        "height": 548.8021240234375,
+        "scrollHeight": 549,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 996,
+        "height": 503.5833435058594,
+        "scrollHeight": 504,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n\n의뢰한 연구를 함께 봅니다\n\n의뢰한 연구\n누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.\n\n선택한 시도에서 얻은 답\n\n등록 기준에 미치지 못했습니다.\n\n등록 당시 조건에서 확인됨\n\n만족도\n단위 미등록\n실측 72\n기준 >= 80\n\n축 71.04–80.96 · 실측과 등록 기준의 범위\n\n확인 범위\n고정 기준과 실제 산출물로 확인했습니다. 채택과 다른 조건의 적용은 별도 판단입니다.\n다음 확인\n외부의 진행 보고이며 결과의 성공 판정과는 별개입니다.\n\n실험 당시 의뢰와 현재 의뢰의 적용 범위를 대조해야 합니다.\n\n반복 시도의 독립성·일반화는 확인되지 않았습니다.\n\n진행 종료로 보고됨 · 외부 에이전트의 진행 보고\n\n현재 선택한 시도의 등록 조건에 한정한 결과입니다.\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 1280
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/03-analysis.jpg",
+    "sha256": "7890cfbf15628f86ee749364cd515b0595f064aa3c289fde0a2d4588e9b10abe",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 1213,
+        "height": 555.4166870117188,
+        "scrollHeight": 555,
+        "scrollWidth": 1213,
+        "width": 1228,
+        "x": 26,
+        "y": 192.58334350585935
+      }
+    ],
+    "scene": "analysis",
+    "text": "Research State\nv0.8.0\n\n의뢰한 연구를 함께 봅니다\n\n연구 상태 연결\nNATIVE WebMCP · 25/25\n결과를 읽는 방법\n\n실제 측정값을 사전에 고정한 기준과 비교합니다.\n\n기록 21\n오후 11:48:33 조회 · 읽기 상태 동기화\n함께 살펴보는 연구\n고정 고객 응답 CSV의 팀별 만족도 보고 검증\n연구 종료\n외부 연구 상태 보고\n등록 기준과 실제 결과\n실측을 기준에 대조합니다\n계산 일치\n단위 미등록\n1\n0\n1\n2\n● 독립 측정\n│ 사전등록 기준\n\n기준 == 1 · 충족\n\n측정 1 단위 미등록 · 기준 == 1 단위 미등록 · 기준과 일치\n\n만족도\n단위 미등록\n72\n71.04\n76\n80.96\n● 독립 측정\n│ 사전등록 기준\n\n기준 >= 80 · 미충족\n\n측정 72 단위 미등록 · 기준 >= 80 단위 미등록 · 기준보다 8 (단위 미등록) 낮음\n\n이 결과의 적용 범위\n조건을 함께 읽습니다\n비교 기준\nFrozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline\n데이터 분할\ndevelopment: all rows of supplied public synthetic data.csv · evaluation: same pinned input, independently implemented owner frozen validator; no independent population or holdout inference\nSeed\n0\n소스 버전\nskill-demo-descriptive-csv-v1\n\n표시 4 / 6개 조건 · 원본은 에이전트가 조회합니다.\n\n결정 이유\n\n전체 만족도는 72%로 사전등록 사업 기준 80%보다 8 percentage points 낮다. 실행은 성공하고 고정 독립 계산 일치 지표는 1이나 전체 기준 검증은 실패다. 이 고정 CSV의 80% 가설을 기각하며 기술통계 계산의 정확성과 모집단 추론은 별개다.\n\n독립 검증에서 등록 기준 미달이 확인됐습니다. 실행 원본의 해시는 현재 일치합니다.\n\n요청 완료\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 1280
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/04-evidence.jpg",
+    "sha256": "d59fc04bc99334dba330aba86e991d832c353c96032d6c95d85a4ceffe506a06",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 1213,
+        "height": 555.4166870117188,
+        "scrollHeight": 555,
+        "scrollWidth": 1213,
+        "width": 1228,
+        "x": 26,
+        "y": 192.58334350585935
+      }
+    ],
+    "scene": "evidence",
+    "text": "Research State\nv0.8.0\n\n의뢰한 연구를 함께 봅니다\n\n연구 상태 연결\nNATIVE WebMCP · 25/25\n근거의 원문\n\n보존된 원문과 현재 해시를 확인합니다.\n\n기록 21\n오후 11:48:51 조회 · 읽기 상태 동기화\n함께 살펴보는 연구\n고정 고객 응답 CSV의 팀별 만족도 보고 검증\n연구 종료\n외부 연구 상태 보고\n원본으로 추적\nsummary\n종류\n측정값\n파일 보존\n현재 해시 일치\n등록 연결\nreg_3f105fe7b8834fdc8132663fa815073e\n증거 식별자\nev_0ae5e21e9bf041f2b6744f968405abbc\n보존 경로\n.research/evidence/7a6d879de7936456b8a3997aebe16349b51c75f1655222cc68d863b3065ae208\nSHA-256\n7a6d879de7936456b8a3997aebe16349b51c75f1655222cc68d863b3065ae208\n파일 크기\n604 bytes\n\n해시 일치는 파일 보존 상태입니다. 이 원문의 내용에 대한 과학적 타당성을 증명하지 않습니다.\n\n독립 검증에서 등록 기준 미달이 확인됐습니다. 실행 원본의 해시는 현재 일치합니다.\n\n보존된 내용\n에이전트가 선택한 원문\n{\r\n  \"valid_rows\": 5,\r\n  \"missing_rows\": 1,\r\n  \"total_rows\": 6,\r\n  \"satisfaction_pct\": 72.0,\r\n  \"team_means\": {\r\n    \"A\": 4.0,\r\n    \"B\": 3.3333333333333335\r\n  },\r\n  \"teams\": {\r\n    \"A\": {\r\n      \"valid_rows\": 2,\r\n      \"missing_rows\": 1,\r\n      \"mean_rating\": 4.0,\r\n      \"satisfaction_pct\": 80.0\r\n    },\r\n    \"B\": {\r\n      \"valid_rows\": 3,\r\n      \"missing_rows\": 0,\r\n      \"mean_rating\": 3.3333333333333335,\r\n      \"satisfaction_pct\": 66.66666666666667\r\n    }\r\n  },\r\n  \"seed\": 0,\r\n  \"repeat_design\": \"three_fixed_input_replications\",\r\n  \"scope\": \"fixed public synthetic CSV descriptive values only\"\r\n}\r\n\n요청 완료\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 1280
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/05-final-desktop.jpg",
+    "sha256": "9e64b43e2d3851b0c27314316c81d36ee1c8f4a799adb250d481f5127a24aa45",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 996,
+        "height": 548.8021240234375,
+        "scrollHeight": 549,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 996,
+        "height": 451.5416870117187,
+        "scrollHeight": 452,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n\n의뢰한 연구를 함께 봅니다\n\n의뢰한 연구\n누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.\n\n선택한 시도에서 얻은 답\n\n만족도 기준에 미치지 못했습니다.\n\n등록 당시 조건에서 확인됨\n\n만족도\n단위 미등록\n실측 72\n기준 80 이상\n\n축 71.04–80.96 · 실측과 등록 기준의 범위\n\n확인 범위\n계산 일치는 등록 기준을 충족했습니다. 결과는 실험 당시 조건에 한정됩니다.\n다음 확인\n현재 의뢰에 적용할 수 있는지 대조가 필요합니다.\n\n반복 시도의 독립성·일반화는 확인되지 않았습니다.\n\n진행 종료로 보고됨 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 1280
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/06-empty.jpg",
+    "sha256": "7fd40bad63754426d9ff00918495f2691d21101f1105f8f75b6ea701cda1efa2",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 996,
+        "height": 548.8021240234375,
+        "scrollHeight": 549,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 996,
+        "height": 391.5,
+        "scrollHeight": 392,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n\n의뢰한 연구를 함께 봅니다\n\n의뢰한 연구\n연구 목표 미기록\n\n선택한 시도에서 얻은 답\n\n아직 연구 결과가 없습니다.\n\n의뢰와 실험이 기록되면 확인된 답을 보여 드립니다.\n\n확인 범위\n확인할 실행 결과가 아직 없습니다.\n다음 확인\n아직 전체 의뢰의 진행 보고가 없습니다.\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 1280
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/07-unexecuted.jpg",
+    "sha256": "53867711a890b3338772886b1fadf2e2ddc6a1d32dac7b476d3f7f671d2c58c5",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 996,
+        "height": 548.8021240234375,
+        "scrollHeight": 549,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 996,
+        "height": 424.09375,
+        "scrollHeight": 424,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n\n의뢰한 연구를 함께 봅니다\n\n의뢰한 연구\n상황판 개발용 fixture · 가중 평균의 성공·실패·미실행\n\n선택한 시도에서 얻은 답\n\n실행 결과가 아직 확인되지 않았습니다.\n\n등록 조건에 따른 실행 결과를 기다립니다.\n\n확인 범위\n확인할 실행 결과가 아직 없습니다.\n다음 확인\n등록 조건에 따른 실행 결과\n\n전체 진행 상황 미확인 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 1280
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/08-confirmed-fixture.jpg",
+    "sha256": "e1de2e325ac7aca2d0d0e2ede1e964b48d4f113022f8342e69e5f83601542539",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 996,
+        "height": 548.8021240234375,
+        "scrollHeight": 549,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 996,
+        "height": 424.09375,
+        "scrollHeight": 424,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n\n의뢰한 연구를 함께 봅니다\n\n의뢰한 연구\n상황판 개발용 fixture · 가중 평균의 성공·실패·미실행\n\n선택한 시도에서 얻은 답\n\n등록 기준을 충족했습니다.\n\n등록 조건에서 확인됨\n\nweighted mean\n무차원\n실측 5\n기준 5 같음\n\n축 4–6 · 실측과 등록 기준의 범위\n\n확인 범위\n실험 당시 등록한 데이터와 조건에 한정한 결과입니다.\n다음 확인\n이 결과를 다른 조건에 적용하려면 추가 확인이 필요합니다.\n\n전체 진행 상황 미확인 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 1280
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/09-mobile.jpg",
+    "sha256": "ea94663489d72011b1aa0bf49e2cfccd3029bf9fc6a57855c1a4d4950db9329d",
+    "height": 844,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 346,
+        "height": 583.96875,
+        "scrollHeight": 584,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 209.03125
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 346,
+        "height": 545.5729370117188,
+        "scrollHeight": 546,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 209.03125
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n의뢰한 연구\n누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.\n\n선택한 시도에서 얻은 답\n\n만족도 기준에 미치지 못했습니다.\n\n등록 당시 조건에서 확인됨\n\n만족도\n단위 미등록\n실측 72\n기준 80 이상\n\n축 71.04–80.96 · 실측과 등록 기준의 범위\n\n확인 범위\n계산 일치는 등록 기준을 충족했습니다. 결과는 실험 당시 조건에 한정됩니다.\n다음 확인\n현재 의뢰에 적용할 수 있는지 대조가 필요합니다.\n\n반복 시도의 독립성·일반화는 확인되지 않았습니다.\n\n진행 종료로 보고됨 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 390
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/10-tampered.jpg",
+    "sha256": "b1ed32643fd8b779035f498467c1b87c9dbd7792c70546432e98eb5930a12ce7",
+    "height": 844,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 346,
+        "height": 617.3125,
+        "scrollHeight": 617,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 175.6875
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 346,
+        "height": 342.1770935058594,
+        "scrollHeight": 342,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 175.6875
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n의뢰한 연구\n상황판 개발용 fixture · 가중 평균의 성공·실패·미실행\n\n선택한 시도에서 얻은 답\n\n현재 근거를 확인할 수 없습니다.\n\n원본의 누락 또는 변조가 감지됐습니다.\n\n확인 범위\n이전 검증·채택 기록은 현재 확인된 결과가 아닙니다.\n다음 확인\n누락·변조된 원본의 복원 또는 대조\n\n전체 진행 상황 미확인 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 390
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/11-missing.jpg",
+    "sha256": "b1ed32643fd8b779035f498467c1b87c9dbd7792c70546432e98eb5930a12ce7",
+    "height": 844,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 346,
+        "height": 617.3125,
+        "scrollHeight": 617,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 175.6875
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 346,
+        "height": 342.1770935058594,
+        "scrollHeight": 342,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 175.6875
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n의뢰한 연구\n상황판 개발용 fixture · 가중 평균의 성공·실패·미실행\n\n선택한 시도에서 얻은 답\n\n현재 근거를 확인할 수 없습니다.\n\n원본의 누락 또는 변조가 감지됐습니다.\n\n확인 범위\n이전 검증·채택 기록은 현재 확인된 결과가 아닙니다.\n다음 확인\n누락·변조된 원본의 복원 또는 대조\n\n전체 진행 상황 미확인 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 390
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/12-final-confirmed-fixture.jpg",
+    "sha256": "db2e3f503b057524af2dc444fa118c8861b44ba14cd8b92fe545777dbd5ac21b",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 996,
+        "height": 548.8021240234375,
+        "scrollHeight": 549,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 996,
+        "height": 424.09375,
+        "scrollHeight": 424,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n\n의뢰한 연구를 함께 봅니다\n\n의뢰한 연구\n상황판 개발용 fixture · 가중 평균의 성공·실패·미실행\n\n선택한 시도에서 얻은 답\n\n등록 기준을 충족했습니다.\n\n등록 조건에서 확인됨\n\nweighted mean\n무차원\n실측 5\n기준 5 같음\n\n축 4–6 · 실측과 등록 기준의 범위\n\n확인 범위\n실험 당시 등록한 데이터와 조건에 한정한 결과입니다.\n다음 확인\n이 결과를 다른 조건에 적용하려면 추가 확인이 필요합니다.\n\n전체 진행 상황 미확인\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 1280
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/13-final-desktop.jpg",
+    "sha256": "9e64b43e2d3851b0c27314316c81d36ee1c8f4a799adb250d481f5127a24aa45",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 996,
+        "height": 548.8021240234375,
+        "scrollHeight": 549,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 996,
+        "height": 451.5416870117187,
+        "scrollHeight": 452,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n\n의뢰한 연구를 함께 봅니다\n\n의뢰한 연구\n누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.\n\n선택한 시도에서 얻은 답\n\n만족도 기준에 미치지 못했습니다.\n\n등록 당시 조건에서 확인됨\n\n만족도\n단위 미등록\n실측 72\n기준 80 이상\n\n축 71.04–80.96 · 실측과 등록 기준의 범위\n\n확인 범위\n계산 일치는 등록 기준을 충족했습니다. 결과는 실험 당시 조건에 한정됩니다.\n다음 확인\n현재 의뢰에 적용할 수 있는지 대조가 필요합니다.\n\n반복 시도의 독립성·일반화는 확인되지 않았습니다.\n\n진행 종료로 보고됨 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 1280
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/14-final-mobile.jpg",
+    "sha256": "ea94663489d72011b1aa0bf49e2cfccd3029bf9fc6a57855c1a4d4950db9329d",
+    "height": 844,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 346,
+        "height": 583.96875,
+        "scrollHeight": 584,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 209.03125
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 346,
+        "height": 545.5729370117188,
+        "scrollHeight": 546,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 209.03125
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n의뢰한 연구\n누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.\n\n선택한 시도에서 얻은 답\n\n만족도 기준에 미치지 못했습니다.\n\n등록 당시 조건에서 확인됨\n\n만족도\n단위 미등록\n실측 72\n기준 80 이상\n\n축 71.04–80.96 · 실측과 등록 기준의 범위\n\n확인 범위\n계산 일치는 등록 기준을 충족했습니다. 결과는 실험 당시 조건에 한정됩니다.\n다음 확인\n현재 의뢰에 적용할 수 있는지 대조가 필요합니다.\n\n반복 시도의 독립성·일반화는 확인되지 않았습니다.\n\n진행 종료로 보고됨 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n도구 완료와 전체 연구 완료는 별개",
+    "width": 390
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/15-final-desktop.jpg",
+    "sha256": "9e64b43e2d3851b0c27314316c81d36ee1c8f4a799adb250d481f5127a24aa45",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 996,
+        "height": 548.8021240234375,
+        "scrollHeight": 549,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 996,
+        "height": 451.5416870117187,
+        "scrollHeight": 452,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n\n의뢰한 연구를 함께 봅니다\n\n의뢰한 연구\n누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.\n\n선택한 시도에서 얻은 답\n\n만족도 기준에 미치지 못했습니다.\n\n등록 당시 조건에서 확인됨\n\n만족도\n단위 미등록\n실측 72\n기준 80 이상\n\n축 71.04–80.96 · 실측과 등록 기준의 범위\n\n확인 범위\n계산 일치는 등록 기준을 충족했습니다. 결과는 실험 당시 조건에 한정됩니다.\n다음 확인\n현재 의뢰에 적용할 수 있는지 대조가 필요합니다.\n\n반복 시도의 독립성·일반화는 확인되지 않았습니다.\n\n진행 종료로 보고됨 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n의뢰한 연구의 답 화면입니다.",
+    "width": 1280
+  },
+  {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/16-final-mobile.jpg",
+    "sha256": "ea94663489d72011b1aa0bf49e2cfccd3029bf9fc6a57855c1a4d4950db9329d",
+    "height": 844,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 346,
+        "height": 583.96875,
+        "scrollHeight": 584,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 209.03125
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 346,
+        "height": 545.5729370117188,
+        "scrollHeight": 546,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 209.03125
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n의뢰한 연구\n누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.\n\n선택한 시도에서 얻은 답\n\n만족도 기준에 미치지 못했습니다.\n\n등록 당시 조건에서 확인됨\n\n만족도\n단위 미등록\n실측 72\n기준 80 이상\n\n축 71.04–80.96 · 실측과 등록 기준의 범위\n\n확인 범위\n계산 일치는 등록 기준을 충족했습니다. 결과는 실험 당시 조건에 한정됩니다.\n다음 확인\n현재 의뢰에 적용할 수 있는지 대조가 필요합니다.\n\n반복 시도의 독립성·일반화는 확인되지 않았습니다.\n\n진행 종료로 보고됨 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n의뢰한 연구의 답 화면입니다.",
+    "width": 390
+  }
+]

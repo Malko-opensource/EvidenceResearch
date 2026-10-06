@@ -1,0 +1,2168 @@
+{
+  "task_id": "F2",
+  "condition": "C_OFF",
+  "logical_requests": [
+    {
+      "id": "solve-F2",
+      "description": "Solve preregistered F2 and verify before decision"
+    },
+    {
+      "id": "repeat-completed-F2",
+      "description": "Repeat the same concrete completed F2 run request once with identical registration and request key."
+    }
+  ],
+  "commands": [
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+        "status"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"workspace\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\", \"goals\": [], \"goal_total\": 0, \"hypotheses\": [], \"hypothesis_total\": 0, \"registrations\": [], \"total\": 0, \"limit\": 20, \"offset\": 0, \"allowed_actions\": [\"goal\", \"hypothesis\", \"register\", \"memory\", \"show\", \"export\"], \"revision\": 1}}\n",
+      "stderr": "",
+      "original_json": {
+        "ok": true,
+        "data": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+          "goals": [],
+          "goal_total": 0,
+          "hypotheses": [],
+          "hypothesis_total": 0,
+          "registrations": [],
+          "total": 0,
+          "limit": 20,
+          "offset": 0,
+          "allowed_actions": [
+            "goal",
+            "hypothesis",
+            "register",
+            "memory",
+            "show",
+            "export"
+          ],
+          "revision": 1
+        }
+      }
+    },
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+        "memory",
+        "--query",
+        "F2",
+        "--limit",
+        "20"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"items\": [], \"total\": 0, \"limit\": 20, \"offset\": 0, \"revision\": 1}}\n",
+      "stderr": "",
+      "original_json": {
+        "ok": true,
+        "data": {
+          "items": [],
+          "total": 0,
+          "limit": 20,
+          "offset": 0,
+          "revision": 1
+        }
+      }
+    },
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+        "goal",
+        "--title",
+        "F2 finite irregular time-window summary"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"id\": \"goal_897e0d7df14944e09050c2b737fd2768\", \"title\": \"F2 finite irregular time-window summary\", \"description\": \"\", \"created\": 1791043990.2163625, \"revision\": 2}}\n",
+      "stderr": "",
+      "original_json": {
+        "ok": true,
+        "data": {
+          "id": "goal_897e0d7df14944e09050c2b737fd2768",
+          "title": "F2 finite irregular time-window summary",
+          "description": "",
+          "created": 1791043990.2163625,
+          "revision": 2
+        }
+      }
+    },
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+        "hypothesis",
+        "--goal",
+        "goal_897e0d7df14944e09050c2b737fd2768",
+        "--statement",
+        "Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors."
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"goal_id\": \"goal_897e0d7df14944e09050c2b737fd2768\", \"statement\": \"Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.\", \"created\": 1791043990.2774513, \"revision\": 3}}\n",
+      "stderr": "",
+      "original_json": {
+        "ok": true,
+        "data": {
+          "id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+          "goal_id": "goal_897e0d7df14944e09050c2b737fd2768",
+          "statement": "Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.",
+          "created": 1791043990.2774513,
+          "revision": 3
+        }
+      }
+    },
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+        "register",
+        "--goal",
+        "goal_897e0d7df14944e09050c2b737fd2768",
+        "--input",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\spec.json",
+        "--request-key",
+        "F2-C_OFF-register-1"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"registration\": {\"id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"goal_id\": \"goal_897e0d7df14944e09050c2b737fd2768\", \"hypothesis_id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"spec\": {\"artifacts\": [{\"name\": \"result.json\", \"path\": \"result.json\"}, {\"name\": \"invocations.jsonl\", \"path\": \"invocations.jsonl\"}, {\"name\": \"solution.py\", \"path\": \"solution.py\"}, {\"name\": \"input.csv\", \"path\": \"input.csv\"}], \"change\": \"Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.\", \"command\": [\"C:\\\\Users\\\\Potato\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe\", \"task.py\", \"F2\"], \"comparison\": \"Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.\", \"conditions\": {\"duplicates\": \"all measurements contribute; one output per unique timestamp\", \"input_mutation\": false, \"left_boundary\": \"excluded\", \"libraries\": \"Python standard library only\", \"prior_memory\": \"off; initial query returned no items\", \"window_seconds\": 3.0}, \"criteria\": [{\"metric\": \"pass_rate\", \"op\": \">=\", \"threshold\": 1.0}], \"cwd\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\", \"data_split\": \"Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.\", \"hypothesis_id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"metrics\": [\"pass_rate\"], \"seed\": 0, \"source_version\": {\"files\": {\"input.csv\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"solution.py\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"task.py\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\"}, \"label\": \"F2-C_OFF-candidate-1\"}, \"task_id\": \"F2\", \"validator\": \"csv-fixed-v1\", \"validator_sha256\": \"ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed\"}, \"fingerprint\": \"f1820f20651d838cb7bf9681a43110a7718ac1c5abade81eaec718b65dcc44b9\", \"created\": 1791043990.346621}, \"reused\": false, \"revision\": 4}}\n",
+      "stderr": "",
+      "original_json": {
+        "ok": true,
+        "data": {
+          "registration": {
+            "id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+            "goal_id": "goal_897e0d7df14944e09050c2b737fd2768",
+            "hypothesis_id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+            "spec": {
+              "artifacts": [
+                {
+                  "name": "result.json",
+                  "path": "result.json"
+                },
+                {
+                  "name": "invocations.jsonl",
+                  "path": "invocations.jsonl"
+                },
+                {
+                  "name": "solution.py",
+                  "path": "solution.py"
+                },
+                {
+                  "name": "input.csv",
+                  "path": "input.csv"
+                }
+              ],
+              "change": "Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.",
+              "command": [
+                "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+                "task.py",
+                "F2"
+              ],
+              "comparison": "Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.",
+              "conditions": {
+                "duplicates": "all measurements contribute; one output per unique timestamp",
+                "input_mutation": false,
+                "left_boundary": "excluded",
+                "libraries": "Python standard library only",
+                "prior_memory": "off; initial query returned no items",
+                "window_seconds": 3.0
+              },
+              "criteria": [
+                {
+                  "metric": "pass_rate",
+                  "op": ">=",
+                  "threshold": 1.0
+                }
+              ],
+              "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+              "data_split": "Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.",
+              "hypothesis_id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+              "metrics": [
+                "pass_rate"
+              ],
+              "seed": 0,
+              "source_version": {
+                "files": {
+                  "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                  "solution.py": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                  "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+                },
+                "label": "F2-C_OFF-candidate-1"
+              },
+              "task_id": "F2",
+              "validator": "csv-fixed-v1",
+              "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed"
+            },
+            "fingerprint": "f1820f20651d838cb7bf9681a43110a7718ac1c5abade81eaec718b65dcc44b9",
+            "created": 1791043990.346621
+          },
+          "reused": false,
+          "revision": 4
+        }
+      }
+    },
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+        "run",
+        "--registration",
+        "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+        "--request-key",
+        "F2-C_OFF-run-1"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"recovered\": true, \"record\": {\"registration\": {\"id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"goal_id\": \"goal_897e0d7df14944e09050c2b737fd2768\", \"hypothesis_id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"spec\": {\"artifacts\": [{\"name\": \"result.json\", \"path\": \"result.json\"}, {\"name\": \"invocations.jsonl\", \"path\": \"invocations.jsonl\"}, {\"name\": \"solution.py\", \"path\": \"solution.py\"}, {\"name\": \"input.csv\", \"path\": \"input.csv\"}], \"change\": \"Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.\", \"command\": [\"C:\\\\Users\\\\Potato\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe\", \"task.py\", \"F2\"], \"comparison\": \"Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.\", \"conditions\": {\"duplicates\": \"all measurements contribute; one output per unique timestamp\", \"input_mutation\": false, \"left_boundary\": \"excluded\", \"libraries\": \"Python standard library only\", \"prior_memory\": \"off; initial query returned no items\", \"window_seconds\": 3.0}, \"criteria\": [{\"metric\": \"pass_rate\", \"op\": \">=\", \"threshold\": 1.0}], \"cwd\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\", \"data_split\": \"Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.\", \"hypothesis_id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"metrics\": [\"pass_rate\"], \"seed\": 0, \"source_version\": {\"files\": {\"input.csv\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"solution.py\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"task.py\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\"}, \"label\": \"F2-C_OFF-candidate-1\"}, \"task_id\": \"F2\", \"validator\": \"csv-fixed-v1\", \"validator_sha256\": \"ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed\"}, \"fingerprint\": \"f1820f20651d838cb7bf9681a43110a7718ac1c5abade81eaec718b65dcc44b9\", \"created\": 1791043990.346621}, \"hypothesis\": {\"id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"goal_id\": \"goal_897e0d7df14944e09050c2b737fd2768\", \"statement\": \"Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.\", \"created\": 1791043990.2774513}, \"run\": {\"id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"state\": \"succeeded\", \"receipt\": {\"error\": null, \"exit_code\": 0, \"files\": [{\"name\": \"source:input.csv\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\input.csv\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\input.csv\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\"}, {\"name\": \"source:solution.py\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\solution.py\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\solution.py\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\"}, {\"name\": \"source:task.py\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\task.py\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\task.py\", \"sha256\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\"}, {\"name\": \"result.json\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\result.json\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\result.json\", \"sha256\": \"d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6\"}, {\"name\": \"invocations.jsonl\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\invocations.jsonl\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\invocations.jsonl\", \"sha256\": \"d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9\"}, {\"name\": \"solution.py\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\solution.py\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\solution.py\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\"}, {\"name\": \"input.csv\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\input.csv\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\input.csv\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\"}, {\"name\": \"stdout\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stdout.log\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stdout.log\", \"sha256\": \"71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78\"}, {\"name\": \"stderr\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stderr.log\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stderr.log\", \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}, {\"name\": \"launch\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\launch.json\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\launch.json\", \"sha256\": \"10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2\"}, {\"name\": \"process\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\process.json\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\process.json\", \"sha256\": \"d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482\"}], \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"request_sha256\": \"f5e89fbe8e6c1a4868d44a404e9d744157801d9f1bde8d22779b0efc8293df27\", \"resources\": {\"external_model_usage\": \"unknown\", \"external_tokens\": \"unknown\", \"wall_seconds\": 0.06300000002374873}, \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"state\": \"succeeded\"}, \"resources\": {\"external_model_usage\": \"unknown\", \"external_tokens\": \"unknown\", \"tokens\": {\"status\": \"unknown\", \"value\": null}, \"wall_seconds\": 0.06300000002374873}, \"reason\": null, \"created\": 1791044001.197572, \"finished\": 1791044001.3876252}, \"evidence\": [{\"id\": \"ev_19822ef72a7645d5985fc42af6554d9b\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"solution.py\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"size\": 1331, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\solution.py\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": false}, {\"id\": \"ev_463a8e0808514cef83489d17536765ea\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"input.csv\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"size\": 43, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\input.csv\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": false}, {\"id\": \"ev_6db276a6bc174cfc85eae5100704d059\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"stdout\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78\", \"sha256\": \"71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78\", \"size\": 46, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stdout.log\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": false}, {\"id\": \"ev_78d99ba0272d49168a57d71130a11d65\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"source:input.csv\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"size\": 43, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\input.csv\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": false}, {\"id\": \"ev_7f249f240c6649ddaa06e47e22a59f4c\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"launch\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2\", \"sha256\": \"10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2\", \"size\": 336, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\launch.json\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": false}, {\"id\": \"ev_8b73c1924e024228b534f50e062f4e69\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"invocations.jsonl\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9\", \"sha256\": \"d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9\", \"size\": 54, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\invocations.jsonl\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": false}, {\"id\": \"ev_9d0ade353e054ab78195a6486f7ed6d0\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"stderr\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"size\": 0, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stderr.log\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": false}, {\"id\": \"ev_b40e680d6ada4b5295b5bd28b129855c\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"source:task.py\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\", \"sha256\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\", \"size\": 1464, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\task.py\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": false}, {\"id\": \"ev_b53d7a69c02042d8a6d21bd13886429e\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"result.json\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6\", \"sha256\": \"d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6\", \"size\": 367, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\result.json\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": false}, {\"id\": \"ev_c26bcd8a211941cd96c8837e16b6059a\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"process\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482\", \"sha256\": \"d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482\", \"size\": 55, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\process.json\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": false}, {\"id\": \"ev_fecc7dd2517d455db1ae28e5cc52cc60\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"source:solution.py\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"size\": 1331, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\solution.py\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": false}], \"verification\": null, \"decision\": {\"state\": \"pending\"}, \"revision\": 6}, \"started\": true}}\n",
+      "stderr": "",
+      "original_json": {
+        "ok": true,
+        "data": {
+          "recovered": true,
+          "record": {
+            "registration": {
+              "id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+              "goal_id": "goal_897e0d7df14944e09050c2b737fd2768",
+              "hypothesis_id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+              "spec": {
+                "artifacts": [
+                  {
+                    "name": "result.json",
+                    "path": "result.json"
+                  },
+                  {
+                    "name": "invocations.jsonl",
+                    "path": "invocations.jsonl"
+                  },
+                  {
+                    "name": "solution.py",
+                    "path": "solution.py"
+                  },
+                  {
+                    "name": "input.csv",
+                    "path": "input.csv"
+                  }
+                ],
+                "change": "Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.",
+                "command": [
+                  "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+                  "task.py",
+                  "F2"
+                ],
+                "comparison": "Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.",
+                "conditions": {
+                  "duplicates": "all measurements contribute; one output per unique timestamp",
+                  "input_mutation": false,
+                  "left_boundary": "excluded",
+                  "libraries": "Python standard library only",
+                  "prior_memory": "off; initial query returned no items",
+                  "window_seconds": 3.0
+                },
+                "criteria": [
+                  {
+                    "metric": "pass_rate",
+                    "op": ">=",
+                    "threshold": 1.0
+                  }
+                ],
+                "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+                "data_split": "Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.",
+                "hypothesis_id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+                "metrics": [
+                  "pass_rate"
+                ],
+                "seed": 0,
+                "source_version": {
+                  "files": {
+                    "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                    "solution.py": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+                  },
+                  "label": "F2-C_OFF-candidate-1"
+                },
+                "task_id": "F2",
+                "validator": "csv-fixed-v1",
+                "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed"
+              },
+              "fingerprint": "f1820f20651d838cb7bf9681a43110a7718ac1c5abade81eaec718b65dcc44b9",
+              "created": 1791043990.346621
+            },
+            "hypothesis": {
+              "id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+              "goal_id": "goal_897e0d7df14944e09050c2b737fd2768",
+              "statement": "Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.",
+              "created": 1791043990.2774513
+            },
+            "run": {
+              "id": "run_895f02851dab4e5ea5f68af58878a4c7",
+              "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+              "state": "succeeded",
+              "receipt": {
+                "error": null,
+                "exit_code": 0,
+                "files": [
+                  {
+                    "name": "source:input.csv",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\input.csv",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\input.csv",
+                    "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2"
+                  },
+                  {
+                    "name": "source:solution.py",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\solution.py",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\solution.py",
+                    "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34"
+                  },
+                  {
+                    "name": "source:task.py",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\task.py",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\task.py",
+                    "sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+                  },
+                  {
+                    "name": "result.json",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\result.json",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\result.json",
+                    "sha256": "d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6"
+                  },
+                  {
+                    "name": "invocations.jsonl",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\invocations.jsonl",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\invocations.jsonl",
+                    "sha256": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9"
+                  },
+                  {
+                    "name": "solution.py",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\solution.py",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\solution.py",
+                    "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34"
+                  },
+                  {
+                    "name": "input.csv",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\input.csv",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\input.csv",
+                    "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2"
+                  },
+                  {
+                    "name": "stdout",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stdout.log",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stdout.log",
+                    "sha256": "71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78"
+                  },
+                  {
+                    "name": "stderr",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stderr.log",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stderr.log",
+                    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                  },
+                  {
+                    "name": "launch",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\launch.json",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\launch.json",
+                    "sha256": "10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2"
+                  },
+                  {
+                    "name": "process",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\process.json",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\process.json",
+                    "sha256": "d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482"
+                  }
+                ],
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "request_sha256": "f5e89fbe8e6c1a4868d44a404e9d744157801d9f1bde8d22779b0efc8293df27",
+                "resources": {
+                  "external_model_usage": "unknown",
+                  "external_tokens": "unknown",
+                  "wall_seconds": 0.06300000002374873
+                },
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "state": "succeeded"
+              },
+              "resources": {
+                "external_model_usage": "unknown",
+                "external_tokens": "unknown",
+                "tokens": {
+                  "status": "unknown",
+                  "value": null
+                },
+                "wall_seconds": 0.06300000002374873
+              },
+              "reason": null,
+              "created": 1791044001.197572,
+              "finished": 1791044001.3876252
+            },
+            "evidence": [
+              {
+                "id": "ev_19822ef72a7645d5985fc42af6554d9b",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "solution.py",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "size": 1331,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\solution.py",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": false
+              },
+              {
+                "id": "ev_463a8e0808514cef83489d17536765ea",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "input.csv",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "size": 43,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\input.csv",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": false
+              },
+              {
+                "id": "ev_6db276a6bc174cfc85eae5100704d059",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "stdout",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78",
+                "sha256": "71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78",
+                "size": 46,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stdout.log",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": false
+              },
+              {
+                "id": "ev_78d99ba0272d49168a57d71130a11d65",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "source:input.csv",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "size": 43,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\input.csv",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": false
+              },
+              {
+                "id": "ev_7f249f240c6649ddaa06e47e22a59f4c",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "launch",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2",
+                "sha256": "10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2",
+                "size": 336,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\launch.json",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": false
+              },
+              {
+                "id": "ev_8b73c1924e024228b534f50e062f4e69",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "invocations.jsonl",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9",
+                "sha256": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9",
+                "size": 54,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\invocations.jsonl",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": false
+              },
+              {
+                "id": "ev_9d0ade353e054ab78195a6486f7ed6d0",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "stderr",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "size": 0,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stderr.log",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": false
+              },
+              {
+                "id": "ev_b40e680d6ada4b5295b5bd28b129855c",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "source:task.py",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+                "sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+                "size": 1464,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\task.py",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": false
+              },
+              {
+                "id": "ev_b53d7a69c02042d8a6d21bd13886429e",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "result.json",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6",
+                "sha256": "d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6",
+                "size": 367,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\result.json",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": false
+              },
+              {
+                "id": "ev_c26bcd8a211941cd96c8837e16b6059a",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "process",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482",
+                "sha256": "d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482",
+                "size": 55,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\process.json",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": false
+              },
+              {
+                "id": "ev_fecc7dd2517d455db1ae28e5cc52cc60",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "source:solution.py",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "size": 1331,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\solution.py",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": false
+              }
+            ],
+            "verification": null,
+            "decision": {
+              "state": "pending"
+            },
+            "revision": 6
+          },
+          "started": true
+        }
+      }
+    },
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+        "verify",
+        "--registration",
+        "reg_1501d2daa11c4d358ae4ff3d35d0f536"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"verification\": {\"verification\": {\"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"state\": \"passed\", \"metrics\": {\"pass_rate\": 1.0}, \"details\": {\"integrity\": true, \"basis\": \"preserved_source_recomputed\", \"checks\": [{\"case\": \"run_artifact\", \"exit_code\": null, \"passed\": true, \"reason\": \"run_artifact_recomputed\"}, {\"case\": 0, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 1, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 2, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 3, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 4, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 5, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 6, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}], \"passed_cases\": 8, \"reported_run_metrics_used\": false, \"task_id\": \"F2\", \"total_cases\": 8, \"verifier_output\": {\"details\": {\"basis\": \"preserved_source_recomputed\", \"checks\": [{\"case\": \"run_artifact\", \"exit_code\": null, \"passed\": true, \"reason\": \"run_artifact_recomputed\"}, {\"case\": 0, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 1, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 2, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 3, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 4, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 5, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 6, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}], \"passed_cases\": 8, \"reported_run_metrics_used\": false, \"task_id\": \"F2\", \"total_cases\": 8}, \"metrics\": {\"pass_rate\": 1.0}}, \"verifier_stdout_sha256\": \"f3ad15c81463de517acc5114ef07ef30ac38966b5d2aff61d78c91e326b46150\", \"verifier_stderr_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"validator_sha256\": \"ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed\", \"source\": \"fixed_local_verifier\", \"missing_artifacts\": [], \"missing_metrics\": [], \"criteria_results\": [{\"metric\": \"pass_rate\", \"op\": \">=\", \"threshold\": 1.0, \"actual\": 1.0, \"passed\": true}], \"_input_sha256\": \"1b2b28cbe0e9823fc0a8a54e3be5a92ca9624736e8f9912bd98c87fe4d5a490f\"}, \"created\": 1791044010.5519943}, \"reused\": false, \"revision\": 7}, \"record\": {\"registration\": {\"id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"goal_id\": \"goal_897e0d7df14944e09050c2b737fd2768\", \"hypothesis_id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"spec\": {\"artifacts\": [{\"name\": \"result.json\", \"path\": \"result.json\"}, {\"name\": \"invocations.jsonl\", \"path\": \"invocations.jsonl\"}, {\"name\": \"solution.py\", \"path\": \"solution.py\"}, {\"name\": \"input.csv\", \"path\": \"input.csv\"}], \"change\": \"Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.\", \"command\": [\"C:\\\\Users\\\\Potato\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe\", \"task.py\", \"F2\"], \"comparison\": \"Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.\", \"conditions\": {\"duplicates\": \"all measurements contribute; one output per unique timestamp\", \"input_mutation\": false, \"left_boundary\": \"excluded\", \"libraries\": \"Python standard library only\", \"prior_memory\": \"off; initial query returned no items\", \"window_seconds\": 3.0}, \"criteria\": [{\"metric\": \"pass_rate\", \"op\": \">=\", \"threshold\": 1.0}], \"cwd\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\", \"data_split\": \"Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.\", \"hypothesis_id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"metrics\": [\"pass_rate\"], \"seed\": 0, \"source_version\": {\"files\": {\"input.csv\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"solution.py\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"task.py\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\"}, \"label\": \"F2-C_OFF-candidate-1\"}, \"task_id\": \"F2\", \"validator\": \"csv-fixed-v1\", \"validator_sha256\": \"ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed\"}, \"fingerprint\": \"f1820f20651d838cb7bf9681a43110a7718ac1c5abade81eaec718b65dcc44b9\", \"created\": 1791043990.346621}, \"hypothesis\": {\"id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"goal_id\": \"goal_897e0d7df14944e09050c2b737fd2768\", \"statement\": \"Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.\", \"created\": 1791043990.2774513}, \"run\": {\"id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"state\": \"succeeded\", \"receipt\": {\"error\": null, \"exit_code\": 0, \"files\": [{\"name\": \"source:input.csv\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\input.csv\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\input.csv\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\"}, {\"name\": \"source:solution.py\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\solution.py\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\solution.py\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\"}, {\"name\": \"source:task.py\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\task.py\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\task.py\", \"sha256\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\"}, {\"name\": \"result.json\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\result.json\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\result.json\", \"sha256\": \"d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6\"}, {\"name\": \"invocations.jsonl\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\invocations.jsonl\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\invocations.jsonl\", \"sha256\": \"d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9\"}, {\"name\": \"solution.py\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\solution.py\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\solution.py\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\"}, {\"name\": \"input.csv\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\input.csv\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\input.csv\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\"}, {\"name\": \"stdout\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stdout.log\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stdout.log\", \"sha256\": \"71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78\"}, {\"name\": \"stderr\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stderr.log\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stderr.log\", \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}, {\"name\": \"launch\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\launch.json\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\launch.json\", \"sha256\": \"10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2\"}, {\"name\": \"process\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\process.json\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\process.json\", \"sha256\": \"d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482\"}], \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"request_sha256\": \"f5e89fbe8e6c1a4868d44a404e9d744157801d9f1bde8d22779b0efc8293df27\", \"resources\": {\"external_model_usage\": \"unknown\", \"external_tokens\": \"unknown\", \"wall_seconds\": 0.06300000002374873}, \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"state\": \"succeeded\"}, \"resources\": {\"external_model_usage\": \"unknown\", \"external_tokens\": \"unknown\", \"tokens\": {\"status\": \"unknown\", \"value\": null}, \"wall_seconds\": 0.06300000002374873}, \"reason\": null, \"created\": 1791044001.197572, \"finished\": 1791044001.3876252}, \"evidence\": [{\"id\": \"ev_19822ef72a7645d5985fc42af6554d9b\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"solution.py\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"size\": 1331, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\solution.py\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_463a8e0808514cef83489d17536765ea\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"input.csv\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"size\": 43, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\input.csv\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_6db276a6bc174cfc85eae5100704d059\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"stdout\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78\", \"sha256\": \"71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78\", \"size\": 46, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stdout.log\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_78d99ba0272d49168a57d71130a11d65\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"source:input.csv\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"size\": 43, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\input.csv\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_7f249f240c6649ddaa06e47e22a59f4c\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"launch\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2\", \"sha256\": \"10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2\", \"size\": 336, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\launch.json\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_8b73c1924e024228b534f50e062f4e69\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"invocations.jsonl\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9\", \"sha256\": \"d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9\", \"size\": 54, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\invocations.jsonl\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_9d0ade353e054ab78195a6486f7ed6d0\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"stderr\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"size\": 0, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stderr.log\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_b40e680d6ada4b5295b5bd28b129855c\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"source:task.py\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\", \"sha256\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\", \"size\": 1464, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\task.py\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_b53d7a69c02042d8a6d21bd13886429e\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"result.json\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6\", \"sha256\": \"d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6\", \"size\": 367, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\result.json\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_c26bcd8a211941cd96c8837e16b6059a\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"process\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482\", \"sha256\": \"d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482\", \"size\": 55, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\process.json\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_fecc7dd2517d455db1ae28e5cc52cc60\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"source:solution.py\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"size\": 1331, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\solution.py\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}], \"verification\": {\"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"state\": \"passed\", \"metrics\": {\"pass_rate\": 1.0}, \"details\": {\"_input_sha256\": \"1b2b28cbe0e9823fc0a8a54e3be5a92ca9624736e8f9912bd98c87fe4d5a490f\", \"basis\": \"preserved_source_recomputed\", \"checks\": [{\"case\": \"run_artifact\", \"exit_code\": null, \"passed\": true, \"reason\": \"run_artifact_recomputed\"}, {\"case\": 0, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 1, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 2, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 3, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 4, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 5, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 6, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}], \"criteria_results\": [{\"actual\": 1.0, \"metric\": \"pass_rate\", \"op\": \">=\", \"passed\": true, \"threshold\": 1.0}], \"integrity\": true, \"missing_artifacts\": [], \"missing_metrics\": [], \"passed_cases\": 8, \"reported_run_metrics_used\": false, \"source\": \"fixed_local_verifier\", \"task_id\": \"F2\", \"total_cases\": 8, \"validator_sha256\": \"ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed\", \"verifier_output\": {\"details\": {\"basis\": \"preserved_source_recomputed\", \"checks\": [{\"case\": \"run_artifact\", \"exit_code\": null, \"passed\": true, \"reason\": \"run_artifact_recomputed\"}, {\"case\": 0, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 1, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 2, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 3, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 4, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 5, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 6, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}], \"passed_cases\": 8, \"reported_run_metrics_used\": false, \"task_id\": \"F2\", \"total_cases\": 8}, \"metrics\": {\"pass_rate\": 1.0}}, \"verifier_stderr_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"verifier_stdout_sha256\": \"f3ad15c81463de517acc5114ef07ef30ac38966b5d2aff61d78c91e326b46150\"}, \"created\": 1791044010.5519943}, \"decision\": {\"state\": \"pending\"}, \"revision\": 7}}}\n",
+      "stderr": "",
+      "original_json": {
+        "ok": true,
+        "data": {
+          "verification": {
+            "verification": {
+              "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+              "state": "passed",
+              "metrics": {
+                "pass_rate": 1.0
+              },
+              "details": {
+                "integrity": true,
+                "basis": "preserved_source_recomputed",
+                "checks": [
+                  {
+                    "case": "run_artifact",
+                    "exit_code": null,
+                    "passed": true,
+                    "reason": "run_artifact_recomputed"
+                  },
+                  {
+                    "case": 0,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 1,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 2,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 3,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 4,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 5,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 6,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  }
+                ],
+                "passed_cases": 8,
+                "reported_run_metrics_used": false,
+                "task_id": "F2",
+                "total_cases": 8,
+                "verifier_output": {
+                  "details": {
+                    "basis": "preserved_source_recomputed",
+                    "checks": [
+                      {
+                        "case": "run_artifact",
+                        "exit_code": null,
+                        "passed": true,
+                        "reason": "run_artifact_recomputed"
+                      },
+                      {
+                        "case": 0,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 1,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 2,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 3,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 4,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 5,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 6,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      }
+                    ],
+                    "passed_cases": 8,
+                    "reported_run_metrics_used": false,
+                    "task_id": "F2",
+                    "total_cases": 8
+                  },
+                  "metrics": {
+                    "pass_rate": 1.0
+                  }
+                },
+                "verifier_stdout_sha256": "f3ad15c81463de517acc5114ef07ef30ac38966b5d2aff61d78c91e326b46150",
+                "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+                "source": "fixed_local_verifier",
+                "missing_artifacts": [],
+                "missing_metrics": [],
+                "criteria_results": [
+                  {
+                    "metric": "pass_rate",
+                    "op": ">=",
+                    "threshold": 1.0,
+                    "actual": 1.0,
+                    "passed": true
+                  }
+                ],
+                "_input_sha256": "1b2b28cbe0e9823fc0a8a54e3be5a92ca9624736e8f9912bd98c87fe4d5a490f"
+              },
+              "created": 1791044010.5519943
+            },
+            "reused": false,
+            "revision": 7
+          },
+          "record": {
+            "registration": {
+              "id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+              "goal_id": "goal_897e0d7df14944e09050c2b737fd2768",
+              "hypothesis_id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+              "spec": {
+                "artifacts": [
+                  {
+                    "name": "result.json",
+                    "path": "result.json"
+                  },
+                  {
+                    "name": "invocations.jsonl",
+                    "path": "invocations.jsonl"
+                  },
+                  {
+                    "name": "solution.py",
+                    "path": "solution.py"
+                  },
+                  {
+                    "name": "input.csv",
+                    "path": "input.csv"
+                  }
+                ],
+                "change": "Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.",
+                "command": [
+                  "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+                  "task.py",
+                  "F2"
+                ],
+                "comparison": "Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.",
+                "conditions": {
+                  "duplicates": "all measurements contribute; one output per unique timestamp",
+                  "input_mutation": false,
+                  "left_boundary": "excluded",
+                  "libraries": "Python standard library only",
+                  "prior_memory": "off; initial query returned no items",
+                  "window_seconds": 3.0
+                },
+                "criteria": [
+                  {
+                    "metric": "pass_rate",
+                    "op": ">=",
+                    "threshold": 1.0
+                  }
+                ],
+                "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+                "data_split": "Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.",
+                "hypothesis_id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+                "metrics": [
+                  "pass_rate"
+                ],
+                "seed": 0,
+                "source_version": {
+                  "files": {
+                    "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                    "solution.py": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+                  },
+                  "label": "F2-C_OFF-candidate-1"
+                },
+                "task_id": "F2",
+                "validator": "csv-fixed-v1",
+                "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed"
+              },
+              "fingerprint": "f1820f20651d838cb7bf9681a43110a7718ac1c5abade81eaec718b65dcc44b9",
+              "created": 1791043990.346621
+            },
+            "hypothesis": {
+              "id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+              "goal_id": "goal_897e0d7df14944e09050c2b737fd2768",
+              "statement": "Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.",
+              "created": 1791043990.2774513
+            },
+            "run": {
+              "id": "run_895f02851dab4e5ea5f68af58878a4c7",
+              "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+              "state": "succeeded",
+              "receipt": {
+                "error": null,
+                "exit_code": 0,
+                "files": [
+                  {
+                    "name": "source:input.csv",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\input.csv",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\input.csv",
+                    "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2"
+                  },
+                  {
+                    "name": "source:solution.py",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\solution.py",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\solution.py",
+                    "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34"
+                  },
+                  {
+                    "name": "source:task.py",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\task.py",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\task.py",
+                    "sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+                  },
+                  {
+                    "name": "result.json",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\result.json",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\result.json",
+                    "sha256": "d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6"
+                  },
+                  {
+                    "name": "invocations.jsonl",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\invocations.jsonl",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\invocations.jsonl",
+                    "sha256": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9"
+                  },
+                  {
+                    "name": "solution.py",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\solution.py",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\solution.py",
+                    "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34"
+                  },
+                  {
+                    "name": "input.csv",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\input.csv",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\input.csv",
+                    "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2"
+                  },
+                  {
+                    "name": "stdout",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stdout.log",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stdout.log",
+                    "sha256": "71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78"
+                  },
+                  {
+                    "name": "stderr",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stderr.log",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stderr.log",
+                    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                  },
+                  {
+                    "name": "launch",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\launch.json",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\launch.json",
+                    "sha256": "10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2"
+                  },
+                  {
+                    "name": "process",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\process.json",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\process.json",
+                    "sha256": "d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482"
+                  }
+                ],
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "request_sha256": "f5e89fbe8e6c1a4868d44a404e9d744157801d9f1bde8d22779b0efc8293df27",
+                "resources": {
+                  "external_model_usage": "unknown",
+                  "external_tokens": "unknown",
+                  "wall_seconds": 0.06300000002374873
+                },
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "state": "succeeded"
+              },
+              "resources": {
+                "external_model_usage": "unknown",
+                "external_tokens": "unknown",
+                "tokens": {
+                  "status": "unknown",
+                  "value": null
+                },
+                "wall_seconds": 0.06300000002374873
+              },
+              "reason": null,
+              "created": 1791044001.197572,
+              "finished": 1791044001.3876252
+            },
+            "evidence": [
+              {
+                "id": "ev_19822ef72a7645d5985fc42af6554d9b",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "solution.py",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "size": 1331,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\solution.py",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_463a8e0808514cef83489d17536765ea",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "input.csv",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "size": 43,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\input.csv",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_6db276a6bc174cfc85eae5100704d059",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "stdout",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78",
+                "sha256": "71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78",
+                "size": 46,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stdout.log",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_78d99ba0272d49168a57d71130a11d65",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "source:input.csv",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "size": 43,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\input.csv",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_7f249f240c6649ddaa06e47e22a59f4c",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "launch",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2",
+                "sha256": "10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2",
+                "size": 336,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\launch.json",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_8b73c1924e024228b534f50e062f4e69",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "invocations.jsonl",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9",
+                "sha256": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9",
+                "size": 54,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\invocations.jsonl",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_9d0ade353e054ab78195a6486f7ed6d0",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "stderr",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "size": 0,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stderr.log",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_b40e680d6ada4b5295b5bd28b129855c",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "source:task.py",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+                "sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+                "size": 1464,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\task.py",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_b53d7a69c02042d8a6d21bd13886429e",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "result.json",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6",
+                "sha256": "d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6",
+                "size": 367,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\result.json",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_c26bcd8a211941cd96c8837e16b6059a",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "process",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482",
+                "sha256": "d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482",
+                "size": 55,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\process.json",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_fecc7dd2517d455db1ae28e5cc52cc60",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "source:solution.py",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "size": 1331,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\solution.py",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              }
+            ],
+            "verification": {
+              "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+              "state": "passed",
+              "metrics": {
+                "pass_rate": 1.0
+              },
+              "details": {
+                "_input_sha256": "1b2b28cbe0e9823fc0a8a54e3be5a92ca9624736e8f9912bd98c87fe4d5a490f",
+                "basis": "preserved_source_recomputed",
+                "checks": [
+                  {
+                    "case": "run_artifact",
+                    "exit_code": null,
+                    "passed": true,
+                    "reason": "run_artifact_recomputed"
+                  },
+                  {
+                    "case": 0,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 1,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 2,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 3,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 4,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 5,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 6,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  }
+                ],
+                "criteria_results": [
+                  {
+                    "actual": 1.0,
+                    "metric": "pass_rate",
+                    "op": ">=",
+                    "passed": true,
+                    "threshold": 1.0
+                  }
+                ],
+                "integrity": true,
+                "missing_artifacts": [],
+                "missing_metrics": [],
+                "passed_cases": 8,
+                "reported_run_metrics_used": false,
+                "source": "fixed_local_verifier",
+                "task_id": "F2",
+                "total_cases": 8,
+                "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+                "verifier_output": {
+                  "details": {
+                    "basis": "preserved_source_recomputed",
+                    "checks": [
+                      {
+                        "case": "run_artifact",
+                        "exit_code": null,
+                        "passed": true,
+                        "reason": "run_artifact_recomputed"
+                      },
+                      {
+                        "case": 0,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 1,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 2,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 3,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 4,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 5,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 6,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      }
+                    ],
+                    "passed_cases": 8,
+                    "reported_run_metrics_used": false,
+                    "task_id": "F2",
+                    "total_cases": 8
+                  },
+                  "metrics": {
+                    "pass_rate": 1.0
+                  }
+                },
+                "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "verifier_stdout_sha256": "f3ad15c81463de517acc5114ef07ef30ac38966b5d2aff61d78c91e326b46150"
+              },
+              "created": 1791044010.5519943
+            },
+            "decision": {
+              "state": "pending"
+            },
+            "revision": 7
+          }
+        }
+      }
+    },
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+        "decide",
+        "--registration",
+        "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+        "--decision",
+        "adopted",
+        "--reason",
+        "The owner-fixed csv-fixed-v1 verifier independently recomputed preserved source and confirmed integrity and 8/8 checks with pass_rate 1.0, meeting the preregistered threshold."
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"decision\": {\"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"state\": \"adopted\", \"reason\": \"The owner-fixed csv-fixed-v1 verifier independently recomputed preserved source and confirmed integrity and 8/8 checks with pass_rate 1.0, meeting the preregistered threshold.\", \"created\": 1791044030.0062199}, \"reused\": false, \"revision\": 8}}\n",
+      "stderr": "",
+      "original_json": {
+        "ok": true,
+        "data": {
+          "decision": {
+            "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+            "state": "adopted",
+            "reason": "The owner-fixed csv-fixed-v1 verifier independently recomputed preserved source and confirmed integrity and 8/8 checks with pass_rate 1.0, meeting the preregistered threshold.",
+            "created": 1791044030.0062199
+          },
+          "reused": false,
+          "revision": 8
+        }
+      }
+    },
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+        "memory",
+        "--query",
+        "F2",
+        "--limit",
+        "20"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"items\": [{\"id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"goal_id\": \"goal_897e0d7df14944e09050c2b737fd2768\", \"hypothesis\": \"Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.\", \"execution\": \"succeeded\", \"verification\": \"passed\", \"decision\": \"adopted\", \"outcome\": \"success\", \"reason\": \"The owner-fixed csv-fixed-v1 verifier independently recomputed preserved source and confirmed integrity and 8/8 checks with pass_rate 1.0, meeting the preregistered threshold.\", \"resources\": {\"external_model_usage\": \"unknown\", \"external_tokens\": \"unknown\", \"tokens\": {\"status\": \"unknown\", \"value\": null}, \"wall_seconds\": 0.06300000002374873}, \"evidence_count\": 11, \"summary\": \"Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.\", \"conditions\": {\"comparison\": \"Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.\", \"data_split\": \"Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.\", \"seed\": 0, \"source_version\": {\"files\": {\"input.csv\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"solution.py\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"task.py\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\"}, \"label\": \"F2-C_OFF-candidate-1\"}}, \"evidence_integrity\": \"valid\", \"claim_verified\": true}], \"total\": 1, \"limit\": 20, \"offset\": 0, \"revision\": 8}}\n",
+      "stderr": "",
+      "original_json": {
+        "ok": true,
+        "data": {
+          "items": [
+            {
+              "id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+              "goal_id": "goal_897e0d7df14944e09050c2b737fd2768",
+              "hypothesis": "Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.",
+              "execution": "succeeded",
+              "verification": "passed",
+              "decision": "adopted",
+              "outcome": "success",
+              "reason": "The owner-fixed csv-fixed-v1 verifier independently recomputed preserved source and confirmed integrity and 8/8 checks with pass_rate 1.0, meeting the preregistered threshold.",
+              "resources": {
+                "external_model_usage": "unknown",
+                "external_tokens": "unknown",
+                "tokens": {
+                  "status": "unknown",
+                  "value": null
+                },
+                "wall_seconds": 0.06300000002374873
+              },
+              "evidence_count": 11,
+              "summary": "Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.",
+              "conditions": {
+                "comparison": "Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.",
+                "data_split": "Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.",
+                "seed": 0,
+                "source_version": {
+                  "files": {
+                    "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                    "solution.py": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+                  },
+                  "label": "F2-C_OFF-candidate-1"
+                }
+              },
+              "evidence_integrity": "valid",
+              "claim_verified": true
+            }
+          ],
+          "total": 1,
+          "limit": 20,
+          "offset": 0,
+          "revision": 8
+        }
+      }
+    },
+    {
+      "logical_request": "repeat-completed-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+        "run",
+        "--registration",
+        "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+        "--request-key",
+        "F2-C_OFF-run-1"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"started\": false, \"record\": {\"registration\": {\"id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"goal_id\": \"goal_897e0d7df14944e09050c2b737fd2768\", \"hypothesis_id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"spec\": {\"artifacts\": [{\"name\": \"result.json\", \"path\": \"result.json\"}, {\"name\": \"invocations.jsonl\", \"path\": \"invocations.jsonl\"}, {\"name\": \"solution.py\", \"path\": \"solution.py\"}, {\"name\": \"input.csv\", \"path\": \"input.csv\"}], \"change\": \"Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.\", \"command\": [\"C:\\\\Users\\\\Potato\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe\", \"task.py\", \"F2\"], \"comparison\": \"Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.\", \"conditions\": {\"duplicates\": \"all measurements contribute; one output per unique timestamp\", \"input_mutation\": false, \"left_boundary\": \"excluded\", \"libraries\": \"Python standard library only\", \"prior_memory\": \"off; initial query returned no items\", \"window_seconds\": 3.0}, \"criteria\": [{\"metric\": \"pass_rate\", \"op\": \">=\", \"threshold\": 1.0}], \"cwd\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\", \"data_split\": \"Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.\", \"hypothesis_id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"metrics\": [\"pass_rate\"], \"seed\": 0, \"source_version\": {\"files\": {\"input.csv\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"solution.py\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"task.py\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\"}, \"label\": \"F2-C_OFF-candidate-1\"}, \"task_id\": \"F2\", \"validator\": \"csv-fixed-v1\", \"validator_sha256\": \"ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed\"}, \"fingerprint\": \"f1820f20651d838cb7bf9681a43110a7718ac1c5abade81eaec718b65dcc44b9\", \"created\": 1791043990.346621}, \"hypothesis\": {\"id\": \"hyp_94ef0c7a1a7e4fd6b7caf08981069891\", \"goal_id\": \"goal_897e0d7df14944e09050c2b737fd2768\", \"statement\": \"Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.\", \"created\": 1791043990.2774513}, \"run\": {\"id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"state\": \"succeeded\", \"receipt\": {\"error\": null, \"exit_code\": 0, \"files\": [{\"name\": \"source:input.csv\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\input.csv\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\input.csv\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\"}, {\"name\": \"source:solution.py\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\solution.py\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\solution.py\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\"}, {\"name\": \"source:task.py\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\task.py\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\task.py\", \"sha256\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\"}, {\"name\": \"result.json\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\result.json\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\result.json\", \"sha256\": \"d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6\"}, {\"name\": \"invocations.jsonl\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\invocations.jsonl\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\invocations.jsonl\", \"sha256\": \"d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9\"}, {\"name\": \"solution.py\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\solution.py\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\solution.py\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\"}, {\"name\": \"input.csv\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\input.csv\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\artifacts\\\\input.csv\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\"}, {\"name\": \"stdout\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stdout.log\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stdout.log\", \"sha256\": \"71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78\"}, {\"name\": \"stderr\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stderr.log\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stderr.log\", \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"}, {\"name\": \"launch\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\launch.json\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\launch.json\", \"sha256\": \"10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2\"}, {\"name\": \"process\", \"origin_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\process.json\", \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\process.json\", \"sha256\": \"d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482\"}], \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"request_sha256\": \"f5e89fbe8e6c1a4868d44a404e9d744157801d9f1bde8d22779b0efc8293df27\", \"resources\": {\"external_model_usage\": \"unknown\", \"external_tokens\": \"unknown\", \"wall_seconds\": 0.06300000002374873}, \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"state\": \"succeeded\"}, \"resources\": {\"external_model_usage\": \"unknown\", \"external_tokens\": \"unknown\", \"tokens\": {\"status\": \"unknown\", \"value\": null}, \"wall_seconds\": 0.06300000002374873}, \"reason\": null, \"created\": 1791044001.197572, \"finished\": 1791044001.3876252}, \"evidence\": [{\"id\": \"ev_19822ef72a7645d5985fc42af6554d9b\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"solution.py\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"size\": 1331, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\solution.py\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_463a8e0808514cef83489d17536765ea\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"input.csv\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"size\": 43, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\input.csv\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_6db276a6bc174cfc85eae5100704d059\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"stdout\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78\", \"sha256\": \"71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78\", \"size\": 46, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stdout.log\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_78d99ba0272d49168a57d71130a11d65\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"source:input.csv\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"sha256\": \"8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2\", \"size\": 43, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\input.csv\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_7f249f240c6649ddaa06e47e22a59f4c\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"launch\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2\", \"sha256\": \"10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2\", \"size\": 336, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\launch.json\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_8b73c1924e024228b534f50e062f4e69\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"invocations.jsonl\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9\", \"sha256\": \"d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9\", \"size\": 54, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\invocations.jsonl\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_9d0ade353e054ab78195a6486f7ed6d0\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"stderr\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"size\": 0, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\stderr.log\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_b40e680d6ada4b5295b5bd28b129855c\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"source:task.py\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\", \"sha256\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\", \"size\": 1464, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\task.py\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_b53d7a69c02042d8a6d21bd13886429e\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"result.json\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6\", \"sha256\": \"d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6\", \"size\": 367, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\work\\\\result.json\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_c26bcd8a211941cd96c8837e16b6059a\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"process\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482\", \"sha256\": \"d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482\", \"size\": 55, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\research\\\\.research\\\\runs\\\\run_895f02851dab4e5ea5f68af58878a4c7\\\\process.json\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}, {\"id\": \"ev_fecc7dd2517d455db1ae28e5cc52cc60\", \"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"name\": \"source:solution.py\", \"kind\": \"measured\", \"claim\": \"Local runner file; verification remains separate\", \"path\": \".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"sha256\": \"a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34\", \"size\": 1331, \"original_path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\solution.py\", \"created\": 1791044001.3876252, \"integrity\": \"valid\", \"verified\": true}], \"verification\": {\"run_id\": \"run_895f02851dab4e5ea5f68af58878a4c7\", \"state\": \"passed\", \"metrics\": {\"pass_rate\": 1.0}, \"details\": {\"_input_sha256\": \"1b2b28cbe0e9823fc0a8a54e3be5a92ca9624736e8f9912bd98c87fe4d5a490f\", \"basis\": \"preserved_source_recomputed\", \"checks\": [{\"case\": \"run_artifact\", \"exit_code\": null, \"passed\": true, \"reason\": \"run_artifact_recomputed\"}, {\"case\": 0, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 1, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 2, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 3, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 4, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 5, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 6, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}], \"criteria_results\": [{\"actual\": 1.0, \"metric\": \"pass_rate\", \"op\": \">=\", \"passed\": true, \"threshold\": 1.0}], \"integrity\": true, \"missing_artifacts\": [], \"missing_metrics\": [], \"passed_cases\": 8, \"reported_run_metrics_used\": false, \"source\": \"fixed_local_verifier\", \"task_id\": \"F2\", \"total_cases\": 8, \"validator_sha256\": \"ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed\", \"verifier_output\": {\"details\": {\"basis\": \"preserved_source_recomputed\", \"checks\": [{\"case\": \"run_artifact\", \"exit_code\": null, \"passed\": true, \"reason\": \"run_artifact_recomputed\"}, {\"case\": 0, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 1, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 2, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 3, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 4, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 5, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 6, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}], \"passed_cases\": 8, \"reported_run_metrics_used\": false, \"task_id\": \"F2\", \"total_cases\": 8}, \"metrics\": {\"pass_rate\": 1.0}}, \"verifier_stderr_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"verifier_stdout_sha256\": \"f3ad15c81463de517acc5114ef07ef30ac38966b5d2aff61d78c91e326b46150\"}, \"created\": 1791044010.5519943}, \"decision\": {\"registration_id\": \"reg_1501d2daa11c4d358ae4ff3d35d0f536\", \"state\": \"adopted\", \"reason\": \"The owner-fixed csv-fixed-v1 verifier independently recomputed preserved source and confirmed integrity and 8/8 checks with pass_rate 1.0, meeting the preregistered threshold.\", \"created\": 1791044030.0062199}, \"revision\": 8}, \"resume\": \"Use recover for running/unknown; completed executions are reused.\"}}\n",
+      "stderr": "",
+      "original_json": {
+        "ok": true,
+        "data": {
+          "started": false,
+          "record": {
+            "registration": {
+              "id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+              "goal_id": "goal_897e0d7df14944e09050c2b737fd2768",
+              "hypothesis_id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+              "spec": {
+                "artifacts": [
+                  {
+                    "name": "result.json",
+                    "path": "result.json"
+                  },
+                  {
+                    "name": "invocations.jsonl",
+                    "path": "invocations.jsonl"
+                  },
+                  {
+                    "name": "solution.py",
+                    "path": "solution.py"
+                  },
+                  {
+                    "name": "input.csv",
+                    "path": "input.csv"
+                  }
+                ],
+                "change": "Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.",
+                "command": [
+                  "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+                  "task.py",
+                  "F2"
+                ],
+                "comparison": "Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.",
+                "conditions": {
+                  "duplicates": "all measurements contribute; one output per unique timestamp",
+                  "input_mutation": false,
+                  "left_boundary": "excluded",
+                  "libraries": "Python standard library only",
+                  "prior_memory": "off; initial query returned no items",
+                  "window_seconds": 3.0
+                },
+                "criteria": [
+                  {
+                    "metric": "pass_rate",
+                    "op": ">=",
+                    "threshold": 1.0
+                  }
+                ],
+                "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+                "data_split": "Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.",
+                "hypothesis_id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+                "metrics": [
+                  "pass_rate"
+                ],
+                "seed": 0,
+                "source_version": {
+                  "files": {
+                    "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                    "solution.py": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+                  },
+                  "label": "F2-C_OFF-candidate-1"
+                },
+                "task_id": "F2",
+                "validator": "csv-fixed-v1",
+                "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed"
+              },
+              "fingerprint": "f1820f20651d838cb7bf9681a43110a7718ac1c5abade81eaec718b65dcc44b9",
+              "created": 1791043990.346621
+            },
+            "hypothesis": {
+              "id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+              "goal_id": "goal_897e0d7df14944e09050c2b737fd2768",
+              "statement": "Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.",
+              "created": 1791043990.2774513
+            },
+            "run": {
+              "id": "run_895f02851dab4e5ea5f68af58878a4c7",
+              "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+              "state": "succeeded",
+              "receipt": {
+                "error": null,
+                "exit_code": 0,
+                "files": [
+                  {
+                    "name": "source:input.csv",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\input.csv",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\input.csv",
+                    "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2"
+                  },
+                  {
+                    "name": "source:solution.py",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\solution.py",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\solution.py",
+                    "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34"
+                  },
+                  {
+                    "name": "source:task.py",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\task.py",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\task.py",
+                    "sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+                  },
+                  {
+                    "name": "result.json",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\result.json",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\result.json",
+                    "sha256": "d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6"
+                  },
+                  {
+                    "name": "invocations.jsonl",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\invocations.jsonl",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\invocations.jsonl",
+                    "sha256": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9"
+                  },
+                  {
+                    "name": "solution.py",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\solution.py",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\solution.py",
+                    "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34"
+                  },
+                  {
+                    "name": "input.csv",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\input.csv",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\input.csv",
+                    "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2"
+                  },
+                  {
+                    "name": "stdout",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stdout.log",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stdout.log",
+                    "sha256": "71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78"
+                  },
+                  {
+                    "name": "stderr",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stderr.log",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stderr.log",
+                    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                  },
+                  {
+                    "name": "launch",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\launch.json",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\launch.json",
+                    "sha256": "10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2"
+                  },
+                  {
+                    "name": "process",
+                    "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\process.json",
+                    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\process.json",
+                    "sha256": "d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482"
+                  }
+                ],
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "request_sha256": "f5e89fbe8e6c1a4868d44a404e9d744157801d9f1bde8d22779b0efc8293df27",
+                "resources": {
+                  "external_model_usage": "unknown",
+                  "external_tokens": "unknown",
+                  "wall_seconds": 0.06300000002374873
+                },
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "state": "succeeded"
+              },
+              "resources": {
+                "external_model_usage": "unknown",
+                "external_tokens": "unknown",
+                "tokens": {
+                  "status": "unknown",
+                  "value": null
+                },
+                "wall_seconds": 0.06300000002374873
+              },
+              "reason": null,
+              "created": 1791044001.197572,
+              "finished": 1791044001.3876252
+            },
+            "evidence": [
+              {
+                "id": "ev_19822ef72a7645d5985fc42af6554d9b",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "solution.py",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "size": 1331,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\solution.py",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_463a8e0808514cef83489d17536765ea",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "input.csv",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "size": 43,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\input.csv",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_6db276a6bc174cfc85eae5100704d059",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "stdout",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78",
+                "sha256": "71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78",
+                "size": 46,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stdout.log",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_78d99ba0272d49168a57d71130a11d65",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "source:input.csv",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+                "size": 43,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\input.csv",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_7f249f240c6649ddaa06e47e22a59f4c",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "launch",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2",
+                "sha256": "10a4489e97eafbc847f604940abb42f187baf9d41067c00cc0c172692d26f3b2",
+                "size": 336,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\launch.json",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_8b73c1924e024228b534f50e062f4e69",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "invocations.jsonl",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9",
+                "sha256": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9",
+                "size": 54,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\invocations.jsonl",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_9d0ade353e054ab78195a6486f7ed6d0",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "stderr",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "size": 0,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stderr.log",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_b40e680d6ada4b5295b5bd28b129855c",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "source:task.py",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+                "sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+                "size": 1464,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\task.py",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_b53d7a69c02042d8a6d21bd13886429e",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "result.json",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6",
+                "sha256": "d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6",
+                "size": 367,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\result.json",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_c26bcd8a211941cd96c8837e16b6059a",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "process",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482",
+                "sha256": "d62f236f55890f2d83acf6fe72d9de5e24bdf2cb38afd704aae6702557f9a482",
+                "size": 55,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\process.json",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              },
+              {
+                "id": "ev_fecc7dd2517d455db1ae28e5cc52cc60",
+                "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+                "name": "source:solution.py",
+                "kind": "measured",
+                "claim": "Local runner file; verification remains separate",
+                "path": ".research/evidence/a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+                "size": 1331,
+                "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\solution.py",
+                "created": 1791044001.3876252,
+                "integrity": "valid",
+                "verified": true
+              }
+            ],
+            "verification": {
+              "run_id": "run_895f02851dab4e5ea5f68af58878a4c7",
+              "state": "passed",
+              "metrics": {
+                "pass_rate": 1.0
+              },
+              "details": {
+                "_input_sha256": "1b2b28cbe0e9823fc0a8a54e3be5a92ca9624736e8f9912bd98c87fe4d5a490f",
+                "basis": "preserved_source_recomputed",
+                "checks": [
+                  {
+                    "case": "run_artifact",
+                    "exit_code": null,
+                    "passed": true,
+                    "reason": "run_artifact_recomputed"
+                  },
+                  {
+                    "case": 0,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 1,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 2,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 3,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 4,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 5,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 6,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  }
+                ],
+                "criteria_results": [
+                  {
+                    "actual": 1.0,
+                    "metric": "pass_rate",
+                    "op": ">=",
+                    "passed": true,
+                    "threshold": 1.0
+                  }
+                ],
+                "integrity": true,
+                "missing_artifacts": [],
+                "missing_metrics": [],
+                "passed_cases": 8,
+                "reported_run_metrics_used": false,
+                "source": "fixed_local_verifier",
+                "task_id": "F2",
+                "total_cases": 8,
+                "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+                "verifier_output": {
+                  "details": {
+                    "basis": "preserved_source_recomputed",
+                    "checks": [
+                      {
+                        "case": "run_artifact",
+                        "exit_code": null,
+                        "passed": true,
+                        "reason": "run_artifact_recomputed"
+                      },
+                      {
+                        "case": 0,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 1,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 2,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 3,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 4,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 5,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      },
+                      {
+                        "case": 6,
+                        "exit_code": 0,
+                        "passed": true,
+                        "reason": "matched"
+                      }
+                    ],
+                    "passed_cases": 8,
+                    "reported_run_metrics_used": false,
+                    "task_id": "F2",
+                    "total_cases": 8
+                  },
+                  "metrics": {
+                    "pass_rate": 1.0
+                  }
+                },
+                "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "verifier_stdout_sha256": "f3ad15c81463de517acc5114ef07ef30ac38966b5d2aff61d78c91e326b46150"
+              },
+              "created": 1791044010.5519943
+            },
+            "decision": {
+              "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+              "state": "adopted",
+              "reason": "The owner-fixed csv-fixed-v1 verifier independently recomputed preserved source and confirmed integrity and 8/8 checks with pass_rate 1.0, meeting the preregistered threshold.",
+              "created": 1791044030.0062199
+            },
+            "revision": 8
+          },
+          "resume": "Use recover for running/unknown; completed executions are reused."
+        }
+      }
+    },
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+        "--root",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+        "--task",
+        "F2",
+        "--output",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-1.json"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"ok\": false, \"error\": \"Traceback (most recent call last):\\n  File \\\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\fixed_validator.py\\\", line 246, in <module>\\n    print(json.dumps(validate(sys.argv[1]), sort_keys=True, allow_nan=False))\\n                     ^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\fixed_validator.py\\\", line 215, in validate\\n    run_result = json.loads(Path(artifacts[\\\"result.json\\\"]).read_text(encoding=\\\"utf-8\\\"))\\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"C:\\\\Users\\\\Potato\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\Lib\\\\pathlib.py\\\", line 1027, in read_text\\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\n  File \\\"C:\\\\Users\\\\Potato\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\Lib\\\\pathlib.py\\\", line 1013, in open\\n    return io.open(self, mode, buffering, encoding, errors, newline)\\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\\\\\Users\\\\\\\\Potato\\\\\\\\Documents\\\\\\\\ChatGPT\\\\\\\\Research Agent\\\\\\\\EvidenceResearch\\\\\\\\evaluation\\\\\\\\results\\\\\\\\F2\\\\\\\\C_OFF\\\\\\\\result.json'\\n\", \"metrics\": {}, \"status\": \"inconclusive\"}\n",
+      "stderr": "",
+      "original_json": {
+        "ok": false,
+        "error": "Traceback (most recent call last):\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\fixed_validator.py\", line 246, in <module>\n    print(json.dumps(validate(sys.argv[1]), sort_keys=True, allow_nan=False))\n                     ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\fixed_validator.py\", line 215, in validate\n    run_result = json.loads(Path(artifacts[\"result.json\"]).read_text(encoding=\"utf-8\"))\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\result.json'\n",
+        "metrics": {},
+        "status": "inconclusive"
+      }
+    },
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+        "--root",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+        "--task",
+        "F2",
+        "--output",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-2.json"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": null,
+      "stdout": null,
+      "stderr": null,
+      "original_json": {
+        "details": {
+          "basis": "preserved_source_recomputed",
+          "checks": [
+            {
+              "case": "run_artifact",
+              "exit_code": null,
+              "passed": true,
+              "reason": "run_artifact_recomputed"
+            },
+            {
+              "case": 0,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 1,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 2,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 3,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 4,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 5,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 6,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            }
+          ],
+          "passed_cases": 8,
+          "reported_run_metrics_used": false,
+          "task_id": "F2",
+          "total_cases": 8
+        },
+        "metrics": {
+          "pass_rate": 1.0
+        }
+      },
+      "raw_json_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-2.json",
+      "capture_limitation": "Checker completed and produced this raw JSON, but evidence-recording wrapper raised KeyError: ok before transcript persistence. Subprocess exit code and captured streams were not preserved."
+    },
+    {
+      "logical_request": "solve-F2",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+        "--root",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+        "--task",
+        "F2",
+        "--output",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-3.json"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+      "returncode": 0,
+      "stdout": "{\"details\": {\"basis\": \"preserved_source_recomputed\", \"checks\": [{\"case\": \"run_artifact\", \"exit_code\": null, \"passed\": true, \"reason\": \"run_artifact_recomputed\"}, {\"case\": 0, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 1, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 2, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 3, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 4, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 5, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 6, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}], \"passed_cases\": 8, \"reported_run_metrics_used\": false, \"task_id\": \"F2\", \"total_cases\": 8}, \"metrics\": {\"pass_rate\": 1.0}}\n",
+      "stderr": "",
+      "original_json": {
+        "details": {
+          "basis": "preserved_source_recomputed",
+          "checks": [
+            {
+              "case": "run_artifact",
+              "exit_code": null,
+              "passed": true,
+              "reason": "run_artifact_recomputed"
+            },
+            {
+              "case": 0,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 1,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 2,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 3,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 4,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 5,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            },
+            {
+              "case": 6,
+              "exit_code": 0,
+              "passed": true,
+              "reason": "matched"
+            }
+          ],
+          "passed_cases": 8,
+          "reported_run_metrics_used": false,
+          "task_id": "F2",
+          "total_cases": 8
+        },
+        "metrics": {
+          "pass_rate": 1.0
+        }
+      }
+    }
+  ],
+  "failures": [
+    {
+      "stage": "common-checker",
+      "command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+        "--root",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+        "--task",
+        "F2",
+        "--output",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-1.json"
+      ],
+      "returncode": 0,
+      "original_json": {
+        "ok": false,
+        "error": "Traceback (most recent call last):\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\fixed_validator.py\", line 246, in <module>\n    print(json.dumps(validate(sys.argv[1]), sort_keys=True, allow_nan=False))\n                     ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\fixed_validator.py\", line 215, in validate\n    run_result = json.loads(Path(artifacts[\"result.json\"]).read_text(encoding=\"utf-8\"))\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\result.json'\n",
+        "metrics": {},
+        "status": "inconclusive"
+      },
+      "classification": "missing episode/result.json; CLI artifact exists in preserved run"
+    },
+    {
+      "stage": "evidence-recording",
+      "error": "KeyError: ok",
+      "actual_command": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+        "--root",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+        "--task",
+        "F2",
+        "--output",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-2.json"
+      ],
+      "reason": "Success JSON contains metrics/details but no ok key; wrapper incorrectly required ok.",
+      "scientific_result_affected": false
+    }
+  ],
+  "recoveries": [
+    {
+      "stage": "common-checker",
+      "error_evidence": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-1.json",
+      "action": "Materialized the recorded actual CLI result.json and invocations.jsonl into episode root; called the fixed checker with new output paths.",
+      "recovery_evidence": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-2.json",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-3.json"
+      ],
+      "new_task_execution": false,
+      "pass_rate": 1.0
+    },
+    {
+      "stage": "evidence-recording",
+      "action": "Validated documented success payload by metrics and details, and preserved the original JSON and streams from a new fixed checker call.",
+      "evidence": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-3.json",
+      "new_task_execution": false
+    }
+  ],
+  "goal_id": "goal_897e0d7df14944e09050c2b737fd2768",
+  "hypothesis_id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+  "hypothesis": "Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.",
+  "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+  "expected_hashes": {
+    "solution.py": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+    "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+  },
+  "deployment": {
+    "registration_preceded_deployment": true,
+    "registered_sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+    "deployed_sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34"
+  },
+  "duplicate_check": {
+    "started": false,
+    "run_id_before": "run_895f02851dab4e5ea5f68af58878a4c7",
+    "run_id_after": "run_895f02851dab4e5ea5f68af58878a4c7",
+    "invocation_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\invocations.jsonl",
+    "invocations_before": 1,
+    "invocations_after": 1,
+    "invocations_added": 0,
+    "sha256_before": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9",
+    "sha256_after": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9"
+  },
+  "artifact_materialization": [
+    {
+      "name": "result.json",
+      "source": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\result.json",
+      "destination": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\result.json",
+      "sha256": "d0f50a31c0c74262f4d01708d96e110f8b1028d205d01d33aa72234efc8d2ef6",
+      "action": "copy actual recorded CLI output without launching another task"
+    },
+    {
+      "name": "invocations.jsonl",
+      "source": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\invocations.jsonl",
+      "destination": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\invocations.jsonl",
+      "sha256": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9",
+      "action": "copy actual recorded CLI output without launching another task"
+    }
+  ],
+  "external_tokens": {
+    "status": "unknown",
+    "value": null
+  },
+  "unsupported_claims": [],
+  "completed": true
+}

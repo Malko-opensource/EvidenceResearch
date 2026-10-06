@@ -1,0 +1,11 @@
+{
+  "action": "place preregistered candidate bytes",
+  "completed_at": "2026-10-03T16:26:23.859970+00:00",
+  "registration_id": "reg_8d5f6ae9a92443d2abd148aa8338efe1",
+  "candidate_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\candidate-draft.py",
+  "solution_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\solution.py",
+  "initial_solution_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\initial-solution.py",
+  "expected_sha256": "e35dfbb29e2c618272a1155aaeaca896e21dbd848739231b76b0557c2e16a44c",
+  "actual_sha256": "e35dfbb29e2c618272a1155aaeaca896e21dbd848739231b76b0557c2e16a44c",
+  "matching": true
+}

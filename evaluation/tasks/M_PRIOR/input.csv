@@ -1,0 +1,6 @@
+event_id,group,timestamp,value
+seed_x,calibration,100,6
+seed_x,calibration,101,14
+seed_y,calibration,101,22
+seed_z,control,100,-6
+seed_y,calibration,101,22

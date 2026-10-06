@@ -1,0 +1,175 @@
+{
+  "at": "2026-10-04T12:12:10.040684+00:00",
+  "version": "0.8.0",
+  "files": {
+    "research_cli/cli.py": "d9e910b821b1cd45929ad0e417ba0a01b8846b8c18fa1680491156bb3b6e349d",
+    "research_cli/core.py": "f46b7bc03fb1cae62d6d66d8c146e4e173212fbf840d44ed666276e46538507b",
+    "research_cli/laya.py": "957f96a76accef10901a3967e29b56388b0d73cd3bd8a0d68a3533aef67401c3",
+    "research_cli/mcp_bridge.py": "10c757136f8fe67563e9f5c3c172439e165f3c60c05c99744cd142eedc2cf3db",
+    "research_cli/mcp_server.py": "1bf59e9d0ceab23fe6e41a81b62a63f247938e89450400b2eca6d50da4da45e9",
+    "research_cli/runner.py": "d659244c2ec85562556d79081ba9e84dc4c9f65cfad51d425dfdc4f13f36e94b",
+    "research_cli/transfer.py": "b20cdbd5a150197fb1b7ccd42d3b5531c5aec8808ad6f2920822855ed6575ed7",
+    "research_cli/web_server.py": "a8b4582a9b4525a4ecf6ff3293e9872e3256b102e1b447299a53e7f9a8ed4d05",
+    "research_cli/web_tools.py": "9806e0f2cc3fa387dd5ee326d163debb30ce72ef502f6bf36941cfad258f5877",
+    "research_cli/worker.py": "49041f8606ccf8b6f6d15016ca26e801a6daa074ee32a9f448a642d1b0d58953",
+    "research_cli/__init__.py": "fedddfb5da2f2d8683e72dfe127f9f789e9b9d805c7c67e16db551ac478b7da7",
+    "research_cli/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "research_cli/web/app.js": "b8934796385c91cf9365e42ae1bc4404beec0c5e82cd1b557c98d65c785a71a8",
+    "research_cli/web/index.html": "7ef2e5b08d76d1a6e4ed6f8b078321322af13c021281aba5991c9e1bf12613a8",
+    "research_cli/web/styles.css": "5b50e4068723e4fa944083bc0e97cb4de522704602ce44308bd80a023f39f17c",
+    "research_cli/web/view_model.js": "a3a66143f22f26f3a5449962d1c374b56d7f8f5b5910650f4c37c7bbbefceb69",
+    "tests/test_cli_output.py": "72ff9b68714e68a702e7c7e20cd463e603b30a25efd58769920af89102b05e0d",
+    "tests/test_contract.py": "80d61fce43a298d409ced51f62cd0919762ee3372a8cd3a299ec5304dcda01b6",
+    "tests/test_evaluation.py": "c18932d5aca18d978a00138887544ef26855c58cc14095ddadd7dc511706e338",
+    "tests/test_goals.py": "8f8a44989715575642213b7b4ed77d8f955ab5490a7027419aef2953f3dbe369",
+    "tests/test_laya.py": "5b751a29b409ec387b4662d8cf48a29e5ab7dd2e9522adedb658a74be16d2283",
+    "tests/test_mcp.py": "6e8d4b8d996fd7a87d4cc83b31cc5d1a79f8cc9f3e00c1c21a2bbaf654eeb912",
+    "tests/test_view_model.mjs": "e9fd7b8e26381d5f70bd619bf671d3d2d3742bafeff789199ab36f6af259618e",
+    "tests/test_web.py": "7e2120a0bdfdf07ef17ba65d8fa23e45022c14a2e9a2b2fdf62eac7f3bd08b16",
+    "AGENT-WEB.ko.md": "0fd2ae55c79a5df1f387dedc9083428b7df7642a1914846cfc4fee969e2d232b",
+    "CORE-GOALS.ko.md": "5ff4dfa92f63ad3e68229682f2bd761bca7bdcadfa99de831ba18c098e4bbb24",
+    "DESIGN.ko.md": "ec3444e8b7d8d3f06cd556a417130bcff0a070fe584abaaf34f85e039cb56fc2",
+    "GOAL.ko.md": "0d0f5f3fe345a309835f7a4ed694807c04e2a35ddd48b2100bc732cfd0f22337",
+    "HANDOFF.ko.md": "523f88f5d9dc2a960658056c712e6f5f6fea97e9d9bf27a7cd5dd2f27aaa6d7c",
+    "HANDOFF.md": "a1d38ea90b0db6eb8242851adbbf5a766571fb8c1c97f91bce6d662af7ea57e2",
+    "IMPLEMENTATION-0.8.ko.md": "d7206d9ebd575ded3f717db44ec42d099deb868a96fd6007076fd244758ad08e",
+    "LAYA.ko.md": "8a514d11fdcba3768f26bf02f66f23e5650d60c0379f5fe8f257b7a675c064da",
+    "MCP.ko.md": "e4e5e923762b682eb996723b7dd1f752ef2ae2962d895976288d80ed02578132",
+    "PLUGIN-DESIGN.ko.md": "e646c44210fcbf0c2f5f60b78cc851ad17fa54e223131ca547d76c00b222a673",
+    "PLUGIN.ko.md": "cd805a7e41d42de0a021e605367543f1b892c6248c7d5067a8aeaefec2ee5bbb",
+    "PRODUCT-DESIGN.ko.md": "0a0ae4a16aeea8e03ce2d860da0757457965f4d51b337fc6d377746f15f9a74a",
+    "PRODUCT-PLAN-0.8.ko.md": "dbd74da72653799cda7af1d805a6fc2ab720b70b72adcd356aba89842c46c029",
+    "PRODUCT-VALIDATION.ko.md": "799a09d0477a69df6e8fbd153864a7eafb0fa864710b46de3c513498054aabd4",
+    "README.md": "207dcb99ef66d50192bfb22e58f9b4b3cf88e9e6512692d2fe84f730aedabf53",
+    "RELEASE-0.8.ko.md": "4daee3294c066dfa0f4bc070d5814cd46ce869982bab05015a71dd5a7d213300",
+    "REPORT.ko.md": "c30b333537bc5c21c25b57ae94e2331348814cdec5bdf50506fdd1db95610710",
+    "VALIDATION-0.8.ko.md": "6a56fd18f923bdb5d0132065e91e5c42a570af55111d5dc33a537a61baa5d83b",
+    "WEB.ko.md": "9bdc3174efc34deb2c2c2060992f07b5829044383ac9b748fe81c0b6f2aa981c",
+    "pyproject.toml": "30e030fd65f6ff0c3ca54318c9dd42fca5f508e9bab6fba04c8f2abd29152ee0",
+    "plugin/skills/research-goal/SKILL.md": "95b3cfe117424a4cdb10890934234d6a2755117b70eccbf852c07cc861c37663",
+    "plugin/skills/research-goal/references/channel-contract.ko.md": "3e46d71b5dfe65b2bb38ae50e8a7547ac21b3d56ed82ca93f9e068ceb2916905",
+    "plugin/skills/research-goal/references/goal-template.ko.md": "b963ddcdd5be8b8c1430219b8b0badf13afeaaaa55468312eaa524475a72d744",
+    "plugin/scripts/configure.py": "32d67185db19a05b9ddd580f6d5d0ae939f097b33a54de67793f82a52159d6d3",
+    "plugin/scripts/verify_host.py": "1ab66ff1e3ae27fed3b64416f09263dd287a00e63c4fbbb377be334508e80c81",
+    "plugin/.mcp.json": "d8e397af03b5b032f21d0aa967086f0c78b33c87b76f2e9898ae0a144df7de02",
+    "plugin/plugin.json": "228b3b4d6a47e72e255c56dc24030ac721b4729ad0388672dd2c599a269dfb79"
+  },
+  "installed_matches": {
+    ".mcp-venv": {
+      "cli.py": true,
+      "core.py": true,
+      "laya.py": true,
+      "mcp_bridge.py": true,
+      "mcp_server.py": true,
+      "runner.py": true,
+      "transfer.py": true,
+      "web_server.py": true,
+      "web_tools.py": true,
+      "worker.py": true,
+      "__init__.py": true,
+      "__main__.py": true,
+      "web/app.js": true,
+      "web/index.html": true,
+      "web/styles.css": true,
+      "web/view_model.js": true
+    },
+    ".validation-venv": {
+      "cli.py": true,
+      "core.py": true,
+      "laya.py": true,
+      "mcp_bridge.py": true,
+      "mcp_server.py": true,
+      "runner.py": true,
+      "transfer.py": true,
+      "web_server.py": true,
+      "web_tools.py": true,
+      "worker.py": true,
+      "__init__.py": true,
+      "__main__.py": true,
+      "web/app.js": true,
+      "web/index.html": true,
+      "web/styles.css": true,
+      "web/view_model.js": true
+    }
+  },
+  "wheel": {
+    "file": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\wheels\\research_state_cli-0.8.0-py3-none-any.whl",
+    "sha256": "676bc8255e815e2a72ecd705d657151448b7159afdd81b6fa861c58777ae4ecd",
+    "bytes": 93185,
+    "core_runtime_dependencies": []
+  },
+  "plugin": {
+    "file": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\dist\\research-observatory-0.8.0-release\\research-observatory.zip",
+    "sha256": "983ce4687a9ece89438319472cf29597c128634334a78ffd0d0ba02f0a00f270",
+    "bytes": 17478,
+    "actual_host": "codex-cli 0.160.0",
+    "skill_discovered": true,
+    "mcp_tools": 23,
+    "global_profile_modified": false
+  },
+  "tests": {
+    "python": {
+      "ok": true,
+      "returncode": 0,
+      "command": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "count": 65,
+      "elapsed_seconds": 44.45299999997951
+    },
+    "model": {
+      "ok": true,
+      "returncode": 0,
+      "command": [
+        "C:\\Program Files\\nodejs\\node.exe",
+        "--test",
+        "tests/test_view_model.mjs"
+      ],
+      "count": 56,
+      "elapsed_seconds": 0.15600000007543713
+    }
+  },
+  "actual_browser_assets": {
+    "app.js": {
+      "sha256": "b8934796385c91cf9365e42ae1bc4404beec0c5e82cd1b557c98d65c785a71a8",
+      "bytes": 60415
+    },
+    "index.html": {
+      "sha256": "7ef2e5b08d76d1a6e4ed6f8b078321322af13c021281aba5991c9e1bf12613a8",
+      "bytes": 3359
+    },
+    "styles.css": {
+      "sha256": "5b50e4068723e4fa944083bc0e97cb4de522704602ce44308bd80a023f39f17c",
+      "bytes": 27209
+    },
+    "view_model.js": {
+      "sha256": "a3a66143f22f26f3a5449962d1c374b56d7f8f5b5910650f4c37c7bbbefceb69",
+      "bytes": 55069
+    }
+  },
+  "native_tools": 25,
+  "native_call_records": 35,
+  "scenes": [
+    "activity",
+    "analysis",
+    "comparison",
+    "graph",
+    "memory",
+    "overview",
+    "stability"
+  ],
+  "original_workspaces_preserved": 9,
+  "fixture_evidence_restored": true,
+  "frozen_comparison_unchanged": true,
+  "model_calls_inside_cli_or_web": false,
+  "research_performance_improvement": "unproven",
+  "external_tokens_and_cost": "unknown"
+}

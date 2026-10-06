@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-04T06:09:26.572735+00:00",
+  "version": "0.5.0",
+  "packages": [
+    {
+      "name": "pip",
+      "version": "25.0.1"
+    },
+    {
+      "name": "research-state-cli",
+      "version": "0.5.0"
+    }
+  ],
+  "mcp_sdk_installed": false,
+  "core_runtime_dependencies": [],
+  "installed_module": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Lib\\site-packages\\research_cli\\__init__.py",
+  "isolated_outside_source": true,
+  "installed_assets_match": {
+    "app.js": "fec80308f6268decb08c2eca2284661fa551b5f411f3a4714b097e5c51c3c44f",
+    "index.html": "a498826c2b67f57dcf351ec6fa79c6464c49b8a5f1d98d38fc3224072d158dfd",
+    "styles.css": "b2ebc3acbf20dff1a164745a00eb0f082726340c99243c828b1e0dcce751609b"
+  },
+  "actual_http_bootstrap": true,
+  "tool_count": 17,
+  "startup_created_workspace": false,
+  "live_installed_server_shared_demo_decision": "adopted",
+  "demo_actual_invocations": 1,
+  "model_calls_in_service": false
+}

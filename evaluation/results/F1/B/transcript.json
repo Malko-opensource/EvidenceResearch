@@ -1,0 +1,145 @@
+{
+  "task_id": "F1",
+  "condition": "B",
+  "requests": [
+    {
+      "logical_request_id": 1,
+      "events": [
+        {
+          "event": "existing_state_checked",
+          "at": "2026-10-03T16:01:13.945027+00:00",
+          "evidence": "initial-state.json",
+          "memory": "absent",
+          "ledger": "absent"
+        },
+        {
+          "event": "external_hypothesis_proposed",
+          "at": "2026-10-03T16:01:13.945027+00:00",
+          "hypothesis": "Reject missing, malformed, nonfinite, blank-group and nonpositive-weight rows; exact rational weighted calculations centered at the first valid value preserve small deviations at large common offsets and achieve fixed-validator pass_rate >= 1.0."
+        },
+        {
+          "event": "preregistered",
+          "at": "2026-10-03T16:01:13.945027+00:00",
+          "registration": "registration.json",
+          "source_sha256": "00fd9536a220bc378de45a66f69d34bdb6db051ee44f5be4c8e03df2ec8b6214",
+          "criterion": "pass_rate >= 1.0"
+        },
+        {
+          "event": "registered_source_installed",
+          "at": "2026-10-03T16:01:42.338109+00:00",
+          "source_sha256": "00fd9536a220bc378de45a66f69d34bdb6db051ee44f5be4c8e03df2ec8b6214",
+          "snapshot": "source-run-1.py"
+        },
+        {
+          "event": "task_executed",
+          "at": "2026-10-03T16:01:42.380092+00:00",
+          "actual_command": [
+            "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "task.py",
+            "F1"
+          ],
+          "returncode": 0,
+          "receipt": "task-run-1.receipt.json",
+          "quality": "unverified"
+        },
+        {
+          "event": "independent_validator_executed",
+          "at": "2026-10-03T16:02:06.132945+00:00",
+          "actual_command": [
+            "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+            "--root",
+            "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B",
+            "--task",
+            "F1",
+            "--output",
+            "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.json"
+          ],
+          "returncode": 0,
+          "receipt": "check-1.receipt.json",
+          "quality": "pending_output_review"
+        },
+        {
+          "event": "independent_evidence_reviewed",
+          "at": "2026-10-03T16:02:47.744767+00:00",
+          "pass_rate": 1.0,
+          "criterion_met": true,
+          "source_and_artifact_hashes_verified": true
+        },
+        {
+          "event": "decision",
+          "at": "2026-10-03T16:02:47.744767+00:00",
+          "decision": "adopt",
+          "evidence": "decision-1.json"
+        },
+        {
+          "event": "plain_file_memory_updated",
+          "at": "2026-10-03T16:02:47.744767+00:00",
+          "memory_path": "memory.md",
+          "ledger_path": "ledger.json",
+          "experiment_key": "bef41f25108d621950aa484f15bf1e0dc616cbc3a311dfbf6724ba345122cd58"
+        }
+      ]
+    },
+    {
+      "logical_request_id": 2,
+      "simulated_repeat_as_authorized": true,
+      "events": [
+        {
+          "event": "identical_request_received",
+          "at": "2026-10-03T16:03:43.883618+00:00",
+          "source_sha256": "00fd9536a220bc378de45a66f69d34bdb6db051ee44f5be4c8e03df2ec8b6214",
+          "condition": "B"
+        },
+        {
+          "event": "persistent_memory_and_ledger_read",
+          "at": "2026-10-03T16:03:43.883618+00:00",
+          "evidence_paths": [
+            "memory.md",
+            "ledger.json",
+            "registration.json",
+            "episode.json",
+            "decision-1.json",
+            "task-run-1.receipt.json",
+            "check-1.receipt.json",
+            "check-1.json",
+            "invocations.jsonl"
+          ]
+        },
+        {
+          "event": "concrete_experiment_and_receipts_verified",
+          "at": "2026-10-03T16:03:43.894617+00:00",
+          "checks": {
+            "same_concrete_source_and_conditions": true,
+            "same_experiment_key": true,
+            "plain_file_memory_matches": true,
+            "ledger_is_completed": true,
+            "registration_unchanged": true,
+            "source_snapshot_matches": true,
+            "task_result_matches_receipt": true,
+            "check_output_matches_receipt": true,
+            "successful_task_and_validator_processes": true,
+            "fixed_quality_meets_frozen_criterion": true,
+            "one_task_invocation_so_far": true,
+            "registration_precedes_task": true
+          },
+          "experiment_key": "bef41f25108d621950aa484f15bf1e0dc616cbc3a311dfbf6724ba345122cd58"
+        },
+        {
+          "event": "duplicate_task_execution_skipped",
+          "at": "2026-10-03T16:03:43.894617+00:00",
+          "decision": "reuse_persistent_verified_result",
+          "task_invocations_before": 1,
+          "task_invocations_after": 1,
+          "evidence": "duplicate-request-2.json"
+        },
+        {
+          "event": "plain_file_memory_updated",
+          "at": "2026-10-03T16:03:43.894617+00:00",
+          "memory_path": "memory.md",
+          "ledger_path": "ledger.json"
+        }
+      ]
+    }
+  ]
+}

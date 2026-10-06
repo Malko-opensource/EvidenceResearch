@@ -1,0 +1,11 @@
+{
+  "graphDescription": "목표: 목표 기록, 가설: 가설 제안, 사전등록: 조건 고정, 실행: 실행 성공, 검증: 검증 통과, 결정: 채택",
+  "graphNodes": 6,
+  "humanControls": 0,
+  "metricChart": "pass_rate1고정 기준 >= 1 · 눈금 0–1",
+  "phase": "succeeded",
+  "scene": "overview",
+  "version": "0.6.0",
+  "webmcp": "NATIVE WebMCP · 19/19",
+  "workspace": "agent-observatory-20261004"
+}

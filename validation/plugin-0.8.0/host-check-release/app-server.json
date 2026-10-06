@@ -1,0 +1,1265 @@
+[
+  {
+    "direction": "request",
+    "message": {
+      "id": 1,
+      "method": "initialize",
+      "params": {
+        "clientInfo": {
+          "name": "research-plugin-validation",
+          "version": "0.8.0"
+        },
+        "capabilities": {
+          "experimentalApi": true
+        }
+      }
+    }
+  },
+  {
+    "direction": "response",
+    "message": {
+      "id": 1,
+      "result": {
+        "userAgent": "Codex Desktop/0.160.0 (Windows 10.0.26200; x86_64) dumb (research-plugin-validation; 0.8.0)",
+        "codexHome": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home",
+        "platformFamily": "windows",
+        "platformOs": "windows"
+      }
+    }
+  },
+  {
+    "direction": "request",
+    "message": {
+      "id": 2,
+      "method": "skills/list",
+      "params": {
+        "cwds": [
+          "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\dist\\research-observatory-0.8.0-release"
+        ],
+        "forceReload": true
+      }
+    }
+  },
+  {
+    "direction": "response",
+    "message": {
+      "method": "remoteControl/status/changed",
+      "params": {
+        "status": "disabled",
+        "serverName": "PotatoPlanet",
+        "installationId": "ba72d711-a7b4-4c85-b441-a92e4ee288e9",
+        "environmentId": null
+      },
+      "emittedAtMs": 1791115407269
+    }
+  },
+  {
+    "direction": "response",
+    "message": {
+      "id": 2,
+      "result": {
+        "data": [
+          {
+            "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\dist\\research-observatory-0.8.0-release",
+            "skills": [
+              {
+                "name": "research-observatory:research-goal",
+                "description": "Clarify an unclear research commission through focused interviews, produce a long-term goal prompt, and continue or resume an authorized study using Research State CLI or WebMCP. Use for research scoping and goal design, not a routine status or scene request.",
+                "interface": {
+                  "displayName": "연구 의뢰 설계",
+                  "shortDescription": "Clarify research goals, evidence and reporting",
+                  "iconSmall": null,
+                  "iconLarge": null,
+                  "iconSmallUrl": null,
+                  "iconLargeUrl": null,
+                  "brandColor": null,
+                  "defaultPrompt": "Use $research-goal to turn my research request into a long-term goal."
+                },
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\plugins\\cache\\evidence-research-local\\research-observatory\\0.8.0\\skills\\research-goal\\SKILL.md",
+                "scope": "user",
+                "enabled": true,
+                "pluginId": "research-observatory@evidence-research-local"
+              },
+              {
+                "name": "imagegen",
+                "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+                "interface": {
+                  "displayName": "Image Gen",
+                  "shortDescription": "Generate or edit images for websites, games, and more",
+                  "iconSmall": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\imagegen\\assets\\imagegen-small.svg",
+                  "iconLarge": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\imagegen\\assets\\imagegen.png",
+                  "iconSmallUrl": null,
+                  "iconLargeUrl": null,
+                  "brandColor": null,
+                  "defaultPrompt": "Use $imagegen to make or edit an image for this project."
+                },
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\imagegen\\SKILL.md",
+                "scope": "system",
+                "enabled": true,
+                "pluginId": null
+              },
+              {
+                "name": "openai-docs",
+                "description": "Use for Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, customization, automations, and self-knowledge—including 'you,' 'your,' 'this app,' or 'this coding agent' when they refer to Codex—and for OpenAI APIs/products and ChatGPT Work. Also use for model choice/migration, prompting, SDKs, Responses, Realtime, agents, evals, and Chat/Work/Codex comparisons. Do not use for generic app/software tasks that merely mention Codex.",
+                "shortDescription": "Codex models/pricing, scheduled tasks, skills, settings, setup, troubleshooting, and self-knowledge; OpenAI APIs and ChatGPT Work. 'You'/'this app' means Codex only.",
+                "interface": {
+                  "displayName": "OpenAI Docs",
+                  "shortDescription": "OpenAI and Codex docs for models, skills, tasks, and setup",
+                  "iconSmall": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\openai-docs\\assets\\openai-small.svg",
+                  "iconLarge": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\openai-docs\\assets\\openai.png",
+                  "iconSmallUrl": null,
+                  "iconLargeUrl": null,
+                  "brandColor": null,
+                  "defaultPrompt": "Use OpenAI Docs for official docs lookup, questions about Codex itself or Codex surfaces, model selection, model migration, and prompt-upgrade work."
+                },
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\openai-docs\\SKILL.md",
+                "scope": "system",
+                "enabled": true,
+                "pluginId": null
+              },
+              {
+                "name": "review-agent",
+                "description": "Perform a read-only, defect-first review of a specified code change and return every actionable finding. Use when another agent delegates review of uncommitted changes, a base-branch diff, a commit, or custom review instructions.",
+                "interface": {
+                  "displayName": "Review Agent",
+                  "shortDescription": "Find actionable bugs in code changes",
+                  "iconSmall": null,
+                  "iconLarge": null,
+                  "iconSmallUrl": null,
+                  "iconLargeUrl": null,
+                  "brandColor": null,
+                  "defaultPrompt": "Use $review-agent to review the requested code changes and return actionable findings."
+                },
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\review-agent\\SKILL.md",
+                "scope": "system",
+                "enabled": true,
+                "pluginId": null
+              },
+              {
+                "name": "skill-creator",
+                "description": "Create or update a Codex skill with appropriately scoped instructions and any needed supporting resources.",
+                "shortDescription": "Create or update a skill",
+                "interface": {
+                  "displayName": "Skill Creator",
+                  "shortDescription": "Create or update a skill",
+                  "iconSmall": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\skill-creator\\assets\\skill-creator-small.svg",
+                  "iconLarge": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\skill-creator\\assets\\skill-creator.png",
+                  "iconSmallUrl": null,
+                  "iconLargeUrl": null,
+                  "brandColor": null,
+                  "defaultPrompt": null
+                },
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\skill-creator\\SKILL.md",
+                "scope": "system",
+                "enabled": true,
+                "pluginId": null
+              },
+              {
+                "name": "skill-installer",
+                "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+                "shortDescription": "Install curated skills from openai/skills or other repos",
+                "interface": {
+                  "displayName": "Skill Installer",
+                  "shortDescription": "Install curated skills from openai/skills or other repos",
+                  "iconSmall": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\skill-installer\\assets\\skill-installer-small.svg",
+                  "iconLarge": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\skill-installer\\assets\\skill-installer.png",
+                  "iconSmallUrl": null,
+                  "iconLargeUrl": null,
+                  "brandColor": null,
+                  "defaultPrompt": null
+                },
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\host-check-release\\codex-home\\skills\\.system\\skill-installer\\SKILL.md",
+                "scope": "system",
+                "enabled": true,
+                "pluginId": null
+              }
+            ],
+            "errors": []
+          }
+        ]
+      }
+    }
+  },
+  {
+    "direction": "request",
+    "message": {
+      "id": 3,
+      "method": "mcpServerStatus/list",
+      "params": {
+        "limit": 20,
+        "detail": "toolsAndAuthOnly"
+      }
+    }
+  },
+  {
+    "direction": "response",
+    "message": {
+      "id": 3,
+      "result": {
+        "data": [
+          {
+            "name": "research_state",
+            "runtimeStatus": null,
+            "pluginId": "research-observatory@evidence-research-local",
+            "httpOrigin": null,
+            "serverInfo": {
+              "name": "research-state",
+              "title": null,
+              "version": "0.8.0",
+              "description": null,
+              "icons": null,
+              "websiteUrl": null
+            },
+            "serverCapabilities": {
+              "prompts": {
+                "listChanged": false
+              },
+              "resources": {
+                "subscribe": false,
+                "listChanged": false
+              },
+              "tools": {
+                "listChanged": false
+              }
+            },
+            "tools": {
+              "research_laya_resolve": {
+                "name": "research_laya_resolve",
+                "description": "Bind an external Laya response to candidate IDs and return an unverified proposal; no model call or automatic adoption. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "bundle": {
+                      "additionalProperties": true,
+                      "title": "Bundle",
+                      "type": "object"
+                    },
+                    "response": {
+                      "additionalProperties": true,
+                      "title": "Response",
+                      "type": "object"
+                    },
+                    "expected_sha256": {
+                      "title": "Expected Sha256",
+                      "type": "string"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "bundle",
+                    "response",
+                    "expected_sha256"
+                  ],
+                  "type": "object",
+                  "title": "research_laya_resolveArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": true,
+                  "openWorldHint": false
+                }
+              },
+              "research_resource": {
+                "name": "research_resource",
+                "description": "Append a sourced external cost/token observation, with unknown gaps and no independent certification. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "goal": {
+                      "title": "Goal",
+                      "type": "string"
+                    },
+                    "observation": {
+                      "additionalProperties": true,
+                      "title": "Observation",
+                      "type": "object"
+                    },
+                    "request_key": {
+                      "title": "Request Key",
+                      "type": "string"
+                    },
+                    "expect": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Expect"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "goal",
+                    "observation",
+                    "request_key"
+                  ],
+                  "type": "object",
+                  "title": "research_resourceArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_restore": {
+                "name": "research_restore",
+                "description": "Restore an archive under the configured root into an empty workspace; restoration never executes an experiment. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "input": {
+                      "title": "Input",
+                      "type": "string"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "input"
+                  ],
+                  "type": "object",
+                  "title": "research_restoreArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_hypothesis": {
+                "name": "research_hypothesis",
+                "description": "Record a proposed hypothesis. Optional expect rejects a stale workspace revision. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "goal": {
+                      "title": "Goal",
+                      "type": "string"
+                    },
+                    "statement": {
+                      "title": "Statement",
+                      "type": "string"
+                    },
+                    "expect": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Expect"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "goal",
+                    "statement"
+                  ],
+                  "type": "object",
+                  "title": "research_hypothesisArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_goal_close": {
+                "name": "research_goal_close",
+                "description": "Record a research completion/pause/cancellation report. It does not certify science or stop any worker. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "goal": {
+                      "title": "Goal",
+                      "type": "string"
+                    },
+                    "state": {
+                      "enum": [
+                        "completed",
+                        "paused",
+                        "cancelled"
+                      ],
+                      "title": "State",
+                      "type": "string"
+                    },
+                    "reason": {
+                      "title": "Reason",
+                      "type": "string"
+                    },
+                    "results": {
+                      "items": {
+                        "type": "string"
+                      },
+                      "title": "Results",
+                      "type": "array"
+                    },
+                    "incomplete": {
+                      "items": {
+                        "type": "string"
+                      },
+                      "title": "Incomplete",
+                      "type": "array"
+                    },
+                    "request_key": {
+                      "title": "Request Key",
+                      "type": "string"
+                    },
+                    "expect": {
+                      "title": "Expect",
+                      "type": "integer"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "goal",
+                    "state",
+                    "reason",
+                    "results",
+                    "incomplete",
+                    "request_key",
+                    "expect"
+                  ],
+                  "type": "object",
+                  "title": "research_goal_closeArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_init": {
+                "name": "research_init",
+                "description": "Initialize a research workspace; private local capability contents are not returned. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "type": "object",
+                  "title": "research_initArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_memory": {
+                "name": "research_memory",
+                "description": "Search paginated research summaries by literal substring and outcome; claim verification is explicit. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "query": {
+                      "default": "",
+                      "title": "Query",
+                      "type": "string"
+                    },
+                    "outcome": {
+                      "anyOf": [
+                        {
+                          "enum": [
+                            "success",
+                            "failure",
+                            "inconclusive"
+                          ],
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Outcome"
+                    },
+                    "verification": {
+                      "anyOf": [
+                        {
+                          "enum": [
+                            "pending",
+                            "passed",
+                            "failed",
+                            "inconclusive"
+                          ],
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Verification"
+                    },
+                    "limit": {
+                      "default": 20,
+                      "title": "Limit",
+                      "type": "integer"
+                    },
+                    "offset": {
+                      "default": 0,
+                      "title": "Offset",
+                      "type": "integer"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "type": "object",
+                  "title": "research_memoryArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": true,
+                  "openWorldHint": false
+                }
+              },
+              "research_resource_show": {
+                "name": "research_resource_show",
+                "description": "Read paginated original observations and currency-separated observed subtotals; full research cost remains unknown. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "goal": {
+                      "title": "Goal",
+                      "type": "string"
+                    },
+                    "limit": {
+                      "default": 20,
+                      "title": "Limit",
+                      "type": "integer"
+                    },
+                    "offset": {
+                      "default": 0,
+                      "title": "Offset",
+                      "type": "integer"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "goal"
+                  ],
+                  "type": "object",
+                  "title": "research_resource_showArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": true,
+                  "openWorldHint": false
+                }
+              },
+              "research_verify": {
+                "name": "research_verify",
+                "description": "Run the owner's frozen validator on actual evidence and registered criteria; agent numbers cannot certify success. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "registration": {
+                      "title": "Registration",
+                      "type": "string"
+                    },
+                    "full": {
+                      "default": false,
+                      "title": "Full",
+                      "type": "boolean"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "registration"
+                  ],
+                  "type": "object",
+                  "title": "research_verifyArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": true
+                }
+              },
+              "research_status": {
+                "name": "research_status",
+                "description": "Read paginated state, currently allowed operations, and missing evidence without scientific ranking. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "goal": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Goal"
+                    },
+                    "limit": {
+                      "default": 20,
+                      "title": "Limit",
+                      "type": "integer"
+                    },
+                    "offset": {
+                      "default": 0,
+                      "title": "Offset",
+                      "type": "integer"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "type": "object",
+                  "title": "research_statusArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": true,
+                  "openWorldHint": false
+                }
+              },
+              "research_goal_show": {
+                "name": "research_goal_show",
+                "description": "Read the goal's current version, lifecycle, paginated history and external resource observations. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "goal": {
+                      "title": "Goal",
+                      "type": "string"
+                    },
+                    "limit": {
+                      "default": 20,
+                      "title": "Limit",
+                      "type": "integer"
+                    },
+                    "offset": {
+                      "default": 0,
+                      "title": "Offset",
+                      "type": "integer"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "goal"
+                  ],
+                  "type": "object",
+                  "title": "research_goal_showArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": true,
+                  "openWorldHint": false
+                }
+              },
+              "research_export": {
+                "name": "research_export",
+                "description": "Create a consistent, hashed archive at a relative workspace path; existing output is not overwritten. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "output": {
+                      "title": "Output",
+                      "type": "string"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "output"
+                  ],
+                  "type": "object",
+                  "title": "research_exportArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_goal": {
+                "name": "research_goal",
+                "description": "Record an externally chosen research objective. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "title": {
+                      "title": "Title",
+                      "type": "string"
+                    },
+                    "description": {
+                      "default": "",
+                      "title": "Description",
+                      "type": "string"
+                    },
+                    "brief": {
+                      "additionalProperties": true,
+                      "default": {},
+                      "title": "Brief",
+                      "type": "object"
+                    },
+                    "request_key": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Request Key"
+                    },
+                    "expect": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Expect"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "title"
+                  ],
+                  "type": "object",
+                  "title": "research_goalArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_evidence": {
+                "name": "research_evidence",
+                "description": "Append an unverified claim and optional evidence file relative to the workspace; this never certifies an experiment. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "registration": {
+                      "title": "Registration",
+                      "type": "string"
+                    },
+                    "kind": {
+                      "enum": [
+                        "measured",
+                        "literature",
+                        "inference",
+                        "proposal"
+                      ],
+                      "title": "Kind",
+                      "type": "string"
+                    },
+                    "claim": {
+                      "title": "Claim",
+                      "type": "string"
+                    },
+                    "path": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Path"
+                    },
+                    "expect": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Expect"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "registration",
+                    "kind",
+                    "claim"
+                  ],
+                  "type": "object",
+                  "title": "research_evidenceArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_help": {
+                "name": "research_help",
+                "description": "Read command help or a public preregistration/Laya JSON example. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "topic": {
+                      "anyOf": [
+                        {
+                          "enum": [
+                            "register",
+                            "laya",
+                            "goal"
+                          ],
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Topic"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "type": "object",
+                  "title": "research_helpArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": true,
+                  "openWorldHint": false
+                }
+              },
+              "research_laya_prepare": {
+                "name": "research_laya_prepare",
+                "description": "Return candidates, conditions, evidence, and a bound Laya request. The external agent saves the digest and runs Laya. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "payload": {
+                      "additionalProperties": true,
+                      "title": "Payload",
+                      "type": "object"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "payload"
+                  ],
+                  "type": "object",
+                  "title": "research_laya_prepareArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": true,
+                  "openWorldHint": false
+                }
+              },
+              "research_goal_amend": {
+                "name": "research_goal_amend",
+                "description": "Append an explicit meaning/scope/plan version; frozen experiment criteria and original goal versions remain immutable. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "goal": {
+                      "title": "Goal",
+                      "type": "string"
+                    },
+                    "brief": {
+                      "additionalProperties": true,
+                      "title": "Brief",
+                      "type": "object"
+                    },
+                    "reason": {
+                      "title": "Reason",
+                      "type": "string"
+                    },
+                    "change_kind": {
+                      "enum": [
+                        "meaning",
+                        "scope",
+                        "plan"
+                      ],
+                      "title": "Change Kind",
+                      "type": "string"
+                    },
+                    "request_key": {
+                      "title": "Request Key",
+                      "type": "string"
+                    },
+                    "expect": {
+                      "title": "Expect",
+                      "type": "integer"
+                    },
+                    "title": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Title"
+                    },
+                    "description": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Description"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "goal",
+                    "brief",
+                    "reason",
+                    "change_kind",
+                    "request_key",
+                    "expect"
+                  ],
+                  "type": "object",
+                  "title": "research_goal_amendArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_register": {
+                "name": "research_register",
+                "description": "Freeze conditions and success criteria before execution. Use research_help(topic='register') for spec.\n\n        Criteria cannot be overwritten after registration. A changed experiment needs a new registration.\n        A local owner must first register the fixed validator using the CLI. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "goal": {
+                      "title": "Goal",
+                      "type": "string"
+                    },
+                    "spec": {
+                      "additionalProperties": true,
+                      "title": "Spec",
+                      "type": "object"
+                    },
+                    "request_key": {
+                      "title": "Request Key",
+                      "type": "string"
+                    },
+                    "expect": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Expect"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "goal",
+                    "spec",
+                    "request_key"
+                  ],
+                  "type": "object",
+                  "title": "research_registerArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_run": {
+                "name": "research_run",
+                "description": "Execute a preregistered local experiment once it is claimed; repeated requests reuse known state.\n\n        Unknown execution is not automatically rerun. This does not guarantee exactly-once external side effects.\n        Default output summarizes evidence; full includes original execution receipts and details. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "registration": {
+                      "title": "Registration",
+                      "type": "string"
+                    },
+                    "request_key": {
+                      "title": "Request Key",
+                      "type": "string"
+                    },
+                    "expect": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Expect"
+                    },
+                    "full": {
+                      "default": false,
+                      "title": "Full",
+                      "type": "boolean"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "registration",
+                    "request_key"
+                  ],
+                  "type": "object",
+                  "title": "research_runArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": true
+                }
+              },
+              "research_recover": {
+                "name": "research_recover",
+                "description": "Collect a surviving worker's receipt after interruption, or report unknown; never launch a replacement run. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "registration": {
+                      "title": "Registration",
+                      "type": "string"
+                    },
+                    "full": {
+                      "default": false,
+                      "title": "Full",
+                      "type": "boolean"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "registration"
+                  ],
+                  "type": "object",
+                  "title": "research_recoverArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_decide": {
+                "name": "research_decide",
+                "description": "Record the external agent's decision; adoption requires successful execution and valid independently verified evidence. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "registration": {
+                      "title": "Registration",
+                      "type": "string"
+                    },
+                    "decision": {
+                      "enum": [
+                        "adopted",
+                        "rejected",
+                        "inconclusive"
+                      ],
+                      "title": "Decision",
+                      "type": "string"
+                    },
+                    "reason": {
+                      "title": "Reason",
+                      "type": "string"
+                    },
+                    "expect": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "default": null,
+                      "title": "Expect"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "registration",
+                    "decision",
+                    "reason"
+                  ],
+                  "type": "object",
+                  "title": "research_decideArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              },
+              "research_show": {
+                "name": "research_show",
+                "description": "Read a complete registration, original evidence links, current integrity, and verification/decision states. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "registration": {
+                      "title": "Registration",
+                      "type": "string"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "registration"
+                  ],
+                  "type": "object",
+                  "title": "research_showArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": true,
+                  "openWorldHint": false
+                }
+              },
+              "research_goal_resume": {
+                "name": "research_goal_resume",
+                "description": "Reactivate the same goal; never create a replacement goal or launch an experiment. This tool is part of plugin `Research Observatory`.",
+                "inputSchema": {
+                  "properties": {
+                    "goal": {
+                      "title": "Goal",
+                      "type": "string"
+                    },
+                    "reason": {
+                      "title": "Reason",
+                      "type": "string"
+                    },
+                    "request_key": {
+                      "title": "Request Key",
+                      "type": "string"
+                    },
+                    "expect": {
+                      "title": "Expect",
+                      "type": "integer"
+                    },
+                    "workspace": {
+                      "default": "default",
+                      "title": "Workspace",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "goal",
+                    "reason",
+                    "request_key",
+                    "expect"
+                  ],
+                  "type": "object",
+                  "title": "research_goal_resumeArguments"
+                },
+                "annotations": {
+                  "readOnlyHint": false,
+                  "destructiveHint": false,
+                  "idempotentHint": false,
+                  "openWorldHint": false
+                }
+              }
+            },
+            "toolsError": null,
+            "resources": [],
+            "resourceTemplates": [],
+            "authStatus": "unsupported"
+          }
+        ],
+        "nextCursor": null
+      }
+    }
+  }
+]

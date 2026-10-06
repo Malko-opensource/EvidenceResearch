@@ -1,0 +1,132 @@
+{
+  "run_id": "run_be7a65a86cf34d16bd30a081a8da581d",
+  "state": "passed",
+  "metrics": {
+    "pass_rate": 1.0
+  },
+  "details": {
+    "_input_sha256": "f85b9679ac5652b8440a3b22f54c14b82fa08f455e9290cf516fb8c1e1cb6971",
+    "basis": "preserved_source_recomputed",
+    "checks": [
+      {
+        "case": "run_artifact",
+        "exit_code": null,
+        "passed": true,
+        "reason": "run_artifact_recomputed"
+      },
+      {
+        "case": 0,
+        "exit_code": 0,
+        "passed": true,
+        "reason": "matched"
+      },
+      {
+        "case": 1,
+        "exit_code": 0,
+        "passed": true,
+        "reason": "matched"
+      },
+      {
+        "case": 2,
+        "exit_code": 0,
+        "passed": true,
+        "reason": "matched"
+      },
+      {
+        "case": 3,
+        "exit_code": 0,
+        "passed": true,
+        "reason": "matched"
+      },
+      {
+        "case": 4,
+        "exit_code": 0,
+        "passed": true,
+        "reason": "matched"
+      },
+      {
+        "case": 5,
+        "exit_code": 0,
+        "passed": true,
+        "reason": "matched"
+      }
+    ],
+    "criteria_results": [
+      {
+        "actual": 1.0,
+        "metric": "pass_rate",
+        "op": ">=",
+        "passed": true,
+        "threshold": 1.0
+      }
+    ],
+    "integrity": true,
+    "missing_artifacts": [],
+    "missing_metrics": [],
+    "passed_cases": 7,
+    "reported_run_metrics_used": false,
+    "source": "fixed_local_verifier",
+    "task_id": "M1",
+    "total_cases": 7,
+    "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+    "verifier_output": {
+      "details": {
+        "basis": "preserved_source_recomputed",
+        "checks": [
+          {
+            "case": "run_artifact",
+            "exit_code": null,
+            "passed": true,
+            "reason": "run_artifact_recomputed"
+          },
+          {
+            "case": 0,
+            "exit_code": 0,
+            "passed": true,
+            "reason": "matched"
+          },
+          {
+            "case": 1,
+            "exit_code": 0,
+            "passed": true,
+            "reason": "matched"
+          },
+          {
+            "case": 2,
+            "exit_code": 0,
+            "passed": true,
+            "reason": "matched"
+          },
+          {
+            "case": 3,
+            "exit_code": 0,
+            "passed": true,
+            "reason": "matched"
+          },
+          {
+            "case": 4,
+            "exit_code": 0,
+            "passed": true,
+            "reason": "matched"
+          },
+          {
+            "case": 5,
+            "exit_code": 0,
+            "passed": true,
+            "reason": "matched"
+          }
+        ],
+        "passed_cases": 7,
+        "reported_run_metrics_used": false,
+        "task_id": "M1",
+        "total_cases": 7
+      },
+      "metrics": {
+        "pass_rate": 1.0
+      }
+    },
+    "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verifier_stdout_sha256": "85fc2ef7b04a572e48122a89396018d929d11b47904d84ae53fd4f4c6db92481"
+  },
+  "created": 1791044816.9969687
+}

@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-10-04T15:00:07.259601+00:00",
+  "package_version": "0.8.0",
+  "release_kind": "client_spectator_ui",
+  "wheel": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\dist\\client-spectator-20261004\\research_state_cli-0.8.0-py3-none-any.whl",
+  "wheel_sha256": "e78c5f44b104833910c970b380c4d76ad1e3ede0f5fb342d0e190284eaa68986",
+  "wheel_size": 102156,
+  "web_assets": [
+    {
+      "name": "app.js",
+      "source_sha256": "a5bc06b306c298934524f4e070c3cb82226186bef84ca4e38519694f011d7563",
+      "wheel_sha256": "a5bc06b306c298934524f4e070c3cb82226186bef84ca4e38519694f011d7563",
+      "installed_sha256": {
+        ".validation-venv": "a5bc06b306c298934524f4e070c3cb82226186bef84ca4e38519694f011d7563",
+        ".mcp-venv": "a5bc06b306c298934524f4e070c3cb82226186bef84ca4e38519694f011d7563"
+      }
+    },
+    {
+      "name": "index.html",
+      "source_sha256": "f6248d313f59609130d90fc361082b4eae47467cbbf82412d295925b3982282b",
+      "wheel_sha256": "f6248d313f59609130d90fc361082b4eae47467cbbf82412d295925b3982282b",
+      "installed_sha256": {
+        ".validation-venv": "f6248d313f59609130d90fc361082b4eae47467cbbf82412d295925b3982282b",
+        ".mcp-venv": "f6248d313f59609130d90fc361082b4eae47467cbbf82412d295925b3982282b"
+      }
+    },
+    {
+      "name": "styles.css",
+      "source_sha256": "60d35e1d76cac1f103acbdf598df4f5c737e1e98ba9bcbcc6ab399cd8d472bad",
+      "wheel_sha256": "60d35e1d76cac1f103acbdf598df4f5c737e1e98ba9bcbcc6ab399cd8d472bad",
+      "installed_sha256": {
+        ".validation-venv": "60d35e1d76cac1f103acbdf598df4f5c737e1e98ba9bcbcc6ab399cd8d472bad",
+        ".mcp-venv": "60d35e1d76cac1f103acbdf598df4f5c737e1e98ba9bcbcc6ab399cd8d472bad"
+      }
+    },
+    {
+      "name": "view_model.js",
+      "source_sha256": "098c28246ee8394ba8ed05d44d6ebeb6dfeb97b481faf106c539681a94b3194d",
+      "wheel_sha256": "098c28246ee8394ba8ed05d44d6ebeb6dfeb97b481faf106c539681a94b3194d",
+      "installed_sha256": {
+        ".validation-venv": "098c28246ee8394ba8ed05d44d6ebeb6dfeb97b481faf106c539681a94b3194d",
+        ".mcp-venv": "098c28246ee8394ba8ed05d44d6ebeb6dfeb97b481faf106c539681a94b3194d"
+      }
+    }
+  ],
+  "core_modules": [
+    {
+      "name": "__init__.py",
+      "sha256": "fedddfb5da2f2d8683e72dfe127f9f789e9b9d805c7c67e16db551ac478b7da7"
+    },
+    {
+      "name": "__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "name": "cli.py",
+      "sha256": "d9e910b821b1cd45929ad0e417ba0a01b8846b8c18fa1680491156bb3b6e349d"
+    },
+    {
+      "name": "core.py",
+      "sha256": "f46b7bc03fb1cae62d6d66d8c146e4e173212fbf840d44ed666276e46538507b"
+    },
+    {
+      "name": "laya.py",
+      "sha256": "957f96a76accef10901a3967e29b56388b0d73cd3bd8a0d68a3533aef67401c3"
+    },
+    {
+      "name": "mcp_bridge.py",
+      "sha256": "10c757136f8fe67563e9f5c3c172439e165f3c60c05c99744cd142eedc2cf3db"
+    },
+    {
+      "name": "mcp_server.py",
+      "sha256": "1bf59e9d0ceab23fe6e41a81b62a63f247938e89450400b2eca6d50da4da45e9"
+    },
+    {
+      "name": "runner.py",
+      "sha256": "d659244c2ec85562556d79081ba9e84dc4c9f65cfad51d425dfdc4f13f36e94b"
+    },
+    {
+      "name": "transfer.py",
+      "sha256": "b20cdbd5a150197fb1b7ccd42d3b5531c5aec8808ad6f2920822855ed6575ed7"
+    },
+    {
+      "name": "web_server.py",
+      "sha256": "a8b4582a9b4525a4ecf6ff3293e9872e3256b102e1b447299a53e7f9a8ed4d05"
+    },
+    {
+      "name": "web_tools.py",
+      "sha256": "9806e0f2cc3fa387dd5ee326d163debb30ce72ef502f6bf36941cfad258f5877"
+    },
+    {
+      "name": "worker.py",
+      "sha256": "49041f8606ccf8b6f6d15016ca26e801a6daa074ee32a9f448a642d1b0d58953"
+    }
+  ],
+  "both_project_environments_match": true,
+  "guides": {
+    "README.md": "80f1107e6697d043f9bd7f91a362f659679de8c003e85a5398ee7fa7f513553e",
+    "WEB.ko.md": "f7a06f6b4f9bff6b0cb196568963efac57f598d434507aea39c3ee51c398173d",
+    "HANDOFF.ko.md": "8606d21391701b4705030907d91b130ebf5c4953e0348797dedc08939c07e712",
+    "CLIENT-VIEW-DESIGN.ko.md": "e2d86192249a6696cf7113693e8bff82b571e52f9ece7cb556db5845343e2383",
+    "CLIENT-VIEW-VALIDATION.ko.md": "39572af553a7d4002011337d4e12fa57a0b8c7b747d6f03838f51dd3d2292e46"
+  }
+}

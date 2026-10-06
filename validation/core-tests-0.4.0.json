@@ -1,0 +1,12 @@
+{
+  "version": "0.4.0",
+  "at": "2026-10-04T04:57:34.716731+00:00",
+  "tests_run": 39,
+  "skipped": 7,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "seconds": 30.95400000002701,
+  "mcp_installed": false,
+  "model_calls": false
+}

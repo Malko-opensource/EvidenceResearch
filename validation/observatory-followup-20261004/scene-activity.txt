@@ -1,0 +1,78 @@
+- banner:
+  - strong: Research State
+  - generic: v0.8.0
+  - paragraph: 에이전트 제어 · 함께 보는 연구
+  - generic "연결 상태":
+    - generic: 연구 상태 연결
+    - generic: NATIVE WebMCP · 25/25
+- main:
+  - heading "연구에 쓴 시간과 비용" [level=1]
+  - paragraph: 실제 사건, 실행 시간과 기록된 비용 관측의 범위를 봅니다.
+  - generic: 기록 21
+  - generic: 오후 11:27:58 조회 · 읽기 상태 동기화
+  - region "연구 질문과 시험한 변경점":
+    - generic: 함께 살펴보는 연구
+    - heading "고정 고객 응답 CSV의 팀별 만족도 보고 검증" [level=2]
+    - generic: 연구 종료
+    - generic: 외부 연구 상태 보고
+  - region "연구에 쓴 시간과 비용":
+    - generic: 실제 연구 사건
+    - heading "시간에 따른 상태와 근거의 도착" [level=2]
+    - img "실제 사건 시간축 10월 4일 오후 08:44:35부터 10월 4일 오후 08:45:57까지, 6개 사건":
+      - generic: "1"
+      - generic: "2"
+      - generic: "3"
+      - generic: "4"
+      - generic: "5"
+      - generic: "6"
+      - generic: 오후 08:44:35
+      - generic: 오후 08:45:57
+    - paragraph: 시간축 표시 6개 · 선택 실험 연결 사건 10건 / 전체 연결 10건 · 점 사이 간격은 실제 시간, 번호는 아래 사건 순서
+    - list:
+      - time: 10월 4일 오후 08:44:35
+      - strong: 1. 연구 목표 버전 수정
+      - time: 10월 4일 오후 08:44:35
+      - strong: 2. 실행 요청 확보
+      - time: 10월 4일 오후 08:44:35
+      - strong: 3. 실행 증거 수집
+      - time: 10월 4일 오후 08:44:43
+      - strong: 4. 독립 검증 기록
+      - time: 10월 4일 오후 08:44:59
+      - strong: 5. 가설 결정 기록
+      - time: 10월 4일 오후 08:45:57
+      - strong: 6. 전체 연구 상태 보고
+    - paragraph: 목록은 최근 6개 · 전체 시간축은 이번 조회 범위
+    - generic: 외부 에이전트 활동
+    - heading "이 페이지에서 요청한 내용" [level=2]
+    - time: 오후 11:27:58
+    - strong: research_view
+    - paragraph: 요청 완료
+    - time: 오후 11:27:54
+    - strong: research_view
+    - paragraph: 요청 완료
+    - time: 오후 11:27:51
+    - strong: research_view
+    - paragraph: 요청 완료
+    - time: 오후 11:27:47
+    - strong: research_view
+    - paragraph: 요청 완료
+    - paragraph: 도구 요청 완료는 전체 연구 완료를 뜻하지 않습니다. 이 목록은 영속 연구 사건과 별개입니다.
+    - generic: 실제 자원 관측
+    - heading "실행 시간·외부 비용의 관측 추이" [level=2]
+    - paragraph: 실행별 실제 소요 시간 · 초 · 점 사이 가로 간격은 실제 시각
+    - img "실행별 실제 소요 시간 실제 관측 3건 · 단위 초":
+      - generic: "1"
+      - generic: "0"
+      - generic: 오후 08:44:35
+      - generic: 오후 08:44:59
+    - paragraph: 시간축 조회 3건 / 선택 목표 전체 실행 3건 · 전체 관측 실행 시간 0.2초 · 시간 미확인 0건
+    - paragraph: 기록된 비용 관측 없음 · 비용 0이라는 뜻이 아닙니다.
+    - paragraph: 통화를 서로 합산하지 않습니다. 비용은 외부 보고이며 실제 영수증 검증을 의미하지 않습니다.
+    - paragraph: 가설 분기 1 · 고유 실행 3건 · 관측 실행 시간 0.2초 · 시간 미확인 0건
+    - generic: 가설 분기에 연결된 비용
+    - heading "귀속이 확인된 외부 관측의 소계" [level=2]
+    - paragraph: 분기 1 · 비용 미확인 · 확인된 관측 0건 / 미확인 관측 0건
+    - paragraph: 목표 전체에만 연결된 비용은 임의로 분기별 배분하지 않습니다. 미기록 비용은 포함되지 않습니다.
+  - complementary "외부 에이전트의 현재 도구 호출":
+    - generic: 요청 완료
+    - paragraph: 사용자는 보고 싶은 내용을 에이전트에게 요청하세요

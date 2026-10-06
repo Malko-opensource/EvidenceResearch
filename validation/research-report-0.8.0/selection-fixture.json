@@ -1,0 +1,147 @@
+{
+  "workspace": "report-channel-fixture-20261004",
+  "goalA": {
+    "applied_revision": 1,
+    "brief": {
+      "original_request": "채널 초점·중단 보고 검증 전용; 연구 성능 평가 제외",
+      "resource_constraints": {
+        "cost": "no spending",
+        "time": "not set"
+      }
+    },
+    "changed_at": 1791115279.9207256,
+    "created": 1791115279.9207256,
+    "description": "",
+    "id": "goal_947f42a70b5242a8b4981bf71d370fd1",
+    "lifecycle": {
+      "created": 1791115279.9207256,
+      "goal_id": "goal_947f42a70b5242a8b4981bf71d370fd1",
+      "goal_version": 1,
+      "id": "lifecycle_f52f08e0a5254ee8889d716d322052c5",
+      "incomplete": [],
+      "reason": "Goal created; this does not authorize experiment execution",
+      "results": [],
+      "source": "explicit",
+      "state": "active"
+    },
+    "result_is_historical": true,
+    "reused": true,
+    "state": "active",
+    "state_source": "explicit",
+    "title": "선택 검사용 목표 A",
+    "version": 1,
+    "revision": 3
+  },
+  "goalB": {
+    "applied_revision": 2,
+    "brief": {
+      "original_request": "채널 초점·중단 보고 검증 전용; 연구 성능 평가 제외",
+      "resource_constraints": {
+        "cost": "no spending",
+        "time": "not set"
+      }
+    },
+    "changed_at": 1791115279.9267309,
+    "created": 1791115279.9267309,
+    "description": "",
+    "id": "goal_5e911d75117b408bb8fcd206cd82a7e4",
+    "lifecycle": {
+      "created": 1791115279.9267309,
+      "goal_id": "goal_5e911d75117b408bb8fcd206cd82a7e4",
+      "goal_version": 1,
+      "id": "lifecycle_b58282689a92459fad2af02ade4d56f8",
+      "incomplete": [],
+      "reason": "Goal created; this does not authorize experiment execution",
+      "results": [],
+      "source": "explicit",
+      "state": "active"
+    },
+    "result_is_historical": true,
+    "reused": true,
+    "state": "active",
+    "state_source": "explicit",
+    "title": "선택 검사용 목표 B",
+    "version": 1,
+    "revision": 3
+  },
+  "brief": {
+    "original_request": "채널 초점·중단 보고 검증 전용; 연구 성능 평가 제외",
+    "resource_constraints": {
+      "time": "not set",
+      "cost": "no spending"
+    }
+  },
+  "registrationB": {
+    "registration": {
+      "id": "reg_52cef54d06c441f685b6db2e33e6b0da",
+      "goal_id": "goal_5e911d75117b408bb8fcd206cd82a7e4",
+      "hypothesis_id": "hyp_50dff51c79a644ddbce44a9f9580b460",
+      "spec": {
+        "artifacts": [
+          {
+            "name": "result",
+            "path": "result.json"
+          }
+        ],
+        "change": "실행하지 않는 초점 선택 검사",
+        "command": [
+          "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+          "task.py"
+        ],
+        "comparison": "fixed one",
+        "conditions": {
+          "scope": "UI selection only; no run"
+        },
+        "criteria": [
+          {
+            "metric": "value",
+            "op": "==",
+            "threshold": 1
+          }
+        ],
+        "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\report-channel-fixture-20261004\\job",
+        "data_split": "development only",
+        "hypothesis_id": "hyp_50dff51c79a644ddbce44a9f9580b460",
+        "metric_units": {
+          "value": "무차원"
+        },
+        "metrics": [
+          "value"
+        ],
+        "seed": 0,
+        "source_version": {
+          "files": {
+            "task.py": "9b3f33c15646fde412ef3328dd585a081416bbc7a7ba12af0a5bdab03373a960"
+          },
+          "label": "selection-fixture"
+        },
+        "validator": "selection-fixed",
+        "validator_sha256": "955107781787e5ec99543ad4f777c666e108831559f6cd4ed92c9609598f9db4"
+      },
+      "fingerprint": "2a62c41c69360a4a934fdd1b988889dd4c2f0f73fbe4746d100ec0f39a28fb1f",
+      "created": 1791115297.0132365,
+      "goal_version": 1,
+      "goal_version_source": "explicit"
+    },
+    "reused": false,
+    "revision": 5
+  },
+  "owner_validator": {
+    "name": "selection-fixed",
+    "command": [
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\report-channel-fixture-20261004\\.research\\validators\\955107781787e5ec99543ad4f777c666e108831559f6cd4ed92c9609598f9db4.py",
+      "{bundle}"
+    ],
+    "sha256": "955107781787e5ec99543ad4f777c666e108831559f6cd4ed92c9609598f9db4",
+    "hashes": {
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\report-channel-fixture-20261004\\.research\\validators\\955107781787e5ec99543ad4f777c666e108831559f6cd4ed92c9609598f9db4.py": "955107781787e5ec99543ad4f777c666e108831559f6cd4ed92c9609598f9db4"
+    },
+    "script_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\report-channel-fixture-20261004\\.research\\validators\\955107781787e5ec99543ad4f777c666e108831559f6cd4ed92c9609598f9db4.py",
+    "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\report-channel-fixture-20261004\\fixed_validator.py",
+    "revision": 4
+  },
+  "actual_runs": 0,
+  "revision": 5,
+  "development_only": true
+}

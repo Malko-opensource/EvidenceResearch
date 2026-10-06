@@ -1,0 +1,61 @@
+{
+  "hypothesis_id": "hyp_bee1c71f2c9c496c8c50c5a95a70567d",
+  "change": "Implement strict row validation, whitespace-normalized groups, and exact rational centered weighted moments in summarize(rows).",
+  "comparison": "Identical initial candidate described by episode.json; public input and owner fixed independent validator with no prior memory.",
+  "data_split": {
+    "public": "input.csv",
+    "independent": "owner-fixed csv-fixed-v1; evaluator implementation and independent cases unread"
+  },
+  "seed": 0,
+  "source_version": {
+    "label": "F1-C_OFF-preregistered-v1",
+    "files": {
+      "solution.py": "5f4e6c18602aaa4d71cadbbf67183a2ac546a64fda3fd0c24a5a360d96a6b320",
+      "input.csv": "62100a2fd5250a0e8431bfdaf230ad862199be1df865035e9be93f407e2fc1ab",
+      "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+    }
+  },
+  "metrics": [
+    "pass_rate"
+  ],
+  "criteria": [
+    {
+      "metric": "pass_rate",
+      "op": ">=",
+      "threshold": 1
+    }
+  ],
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "task.py",
+    "F1"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF",
+  "artifacts": [
+    {
+      "name": "result.json",
+      "path": "result.json"
+    },
+    {
+      "name": "invocations.jsonl",
+      "path": "invocations.jsonl"
+    },
+    {
+      "name": "solution.py",
+      "path": "solution.py"
+    },
+    {
+      "name": "input.csv",
+      "path": "input.csv"
+    }
+  ],
+  "validator": "csv-fixed-v1",
+  "task_id": "F1",
+  "conditions": {
+    "condition": "C_OFF",
+    "dependencies": "Python standard library only",
+    "input_policy": "trim group; reject blank group or missing/unparseable/nonfinite numeric fields or weight <= 0",
+    "numeric_method": "Fraction exact centered weighted moments; round final outputs to float",
+    "source_change_requires_new_registration": true
+  }
+}

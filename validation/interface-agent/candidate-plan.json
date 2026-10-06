@@ -1,0 +1,14 @@
+{
+  "task_id": "D",
+  "kind": "development interface validation",
+  "excluded_from_performance_comparisons": true,
+  "draft_file": "solution-draft.py",
+  "expected_solution_sha256": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+  "original_solution_sha256": "2a99df3498a24791deb62b6815bbde3181bd6c3b29b0cc0d713e01a0489de03a",
+  "placement_rule": "Register the draft's expected final hash before copying it into solution.py and before calling run.",
+  "external_reasoning": "A separate total and count per group computes the specified arithmetic mean for each valid group,value row. The initial implementation already computes means on the visible sample; this candidate uses a different implementation for interface validation, with no claim of a discovered baseline defect or research performance improvement.",
+  "expected_public_output": {"groups": {"a": 2.0, "b": 10.0}},
+  "reads": ["BRIEF.ko.md", "episode.json", "solution.py", "input.csv", "public README.md", "installed CLI public help/status/memory"],
+  "task_py_handling": "Hashed as a preregistered executable; contents not inspected.",
+  "independent_evaluator_handling": "Only the fixed validator name and hash from the supplied episode are known; evaluator code and cases are not inspected."
+}

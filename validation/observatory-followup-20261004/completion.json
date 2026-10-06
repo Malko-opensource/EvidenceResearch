@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "native_webmcp_tools": 25,
+  "successful_presentation_calls": 30,
+  "projection_tests_passed": 68,
+  "core_regression_tests_passed": 65,
+  "final_screenshots": {
+    "desktop": "screenshots/25-final-desktop.jpg",
+    "mobile": "screenshots/26-final-mobile.jpg"
+  },
+  "source_install_manifest": "source-install-manifest.json",
+  "research_performance_improvement_claimed": false,
+  "human_usability_study_performed": false
+}

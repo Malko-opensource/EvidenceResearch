@@ -1,0 +1,20 @@
+{
+  "version": "0.7.0",
+  "pid": 51496,
+  "command": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+  "started_at": "2026-10-04T10:30:47.0192854Z",
+  "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+  "url": "http://127.0.0.1:8765/",
+  "args": [
+    "-I",
+    "-m",
+    "research_cli.web_server",
+    "--root",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+    "--port",
+    "8765"
+  ],
+  "automatic_os_startup": false,
+  "replaces_verified_project_pid": 10344,
+  "replaces_verified_project_child": 1732
+}

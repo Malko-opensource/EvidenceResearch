@@ -1,0 +1,17 @@
+Processing .\.
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: research-state-cli
+  Building wheel for research-state-cli (pyproject.toml): started
+  Building wheel for research-state-cli (pyproject.toml): finished with status 'done'
+  Created wheel for research-state-cli: filename=research_state_cli-0.2.0-py3-none-any.whl size=24005 sha256=496ceaaf69e58f6a7bf145ede54b290cc1adf4e7ef8e18e3e8d23b32af74da87
+  Stored in directory: C:\Users\Potato\AppData\Local\Temp\pip-ephem-wheel-cache-4h5h_4kh\wheels\21\85\ae\a8c0cb4a50345eaeb0f2929a06a20acf52064a5c2ffb139c24
+Successfully built research-state-cli
+Looking in links: c:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\validation\wheels
+Processing c:\users\potato\documents\chatgpt\research agent\evidenceresearch\validation\wheels\research_state_cli-0.2.0-py3-none-any.whl
+Installing collected packages: research-state-cli
+  Attempting uninstall: research-state-cli
+    Found existing installation: research-state-cli 0.2.0
+    Uninstalling research-state-cli-0.2.0:
+      Successfully uninstalled research-state-cli-0.2.0
+Successfully installed research-state-cli-0.2.0

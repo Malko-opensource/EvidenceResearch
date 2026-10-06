@@ -1,0 +1,67 @@
+{
+  "id": "reg_8d5f6ae9a92443d2abd148aa8338efe1",
+  "goal_id": "goal_981134f0c22c4bac9e7985dbc9efd5d4",
+  "hypothesis_id": "hyp_625dd5a9eaa14750be3e6b35103905ce",
+  "spec": {
+    "artifacts": [
+      {
+        "name": "result.json",
+        "path": "result.json"
+      },
+      {
+        "name": "invocations.jsonl",
+        "path": "invocations.jsonl"
+      },
+      {
+        "name": "solution.py",
+        "path": "solution.py"
+      },
+      {
+        "name": "input.csv",
+        "path": "input.csv"
+      }
+    ],
+    "change": "Reject invalid rows before latest timestamp selection by trimmed event ID; later valid input wins ties; use exact rational summation of finite float values for stable means.",
+    "command": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "task.py",
+      "M1"
+    ],
+    "comparison": "The provided initial tactic compares entire rows. This candidate changes identity and validation according to the brief. No baseline pass rate is measured or claimed.",
+    "conditions": {
+      "dependencies": "Python standard library only",
+      "input_mutation": "forbidden",
+      "memory": "C_OFF: no seeded memory, no useful initial record returned"
+    },
+    "criteria": [
+      {
+        "metric": "pass_rate",
+        "op": ">=",
+        "threshold": 1.0
+      }
+    ],
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF",
+    "data_split": {
+      "development": "Public supplied input.csv and BRIEF.ko.md only",
+      "evaluation": "Owner fixed independent csv-fixed-v1; cases and implementation not read"
+    },
+    "hypothesis_id": "hyp_625dd5a9eaa14750be3e6b35103905ce",
+    "metrics": [
+      "pass_rate"
+    ],
+    "seed": 0,
+    "source_version": {
+      "files": {
+        "input.csv": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+        "solution.py": "e35dfbb29e2c618272a1155aaeaca896e21dbd848739231b76b0557c2e16a44c",
+        "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+      },
+      "label": "M1-C_OFF-latest-valid-event-v1"
+    },
+    "task_id": "M1",
+    "validator": "csv-fixed-v1",
+    "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed"
+  },
+  "fingerprint": "59fa72404046d115e0668417349322550c874bc5d9965d436957ddf6ef3f3db3",
+  "created": 1791044765.038762
+}

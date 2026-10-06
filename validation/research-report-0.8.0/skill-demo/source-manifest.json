@@ -1,0 +1,10 @@
+{
+  "label": "skill-demo-descriptive-csv-v1",
+  "experiment_cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment",
+  "files": {
+    "task.py": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306",
+    "data.csv": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a"
+  },
+  "original_csv_sha256": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+  "validator_original_sha256": "e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0"
+}

@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "data": {
+    "registration_id": "reg_5c7bb55e651348ea81eed839828fdaeb",
+    "result": {
+      "metrics": {
+        "pass_rate": 1.0
+      },
+      "details": {
+        "expected_mean": 5,
+        "expected_variance": 8,
+        "observed": {
+          "mean": 5.0,
+          "variance": 8.0
+        },
+        "development_fixture": true
+      }
+    },
+    "registered_criteria": [
+      {
+        "metric": "pass_rate",
+        "op": ">=",
+        "threshold": 1
+      }
+    ],
+    "interpreter": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+    "validator_sha256": "9db5cb1d72a51533bc9bc37c8a185f3191fab3f65f29eaba37ea6bfbb1a0f26f",
+    "research_state_updated": false
+  }
+}

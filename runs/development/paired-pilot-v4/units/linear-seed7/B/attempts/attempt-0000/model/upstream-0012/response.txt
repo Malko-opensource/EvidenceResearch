@@ -1,1 +1,0 @@
-Polynomial ridge regression degree selection validation mean squared error feature covariance regularization strength paired comparison linear versus higher-degree polynomial models cross-validation

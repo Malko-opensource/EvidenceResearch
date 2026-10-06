@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "research-observatory",
+  "version": "0.8.0",
+  "description": "Turn research commissions into persistent goals and report progress through the shared research-state CLI and web observatory.",
+  "extensions": {
+    "com.openai": {
+      "skills": "./skills/",
+      "mcpServers": "./.mcp.json",
+      "interface": {
+        "displayName": "Research Observatory",
+        "shortDescription": "Design research goals and explain evidence",
+        "longDescription": "A goal-design skill and connections to the model-independent research-state CLI, stdio MCP and agent-controlled WebMCP report.",
+        "developerName": "EvidenceResearch",
+        "category": "Engineering",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": ["Use $research-goal to turn my research request into a long-term goal."]
+      }
+    }
+  }
+}

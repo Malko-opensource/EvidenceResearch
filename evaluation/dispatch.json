@@ -1,0 +1,53 @@
+{
+  "timing_basis": "UTC dispatch to parent collection; includes service and coordination latency",
+  "episodes": [
+    {
+      "task_id": "F1",
+      "condition": "B",
+      "started_at": "2026-10-03 15:59:14 UTC",
+      "collected_at": "2026-10-03 16:04:22 UTC"
+    },
+    {
+      "task_id": "F1",
+      "condition": "C_OFF",
+      "started_at": "2026-10-03 16:04:22 UTC",
+      "collected_at": "2026-10-03 16:10:35 UTC"
+    },
+    {
+      "task_id": "F2",
+      "condition": "C_OFF",
+      "started_at": "2026-10-03 16:10:35 UTC",
+      "collected_at": "2026-10-03 16:17:52 UTC"
+    },
+    {
+      "task_id": "F2",
+      "condition": "B",
+      "started_at": "2026-10-03 16:17:52 UTC",
+      "collected_at": "2026-10-03 16:23:27 UTC"
+    },
+    {
+      "task_id": "M1",
+      "condition": "C_OFF",
+      "started_at": "2026-10-03 16:23:27 UTC",
+      "collected_at": "2026-10-03 16:28:15 UTC"
+    },
+    {
+      "task_id": "M1",
+      "condition": "C_ON",
+      "started_at": "2026-10-03 16:28:15 UTC",
+      "collected_at": "2026-10-03 16:32:52 UTC"
+    },
+    {
+      "task_id": "M2",
+      "condition": "C_ON",
+      "started_at": "2026-10-03 16:32:52 UTC",
+      "collected_at": "2026-10-03 16:38:05 UTC"
+    },
+    {
+      "task_id": "M2",
+      "condition": "C_OFF",
+      "started_at": "2026-10-03 16:38:05 UTC",
+      "collected_at": "2026-10-03 16:41:59 UTC"
+    }
+  ]
+}

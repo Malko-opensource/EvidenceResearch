@@ -1,0 +1,27 @@
+{
+  "task_id": "F1",
+  "condition": "B",
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+    "--root",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B",
+    "--task",
+    "F1",
+    "--output",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.json"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B",
+  "started_at": "2026-10-03T16:02:05.680563+00:00",
+  "ended_at": "2026-10-03T16:02:06.132945+00:00",
+  "returncode": 0,
+  "registration_sha256": "b8f3d93eb99c77517c8b231d5eda819c2d62364f9d017392330a25e76a005289",
+  "source_sha256": "00fd9536a220bc378de45a66f69d34bdb6db051ee44f5be4c8e03df2ec8b6214",
+  "output_path": "check-1.json",
+  "output_sha256": "ffd4a340988c18d9e71529b4e97ff0b0a3b082ea0f130b55d1b947a3e777cd2e",
+  "stdout_path": "check-1.stdout.log",
+  "stderr_path": "check-1.stderr.log",
+  "task_invocations_before": 1,
+  "task_invocations_after": 1,
+  "validator_implementation_read": false
+}

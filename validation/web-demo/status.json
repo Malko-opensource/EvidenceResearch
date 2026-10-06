@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "data": {
+    "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\web-demo-20261004",
+    "goals": [
+      {
+        "id": "goal_f4bfa7a4ce244f728ff5f92e5aa3ea73",
+        "title": "웹 연결 실연 · 가중 통계",
+        "description": "개발용 기능 실연. 같은 연구 상태를 CLI와 WebMCP로 공유하며 독립 검증을 확인한다. 연구 성능 비교에는 포함하지 않는다.",
+        "created": 1791093596.4613416
+      }
+    ],
+    "goal_total": 1,
+    "hypotheses": [
+      {
+        "id": "hyp_7eb71f6df1b040ec9c6d5f61be85bff2",
+        "goal_id": "goal_f4bfa7a4ce244f728ff5f92e5aa3ea73",
+        "statement": "고정 입력의 가중 평균과 분산을 계산한 산출물이 독립 기대값 5와 8에 일치한다.",
+        "created": 1791093602.8207097
+      }
+    ],
+    "hypothesis_total": 1,
+    "registrations": [
+      {
+        "id": "reg_5c7bb55e651348ea81eed839828fdaeb",
+        "execution": "succeeded",
+        "verification": "passed",
+        "decision": "adopted",
+        "allowed_actions": [
+          "show",
+          "memory",
+          "evidence"
+        ],
+        "missing_evidence": []
+      }
+    ],
+    "total": 1,
+    "limit": 20,
+    "offset": 0,
+    "allowed_actions": [
+      "goal",
+      "hypothesis",
+      "register",
+      "memory",
+      "show",
+      "export"
+    ],
+    "revision": 8
+  }
+}

@@ -1,4 +1,0 @@
-{"type":"thread.started","thread_id":"01a0fd6d-0ea1-74a3-b1fd-3b678624738b"}
-{"type":"turn.started"}
-{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression degree and regularization selection using validation mean squared error feature covariance bias variance tradeoff higher degree shrinkage small sample generalization validation selection optimism"}}
-{"type":"turn.completed","usage":{"input_tokens":20051,"cached_input_tokens":12544,"cache_write_input_tokens":0,"output_tokens":34,"reasoning_output_tokens":0}}

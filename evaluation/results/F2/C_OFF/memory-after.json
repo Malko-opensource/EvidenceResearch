@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "data": {
+    "items": [
+      {
+        "id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+        "goal_id": "goal_897e0d7df14944e09050c2b737fd2768",
+        "hypothesis": "Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.",
+        "execution": "succeeded",
+        "verification": "passed",
+        "decision": "adopted",
+        "outcome": "success",
+        "reason": "The owner-fixed csv-fixed-v1 verifier independently recomputed preserved source and confirmed integrity and 8/8 checks with pass_rate 1.0, meeting the preregistered threshold.",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "tokens": {
+            "status": "unknown",
+            "value": null
+          },
+          "wall_seconds": 0.06300000002374873
+        },
+        "evidence_count": 11,
+        "summary": "Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.",
+        "conditions": {
+          "comparison": "Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.",
+          "data_split": "Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.",
+          "seed": 0,
+          "source_version": {
+            "files": {
+              "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+              "solution.py": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+              "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+            },
+            "label": "F2-C_OFF-candidate-1"
+          }
+        },
+        "evidence_integrity": "valid",
+        "claim_verified": true
+      }
+    ],
+    "total": 1,
+    "limit": 20,
+    "offset": 0,
+    "revision": 8
+  }
+}

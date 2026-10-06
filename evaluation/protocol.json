@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "protocol_id": "csv-feasibility-20261004-v1",
+  "status": "preregistered_before_external_agent_runs",
+  "purpose": "Functional feasibility and descriptive matched external-agent comparison",
+  "primary_pairs": [
+    {"task_id": "F1", "order": ["B", "C_OFF"], "episodes_per_condition": 1},
+    {"task_id": "F2", "order": ["C_OFF", "B"], "episodes_per_condition": 1}
+  ],
+  "memory_pairs": [
+    {"task_id": "M1", "order": ["C_OFF", "C_ON"], "episodes_per_condition": 1},
+    {"task_id": "M2", "order": ["C_ON", "C_OFF"], "episodes_per_condition": 1}
+  ],
+  "development_tasks_excluded": ["D", "M_PRIOR"],
+  "agent": {
+    "framework": "Codex subagent",
+    "fresh_context": "fork_turns=none",
+    "model": "inherited parent model; exact service identifier recorded if observable",
+    "reasoning_effort": "inherited identically",
+    "separate_private_workspaces": true,
+    "cross_condition_answer_access": false,
+    "model_calls_owned_by": "external agent",
+    "cli_model_calls_permitted": false
+  },
+  "conditions": {
+    "B": "Existing external agent and current inherited model, no research CLI, plain files permitted",
+    "C_OFF": "Same external agent/model, research CLI, no prior memory seeded",
+    "C_ON": "Same external agent/model and CLI; independently verified prior failed full-row dedup experiment seeded"
+  },
+  "matched_inputs": ["task brief", "initial solution.py", "public input.csv", "Python runtime", "standard-library dependency policy", "working filesystem permissions", "evaluation command contract", "registered criteria", "duplicate repetition requirement"],
+  "memory_treatment": {
+    "prior_record_must_be_actual": true,
+    "prior_task_id": "M_PRIOR",
+    "prior_inputs_and_validation_cases_disjoint_from_final": true,
+    "prior_failed_tactic": "Full-row equality does not remove corrected rows of the same event_id",
+    "verify_before_seeding": true,
+    "include_original_artifacts_hashes_and_applicability": true,
+    "off_search_returns_no_prior_records": true,
+    "not_independent_replications": "M1 and M2 are input variants of one event-dedup task"
+  },
+  "task_contract": {
+    "entrypoint": "solution.py:summarize(rows)",
+    "input": "list of string dictionaries from csv.DictReader",
+    "output": "task-specific JSON-friendly dictionary; no extra keys",
+    "task_command": ["PYTHON", "task.py", "TASK_ID"],
+    "validator_command": ["PYTHON", "fixed_validator.py", "{bundle}"],
+    "artifacts": ["result.json", "invocations.jsonl", "solution.py", "input.csv"],
+    "source_files": ["solution.py", "input.csv", "task.py"],
+    "metric": "pass_rate",
+    "criterion": {"metric": "pass_rate", "op": ">=", "threshold": 1.0},
+    "fixed_validation_basis": "Recompute preserved source in fresh local Python subprocesses and compare against independent Decimal reference cases; also check run CSV result",
+    "numeric_tolerance": "absolute 1e-8 plus two math.ulp(reference) steps"
+  },
+  "measurements": {
+    "task_quality": ["pass_rate", "passed_cases", "total_cases", "complete_pass"],
+    "duplicate_executions": "extra invocation marker lines for identical concrete conditions beyond the first actual invocation",
+    "error_recovery": "known resolved, unresolved, or not_observed; retain fault and recovery evidence",
+    "unsupported_claims": "assertions of verified success or adoption without matching fixed-validator result and prerequisite execution evidence",
+    "time": "elapsed wall time from external-agent episode dispatch to completion; launch and task time separately if available",
+    "tokens": "observed usage only; otherwise status=unknown,value=null",
+    "aggregate_weighted_judgment_score": null
+  },
+  "acceptance": {
+    "functionality": "All model-free contract tests pass and at least one actual C agent performs state, memory, hypothesis, registration, execution, independent verification, decision and updated-memory steps",
+    "research_improvement": "unproven; these small descriptive pairs cannot establish general improvement",
+    "failure_action": "Preserve failure, fix demonstrated defects and create a new protocol or registration for changed conditions; do not overwrite preregistration"
+  },
+  "sample_rationale": "One episode for each of two distinct numeric data-processing tasks verifies the whole tool path; two memory input variants exercise retrieval applicability and duplicate correction. This is a defined small feasibility workload, not an effect-size/power calculation or a limit on all future research.",
+  "global_research_iteration_limit": null,
+  "global_research_time_limit": null,
+  "consecutive_failure_limit": null,
+  "limitations": ["small nonstatistical sample", "model stochasticity", "shared same-account local host", "scheduler and wall-time noise", "memory variants are not independent tasks", "exact external usage may be unavailable", "instruction-based hidden-case access restriction is not OS security isolation"],
+  "not_a_comparison_against": "Original full Agent Laboratory system"
+}

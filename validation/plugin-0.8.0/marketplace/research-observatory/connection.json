@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "research_root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\research-root",
+  "workspace_rule": "A tool workspace is relative to research_root; CLI uses the same absolute directory.",
+  "python": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+  "installed_cli_version": "0.7.0",
+  "cli_command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+    "-I",
+    "-m",
+    "research_cli.cli"
+  ],
+  "mcp_command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+    "-I",
+    "-m",
+    "research_cli.mcp_server",
+    "--root",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\research-root"
+  ],
+  "web_command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+    "-I",
+    "-m",
+    "research_cli.web_server",
+    "--root",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\research-root",
+    "--port",
+    "8788"
+  ],
+  "web_url": "http://127.0.0.1:8788/",
+  "models_called_by_plugin": false,
+  "starts_web_or_research_on_install": false
+}

@@ -1,8 +1,0 @@
-execution_kind=actual_cpu_execution
-implementation=trusted allow-listed polynomial ridge
-test_access=withheld
-fit_split=train
-selection_split=validation
-configuration={"alpha":0.0,"degree":1}
-metrics={"train_mse":0.006216729601937791,"validation_mse":0.006261953634633844}
-execution_seconds=0.003456900

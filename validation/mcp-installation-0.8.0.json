@@ -1,0 +1,264 @@
+{
+  "at": "2026-10-04T12:03:29.459969+00:00",
+  "version": "0.8.0",
+  "mcp_sdk": "2.3.0",
+  "codex_server": "research_state",
+  "codex_registered": true,
+  "launcher": {
+    "command": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+    "args": [
+      "-I",
+      "-m",
+      "research_cli.mcp_server",
+      "--root",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces"
+    ]
+  },
+  "configuration_unchanged_during_probe": true,
+  "actual_stdio_transport": true,
+  "isolated_installed_module": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Lib\\site-packages\\research_cli\\__init__.py",
+  "tested_outside_source_directory": true,
+  "tool_count": 23,
+  "tools": [
+    "research_decide",
+    "research_evidence",
+    "research_export",
+    "research_goal",
+    "research_goal_amend",
+    "research_goal_close",
+    "research_goal_resume",
+    "research_goal_show",
+    "research_help",
+    "research_hypothesis",
+    "research_init",
+    "research_laya_prepare",
+    "research_laya_resolve",
+    "research_memory",
+    "research_recover",
+    "research_register",
+    "research_resource",
+    "research_resource_show",
+    "research_restore",
+    "research_run",
+    "research_show",
+    "research_status",
+    "research_verify"
+  ],
+  "installed_source_matches": {
+    "__init__.py": true,
+    "__main__.py": true,
+    "cli.py": true,
+    "core.py": true,
+    "laya.py": true,
+    "mcp_bridge.py": true,
+    "mcp_server.py": true,
+    "runner.py": true,
+    "transfer.py": true,
+    "web_server.py": true,
+    "web_tools.py": true,
+    "worker.py": true
+  },
+  "wheel_sha256": "676bc8255e815e2a72ecd705d657151448b7159afdd81b6fa861c58777ae4ecd",
+  "workspace": "installation-check-580fcadc87b84e7880acc96419c9203c",
+  "model_calls": false,
+  "experiment_launched": false,
+  "core_runtime_dependencies": [],
+  "transcript": [
+    {
+      "tool": "research_help",
+      "arguments": {
+        "workspace": "installation-check-580fcadc87b84e7880acc96419c9203c"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "version": "0.8.0",
+          "commands": [
+            "init",
+            "goal",
+            "goal_show",
+            "goal_amend",
+            "goal_close",
+            "goal_resume",
+            "resource",
+            "resource_show",
+            "hypothesis",
+            "validator",
+            "register",
+            "status",
+            "run",
+            "recover",
+            "verify",
+            "decide",
+            "evidence",
+            "memory",
+            "show",
+            "export",
+            "restore",
+            "laya"
+          ],
+          "json_input": "--input FILE or --input - for stdin",
+          "registration_json": "help --topic register returns the public example; register --help shows command arguments",
+          "execution_output": "run/recover/verify return compact data.record states, metrics and preserved artifact paths; --full or show returns full original detail",
+          "memory_query": "Literal substring search, not token or semantic search; use limit/offset pages",
+          "laya": "Optional prepare/resolve exchange for externally executed Laya; help --topic laya returns input and instructions",
+          "conflicts": "--expect workspace revision to reject stale writes",
+          "unknown_resume": "recover inspects receipts; unknown executions are never automatically restarted",
+          "roles": "agent records proposals/registers/runs; owner freezes validators; fixed verifier produces verified metrics",
+          "security": "Local capabilities and hashes are not OS isolation"
+        }
+      }
+    },
+    {
+      "tool": "research_init",
+      "arguments": {
+        "workspace": "installation-check-580fcadc87b84e7880acc96419c9203c"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\installation-check-580fcadc87b84e7880acc96419c9203c",
+          "revision": 0,
+          "runner_interpreter": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe"
+        }
+      }
+    },
+    {
+      "tool": "research_goal",
+      "arguments": {
+        "title": "MCP 설치 확인",
+        "description": "Development-only installed launcher probe; no experiment",
+        "workspace": "installation-check-580fcadc87b84e7880acc96419c9203c"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "id": "goal_514136b997ff4a9cac4ef97bb15164e1",
+          "title": "MCP 설치 확인",
+          "description": "Development-only installed launcher probe; no experiment",
+          "created": 1791115409.386944,
+          "version": 1,
+          "brief": {},
+          "state": "active",
+          "state_source": "explicit",
+          "lifecycle": {
+            "id": "lifecycle_6ff6f13048b747e5ae89ddccc7371e12",
+            "goal_id": "goal_514136b997ff4a9cac4ef97bb15164e1",
+            "goal_version": 1,
+            "state": "active",
+            "reason": "Goal created; this does not authorize experiment execution",
+            "results": [],
+            "incomplete": [],
+            "created": 1791115409.386944,
+            "source": "explicit"
+          },
+          "changed_at": 1791115409.386944,
+          "reused": false,
+          "revision": 1
+        }
+      }
+    },
+    {
+      "tool": "research_hypothesis",
+      "arguments": {
+        "goal": "goal_514136b997ff4a9cac4ef97bb15164e1",
+        "statement": "설치된 서버에서 입력과 영속 상태를 연결할 수 있다",
+        "workspace": "installation-check-580fcadc87b84e7880acc96419c9203c"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "id": "hyp_c78649b2dc9c4607a5fbf93d78eeff11",
+          "goal_id": "goal_514136b997ff4a9cac4ef97bb15164e1",
+          "statement": "설치된 서버에서 입력과 영속 상태를 연결할 수 있다",
+          "created": 1791115409.3939445,
+          "revision": 2
+        }
+      }
+    },
+    {
+      "tool": "research_status",
+      "arguments": {
+        "goal": "goal_514136b997ff4a9cac4ef97bb15164e1",
+        "workspace": "installation-check-580fcadc87b84e7880acc96419c9203c"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\installation-check-580fcadc87b84e7880acc96419c9203c",
+          "goals": [
+            {
+              "id": "goal_514136b997ff4a9cac4ef97bb15164e1",
+              "title": "MCP 설치 확인",
+              "description": "Development-only installed launcher probe; no experiment",
+              "created": 1791115409.386944,
+              "version": 1,
+              "brief": {},
+              "state": "active",
+              "state_source": "explicit",
+              "lifecycle": {
+                "id": "lifecycle_6ff6f13048b747e5ae89ddccc7371e12",
+                "goal_id": "goal_514136b997ff4a9cac4ef97bb15164e1",
+                "goal_version": 1,
+                "state": "active",
+                "reason": "Goal created; this does not authorize experiment execution",
+                "results": [],
+                "incomplete": [],
+                "created": 1791115409.386944,
+                "source": "explicit"
+              },
+              "changed_at": 1791115409.386944
+            }
+          ],
+          "goal_total": 1,
+          "hypotheses": [
+            {
+              "id": "hyp_c78649b2dc9c4607a5fbf93d78eeff11",
+              "goal_id": "goal_514136b997ff4a9cac4ef97bb15164e1",
+              "statement": "설치된 서버에서 입력과 영속 상태를 연결할 수 있다",
+              "created": 1791115409.3939445
+            }
+          ],
+          "hypothesis_total": 1,
+          "registrations": [],
+          "total": 0,
+          "limit": 20,
+          "offset": 0,
+          "allowed_actions": [
+            "goal",
+            "goal_show",
+            "goal_amend",
+            "goal_close",
+            "goal_resume",
+            "resource",
+            "resource_show",
+            "memory",
+            "show",
+            "export",
+            "hypothesis",
+            "register"
+          ],
+          "revision": 2
+        }
+      }
+    },
+    {
+      "tool": "research_memory",
+      "arguments": {
+        "query": "설치 확인",
+        "limit": 5,
+        "workspace": "installation-check-580fcadc87b84e7880acc96419c9203c"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "items": [],
+          "total": 0,
+          "limit": 5,
+          "offset": 0,
+          "revision": 2
+        }
+      }
+    }
+  ]
+}

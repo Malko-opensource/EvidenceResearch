@@ -1,1 +1,0 @@
-Polynomial ridge regression degree selection and regularization strength using validation mean squared error, feature covariance, bias-variance tradeoff, and validation selection optimism

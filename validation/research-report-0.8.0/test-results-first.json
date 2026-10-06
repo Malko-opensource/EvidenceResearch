@@ -1,0 +1,30 @@
+{
+  "python": {
+    "ok": false,
+    "returncode": 1,
+    "command": [
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "count": 63,
+    "elapsed_seconds": 42.90599999995902
+  },
+  "model": {
+    "ok": true,
+    "returncode": 0,
+    "command": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "--test",
+      "tests/test_view_model.mjs"
+    ],
+    "count": 42,
+    "elapsed_seconds": 0.14000000001396984
+  }
+}

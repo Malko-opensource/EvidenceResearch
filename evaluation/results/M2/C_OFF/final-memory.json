@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "data": {
+    "items": [
+      {
+        "id": "reg_fa4bf71dce5c4f4f951c47176da41e9f",
+        "goal_id": "goal_8d38f0585f4a47099680b80fa63ec9fd",
+        "hypothesis": "For M2 C_OFF, rejecting rows with blank trimmed event_id/group or non-finite/unparseable timestamp/value, then retaining the maximal timestamp per event_id with later input rows winning ties and computing each retained group arithmetic mean from exact sums of the parsed finite floats, will yield pass_rate 1.0 on the owner-frozen independent csv-fixed-v1 evaluation. The hypothesis is independently proposed from the brief and public files; initial memory search returned no records.",
+        "execution": "succeeded",
+        "verification": "passed",
+        "decision": "adopted",
+        "outcome": "success",
+        "reason": "Adopted for M2 only: owner-frozen csv-fixed-v1 independently recomputed the preserved source and run artifact, returned pass_rate 1.0 with 7/7 checks passed and integrity true, meeting the preregistered threshold. The repeated logical run request returned started:false and both actual invocation files stayed at one invocation. Initial event memory search had no records; no general improvement claim is supported.",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "tokens": {
+            "status": "unknown",
+            "value": null
+          },
+          "wall_seconds": 0.07800000003771856
+        },
+        "evidence_count": 11,
+        "summary": "Replace whole-row equality with validation followed by event_id selection by latest finite timestamp; later valid rows win ties; accumulate parsed float values exactly for group means.",
+        "conditions": {
+          "comparison": "Initial public whole-row equality implementation versus the preregistered candidate, assessed by independent owner-fixed evaluation only.",
+          "data_split": {
+            "development": "Public BRIEF.ko.md and provided input.csv inspected for development; no fixed evaluation cases inspected.",
+            "evaluation": "Owner-frozen csv-fixed-v1 independent evaluation, kept separate from public development data."
+          },
+          "seed": 0,
+          "source_version": {
+            "files": {
+              "input.csv": "2837ddfd4f77448823c310bdf588d6a82bda579b9b96b07fa1e3e1e8c839b0a9",
+              "solution.py": "423d5b373523b5ac2c64e5ef44ca9f1fa223440b40f2c2ecd1a54cef76a2c967",
+              "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+            },
+            "label": "codex-m2-coff-latest-valid-v1"
+          }
+        },
+        "evidence_integrity": "valid",
+        "claim_verified": true
+      }
+    ],
+    "total": 1,
+    "limit": 20,
+    "offset": 0,
+    "revision": 8
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "artifact_hashes": {
+    "check-1.json": "48d1f7f550b6e1265ecb886f333e8bd19ff67035be607c6be7f14e3dc53c4d64",
+    "check-1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "check-1.stdout.txt": "f3ad15c81463de517acc5114ef07ef30ac38966b5d2aff61d78c91e326b46150",
+    "receipt.json": "3a35cf1f54002912a874d506003f782c1436aa76885667e900a0c69b834b73e0",
+    "result.json": "96eb2197a1c44184b80d4c872bd5b0902e0b66460aca98a0e59647bcebd6dbd9",
+    "solution.py": "0ca69cd1b98e59bcebfa6fa5a4f386c0f6f070aad8f66d7f70524c38926a6087"
+  },
+  "checker_original_result": {
+    "details": {
+      "basis": "preserved_source_recomputed",
+      "checks": [
+        {
+          "case": "run_artifact",
+          "exit_code": null,
+          "passed": true,
+          "reason": "run_artifact_recomputed"
+        },
+        {
+          "case": 0,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 1,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 2,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 3,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 4,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 5,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 6,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        }
+      ],
+      "passed_cases": 8,
+      "reported_run_metrics_used": false,
+      "task_id": "F2",
+      "total_cases": 8
+    },
+    "metrics": {
+      "pass_rate": 1.0
+    }
+  },
+  "checker_source_inspected": false,
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+    "--root",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B",
+    "--task",
+    "F2",
+    "--output",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\check-1.json"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B",
+  "finished_at": "2026-10-03T16:21:54.808179+00:00",
+  "returncode": 0,
+  "started_at": "2026-10-03T16:21:54.393337+00:00",
+  "stderr": "",
+  "stdout": "{\"details\": {\"basis\": \"preserved_source_recomputed\", \"checks\": [{\"case\": \"run_artifact\", \"exit_code\": null, \"passed\": true, \"reason\": \"run_artifact_recomputed\"}, {\"case\": 0, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 1, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 2, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 3, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 4, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 5, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}, {\"case\": 6, \"exit_code\": 0, \"passed\": true, \"reason\": \"matched\"}], \"passed_cases\": 8, \"reported_run_metrics_used\": false, \"task_id\": \"F2\", \"total_cases\": 8}, \"metrics\": {\"pass_rate\": 1.0}}\n"
+}

@@ -1,0 +1,217 @@
+{
+  "checked_at": "2026-10-04T14:20:53.502Z",
+  "source_sha256": "ca2c9e8a642f006b3a6f21186de1b54ea5d3411df426cd5c3ea18f994742a997",
+  "method": "Read-only HTTP snapshots projected by actual current view_model.js; no write/run/model calls; in-memory integrity variants only",
+  "passed": true,
+  "cases": [
+    {
+      "name": "actual-negative-demo",
+      "workspace": "goal-plugin-demo-20261004",
+      "revision": 21,
+      "snapshot_sha256": "19dd0a457979b0475ca3723e47af3496a339da429003eb526e98082f965111ce",
+      "goal_state": "completed",
+      "metric": {
+        "name": "satisfaction_pct",
+        "label": "만족도",
+        "status": "measured",
+        "value": 72,
+        "unit": "단위 미등록",
+        "criteria": [
+          {
+            "op": ">=",
+            "threshold": 80,
+            "passed": false
+          }
+        ],
+        "labelSource": "display_translation_of_metric_name"
+      },
+      "graph": {
+        "nodes": 13,
+        "edges": 15,
+        "hypotheses": 1,
+        "shown": 3,
+        "total": 3,
+        "truncated": false
+      },
+      "currentClaimSupported": false,
+      "sourceRefsStamped": true,
+      "variants": []
+    },
+    {
+      "name": "success",
+      "workspace": "product-fixtures-20261004",
+      "revision": 44,
+      "snapshot_sha256": "7ede18e36630239d87824daf8ccd61c9fc3b441c05248921c32c76bc82a985c2",
+      "goal_state": "unknown",
+      "metric": {
+        "name": "weighted_mean",
+        "label": "weighted mean",
+        "status": "measured",
+        "value": 5,
+        "unit": "무차원",
+        "criteria": [
+          {
+            "op": "==",
+            "threshold": 5,
+            "passed": true
+          }
+        ],
+        "labelSource": "name_readability"
+      },
+      "graph": {
+        "nodes": 10,
+        "edges": 10,
+        "hypotheses": 1,
+        "shown": 6,
+        "total": 32,
+        "truncated": true
+      },
+      "currentClaimSupported": true,
+      "sourceRefsStamped": true,
+      "variants": [
+        {
+          "presentation_only_variant": true,
+          "integrity": "tampered",
+          "status": "invalid",
+          "currentClaimSupported": false,
+          "historical_verification_and_adoption_explicit": true,
+          "focus_evidence_state": "tampered",
+          "focus_evidence_label": "변조 감지"
+        },
+        {
+          "presentation_only_variant": true,
+          "integrity": "missing",
+          "status": "invalid",
+          "currentClaimSupported": false,
+          "historical_verification_and_adoption_explicit": true,
+          "focus_evidence_state": "missing",
+          "focus_evidence_label": "파일 누락"
+        }
+      ]
+    },
+    {
+      "name": "failure",
+      "workspace": "product-fixtures-20261004",
+      "revision": 44,
+      "snapshot_sha256": "c2bbc058aa35ff463fb80df1a29f226d2658e7f68b1701b57bd82480b0062f18",
+      "goal_state": "unknown",
+      "metric": {
+        "name": "weighted_mean",
+        "label": "weighted mean",
+        "status": "measured",
+        "value": 5.333333333333333,
+        "unit": "무차원",
+        "criteria": [
+          {
+            "op": "==",
+            "threshold": 5,
+            "passed": false
+          }
+        ],
+        "labelSource": "name_readability"
+      },
+      "graph": {
+        "nodes": 11,
+        "edges": 10,
+        "hypotheses": 2,
+        "shown": 6,
+        "total": 32,
+        "truncated": true
+      },
+      "currentClaimSupported": false,
+      "sourceRefsStamped": true,
+      "variants": []
+    },
+    {
+      "name": "unexecuted",
+      "workspace": "product-fixtures-20261004",
+      "revision": 44,
+      "snapshot_sha256": "7f31b2f5815bb572d1018a134872caf0508be5068751b0f3dbf5e78e3c292829",
+      "goal_state": "unknown",
+      "metric": {
+        "name": "weighted_mean",
+        "label": "weighted mean",
+        "status": "unknown",
+        "value": null,
+        "unit": "무차원",
+        "criteria": [
+          {
+            "op": "==",
+            "threshold": 5,
+            "passed": null
+          }
+        ],
+        "labelSource": "name_readability"
+      },
+      "graph": {
+        "nodes": 7,
+        "edges": 6,
+        "hypotheses": 1,
+        "shown": 6,
+        "total": 32,
+        "truncated": true
+      },
+      "currentClaimSupported": false,
+      "sourceRefsStamped": true,
+      "variants": []
+    },
+    {
+      "name": "many-record-scope",
+      "workspace": "product-fixtures-20261004",
+      "revision": 44,
+      "snapshot_sha256": "18633144f47a99cf0121c96688e40a5d90fe2dc36d9023745dd22915aeacb753",
+      "goal_state": "unknown",
+      "metric": {
+        "name": "weighted_mean",
+        "label": "weighted mean",
+        "status": "unknown",
+        "value": null,
+        "unit": "무차원",
+        "criteria": [
+          {
+            "op": "==",
+            "threshold": 5,
+            "passed": null
+          }
+        ],
+        "labelSource": "name_readability"
+      },
+      "graph": {
+        "nodes": 7,
+        "edges": 6,
+        "hypotheses": 1,
+        "shown": 6,
+        "total": 32,
+        "truncated": true
+      },
+      "currentClaimSupported": false,
+      "sourceRefsStamped": true,
+      "variants": []
+    },
+    {
+      "name": "existing-empty-store",
+      "workspace": "product-empty-20261004",
+      "revision": 0,
+      "snapshot_sha256": "736f7879ae8e94062da89dcced7dcadda4123107bc4cbbed131db469daa40fdd",
+      "goal_state": "unknown",
+      "metric": null,
+      "graph": {
+        "nodes": 0,
+        "edges": 0,
+        "hypotheses": 0,
+        "shown": 0,
+        "total": 0,
+        "truncated": false
+      },
+      "currentClaimSupported": false,
+      "sourceRefsStamped": true,
+      "variants": []
+    }
+  ],
+  "display_translation_scope": [
+    "satisfaction_pct",
+    "calculation_matches"
+  ],
+  "display_translation_infers_unit_or_criteria": false,
+  "shared_display_label_helper": "displayMetricLabel"
+}

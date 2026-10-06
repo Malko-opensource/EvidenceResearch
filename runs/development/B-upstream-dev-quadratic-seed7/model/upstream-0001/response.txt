@@ -1,3 +1,0 @@
-```SUMMARY
-ridge regression optimal regularization risk
-```

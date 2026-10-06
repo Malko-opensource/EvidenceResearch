@@ -1,0 +1,1487 @@
+[
+  {
+    "at": "2026-10-04T09:11:00.254Z",
+    "tool": "recover",
+    "native_name": "research_recover__d4b254a0-f6b7-4a88-aad3-49f5c89d44c3",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30"
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "receipt_collected": false,
+        "record": {
+          "registration": {
+            "id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+            "fingerprint": "5a5a4563a479d213be1a835eaefd50434fc5daac2e8ae88ed24dd0e6e77cb3d2"
+          },
+          "run": {
+            "id": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "state": "succeeded",
+            "resources": {
+              "external_model_usage": "unknown",
+              "external_tokens": "unknown",
+              "tokens": {
+                "status": "unknown",
+                "value": null
+              },
+              "wall_seconds": 119.625
+            },
+            "execution_directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\work"
+          },
+          "verification": null,
+          "decision": {
+            "state": "pending"
+          },
+          "revision": 6,
+          "evidence_integrity": "valid",
+          "evidence_summary": {
+            "total": 6,
+            "invalid": 0,
+            "missing_artifact_count": 0,
+            "missing_artifacts": []
+          },
+          "artifacts": [
+            {
+              "name": "result",
+              "sha256": "0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7",
+              "integrity": "valid",
+              "verified": false,
+              "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\evidence\\0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7"
+            }
+          ],
+          "artifact_total": 1,
+          "artifacts_remaining": 0,
+          "claim_verified": false,
+          "detail_retrieval": {
+            "command": "show",
+            "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004"
+          }
+        }
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:11:05.271Z",
+    "tool": "run",
+    "native_name": "research_run__eae6f554-930d-48f7-a67f-6648eb90e901",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "request_key": "agent-observatory-run-v1"
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "started": false,
+        "resume": "Use recover for running/unknown; completed executions are reused.",
+        "record": {
+          "registration": {
+            "id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+            "fingerprint": "5a5a4563a479d213be1a835eaefd50434fc5daac2e8ae88ed24dd0e6e77cb3d2"
+          },
+          "run": {
+            "id": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "state": "succeeded",
+            "resources": {
+              "external_model_usage": "unknown",
+              "external_tokens": "unknown",
+              "tokens": {
+                "status": "unknown",
+                "value": null
+              },
+              "wall_seconds": 119.625
+            },
+            "execution_directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\work"
+          },
+          "verification": null,
+          "decision": {
+            "state": "pending"
+          },
+          "revision": 6,
+          "evidence_integrity": "valid",
+          "evidence_summary": {
+            "total": 6,
+            "invalid": 0,
+            "missing_artifact_count": 0,
+            "missing_artifacts": []
+          },
+          "artifacts": [
+            {
+              "name": "result",
+              "sha256": "0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7",
+              "integrity": "valid",
+              "verified": false,
+              "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\evidence\\0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7"
+            }
+          ],
+          "artifact_total": 1,
+          "artifacts_remaining": 0,
+          "claim_verified": false,
+          "detail_retrieval": {
+            "command": "show",
+            "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004"
+          }
+        }
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:11:09.370Z",
+    "tool": "decide",
+    "native_name": "research_decide__c4c72114-bf41-4457-9919-39f1ea4e52c3",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "decision": "adopted",
+      "reason": "실행 성공만으로 채택할 수 없는지 확인"
+    },
+    "result": {
+      "ok": false,
+      "error": {
+        "code": "INVALID_TRANSITION",
+        "message": "Adoption requires independent verification to pass",
+        "details": {}
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:11:13.692Z",
+    "tool": "verify",
+    "native_name": "research_verify__52f6d2e9-c156-4666-8a40-652b8256f8b4",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30"
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "record": {
+          "registration": {
+            "id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+            "fingerprint": "5a5a4563a479d213be1a835eaefd50434fc5daac2e8ae88ed24dd0e6e77cb3d2"
+          },
+          "run": {
+            "id": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "state": "succeeded",
+            "resources": {
+              "external_model_usage": "unknown",
+              "external_tokens": "unknown",
+              "tokens": {
+                "status": "unknown",
+                "value": null
+              },
+              "wall_seconds": 119.625
+            },
+            "execution_directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\work"
+          },
+          "verification": {
+            "run_id": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "state": "passed",
+            "metrics": {
+              "pass_rate": 1
+            },
+            "metric_total": 1,
+            "criteria_results": [
+              {
+                "actual": 1,
+                "metric": "pass_rate",
+                "op": ">=",
+                "passed": true,
+                "threshold": 1
+              }
+            ],
+            "criteria_total": 1
+          },
+          "decision": {
+            "state": "pending"
+          },
+          "revision": 7,
+          "evidence_integrity": "valid",
+          "evidence_summary": {
+            "total": 6,
+            "invalid": 0,
+            "missing_artifact_count": 0,
+            "missing_artifacts": []
+          },
+          "artifacts": [
+            {
+              "name": "result",
+              "sha256": "0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7",
+              "integrity": "valid",
+              "verified": true,
+              "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\evidence\\0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7"
+            }
+          ],
+          "artifact_total": 1,
+          "artifacts_remaining": 0,
+          "claim_verified": true,
+          "detail_retrieval": {
+            "command": "show",
+            "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004"
+          }
+        }
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:11:18.391Z",
+    "tool": "decide",
+    "native_name": "research_decide__c4c72114-bf41-4457-9919-39f1ea4e52c3",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "decision": "adopted",
+      "reason": "보존 산출물 mean=5, variance=9를 고정 독립 검증기가 확인했고 pass_rate=1이다. 에이전트 관전실 개발 실연이며 연구 성능 개선을 주장하지 않는다."
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "decision": {
+          "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "state": "adopted",
+          "reason": "보존 산출물 mean=5, variance=9를 고정 독립 검증기가 확인했고 pass_rate=1이다. 에이전트 관전실 개발 실연이며 연구 성능 개선을 주장하지 않는다.",
+          "created": 1791105078.361606
+        },
+        "reused": false,
+        "revision": 8
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:11:45.742Z",
+    "tool": "show",
+    "native_name": "research_show__0f15b807-5663-4184-bf9b-69bbd1a7b637",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30"
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "registration": {
+          "id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+          "hypothesis_id": "hyp_0b2811c81d9a4f7a900a028e5eed6491",
+          "spec": {
+            "artifacts": [
+              {
+                "name": "result",
+                "path": "result.json"
+              }
+            ],
+            "change": "고정 가중 입력의 평균과 모집단 분산 산출",
+            "command": [
+              "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+              "task.py"
+            ],
+            "comparison": "후보 코드와 분리해 고정한 독립 기대값 mean=5, variance=9",
+            "conditions": {
+              "interface_test_gate": "외부 에이전트가 release-gate.txt를 생성하면 계산한다. 진행 모션의 실제 대기 확인을 위한 개발 실연이며 전체 연구 시간 제한이 아니다."
+            },
+            "criteria": [
+              {
+                "metric": "pass_rate",
+                "op": ">=",
+                "threshold": 1
+              }
+            ],
+            "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\experiment",
+            "data_split": {
+              "development": "공개 고정 입력 [2,4,10], 가중치 [1,2,1]",
+              "evaluation": "웹 인터페이스 개발용 고정 과제; 과학적 개선 비교에 포함하지 않음"
+            },
+            "hypothesis_id": "hyp_0b2811c81d9a4f7a900a028e5eed6491",
+            "metrics": [
+              "pass_rate"
+            ],
+            "seed": 0,
+            "source_version": {
+              "files": {
+                "task.py": "9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584"
+              },
+              "label": "agent-observatory-v1"
+            },
+            "validator": "agent-observation-v1",
+            "validator_sha256": "9bf37ba3c8a6a3f49c0835d195263c6a0d82c0f9599cd15cb487f8a0662ea7c4"
+          },
+          "fingerprint": "5a5a4563a479d213be1a835eaefd50434fc5daac2e8ae88ed24dd0e6e77cb3d2",
+          "created": 1791104909.4397662
+        },
+        "hypothesis": {
+          "id": "hyp_0b2811c81d9a4f7a900a028e5eed6491",
+          "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+          "statement": "[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.",
+          "created": 1791104855.2524416
+        },
+        "run": {
+          "id": "run_06e2d954f4ac4636b1da7867197eabd0",
+          "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "state": "succeeded",
+          "receipt": {
+            "error": null,
+            "exit_code": 0,
+            "files": [
+              {
+                "name": "source:task.py",
+                "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\experiment\\task.py",
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\work\\task.py",
+                "sha256": "9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584"
+              },
+              {
+                "name": "result",
+                "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\work\\result.json",
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\artifacts\\result.json",
+                "sha256": "0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7"
+              },
+              {
+                "name": "stdout",
+                "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\stdout.log",
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\stdout.log",
+                "sha256": "09c4c259a87612a7f11c680563f7dabe906c01ace55778f410dd0018762ab083"
+              },
+              {
+                "name": "stderr",
+                "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\stderr.log",
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\stderr.log",
+                "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+              },
+              {
+                "name": "launch",
+                "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\launch.json",
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\launch.json",
+                "sha256": "c6372114e581db2ac52c5514b674ad61d877b6eb089e69c39504d0cae02c5137"
+              },
+              {
+                "name": "process",
+                "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\process.json",
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\process.json",
+                "sha256": "6d28e0f3a25988197256d14836419bfc21d1699dd20d257b3a3a80d81cad78cf"
+              }
+            ],
+            "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "request_sha256": "dde2add7921c7e46332710267e43272220419f648884451619e2b119b60a2992",
+            "resources": {
+              "external_model_usage": "unknown",
+              "external_tokens": "unknown",
+              "wall_seconds": 119.625
+            },
+            "run_id": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "state": "succeeded"
+          },
+          "resources": {
+            "external_model_usage": "unknown",
+            "external_tokens": "unknown",
+            "tokens": {
+              "status": "unknown",
+              "value": null
+            },
+            "wall_seconds": 119.625
+          },
+          "reason": null,
+          "created": 1791104926.7134354,
+          "finished": 1791105046.454122
+        },
+        "evidence": [
+          {
+            "id": "ev_23539686e9394f869c1f54836908dffc",
+            "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "run_id": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "name": "stdout",
+            "kind": "measured",
+            "claim": "Local runner file; verification remains separate",
+            "path": ".research/evidence/09c4c259a87612a7f11c680563f7dabe906c01ace55778f410dd0018762ab083",
+            "sha256": "09c4c259a87612a7f11c680563f7dabe906c01ace55778f410dd0018762ab083",
+            "size": 40,
+            "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\stdout.log",
+            "created": 1791105046.454122,
+            "integrity": "valid",
+            "verified": true
+          },
+          {
+            "id": "ev_392553f4d660456f9862195428df1bfc",
+            "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "run_id": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "name": "process",
+            "kind": "measured",
+            "claim": "Local runner file; verification remains separate",
+            "path": ".research/evidence/6d28e0f3a25988197256d14836419bfc21d1699dd20d257b3a3a80d81cad78cf",
+            "sha256": "6d28e0f3a25988197256d14836419bfc21d1699dd20d257b3a3a80d81cad78cf",
+            "size": 55,
+            "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\process.json",
+            "created": 1791105046.454122,
+            "integrity": "valid",
+            "verified": true
+          },
+          {
+            "id": "ev_79b9e503d2064511a3b053948feb98dd",
+            "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "run_id": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "name": "launch",
+            "kind": "measured",
+            "claim": "Local runner file; verification remains separate",
+            "path": ".research/evidence/c6372114e581db2ac52c5514b674ad61d877b6eb089e69c39504d0cae02c5137",
+            "sha256": "c6372114e581db2ac52c5514b674ad61d877b6eb089e69c39504d0cae02c5137",
+            "size": 342,
+            "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\launch.json",
+            "created": 1791105046.454122,
+            "integrity": "valid",
+            "verified": true
+          },
+          {
+            "id": "ev_80032f07ebd044359c6b72791648c67d",
+            "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "run_id": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "name": "source:task.py",
+            "kind": "measured",
+            "claim": "Local runner file; verification remains separate",
+            "path": ".research/evidence/9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584",
+            "sha256": "9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584",
+            "size": 923,
+            "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\experiment\\task.py",
+            "created": 1791105046.454122,
+            "integrity": "valid",
+            "verified": true
+          },
+          {
+            "id": "ev_8b699880d8d943e08b93153feb409148",
+            "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "run_id": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "name": "stderr",
+            "kind": "measured",
+            "claim": "Local runner file; verification remains separate",
+            "path": ".research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "size": 0,
+            "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\stderr.log",
+            "created": 1791105046.454122,
+            "integrity": "valid",
+            "verified": true
+          },
+          {
+            "id": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0",
+            "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "run_id": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "name": "result",
+            "kind": "measured",
+            "claim": "Local runner file; verification remains separate",
+            "path": ".research/evidence/0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7",
+            "sha256": "0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7",
+            "size": 30,
+            "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\work\\result.json",
+            "created": 1791105046.454122,
+            "integrity": "valid",
+            "verified": true
+          }
+        ],
+        "verification": {
+          "run_id": "run_06e2d954f4ac4636b1da7867197eabd0",
+          "state": "passed",
+          "metrics": {
+            "pass_rate": 1
+          },
+          "details": {
+            "_input_sha256": "0c901bebad4ccc0e090764149c7a539550255a26f5da4d9ded6aeeb63120202e",
+            "checks": [
+              true,
+              true
+            ],
+            "criteria_results": [
+              {
+                "actual": 1,
+                "metric": "pass_rate",
+                "op": ">=",
+                "passed": true,
+                "threshold": 1
+              }
+            ],
+            "independent_expected_mean": 5,
+            "independent_expected_variance": 9,
+            "integrity": true,
+            "missing_artifacts": [],
+            "missing_metrics": [],
+            "source": "fixed_local_verifier",
+            "validator_sha256": "9bf37ba3c8a6a3f49c0835d195263c6a0d82c0f9599cd15cb487f8a0662ea7c4",
+            "verifier_output": {
+              "details": {
+                "checks": [
+                  true,
+                  true
+                ],
+                "independent_expected_mean": 5,
+                "independent_expected_variance": 9
+              },
+              "metrics": {
+                "pass_rate": 1
+              },
+              "status": "passed"
+            },
+            "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "verifier_stdout_sha256": "0f548b0540e6c60585f5334f1ad41b4fe8a56b37a30efff4b9cc817f2ba53b6d"
+          },
+          "created": 1791105073.6577044
+        },
+        "decision": {
+          "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "state": "adopted",
+          "reason": "보존 산출물 mean=5, variance=9를 고정 독립 검증기가 확인했고 pass_rate=1이다. 에이전트 관전실 개발 실연이며 연구 성능 개선을 주장하지 않는다.",
+          "created": 1791105078.361606
+        },
+        "revision": 8
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:11:50.472Z",
+    "tool": "view",
+    "native_name": "research_view__14f1d172-8e4c-48bb-9a92-0b7531cba7c5",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "scene": "overview",
+      "offset": -1
+    },
+    "result": {
+      "ok": false,
+      "error": {
+        "code": "INVALID_INPUT",
+        "message": "Out of range: offset",
+        "details": {}
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:11:54.386Z",
+    "tool": "view",
+    "native_name": "research_view__14f1d172-8e4c-48bb-9a92-0b7531cba7c5",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "scene": "overview",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "limit": 1,
+      "offset": 1,
+      "explanation": "一覧ページに記録がなくても指定された実験の原本と不足証拠を表示します。外部エージェント説明は検証済み証拠ではありません。"
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "presentation": {
+          "workspace": "agent-observatory-20261004",
+          "scene": "overview",
+          "selectedRegistration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "revision": 8,
+          "limit": 1,
+          "offset": 1,
+          "pendingCalls": 0,
+          "connected": true,
+          "humanControls": false,
+          "memory": {
+            "query": "",
+            "outcome": null,
+            "verification": null,
+            "limit": 20,
+            "offset": 0
+          },
+          "evidence": null
+        },
+        "status": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004",
+          "goals": [],
+          "goal_total": 1,
+          "hypotheses": [],
+          "hypothesis_total": 1,
+          "registrations": [],
+          "total": 1,
+          "limit": 1,
+          "offset": 1,
+          "allowed_actions": [
+            "goal",
+            "hypothesis",
+            "register",
+            "memory",
+            "show",
+            "export"
+          ],
+          "revision": 8
+        }
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:13:06.640Z",
+    "tool": "view",
+    "native_name": "research_view__4f68f621-aa0b-4ad5-a11b-48a5081a3b8a",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "scene": "overview",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "limit": 1,
+      "offset": 1,
+      "explanation": "이 조회 페이지가 비어도 전체 등록과 선택 실험은 유지됩니다. 실제 검증·결정·부족한 증거를 보여 드립니다."
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "presentation": {
+          "workspace": "agent-observatory-20261004",
+          "scene": "overview",
+          "selectedRegistration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "revision": 8,
+          "limit": 1,
+          "offset": 1,
+          "pendingCalls": 0,
+          "connected": true,
+          "humanControls": false,
+          "memory": {
+            "query": "",
+            "outcome": null,
+            "verification": null,
+            "limit": 20,
+            "offset": 0
+          },
+          "evidence": null
+        },
+        "status": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004",
+          "goals": [],
+          "goal_total": 1,
+          "hypotheses": [],
+          "hypothesis_total": 1,
+          "registrations": [],
+          "total": 1,
+          "limit": 1,
+          "offset": 1,
+          "allowed_actions": [
+            "goal",
+            "hypothesis",
+            "register",
+            "memory",
+            "show",
+            "export"
+          ],
+          "revision": 8
+        }
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:13:11.095Z",
+    "tool": "view",
+    "native_name": "research_view__4f68f621-aa0b-4ad5-a11b-48a5081a3b8a",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "scene": "memory",
+      "query": "가중",
+      "outcome": "success",
+      "verification": "passed",
+      "limit": 1,
+      "offset": 0,
+      "explanation": "고정 조건에서 성공했고 독립 검증을 통과한 기억을 한 건씩 보여 드립니다. 기록 존재와 주장의 검증 여부를 함께 확인합니다."
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "presentation": {
+          "workspace": "agent-observatory-20261004",
+          "scene": "memory",
+          "selectedRegistration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "revision": 8,
+          "limit": 1,
+          "offset": 0,
+          "pendingCalls": 0,
+          "connected": true,
+          "humanControls": false,
+          "memory": {
+            "query": "가중",
+            "outcome": "success",
+            "verification": "passed",
+            "limit": 1,
+            "offset": 0
+          },
+          "evidence": null
+        },
+        "memory": {
+          "items": [
+            {
+              "id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+              "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+              "hypothesis": "[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.",
+              "execution": "succeeded",
+              "verification": "passed",
+              "decision": "adopted",
+              "outcome": "success",
+              "reason": "보존 산출물 mean=5, variance=9를 고정 독립 검증기가 확인했고 pass_rate=1이다. 에이전트 관전실 개발 실연이며 연구 성능 개선을 주장하지 않는다.",
+              "resources": {
+                "external_model_usage": "unknown",
+                "external_tokens": "unknown",
+                "tokens": {
+                  "status": "unknown",
+                  "value": null
+                },
+                "wall_seconds": 119.625
+              },
+              "evidence_count": 6,
+              "summary": "고정 가중 입력의 평균과 모집단 분산 산출",
+              "conditions": {
+                "comparison": "후보 코드와 분리해 고정한 독립 기대값 mean=5, variance=9",
+                "data_split": {
+                  "development": "공개 고정 입력 [2,4,10], 가중치 [1,2,1]",
+                  "evaluation": "웹 인터페이스 개발용 고정 과제; 과학적 개선 비교에 포함하지 않음"
+                },
+                "seed": 0,
+                "source_version": {
+                  "files": {
+                    "task.py": "9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584"
+                  },
+                  "label": "agent-observatory-v1"
+                }
+              },
+              "evidence_integrity": "valid",
+              "claim_verified": true
+            }
+          ],
+          "total": 1,
+          "limit": 1,
+          "offset": 0,
+          "revision": 8
+        }
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:13:45.846Z",
+    "tool": "inspect",
+    "native_name": "research_inspect_evidence__7a9f8afb-91b1-4cfd-b95d-0dd543810595",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "evidence": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0",
+      "explanation": "원본 해시와 다른 개발 증거를 그대로 신뢰할 수 없는지 확인합니다."
+    },
+    "result": {
+      "ok": false,
+      "error": {
+        "code": "EVIDENCE_TAMPERED",
+        "message": "Preserved evidence no longer matches its registered hash or size",
+        "details": {}
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:13:50.424Z",
+    "tool": "inspect",
+    "native_name": "research_inspect_evidence__7a9f8afb-91b1-4cfd-b95d-0dd543810595",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "evidence": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0",
+      "explanation": "실제 산출물 원문을 등록된 해시와 함께 보여 드립니다. mean=5, variance=9입니다."
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "evidence": {
+          "id": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0",
+          "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "run_id": "run_06e2d954f4ac4636b1da7867197eabd0",
+          "name": "result",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7",
+          "sha256": "0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7",
+          "size": 30,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\work\\result.json",
+          "created": 1791105046.454122,
+          "integrity": "valid",
+          "verified": true
+        },
+        "text": "{\"mean\": 5.0, \"variance\": 9.0}",
+        "truncated": false,
+        "bytes": 30,
+        "presentation": {
+          "workspace": "agent-observatory-20261004",
+          "scene": "evidence",
+          "selectedRegistration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "revision": 8,
+          "limit": 1,
+          "offset": 0,
+          "pendingCalls": 0,
+          "connected": true,
+          "humanControls": false,
+          "memory": {
+            "query": "가중",
+            "outcome": "success",
+            "verification": "passed",
+            "limit": 1,
+            "offset": 0
+          },
+          "evidence": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0"
+        }
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:14:08.039Z",
+    "tool": "view",
+    "native_name": "research_view__4f68f621-aa0b-4ad5-a11b-48a5081a3b8a",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "scene": "activity",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "limit": 1,
+      "offset": 0,
+      "explanation": "연구 저장소의 사건과 이 페이지에서 수행한 도구 호출을 따로 보여 드립니다."
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "presentation": {
+          "workspace": "agent-observatory-20261004",
+          "scene": "activity",
+          "selectedRegistration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "revision": 8,
+          "limit": 1,
+          "offset": 0,
+          "pendingCalls": 0,
+          "connected": true,
+          "humanControls": false,
+          "memory": {
+            "query": "가중",
+            "outcome": "success",
+            "verification": "passed",
+            "limit": 1,
+            "offset": 0
+          },
+          "evidence": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0"
+        },
+        "status": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004",
+          "goals": [
+            {
+              "id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+              "title": "에이전트 관전실 · 가중 통계 실연",
+              "description": "사람의 웹 조작 없이 실제 WebMCP로 사전등록、실행、독립 검증、결정과 원문 조회를 보여주는 개발 과제. 연구 성능 평가와 구분.",
+              "created": 1791104849.0369248
+            }
+          ],
+          "goal_total": 1,
+          "hypotheses": [
+            {
+              "id": "hyp_0b2811c81d9a4f7a900a028e5eed6491",
+              "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+              "statement": "[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.",
+              "created": 1791104855.2524416
+            }
+          ],
+          "hypothesis_total": 1,
+          "registrations": [
+            {
+              "id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+              "execution": "succeeded",
+              "verification": "passed",
+              "decision": "adopted",
+              "allowed_actions": [
+                "show",
+                "memory",
+                "evidence"
+              ],
+              "missing_evidence": []
+            }
+          ],
+          "total": 1,
+          "limit": 1,
+          "offset": 0,
+          "allowed_actions": [
+            "goal",
+            "hypothesis",
+            "register",
+            "memory",
+            "show",
+            "export"
+          ],
+          "revision": 8
+        },
+        "events": [
+          {
+            "id": 8,
+            "revision": 8,
+            "action": "decision.create",
+            "target": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "created": 1791105078.361606
+          },
+          {
+            "id": 7,
+            "revision": 7,
+            "action": "verification.complete",
+            "target": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "created": 1791105073.6577044
+          },
+          {
+            "id": 6,
+            "revision": 6,
+            "action": "run.complete",
+            "target": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "created": 1791105046.454122
+          },
+          {
+            "id": 5,
+            "revision": 5,
+            "action": "run.claim",
+            "target": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "created": 1791104926.7134354
+          },
+          {
+            "id": 4,
+            "revision": 4,
+            "action": "registration.create",
+            "target": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "created": 1791104909.4397662
+          },
+          {
+            "id": 3,
+            "revision": 3,
+            "action": "validator.register",
+            "target": "agent-observation-v1",
+            "created": 1791104895.6127567
+          },
+          {
+            "id": 2,
+            "revision": 2,
+            "action": "hypothesis.create",
+            "target": "hyp_0b2811c81d9a4f7a900a028e5eed6491",
+            "created": 1791104855.2574391
+          },
+          {
+            "id": 1,
+            "revision": 1,
+            "action": "goal.create",
+            "target": "goal_42464ccf19a148cc8a5e518cb21e727e",
+            "created": 1791104849.0408647
+          }
+        ]
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:14:13.380Z",
+    "tool": "view",
+    "native_name": "research_view__4f68f621-aa0b-4ad5-a11b-48a5081a3b8a",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "scene": "overview",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "explanation": "목표, 제안, 고정 조건, 실행, 독립 검증과 결정을 함께 봅니다. 개발 실연의 한 번 실행 결과입니다."
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "presentation": {
+          "workspace": "agent-observatory-20261004",
+          "scene": "overview",
+          "selectedRegistration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "revision": 8,
+          "limit": 20,
+          "offset": 0,
+          "pendingCalls": 0,
+          "connected": true,
+          "humanControls": false,
+          "memory": {
+            "query": "가중",
+            "outcome": "success",
+            "verification": "passed",
+            "limit": 1,
+            "offset": 0
+          },
+          "evidence": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0"
+        },
+        "status": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004",
+          "goals": [
+            {
+              "id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+              "title": "에이전트 관전실 · 가중 통계 실연",
+              "description": "사람의 웹 조작 없이 실제 WebMCP로 사전등록、실행、독립 검증、결정과 원문 조회를 보여주는 개발 과제. 연구 성능 평가와 구분.",
+              "created": 1791104849.0369248
+            }
+          ],
+          "goal_total": 1,
+          "hypotheses": [
+            {
+              "id": "hyp_0b2811c81d9a4f7a900a028e5eed6491",
+              "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+              "statement": "[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.",
+              "created": 1791104855.2524416
+            }
+          ],
+          "hypothesis_total": 1,
+          "registrations": [
+            {
+              "id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+              "execution": "succeeded",
+              "verification": "passed",
+              "decision": "adopted",
+              "allowed_actions": [
+                "show",
+                "memory",
+                "evidence"
+              ],
+              "missing_evidence": []
+            }
+          ],
+          "total": 1,
+          "limit": 20,
+          "offset": 0,
+          "allowed_actions": [
+            "goal",
+            "hypothesis",
+            "register",
+            "memory",
+            "show",
+            "export"
+          ],
+          "revision": 8
+        }
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:16:49.974Z",
+    "tool": "view",
+    "native_name": "research_view__34e7236d-8039-4f4c-8bb6-eec902cf8c11",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "scene": "memory",
+      "query": "가중",
+      "outcome": "success",
+      "verification": "passed",
+      "limit": 1,
+      "offset": 0,
+      "explanation": "기록의 존재, 과거 검증 통과와 현재 주장의 검증 여부를 구분해 보여 드립니다."
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "presentation": {
+          "workspace": "agent-observatory-20261004",
+          "scene": "memory",
+          "selectedRegistration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "revision": 8,
+          "limit": 1,
+          "offset": 0,
+          "pendingCalls": 0,
+          "connected": true,
+          "humanControls": false,
+          "memory": {
+            "query": "가중",
+            "outcome": "success",
+            "verification": "passed",
+            "limit": 1,
+            "offset": 0
+          },
+          "evidence": null
+        },
+        "memory": {
+          "items": [
+            {
+              "id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+              "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+              "hypothesis": "[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.",
+              "execution": "succeeded",
+              "verification": "passed",
+              "decision": "adopted",
+              "outcome": "success",
+              "reason": "보존 산출물 mean=5, variance=9를 고정 독립 검증기가 확인했고 pass_rate=1이다. 에이전트 관전실 개발 실연이며 연구 성능 개선을 주장하지 않는다.",
+              "resources": {
+                "external_model_usage": "unknown",
+                "external_tokens": "unknown",
+                "tokens": {
+                  "status": "unknown",
+                  "value": null
+                },
+                "wall_seconds": 119.625
+              },
+              "evidence_count": 6,
+              "summary": "고정 가중 입력의 평균과 모집단 분산 산출",
+              "conditions": {
+                "comparison": "후보 코드와 분리해 고정한 독립 기대값 mean=5, variance=9",
+                "data_split": {
+                  "development": "공개 고정 입력 [2,4,10], 가중치 [1,2,1]",
+                  "evaluation": "웹 인터페이스 개발용 고정 과제; 과학적 개선 비교에 포함하지 않음"
+                },
+                "seed": 0,
+                "source_version": {
+                  "files": {
+                    "task.py": "9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584"
+                  },
+                  "label": "agent-observatory-v1"
+                }
+              },
+              "evidence_integrity": "valid",
+              "claim_verified": true
+            }
+          ],
+          "total": 1,
+          "limit": 1,
+          "offset": 0,
+          "revision": 8
+        }
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:16:54.134Z",
+    "tool": "memory",
+    "native_name": "research_memory__36cd6965-a93f-4e77-9038-d7e376bd1f3a",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "query": "가중",
+      "limit": 1
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "items": [
+          {
+            "id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+            "hypothesis": "[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.",
+            "execution": "succeeded",
+            "verification": "passed",
+            "decision": "adopted",
+            "outcome": "success",
+            "reason": "보존 산출물 mean=5, variance=9를 고정 독립 검증기가 확인했고 pass_rate=1이다. 에이전트 관전실 개발 실연이며 연구 성능 개선을 주장하지 않는다.",
+            "resources": {
+              "external_model_usage": "unknown",
+              "external_tokens": "unknown",
+              "tokens": {
+                "status": "unknown",
+                "value": null
+              },
+              "wall_seconds": 119.625
+            },
+            "evidence_count": 6,
+            "summary": "고정 가중 입력의 평균과 모집단 분산 산출",
+            "conditions": {
+              "comparison": "후보 코드와 분리해 고정한 독립 기대값 mean=5, variance=9",
+              "data_split": {
+                "development": "공개 고정 입력 [2,4,10], 가중치 [1,2,1]",
+                "evaluation": "웹 인터페이스 개발용 고정 과제; 과학적 개선 비교에 포함하지 않음"
+              },
+              "seed": 0,
+              "source_version": {
+                "files": {
+                  "task.py": "9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584"
+                },
+                "label": "agent-observatory-v1"
+              }
+            },
+            "evidence_integrity": "invalid",
+            "claim_verified": false
+          }
+        ],
+        "total": 1,
+        "limit": 1,
+        "offset": 0,
+        "revision": 8
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:16:59.356Z",
+    "tool": "inspect",
+    "native_name": "research_inspect_evidence__e7ba6346-2db9-4e6d-a5aa-6392d2c16fcf",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "evidence": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0",
+      "explanation": "보존 원문은 평균 5와 분산 9이며 등록 해시와 일치합니다."
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "evidence": {
+          "id": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0",
+          "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "run_id": "run_06e2d954f4ac4636b1da7867197eabd0",
+          "name": "result",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7",
+          "sha256": "0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7",
+          "size": 30,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\.research\\runs\\run_06e2d954f4ac4636b1da7867197eabd0\\work\\result.json",
+          "created": 1791105046.454122,
+          "integrity": "valid",
+          "verified": true
+        },
+        "text": "{\"mean\": 5.0, \"variance\": 9.0}",
+        "truncated": false,
+        "bytes": 30,
+        "presentation": {
+          "workspace": "agent-observatory-20261004",
+          "scene": "evidence",
+          "selectedRegistration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "revision": 8,
+          "limit": 1,
+          "offset": 0,
+          "pendingCalls": 0,
+          "connected": true,
+          "humanControls": false,
+          "memory": {
+            "query": "가중",
+            "outcome": null,
+            "verification": null,
+            "limit": 1,
+            "offset": 0
+          },
+          "evidence": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0"
+        }
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:17:25.948Z",
+    "tool": "export",
+    "native_name": "research_export__8a7f7818-1770-409a-8c61-a9a83168b596",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "output": "agent-web-export.zip"
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004\\agent-web-export.zip",
+        "sha256": "27f07e2f3cff22733dc69e1b0bc73b7bdb04cd551c8883160ff26b43bf59befa",
+        "files": 8
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:17:32.262Z",
+    "tool": "view",
+    "native_name": "research_view__34e7236d-8039-4f4c-8bb6-eec902cf8c11",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "scene": "activity",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "explanation": "영속 연구 사건과 현재 페이지의 에이전트 도구 호출입니다. 실행은 한 번만 기록됐습니다."
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "presentation": {
+          "workspace": "agent-observatory-20261004",
+          "scene": "activity",
+          "selectedRegistration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "revision": 8,
+          "limit": 20,
+          "offset": 0,
+          "pendingCalls": 0,
+          "connected": true,
+          "humanControls": false,
+          "memory": {
+            "query": "가중",
+            "outcome": null,
+            "verification": null,
+            "limit": 1,
+            "offset": 0
+          },
+          "evidence": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0"
+        },
+        "status": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004",
+          "goals": [
+            {
+              "id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+              "title": "에이전트 관전실 · 가중 통계 실연",
+              "description": "사람의 웹 조작 없이 실제 WebMCP로 사전등록、실행、독립 검증、결정과 원문 조회를 보여주는 개발 과제. 연구 성능 평가와 구분.",
+              "created": 1791104849.0369248
+            }
+          ],
+          "goal_total": 1,
+          "hypotheses": [
+            {
+              "id": "hyp_0b2811c81d9a4f7a900a028e5eed6491",
+              "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+              "statement": "[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.",
+              "created": 1791104855.2524416
+            }
+          ],
+          "hypothesis_total": 1,
+          "registrations": [
+            {
+              "id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+              "execution": "succeeded",
+              "verification": "passed",
+              "decision": "adopted",
+              "allowed_actions": [
+                "show",
+                "memory",
+                "evidence"
+              ],
+              "missing_evidence": []
+            }
+          ],
+          "total": 1,
+          "limit": 20,
+          "offset": 0,
+          "allowed_actions": [
+            "goal",
+            "hypothesis",
+            "register",
+            "memory",
+            "show",
+            "export"
+          ],
+          "revision": 8
+        },
+        "events": [
+          {
+            "id": 8,
+            "revision": 8,
+            "action": "decision.create",
+            "target": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "created": 1791105078.361606
+          },
+          {
+            "id": 7,
+            "revision": 7,
+            "action": "verification.complete",
+            "target": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "created": 1791105073.6577044
+          },
+          {
+            "id": 6,
+            "revision": 6,
+            "action": "run.complete",
+            "target": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "created": 1791105046.454122
+          },
+          {
+            "id": 5,
+            "revision": 5,
+            "action": "run.claim",
+            "target": "run_06e2d954f4ac4636b1da7867197eabd0",
+            "created": 1791104926.7134354
+          },
+          {
+            "id": 4,
+            "revision": 4,
+            "action": "registration.create",
+            "target": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+            "created": 1791104909.4397662
+          },
+          {
+            "id": 3,
+            "revision": 3,
+            "action": "validator.register",
+            "target": "agent-observation-v1",
+            "created": 1791104895.6127567
+          },
+          {
+            "id": 2,
+            "revision": 2,
+            "action": "hypothesis.create",
+            "target": "hyp_0b2811c81d9a4f7a900a028e5eed6491",
+            "created": 1791104855.2574391
+          },
+          {
+            "id": 1,
+            "revision": 1,
+            "action": "goal.create",
+            "target": "goal_42464ccf19a148cc8a5e518cb21e727e",
+            "created": 1791104849.0408647
+          }
+        ]
+      }
+    }
+  },
+  {
+    "at": "2026-10-04T09:17:36.117Z",
+    "tool": "view",
+    "native_name": "research_view__34e7236d-8039-4f4c-8bb6-eec902cf8c11",
+    "arguments": {
+      "workspace": "agent-observatory-20261004",
+      "scene": "overview",
+      "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "explanation": "실행 성공, 독립 검증 통과, 채택을 구분해 보여 드립니다. 에이전트가 화면을 제어하며 이 결과는 개발 실연입니다."
+    },
+    "result": {
+      "ok": true,
+      "data": {
+        "presentation": {
+          "workspace": "agent-observatory-20261004",
+          "scene": "overview",
+          "selectedRegistration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+          "revision": 8,
+          "limit": 20,
+          "offset": 0,
+          "pendingCalls": 0,
+          "connected": true,
+          "humanControls": false,
+          "memory": {
+            "query": "가중",
+            "outcome": null,
+            "verification": null,
+            "limit": 1,
+            "offset": 0
+          },
+          "evidence": "ev_900c0bd3ef9f4a4a8d147a3f75cc85d0"
+        },
+        "status": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004",
+          "goals": [
+            {
+              "id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+              "title": "에이전트 관전실 · 가중 통계 실연",
+              "description": "사람의 웹 조작 없이 실제 WebMCP로 사전등록、실행、독립 검증、결정과 원문 조회를 보여주는 개발 과제. 연구 성능 평가와 구분.",
+              "created": 1791104849.0369248
+            }
+          ],
+          "goal_total": 1,
+          "hypotheses": [
+            {
+              "id": "hyp_0b2811c81d9a4f7a900a028e5eed6491",
+              "goal_id": "goal_42464ccf19a148cc8a5e518cb21e727e",
+              "statement": "[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.",
+              "created": 1791104855.2524416
+            }
+          ],
+          "hypothesis_total": 1,
+          "registrations": [
+            {
+              "id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+              "execution": "succeeded",
+              "verification": "passed",
+              "decision": "adopted",
+              "allowed_actions": [
+                "show",
+                "memory",
+                "evidence"
+              ],
+              "missing_evidence": []
+            }
+          ],
+          "total": 1,
+          "limit": 20,
+          "offset": 0,
+          "allowed_actions": [
+            "goal",
+            "hypothesis",
+            "register",
+            "memory",
+            "show",
+            "export"
+          ],
+          "revision": 8
+        }
+      }
+    }
+  }
+]

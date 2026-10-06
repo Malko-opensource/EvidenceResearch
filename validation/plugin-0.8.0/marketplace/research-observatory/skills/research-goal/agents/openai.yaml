@@ -1,0 +1,4 @@
+interface:
+  display_name: "연구 의뢰 설계"
+  short_description: "Clarify research goals, evidence and reporting"
+  default_prompt: "Use $research-goal to turn my research request into a long-term goal."

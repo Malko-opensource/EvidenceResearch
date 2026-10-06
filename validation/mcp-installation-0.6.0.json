@@ -1,0 +1,213 @@
+{
+  "at": "2026-10-04T09:15:05.495513+00:00",
+  "version": "0.6.0",
+  "mcp_sdk": "2.3.0",
+  "codex_server": "research_state",
+  "codex_registered": true,
+  "launcher": {
+    "command": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+    "args": [
+      "-I",
+      "-m",
+      "research_cli.mcp_server",
+      "--root",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces"
+    ]
+  },
+  "configuration_unchanged_during_probe": true,
+  "actual_stdio_transport": true,
+  "isolated_installed_module": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Lib\\site-packages\\research_cli\\__init__.py",
+  "tested_outside_source_directory": true,
+  "tool_count": 17,
+  "tools": [
+    "research_decide",
+    "research_evidence",
+    "research_export",
+    "research_goal",
+    "research_help",
+    "research_hypothesis",
+    "research_init",
+    "research_laya_prepare",
+    "research_laya_resolve",
+    "research_memory",
+    "research_recover",
+    "research_register",
+    "research_restore",
+    "research_run",
+    "research_show",
+    "research_status",
+    "research_verify"
+  ],
+  "installed_source_matches": {
+    "__init__.py": true,
+    "__main__.py": true,
+    "cli.py": true,
+    "core.py": true,
+    "laya.py": true,
+    "mcp_bridge.py": true,
+    "mcp_server.py": true,
+    "runner.py": true,
+    "transfer.py": true,
+    "web_server.py": true,
+    "web_tools.py": true,
+    "worker.py": true
+  },
+  "wheel_sha256": "c9633c5ee39ee3d25e1be911437b1115adb2f3e278bd01db166774e185bcecbe",
+  "workspace": "installation-check-2024823d379446cfa9f7cc8cec74a69b",
+  "model_calls": false,
+  "experiment_launched": false,
+  "core_runtime_dependencies": [],
+  "transcript": [
+    {
+      "tool": "research_help",
+      "arguments": {
+        "workspace": "installation-check-2024823d379446cfa9f7cc8cec74a69b"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "version": "0.6.0",
+          "commands": [
+            "init",
+            "goal",
+            "hypothesis",
+            "validator",
+            "register",
+            "status",
+            "run",
+            "recover",
+            "verify",
+            "decide",
+            "evidence",
+            "memory",
+            "show",
+            "export",
+            "restore",
+            "laya"
+          ],
+          "json_input": "--input FILE or --input - for stdin",
+          "registration_json": "help --topic register returns the public example; register --help shows command arguments",
+          "execution_output": "run/recover/verify return compact data.record states, metrics and preserved artifact paths; --full or show returns full original detail",
+          "memory_query": "Literal substring search, not token or semantic search; use limit/offset pages",
+          "laya": "Optional prepare/resolve exchange for externally executed Laya; help --topic laya returns input and instructions",
+          "conflicts": "--expect workspace revision to reject stale writes",
+          "unknown_resume": "recover inspects receipts; unknown executions are never automatically restarted",
+          "roles": "agent records proposals/registers/runs; owner freezes validators; fixed verifier produces verified metrics",
+          "security": "Local capabilities and hashes are not OS isolation"
+        }
+      }
+    },
+    {
+      "tool": "research_init",
+      "arguments": {
+        "workspace": "installation-check-2024823d379446cfa9f7cc8cec74a69b"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\installation-check-2024823d379446cfa9f7cc8cec74a69b",
+          "revision": 0,
+          "runner_interpreter": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe"
+        }
+      }
+    },
+    {
+      "tool": "research_goal",
+      "arguments": {
+        "title": "MCP 설치 확인",
+        "description": "Development-only installed launcher probe; no experiment",
+        "workspace": "installation-check-2024823d379446cfa9f7cc8cec74a69b"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "id": "goal_4170ee7dc6e74ae8818a75cacbc0b189",
+          "title": "MCP 설치 확인",
+          "description": "Development-only installed launcher probe; no experiment",
+          "created": 1791105305.4383464,
+          "revision": 1
+        }
+      }
+    },
+    {
+      "tool": "research_hypothesis",
+      "arguments": {
+        "goal": "goal_4170ee7dc6e74ae8818a75cacbc0b189",
+        "statement": "설치된 서버에서 입력과 영속 상태를 연결할 수 있다",
+        "workspace": "installation-check-2024823d379446cfa9f7cc8cec74a69b"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "id": "hyp_09bca1dd8aa642ea9ce61fb2ccdbf17d",
+          "goal_id": "goal_4170ee7dc6e74ae8818a75cacbc0b189",
+          "statement": "설치된 서버에서 입력과 영속 상태를 연결할 수 있다",
+          "created": 1791105305.4423532,
+          "revision": 2
+        }
+      }
+    },
+    {
+      "tool": "research_status",
+      "arguments": {
+        "goal": "goal_4170ee7dc6e74ae8818a75cacbc0b189",
+        "workspace": "installation-check-2024823d379446cfa9f7cc8cec74a69b"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\installation-check-2024823d379446cfa9f7cc8cec74a69b",
+          "goals": [
+            {
+              "id": "goal_4170ee7dc6e74ae8818a75cacbc0b189",
+              "title": "MCP 설치 확인",
+              "description": "Development-only installed launcher probe; no experiment",
+              "created": 1791105305.4383464
+            }
+          ],
+          "goal_total": 1,
+          "hypotheses": [
+            {
+              "id": "hyp_09bca1dd8aa642ea9ce61fb2ccdbf17d",
+              "goal_id": "goal_4170ee7dc6e74ae8818a75cacbc0b189",
+              "statement": "설치된 서버에서 입력과 영속 상태를 연결할 수 있다",
+              "created": 1791105305.4423532
+            }
+          ],
+          "hypothesis_total": 1,
+          "registrations": [],
+          "total": 0,
+          "limit": 20,
+          "offset": 0,
+          "allowed_actions": [
+            "goal",
+            "hypothesis",
+            "register",
+            "memory",
+            "show",
+            "export"
+          ],
+          "revision": 2
+        }
+      }
+    },
+    {
+      "tool": "research_memory",
+      "arguments": {
+        "query": "설치 확인",
+        "limit": 5,
+        "workspace": "installation-check-2024823d379446cfa9f7cc8cec74a69b"
+      },
+      "result": {
+        "ok": true,
+        "data": {
+          "items": [],
+          "total": 0,
+          "limit": 5,
+          "offset": 0,
+          "revision": 2
+        }
+      }
+    }
+  ]
+}

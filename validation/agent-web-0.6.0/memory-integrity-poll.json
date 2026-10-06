@@ -1,0 +1,6 @@
+{
+  "memory": "[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.성공고정 가중 입력의 평균과 모집단 분산 산출reg_e14e5d2699f04be5a89f71ed23adbd30실행 · 실행 성공검증 · 검증 통과결정 · 채택주장 미검증 · 실행 미확정보존 산출물 mean=5, variance=9를 고정 독립 검증기가 확인했고 pass_rate=1이다. 에이전트 관전실 개발 실연이며 연구 성능 개선을 주장하지 않는다.{\n  \"conditions\": {\n    \"comparison\": \"후보 코드와 분리해 고정한 독립 기대값 mean=5, variance=9\",\n    \"data_split\": {\n      \"development\": \"공개 고정 입력 [2,4,10], 가중치 [1,2,1]\",\n      \"evaluation\": \"웹 인터페이스 개발용 고정 과제; 과학적 개선 비교에 포함하지 않음\"\n    },\n    \"seed\": 0,\n    \"source_version\": {\n      \"files\": {\n        \"task.py\": \"9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584\"\n      },\n      \"label\": \"agent-observatory-v1\"\n    }\n  },\n  \"resources\": {\n    \"external_model_usage\": \"unknown\",\n    \"external_tokens\": \"unknown\",\n    \"tokens\": {\n      \"status\": \"unknown\",\n      \"value\": null\n    },\n    \"wall_seconds\": 119.625\n  },\n  \"evidence_integrity\": \"invalid\"\n}6개 원본 증거 연결 · 기록 존재와 주장 검증은 별개입니다.",
+  "revision": "REV 8",
+  "scene": "memory",
+  "warning": false
+}

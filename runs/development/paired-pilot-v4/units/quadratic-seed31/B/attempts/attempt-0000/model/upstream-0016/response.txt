@@ -1,1 +1,0 @@
-Polynomial ridge regression degree selection and regularization parameter tuning by validation mean squared error: polynomial feature complexity, feature covariance, shrinkage, and cross-validation optimism

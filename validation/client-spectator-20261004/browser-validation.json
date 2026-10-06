@@ -1,0 +1,115 @@
+{
+  "nativeToolCount": 25,
+  "successfulCalls": 23,
+  "failedRecordedCalls": 0,
+  "sceneSequences": [
+    "analysis",
+    "evidence",
+    "overview",
+    "analysis",
+    "graph",
+    "evidence",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview",
+    "overview"
+  ],
+  "finalDesktop": {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/15-final-desktop.jpg",
+    "sha256": "9e64b43e2d3851b0c27314316c81d36ee1c8f4a799adb250d481f5127a24aa45",
+    "height": 800,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 996,
+        "height": 548.8021240234375,
+        "scrollHeight": 549,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 996,
+        "height": 451.5416870117187,
+        "scrollHeight": 452,
+        "scrollWidth": 996,
+        "width": 996,
+        "x": 142,
+        "y": 183.1979217529297
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n\n의뢰한 연구를 함께 봅니다\n\n의뢰한 연구\n누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.\n\n선택한 시도에서 얻은 답\n\n만족도 기준에 미치지 못했습니다.\n\n등록 당시 조건에서 확인됨\n\n만족도\n단위 미등록\n실측 72\n기준 80 이상\n\n축 71.04–80.96 · 실측과 등록 기준의 범위\n\n확인 범위\n계산 일치는 등록 기준을 충족했습니다. 결과는 실험 당시 조건에 한정됩니다.\n다음 확인\n현재 의뢰에 적용할 수 있는지 대조가 필요합니다.\n\n반복 시도의 독립성·일반화는 확인되지 않았습니다.\n\n진행 종료로 보고됨 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n의뢰한 연구의 답 화면입니다.",
+    "width": 1280
+  },
+  "finalMobile": {
+    "path": "C:/Users/Potato/Documents/ChatGPT/Research Agent/EvidenceResearch/validation/client-spectator-20261004/screenshots/16-final-mobile.jpg",
+    "sha256": "ea94663489d72011b1aa0bf49e2cfccd3029bf9fc6a57855c1a4d4950db9329d",
+    "height": 844,
+    "humanControls": 0,
+    "overflow": false,
+    "panes": [
+      {
+        "class": "scene-content",
+        "clientWidth": 346,
+        "height": 583.96875,
+        "scrollHeight": 584,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 209.03125
+      },
+      {
+        "class": "client-brief",
+        "clientWidth": 346,
+        "height": 545.5729370117188,
+        "scrollHeight": 546,
+        "scrollWidth": 346,
+        "width": 346,
+        "x": 22,
+        "y": 209.03125
+      }
+    ],
+    "scene": "overview",
+    "text": "Research State\n의뢰한 연구\n누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.\n\n선택한 시도에서 얻은 답\n\n만족도 기준에 미치지 못했습니다.\n\n등록 당시 조건에서 확인됨\n\n만족도\n단위 미등록\n실측 72\n기준 80 이상\n\n축 71.04–80.96 · 실측과 등록 기준의 범위\n\n확인 범위\n계산 일치는 등록 기준을 충족했습니다. 결과는 실험 당시 조건에 한정됩니다.\n다음 확인\n현재 의뢰에 적용할 수 있는지 대조가 필요합니다.\n\n반복 시도의 독립성·일반화는 확인되지 않았습니다.\n\n진행 종료로 보고됨 · 외부 에이전트의 진행 보고\n\n사용자는 보고 싶은 내용을 에이전트에게 요청하세요\n\n의뢰한 연구의 답 화면입니다.",
+    "width": 390
+  },
+  "scroll": {
+    "before": {
+      "animations": 0,
+      "clientHeight": 549,
+      "height": 1155,
+      "motion": true,
+      "top": 606
+    },
+    "after": {
+      "animations": 0,
+      "clientHeight": 549,
+      "height": 1155,
+      "motion": true,
+      "top": 606
+    },
+    "oldNodeConnected": false,
+    "scrollPreserved": true,
+    "note": "A real active goal changes elapsed observations on background refresh; no research records were changed."
+  },
+  "scope": "Only local read-only research tools and presentation tools; owned fixture evidence probes restored separately.",
+  "limitation": "Functional and layout checks, not a client comprehension or research-performance experiment."
+}

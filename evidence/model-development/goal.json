@@ -1,1 +1,0 @@
-{"criterion":{"direction":"min","threshold":0.03},"memory_query":"dev-quadratic","objective":"Reduce dev-quadratic validation MSE to 0.03","status":"active","task_id":"dev-quadratic"}

@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "files": {
+    "pyproject.toml": "4ac74ce58e85b5003c40a88d9cae4ac4a3701251f6eb74694206fafbf75077f8",
+    "research_cli/__init__.py": "382e8e92609888d78332529be1070e77d0f4f6ded58431228cba255c803a7561",
+    "research_cli/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "research_cli/cli.py": "3faa70cf2dacfeaab34dd8469ff22d949c669732a1e9abf46a1894149ed4a5cb",
+    "research_cli/core.py": "f314b51fb1fc1e27a66c91638ce104d35e2e1679c8cf77f03e9815aa6aa9b86b",
+    "research_cli/runner.py": "264ddda30a0bfd8702289209f132e20c4cf8aea67ce31a822ba3540d90e8f27f",
+    "research_cli/transfer.py": "2ba9f2d45f589cf59562ea7a53d3d5699632fbbf431beb759b1d22b280a3f195",
+    "research_cli/worker.py": "49041f8606ccf8b6f6d15016ca26e801a6daa074ee32a9f448a642d1b0d58953",
+    "tests/test_contract.py": "243b90836a2fce1f5bd089d31371f5edf9c50abc80cde030d642221d28eeb7ce",
+    "tests/test_evaluation.py": "c18932d5aca18d978a00138887544ef26855c58cc14095ddadd7dc511706e338"
+  },
+  "old_source_reused": false,
+  "model_calls_in_cli": false
+}

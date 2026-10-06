@@ -1,0 +1,57 @@
+{
+  "task_id": "F1",
+  "condition": "B",
+  "experiments": [
+    {
+      "registration_path": "registration.json",
+      "source_sha256": "00fd9536a220bc378de45a66f69d34bdb6db051ee44f5be4c8e03df2ec8b6214",
+      "status": "completed_adopted",
+      "task_receipt_path": "task-run-1.receipt.json",
+      "returncode": 0,
+      "experiment_key": "bef41f25108d621950aa484f15bf1e0dc616cbc3a311dfbf6724ba345122cd58",
+      "concrete_experiment": {
+        "task_id": "F1",
+        "condition": "B",
+        "source_sha256": "00fd9536a220bc378de45a66f69d34bdb6db051ee44f5be4c8e03df2ec8b6214",
+        "input_sha256": "62100a2fd5250a0e8431bfdaf230ad862199be1df865035e9be93f407e2fc1ab",
+        "runner_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+        "brief_sha256": "f8613ce5bd8e246f3ae290d9eb97cffe833c9f56e2e8657006a525346ddace9e",
+        "fixed_validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+        "seed": 0,
+        "criteria": [
+          {
+            "metric": "pass_rate",
+            "op": ">=",
+            "threshold": 1.0
+          }
+        ],
+        "framework": "Existing external Codex fresh subagent, inherited parent model and reasoning effort",
+        "model_identifier": "unknown",
+        "split": {
+          "development_input": "Provided public input.csv and BRIEF.ko.md only",
+          "independent_evaluation": "Owner fixed validator called as an opaque subprocess; evaluator implementation and hidden cases not read",
+          "hidden_case_access": false,
+          "other_condition_access": false,
+          "past_implementation_access": false
+        }
+      },
+      "check_path": "check-1.json",
+      "check_receipt_path": "check-1.receipt.json",
+      "decision_path": "decision-1.json",
+      "pass_rate": 1.0,
+      "completed_at": "2026-10-03T16:02:47.744767+00:00",
+      "actual_task_execution_count": 1,
+      "duplicate_logical_requests": [
+        {
+          "logical_request_id": 2,
+          "decision": "reuse_persistent_verified_result",
+          "evidence_path": "duplicate-request-2.json",
+          "task_execution_performed": false
+        }
+      ]
+    }
+  ],
+  "logical_requests_processed": 2,
+  "actual_task_execution_count": 1,
+  "duplicate_executions": 0
+}

@@ -1,4 +1,0 @@
-{"type":"thread.started","thread_id":"01a0fd1b-a1f7-73b3-9546-204ddde2844e"}
-{"type":"turn.started"}
-{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression model complexity and degree selection using validation error, paired regularized and unregularized comparisons, feature covariance, bias–variance tradeoff, and regularization strength selection"}}
-{"type":"turn.completed","usage":{"input_tokens":20022,"cached_input_tokens":12544,"cache_write_input_tokens":0,"output_tokens":62,"reasoning_output_tokens":21}}

@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-10-04T14:35:57.852564+00:00",
+  "package_version": "0.8.0",
+  "release_kind": "observatory_ui_followup",
+  "wheel": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\dist\\observatory-followup-20261004\\research_state_cli-0.8.0-py3-none-any.whl",
+  "wheel_sha256": "8d5271d4a8b6331f17c0ee6202b95c66cd3a030e0d878046c1ab9c2db529b597",
+  "wheel_size": 96468,
+  "web_assets": [
+    {
+      "name": "app.js",
+      "source_sha256": "928af5fa670ce4390f1503e6ada3e7e72c5ce946837e2ac5bf7cd1dce6c71bd3",
+      "wheel_sha256": "928af5fa670ce4390f1503e6ada3e7e72c5ce946837e2ac5bf7cd1dce6c71bd3",
+      "installed_sha256": {
+        ".validation-venv": "928af5fa670ce4390f1503e6ada3e7e72c5ce946837e2ac5bf7cd1dce6c71bd3",
+        ".mcp-venv": "928af5fa670ce4390f1503e6ada3e7e72c5ce946837e2ac5bf7cd1dce6c71bd3"
+      }
+    },
+    {
+      "name": "styles.css",
+      "source_sha256": "a0f990e28de19f67ccc4c1a8fb5c6d4e1af033b3b69a9ecb74813fbd8020221e",
+      "wheel_sha256": "a0f990e28de19f67ccc4c1a8fb5c6d4e1af033b3b69a9ecb74813fbd8020221e",
+      "installed_sha256": {
+        ".validation-venv": "a0f990e28de19f67ccc4c1a8fb5c6d4e1af033b3b69a9ecb74813fbd8020221e",
+        ".mcp-venv": "a0f990e28de19f67ccc4c1a8fb5c6d4e1af033b3b69a9ecb74813fbd8020221e"
+      }
+    },
+    {
+      "name": "index.html",
+      "source_sha256": "5890f489b8a0c523eccc4221cf5888df48d0def1570819dff2c70e7d0f2e12b6",
+      "wheel_sha256": "5890f489b8a0c523eccc4221cf5888df48d0def1570819dff2c70e7d0f2e12b6",
+      "installed_sha256": {
+        ".validation-venv": "5890f489b8a0c523eccc4221cf5888df48d0def1570819dff2c70e7d0f2e12b6",
+        ".mcp-venv": "5890f489b8a0c523eccc4221cf5888df48d0def1570819dff2c70e7d0f2e12b6"
+      }
+    },
+    {
+      "name": "view_model.js",
+      "source_sha256": "ca2c9e8a642f006b3a6f21186de1b54ea5d3411df426cd5c3ea18f994742a997",
+      "wheel_sha256": "ca2c9e8a642f006b3a6f21186de1b54ea5d3411df426cd5c3ea18f994742a997",
+      "installed_sha256": {
+        ".validation-venv": "ca2c9e8a642f006b3a6f21186de1b54ea5d3411df426cd5c3ea18f994742a997",
+        ".mcp-venv": "ca2c9e8a642f006b3a6f21186de1b54ea5d3411df426cd5c3ea18f994742a997"
+      }
+    }
+  ],
+  "runtime_core_dependencies": 0,
+  "declared_optional_dependencies": [
+    "mcp==2.3.0; extra == \"mcp\""
+  ],
+  "unchanged_core_proof": "runtime-after.json",
+  "historical_0_8_release_proof_unchanged": true,
+  "documentation": {
+    "README.md": "471cf9460689203e7c6c875690cab118e3bcaebbe802a3abcd458d99f89dddfc",
+    "WEB.ko.md": "9f6c4f330cc6bf831e4acae04c0acc3520bd2902768a4d0d977a629766d981f1",
+    "HANDOFF.ko.md": "c59d9505e71f82f1d7cb667f02b9a90819e55dcba6649d033ce15e38935a54b0",
+    "UI-FOLLOWUP-DESIGN.ko.md": "b7a7e5ae6657afb6721fd3d8b61837aa75d3477865c3359d6dd6cd06913e691c",
+    "UI-FOLLOWUP-VALIDATION.ko.md": "3d4b69a32b555bc5effcc98dfd2885006d722f6837fc1e954c929dc41320604f"
+  },
+  "projection_tests": {
+    "passed": 68,
+    "failed": 0,
+    "log": "js-regression.log",
+    "log_sha256": "3002c52dbd18fc94fe80ec5586be852461210077ee693d8134b5de3f1d89e948"
+  },
+  "python_tests": {
+    "passed": 65,
+    "failed": 0,
+    "results": "regression-results.json",
+    "results_sha256": "907cb5f984a1bcaab06435a46da30079f9631aa68412d069bb6de817369b1689"
+  },
+  "browser_validation_sha256": "b986e8bcf6b9d7cb2a446992eb3536ea3b0a42d20b233862e5ecdab92af1e260",
+  "webmcp_calls_sha256": "b1106079fcb41eb3155b5bc2f7da71e37390cd669c4139b3e3ef495b96c33720",
+  "final_screenshots_sha256": {
+    "desktop": "4efb170b1bd6e8f56c0d8a96d4903f19b67c5b520fa8799334d340267514f675",
+    "mobile": "fe14c975dddc0fbe784817667a3b42ce7c2c27468ed6af1c4b9a89b7a4c64ee5"
+  }
+}

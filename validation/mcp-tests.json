@@ -1,0 +1,13 @@
+{
+  "version": "0.4.0",
+  "at": "2026-10-04T05:03:18.889386+00:00",
+  "tests_run": 40,
+  "skipped": 0,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "seconds": 53.654577099950984,
+  "actual_stdio_transport": true,
+  "sdk": "mcp2.3.0",
+  "model_calls": false
+}

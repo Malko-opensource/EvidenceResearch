@@ -1,0 +1,15 @@
+{
+  "normal": {
+    "result": {
+      "type": "string",
+      "value": "{\"phase\":\"idle\",\"execution\":\"running\",\"reduced\":false,\"runningAnimations\":[\"signal-breath\"],\"humanControls\":0}"
+    }
+  },
+  "reduced": {
+    "result": {
+      "type": "string",
+      "value": "{\"reduced\":true,\"runningAnimations\":0}"
+    }
+  },
+  "scope": "Temporary browser test override; reset after observation"
+}

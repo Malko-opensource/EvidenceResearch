@@ -1,0 +1,93 @@
+{
+  "task_id": "F1",
+  "condition": "B",
+  "completed_at": "2026-10-03T16:03:43.894617+00:00",
+  "hypothesis": "Reject missing, malformed, nonfinite, blank-group and nonpositive-weight rows; exact rational weighted calculations centered at the first valid value preserve small deviations at large common offsets and achieve fixed-validator pass_rate >= 1.0.",
+  "registration_paths": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\registration.json"
+  ],
+  "actual_commands": [
+    {
+      "role": "task_execution",
+      "argv": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "task.py",
+        "F1"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B",
+      "returncode": 0,
+      "receipt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\task-run-1.receipt.json"
+    },
+    {
+      "role": "independent_validation",
+      "argv": [
+        "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+        "--root",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B",
+        "--task",
+        "F1",
+        "--output",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.json"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B",
+      "returncode": 0,
+      "receipt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.receipt.json"
+    }
+  ],
+  "task_quality": {
+    "metric": "pass_rate",
+    "value": 1.0,
+    "criterion": "pass_rate >= 1.0",
+    "criterion_met": true,
+    "passed_cases": 8,
+    "total_cases": 8,
+    "basis": "preserved_source_recomputed",
+    "reported_run_metrics_used": false
+  },
+  "logical_requests_processed": 2,
+  "actual_task_execution_count": 1,
+  "duplicate_executions": 0,
+  "duplicate_request_decision": "reuse_persistent_verified_result",
+  "recovery": "not_observed",
+  "recovery_evidence": {
+    "failed_task_or_check_runs": 0,
+    "changed_source_registrations": 0
+  },
+  "unsupported_claims": [],
+  "decision": "adopted; identical second request reused the verified persistent result",
+  "experiment_key": "bef41f25108d621950aa484f15bf1e0dc616cbc3a311dfbf6724ba345122cd58",
+  "evidence_paths": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\initial-state.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\source-initial.py",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\candidate-1.py",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\registration.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\solution.py",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\source-run-1.py",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\task-run-1.stdout.log",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\task-run-1.stderr.log",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\task-run-1.receipt.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\result.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\invocations.jsonl",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.stdout.log",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.stderr.log",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.receipt.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\decision-1.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\duplicate-request-2.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\memory.md",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\ledger.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\transcript.json"
+  ],
+  "external_tokens": {
+    "status": "unknown",
+    "value": null
+  },
+  "limitations": [
+    "The access restriction is an instruction-based protocol under shared OS permissions, not an OS security boundary.",
+    "The inherited model and reasoning effort were retained; the exact model identifier and external token count are unknown and not estimated.",
+    "The quality conclusion is limited to the owner's fixed validation output; hidden inputs and evaluator implementation were not inspected.",
+    "No measured baseline was executed, so no numerical improvement or runtime comparison against the initial source is claimed.",
+    "The duplicate request was processed as the explicitly authorized logical repeat, rather than an independently arriving human message."
+  ]
+}

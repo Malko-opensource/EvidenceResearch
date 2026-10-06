@@ -1,0 +1,142 @@
+- banner:
+  - strong: Research State
+  - generic: v0.8.0
+  - paragraph: 에이전트 제어 · 함께 보는 연구
+  - generic "연결 상태":
+    - generic: 연구 상태 연결
+    - generic: NATIVE WebMCP · 25/25
+- main:
+  - heading "시도 사이의 차이" [level=1]
+  - paragraph: 평가 조건이 확인된 시도만 함께 비교합니다.
+  - generic: 기록 21
+  - generic: 오후 11:27:51 조회 · 읽기 상태 동기화
+  - region "연구 질문과 시험한 변경점":
+    - generic: 함께 살펴보는 연구
+    - heading "고정 고객 응답 CSV의 팀별 만족도 보고 검증" [level=2]
+    - generic: 연구 종료
+    - generic: 외부 연구 상태 보고
+  - region "시도 사이의 차이":
+    - paragraph: 비교 원본 3건 · 최대 6건 · 순위와 종합 점수를 만들지 않습니다.
+    - generic: 평가 조건 그룹 1
+    - heading "함께 순위를 매길 수 없는 기록" [level=2]
+    - paragraph: 같은 등록 조건의 두 번째 시도가 없어 수치 비교를 구성할 수 없습니다.
+    - generic "이 묶음의 비교 기준, 데이터 분할과 Seed 요약":
+      - term: 비교 기준
+      - definition: Frozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline
+      - term: 데이터 분할
+      - definition: "development: all rows of supplied public synthetic data.csv · evaluation: same pinned input, independently implemented owner frozen validator; no independent population or holdout…"
+      - term: Seed
+      - definition: "0"
+    - paragraph: 등록 조건 요약 · 전체는 연결된 원본 등록에서 확인합니다.
+    - paragraph: "시도 차이 · 다른 묶음과 조건 차이: seed"
+    - article:
+      - heading "External agent CSV summary under supplied missing-exclusion rule; one deterministic source for all prescribed functional replications" [level=3]
+      - paragraph: skill-demo-descriptive-csv-v1
+      - generic: 실행 성공
+      - generic: 검증 실패
+      - generic: 기각
+      - strong: 계산 일치
+      - generic: 단위 미등록
+      - generic: "1"
+      - img "계산 일치 실측 1 · 기준 == 1 · 단위 미등록":
+        - generic: "0"
+        - generic: "1"
+        - generic: "2"
+      - generic: ● 독립 측정
+      - generic: │ 사전등록 기준
+      - paragraph: 기준 == 1 · 충족
+      - paragraph: 측정 1 단위 미등록 · 기준 == 1 단위 미등록 · 기준과 일치
+      - strong: 만족도
+      - generic: 단위 미등록
+      - generic: "72"
+      - img "만족도 실측 72 · 기준 >= 80 · 단위 미등록":
+        - generic: "71.04"
+        - generic: "76"
+        - generic: "80.96"
+      - generic: ● 독립 측정
+      - generic: │ 사전등록 기준
+      - paragraph: 기준 >= 80 · 미충족
+      - paragraph: 측정 72 단위 미등록 · 기준 >= 80 단위 미등록 · 기준보다 8 (단위 미등록) 낮음
+    - generic: 평가 조건 그룹 2
+    - heading "함께 순위를 매길 수 없는 기록" [level=2]
+    - paragraph: 같은 등록 조건의 두 번째 시도가 없어 수치 비교를 구성할 수 없습니다.
+    - generic "이 묶음의 비교 기준, 데이터 분할과 Seed 요약":
+      - term: 비교 기준
+      - definition: Frozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline
+      - term: 데이터 분할
+      - definition: "development: all rows of supplied public synthetic data.csv · evaluation: same pinned input, independently implemented owner frozen validator; no independent population or holdout…"
+      - term: Seed
+      - definition: "2"
+    - paragraph: 등록 조건 요약 · 전체는 연결된 원본 등록에서 확인합니다.
+    - paragraph: "시도 차이 · 다른 묶음과 조건 차이: seed"
+    - article:
+      - heading "External agent CSV summary under supplied missing-exclusion rule; one deterministic source for all prescribed functional replications" [level=3]
+      - paragraph: skill-demo-descriptive-csv-v1
+      - generic: 실행 성공
+      - generic: 검증 실패
+      - generic: 기각
+      - strong: 계산 일치
+      - generic: 단위 미등록
+      - generic: "1"
+      - img "계산 일치 실측 1 · 기준 == 1 · 단위 미등록":
+        - generic: "0"
+        - generic: "1"
+        - generic: "2"
+      - generic: ● 독립 측정
+      - generic: │ 사전등록 기준
+      - paragraph: 기준 == 1 · 충족
+      - paragraph: 측정 1 단위 미등록 · 기준 == 1 단위 미등록 · 기준과 일치
+      - strong: 만족도
+      - generic: 단위 미등록
+      - generic: "72"
+      - img "만족도 실측 72 · 기준 >= 80 · 단위 미등록":
+        - generic: "71.04"
+        - generic: "76"
+        - generic: "80.96"
+      - generic: ● 독립 측정
+      - generic: │ 사전등록 기준
+      - paragraph: 기준 >= 80 · 미충족
+      - paragraph: 측정 72 단위 미등록 · 기준 >= 80 단위 미등록 · 기준보다 8 (단위 미등록) 낮음
+    - generic: 평가 조건 그룹 3
+    - heading "함께 순위를 매길 수 없는 기록" [level=2]
+    - paragraph: 같은 등록 조건의 두 번째 시도가 없어 수치 비교를 구성할 수 없습니다.
+    - generic "이 묶음의 비교 기준, 데이터 분할과 Seed 요약":
+      - term: 비교 기준
+      - definition: Frozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline
+      - term: 데이터 분할
+      - definition: "development: all rows of supplied public synthetic data.csv · evaluation: same pinned input, independently implemented owner frozen validator; no independent population or holdout…"
+      - term: Seed
+      - definition: "1"
+    - paragraph: 등록 조건 요약 · 전체는 연결된 원본 등록에서 확인합니다.
+    - paragraph: "시도 차이 · 다른 묶음과 조건 차이: seed"
+    - article:
+      - heading "External agent CSV summary under supplied missing-exclusion rule; one deterministic source for all prescribed functional replications" [level=3]
+      - paragraph: skill-demo-descriptive-csv-v1
+      - generic: 실행 성공
+      - generic: 검증 실패
+      - generic: 기각
+      - strong: 계산 일치
+      - generic: 단위 미등록
+      - generic: "1"
+      - img "계산 일치 실측 1 · 기준 == 1 · 단위 미등록":
+        - generic: "0"
+        - generic: "1"
+        - generic: "2"
+      - generic: ● 독립 측정
+      - generic: │ 사전등록 기준
+      - paragraph: 기준 == 1 · 충족
+      - paragraph: 측정 1 단위 미등록 · 기준 == 1 단위 미등록 · 기준과 일치
+      - strong: 만족도
+      - generic: 단위 미등록
+      - generic: "72"
+      - img "만족도 실측 72 · 기준 >= 80 · 단위 미등록":
+        - generic: "71.04"
+        - generic: "76"
+        - generic: "80.96"
+      - generic: ● 독립 측정
+      - generic: │ 사전등록 기준
+      - paragraph: 기준 >= 80 · 미충족
+      - paragraph: 측정 72 단위 미등록 · 기준 >= 80 단위 미등록 · 기준보다 8 (단위 미등록) 낮음
+  - complementary "외부 에이전트의 현재 도구 호출":
+    - generic: 요청 완료
+    - paragraph: 사용자는 보고 싶은 내용을 에이전트에게 요청하세요

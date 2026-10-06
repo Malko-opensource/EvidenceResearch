@@ -1,0 +1,87 @@
+{
+  "skill": "research-goal",
+  "skill_source": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\plugin\\skills\\research-goal\\SKILL.md",
+  "request_source": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\skill-demo-request.ko.md",
+  "references_read": [
+    "references/goal-template.ko.md",
+    "references/channel-contract.ko.md"
+  ],
+  "user_questions": [],
+  "why_no_user_questions": "original request plus known owner context settles goal, deliverables, data, authority, threshold, repeat design and environment; reasking would duplicate known answers",
+  "agent_questions": [
+    {
+      "question": "What exact source CLI schema is installed in source?",
+      "action": "read actual --help and help --topic goal/register"
+    },
+    {
+      "question": "How to calculate reproducible team descriptive means with missing ratings?",
+      "action": "author csv-based code, pin both source and copied CSV, use unchanged fixed owner validator"
+    },
+    {
+      "question": "Can the 80% business target be met?",
+      "action": "preregister threshold before runs and answer from real outputs"
+    },
+    {
+      "question": "Can repeated fixed inputs support independent population inference?",
+      "answer": "No; prescribed deterministic functional replications only"
+    },
+    {
+      "question": "Are per-demo external-agent tokens/costs observable?",
+      "action": "record actual lack of per-demo receipts as unknown with telemetry evidence source"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumption": "team is fixture reporting unit; complete-case descriptive means describe observed responses only",
+      "impact_if_false": "revise interpretation with explicit new goal version"
+    }
+  ],
+  "unresolved": [
+    {
+      "item": "external agent tokens and costs",
+      "owner": "agent telemetry observation",
+      "resolution": "record unavailable per-demo telemetry as unknown, without inventing a receipt"
+    }
+  ],
+  "external_agent_usage": {
+    "actual_agent_authored": [
+      "goal prompt",
+      "structured brief",
+      "hypothesis",
+      "experiment source",
+      "preregistrations",
+      "interpretation",
+      "next actions"
+    ],
+    "cli_llm_calls": "none requested; tools persist and execute local Python only",
+    "actual_tokens_and_cost": "unknown"
+  },
+  "diagnostic_note": "Two initial unsupported help topic guesses registration/execution returned INVALID_INPUT; preserved in transcript and corrected using actual help topics. No state mutation resulted.",
+  "observed_interface_recovery": [
+    {
+      "operation": "goal initial response display",
+      "issue": "Recorder cp949 display failed after actual CLI goal success",
+      "recovery": "UTF-8 display; same key returned reused=true, same goal ID"
+    },
+    {
+      "operation": "completed run replay",
+      "issue": "original stale expect7 returned REVISION_CONFLICT expected7 actual21",
+      "recovery": "read current status; same request key with expect21 returned started=false and original run; no worker evidence changed"
+    },
+    {
+      "operation": "memory failure lookup",
+      "issue": "--outcome rejected was INVALID_INPUT; actual source accepts success/failure/inconclusive",
+      "recovery": "--outcome failure --verification failed returned actual three rejected registrations"
+    }
+  ],
+  "final_outcome": {
+    "goal_completed": true,
+    "performance_improvement_demonstrated": false,
+    "population_generalization_supported": false,
+    "business_threshold_met": false,
+    "correct_calculation_independently_matched": true,
+    "new_workers_after_completed_replay": 0,
+    "external_tokens": "unknown",
+    "external_cost": "unknown"
+  }
+}

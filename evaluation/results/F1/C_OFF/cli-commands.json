@@ -1,0 +1,278 @@
+[
+  {
+    "label": "status-1",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "status"
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'status'",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-status-1.json",
+    "raw_output_complete": true,
+    "tool_output_truncated": false,
+    "reason": null
+  },
+  {
+    "label": "memory-help",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "memory",
+      "--help"
+    ],
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-memory-help.txt",
+    "raw_output_complete": true
+  },
+  {
+    "label": "memory-before",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "memory",
+      "--query",
+      "F1 weighted CSV",
+      "--limit",
+      "20"
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'memory' '--query' 'F1 weighted CSV' '--limit' '20'",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-memory-before.json",
+    "raw_output_complete": true,
+    "tool_output_truncated": false,
+    "reason": null
+  },
+  {
+    "label": "goal",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "goal",
+      "--title",
+      "F1 C_OFF: valid weighted CSV summaries with stable population variance"
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'goal' '--title' 'F1 C_OFF: valid weighted CSV summaries with stable population variance'",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-goal.json",
+    "raw_output_complete": true,
+    "tool_output_truncated": false,
+    "reason": null
+  },
+  {
+    "label": "hypothesis",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "hypothesis",
+      "--goal",
+      "goal_79886413d18e408397c75768eabc3227",
+      "--statement",
+      "Reject blank trimmed groups, missing/unparseable/non-finite values and weights, and non-positive weights; aggregate accepted rows using exact rational arithmetic for centered weighted moments, then round final numeric outputs to float. This will preserve weighted population variance under large common offsets and reach fixed-validator pass_rate 1.0 on public and independent cases."
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'hypothesis' '--goal' 'goal_79886413d18e408397c75768eabc3227' '--statement' 'Reject blank trimmed groups, missing/unparseable/non-finite values and weights, and non-positive weights; aggregate accepted rows using exact rational arithmetic for centered weighted moments, then round final numeric outputs to float. This will preserve weighted population variance under large common offsets and reach fixed-validator pass_rate 1.0 on public and independent cases.'",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-hypothesis.json",
+    "raw_output_complete": true,
+    "tool_output_truncated": false,
+    "reason": null
+  },
+  {
+    "label": "register-v1",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "register",
+      "--goal",
+      "goal_79886413d18e408397c75768eabc3227",
+      "--input",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\spec.json",
+      "--request-key",
+      "F1-C_OFF-register-v1"
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'register' '--goal' 'goal_79886413d18e408397c75768eabc3227' '--input' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\spec.json' '--request-key' 'F1-C_OFF-register-v1'",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-register-v1.json",
+    "raw_output_complete": true,
+    "tool_output_truncated": false,
+    "reason": null
+  },
+  {
+    "label": "run-request-1",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "run",
+      "--registration",
+      "reg_93d884bc142f461f8d1bf24f15378bad",
+      "--request-key",
+      "F1-C_OFF-completion-request-1"
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'run' '--registration' 'reg_93d884bc142f461f8d1bf24f15378bad' '--request-key' 'F1-C_OFF-completion-request-1'",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-run-request-1.json",
+    "raw_output_complete": true,
+    "tool_output_truncated": false,
+    "reason": null
+  },
+  {
+    "label": "verify-v1",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "verify",
+      "--registration",
+      "reg_93d884bc142f461f8d1bf24f15378bad"
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'verify' '--registration' 'reg_93d884bc142f461f8d1bf24f15378bad'",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-verify-v1.json",
+    "raw_output_complete": true,
+    "tool_output_truncated": false,
+    "reason": null
+  },
+  {
+    "label": "decide-v1",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "decide",
+      "--registration",
+      "reg_93d884bc142f461f8d1bf24f15378bad",
+      "--decision",
+      "adopted",
+      "--reason",
+      "Adopted only after independent CLI verify recomputed preserved source and run artifact with the fixed csv-fixed-v1 validator: pass_rate 1.0, 8/8 checks passed, integrity true, and preregistered pass_rate >= 1.0 met. Execution success, verification passing, and adoption are recorded separately; evaluator implementation and independent cases were not read."
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'decide' '--registration' 'reg_93d884bc142f461f8d1bf24f15378bad' '--decision' 'adopted' '--reason' 'Adopted only after independent CLI verify recomputed preserved source and run artifact with the fixed csv-fixed-v1 validator: pass_rate 1.0, 8/8 checks passed, integrity true, and preregistered pass_rate >= 1.0 met. Execution success, verification passing, and adoption are recorded separately; evaluator implementation and independent cases were not read.'",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-decide-v1.json",
+    "raw_output_complete": true,
+    "tool_output_truncated": false,
+    "reason": null
+  },
+  {
+    "label": "memory-after",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "memory",
+      "--query",
+      "F1 weighted CSV",
+      "--limit",
+      "20"
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'memory' '--query' 'F1 weighted CSV' '--limit' '20'",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-memory-after.json",
+    "raw_output_complete": true,
+    "tool_output_truncated": false,
+    "reason": null
+  },
+  {
+    "label": "memory-after-weighted",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "memory",
+      "--query",
+      "weighted",
+      "--limit",
+      "20"
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'memory' '--query' 'weighted' '--limit' '20'",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-memory-after-weighted.json",
+    "raw_output_complete": true,
+    "tool_output_truncated": false,
+    "reason": null
+  },
+  {
+    "label": "run-request-2",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "run",
+      "--registration",
+      "reg_93d884bc142f461f8d1bf24f15378bad",
+      "--request-key",
+      "F1-C_OFF-completion-request-2"
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'run' '--registration' 'reg_93d884bc142f461f8d1bf24f15378bad' '--request-key' 'F1-C_OFF-completion-request-2'",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-run-request-2-truncated.txt",
+    "raw_output_complete": false,
+    "tool_output_truncated": true,
+    "reason": null
+  },
+  {
+    "label": "run-request-2-capture-retry",
+    "argv": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research",
+      "run",
+      "--registration",
+      "reg_93d884bc142f461f8d1bf24f15378bad",
+      "--request-key",
+      "F1-C_OFF-completion-request-2"
+    ],
+    "shell_command": "& 'C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' '-m' 'research_cli' '--workspace' 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research' 'run' '--registration' 'reg_93d884bc142f461f8d1bf24f15378bad' '--request-key' 'F1-C_OFF-completion-request-2' | Set-Content -LiteralPath 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-run-request-2.json' -Encoding utf8",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "exit_code": 0,
+    "raw_output_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-run-request-2.json",
+    "raw_output_complete": true,
+    "tool_output_truncated": false,
+    "reason": "Retry of the same request key to preserve full CLI JSON after tool output truncation; no third logical completion request."
+  }
+]

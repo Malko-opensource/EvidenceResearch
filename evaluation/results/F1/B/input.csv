@@ -1,0 +1,8 @@
+group,value,weight
+offset,1000000000000,1
+offset,1000000000002,1
+offset,999999999998,1
+a,1,1
+a,3,3
+a,NaN,1
+a,8,0

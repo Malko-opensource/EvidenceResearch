@@ -1,0 +1,44 @@
+[
+  {
+    "task_id": "F1",
+    "condition": "C_OFF",
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\exports\\F1-C_OFF.zip",
+    "sha256": "5218eb4960227804323a97af399c98af11458ff2b8b9cae5abdd08bb83340acf",
+    "files": 11
+  },
+  {
+    "task_id": "F2",
+    "condition": "C_OFF",
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\exports\\F2-C_OFF.zip",
+    "sha256": "1f9db6d2e706aacd1c5fe1b83eb5b5f1947bb0c4401b35bd67d955f7cff95ffd",
+    "files": 11
+  },
+  {
+    "task_id": "M1",
+    "condition": "C_OFF",
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\exports\\M1-C_OFF.zip",
+    "sha256": "49ab45164ca0daeab95b044a4317f50612f800c36bfff18fef62a51edb075ccd",
+    "files": 11
+  },
+  {
+    "task_id": "M1",
+    "condition": "C_ON",
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\exports\\M1-C_ON.zip",
+    "sha256": "9523117ff2a53a2187f80af08f6b4145872fea80529c87e9a6f74ea5e142cf20",
+    "files": 18
+  },
+  {
+    "task_id": "M2",
+    "condition": "C_ON",
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\exports\\M2-C_ON.zip",
+    "sha256": "4a5b74b5719f0911506f343156da7c68aa9ab30847c6c0a8c790a043cca355ab",
+    "files": 18
+  },
+  {
+    "task_id": "M2",
+    "condition": "C_OFF",
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\exports\\M2-C_OFF.zip",
+    "sha256": "8cea79c84212d4b96c50ff6f09e14115a5b927c363b9c09310855611a83e5175",
+    "files": 11
+  }
+]

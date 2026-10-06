@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "data": {
+    "decision": {
+      "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+      "state": "adopted",
+      "reason": "The owner-fixed csv-fixed-v1 verifier independently recomputed preserved source and confirmed integrity and 8/8 checks with pass_rate 1.0, meeting the preregistered threshold.",
+      "created": 1791044030.0062199
+    },
+    "reused": false,
+    "revision": 8
+  }
+}

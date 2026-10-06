@@ -1,0 +1,28 @@
+{
+  "artifact_hashes": {
+    "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+    "invocations.jsonl": "a96554164e69c96474d4b915407a8e29641683cd2948dbeb5f061e66bde099d3",
+    "registration.json": "a14df6f7344274ae94149125a75b5db19b1a0da0a9d4b53b17f834612f896279",
+    "registration.sha256.txt": "d866b117a0261b1bf11bde6e2480793a17c5c25cf9e0e80d6113448e978d9aff",
+    "result.json": "96eb2197a1c44184b80d4c872bd5b0902e0b66460aca98a0e59647bcebd6dbd9",
+    "solution.py": "0ca69cd1b98e59bcebfa6fa5a4f386c0f6f070aad8f66d7f70524c38926a6087",
+    "task-1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "task-1.stdout.txt": "71ba46f9e567051ddb822e492dea33c5841917fe2d25d39853c3496cc9569e78",
+    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+  },
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "task.py",
+    "F2"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B",
+  "finished_at": "2026-10-03T16:21:50.830887+00:00",
+  "invocations_after": 1,
+  "invocations_before": 0,
+  "logical_request": "F2-B-registered-task-001",
+  "returncode": 0,
+  "started_at": "2026-10-03T16:21:50.784307+00:00",
+  "status": "completed",
+  "stderr": "",
+  "stdout": "{\"artifact\": \"result.json\", \"task_id\": \"F2\"}\n"
+}

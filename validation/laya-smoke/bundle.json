@@ -1,0 +1,64 @@
+{
+  "schema": "research-laya-choice-v1",
+  "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\laya-smoke\\state",
+  "revision": 1,
+  "input": {
+    "candidates": [
+      {
+        "applicability": "Describe when A applies",
+        "conditions": {
+          "seed": 7
+        },
+        "evidence": [],
+        "hypothesis": "Describe hypothesis A",
+        "id": "candidate-a"
+      },
+      {
+        "applicability": "Describe when B applies",
+        "conditions": {
+          "seed": 7
+        },
+        "evidence": [],
+        "hypothesis": "Describe hypothesis B",
+        "id": "candidate-b"
+      }
+    ],
+    "context": "Describe the task and resource conditions.",
+    "goal_id": "goal_42b93fdb1c6449cfab5a056c6b7839c2",
+    "question": "Which proposal should the external agent investigate next?"
+  },
+  "snapshot": {
+    "goal": {
+      "id": "goal_42b93fdb1c6449cfab5a056c6b7839c2",
+      "title": "Laya installed CLI contract smoke; no inference",
+      "description": "",
+      "created": 1791047181.8559763
+    },
+    "memory": {}
+  },
+  "labels": {
+    "C1": "candidate-a",
+    "C2": "candidate-b",
+    "abstain": null
+  },
+  "option_order": [
+    "C1",
+    "C2",
+    "abstain"
+  ],
+  "request": {
+    "state": "{\"candidates\":[{\"applicability\":\"Describe when A applies\",\"conditions\":{\"seed\":7},\"evidence\":[],\"hypothesis\":\"Describe hypothesis A\",\"id\":\"candidate-a\"},{\"applicability\":\"Describe when B applies\",\"conditions\":{\"seed\":7},\"evidence\":[],\"hypothesis\":\"Describe hypothesis B\",\"id\":\"candidate-b\"}],\"candidates_are_unexecuted_proposals\":true,\"context\":\"Describe the task and resource conditions.\",\"research_memory\":{\"goal\":{\"created\":1791047181.8559763,\"description\":\"\",\"id\":\"goal_42b93fdb1c6449cfab5a056c6b7839c2\",\"title\":\"Laya installed CLI contract smoke; no inference\"},\"memory\":{}}}",
+    "questions": {
+      "research_choice": {
+        "type": "choice",
+        "instructions": "Which proposal should the external agent investigate next?",
+        "criteria": {
+          "C1": "H: Describe hypothesis A; IF: Describe when A applies; V: unexecuted proposal; referenced checks: none",
+          "C2": "H: Describe hypothesis B; IF: Describe when B applies; V: unexecuted proposal; referenced checks: none",
+          "abstain": "Abstain: insufficient evidence or no suitable proposal; ask the external agent to review."
+        }
+      }
+    }
+  },
+  "sha256": "297a5140d3d1338cd679aec3879625053ae6c66dc3c2b169bd238dced78c42d4"
+}

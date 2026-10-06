@@ -1,0 +1,57 @@
+{
+  "hypothesis_id": "hyp_60947ff54c8e423f9a66f13c1f5d8fa3",
+  "change": "External agent CSV summary under supplied missing-exclusion rule; one deterministic source for all prescribed functional replications",
+  "comparison": "Frozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline",
+  "data_split": {
+    "development": "all rows of supplied public synthetic data.csv",
+    "evaluation": "same pinned input, independently implemented owner frozen validator; no independent population or holdout inference"
+  },
+  "seed": 1,
+  "source_version": {
+    "label": "skill-demo-descriptive-csv-v1",
+    "files": {
+      "task.py": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306",
+      "data.csv": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a"
+    }
+  },
+  "metrics": [
+    "calculation_matches",
+    "satisfaction_pct"
+  ],
+  "criteria": [
+    {
+      "metric": "calculation_matches",
+      "op": "==",
+      "threshold": 1
+    },
+    {
+      "metric": "satisfaction_pct",
+      "op": ">=",
+      "threshold": 80
+    }
+  ],
+  "conditions": {
+    "repeat_design": "three_fixed_input_replications",
+    "input": "same fixed public synthetic data.csv",
+    "missing_rule": "empty rating counted and excluded",
+    "rating_range": "1-5",
+    "satisfaction_formula": "mean_valid_rating/5*100",
+    "unit": "percentage",
+    "stochastic_sampling": false,
+    "scope": "fixed fixture descriptive summary only"
+  },
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+    "task.py",
+    "--seed",
+    "1"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment",
+  "artifacts": [
+    {
+      "name": "summary",
+      "path": "summary.json"
+    }
+  ],
+  "validator": "csv-owner-fixed-v1"
+}

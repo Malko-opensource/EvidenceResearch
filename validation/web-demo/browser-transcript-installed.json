@@ -1,0 +1,168 @@
+{
+  "version": "0.5.0",
+  "native_api": "document.modelContext",
+  "mock_registry": false,
+  "phase": "source full flow plus installed server duplicate request",
+  "external_agent": "current Codex assistant",
+  "external_tokens": "unknown",
+  "research_effect_study": false,
+  "calls": [
+    {
+      "tool": "research_init",
+      "arguments": {
+        "workspace": "web-demo-20261004"
+      },
+      "result": "{\"ok\":true,\"data\":{\"workspace\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\",\"revision\":0,\"runner_interpreter\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\.mcp-venv\\\\Scripts\\\\python.exe\"}}"
+    },
+    {
+      "tool": "research_status",
+      "arguments": {
+        "workspace": "web-demo-20261004"
+      },
+      "result": "{\"ok\":true,\"data\":{\"workspace\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\",\"goals\":[],\"goal_total\":0,\"hypotheses\":[],\"hypothesis_total\":0,\"registrations\":[],\"total\":0,\"limit\":20,\"offset\":0,\"allowed_actions\":[\"goal\",\"hypothesis\",\"register\",\"memory\",\"show\",\"export\"],\"revision\":0}}"
+    },
+    {
+      "tool": "research_memory",
+      "arguments": {
+        "workspace": "web-demo-20261004",
+        "limit": 5
+      },
+      "result": "{\"ok\":true,\"data\":{\"items\":[],\"total\":0,\"limit\":5,\"offset\":0,\"revision\":0}}"
+    },
+    {
+      "tool": "research_goal",
+      "arguments": {
+        "workspace": "web-demo-20261004",
+        "title": "웹 연결 실연 · 가중 통계",
+        "description": "개발용 기능 실연. 같은 연구 상태를 CLI와 WebMCP로 공유하며 독립 검증을 확인한다. 연구 성능 비교에는 포함하지 않는다."
+      },
+      "result": "{\"ok\":true,\"data\":{\"id\":\"goal_f4bfa7a4ce244f728ff5f92e5aa3ea73\",\"title\":\"웹 연결 실연 · 가중 통계\",\"description\":\"개발용 기능 실연. 같은 연구 상태를 CLI와 WebMCP로 공유하며 독립 검증을 확인한다. 연구 성능 비교에는 포함하지 않는다.\",\"created\":1791093596.4613416,\"revision\":1}}"
+    },
+    {
+      "tool": "research_hypothesis",
+      "arguments": {
+        "workspace": "web-demo-20261004",
+        "goal": "goal_f4bfa7a4ce244f728ff5f92e5aa3ea73",
+        "statement": "고정 입력의 가중 평균과 분산을 계산한 산출물이 독립 기대값 5와 8에 일치한다."
+      },
+      "result": "{\"ok\":true,\"data\":{\"id\":\"hyp_7eb71f6df1b040ec9c6d5f61be85bff2\",\"goal_id\":\"goal_f4bfa7a4ce244f728ff5f92e5aa3ea73\",\"statement\":\"고정 입력의 가중 평균과 분산을 계산한 산출물이 독립 기대값 5와 8에 일치한다.\",\"created\":1791093602.8207097,\"revision\":2}}"
+    },
+    {
+      "tool": "research_register",
+      "arguments": {
+        "workspace": "web-demo-20261004",
+        "goal": "goal_f4bfa7a4ce244f728ff5f92e5aa3ea73",
+        "spec": {
+          "hypothesis_id": "hyp_7eb71f6df1b040ec9c6d5f61be85bff2",
+          "change": "고정 가중 입력으로 평균·분산을 계산하는 개발용 실험",
+          "comparison": "소스와 분리해 고정한 독립 기대값 mean=5, variance=8",
+          "data_split": {
+            "development": "공개 고정 입력 [1,5,9], 가중치 [1,2,1]",
+            "evaluation": "개발용 연결 검사; 성능 비교 과제 아님"
+          },
+          "seed": 0,
+          "source_version": {
+            "label": "web-demo-v1",
+            "files": {
+              "task.py": "844e2c448af3e5820bdef8269d7f3e5300b6f12156e738e99dfb6c72e8a18c22"
+            }
+          },
+          "metrics": [
+            "pass_rate"
+          ],
+          "criteria": [
+            {
+              "metric": "pass_rate",
+              "op": ">=",
+              "threshold": 1
+            }
+          ],
+          "command": [
+            "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+            "task.py"
+          ],
+          "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\web-demo-20261004\\experiment",
+          "artifacts": [
+            {
+              "name": "result",
+              "path": "result.json"
+            }
+          ],
+          "validator": "web-fixed"
+        },
+        "request_key": "web-demo-registration-1",
+        "expect": 3
+      },
+      "result": "{\"ok\":true,\"data\":{\"registration\":{\"id\":\"reg_5c7bb55e651348ea81eed839828fdaeb\",\"goal_id\":\"goal_f4bfa7a4ce244f728ff5f92e5aa3ea73\",\"hypothesis_id\":\"hyp_7eb71f6df1b040ec9c6d5f61be85bff2\",\"spec\":{\"artifacts\":[{\"name\":\"result\",\"path\":\"result.json\"}],\"change\":\"고정 가중 입력으로 평균·분산을 계산하는 개발용 실험\",\"command\":[\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\.mcp-venv\\\\Scripts\\\\python.exe\",\"task.py\"],\"comparison\":\"소스와 분리해 고정한 독립 기대값 mean=5, variance=8\",\"criteria\":[{\"metric\":\"pass_rate\",\"op\":\">=\",\"threshold\":1}],\"cwd\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\\\\experiment\",\"data_split\":{\"development\":\"공개 고정 입력 [1,5,9], 가중치 [1,2,1]\",\"evaluation\":\"개발용 연결 검사; 성능 비교 과제 아님\"},\"hypothesis_id\":\"hyp_7eb71f6df1b040ec9c6d5f61be85bff2\",\"metrics\":[\"pass_rate\"],\"seed\":0,\"source_version\":{\"files\":{\"task.py\":\"844e2c448af3e5820bdef8269d7f3e5300b6f12156e738e99dfb6c72e8a18c22\"},\"label\":\"web-demo-v1\"},\"validator\":\"web-fixed\",\"validator_sha256\":\"9db5cb1d72a51533bc9bc37c8a185f3191fab3f65f29eaba37ea6bfbb1a0f26f\"},\"fingerprint\":\"35785205eed5b2f4b04962623ed0f08c1c9e66232f3d6a515604d4dc0c8db52b\",\"created\":1791093661.4293747},\"reused\":false,\"revision\":4}}"
+    },
+    {
+      "tool": "research_decide",
+      "arguments": {
+        "workspace": "web-demo-20261004",
+        "registration": "reg_5c7bb55e651348ea81eed839828fdaeb",
+        "decision": "adopted",
+        "reason": "개발용 거부 검사: 실행·검증 전 채택이 허용되는지 확인",
+        "expect": 4
+      },
+      "result": "{\"ok\":false,\"error\":{\"code\":\"INVALID_TRANSITION\",\"message\":\"Adoption requires successful execution and verification\",\"details\":{}}}"
+    },
+    {
+      "tool": "research_run",
+      "arguments": {
+        "workspace": "web-demo-20261004",
+        "registration": "reg_5c7bb55e651348ea81eed839828fdaeb",
+        "request_key": "web-demo-run-1",
+        "expect": 4
+      },
+      "result": "{\"ok\":true,\"data\":{\"started\":true,\"receipt_collected\":true,\"record\":{\"registration\":{\"id\":\"reg_5c7bb55e651348ea81eed839828fdaeb\",\"goal_id\":\"goal_f4bfa7a4ce244f728ff5f92e5aa3ea73\",\"fingerprint\":\"35785205eed5b2f4b04962623ed0f08c1c9e66232f3d6a515604d4dc0c8db52b\"},\"run\":{\"id\":\"run_33678e033758424c95eede83201b7442\",\"state\":\"succeeded\",\"resources\":{\"external_model_usage\":\"unknown\",\"external_tokens\":\"unknown\",\"tokens\":{\"status\":\"unknown\",\"value\":null},\"wall_seconds\":0.062000000034458935},\"execution_directory\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\\\\.research\\\\runs\\\\run_33678e033758424c95eede83201b7442\\\\work\"},\"verification\":null,\"decision\":{\"state\":\"pending\"},\"revision\":6,\"evidence_integrity\":\"valid\",\"evidence_summary\":{\"total\":6,\"invalid\":0,\"missing_artifact_count\":0,\"missing_artifacts\":[]},\"artifacts\":[{\"name\":\"result\",\"sha256\":\"c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458\",\"integrity\":\"valid\",\"verified\":false,\"path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\\\\.research\\\\evidence\\\\c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458\"}],\"artifact_total\":1,\"artifacts_remaining\":0,\"claim_verified\":false,\"detail_retrieval\":{\"command\":\"show\",\"registration_id\":\"reg_5c7bb55e651348ea81eed839828fdaeb\",\"workspace\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\"}}}}"
+    },
+    {
+      "tool": "research_run",
+      "arguments": {
+        "workspace": "web-demo-20261004",
+        "registration": "reg_5c7bb55e651348ea81eed839828fdaeb",
+        "request_key": "web-demo-run-1"
+      },
+      "result": "{\"ok\":true,\"data\":{\"started\":false,\"resume\":\"Use recover for running/unknown; completed executions are reused.\",\"record\":{\"registration\":{\"id\":\"reg_5c7bb55e651348ea81eed839828fdaeb\",\"goal_id\":\"goal_f4bfa7a4ce244f728ff5f92e5aa3ea73\",\"fingerprint\":\"35785205eed5b2f4b04962623ed0f08c1c9e66232f3d6a515604d4dc0c8db52b\"},\"run\":{\"id\":\"run_33678e033758424c95eede83201b7442\",\"state\":\"succeeded\",\"resources\":{\"external_model_usage\":\"unknown\",\"external_tokens\":\"unknown\",\"tokens\":{\"status\":\"unknown\",\"value\":null},\"wall_seconds\":0.062000000034458935},\"execution_directory\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\\\\.research\\\\runs\\\\run_33678e033758424c95eede83201b7442\\\\work\"},\"verification\":null,\"decision\":{\"state\":\"pending\"},\"revision\":6,\"evidence_integrity\":\"valid\",\"evidence_summary\":{\"total\":6,\"invalid\":0,\"missing_artifact_count\":0,\"missing_artifacts\":[]},\"artifacts\":[{\"name\":\"result\",\"sha256\":\"c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458\",\"integrity\":\"valid\",\"verified\":false,\"path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\\\\.research\\\\evidence\\\\c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458\"}],\"artifact_total\":1,\"artifacts_remaining\":0,\"claim_verified\":false,\"detail_retrieval\":{\"command\":\"show\",\"registration_id\":\"reg_5c7bb55e651348ea81eed839828fdaeb\",\"workspace\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\"}}}}"
+    },
+    {
+      "tool": "research_verify",
+      "arguments": {
+        "workspace": "web-demo-20261004",
+        "registration": "reg_5c7bb55e651348ea81eed839828fdaeb"
+      },
+      "result": "{\"ok\":true,\"data\":{\"record\":{\"registration\":{\"id\":\"reg_5c7bb55e651348ea81eed839828fdaeb\",\"goal_id\":\"goal_f4bfa7a4ce244f728ff5f92e5aa3ea73\",\"fingerprint\":\"35785205eed5b2f4b04962623ed0f08c1c9e66232f3d6a515604d4dc0c8db52b\"},\"run\":{\"id\":\"run_33678e033758424c95eede83201b7442\",\"state\":\"succeeded\",\"resources\":{\"external_model_usage\":\"unknown\",\"external_tokens\":\"unknown\",\"tokens\":{\"status\":\"unknown\",\"value\":null},\"wall_seconds\":0.062000000034458935},\"execution_directory\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\\\\.research\\\\runs\\\\run_33678e033758424c95eede83201b7442\\\\work\"},\"verification\":{\"run_id\":\"run_33678e033758424c95eede83201b7442\",\"state\":\"passed\",\"metrics\":{\"pass_rate\":1},\"metric_total\":1,\"criteria_results\":[{\"actual\":1,\"metric\":\"pass_rate\",\"op\":\">=\",\"passed\":true,\"threshold\":1}],\"criteria_total\":1},\"decision\":{\"state\":\"pending\"},\"revision\":7,\"evidence_integrity\":\"valid\",\"evidence_summary\":{\"total\":6,\"invalid\":0,\"missing_artifact_count\":0,\"missing_artifacts\":[]},\"artifacts\":[{\"name\":\"result\",\"sha256\":\"c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458\",\"integrity\":\"valid\",\"verified\":true,\"path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\\\\.research\\\\evidence\\\\c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458\"}],\"artifact_total\":1,\"artifacts_remaining\":0,\"claim_verified\":true,\"detail_retrieval\":{\"command\":\"show\",\"registration_id\":\"reg_5c7bb55e651348ea81eed839828fdaeb\",\"workspace\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\"}}}}"
+    },
+    {
+      "tool": "research_decide",
+      "arguments": {
+        "workspace": "web-demo-20261004",
+        "registration": "reg_5c7bb55e651348ea81eed839828fdaeb",
+        "decision": "adopted",
+        "reason": "개발용 고정 과제의 보존 산출물에서 독립 검증 pass_rate=1.0을 확인했다. 웹 연결 기능 실연이며 연구 성능 개선을 뜻하지 않는다."
+      },
+      "result": "{\"ok\":true,\"data\":{\"decision\":{\"registration_id\":\"reg_5c7bb55e651348ea81eed839828fdaeb\",\"state\":\"adopted\",\"reason\":\"개발용 고정 과제의 보존 산출물에서 독립 검증 pass_rate=1.0을 확인했다. 웹 연결 기능 실연이며 연구 성능 개선을 뜻하지 않는다.\",\"created\":1791093739.8139267},\"reused\":false,\"revision\":8}}"
+    },
+    {
+      "tool": "research_memory",
+      "arguments": {
+        "workspace": "web-demo-20261004",
+        "query": "가중",
+        "outcome": "success",
+        "verification": "passed",
+        "limit": 5
+      },
+      "result": "{\"ok\":true,\"data\":{\"items\":[{\"id\":\"reg_5c7bb55e651348ea81eed839828fdaeb\",\"goal_id\":\"goal_f4bfa7a4ce244f728ff5f92e5aa3ea73\",\"hypothesis\":\"고정 입력의 가중 평균과 분산을 계산한 산출물이 독립 기대값 5와 8에 일치한다.\",\"execution\":\"succeeded\",\"verification\":\"passed\",\"decision\":\"adopted\",\"outcome\":\"success\",\"reason\":\"개발용 고정 과제의 보존 산출물에서 독립 검증 pass_rate=1.0을 확인했다. 웹 연결 기능 실연이며 연구 성능 개선을 뜻하지 않는다.\",\"resources\":{\"external_model_usage\":\"unknown\",\"external_tokens\":\"unknown\",\"tokens\":{\"status\":\"unknown\",\"value\":null},\"wall_seconds\":0.062000000034458935},\"evidence_count\":6,\"summary\":\"고정 가중 입력으로 평균·분산을 계산하는 개발용 실험\",\"conditions\":{\"comparison\":\"소스와 분리해 고정한 독립 기대값 mean=5, variance=8\",\"data_split\":{\"development\":\"공개 고정 입력 [1,5,9], 가중치 [1,2,1]\",\"evaluation\":\"개발용 연결 검사; 성능 비교 과제 아님\"},\"seed\":0,\"source_version\":{\"files\":{\"task.py\":\"844e2c448af3e5820bdef8269d7f3e5300b6f12156e738e99dfb6c72e8a18c22\"},\"label\":\"web-demo-v1\"}},\"evidence_integrity\":\"valid\",\"claim_verified\":true}],\"total\":1,\"limit\":5,\"offset\":0,\"revision\":8}}"
+    },
+    {
+      "phase": "installed0.5.0",
+      "tool": "research_run",
+      "arguments": {
+        "workspace": "web-demo-20261004",
+        "registration": "reg_5c7bb55e651348ea81eed839828fdaeb",
+        "request_key": "web-demo-run-1"
+      },
+      "result": "{\"ok\":true,\"data\":{\"started\":false,\"resume\":\"Use recover for running/unknown; completed executions are reused.\",\"record\":{\"registration\":{\"id\":\"reg_5c7bb55e651348ea81eed839828fdaeb\",\"goal_id\":\"goal_f4bfa7a4ce244f728ff5f92e5aa3ea73\",\"fingerprint\":\"35785205eed5b2f4b04962623ed0f08c1c9e66232f3d6a515604d4dc0c8db52b\"},\"run\":{\"id\":\"run_33678e033758424c95eede83201b7442\",\"state\":\"succeeded\",\"resources\":{\"external_model_usage\":\"unknown\",\"external_tokens\":\"unknown\",\"tokens\":{\"status\":\"unknown\",\"value\":null},\"wall_seconds\":0.062000000034458935},\"execution_directory\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\\\\.research\\\\runs\\\\run_33678e033758424c95eede83201b7442\\\\work\"},\"verification\":{\"run_id\":\"run_33678e033758424c95eede83201b7442\",\"state\":\"passed\",\"metrics\":{\"pass_rate\":1},\"metric_total\":1,\"criteria_results\":[{\"actual\":1,\"metric\":\"pass_rate\",\"op\":\">=\",\"passed\":true,\"threshold\":1}],\"criteria_total\":1},\"decision\":{\"state\":\"adopted\"},\"revision\":8,\"evidence_integrity\":\"valid\",\"evidence_summary\":{\"total\":6,\"invalid\":0,\"missing_artifact_count\":0,\"missing_artifacts\":[]},\"artifacts\":[{\"name\":\"result\",\"sha256\":\"c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458\",\"integrity\":\"valid\",\"verified\":true,\"path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\\\\.research\\\\evidence\\\\c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458\"}],\"artifact_total\":1,\"artifacts_remaining\":0,\"claim_verified\":true,\"detail_retrieval\":{\"command\":\"show\",\"registration_id\":\"reg_5c7bb55e651348ea81eed839828fdaeb\",\"workspace\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\web-demo-20261004\"}}}}"
+    }
+  ]
+}

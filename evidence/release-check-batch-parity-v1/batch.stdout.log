@@ -1,1 +1,0 @@
-{"valid": false, "file_count": 6758, "credential_values_printed": false, "rejected_count": 1, "rejected_preview": [{"path": "STATUS.json", "reason": "working file changed after staging; restage and verify"}], "wall_seconds": 4.7795539000071585}

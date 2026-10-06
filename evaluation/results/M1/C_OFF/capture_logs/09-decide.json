@@ -1,0 +1,39 @@
+{
+  "index": 9,
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "research_cli",
+    "--workspace",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research",
+    "decide",
+    "--registration",
+    "reg_8d5f6ae9a92443d2abd148aa8338efe1",
+    "--decision",
+    "adopted",
+    "--reason",
+    "Adopt for this M1 registration because csv-fixed-v1 independently recomputed preserved source and artifacts, integrity was true, all 7 checks passed, and verified pass_rate 1.0 meets the preregistered >= 1.0 criterion. The original task was invoked once; repeating its logical request returned started:false and preserved work/artifact invocation count stayed 1. No measured baseline or general improvement claim is made.",
+    "--expect",
+    "7"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+  "started_at": "2026-10-03T16:27:06.573581+00:00",
+  "completed_at": "2026-10-03T16:27:06.662731+00:00",
+  "returncode": 0,
+  "stdout": "{\"ok\": true, \"data\": {\"decision\": {\"registration_id\": \"reg_8d5f6ae9a92443d2abd148aa8338efe1\", \"state\": \"adopted\", \"reason\": \"Adopt for this M1 registration because csv-fixed-v1 independently recomputed preserved source and artifacts, integrity was true, all 7 checks passed, and verified pass_rate 1.0 meets the preregistered >= 1.0 criterion. The original task was invoked once; repeating its logical request returned started:false and preserved work/artifact invocation count stayed 1. No measured baseline or general improvement claim is made.\", \"created\": 1791044826.6393218}, \"reused\": false, \"revision\": 8}}\n",
+  "stderr": "",
+  "log_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\capture_logs\\09-decide.json",
+  "response": {
+    "ok": true,
+    "data": {
+      "decision": {
+        "registration_id": "reg_8d5f6ae9a92443d2abd148aa8338efe1",
+        "state": "adopted",
+        "reason": "Adopt for this M1 registration because csv-fixed-v1 independently recomputed preserved source and artifacts, integrity was true, all 7 checks passed, and verified pass_rate 1.0 meets the preregistered >= 1.0 criterion. The original task was invoked once; repeating its logical request returned started:false and preserved work/artifact invocation count stayed 1. No measured baseline or general improvement claim is made.",
+        "created": 1791044826.6393218
+      },
+      "reused": false,
+      "revision": 8
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "databases": {
+    "agent-observatory-20261004/.research/state.sqlite3": {
+      "logical_sha256": "062e194922c24b2d21e9c5e2999e4aa40aedf46878a4d5ef8d9d3598efc8e195",
+      "revision": 8
+    },
+    "goal-plugin-demo-20261004/.research/state.sqlite3": {
+      "logical_sha256": "dbdae863e2a8e557102bf258b3b263c850f3926e4ebec565dc7e51a0c1d5f8e5",
+      "revision": 21
+    },
+    "installation-check-2024823d379446cfa9f7cc8cec74a69b/.research/state.sqlite3": {
+      "logical_sha256": "68a40fceee15a71ea43788b173adcab54fe600e9cef972f450f104bf993834b5",
+      "revision": 2
+    },
+    "installation-check-580fcadc87b84e7880acc96419c9203c/.research/state.sqlite3": {
+      "logical_sha256": "c4b3289a8260e7186c9a65948f33ac3107703d281307a1efbff40cae74a36a1c",
+      "revision": 2
+    },
+    "installation-check-5cb1f3899cad44b9830a7eba524bcb43/.research/state.sqlite3": {
+      "logical_sha256": "a7e3591745564f659b0915582c338738a0315acb1b84666e7bbb1362c9c34e89",
+      "revision": 2
+    },
+    "installation-check-7fe9c43884d24691b292c60c0b75e2ca/.research/state.sqlite3": {
+      "logical_sha256": "be628b11570264a9de766a429c19694f2c10a8050315bbeb8e5cd8aa81faf8d5",
+      "revision": 2
+    },
+    "installation-check-84bbcf7a565842aea19a6a0ef1d78c43/.research/state.sqlite3": {
+      "logical_sha256": "4ad76e4cdb91842f2a8dbb58da272a50af7d3d5ea5a36bdbe511354dced3ce42",
+      "revision": 2
+    },
+    "installation-check-88939ba001f243e08117fe29e8d33307/.research/state.sqlite3": {
+      "logical_sha256": "9b7a004c6efbea0856e3b5a481394c8d732901653b349ed46465792e10334d12",
+      "revision": 2
+    },
+    "installation-check-a7a7458d4d2b4e70ac4ee64628a631c3/.research/state.sqlite3": {
+      "logical_sha256": "e7ca446ed9e9ca87f70316e20be2bad660064baaf29f2dcc7f931c1b90996199",
+      "revision": 2
+    },
+    "product-empty-20261004/.research/state.sqlite3": {
+      "logical_sha256": "0d5f366718eec3c131a316cb88ed411afa4b6777732edde7ae0244d247eee083",
+      "revision": 0
+    },
+    "product-fixtures-20261004/.research/state.sqlite3": {
+      "logical_sha256": "53fa6f5af3033f06e74b4c0f5e556577347821c83e4b4eaf76d4d6d305959d97",
+      "revision": 44
+    },
+    "report-channel-fixture-20261004/.research/state.sqlite3": {
+      "logical_sha256": "6dc9d7453f7996dd8298a487bb442239bbd0ed406db65e9789abd6f6eb08ed78",
+      "revision": 7
+    },
+    "web-demo-20261004/.research/state.sqlite3": {
+      "logical_sha256": "cd7708b466bfb7a88c09f54b1014f58f0bbb326d0d23dc996b5d7d91ff973233",
+      "revision": 8
+    }
+  },
+  "evidence": {
+    "agent-observatory-20261004/.research/evidence/0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7": "0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7",
+    "agent-observatory-20261004/.research/evidence/09c4c259a87612a7f11c680563f7dabe906c01ace55778f410dd0018762ab083": "09c4c259a87612a7f11c680563f7dabe906c01ace55778f410dd0018762ab083",
+    "agent-observatory-20261004/.research/evidence/6d28e0f3a25988197256d14836419bfc21d1699dd20d257b3a3a80d81cad78cf": "6d28e0f3a25988197256d14836419bfc21d1699dd20d257b3a3a80d81cad78cf",
+    "agent-observatory-20261004/.research/evidence/9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584": "9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584",
+    "agent-observatory-20261004/.research/evidence/c6372114e581db2ac52c5514b674ad61d877b6eb089e69c39504d0cae02c5137": "c6372114e581db2ac52c5514b674ad61d877b6eb089e69c39504d0cae02c5137",
+    "agent-observatory-20261004/.research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "goal-plugin-demo-20261004/.research/evidence/035e5b1e3b7591aeaf461ff76cc356755978b359ca53150f7f70a01876623e50": "035e5b1e3b7591aeaf461ff76cc356755978b359ca53150f7f70a01876623e50",
+    "goal-plugin-demo-20261004/.research/evidence/39d3b68ecc52a90e804d736d28a969afea1a6296df1143ce04021eaa60a7f5d4": "39d3b68ecc52a90e804d736d28a969afea1a6296df1143ce04021eaa60a7f5d4",
+    "goal-plugin-demo-20261004/.research/evidence/4431fb5c32317a36a56584fefae180fc0a613ce273fdd0488777774bcadbdc6b": "4431fb5c32317a36a56584fefae180fc0a613ce273fdd0488777774bcadbdc6b",
+    "goal-plugin-demo-20261004/.research/evidence/4d40c2ec55dfe3d0b877bbde33143c8be3ce2a7154cd7b24ea39e897c351866c": "4d40c2ec55dfe3d0b877bbde33143c8be3ce2a7154cd7b24ea39e897c351866c",
+    "goal-plugin-demo-20261004/.research/evidence/6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+    "goal-plugin-demo-20261004/.research/evidence/6dad725d9b641e70da7700701cdb03fd041a14333fe14b697436f1f62d90caea": "6dad725d9b641e70da7700701cdb03fd041a14333fe14b697436f1f62d90caea",
+    "goal-plugin-demo-20261004/.research/evidence/74bf6af648efa4235a61ff0ea9ce21b2372b0476c5dfa7e1a625b9cd4d65279b": "74bf6af648efa4235a61ff0ea9ce21b2372b0476c5dfa7e1a625b9cd4d65279b",
+    "goal-plugin-demo-20261004/.research/evidence/7a6d879de7936456b8a3997aebe16349b51c75f1655222cc68d863b3065ae208": "7a6d879de7936456b8a3997aebe16349b51c75f1655222cc68d863b3065ae208",
+    "goal-plugin-demo-20261004/.research/evidence/921e412bcc9e27e0ae7cb075eaab9f08844b4072bcd9576c2c12d5cad1ad5ea0": "921e412bcc9e27e0ae7cb075eaab9f08844b4072bcd9576c2c12d5cad1ad5ea0",
+    "goal-plugin-demo-20261004/.research/evidence/978deebb995b51ad7fa502c4e750da2523793cc44ca8e5dfc4d8ade05167824b": "978deebb995b51ad7fa502c4e750da2523793cc44ca8e5dfc4d8ade05167824b",
+    "goal-plugin-demo-20261004/.research/evidence/a5febfff84ea2032847e29dae1f241cb0b2422a163ec6b553d4abd8f7b9a027b": "a5febfff84ea2032847e29dae1f241cb0b2422a163ec6b553d4abd8f7b9a027b",
+    "goal-plugin-demo-20261004/.research/evidence/bb6e3da30bdf9d63777b5f367223f8db81428a61de3248f2bf9d0881a75be729": "bb6e3da30bdf9d63777b5f367223f8db81428a61de3248f2bf9d0881a75be729",
+    "goal-plugin-demo-20261004/.research/evidence/c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306",
+    "goal-plugin-demo-20261004/.research/evidence/cbb727600e630064858b6ca4b8e8326720e70cc8cbc50b71c90b2426e8fa7bd5": "cbb727600e630064858b6ca4b8e8326720e70cc8cbc50b71c90b2426e8fa7bd5",
+    "goal-plugin-demo-20261004/.research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "product-fixtures-20261004/.research/evidence/18846d9afeef34466d07fce9bc63c921e65360d54a87157ec139e701c398c71b": "18846d9afeef34466d07fce9bc63c921e65360d54a87157ec139e701c398c71b",
+    "product-fixtures-20261004/.research/evidence/2131a9c42049c97f570143936aea89817b650a3a2ac13e29f21ef3fa1dbfa75c": "2131a9c42049c97f570143936aea89817b650a3a2ac13e29f21ef3fa1dbfa75c",
+    "product-fixtures-20261004/.research/evidence/2eacb008e1d012fda1045188cb4454c2a346c46ef8f192f7579e93355a9db83d": "2eacb008e1d012fda1045188cb4454c2a346c46ef8f192f7579e93355a9db83d",
+    "product-fixtures-20261004/.research/evidence/3249894b08cef57b2e9f7a325aef8936f2f8999e5800f25be0a7fdefde696304": "3249894b08cef57b2e9f7a325aef8936f2f8999e5800f25be0a7fdefde696304",
+    "product-fixtures-20261004/.research/evidence/342dbe8ed21cc4e3e6cd36268df1df1a1b09ccae79a6d60f589d82665a536479": "342dbe8ed21cc4e3e6cd36268df1df1a1b09ccae79a6d60f589d82665a536479",
+    "product-fixtures-20261004/.research/evidence/4de3b679081334b6a27a13a022a3f2d98f8e37ec01dc24c947274dea68be163e": "4de3b679081334b6a27a13a022a3f2d98f8e37ec01dc24c947274dea68be163e",
+    "product-fixtures-20261004/.research/evidence/db62d35077f526caf731d4d1dd87cab4f8717cff34ba754cc1ad7ab87469e907": "db62d35077f526caf731d4d1dd87cab4f8717cff34ba754cc1ad7ab87469e907",
+    "product-fixtures-20261004/.research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "product-fixtures-20261004/.research/evidence/e735fd58c4de431b3697d3047f4e8ac2ca0643eea66bf6cd2aaaa440d8fa8b1b": "e735fd58c4de431b3697d3047f4e8ac2ca0643eea66bf6cd2aaaa440d8fa8b1b",
+    "web-demo-20261004/.research/evidence/018f04297d726bc2d229f7ce3eb8c50bf9334d2ddc10d8dfb92ecd87ccd9e836": "018f04297d726bc2d229f7ce3eb8c50bf9334d2ddc10d8dfb92ecd87ccd9e836",
+    "web-demo-20261004/.research/evidence/29e18e8bb89ffdb1e80efeeceafdfbfd12ccd78b3aafbbb85cdd794aade067bf": "29e18e8bb89ffdb1e80efeeceafdfbfd12ccd78b3aafbbb85cdd794aade067bf",
+    "web-demo-20261004/.research/evidence/844e2c448af3e5820bdef8269d7f3e5300b6f12156e738e99dfb6c72e8a18c22": "844e2c448af3e5820bdef8269d7f3e5300b6f12156e738e99dfb6c72e8a18c22",
+    "web-demo-20261004/.research/evidence/b7620ac92040e39863bcfaa68f41807edd3d7d7c9fcd9793ea0ec1bad0d832a4": "b7620ac92040e39863bcfaa68f41807edd3d7d7c9fcd9793ea0ec1bad0d832a4",
+    "web-demo-20261004/.research/evidence/c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458": "c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458",
+    "web-demo-20261004/.research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "launch_markers": {
+    "agent-observatory-20261004/launch-count.txt": "25bd584cd7199c08a36333fd64409afa5c350489c15cd8b08d4e5d3cba8a876e",
+    "product-fixtures-20261004/launch-count.txt": "00e46698f0742e8d9da738aecd9db4ed418f87e3a496f7fce76184bf02edd522"
+  },
+  "core_modules": {
+    "__init__.py": "fedddfb5da2f2d8683e72dfe127f9f789e9b9d805c7c67e16db551ac478b7da7",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "cli.py": "d9e910b821b1cd45929ad0e417ba0a01b8846b8c18fa1680491156bb3b6e349d",
+    "core.py": "f46b7bc03fb1cae62d6d66d8c146e4e173212fbf840d44ed666276e46538507b",
+    "laya.py": "957f96a76accef10901a3967e29b56388b0d73cd3bd8a0d68a3533aef67401c3",
+    "mcp_bridge.py": "10c757136f8fe67563e9f5c3c172439e165f3c60c05c99744cd142eedc2cf3db",
+    "mcp_server.py": "1bf59e9d0ceab23fe6e41a81b62a63f247938e89450400b2eca6d50da4da45e9",
+    "runner.py": "d659244c2ec85562556d79081ba9e84dc4c9f65cfad51d425dfdc4f13f36e94b",
+    "transfer.py": "b20cdbd5a150197fb1b7ccd42d3b5531c5aec8808ad6f2920822855ed6575ed7",
+    "web_server.py": "a8b4582a9b4525a4ecf6ff3293e9872e3256b102e1b447299a53e7f9a8ed4d05",
+    "web_tools.py": "9806e0f2cc3fa387dd5ee326d163debb30ce72ef502f6bf36941cfad258f5877",
+    "worker.py": "49041f8606ccf8b6f6d15016ca26e801a6daa074ee32a9f448a642d1b0d58953"
+  }
+}

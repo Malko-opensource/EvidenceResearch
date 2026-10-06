@@ -1,0 +1,1666 @@
+{
+  "schema_version": 1,
+  "demonstration_kind": "actual external-agent skill use against source CLI; public fixed synthetic fixture",
+  "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+  "workspace": "goal-plugin-demo-20261004",
+  "workspace_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004",
+  "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+  "goal_version": 2,
+  "goal_state": "completed",
+  "hypothesis_id": "hyp_60947ff54c8e423f9a66f13c1f5d8fa3",
+  "latest_observed_revision": 21,
+  "revision_trace": [
+    {
+      "operation": "status",
+      "revision": 1,
+      "started_at": "2026-10-04T11:41:23.842910+00:00"
+    },
+    {
+      "operation": "memory",
+      "revision": 1,
+      "started_at": "2026-10-04T11:41:32.980134+00:00"
+    },
+    {
+      "operation": "goal",
+      "revision": 2,
+      "started_at": "2026-10-04T11:43:39.781044+00:00"
+    },
+    {
+      "operation": "status",
+      "revision": 2,
+      "started_at": "2026-10-04T11:43:50.779243+00:00"
+    },
+    {
+      "operation": "goal",
+      "revision": 2,
+      "started_at": "2026-10-04T11:43:50.895104+00:00"
+    },
+    {
+      "operation": "hypothesis",
+      "revision": 3,
+      "started_at": "2026-10-04T11:44:04.893335+00:00"
+    },
+    {
+      "operation": "register",
+      "revision": 4,
+      "started_at": "2026-10-04T11:44:26.631593+00:00"
+    },
+    {
+      "operation": "register",
+      "revision": 5,
+      "started_at": "2026-10-04T11:44:26.774245+00:00"
+    },
+    {
+      "operation": "register",
+      "revision": 6,
+      "started_at": "2026-10-04T11:44:26.914036+00:00"
+    },
+    {
+      "operation": "goal_amend",
+      "revision": 7,
+      "started_at": "2026-10-04T11:44:35.482867+00:00"
+    },
+    {
+      "operation": "decide",
+      "revision": 17,
+      "started_at": "2026-10-04T11:44:59.479074+00:00"
+    },
+    {
+      "operation": "decide",
+      "revision": 18,
+      "started_at": "2026-10-04T11:44:59.596567+00:00"
+    },
+    {
+      "operation": "decide",
+      "revision": 19,
+      "started_at": "2026-10-04T11:44:59.731514+00:00"
+    },
+    {
+      "operation": "resource",
+      "revision": 20,
+      "started_at": "2026-10-04T11:45:57.648663+00:00"
+    },
+    {
+      "operation": "resource_show",
+      "revision": 20,
+      "started_at": "2026-10-04T11:45:57.776272+00:00"
+    },
+    {
+      "operation": "goal_close",
+      "revision": 21,
+      "started_at": "2026-10-04T11:45:57.897005+00:00"
+    },
+    {
+      "operation": "status",
+      "revision": 21,
+      "started_at": "2026-10-04T11:45:58.029873+00:00"
+    },
+    {
+      "operation": "goal",
+      "revision": 21,
+      "started_at": "2026-10-04T11:46:22.864286+00:00"
+    },
+    {
+      "operation": "goal_close",
+      "revision": 21,
+      "started_at": "2026-10-04T11:46:23.112577+00:00"
+    },
+    {
+      "operation": "goal_show",
+      "revision": 21,
+      "started_at": "2026-10-04T11:46:23.285372+00:00"
+    },
+    {
+      "operation": "status",
+      "revision": 21,
+      "started_at": "2026-10-04T11:46:23.396892+00:00"
+    },
+    {
+      "operation": "memory",
+      "revision": 21,
+      "started_at": "2026-10-04T11:46:41.402067+00:00"
+    },
+    {
+      "operation": "status",
+      "revision": 21,
+      "started_at": "2026-10-04T11:46:41.587439+00:00"
+    }
+  ],
+  "prompt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\long-term-goal-prompt.v1.ko.md",
+  "brief_v1_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\goal-brief.v1.json",
+  "brief_v2_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\goal-brief.v2-plan.json",
+  "skill_decision_record": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\skill-use-decision-record.json",
+  "transcript_jsonl": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\cli-transcript.jsonl",
+  "transcript_text": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\cli-transcript.txt",
+  "validator": "csv-owner-fixed-v1",
+  "validator_sha256": "e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0",
+  "branches": [
+    {
+      "seed": 0,
+      "registration_id": "reg_3f105fe7b8834fdc8132663fa815073e",
+      "registration_goal_version": 1,
+      "run_id": "run_f544cfff0fb8492abf310373379350b8",
+      "run_state": "succeeded",
+      "run_created": 1791114275.6848257,
+      "run_finished": 1791114275.8629518,
+      "runner_wall_seconds": 0.07900000002700835,
+      "source_version": {
+        "files": {
+          "data.csv": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+          "task.py": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306"
+        },
+        "label": "skill-demo-descriptive-csv-v1"
+      },
+      "conditions": {
+        "input": "same fixed public synthetic data.csv",
+        "missing_rule": "empty rating counted and excluded",
+        "rating_range": "1-5",
+        "repeat_design": "three_fixed_input_replications",
+        "satisfaction_formula": "mean_valid_rating/5*100",
+        "scope": "fixed fixture descriptive summary only",
+        "stochastic_sampling": false,
+        "unit": "percentage"
+      },
+      "criteria": [
+        {
+          "metric": "calculation_matches",
+          "op": "==",
+          "threshold": 1
+        },
+        {
+          "metric": "satisfaction_pct",
+          "op": ">=",
+          "threshold": 80
+        }
+      ],
+      "summary": {
+        "valid_rows": 5,
+        "missing_rows": 1,
+        "total_rows": 6,
+        "satisfaction_pct": 72.0,
+        "team_means": {
+          "A": 4.0,
+          "B": 3.3333333333333335
+        },
+        "teams": {
+          "A": {
+            "valid_rows": 2,
+            "missing_rows": 1,
+            "mean_rating": 4.0,
+            "satisfaction_pct": 80.0
+          },
+          "B": {
+            "valid_rows": 3,
+            "missing_rows": 0,
+            "mean_rating": 3.3333333333333335,
+            "satisfaction_pct": 66.66666666666667
+          }
+        },
+        "seed": 0,
+        "repeat_design": "three_fixed_input_replications",
+        "scope": "fixed public synthetic CSV descriptive values only"
+      },
+      "summary_evidence": {
+        "id": "ev_0ae5e21e9bf041f2b6744f968405abbc",
+        "registration_id": "reg_3f105fe7b8834fdc8132663fa815073e",
+        "run_id": "run_f544cfff0fb8492abf310373379350b8",
+        "name": "summary",
+        "kind": "measured",
+        "claim": "Local runner file; verification remains separate",
+        "path": ".research/evidence/7a6d879de7936456b8a3997aebe16349b51c75f1655222cc68d863b3065ae208",
+        "sha256": "7a6d879de7936456b8a3997aebe16349b51c75f1655222cc68d863b3065ae208",
+        "size": 604,
+        "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\work\\summary.json",
+        "created": 1791114275.8629518,
+        "integrity": "valid",
+        "verified": false
+      },
+      "verification": {
+        "run_id": "run_f544cfff0fb8492abf310373379350b8",
+        "state": "failed",
+        "metrics": {
+          "calculation_matches": 1.0,
+          "satisfaction_pct": 72.0
+        },
+        "details": {
+          "_input_sha256": "51b8505b2c01164a9c85703836f01252ecabf5cf8c4ee325e42729477ce2688d",
+          "criteria_results": [
+            {
+              "actual": 1.0,
+              "metric": "calculation_matches",
+              "op": "==",
+              "passed": true,
+              "threshold": 1
+            },
+            {
+              "actual": 72.0,
+              "metric": "satisfaction_pct",
+              "op": ">=",
+              "passed": false,
+              "threshold": 80
+            }
+          ],
+          "expected_missing_rows": 1,
+          "expected_satisfaction_pct": 72.0,
+          "expected_team_means": {
+            "A": 4.0,
+            "B": 3.3333333333333335
+          },
+          "expected_valid_rows": 5,
+          "fixed_input_replications": true,
+          "integrity": true,
+          "missing_artifacts": [],
+          "missing_metrics": [],
+          "scope": "public synthetic fixed CSV; no population inference",
+          "source": "fixed_local_verifier",
+          "validator_sha256": "e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0",
+          "verifier_output": {
+            "details": {
+              "expected_missing_rows": 1,
+              "expected_satisfaction_pct": 72.0,
+              "expected_team_means": {
+                "A": 4.0,
+                "B": 3.3333333333333335
+              },
+              "expected_valid_rows": 5,
+              "fixed_input_replications": true,
+              "scope": "public synthetic fixed CSV; no population inference"
+            },
+            "metrics": {
+              "calculation_matches": 1.0,
+              "satisfaction_pct": 72.0
+            }
+          },
+          "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "verifier_stdout_sha256": "89b4426618e4a55a6b98ad6641a1ba517e0b01d7d55e38b222e743faf8f2bfa2"
+        },
+        "created": 1791114283.5170696
+      },
+      "decision": {
+        "registration_id": "reg_3f105fe7b8834fdc8132663fa815073e",
+        "state": "rejected",
+        "reason": "전체 만족도는 72%로 사전등록 사업 기준 80%보다 8 percentage points 낮다. 실행은 성공하고 고정 독립 계산 일치 지표는 1이나 전체 기준 검증은 실패다. 이 고정 CSV의 80% 가설을 기각하며 기술통계 계산의 정확성과 모집단 추론은 별개다.",
+        "created": 1791114299.5464122
+      },
+      "receipt": {
+        "error": null,
+        "exit_code": 0,
+        "files": [
+          {
+            "name": "source:data.csv",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\data.csv",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\work\\data.csv",
+            "sha256": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a"
+          },
+          {
+            "name": "source:task.py",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\task.py",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\work\\task.py",
+            "sha256": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306"
+          },
+          {
+            "name": "summary",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\work\\summary.json",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\artifacts\\summary.json",
+            "sha256": "7a6d879de7936456b8a3997aebe16349b51c75f1655222cc68d863b3065ae208"
+          },
+          {
+            "name": "stdout",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\stdout.log",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\stdout.log",
+            "sha256": "921e412bcc9e27e0ae7cb075eaab9f08844b4072bcd9576c2c12d5cad1ad5ea0"
+          },
+          {
+            "name": "stderr",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\stderr.log",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\stderr.log",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "name": "launch",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\launch.json",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\launch.json",
+            "sha256": "4431fb5c32317a36a56584fefae180fc0a613ce273fdd0488777774bcadbdc6b"
+          },
+          {
+            "name": "process",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\process.json",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\process.json",
+            "sha256": "035e5b1e3b7591aeaf461ff76cc356755978b359ca53150f7f70a01876623e50"
+          }
+        ],
+        "registration_id": "reg_3f105fe7b8834fdc8132663fa815073e",
+        "request_sha256": "821ce5b195251028c05688a1ab378b08276fdc53b7e5081b019f8884bf690ae8",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "wall_seconds": 0.07900000002700835
+        },
+        "run_id": "run_f544cfff0fb8492abf310373379350b8",
+        "state": "succeeded"
+      },
+      "evidence": [
+        {
+          "id": "ev_0ae5e21e9bf041f2b6744f968405abbc",
+          "registration_id": "reg_3f105fe7b8834fdc8132663fa815073e",
+          "run_id": "run_f544cfff0fb8492abf310373379350b8",
+          "name": "summary",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/7a6d879de7936456b8a3997aebe16349b51c75f1655222cc68d863b3065ae208",
+          "sha256": "7a6d879de7936456b8a3997aebe16349b51c75f1655222cc68d863b3065ae208",
+          "size": 604,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\work\\summary.json",
+          "created": 1791114275.8629518,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_3d95e9a3b229430d9f13d19d05aab4e3",
+          "registration_id": "reg_3f105fe7b8834fdc8132663fa815073e",
+          "run_id": "run_f544cfff0fb8492abf310373379350b8",
+          "name": "source:data.csv",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+          "sha256": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+          "size": 42,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\data.csv",
+          "created": 1791114275.8629518,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_565d3def9dac4c5088e36d07aea2cf3d",
+          "registration_id": "reg_3f105fe7b8834fdc8132663fa815073e",
+          "run_id": "run_f544cfff0fb8492abf310373379350b8",
+          "name": "stdout",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/921e412bcc9e27e0ae7cb075eaab9f08844b4072bcd9576c2c12d5cad1ad5ea0",
+          "sha256": "921e412bcc9e27e0ae7cb075eaab9f08844b4072bcd9576c2c12d5cad1ad5ea0",
+          "size": 474,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\stdout.log",
+          "created": 1791114275.8629518,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_653a56e4d60945d8b552528a31df18e4",
+          "registration_id": "reg_3f105fe7b8834fdc8132663fa815073e",
+          "run_id": "run_f544cfff0fb8492abf310373379350b8",
+          "name": "source:task.py",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306",
+          "sha256": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306",
+          "size": 1776,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\task.py",
+          "created": 1791114275.8629518,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_986ecd5f27694312bb41b3b9d28876b0",
+          "registration_id": "reg_3f105fe7b8834fdc8132663fa815073e",
+          "run_id": "run_f544cfff0fb8492abf310373379350b8",
+          "name": "stderr",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\stderr.log",
+          "created": 1791114275.8629518,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_a9708e5f8644443f9db4a98f6d5eabf9",
+          "registration_id": "reg_3f105fe7b8834fdc8132663fa815073e",
+          "run_id": "run_f544cfff0fb8492abf310373379350b8",
+          "name": "process",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/035e5b1e3b7591aeaf461ff76cc356755978b359ca53150f7f70a01876623e50",
+          "sha256": "035e5b1e3b7591aeaf461ff76cc356755978b359ca53150f7f70a01876623e50",
+          "size": 55,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\process.json",
+          "created": 1791114275.8629518,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_d247224f2b96430f872de8ed0c4212ce",
+          "registration_id": "reg_3f105fe7b8834fdc8132663fa815073e",
+          "run_id": "run_f544cfff0fb8492abf310373379350b8",
+          "name": "launch",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/4431fb5c32317a36a56584fefae180fc0a613ce273fdd0488777774bcadbdc6b",
+          "sha256": "4431fb5c32317a36a56584fefae180fc0a613ce273fdd0488777774bcadbdc6b",
+          "size": 354,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_f544cfff0fb8492abf310373379350b8\\launch.json",
+          "created": 1791114275.8629518,
+          "integrity": "valid",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "registration_id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+      "registration_goal_version": 1,
+      "run_id": "run_2d9d6aecd7264991a98fcd8e65b281ed",
+      "run_state": "succeeded",
+      "run_created": 1791114283.6536198,
+      "run_finished": 1791114283.8298304,
+      "runner_wall_seconds": 0.06299999996554106,
+      "source_version": {
+        "files": {
+          "data.csv": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+          "task.py": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306"
+        },
+        "label": "skill-demo-descriptive-csv-v1"
+      },
+      "conditions": {
+        "input": "same fixed public synthetic data.csv",
+        "missing_rule": "empty rating counted and excluded",
+        "rating_range": "1-5",
+        "repeat_design": "three_fixed_input_replications",
+        "satisfaction_formula": "mean_valid_rating/5*100",
+        "scope": "fixed fixture descriptive summary only",
+        "stochastic_sampling": false,
+        "unit": "percentage"
+      },
+      "criteria": [
+        {
+          "metric": "calculation_matches",
+          "op": "==",
+          "threshold": 1
+        },
+        {
+          "metric": "satisfaction_pct",
+          "op": ">=",
+          "threshold": 80
+        }
+      ],
+      "summary": {
+        "valid_rows": 5,
+        "missing_rows": 1,
+        "total_rows": 6,
+        "satisfaction_pct": 72.0,
+        "team_means": {
+          "A": 4.0,
+          "B": 3.3333333333333335
+        },
+        "teams": {
+          "A": {
+            "valid_rows": 2,
+            "missing_rows": 1,
+            "mean_rating": 4.0,
+            "satisfaction_pct": 80.0
+          },
+          "B": {
+            "valid_rows": 3,
+            "missing_rows": 0,
+            "mean_rating": 3.3333333333333335,
+            "satisfaction_pct": 66.66666666666667
+          }
+        },
+        "seed": 1,
+        "repeat_design": "three_fixed_input_replications",
+        "scope": "fixed public synthetic CSV descriptive values only"
+      },
+      "summary_evidence": {
+        "id": "ev_3757768b1e0849debf1e43ad0b8dd2ba",
+        "registration_id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+        "run_id": "run_2d9d6aecd7264991a98fcd8e65b281ed",
+        "name": "summary",
+        "kind": "measured",
+        "claim": "Local runner file; verification remains separate",
+        "path": ".research/evidence/cbb727600e630064858b6ca4b8e8326720e70cc8cbc50b71c90b2426e8fa7bd5",
+        "sha256": "cbb727600e630064858b6ca4b8e8326720e70cc8cbc50b71c90b2426e8fa7bd5",
+        "size": 604,
+        "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\work\\summary.json",
+        "created": 1791114283.8298304,
+        "integrity": "valid",
+        "verified": false
+      },
+      "verification": {
+        "run_id": "run_2d9d6aecd7264991a98fcd8e65b281ed",
+        "state": "failed",
+        "metrics": {
+          "calculation_matches": 1.0,
+          "satisfaction_pct": 72.0
+        },
+        "details": {
+          "_input_sha256": "51b8505b2c01164a9c85703836f01252ecabf5cf8c4ee325e42729477ce2688d",
+          "criteria_results": [
+            {
+              "actual": 1.0,
+              "metric": "calculation_matches",
+              "op": "==",
+              "passed": true,
+              "threshold": 1
+            },
+            {
+              "actual": 72.0,
+              "metric": "satisfaction_pct",
+              "op": ">=",
+              "passed": false,
+              "threshold": 80
+            }
+          ],
+          "expected_missing_rows": 1,
+          "expected_satisfaction_pct": 72.0,
+          "expected_team_means": {
+            "A": 4.0,
+            "B": 3.3333333333333335
+          },
+          "expected_valid_rows": 5,
+          "fixed_input_replications": true,
+          "integrity": true,
+          "missing_artifacts": [],
+          "missing_metrics": [],
+          "scope": "public synthetic fixed CSV; no population inference",
+          "source": "fixed_local_verifier",
+          "validator_sha256": "e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0",
+          "verifier_output": {
+            "details": {
+              "expected_missing_rows": 1,
+              "expected_satisfaction_pct": 72.0,
+              "expected_team_means": {
+                "A": 4.0,
+                "B": 3.3333333333333335
+              },
+              "expected_valid_rows": 5,
+              "fixed_input_replications": true,
+              "scope": "public synthetic fixed CSV; no population inference"
+            },
+            "metrics": {
+              "calculation_matches": 1.0,
+              "satisfaction_pct": 72.0
+            }
+          },
+          "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "verifier_stdout_sha256": "89b4426618e4a55a6b98ad6641a1ba517e0b01d7d55e38b222e743faf8f2bfa2"
+        },
+        "created": 1791114284.05467
+      },
+      "decision": {
+        "registration_id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+        "state": "rejected",
+        "reason": "동일 고정 입력의 두 번째 기능 반복도 전체 72%, 독립 계산 일치 1이며 80% 조건을 충족하지 않는다. 반대 증거를 유지하고 독립 표본 또는 성능 개선으로 해석하지 않는다.",
+        "created": 1791114299.6720188
+      },
+      "receipt": {
+        "error": null,
+        "exit_code": 0,
+        "files": [
+          {
+            "name": "source:data.csv",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\data.csv",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\work\\data.csv",
+            "sha256": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a"
+          },
+          {
+            "name": "source:task.py",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\task.py",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\work\\task.py",
+            "sha256": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306"
+          },
+          {
+            "name": "summary",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\work\\summary.json",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\artifacts\\summary.json",
+            "sha256": "cbb727600e630064858b6ca4b8e8326720e70cc8cbc50b71c90b2426e8fa7bd5"
+          },
+          {
+            "name": "stdout",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\stdout.log",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\stdout.log",
+            "sha256": "bb6e3da30bdf9d63777b5f367223f8db81428a61de3248f2bf9d0881a75be729"
+          },
+          {
+            "name": "stderr",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\stderr.log",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\stderr.log",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "name": "launch",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\launch.json",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\launch.json",
+            "sha256": "6dad725d9b641e70da7700701cdb03fd041a14333fe14b697436f1f62d90caea"
+          },
+          {
+            "name": "process",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\process.json",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\process.json",
+            "sha256": "978deebb995b51ad7fa502c4e750da2523793cc44ca8e5dfc4d8ade05167824b"
+          }
+        ],
+        "registration_id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+        "request_sha256": "ae8ba7f5057587edae9ee1e9bae96a0b29605f52f72f9e7fd1e185e48ef86ccb",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "wall_seconds": 0.06299999996554106
+        },
+        "run_id": "run_2d9d6aecd7264991a98fcd8e65b281ed",
+        "state": "succeeded"
+      },
+      "evidence": [
+        {
+          "id": "ev_247317668cf64d39bf8dbe755f6df450",
+          "registration_id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+          "run_id": "run_2d9d6aecd7264991a98fcd8e65b281ed",
+          "name": "process",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/978deebb995b51ad7fa502c4e750da2523793cc44ca8e5dfc4d8ade05167824b",
+          "sha256": "978deebb995b51ad7fa502c4e750da2523793cc44ca8e5dfc4d8ade05167824b",
+          "size": 56,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\process.json",
+          "created": 1791114283.8298304,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_2c4cc05da8b9458ab22ad976e208b900",
+          "registration_id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+          "run_id": "run_2d9d6aecd7264991a98fcd8e65b281ed",
+          "name": "source:data.csv",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+          "sha256": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+          "size": 42,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\data.csv",
+          "created": 1791114283.8298304,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_3757768b1e0849debf1e43ad0b8dd2ba",
+          "registration_id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+          "run_id": "run_2d9d6aecd7264991a98fcd8e65b281ed",
+          "name": "summary",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/cbb727600e630064858b6ca4b8e8326720e70cc8cbc50b71c90b2426e8fa7bd5",
+          "sha256": "cbb727600e630064858b6ca4b8e8326720e70cc8cbc50b71c90b2426e8fa7bd5",
+          "size": 604,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\work\\summary.json",
+          "created": 1791114283.8298304,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_5922c270e4344731b370b7c8749f7450",
+          "registration_id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+          "run_id": "run_2d9d6aecd7264991a98fcd8e65b281ed",
+          "name": "launch",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/6dad725d9b641e70da7700701cdb03fd041a14333fe14b697436f1f62d90caea",
+          "sha256": "6dad725d9b641e70da7700701cdb03fd041a14333fe14b697436f1f62d90caea",
+          "size": 355,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\launch.json",
+          "created": 1791114283.8298304,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_c7033b117c244b2c9bd397e524f0fad7",
+          "registration_id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+          "run_id": "run_2d9d6aecd7264991a98fcd8e65b281ed",
+          "name": "stdout",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/bb6e3da30bdf9d63777b5f367223f8db81428a61de3248f2bf9d0881a75be729",
+          "sha256": "bb6e3da30bdf9d63777b5f367223f8db81428a61de3248f2bf9d0881a75be729",
+          "size": 474,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\stdout.log",
+          "created": 1791114283.8298304,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_c7208cfda2e745d58344b680d5b7b94a",
+          "registration_id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+          "run_id": "run_2d9d6aecd7264991a98fcd8e65b281ed",
+          "name": "source:task.py",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306",
+          "sha256": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306",
+          "size": 1776,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\task.py",
+          "created": 1791114283.8298304,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_e15c5d910d3a4f0da42e3e4cebfe8e04",
+          "registration_id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+          "run_id": "run_2d9d6aecd7264991a98fcd8e65b281ed",
+          "name": "stderr",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_2d9d6aecd7264991a98fcd8e65b281ed\\stderr.log",
+          "created": 1791114283.8298304,
+          "integrity": "valid",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "registration_id": "reg_44c7a76feff64016b4e2a38f0d071217",
+      "registration_goal_version": 1,
+      "run_id": "run_78a19bdb03104866842ac151bb383aaa",
+      "run_state": "succeeded",
+      "run_created": 1791114299.0215642,
+      "run_finished": 1791114299.1960316,
+      "runner_wall_seconds": 0.0779999999795109,
+      "source_version": {
+        "files": {
+          "data.csv": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+          "task.py": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306"
+        },
+        "label": "skill-demo-descriptive-csv-v1"
+      },
+      "conditions": {
+        "input": "same fixed public synthetic data.csv",
+        "missing_rule": "empty rating counted and excluded",
+        "rating_range": "1-5",
+        "repeat_design": "three_fixed_input_replications",
+        "satisfaction_formula": "mean_valid_rating/5*100",
+        "scope": "fixed fixture descriptive summary only",
+        "stochastic_sampling": false,
+        "unit": "percentage"
+      },
+      "criteria": [
+        {
+          "metric": "calculation_matches",
+          "op": "==",
+          "threshold": 1
+        },
+        {
+          "metric": "satisfaction_pct",
+          "op": ">=",
+          "threshold": 80
+        }
+      ],
+      "summary": {
+        "valid_rows": 5,
+        "missing_rows": 1,
+        "total_rows": 6,
+        "satisfaction_pct": 72.0,
+        "team_means": {
+          "A": 4.0,
+          "B": 3.3333333333333335
+        },
+        "teams": {
+          "A": {
+            "valid_rows": 2,
+            "missing_rows": 1,
+            "mean_rating": 4.0,
+            "satisfaction_pct": 80.0
+          },
+          "B": {
+            "valid_rows": 3,
+            "missing_rows": 0,
+            "mean_rating": 3.3333333333333335,
+            "satisfaction_pct": 66.66666666666667
+          }
+        },
+        "seed": 2,
+        "repeat_design": "three_fixed_input_replications",
+        "scope": "fixed public synthetic CSV descriptive values only"
+      },
+      "summary_evidence": {
+        "id": "ev_3c0c2a064e56484e86d797a964afa58e",
+        "registration_id": "reg_44c7a76feff64016b4e2a38f0d071217",
+        "run_id": "run_78a19bdb03104866842ac151bb383aaa",
+        "name": "summary",
+        "kind": "measured",
+        "claim": "Local runner file; verification remains separate",
+        "path": ".research/evidence/a5febfff84ea2032847e29dae1f241cb0b2422a163ec6b553d4abd8f7b9a027b",
+        "sha256": "a5febfff84ea2032847e29dae1f241cb0b2422a163ec6b553d4abd8f7b9a027b",
+        "size": 604,
+        "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\work\\summary.json",
+        "created": 1791114299.1960316,
+        "integrity": "valid",
+        "verified": false
+      },
+      "verification": {
+        "run_id": "run_78a19bdb03104866842ac151bb383aaa",
+        "state": "failed",
+        "metrics": {
+          "calculation_matches": 1.0,
+          "satisfaction_pct": 72.0
+        },
+        "details": {
+          "_input_sha256": "51b8505b2c01164a9c85703836f01252ecabf5cf8c4ee325e42729477ce2688d",
+          "criteria_results": [
+            {
+              "actual": 1.0,
+              "metric": "calculation_matches",
+              "op": "==",
+              "passed": true,
+              "threshold": 1
+            },
+            {
+              "actual": 72.0,
+              "metric": "satisfaction_pct",
+              "op": ">=",
+              "passed": false,
+              "threshold": 80
+            }
+          ],
+          "expected_missing_rows": 1,
+          "expected_satisfaction_pct": 72.0,
+          "expected_team_means": {
+            "A": 4.0,
+            "B": 3.3333333333333335
+          },
+          "expected_valid_rows": 5,
+          "fixed_input_replications": true,
+          "integrity": true,
+          "missing_artifacts": [],
+          "missing_metrics": [],
+          "scope": "public synthetic fixed CSV; no population inference",
+          "source": "fixed_local_verifier",
+          "validator_sha256": "e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0",
+          "verifier_output": {
+            "details": {
+              "expected_missing_rows": 1,
+              "expected_satisfaction_pct": 72.0,
+              "expected_team_means": {
+                "A": 4.0,
+                "B": 3.3333333333333335
+              },
+              "expected_valid_rows": 5,
+              "fixed_input_replications": true,
+              "scope": "public synthetic fixed CSV; no population inference"
+            },
+            "metrics": {
+              "calculation_matches": 1.0,
+              "satisfaction_pct": 72.0
+            }
+          },
+          "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "verifier_stdout_sha256": "89b4426618e4a55a6b98ad6641a1ba517e0b01d7d55e38b222e743faf8f2bfa2"
+        },
+        "created": 1791114299.4073749
+      },
+      "decision": {
+        "registration_id": "reg_44c7a76feff64016b4e2a38f0d071217",
+        "state": "rejected",
+        "reason": "동일 고정 입력의 세 번째 기능 반복도 전체 72%, 독립 계산 일치 1이며 80% 조건을 충족하지 않는다. 세 반복은 동일 소스 개발 fixture 분포 확인이며 모집단 독립 검증이 아니다.",
+        "created": 1791114299.795743
+      },
+      "receipt": {
+        "error": null,
+        "exit_code": 0,
+        "files": [
+          {
+            "name": "source:data.csv",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\data.csv",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\work\\data.csv",
+            "sha256": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a"
+          },
+          {
+            "name": "source:task.py",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\task.py",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\work\\task.py",
+            "sha256": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306"
+          },
+          {
+            "name": "summary",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\work\\summary.json",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\artifacts\\summary.json",
+            "sha256": "a5febfff84ea2032847e29dae1f241cb0b2422a163ec6b553d4abd8f7b9a027b"
+          },
+          {
+            "name": "stdout",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\stdout.log",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\stdout.log",
+            "sha256": "74bf6af648efa4235a61ff0ea9ce21b2372b0476c5dfa7e1a625b9cd4d65279b"
+          },
+          {
+            "name": "stderr",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\stderr.log",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\stderr.log",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "name": "launch",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\launch.json",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\launch.json",
+            "sha256": "4d40c2ec55dfe3d0b877bbde33143c8be3ce2a7154cd7b24ea39e897c351866c"
+          },
+          {
+            "name": "process",
+            "origin_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\process.json",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\process.json",
+            "sha256": "39d3b68ecc52a90e804d736d28a969afea1a6296df1143ce04021eaa60a7f5d4"
+          }
+        ],
+        "registration_id": "reg_44c7a76feff64016b4e2a38f0d071217",
+        "request_sha256": "341a979da8392a5bc2bac151bb9de83d9dc8cd3a522c00d79d861bc260770a0c",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "wall_seconds": 0.0779999999795109
+        },
+        "run_id": "run_78a19bdb03104866842ac151bb383aaa",
+        "state": "succeeded"
+      },
+      "evidence": [
+        {
+          "id": "ev_d31c5ad7fd1a4714906cc9b4d562c555",
+          "registration_id": "reg_44c7a76feff64016b4e2a38f0d071217",
+          "run_id": "run_78a19bdb03104866842ac151bb383aaa",
+          "name": "source:data.csv",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+          "sha256": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+          "size": 42,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\data.csv",
+          "created": 1791114299.1950314,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_26fa0843b7934049b044119fd979edd0",
+          "registration_id": "reg_44c7a76feff64016b4e2a38f0d071217",
+          "run_id": "run_78a19bdb03104866842ac151bb383aaa",
+          "name": "launch",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/4d40c2ec55dfe3d0b877bbde33143c8be3ce2a7154cd7b24ea39e897c351866c",
+          "sha256": "4d40c2ec55dfe3d0b877bbde33143c8be3ce2a7154cd7b24ea39e897c351866c",
+          "size": 355,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\launch.json",
+          "created": 1791114299.1960316,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_3c0c2a064e56484e86d797a964afa58e",
+          "registration_id": "reg_44c7a76feff64016b4e2a38f0d071217",
+          "run_id": "run_78a19bdb03104866842ac151bb383aaa",
+          "name": "summary",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/a5febfff84ea2032847e29dae1f241cb0b2422a163ec6b553d4abd8f7b9a027b",
+          "sha256": "a5febfff84ea2032847e29dae1f241cb0b2422a163ec6b553d4abd8f7b9a027b",
+          "size": 604,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\work\\summary.json",
+          "created": 1791114299.1960316,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_683e827f13a24c7095f844ec3457f56e",
+          "registration_id": "reg_44c7a76feff64016b4e2a38f0d071217",
+          "run_id": "run_78a19bdb03104866842ac151bb383aaa",
+          "name": "source:task.py",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306",
+          "sha256": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306",
+          "size": 1776,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\skill-demo-experiment\\task.py",
+          "created": 1791114299.1960316,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_c294a4a9422c43b5b4130b814268986d",
+          "registration_id": "reg_44c7a76feff64016b4e2a38f0d071217",
+          "run_id": "run_78a19bdb03104866842ac151bb383aaa",
+          "name": "stderr",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\stderr.log",
+          "created": 1791114299.1960316,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_e54fd3084f944ccd86e91b2b98b687ec",
+          "registration_id": "reg_44c7a76feff64016b4e2a38f0d071217",
+          "run_id": "run_78a19bdb03104866842ac151bb383aaa",
+          "name": "stdout",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/74bf6af648efa4235a61ff0ea9ce21b2372b0476c5dfa7e1a625b9cd4d65279b",
+          "sha256": "74bf6af648efa4235a61ff0ea9ce21b2372b0476c5dfa7e1a625b9cd4d65279b",
+          "size": 474,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\stdout.log",
+          "created": 1791114299.1960316,
+          "integrity": "valid",
+          "verified": false
+        },
+        {
+          "id": "ev_feb2b29f1cf44b4a9d0fcb4da2892a60",
+          "registration_id": "reg_44c7a76feff64016b4e2a38f0d071217",
+          "run_id": "run_78a19bdb03104866842ac151bb383aaa",
+          "name": "process",
+          "kind": "measured",
+          "claim": "Local runner file; verification remains separate",
+          "path": ".research/evidence/39d3b68ecc52a90e804d736d28a969afea1a6296df1143ce04021eaa60a7f5d4",
+          "sha256": "39d3b68ecc52a90e804d736d28a969afea1a6296df1143ce04021eaa60a7f5d4",
+          "size": 55,
+          "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\runs\\run_78a19bdb03104866842ac151bb383aaa\\process.json",
+          "created": 1791114299.1960316,
+          "integrity": "valid",
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "population_inference": false,
+  "performance_improvement_claim": false,
+  "external_agent_tokens": "unknown",
+  "external_agent_cost": "unknown",
+  "web_url": "unknown; root browser coordinator will supply actual URL",
+  "generated_at": "2026-10-04T11:46:59.040547+00:00",
+  "goal_lifecycle": {
+    "id": "lifecycle_257d3d6561d146d9975987695a2a79c5",
+    "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+    "goal_version": 2,
+    "state": "completed",
+    "reason": "승인된 고정 합성 CSV 기술통계 질문에 독립 계산 일치와 80% 미달의 반대 증거로 답했다. 세 사전등록 기능 반복은 모두 terminal이며 모집단 또는 성능 개선 주장은 하지 않는다.",
+    "results": [
+      "합의된 누락 제외 기술통계: 전체 유효5/누락1, 만족도72%; A 평균4.0/만족도80%/유효2/누락1, B 평균3.3333333333333335/만족도66.66666666666667%/유효3/누락0.",
+      "세 실제 기능 반복 seed0,1,2의 동일 입력·소스 해시가 유지되며 모두 실행 succeeded, 독립 calculation_matches=1.0; 사전등록 satisfaction_pct>=80은72.0으로 실패.",
+      "80% 가설은 각 등록 rejected. 사업 기준 미달이 확인되어 기술통계 연구 질문에 근거 있는 부정적 답을 얻었다.",
+      "장기 목표 프롬프트, brief v1/v2, 계획 변경 사유, 실제 CLI 호출·출력, 원본 증거와 재개 연결을 보존했다."
+    ],
+    "incomplete": [
+      "외부 에이전트 실제 토큰·비용 영수증이 이 세션에 제공되지 않아 unknown이다.",
+      "다른 고객 집단 일반화, 누락 원인 및 인과·성능 개선은 이 승인된 고정 fixture 범위 밖이며 입증하지 않았다.",
+      "WebMCP 실제 장면 조작은 같은 목표/등록/실행 ID로 루트 에이전트가 이어서 검증한다; 새 연구 실행은 필요하지 않다."
+    ],
+    "created": 1791114357.9631963,
+    "source": "explicit"
+  },
+  "goal_version_history": [
+    {
+      "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+      "version": 2,
+      "title": "고정 고객 응답 CSV의 팀별 만족도 보고 검증",
+      "description": "원래 의뢰의 기술통계·80% 사업 기준 질문을 고정 독립 검증으로 답한다. 전체 프롬프트 원본 및 해시는 brief.handoff에 연결되어 있다.",
+      "brief": {
+        "assumptions": [
+          {
+            "assumption": "team is fixture reporting unit; complete-case descriptive means describe observed responses only",
+            "impact_if_false": "revise interpretation with explicit new goal version"
+          }
+        ],
+        "completion_criteria": [
+          "three prescribed fixed-input runs collected and fixed verifier checked",
+          "answer exact CSV calculation and >=80 business criterion separately",
+          "evidence-backed negative result can complete question",
+          "no unknown/running executions left at closure"
+        ],
+        "context": "비전문 연구 분야 엔지니어를 위한 설치 스킬·CLI·웹 개발 실연",
+        "deliverables": [
+          "goal prompt and structured brief",
+          "task.py and source/data hashes",
+          "preregistered real runs and original evidence",
+          "fixed independent verifier results",
+          "decisions",
+          "Korean report and resume handoff"
+        ],
+        "evaluation": {
+          "comparison": "owner fixed independent recalculation and supplied 80% threshold; no improvement baseline",
+          "criteria": [
+            {
+              "metric": "calculation_matches",
+              "op": "==",
+              "threshold": 1
+            },
+            {
+              "metric": "satisfaction_pct",
+              "op": ">=",
+              "threshold": 80
+            }
+          ],
+          "metrics": [
+            "calculation_matches",
+            "satisfaction_pct"
+          ],
+          "repeat_design": "three_fixed_input_replications",
+          "repeat_rationale": "prescribed minimal development display fixture; deterministic repeat distribution only",
+          "seeds": [
+            0,
+            1,
+            2
+          ],
+          "split": "all public fixed fixture; no held-out population inference",
+          "units": {
+            "calculation_matches": "boolean represented as 0 or 1",
+            "satisfaction_pct": "percentage"
+          }
+        },
+        "facts": [
+          "ratings 1–5 valid; empty excluded and counted",
+          "satisfaction_pct = mean valid rating / 5 * 100; percentage",
+          "business criterion >=80",
+          "local writes/execution approved",
+          "three fixed-input display replications seed0,1,2 prescribed",
+          "owner frozen csv-owner-fixed-v1"
+        ],
+        "handoff": {
+          "goal_request_key": "skill-demo-goal-original-20261004-v1",
+          "manifest_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\demonstration-manifest.json",
+          "prompt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\long-term-goal-prompt.v1.ko.md",
+          "prompt_sha256": "a7a3ddd4a59c116782181c10615bed8ce2ac70219392bd5918f411c7124c864d",
+          "prompt_version": 1,
+          "resume": "goal_show/status/memory, inspect original run IDs; recover unknown rather than create replacement; resume only if authorized new work remains",
+          "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+          "workspace": "goal-plugin-demo-20261004"
+        },
+        "initial_plan": [
+          "status then memory",
+          "idempotent goal",
+          "hypothesis",
+          "external-agent code and three hash-pinned registrations at goal version1",
+          "after registration, collect every run and verify result before writing the joint Korean report",
+          "retain per-registration decisions and unchanged >=80 / calculation==1 criteria",
+          "record telemetry unknown and goal-close evidence-backed answer",
+          "replay original completed requests and read current state"
+        ],
+        "long_term_goal": "고정 공개 합성 CSV의 합의된 기술통계를 재현·독립 검증하고 계산 정확성과 80% 사업 기준의 충족 여부를 분리해 답한다.",
+        "original_request": "누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.",
+        "permissions": {
+          "allowed": [
+            "dedicated workspace writes",
+            "local execution of supplied fixture",
+            "same root CLI/stdio/WebMCP"
+          ],
+          "excluded": [
+            "network",
+            "external model cost spending",
+            "global config mutation",
+            "frozen validator mutation",
+            "owner key mutation",
+            "original CSV mutation"
+          ],
+          "source": "validation/skill-demo-request.ko.md"
+        },
+        "reporting": {
+          "first": [
+            "phase",
+            "observed metrics versus goal",
+            "cost scope",
+            "elapsed time",
+            "results and verification"
+          ],
+          "language": "Korean",
+          "persona": "engineering owner with no research expertise required",
+          "scientific_scope": "fixed-input technical descriptive verification only"
+        },
+        "resource_constraints": {
+          "cost": "unknown; no external spending authorized",
+          "time": "not set",
+          "tokens": "unknown",
+          "whole_research_iteration_limit": "not set"
+        },
+        "scope": {
+          "exclusions": [
+            "population generalization",
+            "causal effects",
+            "performance improvement",
+            "power or population intervals"
+          ],
+          "population": "public synthetic data.csv only"
+        },
+        "unknowns": [
+          {
+            "item": "external agent tokens and costs",
+            "owner": "agent telemetry observation",
+            "resolution": "record unavailable per-demo telemetry as unknown, without inventing a receipt"
+          }
+        ]
+      },
+      "reason": "등록 뒤 보고 순서를 구체화한다: 세 실행과 각 검증을 모두 수집한 후 공동 한국어 보고를 작성한다. 의미·범위·80% 및 정확성 기준·기존 등록은 유지한다.",
+      "change_kind": "plan",
+      "created": 1791114275.5552566,
+      "source": "explicit"
+    },
+    {
+      "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+      "version": 1,
+      "title": "고정 고객 응답 CSV의 팀별 만족도 보고 검증",
+      "description": "원래 의뢰의 기술통계·80% 사업 기준 질문을 고정 독립 검증으로 답한다. 전체 프롬프트 원본 및 해시는 brief.handoff에 연결되어 있다.",
+      "brief": {
+        "assumptions": [
+          {
+            "assumption": "team is fixture reporting unit; complete-case descriptive means describe observed responses only",
+            "impact_if_false": "revise interpretation with explicit new goal version"
+          }
+        ],
+        "completion_criteria": [
+          "three prescribed fixed-input runs collected and fixed verifier checked",
+          "answer exact CSV calculation and >=80 business criterion separately",
+          "evidence-backed negative result can complete question",
+          "no unknown/running executions left at closure"
+        ],
+        "context": "비전문 연구 분야 엔지니어를 위한 설치 스킬·CLI·웹 개발 실연",
+        "deliverables": [
+          "goal prompt and structured brief",
+          "task.py and source/data hashes",
+          "preregistered real runs and original evidence",
+          "fixed independent verifier results",
+          "decisions",
+          "Korean report and resume handoff"
+        ],
+        "evaluation": {
+          "comparison": "owner fixed independent recalculation and supplied 80% threshold; no improvement baseline",
+          "criteria": [
+            {
+              "metric": "calculation_matches",
+              "op": "==",
+              "threshold": 1
+            },
+            {
+              "metric": "satisfaction_pct",
+              "op": ">=",
+              "threshold": 80
+            }
+          ],
+          "metrics": [
+            "calculation_matches",
+            "satisfaction_pct"
+          ],
+          "repeat_design": "three_fixed_input_replications",
+          "repeat_rationale": "prescribed minimal development display fixture; deterministic repeat distribution only",
+          "seeds": [
+            0,
+            1,
+            2
+          ],
+          "split": "all public fixed fixture; no held-out population inference",
+          "units": {
+            "calculation_matches": "boolean represented as 0 or 1",
+            "satisfaction_pct": "percentage"
+          }
+        },
+        "facts": [
+          "ratings 1–5 valid; empty excluded and counted",
+          "satisfaction_pct = mean valid rating / 5 * 100; percentage",
+          "business criterion >=80",
+          "local writes/execution approved",
+          "three fixed-input display replications seed0,1,2 prescribed",
+          "owner frozen csv-owner-fixed-v1"
+        ],
+        "handoff": {
+          "goal_request_key": "skill-demo-goal-original-20261004-v1",
+          "manifest_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\demonstration-manifest.json",
+          "prompt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\long-term-goal-prompt.v1.ko.md",
+          "prompt_sha256": "a7a3ddd4a59c116782181c10615bed8ce2ac70219392bd5918f411c7124c864d",
+          "prompt_version": 1,
+          "resume": "goal_show/status/memory, inspect original run IDs; recover unknown rather than create replacement; resume only if authorized new work remains",
+          "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+          "workspace": "goal-plugin-demo-20261004"
+        },
+        "initial_plan": [
+          "status then memory",
+          "idempotent goal",
+          "hypothesis",
+          "external-agent code and hash-pinned preregistration",
+          "actual run and fixed independent verify",
+          "decision and telemetry observation",
+          "goal close and exact completed-request replay"
+        ],
+        "long_term_goal": "고정 공개 합성 CSV의 합의된 기술통계를 재현·독립 검증하고 계산 정확성과 80% 사업 기준의 충족 여부를 분리해 답한다.",
+        "original_request": "누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.",
+        "permissions": {
+          "allowed": [
+            "dedicated workspace writes",
+            "local execution of supplied fixture",
+            "same root CLI/stdio/WebMCP"
+          ],
+          "excluded": [
+            "network",
+            "external model cost spending",
+            "global config mutation",
+            "frozen validator mutation",
+            "owner key mutation",
+            "original CSV mutation"
+          ],
+          "source": "validation/skill-demo-request.ko.md"
+        },
+        "reporting": {
+          "first": [
+            "phase",
+            "observed metrics versus goal",
+            "cost scope",
+            "elapsed time",
+            "results and verification"
+          ],
+          "language": "Korean",
+          "persona": "engineering owner with no research expertise required",
+          "scientific_scope": "fixed-input technical descriptive verification only"
+        },
+        "resource_constraints": {
+          "cost": "unknown; no external spending authorized",
+          "time": "not set",
+          "tokens": "unknown",
+          "whole_research_iteration_limit": "not set"
+        },
+        "scope": {
+          "exclusions": [
+            "population generalization",
+            "causal effects",
+            "performance improvement",
+            "power or population intervals"
+          ],
+          "population": "public synthetic data.csv only"
+        },
+        "unknowns": [
+          {
+            "item": "external agent tokens and costs",
+            "owner": "agent telemetry observation",
+            "resolution": "record unavailable per-demo telemetry as unknown, without inventing a receipt"
+          }
+        ]
+      },
+      "reason": "Original external request",
+      "change_kind": "initial",
+      "created": 1791114219.8518677,
+      "source": "explicit"
+    }
+  ],
+  "goal_lifecycle_history": [
+    {
+      "id": "lifecycle_257d3d6561d146d9975987695a2a79c5",
+      "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+      "goal_version": 2,
+      "state": "completed",
+      "reason": "승인된 고정 합성 CSV 기술통계 질문에 독립 계산 일치와 80% 미달의 반대 증거로 답했다. 세 사전등록 기능 반복은 모두 terminal이며 모집단 또는 성능 개선 주장은 하지 않는다.",
+      "results": [
+        "합의된 누락 제외 기술통계: 전체 유효5/누락1, 만족도72%; A 평균4.0/만족도80%/유효2/누락1, B 평균3.3333333333333335/만족도66.66666666666667%/유효3/누락0.",
+        "세 실제 기능 반복 seed0,1,2의 동일 입력·소스 해시가 유지되며 모두 실행 succeeded, 독립 calculation_matches=1.0; 사전등록 satisfaction_pct>=80은72.0으로 실패.",
+        "80% 가설은 각 등록 rejected. 사업 기준 미달이 확인되어 기술통계 연구 질문에 근거 있는 부정적 답을 얻었다.",
+        "장기 목표 프롬프트, brief v1/v2, 계획 변경 사유, 실제 CLI 호출·출력, 원본 증거와 재개 연결을 보존했다."
+      ],
+      "incomplete": [
+        "외부 에이전트 실제 토큰·비용 영수증이 이 세션에 제공되지 않아 unknown이다.",
+        "다른 고객 집단 일반화, 누락 원인 및 인과·성능 개선은 이 승인된 고정 fixture 범위 밖이며 입증하지 않았다.",
+        "WebMCP 실제 장면 조작은 같은 목표/등록/실행 ID로 루트 에이전트가 이어서 검증한다; 새 연구 실행은 필요하지 않다."
+      ],
+      "created": 1791114357.9631963,
+      "source": "explicit"
+    },
+    {
+      "id": "lifecycle_56057cb28c6b4490a80e812ad579be9f",
+      "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+      "goal_version": 1,
+      "state": "active",
+      "reason": "Goal created; this does not authorize experiment execution",
+      "results": [],
+      "incomplete": [],
+      "created": 1791114219.8518677,
+      "source": "explicit"
+    }
+  ],
+  "resource_observations": {
+    "items": [
+      {
+        "id": "resource_deeb7dfb90934ad1b0e343d45377073a",
+        "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+        "registration_id": null,
+        "run_id": null,
+        "record": {
+          "cost": {
+            "amount": null,
+            "currency": null,
+            "status": "unknown"
+          },
+          "note": "Actual pinned local runner receipts report external_model_usage and external_tokens unknown. No per-demo external agent billing/token receipt is exposed. Source file records actual availability evidence; this is not a fabricated invoice or zero cost.",
+          "period_end": 1791114299.1960316,
+          "period_start": 1791114275.6848257,
+          "source": "actual external-agent session and CLI execution receipts",
+          "source_ref": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\resource-telemetry-evidence.json",
+          "tokens": {
+            "status": "unknown",
+            "value": null
+          }
+        },
+        "source": "actual external-agent session and CLI execution receipts",
+        "source_ref": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\resource-telemetry-evidence.json",
+        "fingerprint": "050edb204a47db217929c5fc02f648e80fb5339b0559364aa49e051cf8dde12a",
+        "created": 1791114357.7153568,
+        "provenance": "external_report"
+      }
+    ],
+    "summary": {
+      "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+      "registration_id": null,
+      "cost_by_currency": [],
+      "known_count": 0,
+      "unknown_count": 1,
+      "observation_total": 1,
+      "tokens": {
+        "observed_subtotal": null,
+        "known_count": 0,
+        "unknown_count": 1
+      },
+      "run_total": 3,
+      "covered_registration_count": 0,
+      "scope": "recorded_external_observations_only",
+      "total_cost_status": "unknown",
+      "provenance": "external_report_not_independently_verified"
+    },
+    "limit": 20,
+    "offset": 0,
+    "total": 1,
+    "revision": 20
+  },
+  "integrity_checks": {
+    "original_csv_unchanged": true,
+    "original_validator_unchanged": true,
+    "frozen_validator_registered_hash": "e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0",
+    "copied_data_matches_original": true,
+    "all_three_source_labels_and_hashes_equal": true,
+    "all_three_conditions_equal": true
+  },
+  "replay": {
+    "goal": {
+      "id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+      "version": 1,
+      "state": "active",
+      "reused": true,
+      "applied_revision": 2,
+      "revision": 21,
+      "result_is_historical": true
+    },
+    "current_goal_after_historical_replay": {
+      "id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+      "version": 2,
+      "state": "completed",
+      "revision": 21
+    },
+    "run_stale_expect_error": [
+      {
+        "code": "REVISION_CONFLICT",
+        "message": "Workspace revision changed",
+        "details": {
+          "expected": 7,
+          "actual": 21,
+          "next": "status"
+        }
+      }
+    ],
+    "run_same_key_latest_expect": {
+      "started": false,
+      "run_id": "run_f544cfff0fb8492abf310373379350b8",
+      "revision": 21
+    },
+    "worker_count_before": 3,
+    "worker_count_after": 3,
+    "launch_process_receipt_hashes_unchanged": true,
+    "new_workers_observed": 0,
+    "scope": "actual local worker directories and preserved launch/process/receipt evidence; no external exactly-once guarantee"
+  },
+  "memory_failure_search": {
+    "items": [
+      {
+        "id": "reg_44c7a76feff64016b4e2a38f0d071217",
+        "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+        "goal_version": 1,
+        "goal_version_source": "explicit",
+        "hypothesis": "합의된 누락 제외 공식의 정확한 계산에서 이 고정 CSV의 전체 만족도가 사업 기준 80% 이상이다. 팀별 기술통계의 계산 정확성은 이 사업 기준과 별도로 검증한다.",
+        "execution": "succeeded",
+        "verification": "failed",
+        "decision": "rejected",
+        "outcome": "failure",
+        "reason": "동일 고정 입력의 세 번째 기능 반복도 전체 72%, 독립 계산 일치 1이며 80% 조건을 충족하지 않는다. 세 반복은 동일 소스 개발 fixture 분포 확인이며 모집단 독립 검증이 아니다.",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "tokens": {
+            "status": "unknown",
+            "value": null
+          },
+          "wall_seconds": 0.0779999999795109
+        },
+        "evidence_count": 7,
+        "summary": "External agent CSV summary under supplied missing-exclusion rule; one deterministic source for all prescribed functional replications",
+        "conditions": {
+          "comparison": "Frozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline",
+          "data_split": {
+            "development": "all rows of supplied public synthetic data.csv",
+            "evaluation": "same pinned input, independently implemented owner frozen validator; no independent population or holdout inference"
+          },
+          "seed": 2,
+          "source_version": {
+            "files": {
+              "data.csv": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+              "task.py": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306"
+            },
+            "label": "skill-demo-descriptive-csv-v1"
+          }
+        },
+        "evidence_integrity": "valid",
+        "claim_verified": false
+      },
+      {
+        "id": "reg_c4e59caab5784848a1eaf82ec3d2aac8",
+        "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+        "goal_version": 1,
+        "goal_version_source": "explicit",
+        "hypothesis": "합의된 누락 제외 공식의 정확한 계산에서 이 고정 CSV의 전체 만족도가 사업 기준 80% 이상이다. 팀별 기술통계의 계산 정확성은 이 사업 기준과 별도로 검증한다.",
+        "execution": "succeeded",
+        "verification": "failed",
+        "decision": "rejected",
+        "outcome": "failure",
+        "reason": "동일 고정 입력의 두 번째 기능 반복도 전체 72%, 독립 계산 일치 1이며 80% 조건을 충족하지 않는다. 반대 증거를 유지하고 독립 표본 또는 성능 개선으로 해석하지 않는다.",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "tokens": {
+            "status": "unknown",
+            "value": null
+          },
+          "wall_seconds": 0.06299999996554106
+        },
+        "evidence_count": 7,
+        "summary": "External agent CSV summary under supplied missing-exclusion rule; one deterministic source for all prescribed functional replications",
+        "conditions": {
+          "comparison": "Frozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline",
+          "data_split": {
+            "development": "all rows of supplied public synthetic data.csv",
+            "evaluation": "same pinned input, independently implemented owner frozen validator; no independent population or holdout inference"
+          },
+          "seed": 1,
+          "source_version": {
+            "files": {
+              "data.csv": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+              "task.py": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306"
+            },
+            "label": "skill-demo-descriptive-csv-v1"
+          }
+        },
+        "evidence_integrity": "valid",
+        "claim_verified": false
+      },
+      {
+        "id": "reg_3f105fe7b8834fdc8132663fa815073e",
+        "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+        "goal_version": 1,
+        "goal_version_source": "explicit",
+        "hypothesis": "합의된 누락 제외 공식의 정확한 계산에서 이 고정 CSV의 전체 만족도가 사업 기준 80% 이상이다. 팀별 기술통계의 계산 정확성은 이 사업 기준과 별도로 검증한다.",
+        "execution": "succeeded",
+        "verification": "failed",
+        "decision": "rejected",
+        "outcome": "failure",
+        "reason": "전체 만족도는 72%로 사전등록 사업 기준 80%보다 8 percentage points 낮다. 실행은 성공하고 고정 독립 계산 일치 지표는 1이나 전체 기준 검증은 실패다. 이 고정 CSV의 80% 가설을 기각하며 기술통계 계산의 정확성과 모집단 추론은 별개다.",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "tokens": {
+            "status": "unknown",
+            "value": null
+          },
+          "wall_seconds": 0.07900000002700835
+        },
+        "evidence_count": 7,
+        "summary": "External agent CSV summary under supplied missing-exclusion rule; one deterministic source for all prescribed functional replications",
+        "conditions": {
+          "comparison": "Frozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline",
+          "data_split": {
+            "development": "all rows of supplied public synthetic data.csv",
+            "evaluation": "same pinned input, independently implemented owner frozen validator; no independent population or holdout inference"
+          },
+          "seed": 0,
+          "source_version": {
+            "files": {
+              "data.csv": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+              "task.py": "c96f044ebd71c85b739f31f951c51ba35c6738d17f4fa3aaba0f452a56eea306"
+            },
+            "label": "skill-demo-descriptive-csv-v1"
+          }
+        },
+        "evidence_integrity": "valid",
+        "claim_verified": false
+      }
+    ],
+    "total": 3,
+    "limit": 20,
+    "offset": 0,
+    "revision": 21
+  },
+  "elapsed": {
+    "goal_created_to_close_seconds": 138.11132860183716,
+    "first_recorded_cli_status_to_close_seconds": 274.13348,
+    "runner_execution_wall_seconds_sum": 0.21999999997206032,
+    "scope": "recorded timestamps and worker wall only; excludes unobservable external-model timing"
+  },
+  "artifacts": {
+    "korean_report": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\research-report.ko.md",
+    "resume_handoff": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\resume-handoff.ko.md",
+    "resource_telemetry_evidence": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\resource-telemetry-evidence.json"
+  },
+  "transcript_capture": {
+    "mutation_and_run_calls": "unmodified UTF-8 stdout/stderr plus exact byte base64; argv array and cwd recorded",
+    "initial_read_only_discovery_calls": "text capture before recorder switched to byte preservation; CRLF normalized by subprocess text mode",
+    "recorder_issue": "First goal succeeded and raw output was recorded; its display failed on cp949. UTF-8 display fix and same goal key confirmed reuse without duplicate."
+  }
+}

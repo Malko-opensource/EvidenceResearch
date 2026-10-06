@@ -1,4 +1,0 @@
-{"type":"thread.started","thread_id":"01a0fd5e-cd5a-7160-8493-40e820b85ed4"}
-{"type":"turn.started"}
-{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression degree selection and regularization via validation mean squared error: polynomial feature complexity, feature covariance, shrinkage, overfitting, and validation selection bias"}}
-{"type":"turn.completed","usage":{"input_tokens":20102,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":36,"reasoning_output_tokens":0}}

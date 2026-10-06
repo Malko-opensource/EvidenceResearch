@@ -1,0 +1,129 @@
+{
+  "at": "2026-10-04T06:15:40.542125+00:00",
+  "version": "0.5.0",
+  "development_only": true,
+  "research_effect_study": false,
+  "external_agent": "Current Codex assistant",
+  "external_model_id": "unknown",
+  "external_tokens": "unknown",
+  "model_calls_in_service": false,
+  "native_api": "document.modelContext.registerTool",
+  "mock_registry": false,
+  "browser": "Codex in-app browser",
+  "native_discovered_tools": 17,
+  "installed_server_replay": {
+    "ok": true,
+    "data": {
+      "started": false,
+      "resume": "Use recover for running/unknown; completed executions are reused.",
+      "record": {
+        "registration": {
+          "id": "reg_5c7bb55e651348ea81eed839828fdaeb",
+          "goal_id": "goal_f4bfa7a4ce244f728ff5f92e5aa3ea73",
+          "fingerprint": "35785205eed5b2f4b04962623ed0f08c1c9e66232f3d6a515604d4dc0c8db52b"
+        },
+        "run": {
+          "id": "run_33678e033758424c95eede83201b7442",
+          "state": "succeeded",
+          "resources": {
+            "external_model_usage": "unknown",
+            "external_tokens": "unknown",
+            "tokens": {
+              "status": "unknown",
+              "value": null
+            },
+            "wall_seconds": 0.062000000034458935
+          },
+          "execution_directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\web-demo-20261004\\.research\\runs\\run_33678e033758424c95eede83201b7442\\work"
+        },
+        "verification": {
+          "run_id": "run_33678e033758424c95eede83201b7442",
+          "state": "passed",
+          "metrics": {
+            "pass_rate": 1
+          },
+          "metric_total": 1,
+          "criteria_results": [
+            {
+              "actual": 1,
+              "metric": "pass_rate",
+              "op": ">=",
+              "passed": true,
+              "threshold": 1
+            }
+          ],
+          "criteria_total": 1
+        },
+        "decision": {
+          "state": "adopted"
+        },
+        "revision": 8,
+        "evidence_integrity": "valid",
+        "evidence_summary": {
+          "total": 6,
+          "invalid": 0,
+          "missing_artifact_count": 0,
+          "missing_artifacts": []
+        },
+        "artifacts": [
+          {
+            "name": "result",
+            "sha256": "c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458",
+            "integrity": "valid",
+            "verified": true,
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\web-demo-20261004\\.research\\evidence\\c5cbedece545ffafcdf7371062be0775543521286ce1d2bab1932ccde621c458"
+          }
+        ],
+        "artifact_total": 1,
+        "artifacts_remaining": 0,
+        "claim_verified": true,
+        "detail_retrieval": {
+          "command": "show",
+          "registration_id": "reg_5c7bb55e651348ea81eed839828fdaeb",
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\web-demo-20261004"
+        }
+      }
+    }
+  },
+  "registration": "reg_5c7bb55e651348ea81eed839828fdaeb",
+  "run": "run_33678e033758424c95eede83201b7442",
+  "revision": 8,
+  "execution": "succeeded",
+  "verification": "passed",
+  "decision": "adopted",
+  "pass_rate": 1.0,
+  "actual_invocations": 1,
+  "export": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\web-demo\\research-export.zip",
+    "sha256": "66e070a1f57ef20284809c105d66a7d494741c9ab481fa164d67096443aa13cb",
+    "files": 8
+  },
+  "reproduction_pass_rate": 1.0,
+  "reproduction_state_changed": false,
+  "human_evidence_preview": {
+    "mean": 5.0,
+    "variance": 8.0,
+    "hash_checked": true
+  },
+  "responsive_viewport": {
+    "width": 390,
+    "height": 844,
+    "document_client_width": 375,
+    "document_scroll_width": 375,
+    "override_reset": true
+  },
+  "chrome_direct_access": "ERR_BLOCKED_BY_CLIENT; no flags or protections changed",
+  "evidence_files": [
+    "browser-transcript.json",
+    "browser-transcript-installed.json",
+    "status.json",
+    "record.json",
+    "memory.json",
+    "registration-spec.json",
+    "research-export.zip",
+    "export-reproduction.json",
+    "dashboard.jpg",
+    "evidence.jpg",
+    "dashboard-mobile.jpg"
+  ]
+}

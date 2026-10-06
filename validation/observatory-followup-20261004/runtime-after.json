@@ -1,0 +1,247 @@
+{
+  "ok": true,
+  "phase": "after",
+  "checked_at": "2026-10-04T14:35:57.781723+00:00",
+  "base": "http://127.0.0.1:8765",
+  "read_only_http": true,
+  "calls_model": false,
+  "starts_experiment": false,
+  "reads_capability_keys": false,
+  "persistent_state_unchanged_during_reads": true,
+  "matches_before_baseline": {
+    "databases": true,
+    "evidence": true,
+    "launch_markers": true,
+    "core_modules": true
+  },
+  "runtime": {
+    "version": "0.8.0",
+    "http_tool_count": 23,
+    "assets": {
+      "app.js": {
+        "status": 200,
+        "source_sha256": "928af5fa670ce4390f1503e6ada3e7e72c5ce946837e2ac5bf7cd1dce6c71bd3",
+        "served_sha256": "928af5fa670ce4390f1503e6ada3e7e72c5ce946837e2ac5bf7cd1dce6c71bd3",
+        "installed_sha256": "928af5fa670ce4390f1503e6ada3e7e72c5ce946837e2ac5bf7cd1dce6c71bd3",
+        "source_matches_http": true,
+        "source_matches_installed": true,
+        "no_store": true
+      },
+      "index.html": {
+        "status": 200,
+        "source_sha256": "5890f489b8a0c523eccc4221cf5888df48d0def1570819dff2c70e7d0f2e12b6",
+        "served_sha256": "5890f489b8a0c523eccc4221cf5888df48d0def1570819dff2c70e7d0f2e12b6",
+        "installed_sha256": "5890f489b8a0c523eccc4221cf5888df48d0def1570819dff2c70e7d0f2e12b6",
+        "source_matches_http": true,
+        "source_matches_installed": true,
+        "no_store": true
+      },
+      "styles.css": {
+        "status": 200,
+        "source_sha256": "a0f990e28de19f67ccc4c1a8fb5c6d4e1af033b3b69a9ecb74813fbd8020221e",
+        "served_sha256": "a0f990e28de19f67ccc4c1a8fb5c6d4e1af033b3b69a9ecb74813fbd8020221e",
+        "installed_sha256": "a0f990e28de19f67ccc4c1a8fb5c6d4e1af033b3b69a9ecb74813fbd8020221e",
+        "source_matches_http": true,
+        "source_matches_installed": true,
+        "no_store": true
+      },
+      "view_model.js": {
+        "status": 200,
+        "source_sha256": "ca2c9e8a642f006b3a6f21186de1b54ea5d3411df426cd5c3ea18f994742a997",
+        "served_sha256": "ca2c9e8a642f006b3a6f21186de1b54ea5d3411df426cd5c3ea18f994742a997",
+        "installed_sha256": "ca2c9e8a642f006b3a6f21186de1b54ea5d3411df426cd5c3ea18f994742a997",
+        "source_matches_http": true,
+        "source_matches_installed": true,
+        "no_store": true
+      }
+    },
+    "modules": {
+      "__init__.py": {
+        "source_sha256": "fedddfb5da2f2d8683e72dfe127f9f789e9b9d805c7c67e16db551ac478b7da7",
+        "installed_sha256": "fedddfb5da2f2d8683e72dfe127f9f789e9b9d805c7c67e16db551ac478b7da7",
+        "source_matches_installed": true
+      },
+      "__main__.py": {
+        "source_sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+        "installed_sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+        "source_matches_installed": true
+      },
+      "cli.py": {
+        "source_sha256": "d9e910b821b1cd45929ad0e417ba0a01b8846b8c18fa1680491156bb3b6e349d",
+        "installed_sha256": "d9e910b821b1cd45929ad0e417ba0a01b8846b8c18fa1680491156bb3b6e349d",
+        "source_matches_installed": true
+      },
+      "core.py": {
+        "source_sha256": "f46b7bc03fb1cae62d6d66d8c146e4e173212fbf840d44ed666276e46538507b",
+        "installed_sha256": "f46b7bc03fb1cae62d6d66d8c146e4e173212fbf840d44ed666276e46538507b",
+        "source_matches_installed": true
+      },
+      "laya.py": {
+        "source_sha256": "957f96a76accef10901a3967e29b56388b0d73cd3bd8a0d68a3533aef67401c3",
+        "installed_sha256": "957f96a76accef10901a3967e29b56388b0d73cd3bd8a0d68a3533aef67401c3",
+        "source_matches_installed": true
+      },
+      "mcp_bridge.py": {
+        "source_sha256": "10c757136f8fe67563e9f5c3c172439e165f3c60c05c99744cd142eedc2cf3db",
+        "installed_sha256": "10c757136f8fe67563e9f5c3c172439e165f3c60c05c99744cd142eedc2cf3db",
+        "source_matches_installed": true
+      },
+      "mcp_server.py": {
+        "source_sha256": "1bf59e9d0ceab23fe6e41a81b62a63f247938e89450400b2eca6d50da4da45e9",
+        "installed_sha256": "1bf59e9d0ceab23fe6e41a81b62a63f247938e89450400b2eca6d50da4da45e9",
+        "source_matches_installed": true
+      },
+      "runner.py": {
+        "source_sha256": "d659244c2ec85562556d79081ba9e84dc4c9f65cfad51d425dfdc4f13f36e94b",
+        "installed_sha256": "d659244c2ec85562556d79081ba9e84dc4c9f65cfad51d425dfdc4f13f36e94b",
+        "source_matches_installed": true
+      },
+      "transfer.py": {
+        "source_sha256": "b20cdbd5a150197fb1b7ccd42d3b5531c5aec8808ad6f2920822855ed6575ed7",
+        "installed_sha256": "b20cdbd5a150197fb1b7ccd42d3b5531c5aec8808ad6f2920822855ed6575ed7",
+        "source_matches_installed": true
+      },
+      "web_server.py": {
+        "source_sha256": "a8b4582a9b4525a4ecf6ff3293e9872e3256b102e1b447299a53e7f9a8ed4d05",
+        "installed_sha256": "a8b4582a9b4525a4ecf6ff3293e9872e3256b102e1b447299a53e7f9a8ed4d05",
+        "source_matches_installed": true
+      },
+      "web_tools.py": {
+        "source_sha256": "9806e0f2cc3fa387dd5ee326d163debb30ce72ef502f6bf36941cfad258f5877",
+        "installed_sha256": "9806e0f2cc3fa387dd5ee326d163debb30ce72ef502f6bf36941cfad258f5877",
+        "source_matches_installed": true
+      },
+      "worker.py": {
+        "source_sha256": "49041f8606ccf8b6f6d15016ca26e801a6daa074ee32a9f448a642d1b0d58953",
+        "installed_sha256": "49041f8606ccf8b6f6d15016ca26e801a6daa074ee32a9f448a642d1b0d58953",
+        "source_matches_installed": true
+      }
+    },
+    "assets_match": true,
+    "modules_match": true,
+    "workspaces": [
+      {
+        "name": "agent-observatory-20261004",
+        "revision": 8
+      },
+      {
+        "name": "goal-plugin-demo-20261004",
+        "revision": 21
+      },
+      {
+        "name": "installation-check-2024823d379446cfa9f7cc8cec74a69b",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-580fcadc87b84e7880acc96419c9203c",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-5cb1f3899cad44b9830a7eba524bcb43",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-7fe9c43884d24691b292c60c0b75e2ca",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-84bbcf7a565842aea19a6a0ef1d78c43",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-88939ba001f243e08117fe29e8d33307",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-a7a7458d4d2b4e70ac4ee64628a631c3",
+        "revision": 2
+      },
+      {
+        "name": "product-empty-20261004",
+        "revision": 0
+      },
+      {
+        "name": "product-fixtures-20261004",
+        "revision": 44
+      },
+      {
+        "name": "report-channel-fixture-20261004",
+        "revision": 7
+      },
+      {
+        "name": "web-demo-20261004",
+        "revision": 8
+      }
+    ],
+    "snapshots": {
+      "goal-plugin-demo-20261004": {
+        "revision": 21,
+        "registration_count": 3,
+        "page_records": 3,
+        "report_consistent": true
+      },
+      "agent-observatory-20261004": {
+        "revision": 8,
+        "registration_count": 1,
+        "page_records": 1,
+        "report_consistent": true
+      },
+      "product-empty-20261004": {
+        "revision": 0,
+        "registration_count": 0,
+        "page_records": 0,
+        "report_consistent": null
+      },
+      "product-fixtures-20261004": {
+        "revision": 44,
+        "registration_count": 32,
+        "page_records": 6,
+        "report_consistent": true
+      }
+    },
+    "fixture_records": [
+      {
+        "label": "success",
+        "registration": "reg_b4d261f2788b4cf3b90350b4e44f3de0",
+        "execution": "succeeded",
+        "verification": "passed",
+        "decision": "adopted",
+        "evidence_integrity": [
+          "valid",
+          "valid",
+          "valid",
+          "valid",
+          "valid",
+          "valid"
+        ]
+      },
+      {
+        "label": "failure",
+        "registration": "reg_967a9cd2cd764184848fcd5783cebbad",
+        "execution": "succeeded",
+        "verification": "failed",
+        "decision": "rejected",
+        "evidence_integrity": [
+          "valid",
+          "valid",
+          "valid",
+          "valid",
+          "valid",
+          "valid"
+        ]
+      },
+      {
+        "label": "unexecuted",
+        "registration": "reg_5ba810feedd64a45bd54f83c72d047e3",
+        "execution": null,
+        "verification": null,
+        "decision": "pending",
+        "evidence_integrity": []
+      }
+    ]
+  },
+  "limits": [
+    "Browser layout and native WebMCP must be checked separately",
+    "Not a research performance comparison"
+  ]
+}

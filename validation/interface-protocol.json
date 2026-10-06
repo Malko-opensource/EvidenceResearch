@@ -1,0 +1,51 @@
+{
+  "protocol_id": "compact-interface-followup-20261004-v2",
+  "status": "preregistered_before_external_dispatch",
+  "purpose": "Validate the changed CLI output/help with an actual external consumer; not a research-performance comparison",
+  "cli_version": "0.2.0",
+  "task_id": "D",
+  "development_only": true,
+  "excluded_from_primary_and_memory_comparisons": true,
+  "fixed_validator": "csv-fixed-v1",
+  "metric": "pass_rate",
+  "criterion": {
+    "metric": "pass_rate",
+    "op": ">=",
+    "threshold": 1.0
+  },
+  "flow": [
+    "status",
+    "memory",
+    "hypothesis",
+    "register",
+    "run",
+    "verify",
+    "decide",
+    "memory"
+  ],
+  "external_episodes": 1,
+  "rationale": "One real consumer checks the changed interface after the preserved v0.1 comparison; large-output and integrity cases have a separate model-free regression",
+  "measurements": [
+    "actual fixed verification",
+    "duplicate invocation count after one repeated request",
+    "default response bytes",
+    "schema clarification needed",
+    "capture or CLI errors",
+    "original response and artifact links"
+  ],
+  "model_calls_owned_by": "external Codex agent; CLI calls none",
+  "tokens_if_unobserved": {
+    "status": "unknown",
+    "value": null
+  },
+  "global_research_limits": null,
+  "at": "2026-10-03T16:46:18.680499+00:00",
+  "initial_hashes": {
+    "BRIEF.ko.md": "8e614ba6eb75eec7bd916b2152650db2892ea4865ae949983d7783fd5236785d",
+    "solution.py": "2a99df3498a24791deb62b6815bbde3181bd6c3b29b0cc0d713e01a0489de03a",
+    "input.csv": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+  },
+  "source_manifest_sha256": "b2d9a5e28b92389a284f7b12390afdd62460ee2c392c10320e7f8bfc971d82b8",
+  "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed"
+}

@@ -1,0 +1,357 @@
+{
+  "task_id": "M1",
+  "condition": "C_ON",
+  "framework": "Codex fresh subagent",
+  "model": "inherited parent; exact identifier unknown",
+  "hypothesis": "Validating normalized nonempty identifiers and finite timestamp/value before event_id deduplication, selecting greatest timestamp with later-input tie break, then averaging selected values per final group will satisfy M1's fixed independent pass_rate=1.0. The prior failed full-row equality memory is applicable as a failure interpretation and is not itself a verified successful hypothesis.",
+  "hypothesis_id": "hyp_2fda25926c67438fa6a6378871aee7e9",
+  "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+  "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+  "task_quality": {
+    "metric": "pass_rate",
+    "value": 1.0,
+    "verification": "passed",
+    "passed_cases": 7,
+    "total_cases": 7,
+    "basis": "preserved_source_recomputed",
+    "integrity": true,
+    "reported_run_metrics_used": false
+  },
+  "actual_task_executions": 1,
+  "execution_count_basis": "Measured own registered task.py invocation ledger in preserved artifacts and work; validator recomputations are independent validation, not additional logical task runs.",
+  "duplicate_executions": 0,
+  "same_key_replay": {
+    "requests": 2,
+    "second_started": false,
+    "artifact_invocations_before": 1,
+    "artifact_invocations_after": 1,
+    "work_invocations_before": 1,
+    "work_invocations_after": 1,
+    "work_invocations_hash_unchanged": true
+  },
+  "recovery": {
+    "status": "not_observed",
+    "scientific_fault": false,
+    "note": "Normal first run response recovered:true is receipt reconciliation; no running/unknown fault or explicit recover request occurred."
+  },
+  "bookkeeping_errors": [
+    {
+      "type": "CLI argument syntax",
+      "action": "show reg_...",
+      "resolution": "Corrected to show --registration reg_..."
+    }
+  ],
+  "capture_errors": [],
+  "unsupported_claims": [],
+  "claim_scope": "Only fixed M1 task verification; no causal memory benefit, overall quality, general improvement, exact model, or token-cost claim.",
+  "decision": {
+    "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+    "state": "adopted",
+    "reason": "Adopt for this M1 episode: csv-fixed-v1 independently recomputed preserved source and artifacts, passed all 7 checks with pass_rate=1.0 and integrity=true. Source hashes match preregistration. Same-key replay started:false and preserved/work invocation counts stayed at 1. This is task-specific fixed verification and supports no general improvement claim.",
+    "created": 1791045081.2163818
+  },
+  "completed_at": "2026-10-03T16:32:30.355095+00:00",
+  "initial_memory_items": [
+    {
+      "id": "reg_028148663caa496a9498d2f2e3469251",
+      "goal_id": "goal_54f99da9daa24936bc52286a17f6ceff",
+      "hypothesis": "Full-row equality can remove repeated measurement events.",
+      "execution": "succeeded",
+      "verification": "failed",
+      "decision": "rejected",
+      "outcome": "failure",
+      "reason": "Full-row equality preserves corrected duplicates of one event_id. Applicable to event measurement data; use latest valid timestamp and later input on ties.",
+      "resources": {
+        "external_model_usage": "unknown",
+        "external_tokens": "unknown",
+        "tokens": {
+          "status": "unknown",
+          "value": null
+        },
+        "wall_seconds": 0.09399999998277053
+      },
+      "evidence_count": 12,
+      "summary": "Deduplicate measurement events by full-row equality",
+      "conditions": {
+        "comparison": "Required latest valid row per event_id, with later-input tie break",
+        "data_split": {
+          "development": "M_PRIOR separate fixture",
+          "evaluation": "M_PRIOR fixed independent cases"
+        },
+        "seed": 0,
+        "source_version": {
+          "files": {
+            "input.csv": "dfccea72fbf5097e9575e651f9443037f979023ddafe24ead5aa846c9f377ef7",
+            "solution.py": "172496c3f498601977731174fedb41dfa582bef65846e992fca0e4cb84f29a62",
+            "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+          },
+          "label": "prior-full-row-v1"
+        }
+      },
+      "evidence_integrity": "valid",
+      "claim_verified": false
+    }
+  ],
+  "initial_memory_item_count": 1,
+  "useful_memory_influenced_hypothesis": true,
+  "memory_influence": "The prior failed/rejected full-row equality record reinforced event_id identity and latest-valid timestamp/later-input tie rules. Its failure interpretation was applicable; its scientific claim was unverified/failed. This is a reported influence, not a measured causal benefit.",
+  "external_tokens": {
+    "status": "unknown",
+    "value": null
+  },
+  "source_version": {
+    "files": {
+      "input.csv": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+      "solution.py": "475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573",
+      "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+    },
+    "label": "m1-c-on-latest-valid-fraction-v1"
+  },
+  "current_source_hashes_match_registration": true,
+  "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+  "evidence_paths": [
+    {
+      "name": "source:input.csv",
+      "preserved_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\work\\input.csv",
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\input.csv",
+      "sha256": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9"
+    },
+    {
+      "name": "source:solution.py",
+      "preserved_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\work\\solution.py",
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\solution.py",
+      "sha256": "475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573"
+    },
+    {
+      "name": "source:task.py",
+      "preserved_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\work\\task.py",
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\task.py",
+      "sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+    },
+    {
+      "name": "result.json",
+      "preserved_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\artifacts\\result.json",
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\work\\result.json",
+      "sha256": "23d210b70577e2b27e20db424cf5c080d752d363bedcb28544be8f4f87fc9e00"
+    },
+    {
+      "name": "invocations.jsonl",
+      "preserved_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\artifacts\\invocations.jsonl",
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\work\\invocations.jsonl",
+      "sha256": "2d08f03b1755b6f058abd0930920b7ef3f6aceb9491a5f6047b770e6f8a7a7db"
+    },
+    {
+      "name": "solution.py",
+      "preserved_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\artifacts\\solution.py",
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\work\\solution.py",
+      "sha256": "475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573"
+    },
+    {
+      "name": "input.csv",
+      "preserved_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\artifacts\\input.csv",
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\work\\input.csv",
+      "sha256": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9"
+    },
+    {
+      "name": "stdout",
+      "preserved_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\stdout.log",
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\stdout.log",
+      "sha256": "880b677a81f047d08fe57d14a8a3c5e8ad621dd6aab664c3af78ac1fc856caeb"
+    },
+    {
+      "name": "stderr",
+      "preserved_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\stderr.log",
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "launch",
+      "preserved_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\launch.json",
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\launch.json",
+      "sha256": "08a02b0a38441166d508e9f66f8b6e08385bd232d8cf21f98c5cf4e75839b0c5"
+    },
+    {
+      "name": "process",
+      "preserved_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\process.json",
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\process.json",
+      "sha256": "11e9b60bed881eaaba77c6b407f5f2596e679df66e0b496d6937af4ea48f9a56"
+    }
+  ],
+  "cli_evidence_records": [
+    {
+      "id": "ev_1d50c290c19b4c13b5b163dce77279b2",
+      "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+      "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+      "name": "source:task.py",
+      "kind": "measured",
+      "claim": "Local runner file; verification remains separate",
+      "path": ".research/evidence/5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+      "sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+      "size": 1464,
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\task.py",
+      "created": 1791045038.9607613,
+      "integrity": "valid",
+      "verified": true
+    },
+    {
+      "id": "ev_29ea86c9a9ed4d509ad5fda597d679b3",
+      "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+      "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+      "name": "stderr",
+      "kind": "measured",
+      "claim": "Local runner file; verification remains separate",
+      "path": ".research/evidence/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\stderr.log",
+      "created": 1791045038.9607613,
+      "integrity": "valid",
+      "verified": true
+    },
+    {
+      "id": "ev_3b1c1dc84d5c4152af791c551a8f58a0",
+      "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+      "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+      "name": "input.csv",
+      "kind": "measured",
+      "claim": "Local runner file; verification remains separate",
+      "path": ".research/evidence/e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+      "sha256": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+      "size": 81,
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\work\\input.csv",
+      "created": 1791045038.9607613,
+      "integrity": "valid",
+      "verified": true
+    },
+    {
+      "id": "ev_3ccc2eb19f954ff883ffafa59423e6bd",
+      "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+      "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+      "name": "solution.py",
+      "kind": "measured",
+      "claim": "Local runner file; verification remains separate",
+      "path": ".research/evidence/475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573",
+      "sha256": "475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573",
+      "size": 1284,
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\work\\solution.py",
+      "created": 1791045038.9607613,
+      "integrity": "valid",
+      "verified": true
+    },
+    {
+      "id": "ev_43ed8dd15df34660b5dfb65b034b5d7c",
+      "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+      "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+      "name": "invocations.jsonl",
+      "kind": "measured",
+      "claim": "Local runner file; verification remains separate",
+      "path": ".research/evidence/2d08f03b1755b6f058abd0930920b7ef3f6aceb9491a5f6047b770e6f8a7a7db",
+      "sha256": "2d08f03b1755b6f058abd0930920b7ef3f6aceb9491a5f6047b770e6f8a7a7db",
+      "size": 54,
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\work\\invocations.jsonl",
+      "created": 1791045038.9607613,
+      "integrity": "valid",
+      "verified": true
+    },
+    {
+      "id": "ev_4cb1d8fb04e641a781287f11055f41e5",
+      "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+      "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+      "name": "process",
+      "kind": "measured",
+      "claim": "Local runner file; verification remains separate",
+      "path": ".research/evidence/11e9b60bed881eaaba77c6b407f5f2596e679df66e0b496d6937af4ea48f9a56",
+      "sha256": "11e9b60bed881eaaba77c6b407f5f2596e679df66e0b496d6937af4ea48f9a56",
+      "size": 56,
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\process.json",
+      "created": 1791045038.9607613,
+      "integrity": "valid",
+      "verified": true
+    },
+    {
+      "id": "ev_75a47329207f40d381f6dc96eaa9c082",
+      "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+      "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+      "name": "source:solution.py",
+      "kind": "measured",
+      "claim": "Local runner file; verification remains separate",
+      "path": ".research/evidence/475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573",
+      "sha256": "475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573",
+      "size": 1284,
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\solution.py",
+      "created": 1791045038.9607613,
+      "integrity": "valid",
+      "verified": true
+    },
+    {
+      "id": "ev_bd73acdf61d3402692a9e73916bf968e",
+      "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+      "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+      "name": "source:input.csv",
+      "kind": "measured",
+      "claim": "Local runner file; verification remains separate",
+      "path": ".research/evidence/e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+      "sha256": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+      "size": 81,
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\input.csv",
+      "created": 1791045038.9607613,
+      "integrity": "valid",
+      "verified": true
+    },
+    {
+      "id": "ev_e6743de14d794832a7f51e3dd1337ec3",
+      "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+      "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+      "name": "launch",
+      "kind": "measured",
+      "claim": "Local runner file; verification remains separate",
+      "path": ".research/evidence/08a02b0a38441166d508e9f66f8b6e08385bd232d8cf21f98c5cf4e75839b0c5",
+      "sha256": "08a02b0a38441166d508e9f66f8b6e08385bd232d8cf21f98c5cf4e75839b0c5",
+      "size": 335,
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\launch.json",
+      "created": 1791045038.9607613,
+      "integrity": "valid",
+      "verified": true
+    },
+    {
+      "id": "ev_f4cc2a6443d5434c984e14ca856e5dbc",
+      "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+      "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+      "name": "result.json",
+      "kind": "measured",
+      "claim": "Local runner file; verification remains separate",
+      "path": ".research/evidence/23d210b70577e2b27e20db424cf5c080d752d363bedcb28544be8f4f87fc9e00",
+      "sha256": "23d210b70577e2b27e20db424cf5c080d752d363bedcb28544be8f4f87fc9e00",
+      "size": 256,
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\work\\result.json",
+      "created": 1791045038.9607613,
+      "integrity": "valid",
+      "verified": true
+    },
+    {
+      "id": "ev_fa072c33926a4d6c8ff0e4b59cdd41c4",
+      "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+      "run_id": "run_d8eabe23cbe44dce94dbfd1adbd7fda3",
+      "name": "stdout",
+      "kind": "measured",
+      "claim": "Local runner file; verification remains separate",
+      "path": ".research/evidence/880b677a81f047d08fe57d14a8a3c5e8ad621dd6aab664c3af78ac1fc856caeb",
+      "sha256": "880b677a81f047d08fe57d14a8a3c5e8ad621dd6aab664c3af78ac1fc856caeb",
+      "size": 46,
+      "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\runs\\run_d8eabe23cbe44dce94dbfd1adbd7fda3\\stdout.log",
+      "created": 1791045038.9607613,
+      "integrity": "valid",
+      "verified": true
+    }
+  ],
+  "saved_paths": {
+    "transcript": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\transcript.json",
+    "spec": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\spec.json",
+    "draft": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\candidate.py",
+    "solution": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\solution.py",
+    "before_replay_audit": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\audit-before-replay.json",
+    "after_replay_audit": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\audit-after-replay.json"
+  },
+  "prohibited_materials_read": false,
+  "prior_failed_registration_retained": "reg_028148663caa496a9498d2f2e3469251"
+}

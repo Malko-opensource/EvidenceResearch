@@ -1,0 +1,1 @@
+{"resources": {"elapsed_seconds": 3.809999907389283e-05, "external_tokens": {"status": "unknown", "value": null}}, "result": {"rejected": 1, "samples": [{"count": 1, "mean": 2.0, "timestamp": 0.0}, {"count": 2, "mean": 6.0, "timestamp": 3.0}, {"count": 3, "mean": 6.666666666666667, "timestamp": 4.0}, {"count": 2, "mean": 9.0, "timestamp": 6.0}]}, "task_id": "F2"}

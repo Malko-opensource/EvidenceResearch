@@ -1,3 +1,0 @@
-```REPLACE
-CONFIG = {'degree': 2, 'alpha': 0.0}
-```

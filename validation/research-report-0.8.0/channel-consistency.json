@@ -1,0 +1,1049 @@
+{
+  "ok": true,
+  "cli": {
+    "argv": [
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+      "-I",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004",
+      "goal_show",
+      "--goal",
+      "goal_bed1555e80744acf9e85c437baf2ff3f"
+    ],
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent",
+    "response": {
+      "ok": true,
+      "data": {
+        "goal": {
+          "id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+          "title": "고정 고객 응답 CSV의 팀별 만족도 보고 검증",
+          "description": "원래 의뢰의 기술통계·80% 사업 기준 질문을 고정 독립 검증으로 답한다. 전체 프롬프트 원본 및 해시는 brief.handoff에 연결되어 있다.",
+          "created": 1791114219.8518677,
+          "version": 2,
+          "brief": {
+            "assumptions": [
+              {
+                "assumption": "team is fixture reporting unit; complete-case descriptive means describe observed responses only",
+                "impact_if_false": "revise interpretation with explicit new goal version"
+              }
+            ],
+            "completion_criteria": [
+              "three prescribed fixed-input runs collected and fixed verifier checked",
+              "answer exact CSV calculation and >=80 business criterion separately",
+              "evidence-backed negative result can complete question",
+              "no unknown/running executions left at closure"
+            ],
+            "context": "비전문 연구 분야 엔지니어를 위한 설치 스킬·CLI·웹 개발 실연",
+            "deliverables": [
+              "goal prompt and structured brief",
+              "task.py and source/data hashes",
+              "preregistered real runs and original evidence",
+              "fixed independent verifier results",
+              "decisions",
+              "Korean report and resume handoff"
+            ],
+            "evaluation": {
+              "comparison": "owner fixed independent recalculation and supplied 80% threshold; no improvement baseline",
+              "criteria": [
+                {
+                  "metric": "calculation_matches",
+                  "op": "==",
+                  "threshold": 1
+                },
+                {
+                  "metric": "satisfaction_pct",
+                  "op": ">=",
+                  "threshold": 80
+                }
+              ],
+              "metrics": [
+                "calculation_matches",
+                "satisfaction_pct"
+              ],
+              "repeat_design": "three_fixed_input_replications",
+              "repeat_rationale": "prescribed minimal development display fixture; deterministic repeat distribution only",
+              "seeds": [
+                0,
+                1,
+                2
+              ],
+              "split": "all public fixed fixture; no held-out population inference",
+              "units": {
+                "calculation_matches": "boolean represented as 0 or 1",
+                "satisfaction_pct": "percentage"
+              }
+            },
+            "facts": [
+              "ratings 1–5 valid; empty excluded and counted",
+              "satisfaction_pct = mean valid rating / 5 * 100; percentage",
+              "business criterion >=80",
+              "local writes/execution approved",
+              "three fixed-input display replications seed0,1,2 prescribed",
+              "owner frozen csv-owner-fixed-v1"
+            ],
+            "handoff": {
+              "goal_request_key": "skill-demo-goal-original-20261004-v1",
+              "manifest_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\demonstration-manifest.json",
+              "prompt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\long-term-goal-prompt.v1.ko.md",
+              "prompt_sha256": "a7a3ddd4a59c116782181c10615bed8ce2ac70219392bd5918f411c7124c864d",
+              "prompt_version": 1,
+              "resume": "goal_show/status/memory, inspect original run IDs; recover unknown rather than create replacement; resume only if authorized new work remains",
+              "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+              "workspace": "goal-plugin-demo-20261004"
+            },
+            "initial_plan": [
+              "status then memory",
+              "idempotent goal",
+              "hypothesis",
+              "external-agent code and three hash-pinned registrations at goal version1",
+              "after registration, collect every run and verify result before writing the joint Korean report",
+              "retain per-registration decisions and unchanged >=80 / calculation==1 criteria",
+              "record telemetry unknown and goal-close evidence-backed answer",
+              "replay original completed requests and read current state"
+            ],
+            "long_term_goal": "고정 공개 합성 CSV의 합의된 기술통계를 재현·독립 검증하고 계산 정확성과 80% 사업 기준의 충족 여부를 분리해 답한다.",
+            "original_request": "누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.",
+            "permissions": {
+              "allowed": [
+                "dedicated workspace writes",
+                "local execution of supplied fixture",
+                "same root CLI/stdio/WebMCP"
+              ],
+              "excluded": [
+                "network",
+                "external model cost spending",
+                "global config mutation",
+                "frozen validator mutation",
+                "owner key mutation",
+                "original CSV mutation"
+              ],
+              "source": "validation/skill-demo-request.ko.md"
+            },
+            "reporting": {
+              "first": [
+                "phase",
+                "observed metrics versus goal",
+                "cost scope",
+                "elapsed time",
+                "results and verification"
+              ],
+              "language": "Korean",
+              "persona": "engineering owner with no research expertise required",
+              "scientific_scope": "fixed-input technical descriptive verification only"
+            },
+            "resource_constraints": {
+              "cost": "unknown; no external spending authorized",
+              "time": "not set",
+              "tokens": "unknown",
+              "whole_research_iteration_limit": "not set"
+            },
+            "scope": {
+              "exclusions": [
+                "population generalization",
+                "causal effects",
+                "performance improvement",
+                "power or population intervals"
+              ],
+              "population": "public synthetic data.csv only"
+            },
+            "unknowns": [
+              {
+                "item": "external agent tokens and costs",
+                "owner": "agent telemetry observation",
+                "resolution": "record unavailable per-demo telemetry as unknown, without inventing a receipt"
+              }
+            ]
+          },
+          "state": "completed",
+          "state_source": "explicit",
+          "lifecycle": {
+            "id": "lifecycle_257d3d6561d146d9975987695a2a79c5",
+            "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+            "goal_version": 2,
+            "state": "completed",
+            "reason": "승인된 고정 합성 CSV 기술통계 질문에 독립 계산 일치와 80% 미달의 반대 증거로 답했다. 세 사전등록 기능 반복은 모두 terminal이며 모집단 또는 성능 개선 주장은 하지 않는다.",
+            "results": [
+              "합의된 누락 제외 기술통계: 전체 유효5/누락1, 만족도72%; A 평균4.0/만족도80%/유효2/누락1, B 평균3.3333333333333335/만족도66.66666666666667%/유효3/누락0.",
+              "세 실제 기능 반복 seed0,1,2의 동일 입력·소스 해시가 유지되며 모두 실행 succeeded, 독립 calculation_matches=1.0; 사전등록 satisfaction_pct>=80은72.0으로 실패.",
+              "80% 가설은 각 등록 rejected. 사업 기준 미달이 확인되어 기술통계 연구 질문에 근거 있는 부정적 답을 얻었다.",
+              "장기 목표 프롬프트, brief v1/v2, 계획 변경 사유, 실제 CLI 호출·출력, 원본 증거와 재개 연결을 보존했다."
+            ],
+            "incomplete": [
+              "외부 에이전트 실제 토큰·비용 영수증이 이 세션에 제공되지 않아 unknown이다.",
+              "다른 고객 집단 일반화, 누락 원인 및 인과·성능 개선은 이 승인된 고정 fixture 범위 밖이며 입증하지 않았다.",
+              "WebMCP 실제 장면 조작은 같은 목표/등록/실행 ID로 루트 에이전트가 이어서 검증한다; 새 연구 실행은 필요하지 않다."
+            ],
+            "created": 1791114357.9631963,
+            "source": "explicit"
+          },
+          "changed_at": 1791114357.9631963
+        },
+        "versions": [
+          {
+            "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+            "version": 2,
+            "title": "고정 고객 응답 CSV의 팀별 만족도 보고 검증",
+            "description": "원래 의뢰의 기술통계·80% 사업 기준 질문을 고정 독립 검증으로 답한다. 전체 프롬프트 원본 및 해시는 brief.handoff에 연결되어 있다.",
+            "brief": {
+              "assumptions": [
+                {
+                  "assumption": "team is fixture reporting unit; complete-case descriptive means describe observed responses only",
+                  "impact_if_false": "revise interpretation with explicit new goal version"
+                }
+              ],
+              "completion_criteria": [
+                "three prescribed fixed-input runs collected and fixed verifier checked",
+                "answer exact CSV calculation and >=80 business criterion separately",
+                "evidence-backed negative result can complete question",
+                "no unknown/running executions left at closure"
+              ],
+              "context": "비전문 연구 분야 엔지니어를 위한 설치 스킬·CLI·웹 개발 실연",
+              "deliverables": [
+                "goal prompt and structured brief",
+                "task.py and source/data hashes",
+                "preregistered real runs and original evidence",
+                "fixed independent verifier results",
+                "decisions",
+                "Korean report and resume handoff"
+              ],
+              "evaluation": {
+                "comparison": "owner fixed independent recalculation and supplied 80% threshold; no improvement baseline",
+                "criteria": [
+                  {
+                    "metric": "calculation_matches",
+                    "op": "==",
+                    "threshold": 1
+                  },
+                  {
+                    "metric": "satisfaction_pct",
+                    "op": ">=",
+                    "threshold": 80
+                  }
+                ],
+                "metrics": [
+                  "calculation_matches",
+                  "satisfaction_pct"
+                ],
+                "repeat_design": "three_fixed_input_replications",
+                "repeat_rationale": "prescribed minimal development display fixture; deterministic repeat distribution only",
+                "seeds": [
+                  0,
+                  1,
+                  2
+                ],
+                "split": "all public fixed fixture; no held-out population inference",
+                "units": {
+                  "calculation_matches": "boolean represented as 0 or 1",
+                  "satisfaction_pct": "percentage"
+                }
+              },
+              "facts": [
+                "ratings 1–5 valid; empty excluded and counted",
+                "satisfaction_pct = mean valid rating / 5 * 100; percentage",
+                "business criterion >=80",
+                "local writes/execution approved",
+                "three fixed-input display replications seed0,1,2 prescribed",
+                "owner frozen csv-owner-fixed-v1"
+              ],
+              "handoff": {
+                "goal_request_key": "skill-demo-goal-original-20261004-v1",
+                "manifest_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\demonstration-manifest.json",
+                "prompt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\long-term-goal-prompt.v1.ko.md",
+                "prompt_sha256": "a7a3ddd4a59c116782181c10615bed8ce2ac70219392bd5918f411c7124c864d",
+                "prompt_version": 1,
+                "resume": "goal_show/status/memory, inspect original run IDs; recover unknown rather than create replacement; resume only if authorized new work remains",
+                "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+                "workspace": "goal-plugin-demo-20261004"
+              },
+              "initial_plan": [
+                "status then memory",
+                "idempotent goal",
+                "hypothesis",
+                "external-agent code and three hash-pinned registrations at goal version1",
+                "after registration, collect every run and verify result before writing the joint Korean report",
+                "retain per-registration decisions and unchanged >=80 / calculation==1 criteria",
+                "record telemetry unknown and goal-close evidence-backed answer",
+                "replay original completed requests and read current state"
+              ],
+              "long_term_goal": "고정 공개 합성 CSV의 합의된 기술통계를 재현·독립 검증하고 계산 정확성과 80% 사업 기준의 충족 여부를 분리해 답한다.",
+              "original_request": "누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.",
+              "permissions": {
+                "allowed": [
+                  "dedicated workspace writes",
+                  "local execution of supplied fixture",
+                  "same root CLI/stdio/WebMCP"
+                ],
+                "excluded": [
+                  "network",
+                  "external model cost spending",
+                  "global config mutation",
+                  "frozen validator mutation",
+                  "owner key mutation",
+                  "original CSV mutation"
+                ],
+                "source": "validation/skill-demo-request.ko.md"
+              },
+              "reporting": {
+                "first": [
+                  "phase",
+                  "observed metrics versus goal",
+                  "cost scope",
+                  "elapsed time",
+                  "results and verification"
+                ],
+                "language": "Korean",
+                "persona": "engineering owner with no research expertise required",
+                "scientific_scope": "fixed-input technical descriptive verification only"
+              },
+              "resource_constraints": {
+                "cost": "unknown; no external spending authorized",
+                "time": "not set",
+                "tokens": "unknown",
+                "whole_research_iteration_limit": "not set"
+              },
+              "scope": {
+                "exclusions": [
+                  "population generalization",
+                  "causal effects",
+                  "performance improvement",
+                  "power or population intervals"
+                ],
+                "population": "public synthetic data.csv only"
+              },
+              "unknowns": [
+                {
+                  "item": "external agent tokens and costs",
+                  "owner": "agent telemetry observation",
+                  "resolution": "record unavailable per-demo telemetry as unknown, without inventing a receipt"
+                }
+              ]
+            },
+            "reason": "등록 뒤 보고 순서를 구체화한다: 세 실행과 각 검증을 모두 수집한 후 공동 한국어 보고를 작성한다. 의미·범위·80% 및 정확성 기준·기존 등록은 유지한다.",
+            "change_kind": "plan",
+            "created": 1791114275.5552566,
+            "source": "explicit"
+          },
+          {
+            "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+            "version": 1,
+            "title": "고정 고객 응답 CSV의 팀별 만족도 보고 검증",
+            "description": "원래 의뢰의 기술통계·80% 사업 기준 질문을 고정 독립 검증으로 답한다. 전체 프롬프트 원본 및 해시는 brief.handoff에 연결되어 있다.",
+            "brief": {
+              "assumptions": [
+                {
+                  "assumption": "team is fixture reporting unit; complete-case descriptive means describe observed responses only",
+                  "impact_if_false": "revise interpretation with explicit new goal version"
+                }
+              ],
+              "completion_criteria": [
+                "three prescribed fixed-input runs collected and fixed verifier checked",
+                "answer exact CSV calculation and >=80 business criterion separately",
+                "evidence-backed negative result can complete question",
+                "no unknown/running executions left at closure"
+              ],
+              "context": "비전문 연구 분야 엔지니어를 위한 설치 스킬·CLI·웹 개발 실연",
+              "deliverables": [
+                "goal prompt and structured brief",
+                "task.py and source/data hashes",
+                "preregistered real runs and original evidence",
+                "fixed independent verifier results",
+                "decisions",
+                "Korean report and resume handoff"
+              ],
+              "evaluation": {
+                "comparison": "owner fixed independent recalculation and supplied 80% threshold; no improvement baseline",
+                "criteria": [
+                  {
+                    "metric": "calculation_matches",
+                    "op": "==",
+                    "threshold": 1
+                  },
+                  {
+                    "metric": "satisfaction_pct",
+                    "op": ">=",
+                    "threshold": 80
+                  }
+                ],
+                "metrics": [
+                  "calculation_matches",
+                  "satisfaction_pct"
+                ],
+                "repeat_design": "three_fixed_input_replications",
+                "repeat_rationale": "prescribed minimal development display fixture; deterministic repeat distribution only",
+                "seeds": [
+                  0,
+                  1,
+                  2
+                ],
+                "split": "all public fixed fixture; no held-out population inference",
+                "units": {
+                  "calculation_matches": "boolean represented as 0 or 1",
+                  "satisfaction_pct": "percentage"
+                }
+              },
+              "facts": [
+                "ratings 1–5 valid; empty excluded and counted",
+                "satisfaction_pct = mean valid rating / 5 * 100; percentage",
+                "business criterion >=80",
+                "local writes/execution approved",
+                "three fixed-input display replications seed0,1,2 prescribed",
+                "owner frozen csv-owner-fixed-v1"
+              ],
+              "handoff": {
+                "goal_request_key": "skill-demo-goal-original-20261004-v1",
+                "manifest_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\demonstration-manifest.json",
+                "prompt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\long-term-goal-prompt.v1.ko.md",
+                "prompt_sha256": "a7a3ddd4a59c116782181c10615bed8ce2ac70219392bd5918f411c7124c864d",
+                "prompt_version": 1,
+                "resume": "goal_show/status/memory, inspect original run IDs; recover unknown rather than create replacement; resume only if authorized new work remains",
+                "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+                "workspace": "goal-plugin-demo-20261004"
+              },
+              "initial_plan": [
+                "status then memory",
+                "idempotent goal",
+                "hypothesis",
+                "external-agent code and hash-pinned preregistration",
+                "actual run and fixed independent verify",
+                "decision and telemetry observation",
+                "goal close and exact completed-request replay"
+              ],
+              "long_term_goal": "고정 공개 합성 CSV의 합의된 기술통계를 재현·독립 검증하고 계산 정확성과 80% 사업 기준의 충족 여부를 분리해 답한다.",
+              "original_request": "누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.",
+              "permissions": {
+                "allowed": [
+                  "dedicated workspace writes",
+                  "local execution of supplied fixture",
+                  "same root CLI/stdio/WebMCP"
+                ],
+                "excluded": [
+                  "network",
+                  "external model cost spending",
+                  "global config mutation",
+                  "frozen validator mutation",
+                  "owner key mutation",
+                  "original CSV mutation"
+                ],
+                "source": "validation/skill-demo-request.ko.md"
+              },
+              "reporting": {
+                "first": [
+                  "phase",
+                  "observed metrics versus goal",
+                  "cost scope",
+                  "elapsed time",
+                  "results and verification"
+                ],
+                "language": "Korean",
+                "persona": "engineering owner with no research expertise required",
+                "scientific_scope": "fixed-input technical descriptive verification only"
+              },
+              "resource_constraints": {
+                "cost": "unknown; no external spending authorized",
+                "time": "not set",
+                "tokens": "unknown",
+                "whole_research_iteration_limit": "not set"
+              },
+              "scope": {
+                "exclusions": [
+                  "population generalization",
+                  "causal effects",
+                  "performance improvement",
+                  "power or population intervals"
+                ],
+                "population": "public synthetic data.csv only"
+              },
+              "unknowns": [
+                {
+                  "item": "external agent tokens and costs",
+                  "owner": "agent telemetry observation",
+                  "resolution": "record unavailable per-demo telemetry as unknown, without inventing a receipt"
+                }
+              ]
+            },
+            "reason": "Original external request",
+            "change_kind": "initial",
+            "created": 1791114219.8518677,
+            "source": "explicit"
+          }
+        ],
+        "lifecycle": [
+          {
+            "id": "lifecycle_257d3d6561d146d9975987695a2a79c5",
+            "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+            "goal_version": 2,
+            "state": "completed",
+            "reason": "승인된 고정 합성 CSV 기술통계 질문에 독립 계산 일치와 80% 미달의 반대 증거로 답했다. 세 사전등록 기능 반복은 모두 terminal이며 모집단 또는 성능 개선 주장은 하지 않는다.",
+            "results": [
+              "합의된 누락 제외 기술통계: 전체 유효5/누락1, 만족도72%; A 평균4.0/만족도80%/유효2/누락1, B 평균3.3333333333333335/만족도66.66666666666667%/유효3/누락0.",
+              "세 실제 기능 반복 seed0,1,2의 동일 입력·소스 해시가 유지되며 모두 실행 succeeded, 독립 calculation_matches=1.0; 사전등록 satisfaction_pct>=80은72.0으로 실패.",
+              "80% 가설은 각 등록 rejected. 사업 기준 미달이 확인되어 기술통계 연구 질문에 근거 있는 부정적 답을 얻었다.",
+              "장기 목표 프롬프트, brief v1/v2, 계획 변경 사유, 실제 CLI 호출·출력, 원본 증거와 재개 연결을 보존했다."
+            ],
+            "incomplete": [
+              "외부 에이전트 실제 토큰·비용 영수증이 이 세션에 제공되지 않아 unknown이다.",
+              "다른 고객 집단 일반화, 누락 원인 및 인과·성능 개선은 이 승인된 고정 fixture 범위 밖이며 입증하지 않았다.",
+              "WebMCP 실제 장면 조작은 같은 목표/등록/실행 ID로 루트 에이전트가 이어서 검증한다; 새 연구 실행은 필요하지 않다."
+            ],
+            "created": 1791114357.9631963,
+            "source": "explicit"
+          },
+          {
+            "id": "lifecycle_56057cb28c6b4490a80e812ad579be9f",
+            "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+            "goal_version": 1,
+            "state": "active",
+            "reason": "Goal created; this does not authorize experiment execution",
+            "results": [],
+            "incomplete": [],
+            "created": 1791114219.8518677,
+            "source": "explicit"
+          }
+        ],
+        "version_total": 2,
+        "lifecycle_total": 2,
+        "resources": {
+          "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+          "registration_id": null,
+          "cost_by_currency": [],
+          "known_count": 0,
+          "unknown_count": 1,
+          "observation_total": 1,
+          "tokens": {
+            "observed_subtotal": null,
+            "known_count": 0,
+            "unknown_count": 1
+          },
+          "run_total": 3,
+          "covered_registration_count": 0,
+          "scope": "recorded_external_observations_only",
+          "total_cost_status": "unknown",
+          "provenance": "external_report_not_independently_verified"
+        },
+        "limit": 20,
+        "offset": 0,
+        "revision": 21
+      }
+    }
+  },
+  "stdio": {
+    "ok": true,
+    "data": {
+      "goal": {
+        "id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+        "title": "고정 고객 응답 CSV의 팀별 만족도 보고 검증",
+        "description": "원래 의뢰의 기술통계·80% 사업 기준 질문을 고정 독립 검증으로 답한다. 전체 프롬프트 원본 및 해시는 brief.handoff에 연결되어 있다.",
+        "created": 1791114219.8518677,
+        "version": 2,
+        "brief": {
+          "assumptions": [
+            {
+              "assumption": "team is fixture reporting unit; complete-case descriptive means describe observed responses only",
+              "impact_if_false": "revise interpretation with explicit new goal version"
+            }
+          ],
+          "completion_criteria": [
+            "three prescribed fixed-input runs collected and fixed verifier checked",
+            "answer exact CSV calculation and >=80 business criterion separately",
+            "evidence-backed negative result can complete question",
+            "no unknown/running executions left at closure"
+          ],
+          "context": "비전문 연구 분야 엔지니어를 위한 설치 스킬·CLI·웹 개발 실연",
+          "deliverables": [
+            "goal prompt and structured brief",
+            "task.py and source/data hashes",
+            "preregistered real runs and original evidence",
+            "fixed independent verifier results",
+            "decisions",
+            "Korean report and resume handoff"
+          ],
+          "evaluation": {
+            "comparison": "owner fixed independent recalculation and supplied 80% threshold; no improvement baseline",
+            "criteria": [
+              {
+                "metric": "calculation_matches",
+                "op": "==",
+                "threshold": 1
+              },
+              {
+                "metric": "satisfaction_pct",
+                "op": ">=",
+                "threshold": 80
+              }
+            ],
+            "metrics": [
+              "calculation_matches",
+              "satisfaction_pct"
+            ],
+            "repeat_design": "three_fixed_input_replications",
+            "repeat_rationale": "prescribed minimal development display fixture; deterministic repeat distribution only",
+            "seeds": [
+              0,
+              1,
+              2
+            ],
+            "split": "all public fixed fixture; no held-out population inference",
+            "units": {
+              "calculation_matches": "boolean represented as 0 or 1",
+              "satisfaction_pct": "percentage"
+            }
+          },
+          "facts": [
+            "ratings 1–5 valid; empty excluded and counted",
+            "satisfaction_pct = mean valid rating / 5 * 100; percentage",
+            "business criterion >=80",
+            "local writes/execution approved",
+            "three fixed-input display replications seed0,1,2 prescribed",
+            "owner frozen csv-owner-fixed-v1"
+          ],
+          "handoff": {
+            "goal_request_key": "skill-demo-goal-original-20261004-v1",
+            "manifest_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\demonstration-manifest.json",
+            "prompt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\long-term-goal-prompt.v1.ko.md",
+            "prompt_sha256": "a7a3ddd4a59c116782181c10615bed8ce2ac70219392bd5918f411c7124c864d",
+            "prompt_version": 1,
+            "resume": "goal_show/status/memory, inspect original run IDs; recover unknown rather than create replacement; resume only if authorized new work remains",
+            "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+            "workspace": "goal-plugin-demo-20261004"
+          },
+          "initial_plan": [
+            "status then memory",
+            "idempotent goal",
+            "hypothesis",
+            "external-agent code and three hash-pinned registrations at goal version1",
+            "after registration, collect every run and verify result before writing the joint Korean report",
+            "retain per-registration decisions and unchanged >=80 / calculation==1 criteria",
+            "record telemetry unknown and goal-close evidence-backed answer",
+            "replay original completed requests and read current state"
+          ],
+          "long_term_goal": "고정 공개 합성 CSV의 합의된 기술통계를 재현·독립 검증하고 계산 정확성과 80% 사업 기준의 충족 여부를 분리해 답한다.",
+          "original_request": "누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.",
+          "permissions": {
+            "allowed": [
+              "dedicated workspace writes",
+              "local execution of supplied fixture",
+              "same root CLI/stdio/WebMCP"
+            ],
+            "excluded": [
+              "network",
+              "external model cost spending",
+              "global config mutation",
+              "frozen validator mutation",
+              "owner key mutation",
+              "original CSV mutation"
+            ],
+            "source": "validation/skill-demo-request.ko.md"
+          },
+          "reporting": {
+            "first": [
+              "phase",
+              "observed metrics versus goal",
+              "cost scope",
+              "elapsed time",
+              "results and verification"
+            ],
+            "language": "Korean",
+            "persona": "engineering owner with no research expertise required",
+            "scientific_scope": "fixed-input technical descriptive verification only"
+          },
+          "resource_constraints": {
+            "cost": "unknown; no external spending authorized",
+            "time": "not set",
+            "tokens": "unknown",
+            "whole_research_iteration_limit": "not set"
+          },
+          "scope": {
+            "exclusions": [
+              "population generalization",
+              "causal effects",
+              "performance improvement",
+              "power or population intervals"
+            ],
+            "population": "public synthetic data.csv only"
+          },
+          "unknowns": [
+            {
+              "item": "external agent tokens and costs",
+              "owner": "agent telemetry observation",
+              "resolution": "record unavailable per-demo telemetry as unknown, without inventing a receipt"
+            }
+          ]
+        },
+        "state": "completed",
+        "state_source": "explicit",
+        "lifecycle": {
+          "id": "lifecycle_257d3d6561d146d9975987695a2a79c5",
+          "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+          "goal_version": 2,
+          "state": "completed",
+          "reason": "승인된 고정 합성 CSV 기술통계 질문에 독립 계산 일치와 80% 미달의 반대 증거로 답했다. 세 사전등록 기능 반복은 모두 terminal이며 모집단 또는 성능 개선 주장은 하지 않는다.",
+          "results": [
+            "합의된 누락 제외 기술통계: 전체 유효5/누락1, 만족도72%; A 평균4.0/만족도80%/유효2/누락1, B 평균3.3333333333333335/만족도66.66666666666667%/유효3/누락0.",
+            "세 실제 기능 반복 seed0,1,2의 동일 입력·소스 해시가 유지되며 모두 실행 succeeded, 독립 calculation_matches=1.0; 사전등록 satisfaction_pct>=80은72.0으로 실패.",
+            "80% 가설은 각 등록 rejected. 사업 기준 미달이 확인되어 기술통계 연구 질문에 근거 있는 부정적 답을 얻었다.",
+            "장기 목표 프롬프트, brief v1/v2, 계획 변경 사유, 실제 CLI 호출·출력, 원본 증거와 재개 연결을 보존했다."
+          ],
+          "incomplete": [
+            "외부 에이전트 실제 토큰·비용 영수증이 이 세션에 제공되지 않아 unknown이다.",
+            "다른 고객 집단 일반화, 누락 원인 및 인과·성능 개선은 이 승인된 고정 fixture 범위 밖이며 입증하지 않았다.",
+            "WebMCP 실제 장면 조작은 같은 목표/등록/실행 ID로 루트 에이전트가 이어서 검증한다; 새 연구 실행은 필요하지 않다."
+          ],
+          "created": 1791114357.9631963,
+          "source": "explicit"
+        },
+        "changed_at": 1791114357.9631963
+      },
+      "versions": [
+        {
+          "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+          "version": 2,
+          "title": "고정 고객 응답 CSV의 팀별 만족도 보고 검증",
+          "description": "원래 의뢰의 기술통계·80% 사업 기준 질문을 고정 독립 검증으로 답한다. 전체 프롬프트 원본 및 해시는 brief.handoff에 연결되어 있다.",
+          "brief": {
+            "assumptions": [
+              {
+                "assumption": "team is fixture reporting unit; complete-case descriptive means describe observed responses only",
+                "impact_if_false": "revise interpretation with explicit new goal version"
+              }
+            ],
+            "completion_criteria": [
+              "three prescribed fixed-input runs collected and fixed verifier checked",
+              "answer exact CSV calculation and >=80 business criterion separately",
+              "evidence-backed negative result can complete question",
+              "no unknown/running executions left at closure"
+            ],
+            "context": "비전문 연구 분야 엔지니어를 위한 설치 스킬·CLI·웹 개발 실연",
+            "deliverables": [
+              "goal prompt and structured brief",
+              "task.py and source/data hashes",
+              "preregistered real runs and original evidence",
+              "fixed independent verifier results",
+              "decisions",
+              "Korean report and resume handoff"
+            ],
+            "evaluation": {
+              "comparison": "owner fixed independent recalculation and supplied 80% threshold; no improvement baseline",
+              "criteria": [
+                {
+                  "metric": "calculation_matches",
+                  "op": "==",
+                  "threshold": 1
+                },
+                {
+                  "metric": "satisfaction_pct",
+                  "op": ">=",
+                  "threshold": 80
+                }
+              ],
+              "metrics": [
+                "calculation_matches",
+                "satisfaction_pct"
+              ],
+              "repeat_design": "three_fixed_input_replications",
+              "repeat_rationale": "prescribed minimal development display fixture; deterministic repeat distribution only",
+              "seeds": [
+                0,
+                1,
+                2
+              ],
+              "split": "all public fixed fixture; no held-out population inference",
+              "units": {
+                "calculation_matches": "boolean represented as 0 or 1",
+                "satisfaction_pct": "percentage"
+              }
+            },
+            "facts": [
+              "ratings 1–5 valid; empty excluded and counted",
+              "satisfaction_pct = mean valid rating / 5 * 100; percentage",
+              "business criterion >=80",
+              "local writes/execution approved",
+              "three fixed-input display replications seed0,1,2 prescribed",
+              "owner frozen csv-owner-fixed-v1"
+            ],
+            "handoff": {
+              "goal_request_key": "skill-demo-goal-original-20261004-v1",
+              "manifest_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\demonstration-manifest.json",
+              "prompt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\long-term-goal-prompt.v1.ko.md",
+              "prompt_sha256": "a7a3ddd4a59c116782181c10615bed8ce2ac70219392bd5918f411c7124c864d",
+              "prompt_version": 1,
+              "resume": "goal_show/status/memory, inspect original run IDs; recover unknown rather than create replacement; resume only if authorized new work remains",
+              "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+              "workspace": "goal-plugin-demo-20261004"
+            },
+            "initial_plan": [
+              "status then memory",
+              "idempotent goal",
+              "hypothesis",
+              "external-agent code and three hash-pinned registrations at goal version1",
+              "after registration, collect every run and verify result before writing the joint Korean report",
+              "retain per-registration decisions and unchanged >=80 / calculation==1 criteria",
+              "record telemetry unknown and goal-close evidence-backed answer",
+              "replay original completed requests and read current state"
+            ],
+            "long_term_goal": "고정 공개 합성 CSV의 합의된 기술통계를 재현·독립 검증하고 계산 정확성과 80% 사업 기준의 충족 여부를 분리해 답한다.",
+            "original_request": "누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.",
+            "permissions": {
+              "allowed": [
+                "dedicated workspace writes",
+                "local execution of supplied fixture",
+                "same root CLI/stdio/WebMCP"
+              ],
+              "excluded": [
+                "network",
+                "external model cost spending",
+                "global config mutation",
+                "frozen validator mutation",
+                "owner key mutation",
+                "original CSV mutation"
+              ],
+              "source": "validation/skill-demo-request.ko.md"
+            },
+            "reporting": {
+              "first": [
+                "phase",
+                "observed metrics versus goal",
+                "cost scope",
+                "elapsed time",
+                "results and verification"
+              ],
+              "language": "Korean",
+              "persona": "engineering owner with no research expertise required",
+              "scientific_scope": "fixed-input technical descriptive verification only"
+            },
+            "resource_constraints": {
+              "cost": "unknown; no external spending authorized",
+              "time": "not set",
+              "tokens": "unknown",
+              "whole_research_iteration_limit": "not set"
+            },
+            "scope": {
+              "exclusions": [
+                "population generalization",
+                "causal effects",
+                "performance improvement",
+                "power or population intervals"
+              ],
+              "population": "public synthetic data.csv only"
+            },
+            "unknowns": [
+              {
+                "item": "external agent tokens and costs",
+                "owner": "agent telemetry observation",
+                "resolution": "record unavailable per-demo telemetry as unknown, without inventing a receipt"
+              }
+            ]
+          },
+          "reason": "등록 뒤 보고 순서를 구체화한다: 세 실행과 각 검증을 모두 수집한 후 공동 한국어 보고를 작성한다. 의미·범위·80% 및 정확성 기준·기존 등록은 유지한다.",
+          "change_kind": "plan",
+          "created": 1791114275.5552566,
+          "source": "explicit"
+        },
+        {
+          "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+          "version": 1,
+          "title": "고정 고객 응답 CSV의 팀별 만족도 보고 검증",
+          "description": "원래 의뢰의 기술통계·80% 사업 기준 질문을 고정 독립 검증으로 답한다. 전체 프롬프트 원본 및 해시는 brief.handoff에 연결되어 있다.",
+          "brief": {
+            "assumptions": [
+              {
+                "assumption": "team is fixture reporting unit; complete-case descriptive means describe observed responses only",
+                "impact_if_false": "revise interpretation with explicit new goal version"
+              }
+            ],
+            "completion_criteria": [
+              "three prescribed fixed-input runs collected and fixed verifier checked",
+              "answer exact CSV calculation and >=80 business criterion separately",
+              "evidence-backed negative result can complete question",
+              "no unknown/running executions left at closure"
+            ],
+            "context": "비전문 연구 분야 엔지니어를 위한 설치 스킬·CLI·웹 개발 실연",
+            "deliverables": [
+              "goal prompt and structured brief",
+              "task.py and source/data hashes",
+              "preregistered real runs and original evidence",
+              "fixed independent verifier results",
+              "decisions",
+              "Korean report and resume handoff"
+            ],
+            "evaluation": {
+              "comparison": "owner fixed independent recalculation and supplied 80% threshold; no improvement baseline",
+              "criteria": [
+                {
+                  "metric": "calculation_matches",
+                  "op": "==",
+                  "threshold": 1
+                },
+                {
+                  "metric": "satisfaction_pct",
+                  "op": ">=",
+                  "threshold": 80
+                }
+              ],
+              "metrics": [
+                "calculation_matches",
+                "satisfaction_pct"
+              ],
+              "repeat_design": "three_fixed_input_replications",
+              "repeat_rationale": "prescribed minimal development display fixture; deterministic repeat distribution only",
+              "seeds": [
+                0,
+                1,
+                2
+              ],
+              "split": "all public fixed fixture; no held-out population inference",
+              "units": {
+                "calculation_matches": "boolean represented as 0 or 1",
+                "satisfaction_pct": "percentage"
+              }
+            },
+            "facts": [
+              "ratings 1–5 valid; empty excluded and counted",
+              "satisfaction_pct = mean valid rating / 5 * 100; percentage",
+              "business criterion >=80",
+              "local writes/execution approved",
+              "three fixed-input display replications seed0,1,2 prescribed",
+              "owner frozen csv-owner-fixed-v1"
+            ],
+            "handoff": {
+              "goal_request_key": "skill-demo-goal-original-20261004-v1",
+              "manifest_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\demonstration-manifest.json",
+              "prompt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\long-term-goal-prompt.v1.ko.md",
+              "prompt_sha256": "a7a3ddd4a59c116782181c10615bed8ce2ac70219392bd5918f411c7124c864d",
+              "prompt_version": 1,
+              "resume": "goal_show/status/memory, inspect original run IDs; recover unknown rather than create replacement; resume only if authorized new work remains",
+              "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+              "workspace": "goal-plugin-demo-20261004"
+            },
+            "initial_plan": [
+              "status then memory",
+              "idempotent goal",
+              "hypothesis",
+              "external-agent code and hash-pinned preregistration",
+              "actual run and fixed independent verify",
+              "decision and telemetry observation",
+              "goal close and exact completed-request replay"
+            ],
+            "long_term_goal": "고정 공개 합성 CSV의 합의된 기술통계를 재현·독립 검증하고 계산 정확성과 80% 사업 기준의 충족 여부를 분리해 답한다.",
+            "original_request": "누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.",
+            "permissions": {
+              "allowed": [
+                "dedicated workspace writes",
+                "local execution of supplied fixture",
+                "same root CLI/stdio/WebMCP"
+              ],
+              "excluded": [
+                "network",
+                "external model cost spending",
+                "global config mutation",
+                "frozen validator mutation",
+                "owner key mutation",
+                "original CSV mutation"
+              ],
+              "source": "validation/skill-demo-request.ko.md"
+            },
+            "reporting": {
+              "first": [
+                "phase",
+                "observed metrics versus goal",
+                "cost scope",
+                "elapsed time",
+                "results and verification"
+              ],
+              "language": "Korean",
+              "persona": "engineering owner with no research expertise required",
+              "scientific_scope": "fixed-input technical descriptive verification only"
+            },
+            "resource_constraints": {
+              "cost": "unknown; no external spending authorized",
+              "time": "not set",
+              "tokens": "unknown",
+              "whole_research_iteration_limit": "not set"
+            },
+            "scope": {
+              "exclusions": [
+                "population generalization",
+                "causal effects",
+                "performance improvement",
+                "power or population intervals"
+              ],
+              "population": "public synthetic data.csv only"
+            },
+            "unknowns": [
+              {
+                "item": "external agent tokens and costs",
+                "owner": "agent telemetry observation",
+                "resolution": "record unavailable per-demo telemetry as unknown, without inventing a receipt"
+              }
+            ]
+          },
+          "reason": "Original external request",
+          "change_kind": "initial",
+          "created": 1791114219.8518677,
+          "source": "explicit"
+        }
+      ],
+      "lifecycle": [
+        {
+          "id": "lifecycle_257d3d6561d146d9975987695a2a79c5",
+          "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+          "goal_version": 2,
+          "state": "completed",
+          "reason": "승인된 고정 합성 CSV 기술통계 질문에 독립 계산 일치와 80% 미달의 반대 증거로 답했다. 세 사전등록 기능 반복은 모두 terminal이며 모집단 또는 성능 개선 주장은 하지 않는다.",
+          "results": [
+            "합의된 누락 제외 기술통계: 전체 유효5/누락1, 만족도72%; A 평균4.0/만족도80%/유효2/누락1, B 평균3.3333333333333335/만족도66.66666666666667%/유효3/누락0.",
+            "세 실제 기능 반복 seed0,1,2의 동일 입력·소스 해시가 유지되며 모두 실행 succeeded, 독립 calculation_matches=1.0; 사전등록 satisfaction_pct>=80은72.0으로 실패.",
+            "80% 가설은 각 등록 rejected. 사업 기준 미달이 확인되어 기술통계 연구 질문에 근거 있는 부정적 답을 얻었다.",
+            "장기 목표 프롬프트, brief v1/v2, 계획 변경 사유, 실제 CLI 호출·출력, 원본 증거와 재개 연결을 보존했다."
+          ],
+          "incomplete": [
+            "외부 에이전트 실제 토큰·비용 영수증이 이 세션에 제공되지 않아 unknown이다.",
+            "다른 고객 집단 일반화, 누락 원인 및 인과·성능 개선은 이 승인된 고정 fixture 범위 밖이며 입증하지 않았다.",
+            "WebMCP 실제 장면 조작은 같은 목표/등록/실행 ID로 루트 에이전트가 이어서 검증한다; 새 연구 실행은 필요하지 않다."
+          ],
+          "created": 1791114357.9631963,
+          "source": "explicit"
+        },
+        {
+          "id": "lifecycle_56057cb28c6b4490a80e812ad579be9f",
+          "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+          "goal_version": 1,
+          "state": "active",
+          "reason": "Goal created; this does not authorize experiment execution",
+          "results": [],
+          "incomplete": [],
+          "created": 1791114219.8518677,
+          "source": "explicit"
+        }
+      ],
+      "version_total": 2,
+      "lifecycle_total": 2,
+      "resources": {
+        "goal_id": "goal_bed1555e80744acf9e85c437baf2ff3f",
+        "registration_id": null,
+        "cost_by_currency": [],
+        "known_count": 0,
+        "unknown_count": 1,
+        "observation_total": 1,
+        "tokens": {
+          "observed_subtotal": null,
+          "known_count": 0,
+          "unknown_count": 1
+        },
+        "run_total": 3,
+        "covered_registration_count": 0,
+        "scope": "recorded_external_observations_only",
+        "total_cost_status": "unknown",
+        "provenance": "external_report_not_independently_verified"
+      },
+      "limit": 20,
+      "offset": 0,
+      "revision": 21
+    }
+  },
+  "same_goal": "goal_bed1555e80744acf9e85c437baf2ff3f",
+  "same_version": 2,
+  "revision": 21,
+  "experiment_launched": false
+}

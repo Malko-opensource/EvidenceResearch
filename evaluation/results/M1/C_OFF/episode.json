@@ -1,0 +1,26 @@
+{
+  "task_id": "M1",
+  "condition": "C_OFF",
+  "prepared_at": "2026-10-03T15:59:54.161126+00:00",
+  "initial_hashes": {
+    "BRIEF.ko.md": "32e287dfa460a3bb47be543ebb640b181212c97037f1a776e1789bc91cbf7d57",
+    "solution.py": "c93cc2e04dcb0720bd69539476e728c4f50fff3896aa67008dc86eecd2216f63",
+    "input.csv": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+  },
+  "criteria": [
+    {
+      "metric": "pass_rate",
+      "op": ">=",
+      "threshold": 1.0
+    }
+  ],
+  "fixed_validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+  "framework": "Codex fresh subagent",
+  "model": "inherited parent; exact identifier unknown",
+  "external_tokens": {
+    "status": "unknown",
+    "value": null
+  },
+  "research_workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research"
+}

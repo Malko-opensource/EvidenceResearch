@@ -1,0 +1,83 @@
+- banner:
+  - strong: Research State
+  - generic: v0.8.0
+  - paragraph: 에이전트 제어 · 함께 보는 연구
+  - generic "연결 상태":
+    - generic: 연구 상태 연결
+    - generic: NATIVE WebMCP · 25/25
+- main:
+  - heading "연구의 지금" [level=1]
+  - generic: 기록 21
+  - generic: 오후 11:24:13 조회 · 읽기 상태 동기화
+  - region "연구 질문과 시험한 변경점":
+    - generic: 함께 살펴보는 연구
+    - heading "고정 고객 응답 CSV의 팀별 만족도 보고 검증" [level=2]
+    - generic: 연구 종료
+    - generic: 외부 연구 상태 보고
+  - region "연구의 지금":
+    - region "선택한 연구의 관계와 현재 경로":
+      - heading "연구의 흐름" [level=2]
+      - generic: 3 / 3개 시도 · 조회 범위
+      - img "원본에 기록된 가설·실험·증거·검증·결정의 연결. 3개 시도. 선택한 경로 강조":
+        - generic: 가설
+        - generic: 실험
+        - generic: 증거
+        - generic: 검증
+        - generic: 결정
+        - generic "사전등록"
+        - generic: 사전등록
+        - generic "실행 원본"
+        - generic: 실행 원본
+        - generic "실행 검사"
+        - generic: 실행 검사
+        - generic "등록 산출물"
+        - generic: 등록 산출물
+        - generic "가설 결정"
+        - generic: 가설 결정
+        - generic "사전등록"
+        - generic "사전등록"
+        - generic "실험 · 실행 성공 · External agent CSV summary under supplied missing-exclusion rule; one d…":
+          - generic: 시도 3 · Seed 0
+          - generic: 실행 성공
+        - generic "가설 · 가설 제안 · 합의된 누락 제외 공식의 정확한 계산에서 이 고정 CSV의 전체 만족도가 사업 기준 80% 이상이다. 팀별 기술통계의 계산 정확성은 이 사업 기준과 별도로 검증한다.":
+          - generic: 시험한 가설
+          - generic: 가설 제안
+        - generic "산출물 · 해시 일치 · summary":
+          - generic: 실제 산출물
+          - generic: 해시 일치
+        - generic "검증 · 검증 실패 · 등록 기준 미충족":
+          - generic: 고정 기준 검사
+          - generic: 검증 실패
+        - generic "결정 · 기각 · 전체 만족도는 72%로 사전등록 사업 기준 80%보다 8 percentage points 낮다. 실행은 성공하고 고정 독립 계산 일치 지표는 1이나 전체 기준 검증은 실패다. 이…":
+          - generic: 외부 결정
+          - generic: 기각
+        - generic "실험 · 실행 성공 · External agent CSV summary under supplied missing-exclusion rule; one d…":
+          - generic: 시도 1 · Seed 2
+          - generic: 실행 성공
+        - generic "실험 · 실행 성공 · External agent CSV summary under supplied missing-exclusion rule; one d…":
+          - generic: 시도 2 · Seed 1
+          - generic: 실행 성공
+      - generic: 실선 · 원본에 기록된 연결
+      - generic: 강조 · 에이전트가 선택한 경로
+      - generic: 다른 시도의 근거는 관계 장면에서 펼칩니다
+    - complementary "현재 초점 설명":
+      - text: 현재 초점 · 검증
+      - heading "검증" [level=2]
+      - paragraph: 고정 기준에서 미달이 확인됐습니다.
+      - generic: 검증 실패
+      - list:
+        - listitem: 계산 일치 · 1 단위 미등록 · 기준 충족
+        - listitem: 만족도 · 72 단위 미등록 · 기준 미충족
+      - strong: 만족도
+      - generic: 단위 미등록
+      - generic: "72"
+      - img "만족도 실측 72 · 기준 >= 80 · 단위 미등록":
+        - generic: "71.04"
+        - generic: "76"
+        - generic: "80.96"
+      - generic: ● 독립 측정
+      - generic: │ 사전등록 기준
+      - paragraph: 사전등록 >= 80 · 기준보다 8 낮음
+  - complementary "외부 에이전트의 현재 도구 호출":
+    - generic: 요청 완료
+    - paragraph: 사용자는 보고 싶은 내용을 에이전트에게 요청하세요

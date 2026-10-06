@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "validate",
+  "stage": "render",
+  "type": "workflow",
+  "input": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\reference-ui-audit-20261004\\archify\\archify\\examples\\agent-tool-call.workflow.json",
+  "error": "Output path could not be resolved safely.",
+  "diagnostics": [
+    {
+      "severity": "error",
+      "subject": {
+        "output": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\reference-ui-audit-20261004\\archify\\examples\\workflow-agent-tool-call-rendered.html"
+      },
+      "evidence": {
+        "relation": {
+          "code": "path-resolution-failed",
+          "side": "target",
+          "segmentIndex": 1,
+          "systemCode": "EPERM"
+        }
+      },
+      "supportedFixes": [
+        "use an ordinary local filesystem path that can be resolved safely, then retry"
+      ],
+      "code": "output/path-resolution-indeterminate",
+      "message": "Output path could not be resolved safely for the requested filesystem location."
+    }
+  ]
+}

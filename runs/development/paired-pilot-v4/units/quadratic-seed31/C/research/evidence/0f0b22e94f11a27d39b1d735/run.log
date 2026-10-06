@@ -1,9 +1,0 @@
-execution_kind=actual_cpu_execution
-actual_invocation=in_process:evidence_research.tasks.run_task(spec,run_dir)
-implementation=trusted allow-listed polynomial ridge
-test_access=withheld
-fit_split=train
-selection_split=validation
-configuration={"alpha":0.1,"degree":2}
-metrics={"train_mse":0.007802777271913859,"validation_mse":0.007631067928879272}
-execution_seconds=0.006101200

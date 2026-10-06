@@ -1,1 +1,0 @@
-Polynomial ridge regression degree selection and regularization strength tuning using validation mean squared error: feature covariance, polynomial complexity, shrinkage, and validation selection bias

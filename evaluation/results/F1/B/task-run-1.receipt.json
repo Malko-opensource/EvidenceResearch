@@ -1,0 +1,26 @@
+{
+  "task_id": "F1",
+  "condition": "B",
+  "registration_path": "registration.json",
+  "registration_sha256": "b8f3d93eb99c77517c8b231d5eda819c2d62364f9d017392330a25e76a005289",
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "task.py",
+    "F1"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B",
+  "started_at": "2026-10-03T16:01:42.338109+00:00",
+  "ended_at": "2026-10-03T16:01:42.380092+00:00",
+  "returncode": 0,
+  "source_sha256_before": "00fd9536a220bc378de45a66f69d34bdb6db051ee44f5be4c8e03df2ec8b6214",
+  "source_sha256_after": "00fd9536a220bc378de45a66f69d34bdb6db051ee44f5be4c8e03df2ec8b6214",
+  "source_snapshot_path": "source-run-1.py",
+  "source_snapshot_sha256": "00fd9536a220bc378de45a66f69d34bdb6db051ee44f5be4c8e03df2ec8b6214",
+  "invocations_before": 0,
+  "invocations_after": 1,
+  "stdout_path": "task-run-1.stdout.log",
+  "stderr_path": "task-run-1.stderr.log",
+  "result_path": "result.json",
+  "result_sha256": "7f5710e0fe037def35633678626d5fff7590481b0c8a9cc24166dddd0307c93e",
+  "success_claim": "Task process completion only; quality remains unverified until independent validation."
+}

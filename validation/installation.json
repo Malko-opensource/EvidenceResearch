@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-03T16:45:48.029958+00:00",
+  "installed_packages": [
+    {
+      "name": "pip",
+      "version": "25.0.1"
+    },
+    {
+      "name": "research-state-cli",
+      "version": "0.2.0"
+    }
+  ],
+  "runtime_dependencies": [],
+  "build_network_required": false,
+  "installation_network_required": false,
+  "tested_outside_source_directory": true,
+  "model_credentials_required": false,
+  "command_launch_timing": {
+    "development_only": true,
+    "samples": 20,
+    "rationale": "Measure short command startup variation; not research evaluation repeats",
+    "median_seconds": 0.06521339999744669,
+    "min_seconds": 0.06140629999572411,
+    "max_seconds": 0.0726268999860622
+  },
+  "language_decision": "Python/SQLite currently avoids runtime dependencies. Timing describes this implementation; no unmeasured language speed comparison."
+}

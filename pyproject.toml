@@ -1,16 +1,24 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "evidence-research"
-version = "0.1.0"
-description = "Evidence-first, resumable autonomous research with independent verification"
-requires-python = ">=3.12"
+name = "research-state-cli"
+version = "0.8.0"
+description = "Model-independent research state, preregistration and evidence CLI"
+requires-python = ">=3.11"
 dependencies = []
 
-[project.scripts]
-evidence-research = "evidence_research.cli:main"
+[project.optional-dependencies]
+mcp = ["mcp==2.3.0"]
 
-[tool.setuptools.packages.find]
-include = ["evidence_research*"]
+[project.scripts]
+research-state = "research_cli.cli:main"
+research-state-mcp = "research_cli.mcp_server:main"
+research-state-web = "research_cli.web_server:main"
+
+[tool.setuptools]
+packages = ["research_cli"]
+
+[tool.setuptools.package-data]
+research_cli = ["web/*.html", "web/*.css", "web/*.js"]

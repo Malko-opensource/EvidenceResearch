@@ -1,0 +1,6 @@
+event_id,group,timestamp,value
+sensor7,south,8,12
+sensor7,north,9,18
+sensor8,north,9,42
+sensor9,south,8,-12
+sensor8,north,9,42

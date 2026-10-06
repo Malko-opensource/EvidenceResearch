@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "reference": "Archify",
+  "repository": "https://github.com/tt-a1i/archify",
+  "commit": "7158026e852f3aa6578c741e673b46d7878c92c1",
+  "version": "3.0.1",
+  "retrieved_at": "2026-10-04T22:50:25.7866285+09:00",
+  "source_root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\reference-ui-audit-20261004\\archify",
+  "tracked_source_modified": false,
+  "execution": {
+    "mode": "official_checked_in_standalone_html",
+    "adapter": "Python standard-library localhost static HTTP server",
+    "command": [
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+      "-I",
+      "-m",
+      "http.server",
+      "8771",
+      "--bind",
+      "127.0.0.1",
+      "--directory",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\reference-ui-audit-20261004\\archify"
+    ],
+    "pid": 49796,
+    "host": "127.0.0.1",
+    "port": 8771,
+    "health_http_status": 200,
+    "source_hash": "8233f4f600c89559b64ac650ad11b66ee1423103e8b6c5e53f63740afc06f6da",
+    "response_hash": "8233f4f600c89559b64ac650ad11b66ee1423103e8b6c5e53f63740afc06f6da",
+    "urls": [
+      "http://127.0.0.1:8771/examples/web-app.html",
+      "http://127.0.0.1:8771/examples/web-app.html?present=1",
+      "http://127.0.0.1:8771/examples/web-app.html#focus=api",
+      "http://127.0.0.1:8771/examples/workflow-agent-tool-call-rendered.html",
+      "http://127.0.0.1:8771/examples/lifecycle-agent-run.html"
+    ]
+  },
+  "scope": {
+    "model_calls": 0,
+    "model_child_processes": 0,
+    "backend_stubs": 0,
+    "installed_dependencies": [],
+    "global_installations": [],
+    "credentials_used": false,
+    "research_state_modified": false,
+    "reference_data": "official public sample graph, not EvidenceResearch production data"
+  },
+  "official_cli_checks": {
+    "doctor_ready": true,
+    "workflow_validate_ok": true,
+    "workflow_composition": "pass",
+    "first_sandbox_attempt": "failed: output/path-resolution-indeterminate / Windows EPERM",
+    "retry": "same official command with approved path access, no source changes",
+    "logs": [
+      "archify-doctor.log",
+      "archify-workflow-validate.json",
+      "archify-workflow-validate-escalated.json"
+    ]
+  },
+  "browser_verification": "performed separately by root agent",
+  "notes": "archify-runtime-notes.ko.md"
+}

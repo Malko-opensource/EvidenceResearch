@@ -1,4 +1,0 @@
-{"type":"thread.started","thread_id":"01a0fd3a-a7e5-72c3-94ec-dc56a93b50d1"}
-{"type":"turn.started"}
-{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression degree selection and regularization parameter alpha tuning using training and validation data cross-validation model selection generalization error"}}
-{"type":"turn.completed","usage":{"input_tokens":19683,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":107,"reasoning_output_tokens":78}}

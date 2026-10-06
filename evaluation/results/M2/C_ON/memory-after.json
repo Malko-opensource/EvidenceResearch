@@ -1,0 +1,90 @@
+{
+  "ok": true,
+  "data": {
+    "items": [
+      {
+        "id": "reg_c12ba01ed36048dfaefef1dd947235c6",
+        "goal_id": "goal_4ec962a7e5b3422583ea3d297281843a",
+        "hypothesis": "Validating rows before event_id deduplication, selecting the greatest timestamp with later-input tie wins, and aggregating retained rows by trimmed group will meet every owner-fixed M2 check (pass_rate 1.0). Relevant memory rejects full-row equality; that prior claim is not verified.",
+        "execution": "succeeded",
+        "verification": "passed",
+        "decision": "adopted",
+        "outcome": "success",
+        "reason": "Adopted for this M2 registration only: owner-frozen csv-fixed-v1 independently recomputed preserved source/artifacts, passed 7 of 7 checks with pass_rate 1.0, intact evidence, and the unchanged preregistered criterion. No general improvement or causal memory benefit is claimed.",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "tokens": {
+            "status": "unknown",
+            "value": null
+          },
+          "wall_seconds": 0.07800000003771856
+        },
+        "evidence_count": 11,
+        "summary": "Replace full-row deduplication with trimmed event_id selection after finite numeric validation; greatest timestamp and later-input ties; aggregate retained rows by trimmed group without input mutation.",
+        "conditions": {
+          "comparison": "Initial full-row equality tactic versus the BRIEF contract, with assessment only by owner-frozen csv-fixed-v1.",
+          "data_split": {
+            "development": "Public M2 input.csv and BRIEF contract only; no hidden cases read.",
+            "evaluation": "Owner-fixed independent M2 evaluation through csv-fixed-v1 on preserved artifacts."
+          },
+          "seed": 0,
+          "source_version": {
+            "files": {
+              "input.csv": "2837ddfd4f77448823c310bdf588d6a82bda579b9b96b07fa1e3e1e8c839b0a9",
+              "solution.py": "2447a0e7b1b92bb8ab06f654e42862df60d44483a0148e00326a371e302f8189",
+              "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+            },
+            "label": "m2-con-latest-valid-v1"
+          }
+        },
+        "evidence_integrity": "valid",
+        "claim_verified": true
+      },
+      {
+        "id": "reg_51b4c74ed9cf49af884d162861a42d0c",
+        "goal_id": "goal_6c182a4c784b41f9a7f6aeaa8046fe5c",
+        "hypothesis": "Full-row equality can remove repeated measurement events.",
+        "execution": "succeeded",
+        "verification": "failed",
+        "decision": "rejected",
+        "outcome": "failure",
+        "reason": "Full-row equality preserves corrected duplicates of one event_id. Applicable to event measurement data; use latest valid timestamp and later input on ties.",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "tokens": {
+            "status": "unknown",
+            "value": null
+          },
+          "wall_seconds": 0.0779999999795109
+        },
+        "evidence_count": 12,
+        "summary": "Deduplicate measurement events by full-row equality",
+        "conditions": {
+          "comparison": "Required latest valid row per event_id, with later-input tie break",
+          "data_split": {
+            "development": "M_PRIOR separate fixture",
+            "evaluation": "M_PRIOR fixed independent cases"
+          },
+          "seed": 0,
+          "source_version": {
+            "files": {
+              "input.csv": "dfccea72fbf5097e9575e651f9443037f979023ddafe24ead5aa846c9f377ef7",
+              "solution.py": "172496c3f498601977731174fedb41dfa582bef65846e992fca0e4cb84f29a62",
+              "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+            },
+            "label": "prior-full-row-v1"
+          }
+        },
+        "evidence_integrity": "valid",
+        "claim_verified": false
+      }
+    ],
+    "total": 2,
+    "limit": 20,
+    "offset": 0,
+    "revision": 16
+  }
+}
+

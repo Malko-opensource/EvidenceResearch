@@ -1,0 +1,13 @@
+{
+  "version": "0.6.0",
+  "at": "2026-10-04T09:01:05.091415+00:00",
+  "tests_run": 48,
+  "skipped": 0,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "seconds": 36.368960099993274,
+  "mcp_sdk_installed": true,
+  "actual_http_transport": true,
+  "static_human_controls_absent": true
+}

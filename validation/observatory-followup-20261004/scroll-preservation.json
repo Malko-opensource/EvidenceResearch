@@ -1,0 +1,18 @@
+{
+  "workspace": "report-channel-fixture-20261004",
+  "actualState": "active",
+  "elapsedSecondsAtStart": 8906.040753364563,
+  "before": {
+    "height": 577,
+    "top": 320,
+    "total": 1305
+  },
+  "after": {
+    "height": 577,
+    "revision": "기록 7",
+    "top": 320,
+    "total": 1305
+  },
+  "originalPaneStillConnected": false,
+  "pass": true
+}

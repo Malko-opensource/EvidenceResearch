@@ -1,0 +1,11 @@
+usage: research-state memory [-h] [--query QUERY] [--outcome OUTCOME]
+                             [--verification VERIFICATION] [--limit LIMIT]
+                             [--offset OFFSET]
+
+options:
+  -h, --help            show this help message and exit
+  --query QUERY
+  --outcome OUTCOME
+  --verification VERIFICATION
+  --limit LIMIT
+  --offset OFFSET

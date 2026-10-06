@@ -1,0 +1,39 @@
+{
+  "host_version": "codex-cli 0.160.0",
+  "actual_host_plugin_install": true,
+  "skill_name": "research-observatory:research-goal",
+  "skill_enabled": true,
+  "plugin_id": "research-observatory@evidence-research-local",
+  "connected_mcp_version": "0.7.0",
+  "tool_count": 17,
+  "tool_names": [
+    "research_decide",
+    "research_evidence",
+    "research_export",
+    "research_goal",
+    "research_help",
+    "research_hypothesis",
+    "research_init",
+    "research_laya_prepare",
+    "research_laya_resolve",
+    "research_memory",
+    "research_recover",
+    "research_register",
+    "research_restore",
+    "research_run",
+    "research_show",
+    "research_status",
+    "research_verify"
+  ],
+  "shared_root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\research-root",
+  "model_turn_requested": false,
+  "global_profile_modified": false,
+  "skill_format_validation": {
+    "validator": "official Skill Creator quick_validate.py",
+    "result": "Skill is valid!",
+    "python_utf8_mode": true,
+    "dependency_scope": "project validation/plugin-0.8.0/validator-libs",
+    "validation_is_performance_evidence": false
+  },
+  "remaining": "Regenerate final bundle after installed CLI gains goal lifecycle, run independent skill demonstration and actual WebMCP integration."
+}

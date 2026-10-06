@@ -1,0 +1,289 @@
+{
+  "task_id": "F2",
+  "condition": "C_OFF",
+  "hypothesis": "Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors.",
+  "hypothesis_id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+  "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+  "registration_paths": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\spec.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\registration-1.json"
+  ],
+  "actual_commands": [
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+      "status"
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+      "memory",
+      "--query",
+      "F2",
+      "--limit",
+      "20"
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+      "goal",
+      "--title",
+      "F2 finite irregular time-window summary"
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+      "hypothesis",
+      "--goal",
+      "goal_897e0d7df14944e09050c2b737fd2768",
+      "--statement",
+      "Filtering invalid and non-finite observations, sorting by timestamp, aggregating duplicate times, and keeping observations with elapsed time less than three seconds will satisfy every owner-fixed F2 case; exact rational summation will avoid overflow and cancellation errors."
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+      "register",
+      "--goal",
+      "goal_897e0d7df14944e09050c2b737fd2768",
+      "--input",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\spec.json",
+      "--request-key",
+      "F2-C_OFF-register-1"
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+      "run",
+      "--registration",
+      "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+      "--request-key",
+      "F2-C_OFF-run-1"
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+      "verify",
+      "--registration",
+      "reg_1501d2daa11c4d358ae4ff3d35d0f536"
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+      "decide",
+      "--registration",
+      "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+      "--decision",
+      "adopted",
+      "--reason",
+      "The owner-fixed csv-fixed-v1 verifier independently recomputed preserved source and confirmed integrity and 8/8 checks with pass_rate 1.0, meeting the preregistered threshold."
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+      "memory",
+      "--query",
+      "F2",
+      "--limit",
+      "20"
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "-m",
+      "research_cli",
+      "--workspace",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research",
+      "run",
+      "--registration",
+      "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+      "--request-key",
+      "F2-C_OFF-run-1"
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+      "--root",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+      "--task",
+      "F2",
+      "--output",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-1.json"
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+      "--root",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+      "--task",
+      "F2",
+      "--output",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-2.json"
+    ],
+    [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+      "--root",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+      "--task",
+      "F2",
+      "--output",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-3.json"
+    ]
+  ],
+  "task_command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "task.py",
+    "F2"
+  ],
+  "task_execution_cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work",
+  "task_quality": {
+    "pass_rate": 1.0,
+    "count": 8,
+    "passed": 8,
+    "authoritative": "CLI verify; owner-fixed csv-fixed-v1; actual artifacts recomputed"
+  },
+  "duplicate_executions": 0,
+  "duplicate_check": {
+    "started": false,
+    "run_id_before": "run_895f02851dab4e5ea5f68af58878a4c7",
+    "run_id_after": "run_895f02851dab4e5ea5f68af58878a4c7",
+    "invocation_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\work\\invocations.jsonl",
+    "invocations_before": 1,
+    "invocations_after": 1,
+    "invocations_added": 0,
+    "sha256_before": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9",
+    "sha256_after": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9"
+  },
+  "actual_task_executions": 1,
+  "recovery": {
+    "errors": [
+      {
+        "stage": "common-checker",
+        "command": [
+          "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+          "--root",
+          "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+          "--task",
+          "F2",
+          "--output",
+          "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-1.json"
+        ],
+        "returncode": 0,
+        "original_json": {
+          "ok": false,
+          "error": "Traceback (most recent call last):\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\fixed_validator.py\", line 246, in <module>\n    print(json.dumps(validate(sys.argv[1]), sort_keys=True, allow_nan=False))\n                     ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\fixed_validator.py\", line 215, in validate\n    run_result = json.loads(Path(artifacts[\"result.json\"]).read_text(encoding=\"utf-8\"))\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\result.json'\n",
+          "metrics": {},
+          "status": "inconclusive"
+        },
+        "classification": "missing episode/result.json; CLI artifact exists in preserved run"
+      },
+      {
+        "stage": "evidence-recording",
+        "error": "KeyError: ok",
+        "actual_command": [
+          "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+          "--root",
+          "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+          "--task",
+          "F2",
+          "--output",
+          "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-2.json"
+        ],
+        "reason": "Success JSON contains metrics/details but no ok key; wrapper incorrectly required ok.",
+        "scientific_result_affected": false
+      }
+    ],
+    "actions": [
+      {
+        "stage": "common-checker",
+        "error_evidence": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-1.json",
+        "action": "Materialized the recorded actual CLI result.json and invocations.jsonl into episode root; called the fixed checker with new output paths.",
+        "recovery_evidence": [
+          "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-2.json",
+          "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-3.json"
+        ],
+        "new_task_execution": false,
+        "pass_rate": 1.0
+      },
+      {
+        "stage": "evidence-recording",
+        "action": "Validated documented success payload by metrics and details, and preserved the original JSON and streams from a new fixed checker call.",
+        "evidence": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-3.json",
+        "new_task_execution": false
+      }
+    ],
+    "scientific_run_failure_observed": false
+  },
+  "unsupported_claims": [],
+  "decision": "adopted",
+  "evidence_paths": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\transcript.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\spec.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\registration-1.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\verification-1.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\decision-1.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\memory-after.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\duplicate-run.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-1.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-2.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-3.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\result.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\invocations.jsonl",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\solution.py",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\input.csv",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\result.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\artifacts\\invocations.jsonl",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stdout.log",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\stderr.log",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\launch.json",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\runs\\run_895f02851dab4e5ea5f68af58878a4c7\\process.json"
+  ],
+  "external_tokens": {
+    "status": "unknown",
+    "value": null
+  },
+  "limitations": [
+    "Results cover eight fixed checks; no claim is made for every possible input or large-data performance.",
+    "Local CLI capabilities and hashes are not OS security isolation.",
+    "The initial common checker error was an artifact-location issue, not a failed scientific run.",
+    "The second common checker original JSON was preserved, but its captured streams and subprocess exit code were lost when the evidence-recording wrapper required a missing ok key; the third call preserved a complete success response.",
+    "Exact inherited model identifier and external token use are unknown."
+  ],
+  "protocol": {
+    "status_then_memory": true,
+    "initial_memory_items": 0,
+    "registration_before_final_solution_deployment": true,
+    "owner_validator_code_or_case_inputs_read": false,
+    "owner_key_read": false,
+    "direct_database_mutation": false,
+    "source_changes_after_registration": false
+  }
+}

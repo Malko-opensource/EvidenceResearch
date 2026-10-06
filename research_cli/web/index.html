@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f8f8">
+  <title>Research State · 의뢰한 연구의 답</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body data-scene="overview" data-presentation="brief" data-phase="idle">
+  <div class="observatory">
+    <header class="topbar">
+      <div class="brand"><strong>Research State</strong><span class="version">v<span id="app-version">—</span></span></div>
+      <p class="spectator-label">의뢰한 연구를 함께 봅니다</p>
+      <div class="connection" aria-label="연결 상태">
+        <span id="connection-status" class="badge">저장소 연결 중</span>
+        <span id="webmcp-status" class="badge subtle">WebMCP 확인 중</span>
+      </div>
+    </header>
+    <main id="main" class="main">
+      <div id="notice" class="notice" role="status" hidden></div>
+      <header class="scene-heading">
+        <div class="scene-intro"><h1 id="scene-title">연구의 핵심 상황</h1><p id="scene-caption">연구 질문, 실제 결과와 아직 필요한 근거를 함께 봅니다.</p></div>
+        <div class="workspace-meta"><strong id="workspace-name">작업공간 연결 대기</strong><div class="revision-meta"><span id="revision-label">저장 상태 —</span><span id="updated-label">아직 조회하지 않음</span></div></div>
+      </header>
+      <section id="research-context" class="research-context" aria-label="연구 질문과 시험한 변경점">
+        <p class="card-kicker">연구 질문</p><h2 class="question-title">저장된 연구를 기다립니다</h2><p class="question-hypothesis">에이전트가 선택한 연구의 질문과 가설이 여기에 나타납니다.</p>
+      </section>
+      <div id="scene-index" class="scene-index" aria-label="에이전트가 펼친 설명 장면"><span class="scene-current">핵심 상황</span><span>분석</span><span>비교</span><span>기억</span><span>시간 흐름</span><span>원본 근거</span></div>
+      <section id="scene-content" class="scene-content" aria-labelledby="scene-title">
+        <div class="empty-scene"><h2>연구 상태를 읽고 있습니다</h2><p>확인된 값과 미확인 값을 구분해 보여 줍니다.</p></div>
+      </section>
+      <aside class="agent-strip" aria-label="외부 에이전트의 현재 도구 호출">
+        <div class="agent-strip-heading"><strong>외부 에이전트</strong><span id="agent-phase" class="state-badge" data-tone="quiet">대기</span><span id="agent-tool" class="agent-tool">아직 도구 호출 없음</span></div>
+        <p id="agent-description" class="agent-description">보고 싶은 내용을 에이전트에게 요청하면 이 장면과 초점이 바뀝니다.</p>
+        <span id="agent-status" class="agent-status sr-only" role="status" aria-live="polite">호출 대기</span>
+      </aside>
+      <footer class="observatory-footer"><span>실행 성공 · 독립 검증 · 가설 채택은 별도 기록입니다.</span><span>CLI와 웹이 같은 연구 상태를 공유합니다.</span></footer>
+    </main>
+    <div id="action-status" class="action-status" role="status" aria-live="polite" hidden></div>
+  </div>
+</body>
+</html>

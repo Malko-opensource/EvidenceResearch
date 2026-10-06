@@ -1,0 +1,24 @@
+{
+  "status": "observed_and_recovered",
+  "stage": "episode summary bookkeeping",
+  "failure_command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "episode-controller.py",
+    "finalize"
+  ],
+  "original_result": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\episode-controller.py\", line 241, in <module>\r\n    actions[sys.argv[1]]()\r\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\episode-controller.py\", line 202, in finalize\r\n    check_files = sorted(ROOT.glob(\"check-*.json\"), key=lambda path: int(path.stem.split(\"-\")[-1]))\r\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\episode-controller.py\", line 202, in <lambda>\r\n    check_files = sorted(ROOT.glob(\"check-*.json\"), key=lambda path: int(path.stem.split(\"-\")[-1]))\r\n                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nValueError: invalid literal for int() with base 10: '1.bundle'\r\n"
+  },
+  "preserved_original_source": "episode-controller.failed-finalize.py",
+  "cause": "An opaque checker bundle filename matched check-*.json but did not have a numeric result suffix. Bundle contents were not opened or inspected.",
+  "repair": "Select only numbered check-N.json result files for finalization. Exclude opaque bundle contents from local manifest hashing to avoid reading them.",
+  "registered_solution_changed": false,
+  "registered_input_or_task_changed": false,
+  "registration_changed": false,
+  "new_registration_required": false,
+  "task_reexecuted_for_recovery": false,
+  "checker_reexecuted_for_recovery": false,
+  "evidence_paths": ["recovery-1.json", "episode-controller.failed-finalize.py", "check-1.json", "receipt.json", "receipt-reuse.json"]
+}

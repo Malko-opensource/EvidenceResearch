@@ -1,0 +1,526 @@
+{
+  "at": "2026-10-04T12:06:43.332Z",
+  "version": "0.8.0",
+  "nativeTools": 25,
+  "viewSwitches": 20,
+  "layout": [
+    {
+      "scene": "overview",
+      "device": "390x844",
+      "width": 390,
+      "height": 844,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "scrollHeight": 2625,
+      "humanControls": 0,
+      "cards": [
+        {
+          "width": 346.66668701171875,
+          "height": 454.30206298828125
+        },
+        {
+          "width": 346.66668701171875,
+          "height": 250.89584350585938
+        },
+        {
+          "width": 168.83334350585938,
+          "height": 229.1875
+        },
+        {
+          "width": 168.83334350585938,
+          "height": 229.1875
+        },
+        {
+          "width": 346.66668701171875,
+          "height": 725.9166870117188
+        },
+        {
+          "width": 346.66668701171875,
+          "height": 172.33334350585938
+        },
+        {
+          "width": 346.66668701171875,
+          "height": 213.61459350585938
+        }
+      ]
+    },
+    {
+      "scene": "analysis",
+      "device": "390x844",
+      "width": 390,
+      "height": 844,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "scrollHeight": 2243,
+      "humanControls": 0,
+      "cards": [
+        {
+          "width": 346.66668701171875,
+          "height": 518.1041870117188
+        },
+        {
+          "width": 346.66668701171875,
+          "height": 841.1146850585938
+        },
+        {
+          "width": 346.66668701171875,
+          "height": 243.08334350585938
+        }
+      ]
+    },
+    {
+      "scene": "graph",
+      "device": "390x844",
+      "width": 390,
+      "height": 844,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "scrollHeight": 3860,
+      "humanControls": 0,
+      "cards": [
+        {
+          "width": 346.66668701171875,
+          "height": 165.30209350585938
+        },
+        {
+          "width": 346.66668701171875,
+          "height": 1015.3125
+        },
+        {
+          "width": 346.66668701171875,
+          "height": 1015.3125
+        },
+        {
+          "width": 346.66668701171875,
+          "height": 1015.3125
+        }
+      ]
+    },
+    {
+      "scene": "overview",
+      "device": "1280x800",
+      "width": 1280,
+      "height": 800,
+      "clientWidth": 1265,
+      "scrollWidth": 1265,
+      "scrollHeight": 1306,
+      "humanControls": 0,
+      "cards": [
+        {
+          "width": 1208.666748046875,
+          "height": 269.6145935058594
+        },
+        {
+          "width": 466.6770935058594,
+          "height": 234.30209350585938
+        },
+        {
+          "width": 358.9895935058594,
+          "height": 234.30209350585938
+        },
+        {
+          "width": 359,
+          "height": 234.30209350585938
+        },
+        {
+          "width": 1208.666748046875,
+          "height": 252.64584350585938
+        },
+        {
+          "width": 598.3333740234375,
+          "height": 194.11459350585938
+        },
+        {
+          "width": 598.3333740234375,
+          "height": 194.11459350585938
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "actual native WebMCP document tools; no human input required",
+    "design functionality is not research performance proof"
+  ],
+  "reducedMotion": {
+    "matches": true,
+    "animations": 0,
+    "active": 0,
+    "duration": "0s"
+  },
+  "contrast": {
+    "scope": "rendered overview text sample against nearest solid computed background; SVG/decorative/alpha compositing excluded",
+    "min": 7.242245683283766,
+    "samples": [
+      {
+        "text": "에이전트 제어 · 함께 보는 연구",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(13, 27, 39)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.756582812480135
+      },
+      {
+        "text": "연구 상태 연결",
+        "color": "rgb(139, 227, 206)",
+        "background": "rgb(23, 58, 52)",
+        "fontSize": "13px",
+        "fontWeight": "550",
+        "ratio": 8.264153771491115
+      },
+      {
+        "text": "NATIVE WebMCP · 25/25",
+        "color": "rgb(139, 227, 206)",
+        "background": "rgb(23, 58, 52)",
+        "fontSize": "13px",
+        "fontWeight": "550",
+        "ratio": 8.264153771491115
+      },
+      {
+        "text": "연구의 지금",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(10, 21, 32)",
+        "fontSize": "17px",
+        "fontWeight": "650",
+        "ratio": 15.525855731849036
+      },
+      {
+        "text": "고정 고객 응답 CSV의 팀별 만족도 보고 검증",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(10, 21, 32)",
+        "fontSize": "18px",
+        "fontWeight": "650",
+        "ratio": 15.525855731849036
+      },
+      {
+        "text": "연구 종료",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(41, 42, 39)",
+        "fontSize": "16px",
+        "fontWeight": "650",
+        "ratio": 12.177528657430706
+      },
+      {
+        "text": "승인된 고정 합성 CSV 기술통계 질문에 독립 계산 일치와 80% 미달의 반대 증거로 답했다. 세 사전등록 기능 반복은 모두 terminal이며",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(41, 42, 39)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "ratio": 12.177528657430706
+      },
+      {
+        "text": "외부 에이전트의 종료·중단 보고이며, 실험 검증 판정과 별개입니다.",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(41, 42, 39)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 7.242245683283766
+      },
+      {
+        "text": "합의된 누락 제외 기술통계: 전체 유효5/누락1, 만족도72%; A 평균4.0/만족도80%/유효2/누락1, B 평균3.33333333333333",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(41, 42, 39)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 12.177528657430706
+      },
+      {
+        "text": "세 실제 기능 반복 seed0,1,2의 동일 입력·소스 해시가 유지되며 모두 실행 succeeded, 독립 calculation_matches=",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(41, 42, 39)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 12.177528657430706
+      },
+      {
+        "text": "표시 2 / 4개 · 원본 목표 보고 참조",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(41, 42, 39)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 7.242245683283766
+      },
+      {
+        "text": "외부 에이전트 실제 토큰·비용 영수증이 이 세션에 제공되지 않아 unknown이다.",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(41, 42, 39)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 12.177528657430706
+      },
+      {
+        "text": "다른 고객 집단 일반화, 누락 원인 및 인과·성능 개선은 이 승인된 고정 fixture 범위 밖이며 입증하지 않았다.",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(41, 42, 39)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 12.177528657430706
+      },
+      {
+        "text": "표시 2 / 3개 · 원본 목표 보고 참조",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(41, 42, 39)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 7.242245683283766
+      },
+      {
+        "text": "satisfaction_pct",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "16px",
+        "fontWeight": "650",
+        "ratio": 13.676451661799295
+      },
+      {
+        "text": "72 단위 미등록",
+        "color": "rgb(242, 164, 161)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "25px",
+        "fontWeight": "650",
+        "ratio": 8.183485426100876
+      },
+      {
+        "text": "기준 >= 80 단위 미등록 · 기준보다 8 (단위 미등록) 낮음",
+        "color": "rgb(215, 229, 235)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "ratio": 12.581219893528889
+      },
+      {
+        "text": "고정 검증기의 실제 측정 · 등록 기준 미충족",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "미충족 등록 기준 우선",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "선택 실험의 사전등록 기준 · 전체 연구 성능 주장과 별개",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "등록 지표 2개 · 분석 장면에서 전체 확인",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "관측된 비용만 집계",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "16px",
+        "fontWeight": "650",
+        "ratio": 13.676451661799295
+      },
+      {
+        "text": "비용 미확인",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "21px",
+        "fontWeight": "650",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "기록된 외부 비용 관측만 집계 · 미기록 사용량 포함 전체 비용은 미확인",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "확인된 비용 관측 0건 · 미확인 1건",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "목표 기록 후 경과",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "16px",
+        "fontWeight": "650",
+        "ratio": 13.676451661799295
+      },
+      {
+        "text": "2분 18초",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "25px",
+        "fontWeight": "650",
+        "ratio": 13.676451661799295
+      },
+      {
+        "text": "목표 기록부터 현재 보고 상태 시각까지 · 과거 대기·중단 시간 포함",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "관측 실행 시간 합계 0.2초 · 선택 목표의 전체 고유 실행",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "가설이 어떤 근거와 결론으로 이어지는가",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "16px",
+        "fontWeight": "650",
+        "ratio": 13.676451661799295
+      },
+      {
+        "text": "합의된 누락 제외 공식의 정확한 계산에서 이 고정 CSV의 전체 만족도가 사업 기준 80% 이상이다. 팀별 기술통계의 계산 정확성은 이 사업 기",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(20, 41, 54)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "ratio": 12.652194481697027
+      },
+      {
+        "text": "External agent CSV summary under supplied missing-exclusion rule; one determinis",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(20, 41, 54)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "ratio": 12.652194481697027
+      },
+      {
+        "text": "실측 산출물 1개 · 현재 원본 보존 상태 확인",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(20, 41, 54)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "ratio": 12.652194481697027
+      },
+      {
+        "text": "고정 기준 2개 · 산출물 실제 검사",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(20, 41, 54)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "ratio": 12.652194481697027
+      },
+      {
+        "text": "전체 만족도는 72%로 사전등록 사업 기준 80%보다 8 percentage points 낮다. 실행은 성공하고 고정 독립 계산 일치 지표는 1",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(26, 60, 62)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "ratio": 10.066593085069783
+      },
+      {
+        "text": "선택 경로 · 에이전트가 선택한 실제 가설·실험 경로 · 전체 연구 완료와 별개",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "이전·다른 시도 2건 · 에이전트가 관계·기억 장면으로 펼칩니다.",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "검증 기준 미달",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "16px",
+        "fontWeight": "650",
+        "ratio": 13.676451661799295
+      },
+      {
+        "text": "독립 검증에서 등록 기준 미달이 확인됐습니다. 실행 원본의 해시는 현재 일치합니다.",
+        "color": "rgb(242, 164, 161)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.183485426100876
+      },
+      {
+        "text": "원본 보존 · 7 / 7개 해시 일치 · 과학적 검증과 별개",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "지금 확인해야 할 것",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "16px",
+        "fontWeight": "650",
+        "ratio": 13.676451661799295
+      },
+      {
+        "text": "최근 사건 · 전체 연구 상태 보고 · 오후 08:45:57",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "이전 시도 · 동일 고정 입력의 세 번째 기능 반복도 전체 72%, 독립 계산 일치 1이며 80% 조건을 충족하지 않는다. 세 반복은 동일 소스",
+        "color": "rgb(229, 237, 241)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "ratio": 13.676451661799295
+      },
+      {
+        "text": "독립 검증 실패 기록 · 현재 원본 해시 일치",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(17, 34, 48)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 8.133688353085171
+      },
+      {
+        "text": "사용자는 보고 싶은 내용을 에이전트에게 요청하세요",
+        "color": "rgb(166, 187, 197)",
+        "background": "rgb(10, 21, 32)",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "ratio": 9.233569865972623
+      }
+    ]
+  },
+  "functional": {
+    "humanControls": false,
+    "sameDemoRevision": 21,
+    "primaryMetric": "satisfaction_pct",
+    "primaryValue": 72,
+    "currentGoalVersion": 2,
+    "experimentGoalVersion": 1,
+    "costComplete": false,
+    "modelTokensUnknown": true
+  }
+}

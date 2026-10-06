@@ -1,0 +1,6 @@
+127.0.0.1 - - [04/Oct/2026 22:48:29] "GET /examples/web-app.html HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 22:50:20] "GET /examples/web-app.html HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 22:50:21] code 404, message File not found
+127.0.0.1 - - [04/Oct/2026 22:50:21] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [04/Oct/2026 22:50:25] "GET /examples/workflow-agent-tool-call-rendered.html HTTP/1.1" 200 -
+127.0.0.1 - - [04/Oct/2026 22:50:25] "GET /examples/lifecycle-agent-run.html HTTP/1.1" 200 -

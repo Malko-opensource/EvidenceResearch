@@ -1,0 +1,49 @@
+[
+  {
+    "command": [
+      "C:\\Users\\Potato\\AppData\\Local\\OpenAI\\Codex\\bin\\8aaf1547b825b104\\codex.EXE",
+      "--version"
+    ],
+    "exit_code": 0,
+    "stdout": "codex-cli 0.160.0\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\Potato\\AppData\\Local\\OpenAI\\Codex\\bin\\8aaf1547b825b104\\codex.EXE",
+      "plugin",
+      "marketplace",
+      "add",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\dist\\research-observatory-0.8.0-release",
+      "--json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"marketplaceName\": \"evidence-research-local\",\n  \"installedRoot\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\dist\\\\research-observatory-0.8.0-release\",\n  \"alreadyAdded\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\Potato\\AppData\\Local\\OpenAI\\Codex\\bin\\8aaf1547b825b104\\codex.EXE",
+      "plugin",
+      "add",
+      "research-observatory@evidence-research-local",
+      "--json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"pluginId\": \"research-observatory@evidence-research-local\",\n  \"name\": \"research-observatory\",\n  \"marketplaceName\": \"evidence-research-local\",\n  \"version\": \"0.8.0\",\n  \"installedPath\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\plugin-0.8.0\\\\host-check-release\\\\codex-home\\\\plugins\\\\cache\\\\evidence-research-local\\\\research-observatory\\\\0.8.0\",\n  \"authPolicy\": \"ON_INSTALL\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "C:\\Users\\Potato\\AppData\\Local\\OpenAI\\Codex\\bin\\8aaf1547b825b104\\codex.EXE",
+      "plugin",
+      "list",
+      "--marketplace",
+      "evidence-research-local",
+      "--json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"installed\": [\n    {\n      \"pluginId\": \"research-observatory@evidence-research-local\",\n      \"name\": \"research-observatory\",\n      \"marketplaceName\": \"evidence-research-local\",\n      \"version\": \"0.8.0\",\n      \"installed\": true,\n      \"enabled\": true,\n      \"source\": {\n        \"source\": \"local\",\n        \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\dist\\\\research-observatory-0.8.0-release\\\\research-observatory\"\n      },\n      \"marketplaceSource\": {\n        \"sourceType\": \"local\",\n        \"source\": \"\\\\\\\\?\\\\C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\dist\\\\research-observatory-0.8.0-release\"\n      },\n      \"installPolicy\": \"AVAILABLE\",\n      \"authPolicy\": \"ON_INSTALL\"\n    }\n  ],\n  \"available\": []\n}\n",
+    "stderr": ""
+  }
+]

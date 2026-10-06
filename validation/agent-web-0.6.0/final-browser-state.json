@@ -1,0 +1,6 @@
+{
+  "result": {
+    "type": "string",
+    "value": "{\"nativeRegisterTool\":\"function\",\"phase\":\"succeeded\",\"reduced\":false,\"runningAnimations\":0,\"graph\":\"목표: 목표 기록, 가설: 가설 제안, 사전등록: 조건 고정, 실행: 실행 성공, 검증: 검증 통과, 결정: 채택\",\"viewport\":{\"width\":1280,\"height\":720}}"
+  }
+}

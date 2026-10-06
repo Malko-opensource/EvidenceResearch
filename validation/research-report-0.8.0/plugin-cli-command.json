@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "argv": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+    "-I",
+    "-m",
+    "research_cli",
+    "--workspace",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004",
+    "help"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent",
+  "response": {
+    "ok": true,
+    "data": {
+      "version": "0.8.0",
+      "commands": [
+        "init",
+        "goal",
+        "goal_show",
+        "goal_amend",
+        "goal_close",
+        "goal_resume",
+        "resource",
+        "resource_show",
+        "hypothesis",
+        "validator",
+        "register",
+        "status",
+        "run",
+        "recover",
+        "verify",
+        "decide",
+        "evidence",
+        "memory",
+        "show",
+        "export",
+        "restore",
+        "laya"
+      ],
+      "json_input": "--input FILE or --input - for stdin",
+      "registration_json": "help --topic register returns the public example; register --help shows command arguments",
+      "execution_output": "run/recover/verify return compact data.record states, metrics and preserved artifact paths; --full or show returns full original detail",
+      "memory_query": "Literal substring search, not token or semantic search; use limit/offset pages",
+      "laya": "Optional prepare/resolve exchange for externally executed Laya; help --topic laya returns input and instructions",
+      "conflicts": "--expect workspace revision to reject stale writes",
+      "unknown_resume": "recover inspects receipts; unknown executions are never automatically restarted",
+      "roles": "agent records proposals/registers/runs; owner freezes validators; fixed verifier produces verified metrics",
+      "security": "Local capabilities and hashes are not OS isolation"
+    }
+  },
+  "stderr": "",
+  "experiment_launched": false
+}

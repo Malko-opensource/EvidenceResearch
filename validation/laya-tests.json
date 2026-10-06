@@ -1,0 +1,12 @@
+{
+  "version": "0.3.0",
+  "at": "2026-10-03T17:05:53.833158+00:00",
+  "tests_run": 32,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "seconds": 21.64100000000326,
+  "model_calls": false,
+  "laya_responses": "synthetic fixtures; no actual inference or tokenizer validation",
+  "comparison_records_changed": false
+}

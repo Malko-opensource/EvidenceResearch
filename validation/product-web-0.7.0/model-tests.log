@@ -1,0 +1,30 @@
+✔ saved actual record remains traceable and distinguishes registered metrics from artifact numbers (2.9066ms)
+✔ deeply frozen raw inputs are not modified or returned as mutable raw references (1.0144ms)
+✔ numbers and an adopted decision alone cannot create independently supported measurements (0.2736ms)
+✔ current tampering invalidates support while historical passed/adopted states remain explicit (0.3452ms)
+✔ missing files and absent registered artifact evidence are each unsupported (0.6067ms)
+✔ current tampering or missing files require a presentation blocker even after durable adoption (0.5796ms)
+✔ run, registration, fixed validator, and pinned source linkage cannot be silently substituted (1.0444ms)
+✔ negative values and multiple registered criteria retain their exact operators and failed facts (0.4511ms)
+✔ equality and inequality criteria are preserved without inventing a ranking direction (0.3419ms)
+✔ non-finite and boolean values are missing measurements; extreme finite domains remain finite (1.3435ms)
+✔ only explicit preregistered unit metadata supplies a metric unit (0.4437ms)
+✔ unknown external usage stays unknown while explicitly measured zero is a known value (0.8ms)
+✔ internally inconsistent verifier state or criterion report cannot mark an observed threshold as satisfied (0.4188ms)
+✔ distribution counts only this status page and does not present it as the entire store (1.3146ms)
+✔ real timestamps, event query limits, exact missing evidence, and revision skew remain explicit (0.3919ms)
+✔ selected-registration event scope is disclosed instead of claiming a workspace-wide timeline (0.475ms)
+✔ memory failure remains a failed verification record, not an unknown execution or unsupported success (0.6808ms)
+✔ duplicate reads and restored copies of one registration are not two experimental attempts (0.3559ms)
+✔ a foreign goal is not substituted for the selected registration and stale memory is disclosed (0.379ms)
+✔ comparable cohorts require at least two complete matching registrations and show source content changes (0.5447ms)
+✔ incompatible or incomplete experiments are separate groups with explicit condition differences (2.3322ms)
+✔ empty stores remain empty, and explanations clip by Unicode characters without fabricated progress (0.1636ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 127.81

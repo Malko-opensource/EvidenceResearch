@@ -1,0 +1,30 @@
+{
+  "purpose": "development skill/channel demonstration; not research performance",
+  "workspace": "goal-plugin-demo-20261004",
+  "csv_sha256": "6abc57b26960b1162c36c9362db94cce20e79ef06c45a5e2ab35301ef7afa59a",
+  "validator_source_sha256": "e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0",
+  "validator": {
+    "name": "csv-owner-fixed-v1",
+    "command": [
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\validators\\e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0.py",
+      "{bundle}"
+    ],
+    "sha256": "e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0",
+    "hashes": {
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\validators\\e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0.py": "e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0"
+    },
+    "script_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\.research\\validators\\e00a0a85adf88eaabd970bc3a36a8c8ec98f78dc309473aee33ab1d2c2af95b0.py",
+    "original_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\goal-plugin-demo-20261004\\fixed_validator.py",
+    "revision": 1
+  },
+  "business_threshold": 80,
+  "repeat_fixture_seeds": [
+    0,
+    1,
+    2
+  ],
+  "repeat_rationale": "three fixed-input executions exercise descriptive distribution, not independent sampling or power",
+  "recorded_before_execution": true,
+  "revision": 1
+}

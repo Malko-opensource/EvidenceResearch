@@ -1,0 +1,16 @@
+{
+  "condition": "C_OFF",
+  "query": "F1 weighted CSV",
+  "status": "completed",
+  "prior_memory_found": false,
+  "result": {
+    "ok": true,
+    "data": {
+      "items": [],
+      "total": 0,
+      "limit": 20,
+      "offset": 0,
+      "revision": 1
+    }
+  }
+}

@@ -1,1 +1,0 @@
-polynomial ridge regression degree and regularization parameter selection using held-out validation mean squared error finite hyperparameter grid linear versus nonlinear models validation selection bias

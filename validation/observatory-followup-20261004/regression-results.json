@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "tests": 65,
+  "seconds": 43.885,
+  "test_modules": {
+    "test_cli_output": 1,
+    "test_contract": 16,
+    "test_evaluation": 5,
+    "test_goals": 12,
+    "test_laya": 10,
+    "test_mcp": 9,
+    "test_web": 12
+  },
+  "command": [
+    ".mcp-venv/Scripts/python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "log": "validation\\observatory-followup-20261004\\python-regression.log"
+}

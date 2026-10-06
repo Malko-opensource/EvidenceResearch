@@ -1,0 +1,92 @@
+{
+  "checker": {
+    "command": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+      "--root",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B",
+      "--task",
+      "F2",
+      "--output",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\check-1.json"
+    ],
+    "opaque": true,
+    "owner_declared_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed"
+  },
+  "comparator": {
+    "baseline_executed": false,
+    "baseline_metric": null,
+    "interpretation": "Only candidate fixed-checker quality will be measured; no measured baseline improvement is claimed.",
+    "kind": "initial provided solution",
+    "path": "initial-solution.py",
+    "sha256": "e4599bbbff34941ea50a56c6bbf93c33efc92034bf6dc4009fd463d89ad66d45"
+  },
+  "condition": "B",
+  "conditions": {
+    "agent": "existing external Codex agent",
+    "effort_override": null,
+    "libraries": "standard library only",
+    "memory": "research-memory.md",
+    "model_identifier": "unknown; inherited model",
+    "research_cli_used": false
+  },
+  "data_split": {
+    "development": {
+      "path": "input.csv",
+      "sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+      "use": "Visible episode input; no candidate execution before registration"
+    },
+    "evaluation": {
+      "cases": "opaque and not inspected",
+      "source": "owner fixed independent checker",
+      "use": "Pass/fail decision after registered execution"
+    },
+    "split_method": "Provided visible input versus owner-withheld evaluation; no random resplitting"
+  },
+  "decision_rule": {
+    "metric": "pass_rate",
+    "op": ">=",
+    "source": "owner fixed independent checker JSON metrics.pass_rate",
+    "threshold": 1.0
+  },
+  "execution": {
+    "command": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "task.py",
+      "F2"
+    ],
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B",
+    "logical_request": "F2-B-registered-task-001"
+  },
+  "final_source_path": "solution.py",
+  "hypothesis": "Reject malformed and non-finite rows, sort all valid measurements, group equal timestamps, and apply a strict-left three-second window using an exact rational running sum; this candidate will achieve fixed independent checker pass_rate >= 1.0.",
+  "limitations": [
+    "One synthetic episode cannot establish general agent improvement",
+    "Provider model identifier and external token usage are unobserved",
+    "The comparator has no measured baseline result",
+    "The checker source and cases remain opaque"
+  ],
+  "planned_change": "Replace the input-order initial implementation with the exact bytes of solution.draft.py; preserve inputs, avoid mutation, output one ascending sample per valid unique timestamp, retain duplicate rows in window counts, and return only samples/rejected.",
+  "planned_source_path": "solution.draft.py",
+  "preregistered_at": "2026-10-03T16:21:39.292952+00:00",
+  "randomness_used": false,
+  "registration_id": "F2-B-001",
+  "repeat_request": {
+    "command": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "episode-controller.py",
+      "execute"
+    ],
+    "policy": "Issue identical logical execute request again; reuse a completed durable receipt and verify actual invocations.jsonl count does not increase"
+  },
+  "seed": 0,
+  "source_hashes": {
+    "BRIEF.ko.md": "1fbb3e434e179a5c0bc820052d09bcd0cb5772cc8cf330a47f477846e3e03b5a",
+    "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+    "solution.py_initial": "e4599bbbff34941ea50a56c6bbf93c33efc92034bf6dc4009fd463d89ad66d45",
+    "solution.py_planned": "0ca69cd1b98e59bcebfa6fa5a4f386c0f6f070aad8f66d7f70524c38926a6087",
+    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+  },
+  "state": "frozen",
+  "task_id": "F2"
+}

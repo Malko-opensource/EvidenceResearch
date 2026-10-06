@@ -1,0 +1,60 @@
+{
+  "hypothesis_id": "hyp_d7a5ea45882443ac96fdf95d58088ce5",
+  "change": "Replace whole-row equality with validation followed by event_id selection by latest finite timestamp; later valid rows win ties; accumulate parsed float values exactly for group means.",
+  "comparison": "Initial public whole-row equality implementation versus the preregistered candidate, assessed by independent owner-fixed evaluation only.",
+  "data_split": {
+    "development": "Public BRIEF.ko.md and provided input.csv inspected for development; no fixed evaluation cases inspected.",
+    "evaluation": "Owner-frozen csv-fixed-v1 independent evaluation, kept separate from public development data."
+  },
+  "seed": 0,
+  "source_version": {
+    "label": "codex-m2-coff-latest-valid-v1",
+    "files": {
+      "solution.py": "423d5b373523b5ac2c64e5ef44ca9f1fa223440b40f2c2ecd1a54cef76a2c967",
+      "input.csv": "2837ddfd4f77448823c310bdf588d6a82bda579b9b96b07fa1e3e1e8c839b0a9",
+      "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+    }
+  },
+  "metrics": [
+    "pass_rate"
+  ],
+  "criteria": [
+    {
+      "metric": "pass_rate",
+      "op": ">=",
+      "threshold": 1
+    }
+  ],
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "task.py",
+    "M2"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M2\\C_OFF",
+  "artifacts": [
+    {
+      "name": "result.json",
+      "path": "result.json"
+    },
+    {
+      "name": "invocations.jsonl",
+      "path": "invocations.jsonl"
+    },
+    {
+      "name": "solution.py",
+      "path": "solution.py"
+    },
+    {
+      "name": "input.csv",
+      "path": "input.csv"
+    }
+  ],
+  "validator": "csv-fixed-v1",
+  "task_id": "M2",
+  "conditions": {
+    "dependencies": "Python standard library only",
+    "input": "Do not mutate supplied rows",
+    "condition": "C_OFF",
+    "memory": "Initial event search had zero records; no useful memory influenced the hypothesis"
+  }
+}

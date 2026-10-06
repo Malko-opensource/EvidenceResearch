@@ -1,0 +1,662 @@
+{
+  "createdAt": "2026-10-04T14:32:18.331Z",
+  "url": "http://127.0.0.1:8765/",
+  "toolCount": 25,
+  "calls": [
+    {
+      "index": 0,
+      "step": "hypothesis-focus",
+      "ok": true
+    },
+    {
+      "index": 1,
+      "step": "verification-focus",
+      "ok": true
+    },
+    {
+      "index": 2,
+      "step": "overview-mobile-first",
+      "ok": true
+    },
+    {
+      "index": 3,
+      "step": "analysis",
+      "ok": true
+    },
+    {
+      "index": 4,
+      "step": "analysis-final",
+      "ok": true
+    },
+    {
+      "index": 5,
+      "step": "evidence-original",
+      "ok": true
+    },
+    {
+      "index": 6,
+      "step": "overview-return",
+      "ok": true
+    },
+    {
+      "index": 7,
+      "step": "focus-hypothesis",
+      "ok": true
+    },
+    {
+      "index": 8,
+      "step": "focus-experiment",
+      "ok": true
+    },
+    {
+      "index": 9,
+      "step": "focus-evidence",
+      "ok": true
+    },
+    {
+      "index": 10,
+      "step": "focus-verification",
+      "ok": true
+    },
+    {
+      "index": 11,
+      "step": "focus-conclusion",
+      "ok": true
+    },
+    {
+      "index": 12,
+      "step": "graph-expanded",
+      "ok": true
+    },
+    {
+      "index": 13,
+      "step": "empty",
+      "ok": true
+    },
+    {
+      "index": 14,
+      "step": "many-records-pending",
+      "ok": true
+    },
+    {
+      "index": 15,
+      "step": "success-fixture",
+      "ok": true
+    },
+    {
+      "index": 16,
+      "step": "failure-fixture",
+      "ok": true
+    },
+    {
+      "index": 17,
+      "step": "tampered-evidence",
+      "ok": true
+    },
+    {
+      "index": 18,
+      "step": "missing-evidence-focus",
+      "ok": true
+    },
+    {
+      "index": 19,
+      "step": "many-final",
+      "ok": true
+    },
+    {
+      "index": 20,
+      "step": "scene-comparison",
+      "ok": true
+    },
+    {
+      "index": 21,
+      "step": "scene-memory",
+      "ok": true
+    },
+    {
+      "index": 22,
+      "step": "scene-activity",
+      "ok": true
+    },
+    {
+      "index": 23,
+      "step": "scene-stability",
+      "ok": true
+    },
+    {
+      "index": 24,
+      "step": "reduced-motion-verification",
+      "ok": true
+    },
+    {
+      "index": 25,
+      "step": "active-read-check",
+      "ok": true
+    },
+    {
+      "index": 26,
+      "step": "report-channel-reading",
+      "ok": true
+    },
+    {
+      "index": 27,
+      "step": "explanation-replacement",
+      "ok": true
+    },
+    {
+      "index": 28,
+      "step": "final-overview",
+      "ok": true
+    },
+    {
+      "index": 29,
+      "step": "final-stable-names",
+      "ok": true
+    }
+  ],
+  "focusReplacement": [
+    {
+      "focus": "hypothesis",
+      "focused": [
+        "hypothesis"
+      ],
+      "height": 1244,
+      "paneCount": 1,
+      "title": "가설"
+    },
+    {
+      "focus": "experiment",
+      "focused": [
+        "experiment"
+      ],
+      "height": 1244,
+      "paneCount": 1,
+      "title": "실험"
+    },
+    {
+      "focus": "evidence",
+      "focused": [
+        "evidence"
+      ],
+      "height": 1244,
+      "paneCount": 1,
+      "title": "증거"
+    },
+    {
+      "focus": "verification",
+      "focused": [
+        "verification"
+      ],
+      "height": 1244,
+      "paneCount": 1,
+      "title": "검증"
+    },
+    {
+      "focus": "conclusion",
+      "focused": [
+        "conclusion"
+      ],
+      "height": 1244,
+      "paneCount": 1,
+      "title": "결론"
+    }
+  ],
+  "scenes": [
+    {
+      "scene": "comparison",
+      "heading": "시도 사이의 차이",
+      "height": 800,
+      "width": 1280
+    },
+    {
+      "scene": "memory",
+      "heading": "이전 시도에서 배운 것",
+      "height": 800,
+      "width": 1280
+    },
+    {
+      "scene": "activity",
+      "heading": "연구에 쓴 시간과 비용",
+      "height": 800,
+      "width": 1280
+    },
+    {
+      "scene": "stability",
+      "heading": "반복 결과의 안정성",
+      "height": 800,
+      "width": 1280
+    }
+  ],
+  "layouts": [
+    {
+      "screenshot": "03-focus-verification.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [
+        "verification"
+      ],
+      "nodes": 7,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "04-mobile-first.jpg",
+      "document": {
+        "height": 844,
+        "width": 390
+      },
+      "focused": [],
+      "nodes": 7,
+      "panes": 1,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "screenshot": "05-mobile-corrected.jpg",
+      "document": {
+        "height": 844,
+        "width": 390
+      },
+      "focused": [],
+      "nodes": 5,
+      "panes": 1,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "screenshot": "06-mobile-final.jpg",
+      "document": {
+        "height": 844,
+        "width": 390
+      },
+      "focused": [],
+      "nodes": 5,
+      "panes": 1,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "screenshot": "07-analysis.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 0,
+      "panes": 0,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "08-overview-final.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 7,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "09-analysis-final.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 0,
+      "panes": 0,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "10-evidence-original.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 0,
+      "panes": 0,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "11-focus-hypothesis.jpg",
+      "document": {
+        "height": 1244,
+        "width": 1325
+      },
+      "focused": [
+        "hypothesis"
+      ],
+      "nodes": 7,
+      "panes": 1,
+      "viewport": {
+        "height": 1244,
+        "width": 1325
+      }
+    },
+    {
+      "screenshot": "11-focus-verification.jpg",
+      "document": {
+        "height": 1244,
+        "width": 1325
+      },
+      "focused": [
+        "verification"
+      ],
+      "nodes": 7,
+      "panes": 1,
+      "viewport": {
+        "height": 1244,
+        "width": 1325
+      }
+    },
+    {
+      "screenshot": "12-graph-expanded.jpg",
+      "document": {
+        "height": 1244,
+        "width": 1325
+      },
+      "focused": [],
+      "nodes": 13,
+      "panes": 1,
+      "viewport": {
+        "height": 1244,
+        "width": 1325
+      }
+    },
+    {
+      "screenshot": "13-empty.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 0,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "14-many-pending.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 7,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "15-success.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 10,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "16-failure.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 11,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "17-tampered-evidence.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 10,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "18-missing-evidence-focus.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [
+        "evidence"
+      ],
+      "nodes": 10,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "19-many-final.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 4,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "20-stability.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 0,
+      "panes": 0,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "21-reduced-motion.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [
+        "verification"
+      ],
+      "nodes": 7,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "22-deliverable-desktop.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 7,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "23-deliverable-mobile.jpg",
+      "document": {
+        "height": 844,
+        "width": 390
+      },
+      "focused": [],
+      "nodes": 5,
+      "panes": 1,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "screenshot": "24-deliverable-mobile-stable.jpg",
+      "document": {
+        "height": 844,
+        "width": 390
+      },
+      "focused": [],
+      "nodes": 5,
+      "panes": 1,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    },
+    {
+      "screenshot": "25-final-desktop.jpg",
+      "document": {
+        "height": 800,
+        "width": 1280
+      },
+      "focused": [],
+      "nodes": 7,
+      "panes": 1,
+      "viewport": {
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "screenshot": "26-final-mobile.jpg",
+      "document": {
+        "height": 844,
+        "width": 390
+      },
+      "focused": [],
+      "nodes": 5,
+      "panes": 1,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    }
+  ],
+  "reducedMotion": {
+    "reducedMotion": true,
+    "animations": 0,
+    "focusPane": "검증"
+  },
+  "scrollPreservation": {
+    "workspace": "report-channel-fixture-20261004",
+    "actualState": "active",
+    "elapsedSecondsAtStart": 8906.040753364563,
+    "before": {
+      "height": 577,
+      "top": 320,
+      "total": 1305
+    },
+    "after": {
+      "height": 577,
+      "revision": "기록 7",
+      "top": 320,
+      "total": 1305
+    },
+    "originalPaneStillConnected": false,
+    "pass": true
+  },
+  "rejectedScreenshots": {
+    "23-deliverable-mobile": "뷰포트 변경 직후의 잘못된 페인트; 최종 검증과 비교 근거에서 제외"
+  },
+  "finalScreenshots": {
+    "desktop": "screenshots/25-final-desktop.jpg",
+    "mobile": "screenshots/26-final-mobile.jpg"
+  },
+  "viewportOverrideReset": true,
+  "mediaEmulationReset": true,
+  "finalMobile": {
+    "canvas": {
+      "client": 303,
+      "scroll": 303
+    },
+    "humanControls": 0,
+    "pane": {
+      "client": 299,
+      "scroll": 299
+    }
+  },
+  "updatedAt": "2026-10-04T14:36:11.054Z",
+  "capture_renames": {
+    "04-mobile-first": "04-mobile-first.jpg",
+    "05-mobile-corrected": "05-mobile-corrected.jpg",
+    "06-mobile-final": "06-mobile-final.jpg",
+    "07-analysis": "07-analysis.jpg",
+    "08-overview-final": "08-overview-final.jpg",
+    "09-analysis-final": "09-analysis-final.jpg",
+    "10-evidence-original": "10-evidence-original.jpg",
+    "11-focus-hypothesis": "11-focus-hypothesis.jpg",
+    "11-focus-verification": "11-focus-verification.jpg",
+    "12-graph-expanded": "12-graph-expanded.jpg",
+    "13-empty": "13-empty.jpg",
+    "14-many-pending": "14-many-pending.jpg",
+    "15-success": "15-success.jpg",
+    "16-failure": "16-failure.jpg",
+    "17-tampered-evidence": "17-tampered-evidence.jpg",
+    "18-missing-evidence-focus": "18-missing-evidence-focus.jpg",
+    "19-many-final": "19-many-final.jpg",
+    "20-stability": "20-stability.jpg",
+    "21-reduced-motion": "21-reduced-motion.jpg",
+    "22-deliverable-desktop": "22-deliverable-desktop.jpg",
+    "23-deliverable-mobile": "23-deliverable-mobile.jpg",
+    "24-deliverable-mobile-stable": "24-deliverable-mobile-stable.jpg",
+    "25-final-desktop": "25-final-desktop.jpg",
+    "26-final-mobile": "26-final-mobile.jpg"
+  }
+}

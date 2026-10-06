@@ -1,0 +1,24 @@
+Archify doctor
+
+[ok] Node.js v24.16.0 (requires >=18)
+[ok] Core template
+[ok] Example renderer
+[ok] Live preview runtime
+[ok] Visual-check runtime
+[ok] Finalize runtime
+[ok] Output path safety runtime
+[ok] Atomic output safety runtime
+[ok] Physical path semantics runtime
+[ok] Sidecar path naming runtime
+[ok] Portable path contract runtime
+[ok] Scenario recipe guide
+[ok] Progressive authoring references
+[ok] Architecture compare runtime and proof fixtures
+[ok] Standalone schema validators
+[ok] architecture renderer, schema, and example
+[ok] workflow renderer, schema, and example
+[ok] sequence renderer, schema, and example
+[ok] dataflow renderer, schema, and example
+[ok] lifecycle renderer, schema, and example
+
+Archify is ready.

@@ -1,0 +1,1 @@
+{"ok": true, "data": {"workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research", "goals": [], "goal_total": 0, "hypotheses": [], "hypothesis_total": 0, "registrations": [], "total": 0, "limit": 20, "offset": 0, "allowed_actions": ["goal", "hypothesis", "register", "memory", "show", "export"], "revision": 1}}

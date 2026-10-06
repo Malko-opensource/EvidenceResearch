@@ -1,4 +1,0 @@
-{"type":"thread.started","thread_id":"01a0fd1d-18b4-7491-8418-02eb67986c8f"}
-{"type":"turn.started"}
-{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Polynomial ridge regression model selection using training and validation mean squared error: polynomial degree, regularization strength, feature covariance, and paired comparisons of regularized and unregularized models across increasing complexity"}}
-{"type":"turn.completed","usage":{"input_tokens":20022,"cached_input_tokens":18176,"cache_write_input_tokens":0,"output_tokens":64,"reasoning_output_tokens":21}}

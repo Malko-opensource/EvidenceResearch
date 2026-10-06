@@ -1,0 +1,179 @@
+{
+  "ok": true,
+  "phase": "before",
+  "checked_at": "2026-10-04T14:06:35.422979+00:00",
+  "base": "http://127.0.0.1:8765",
+  "read_only_http": true,
+  "calls_model": false,
+  "starts_experiment": false,
+  "reads_capability_keys": false,
+  "persistent_state_unchanged_during_reads": true,
+  "matches_before_baseline": null,
+  "runtime": {
+    "version": "0.8.0",
+    "http_tool_count": 23,
+    "assets": {
+      "app.js": {
+        "status": 200,
+        "source_sha256": "b8934796385c91cf9365e42ae1bc4404beec0c5e82cd1b557c98d65c785a71a8",
+        "served_sha256": "b8934796385c91cf9365e42ae1bc4404beec0c5e82cd1b557c98d65c785a71a8",
+        "installed_sha256": "b8934796385c91cf9365e42ae1bc4404beec0c5e82cd1b557c98d65c785a71a8",
+        "source_matches_http": true,
+        "source_matches_installed": true,
+        "no_store": true
+      },
+      "index.html": {
+        "status": 200,
+        "source_sha256": "7ef2e5b08d76d1a6e4ed6f8b078321322af13c021281aba5991c9e1bf12613a8",
+        "served_sha256": "7ef2e5b08d76d1a6e4ed6f8b078321322af13c021281aba5991c9e1bf12613a8",
+        "installed_sha256": "7ef2e5b08d76d1a6e4ed6f8b078321322af13c021281aba5991c9e1bf12613a8",
+        "source_matches_http": true,
+        "source_matches_installed": true,
+        "no_store": true
+      },
+      "styles.css": {
+        "status": 200,
+        "source_sha256": "5b50e4068723e4fa944083bc0e97cb4de522704602ce44308bd80a023f39f17c",
+        "served_sha256": "5b50e4068723e4fa944083bc0e97cb4de522704602ce44308bd80a023f39f17c",
+        "installed_sha256": "5b50e4068723e4fa944083bc0e97cb4de522704602ce44308bd80a023f39f17c",
+        "source_matches_http": true,
+        "source_matches_installed": true,
+        "no_store": true
+      },
+      "view_model.js": {
+        "status": 200,
+        "source_sha256": "0f491857d8b9a1d39f1eccc3b527f671273a34b111c8a25e90a48f0a82f817f2",
+        "served_sha256": "a3a66143f22f26f3a5449962d1c374b56d7f8f5b5910650f4c37c7bbbefceb69",
+        "installed_sha256": "a3a66143f22f26f3a5449962d1c374b56d7f8f5b5910650f4c37c7bbbefceb69",
+        "source_matches_http": false,
+        "source_matches_installed": false,
+        "no_store": true
+      }
+    },
+    "assets_match": false,
+    "workspaces": [
+      {
+        "name": "agent-observatory-20261004",
+        "revision": 8
+      },
+      {
+        "name": "goal-plugin-demo-20261004",
+        "revision": 21
+      },
+      {
+        "name": "installation-check-2024823d379446cfa9f7cc8cec74a69b",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-580fcadc87b84e7880acc96419c9203c",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-5cb1f3899cad44b9830a7eba524bcb43",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-7fe9c43884d24691b292c60c0b75e2ca",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-84bbcf7a565842aea19a6a0ef1d78c43",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-88939ba001f243e08117fe29e8d33307",
+        "revision": 2
+      },
+      {
+        "name": "installation-check-a7a7458d4d2b4e70ac4ee64628a631c3",
+        "revision": 2
+      },
+      {
+        "name": "product-empty-20261004",
+        "revision": 0
+      },
+      {
+        "name": "product-fixtures-20261004",
+        "revision": 44
+      },
+      {
+        "name": "report-channel-fixture-20261004",
+        "revision": 7
+      },
+      {
+        "name": "web-demo-20261004",
+        "revision": 8
+      }
+    ],
+    "snapshots": {
+      "goal-plugin-demo-20261004": {
+        "revision": 21,
+        "registration_count": 3,
+        "page_records": 3,
+        "report_consistent": true
+      },
+      "agent-observatory-20261004": {
+        "revision": 8,
+        "registration_count": 1,
+        "page_records": 1,
+        "report_consistent": true
+      },
+      "product-empty-20261004": {
+        "revision": 0,
+        "registration_count": 0,
+        "page_records": 0,
+        "report_consistent": null
+      },
+      "product-fixtures-20261004": {
+        "revision": 44,
+        "registration_count": 32,
+        "page_records": 6,
+        "report_consistent": true
+      }
+    },
+    "fixture_records": [
+      {
+        "label": "success",
+        "registration": "reg_b4d261f2788b4cf3b90350b4e44f3de0",
+        "execution": "succeeded",
+        "verification": "passed",
+        "decision": "adopted",
+        "evidence_integrity": [
+          "valid",
+          "valid",
+          "valid",
+          "valid",
+          "valid",
+          "valid"
+        ]
+      },
+      {
+        "label": "failure",
+        "registration": "reg_967a9cd2cd764184848fcd5783cebbad",
+        "execution": "succeeded",
+        "verification": "failed",
+        "decision": "rejected",
+        "evidence_integrity": [
+          "valid",
+          "valid",
+          "valid",
+          "valid",
+          "valid",
+          "valid"
+        ]
+      },
+      {
+        "label": "unexecuted",
+        "registration": "reg_5ba810feedd64a45bd54f83c72d047e3",
+        "execution": null,
+        "verification": null,
+        "decision": "pending",
+        "evidence_integrity": []
+      }
+    ]
+  },
+  "limits": [
+    "Browser layout and native WebMCP must be checked separately",
+    "Not a research performance comparison"
+  ]
+}

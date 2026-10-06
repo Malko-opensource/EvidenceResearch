@@ -1,0 +1,45 @@
+- banner:
+  - strong: Research State
+  - generic: v0.8.0
+  - paragraph: 에이전트 제어 · 함께 보는 연구
+  - generic "연결 상태":
+    - generic: 연구 상태 연결
+    - generic: NATIVE WebMCP · 25/25
+- main:
+  - heading "반복 결과의 안정성" [level=1]
+  - paragraph: 등록된 반복 설계의 실제 측정 분포와 계산 범위를 봅니다.
+  - generic: 기록 21
+  - generic: 오후 11:28:02 조회 · 읽기 상태 동기화
+  - region "연구 질문과 시험한 변경점":
+    - generic: 함께 살펴보는 연구
+    - heading "고정 고객 응답 CSV의 팀별 만족도 보고 검증" [level=2]
+    - generic: 연구 종료
+    - generic: 외부 연구 상태 보고
+  - region "반복 결과의 안정성":
+    - paragraph: 명시적으로 사전등록한 반복 설계만 표시 · 동일 소스·변경점·평가 조건, seed 차이는 함께 공개 · 신뢰구간이나 독립 확인 횟수로 해석하지 않습니다.
+    - generic: 등록된 반복 조건
+    - heading "External agent CSV summary under supplied missing-exclusion rule; one deterministic source for all prescribed functional replications" [level=2]
+    - paragraph: 같은 목표·등록 평가 조건·변경점·소스의 고유 실행; seed 차이는 반복 조건으로 명시 · seed 0, 2, 1
+    - heading "계산 일치 · 실측 3회" [level=3]
+    - img "계산 일치 실측 분포 3개 · 단위 미등록":
+      - generic: "0.9"
+      - generic: "1.1"
+    - paragraph: ● 실제 반복 측정 · │ 조회 평균 · 단위 단위 미등록
+    - paragraph: 평균 1 · 범위 1–1 · 표본 SD 0
+    - paragraph: 조회된 반복의 기술 통계 · 신뢰구간·모집단 일반화·독립성 미확인
+    - heading "만족도 · 실측 3회" [level=3]
+    - img "만족도 실측 분포 3개 · 단위 미등록":
+      - generic: "64.8"
+      - generic: "79.2"
+    - paragraph: ● 실제 반복 측정 · │ 조회 평균 · 단위 단위 미등록
+    - paragraph: 평균 72 · 범위 72–72 · 표본 SD 0
+    - paragraph: 조회된 반복의 기술 통계 · 신뢰구간·모집단 일반화·독립성 미확인
+    - term: 비교 기준
+    - definition: Frozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline
+    - term: 데이터 분할
+    - definition: "development: all rows of supplied public synthetic data.csv · evaluation: same pinned input, independently implemented owner frozen validator; no independent population or holdout inference"
+    - term: 소스 버전
+    - definition: skill-demo-descriptive-csv-v1
+  - complementary "외부 에이전트의 현재 도구 호출":
+    - generic: 요청 완료
+    - paragraph: 사용자는 보고 싶은 내용을 에이전트에게 요청하세요

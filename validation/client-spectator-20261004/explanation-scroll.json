@@ -1,0 +1,19 @@
+{
+  "before": {
+    "animations": 0,
+    "clientHeight": 549,
+    "height": 1155,
+    "motion": true,
+    "top": 606
+  },
+  "after": {
+    "animations": 0,
+    "clientHeight": 549,
+    "height": 1155,
+    "motion": true,
+    "top": 606
+  },
+  "oldNodeConnected": false,
+  "scrollPreserved": true,
+  "note": "A real active goal changes elapsed observations on background refresh; no research records were changed."
+}

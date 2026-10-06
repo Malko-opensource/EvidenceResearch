@@ -1,0 +1,13 @@
+{
+  "basis": "Read-only presentation of the same saved F1 result; no execution or state mutation",
+  "registration_id": "reg_93d884bc142f461f8d1bf24f15378bad",
+  "old_cli_version": "0.1.0",
+  "new_cli_version": "0.2.0",
+  "original_response": "evaluation\\results\\F1\\C_OFF\\cli-run-request-2.json",
+  "original_sha256": "93208dd71a9e0213546f97ec54b8403881d0221565bbcf1ebaea09b0c2a0f7cf",
+  "normalized_full_json_bytes": 19368,
+  "compact_json_bytes": 2960,
+  "reduction_fraction": 0.8471705906650144,
+  "research_performance_claim": false,
+  "provider_token_savings": "unknown"
+}

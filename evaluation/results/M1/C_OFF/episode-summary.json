@@ -1,0 +1,101 @@
+{
+  "task_id": "M1",
+  "condition": "C_OFF",
+  "framework": "Codex fresh subagent",
+  "model": "inherited parent; exact identifier unknown",
+  "hypothesis": "For M1, validate trimmed nonempty event ID and group plus finite timestamp and value before selecting the latest timestamp per event ID, with later input winning ties; count every valid row toward duplicates, aggregate selected rows by group using a numerically stable mean, and preserve input rows. This implementation will meet pass_rate >= 1.0 on owner fixed independent evaluation csv-fixed-v1. This is an externally proposed hypothesis based only on the public brief and own input files; no initial memory items were returned.",
+  "hypothesis_id": "hyp_625dd5a9eaa14750be3e6b35103905ce",
+  "registration_id": "reg_8d5f6ae9a92443d2abd148aa8338efe1",
+  "registration_ids": [
+    "reg_8d5f6ae9a92443d2abd148aa8338efe1"
+  ],
+  "run_id": "run_be7a65a86cf34d16bd30a081a8da581d",
+  "task_quality": {
+    "metric": "pass_rate",
+    "value": 1.0,
+    "verification": "passed",
+    "validator": "csv-fixed-v1",
+    "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+    "source": "fixed_local_verifier",
+    "basis": "preserved_source_recomputed",
+    "passed_checks": 7,
+    "total_checks": 7,
+    "artifact_integrity": true,
+    "reported_run_metrics_used": false
+  },
+  "actual_task_executions": 1,
+  "execution_count_basis": "Actual preserved task.py invocations.jsonl; fixed validator subprocess checks are independent validation, not task.py launches.",
+  "duplicate_executions": 0,
+  "duplicate_request": {
+    "request_key": "m1-c-off-run-v1-e35dfbb29e2c",
+    "started": false,
+    "same_run_id": true,
+    "invocations_before": 1,
+    "invocations_after": 1,
+    "invocation_sha256_unchanged": true
+  },
+  "recovery": "not_observed",
+  "recovery_notes": "No scientific failure or unknown execution required recovery. The first run response used recovered:true for ordinary receipt ingestion; no recover command was invoked.",
+  "bookkeeping_capture_errors": [],
+  "scientific_failures": [],
+  "unsupported_claims": [],
+  "decision": "adopted",
+  "decision_reason": "Adopt for this M1 registration because csv-fixed-v1 independently recomputed preserved source and artifacts, integrity was true, all 7 checks passed, and verified pass_rate 1.0 meets the preregistered >= 1.0 criterion. The original task was invoked once; repeating its logical request returned started:false and preserved work/artifact invocation count stayed 1. No measured baseline or general improvement claim is made.",
+  "completed_at": "2026-10-03T16:27:54.278405+00:00",
+  "initial_memory_items": [],
+  "initial_memory_total": 0,
+  "useful_memory_influenced_hypothesis": false,
+  "memory_interpretation": "The initial event search returned zero records. After verification and decision, memory contains this episode with claim_verified:true, supported by show and fixed verifier evidence.",
+  "external_tokens": {
+    "status": "unknown",
+    "value": null
+  },
+  "source_version": {
+    "files": {
+      "input.csv": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+      "solution.py": "e35dfbb29e2c618272a1155aaeaca896e21dbd848739231b76b0557c2e16a44c",
+      "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+    },
+    "label": "M1-C_OFF-latest-valid-event-v1"
+  },
+  "source_files_match_preregistered_hashes": true,
+  "iterations": {
+    "registered_candidates": 1,
+    "criterion_changes": 0,
+    "source_changes_after_registration": 0
+  },
+  "limitations": [
+    "Outcome is limited to M1 and the owner fixed validator; no baseline measurement or general improvement claim.",
+    "Exact inherited model identifier and token usage were not observed.",
+    "No global iteration, time, or failure cap was imposed."
+  ],
+  "paths": {
+    "episode": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF",
+    "transcript": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\transcript.json",
+    "spec": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\spec.json",
+    "candidate": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\candidate-draft.py",
+    "solution": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\solution.py",
+    "initial_solution": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\initial-solution.py",
+    "registration": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\registration.json",
+    "verification": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\verification.json",
+    "final_memory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\final-memory.json",
+    "final_record": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\final-record.json",
+    "artifact_audits": [
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\artifact-audit-before-repeat.json",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\artifact-audit-after-repeat.json"
+    ],
+    "preserved_artifacts": [
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\runs\\run_be7a65a86cf34d16bd30a081a8da581d\\work\\input.csv",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\runs\\run_be7a65a86cf34d16bd30a081a8da581d\\work\\solution.py",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\runs\\run_be7a65a86cf34d16bd30a081a8da581d\\work\\task.py",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\runs\\run_be7a65a86cf34d16bd30a081a8da581d\\artifacts\\result.json",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\runs\\run_be7a65a86cf34d16bd30a081a8da581d\\artifacts\\invocations.jsonl",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\runs\\run_be7a65a86cf34d16bd30a081a8da581d\\artifacts\\solution.py",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\runs\\run_be7a65a86cf34d16bd30a081a8da581d\\artifacts\\input.csv",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\runs\\run_be7a65a86cf34d16bd30a081a8da581d\\stdout.log",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\runs\\run_be7a65a86cf34d16bd30a081a8da581d\\stderr.log",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\runs\\run_be7a65a86cf34d16bd30a081a8da581d\\launch.json",
+      "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\runs\\run_be7a65a86cf34d16bd30a081a8da581d\\process.json"
+    ]
+  }
+}

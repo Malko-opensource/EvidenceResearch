@@ -1,0 +1,113 @@
+test_compact_defaults_preserve_detail_retrieval_integrity_and_idempotent_execution (test_cli_output.CompactCLIOutput.test_compact_defaults_preserve_detail_retrieval_integrity_and_idempotent_execution) ... ok
+test_capability_required_and_verification_cannot_be_overwritten (test_contract.ResearchCLIContract.test_capability_required_and_verification_cannot_be_overwritten) ... ok
+test_claim_without_launch_stays_unknown_without_automatic_restart (test_contract.ResearchCLIContract.test_claim_without_launch_stays_unknown_without_automatic_restart) ... ok
+test_controller_interruption_recovers_original_worker_without_relaunch (test_contract.ResearchCLIContract.test_controller_interruption_recovers_original_worker_without_relaunch) ... ok
+test_description_changes_and_repeated_requests_do_not_rerun (test_contract.ResearchCLIContract.test_description_changes_and_repeated_requests_do_not_rerun) ... ok
+test_evidence_and_fixed_validator_tampering_are_detected (test_contract.ResearchCLIContract.test_evidence_and_fixed_validator_tampering_are_detected) ... ok
+test_execution_verification_and_adoption_are_separate (test_contract.ResearchCLIContract.test_execution_verification_and_adoption_are_separate) ... ok
+test_export_restore_preserves_records_and_reuses_completed_execution (test_contract.ResearchCLIContract.test_export_restore_preserves_records_and_reuses_completed_execution) ... ok
+test_malformed_or_nonfinite_validator_output_is_inconclusive (test_contract.ResearchCLIContract.test_malformed_or_nonfinite_validator_output_is_inconclusive) ... ok
+test_missing_artifact_and_changed_source_cannot_verify (test_contract.ResearchCLIContract.test_missing_artifact_and_changed_source_cannot_verify) ... ok
+test_model_executable_and_malformed_json_are_rejected (test_contract.ResearchCLIContract.test_model_executable_and_malformed_json_are_rejected) ... ok
+test_preregistration_is_immutable_and_changed_conditions_require_new_record (test_contract.ResearchCLIContract.test_preregistration_is_immutable_and_changed_conditions_require_new_record) ... ok
+test_restore_rejects_archive_parent_traversal_before_writing (test_contract.ResearchCLIContract.test_restore_rejects_archive_parent_traversal_before_writing) ... ok
+test_revision_conflict_rolls_back_write (test_contract.ResearchCLIContract.test_revision_conflict_rolls_back_write) ... ok
+test_success_failure_unknown_search_and_pagination (test_contract.ResearchCLIContract.test_success_failure_unknown_search_and_pagination) ... ok
+test_two_cli_processes_cannot_claim_the_same_execution (test_contract.ResearchCLIContract.test_two_cli_processes_cannot_claim_the_same_execution) ... ok
+test_verified_history_does_not_hide_later_evidence_tampering (test_contract.ResearchCLIContract.test_verified_history_does_not_hide_later_evidence_tampering) ... ok
+test_independent_known_numeric_examples (test_evaluation.FixedEvaluationTests.test_independent_known_numeric_examples) ... ok
+test_numeric_claims_and_extra_fields_are_not_accepted (test_evaluation.FixedEvaluationTests.test_numeric_claims_and_extra_fields_are_not_accepted) ... ok
+test_real_development_bundle_passes_and_prior_failure_is_preserved (test_evaluation.FixedEvaluationTests.test_real_development_bundle_passes_and_prior_failure_is_preserved) ... ok
+test_whole_row_dedup_cannot_pass (test_evaluation.FixedEvaluationTests.test_whole_row_dedup_cannot_pass) ... ok
+test_worker_accepts_hashed_blob_extension (test_evaluation.FixedEvaluationTests.test_worker_accepts_hashed_blob_extension) ... ok
+test_actual_cli_web_and_bridge_share_idempotent_goal (test_goals.GoalContract.test_actual_cli_web_and_bridge_share_idempotent_goal) ... ok
+test_atomic_legacy_migration_preserves_revision_records_and_concurrent_open (test_goals.GoalContract.test_atomic_legacy_migration_preserves_revision_records_and_concurrent_open) ... ok
+test_cancelled_execution_only_from_confirmed_execution_receipt (test_goals.GoalContract.test_cancelled_execution_only_from_confirmed_execution_receipt) ... ok
+test_changed_payload_conflicts_and_concurrent_distinct_requests_detect_revision (test_goals.GoalContract.test_changed_payload_conflicts_and_concurrent_distinct_requests_detect_revision) ... ok
+test_concurrent_same_request_creates_one_goal (test_goals.GoalContract.test_concurrent_same_request_creates_one_goal) ... ok
+test_goal_cancel_does_not_claim_worker_cancelled_and_completed_requires_resolution (test_goals.GoalContract.test_goal_cancel_does_not_claim_worker_cancelled_and_completed_requires_resolution) ... ok
+test_pause_resume_same_goal_preserves_incomplete_and_no_execution (test_goals.GoalContract.test_pause_resume_same_goal_preserves_incomplete_and_no_execution) ... ok
+test_resource_branch_relation_and_archive_roundtrip (test_goals.GoalContract.test_resource_branch_relation_and_archive_roundtrip) ... ok
+test_resource_observation_dedup_unknown_units_and_scope (test_goals.GoalContract.test_resource_observation_dedup_unknown_units_and_scope) ... ok
+test_v1_archive_restores_with_compatible_migration_and_no_new_research_event (test_goals.GoalContract.test_v1_archive_restores_with_compatible_migration_and_no_new_research_event) ... ok
+test_versions_are_immutable_and_registration_pins_original_version (test_goals.GoalContract.test_versions_are_immutable_and_registration_pins_original_version) ... ok
+test_abstention_and_collapsed_options_do_not_select_a_candidate (test_laya.LayaBoundaryContract.test_abstention_and_collapsed_options_do_not_select_a_candidate) ... ok
+test_cli_json_help_exclusive_files_and_no_state_mutation (test_laya.LayaBoundaryContract.test_cli_json_help_exclusive_files_and_no_state_mutation) ... ok
+test_invalid_candidates_and_nonfinite_values_are_rejected (test_laya.LayaBoundaryContract.test_invalid_candidates_and_nonfinite_values_are_rejected) ... ok
+test_malformed_unknown_and_nonfinite_responses_are_rejected (test_laya.LayaBoundaryContract.test_malformed_unknown_and_nonfinite_responses_are_rejected) ... ok
+test_prepare_is_deterministic_untruncated_and_model_free (test_laya.LayaBoundaryContract.test_prepare_is_deterministic_untruncated_and_model_free) ... ok
+test_projection_digest_and_workspace_mismatch_are_rejected (test_laya.LayaBoundaryContract.test_projection_digest_and_workspace_mismatch_are_rejected) ... ok
+test_record_claim_is_unverified_and_current_file_tampering_is_detected (test_laya.LayaBoundaryContract.test_record_claim_is_unverified_and_current_file_tampering_is_detected) ... ok
+test_resolved_proposal_can_be_preserved_without_execution_verification_or_adoption (test_laya.LayaBoundaryContract.test_resolved_proposal_can_be_preserved_without_execution_verification_or_adoption) ... ok
+test_response_is_an_unverified_read_only_proposal (test_laya.LayaBoundaryContract.test_response_is_an_unverified_read_only_proposal) ... ok
+test_stale_context_requires_a_new_projection (test_laya.LayaBoundaryContract.test_stale_context_requires_a_new_projection) ... ok
+test_cli_and_restored_foreign_cwd_cannot_launch_via_mcp (test_mcp.ResearchMCPTransport.test_cli_and_restored_foreign_cwd_cannot_launch_via_mcp) ... ok
+test_complete_workflow_duplicate_recover_and_server_restart (test_mcp.ResearchMCPTransport.test_complete_workflow_duplicate_recover_and_server_restart) ... ok
+test_export_restore_keeps_verified_records_without_launching (test_mcp.ResearchMCPTransport.test_export_restore_keeps_verified_records_without_launching) ... ok
+test_goal_versions_lifecycle_and_resource_share_actual_stdio_web_cli_state (test_mcp.ResearchMCPTransport.test_goal_versions_lifecycle_and_resource_share_actual_stdio_web_cli_state) ... ok
+test_handshake_typed_tools_json_and_workspace_restriction (test_mcp.ResearchMCPTransport.test_handshake_typed_tools_json_and_workspace_restriction) ... ok
+test_preregistered_criteria_and_current_evidence_cannot_be_replaced (test_mcp.ResearchMCPTransport.test_preregistered_criteria_and_current_evidence_cannot_be_replaced) ... ok
+test_revision_conflict_and_unverified_laya_exchange (test_mcp.ResearchMCPTransport.test_revision_conflict_and_unverified_laya_exchange) ... ok
+test_scoped_files_and_experiment_cwd_reject_other_directories (test_mcp.ResearchMCPTransport.test_scoped_files_and_experiment_cwd_reject_other_directories) ... ok
+test_two_servers_share_one_durable_execution_claim (test_mcp.ResearchMCPTransport.test_two_servers_share_one_durable_execution_claim) ... ok
+test_bootstrap_discoverable_tools_and_static_assets (test_web.ResearchWebHTTP.test_bootstrap_discoverable_tools_and_static_assets) ... ok
+test_cli_and_http_share_state_events_and_pagination (test_web.ResearchWebHTTP.test_cli_and_http_share_state_events_and_pagination) ... ok
+test_goal_only_report_does_not_invent_execution_cost_or_lifecycle (test_web.ResearchWebHTTP.test_goal_only_report_does_not_invent_execution_cost_or_lifecycle) ... ok
+test_goal_report_aggregates_all_runs_outside_the_page_and_excludes_other_goals (test_web.ResearchWebHTTP.test_goal_report_aggregates_all_runs_outside_the_page_and_excludes_other_goals) ... ok
+test_http_guards_reject_before_mutation (test_web.ResearchWebHTTP.test_http_guards_reject_before_mutation) ... 
+  test_http_guards_reject_before_mutation (test_web.ResearchWebHTTP.test_http_guards_reject_before_mutation) (headers={'X-Research-Session': 'invalid'}) ... ERROR
+test_immutable_registration_verification_adoption_and_tamper (test_web.ResearchWebHTTP.test_immutable_registration_verification_adoption_and_tamper) ... ok
+test_invalid_json_schema_and_admin_fields_have_clear_errors (test_web.ResearchWebHTTP.test_invalid_json_schema_and_admin_fields_have_clear_errors) ... ok
+test_linked_preview_and_foreign_file_and_execution_restrictions (test_web.ResearchWebHTTP.test_linked_preview_and_foreign_file_and_execution_restrictions) ... ok
+test_long_execution_concurrent_state_and_duplicate_request (test_web.ResearchWebHTTP.test_long_execution_concurrent_state_and_duplicate_request) ... ok
+test_selected_timeline_excludes_other_experiments_without_mutation (test_web.ResearchWebHTTP.test_selected_timeline_excludes_other_experiments_without_mutation) ... ok
+test_web_tool_schemas_match_sdk_tools (test_web.ResearchWebHTTP.test_web_tool_schemas_match_sdk_tools) ... ok
+
+======================================================================
+ERROR: test_http_guards_reject_before_mutation (test_web.ResearchWebHTTP.test_http_guards_reject_before_mutation) (headers={'X-Research-Session': 'invalid'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\tests\test_web.py", line 491, in test_http_guards_reject_before_mutation
+    status, envelope = self.json_request(
+                       ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\tests\test_web.py", line 120, in json_request
+    status, headers, body = self.request(path, **options)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\tests\test_web.py", line 113, in request
+    response = urlopen(request, timeout=30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 1373, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1478, in getresponse
+    response.begin()
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 343, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 304, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+
+----------------------------------------------------------------------
+Ran 63 tests in 42.320s
+
+FAILED (errors=1)

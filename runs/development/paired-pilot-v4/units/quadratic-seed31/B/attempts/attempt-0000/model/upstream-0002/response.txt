@@ -1,4 +1,0 @@
-```ADD_PAPER
-1910.02373v2
-Ridge Regression: Structure, Cross-Validation, and Sketching studies squared-error regression with a quadratic coefficient penalty and regularization selection using held-out or cross-validation error. The supplied synopsis of sections 2–3 explains that the ridge solution depends on feature covariance and regularization strength and discusses validation bias in a high-dimensional asymptotic regime. This supports fitting polynomial ridge candidates on training data and selecting degree and alpha by validation MSE. The source supplied here is a frozen synopsis, not full paper text; it provides no numerical experimental results to discuss or task-specific optimal parameters. No local candidates have yet been evaluated, so degree, alpha, validation MSE, and any improvement remain unmeasured. The host must evaluate candidates using the fixed public training and validation splits, without accessing hidden test data.
-```

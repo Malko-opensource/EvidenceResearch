@@ -1,0 +1,2474 @@
+{
+  "schema_version": 1,
+  "protocol_id": "csv-feasibility-20261004-v1",
+  "collected_at": "2026-10-03T16:45:38.862853+00:00",
+  "completed_episodes": 8,
+  "expected_episodes": 8,
+  "status": "complete",
+  "primary_pairs": [
+    {
+      "task_id": "F1",
+      "order": [
+        "B",
+        "C_OFF"
+      ],
+      "initial_hashes_identical": true,
+      "status": "complete",
+      "conditions": {
+        "B": {
+          "status": "complete",
+          "final_pass_rate": 1.0,
+          "complete_pass": true,
+          "actual_task_execution_count": 1,
+          "duplicate_executions": 0,
+          "recovery": "not_observed",
+          "timing": {
+            "dispatch_started_at": "2026-10-03 15:59:14 UTC",
+            "root_collected_at": "2026-10-03 16:04:22 UTC",
+            "agent_declared_completed_at": "2026-10-03T16:03:43.894617+00:00",
+            "root_collection_elapsed_seconds": 308.0,
+            "agent_declared_completion_elapsed_seconds": 269.894617,
+            "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+          }
+        },
+        "C_OFF": {
+          "status": "complete",
+          "final_pass_rate": 1.0,
+          "complete_pass": true,
+          "actual_task_execution_count": 1,
+          "duplicate_executions": 0,
+          "recovery": "not_observed",
+          "timing": {
+            "dispatch_started_at": "2026-10-03 16:04:22 UTC",
+            "root_collected_at": "2026-10-03 16:10:35 UTC",
+            "agent_declared_completed_at": null,
+            "root_collection_elapsed_seconds": 373.0,
+            "agent_declared_completion_elapsed_seconds": null,
+            "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+          }
+        }
+      }
+    },
+    {
+      "task_id": "F2",
+      "order": [
+        "C_OFF",
+        "B"
+      ],
+      "initial_hashes_identical": true,
+      "status": "complete",
+      "conditions": {
+        "C_OFF": {
+          "status": "complete",
+          "final_pass_rate": 1.0,
+          "complete_pass": true,
+          "actual_task_execution_count": 1,
+          "duplicate_executions": 0,
+          "recovery": "not_observed",
+          "timing": {
+            "dispatch_started_at": "2026-10-03 16:10:35 UTC",
+            "root_collected_at": "2026-10-03 16:17:52 UTC",
+            "agent_declared_completed_at": null,
+            "root_collection_elapsed_seconds": 437.0,
+            "agent_declared_completion_elapsed_seconds": null,
+            "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+          }
+        },
+        "B": {
+          "status": "complete",
+          "final_pass_rate": 1.0,
+          "complete_pass": true,
+          "actual_task_execution_count": 1,
+          "duplicate_executions": 0,
+          "recovery": "not_observed",
+          "timing": {
+            "dispatch_started_at": "2026-10-03 16:17:52 UTC",
+            "root_collected_at": "2026-10-03 16:23:27 UTC",
+            "agent_declared_completed_at": "2026-10-03T16:22:51.360190+00:00",
+            "root_collection_elapsed_seconds": 335.0,
+            "agent_declared_completion_elapsed_seconds": 299.36019,
+            "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+          }
+        }
+      }
+    }
+  ],
+  "memory_pairs": [
+    {
+      "task_id": "M1",
+      "order": [
+        "C_OFF",
+        "C_ON"
+      ],
+      "initial_hashes_identical": true,
+      "status": "complete",
+      "conditions": {
+        "C_OFF": {
+          "status": "complete",
+          "final_pass_rate": 1.0,
+          "complete_pass": true,
+          "actual_task_execution_count": 1,
+          "duplicate_executions": 0,
+          "recovery": "not_observed",
+          "timing": {
+            "dispatch_started_at": "2026-10-03 16:23:27 UTC",
+            "root_collected_at": "2026-10-03 16:28:15 UTC",
+            "agent_declared_completed_at": "2026-10-03T16:27:54.278405+00:00",
+            "root_collection_elapsed_seconds": 288.0,
+            "agent_declared_completion_elapsed_seconds": 267.278405,
+            "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+          }
+        },
+        "C_ON": {
+          "status": "complete",
+          "final_pass_rate": 1.0,
+          "complete_pass": true,
+          "actual_task_execution_count": 1,
+          "duplicate_executions": 0,
+          "recovery": "not_observed",
+          "timing": {
+            "dispatch_started_at": "2026-10-03 16:28:15 UTC",
+            "root_collected_at": "2026-10-03 16:32:52 UTC",
+            "agent_declared_completed_at": "2026-10-03T16:32:30.355095+00:00",
+            "root_collection_elapsed_seconds": 277.0,
+            "agent_declared_completion_elapsed_seconds": 255.355095,
+            "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+          }
+        }
+      }
+    },
+    {
+      "task_id": "M2",
+      "order": [
+        "C_ON",
+        "C_OFF"
+      ],
+      "initial_hashes_identical": true,
+      "status": "complete",
+      "conditions": {
+        "C_ON": {
+          "status": "complete",
+          "final_pass_rate": 1.0,
+          "complete_pass": true,
+          "actual_task_execution_count": 1,
+          "duplicate_executions": 0,
+          "recovery": "not_observed",
+          "timing": {
+            "dispatch_started_at": "2026-10-03 16:32:52 UTC",
+            "root_collected_at": "2026-10-03 16:38:05 UTC",
+            "agent_declared_completed_at": "2026-10-03T16:36:42Z",
+            "root_collection_elapsed_seconds": 313.0,
+            "agent_declared_completion_elapsed_seconds": 230.0,
+            "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+          }
+        },
+        "C_OFF": {
+          "status": "complete",
+          "final_pass_rate": 1.0,
+          "complete_pass": true,
+          "actual_task_execution_count": 1,
+          "duplicate_executions": 0,
+          "recovery": "not_observed",
+          "timing": {
+            "dispatch_started_at": "2026-10-03 16:38:05 UTC",
+            "root_collected_at": "2026-10-03 16:41:59 UTC",
+            "agent_declared_completed_at": "2026-10-03 16:41:42 UTC",
+            "root_collection_elapsed_seconds": 234.0,
+            "agent_declared_completion_elapsed_seconds": 217.0,
+            "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+          }
+        }
+      }
+    }
+  ],
+  "episodes": [
+    {
+      "task_id": "F1",
+      "condition": "B",
+      "status": "complete",
+      "directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B",
+      "initial_hashes": {
+        "BRIEF.ko.md": "f8613ce5bd8e246f3ae290d9eb97cffe833c9f56e2e8657006a525346ddace9e",
+        "solution.py": "148120933540d3975e979260b00ec3b062448b27ed11941f068072a69c96e0db",
+        "input.csv": "62100a2fd5250a0e8431bfdaf230ad862199be1df865035e9be93f407e2fc1ab",
+        "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+      },
+      "fixed_validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+      "records": [
+        {
+          "check_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.json",
+          "verification": "passed",
+          "checker_receipt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.receipt.json",
+          "broken_receipt_hash_links": [],
+          "criteria_match_owner": true,
+          "validator_matches_owner": true,
+          "metrics": {
+            "pass_rate": 1.0
+          },
+          "verification_details": {
+            "basis": "preserved_source_recomputed",
+            "checks": [
+              {
+                "case": "run_artifact",
+                "exit_code": null,
+                "passed": true,
+                "reason": "run_artifact_recomputed"
+              },
+              {
+                "case": 0,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 1,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 2,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 3,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 4,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 5,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 6,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              }
+            ],
+            "passed_cases": 8,
+            "reported_run_metrics_used": false,
+            "task_id": "F1",
+            "total_cases": 8
+          },
+          "verification_at": "2026-10-03T16:02:06.132945+00:00",
+          "evidence_integrity": "valid",
+          "claim_verified": true,
+          "decision": "agent_declaration_only",
+          "marker": {
+            "count": 1,
+            "integrity": "valid",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\invocations.jsonl",
+            "sha256": "5c537419a7783fc2d7ec5f67ece5eaf319756681f708d250805889dbdb29bbf5"
+          },
+          "execution_receipts": [
+            {
+              "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\task-run-1.receipt.json",
+              "returncode": 0,
+              "broken_hash_links": [],
+              "source_sha256": "00fd9536a220bc378de45a66f69d34bdb6db051ee44f5be4c8e03df2ec8b6214",
+              "registered_source_matches": true,
+              "registered_input_matches": true,
+              "registered_runner_matches": true
+            }
+          ],
+          "protocol_links_valid": true
+        }
+      ],
+      "final_pass_rate": 1.0,
+      "complete_pass": true,
+      "actual_task_execution_count": 1,
+      "duplicate_executions": 0,
+      "recovery": "not_observed",
+      "observed_fault_evidence": [],
+      "wrapper_checks": {
+        "checks": [
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.json",
+            "sha256": "ffd4a340988c18d9e71529b4e97ff0b0a3b082ea0f130b55d1b947a3e777cd2e",
+            "wrapper_state": "completed_check",
+            "pass_rate": 1.0,
+            "error_present": false,
+            "original_history_preserved": true
+          }
+        ],
+        "error_count": 0,
+        "recovery": "not_observed",
+        "scope": "Actual fixed-checker output files; a completed check with pass_rate below 1 is a scientific failure, not a wrapper error"
+      },
+      "declared_recovery": "not_observed",
+      "reported_transcript_errors": null,
+      "additional_declared_context": {},
+      "memory_context": {
+        "prior_registration_id": null,
+        "prior_excluded_from_task_metrics": true,
+        "recorded_prior_retrieval_confirmed": false,
+        "observed_cli_memory_pages": [],
+        "declared_initial_memory_total": null,
+        "declared_initial_memory_item_count": null,
+        "declared_initial_memory_items": null,
+        "declared_useful_memory_influenced_hypothesis": null,
+        "declared_interpretation": null
+      },
+      "declaration_comparison": {
+        "declared_pass_rate": 1.0,
+        "actual_pass_rate": 1.0,
+        "pass_rate_agrees": true,
+        "declared_decision": "adopted; identical second request reused the verified persistent result",
+        "actual_decision": "agent_declaration_only",
+        "decision_agrees": null,
+        "declared_complete_pass_supported": true,
+        "unsupported_claims": {
+          "count": 0,
+          "status": "observed_supplied_declarations",
+          "checked_explicit_declarations": 4,
+          "items": [],
+          "scope": "Supplied transcript and summary explicit success/adoption declarations only; no inference about hidden behavior"
+        }
+      },
+      "external_tokens": {
+        "status": "unknown",
+        "value": null
+      },
+      "timing": {
+        "dispatch_started_at": "2026-10-03 15:59:14 UTC",
+        "root_collected_at": "2026-10-03 16:04:22 UTC",
+        "agent_declared_completed_at": "2026-10-03T16:03:43.894617+00:00",
+        "root_collection_elapsed_seconds": 308.0,
+        "agent_declared_completion_elapsed_seconds": 269.894617,
+        "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+      }
+    },
+    {
+      "task_id": "F1",
+      "condition": "C_OFF",
+      "status": "complete",
+      "directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF",
+      "initial_hashes": {
+        "BRIEF.ko.md": "f8613ce5bd8e246f3ae290d9eb97cffe833c9f56e2e8657006a525346ddace9e",
+        "solution.py": "148120933540d3975e979260b00ec3b062448b27ed11941f068072a69c96e0db",
+        "input.csv": "62100a2fd5250a0e8431bfdaf230ad862199be1df865035e9be93f407e2fc1ab",
+        "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+      },
+      "fixed_validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+      "records": [
+        {
+          "registration_id": "reg_93d884bc142f461f8d1bf24f15378bad",
+          "registered_at": 1791043622.9089658,
+          "fingerprint": "9332f862be79aae01d904e67c11623f2f284dbc57ad58e00da58b3c51dbaee42",
+          "execution": "succeeded",
+          "execution_error": null,
+          "verification": "passed",
+          "metrics": {
+            "pass_rate": 1.0
+          },
+          "verification_details": {
+            "_input_sha256": "00098a6679f5f4c43a073fb3fe5cc7c1883336648a111b1563790f4324e27836",
+            "basis": "preserved_source_recomputed",
+            "checks": [
+              {
+                "case": "run_artifact",
+                "exit_code": null,
+                "passed": true,
+                "reason": "run_artifact_recomputed"
+              },
+              {
+                "case": 0,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 1,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 2,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 3,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 4,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 5,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 6,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              }
+            ],
+            "criteria_results": [
+              {
+                "actual": 1.0,
+                "metric": "pass_rate",
+                "op": ">=",
+                "passed": true,
+                "threshold": 1
+              }
+            ],
+            "integrity": true,
+            "missing_artifacts": [],
+            "missing_metrics": [],
+            "passed_cases": 8,
+            "reported_run_metrics_used": false,
+            "source": "fixed_local_verifier",
+            "task_id": "F1",
+            "total_cases": 8,
+            "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+            "verifier_output": {
+              "details": {
+                "basis": "preserved_source_recomputed",
+                "checks": [
+                  {
+                    "case": "run_artifact",
+                    "exit_code": null,
+                    "passed": true,
+                    "reason": "run_artifact_recomputed"
+                  },
+                  {
+                    "case": 0,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 1,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 2,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 3,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 4,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 5,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 6,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  }
+                ],
+                "passed_cases": 8,
+                "reported_run_metrics_used": false,
+                "task_id": "F1",
+                "total_cases": 8
+              },
+              "metrics": {
+                "pass_rate": 1.0
+              }
+            },
+            "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "verifier_stdout_sha256": "611715ac342575ad7352d18a9b657586c34757479b67ba5e86d376cf66457837"
+          },
+          "verification_at": "2026-10-03T16:07:27.368817+00:00",
+          "evidence_integrity": "valid",
+          "claim_verified": true,
+          "source_links": [
+            {
+              "file": "input.csv",
+              "registered_sha256": "62100a2fd5250a0e8431bfdaf230ad862199be1df865035e9be93f407e2fc1ab",
+              "preserved_source_sha256": "62100a2fd5250a0e8431bfdaf230ad862199be1df865035e9be93f407e2fc1ab",
+              "matches": true
+            },
+            {
+              "file": "solution.py",
+              "registered_sha256": "5f4e6c18602aaa4d71cadbbf67183a2ac546a64fda3fd0c24a5a360d96a6b320",
+              "preserved_source_sha256": "5f4e6c18602aaa4d71cadbbf67183a2ac546a64fda3fd0c24a5a360d96a6b320",
+              "matches": true
+            },
+            {
+              "file": "task.py",
+              "registered_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "preserved_source_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "matches": true
+            }
+          ],
+          "criteria_match_owner": true,
+          "validator_matches_owner": true,
+          "protocol_links_valid": true,
+          "decision": "adopted",
+          "marker": [
+            {
+              "count": 1,
+              "integrity": "valid",
+              "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\research\\.research\\evidence\\25232be910e360e71b76ceee8ef9bbd3c5ecd7d79f41be41c612fd75cc8593a9",
+              "sha256": "25232be910e360e71b76ceee8ef9bbd3c5ecd7d79f41be41c612fd75cc8593a9"
+            }
+          ],
+          "actual_execution_count": 1,
+          "resources": {
+            "external_model_usage": "unknown",
+            "external_tokens": "unknown",
+            "tokens": {
+              "status": "unknown",
+              "value": null
+            },
+            "wall_seconds": 0.09399999998277053
+          }
+        }
+      ],
+      "final_pass_rate": 1.0,
+      "complete_pass": true,
+      "actual_task_execution_count": 1,
+      "duplicate_executions": 0,
+      "recovery": "not_observed",
+      "observed_fault_evidence": [],
+      "wrapper_checks": {
+        "checks": [],
+        "error_count": 0,
+        "recovery": "not_observed",
+        "scope": "Actual fixed-checker output files; a completed check with pass_rate below 1 is a scientific failure, not a wrapper error"
+      },
+      "declared_recovery": {
+        "execution_recovery": "not_observed",
+        "audit_capture_error": "exec_command response truncation caused JSON.parse failure; task CLI exit code was 0",
+        "audit_capture_recovery": "Same second request key retried, full stdout saved to file; started:false and marker unchanged",
+        "cli_run_recovered_flag_note": "First successful run returned recovered:true as ordinary receipt collection; no interrupted/failed execution was observed"
+      },
+      "reported_transcript_errors": [
+        {
+          "event": "run-request-2 capture",
+          "kind": "tool_output_truncation",
+          "cli_exit_code": 0,
+          "message": "exec_command output limit 1500 truncated a long successful CLI response. JSON.parse failed on the tool truncation notice.",
+          "recovery": "Repeat the identical request key with full CLI stdout redirected to cli-run-request-2.json; confirmed started:false and unchanged invocation marker.",
+          "execution_failure": false
+        }
+      ],
+      "additional_declared_context": {},
+      "memory_context": {
+        "prior_registration_id": null,
+        "prior_excluded_from_task_metrics": true,
+        "recorded_prior_retrieval_confirmed": false,
+        "observed_cli_memory_pages": [
+          {
+            "source": "cli-memory-after-weighted.json.data",
+            "revision": 8,
+            "total": 1,
+            "items": [
+              {
+                "id": "reg_93d884bc142f461f8d1bf24f15378bad",
+                "verification": "passed",
+                "outcome": "success",
+                "claim_verified": true,
+                "evidence_integrity": "valid"
+              }
+            ]
+          },
+          {
+            "source": "cli-memory-after.json.data",
+            "revision": 8,
+            "total": 0,
+            "items": []
+          },
+          {
+            "source": "cli-memory-before.json.data",
+            "revision": 1,
+            "total": 0,
+            "items": []
+          },
+          {
+            "source": "memory-search-record.json.result.data",
+            "revision": 1,
+            "total": 0,
+            "items": []
+          }
+        ],
+        "declared_initial_memory_total": null,
+        "declared_initial_memory_item_count": null,
+        "declared_initial_memory_items": null,
+        "declared_useful_memory_influenced_hypothesis": null,
+        "declared_interpretation": null
+      },
+      "declaration_comparison": {
+        "declared_pass_rate": 1,
+        "actual_pass_rate": 1.0,
+        "pass_rate_agrees": true,
+        "declared_decision": {
+          "state": "adopted",
+          "reason": "Adopted only after independent CLI verify recomputed preserved source and run artifact with the fixed csv-fixed-v1 validator: pass_rate 1.0, 8/8 checks passed, integrity true, and preregistered pass_rate >= 1.0 met. Execution success, verification passing, and adoption are recorded separately; evaluator implementation and independent cases were not read.",
+          "evidence_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\C_OFF\\cli-decide-v1.json",
+          "made_after_verified": true
+        },
+        "actual_decision": "adopted",
+        "decision_agrees": true,
+        "declared_complete_pass_supported": true,
+        "unsupported_claims": {
+          "count": 0,
+          "status": "observed_supplied_declarations",
+          "checked_explicit_declarations": 2,
+          "items": [],
+          "scope": "Supplied transcript and summary explicit success/adoption declarations only; no inference about hidden behavior"
+        }
+      },
+      "external_tokens": {
+        "status": "unknown",
+        "value": null
+      },
+      "timing": {
+        "dispatch_started_at": "2026-10-03 16:04:22 UTC",
+        "root_collected_at": "2026-10-03 16:10:35 UTC",
+        "agent_declared_completed_at": null,
+        "root_collection_elapsed_seconds": 373.0,
+        "agent_declared_completion_elapsed_seconds": null,
+        "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+      }
+    },
+    {
+      "task_id": "F2",
+      "condition": "C_OFF",
+      "status": "complete",
+      "directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+      "initial_hashes": {
+        "BRIEF.ko.md": "1fbb3e434e179a5c0bc820052d09bcd0cb5772cc8cf330a47f477846e3e03b5a",
+        "solution.py": "e4599bbbff34941ea50a56c6bbf93c33efc92034bf6dc4009fd463d89ad66d45",
+        "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+        "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+      },
+      "fixed_validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+      "records": [
+        {
+          "registration_id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+          "registered_at": 1791043990.346621,
+          "fingerprint": "f1820f20651d838cb7bf9681a43110a7718ac1c5abade81eaec718b65dcc44b9",
+          "execution": "succeeded",
+          "execution_error": null,
+          "verification": "passed",
+          "metrics": {
+            "pass_rate": 1.0
+          },
+          "verification_details": {
+            "_input_sha256": "1b2b28cbe0e9823fc0a8a54e3be5a92ca9624736e8f9912bd98c87fe4d5a490f",
+            "basis": "preserved_source_recomputed",
+            "checks": [
+              {
+                "case": "run_artifact",
+                "exit_code": null,
+                "passed": true,
+                "reason": "run_artifact_recomputed"
+              },
+              {
+                "case": 0,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 1,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 2,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 3,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 4,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 5,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 6,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              }
+            ],
+            "criteria_results": [
+              {
+                "actual": 1.0,
+                "metric": "pass_rate",
+                "op": ">=",
+                "passed": true,
+                "threshold": 1.0
+              }
+            ],
+            "integrity": true,
+            "missing_artifacts": [],
+            "missing_metrics": [],
+            "passed_cases": 8,
+            "reported_run_metrics_used": false,
+            "source": "fixed_local_verifier",
+            "task_id": "F2",
+            "total_cases": 8,
+            "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+            "verifier_output": {
+              "details": {
+                "basis": "preserved_source_recomputed",
+                "checks": [
+                  {
+                    "case": "run_artifact",
+                    "exit_code": null,
+                    "passed": true,
+                    "reason": "run_artifact_recomputed"
+                  },
+                  {
+                    "case": 0,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 1,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 2,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 3,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 4,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 5,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 6,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  }
+                ],
+                "passed_cases": 8,
+                "reported_run_metrics_used": false,
+                "task_id": "F2",
+                "total_cases": 8
+              },
+              "metrics": {
+                "pass_rate": 1.0
+              }
+            },
+            "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "verifier_stdout_sha256": "f3ad15c81463de517acc5114ef07ef30ac38966b5d2aff61d78c91e326b46150"
+          },
+          "verification_at": "2026-10-03T16:13:30.551994+00:00",
+          "evidence_integrity": "valid",
+          "claim_verified": true,
+          "source_links": [
+            {
+              "file": "input.csv",
+              "registered_sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+              "preserved_source_sha256": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+              "matches": true
+            },
+            {
+              "file": "solution.py",
+              "registered_sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+              "preserved_source_sha256": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+              "matches": true
+            },
+            {
+              "file": "task.py",
+              "registered_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "preserved_source_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "matches": true
+            }
+          ],
+          "criteria_match_owner": true,
+          "validator_matches_owner": true,
+          "protocol_links_valid": true,
+          "decision": "adopted",
+          "marker": [
+            {
+              "count": 1,
+              "integrity": "valid",
+              "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\research\\.research\\evidence\\d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9",
+              "sha256": "d9f4518371d3ac2855c6419ad8f4bb0931cd2d514691caecc171596dbd78e8f9"
+            }
+          ],
+          "actual_execution_count": 1,
+          "resources": {
+            "external_model_usage": "unknown",
+            "external_tokens": "unknown",
+            "tokens": {
+              "status": "unknown",
+              "value": null
+            },
+            "wall_seconds": 0.06300000002374873
+          }
+        }
+      ],
+      "final_pass_rate": 1.0,
+      "complete_pass": true,
+      "actual_task_execution_count": 1,
+      "duplicate_executions": 0,
+      "recovery": "not_observed",
+      "observed_fault_evidence": [],
+      "wrapper_checks": {
+        "checks": [
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-1.json",
+            "sha256": "563d97471de32865ba2635bca9134c17a5ff16b4e29c153aaf8807b4cc728449",
+            "wrapper_state": "wrapper_error_or_inconclusive",
+            "pass_rate": null,
+            "error_present": true,
+            "original_history_preserved": true
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-2.json",
+            "sha256": "48d1f7f550b6e1265ecb886f333e8bd19ff67035be607c6be7f14e3dc53c4d64",
+            "wrapper_state": "completed_check",
+            "pass_rate": 1.0,
+            "error_present": false,
+            "original_history_preserved": true
+          },
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-3.json",
+            "sha256": "48d1f7f550b6e1265ecb886f333e8bd19ff67035be607c6be7f14e3dc53c4d64",
+            "wrapper_state": "completed_check",
+            "pass_rate": 1.0,
+            "error_present": false,
+            "original_history_preserved": true
+          }
+        ],
+        "error_count": 1,
+        "recovery": "resolved",
+        "scope": "Actual fixed-checker output files; a completed check with pass_rate below 1 is a scientific failure, not a wrapper error"
+      },
+      "declared_recovery": {
+        "errors": [
+          {
+            "stage": "common-checker",
+            "command": [
+              "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+              "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+              "--root",
+              "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+              "--task",
+              "F2",
+              "--output",
+              "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-1.json"
+            ],
+            "returncode": 0,
+            "original_json": {
+              "ok": false,
+              "error": "Traceback (most recent call last):\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\fixed_validator.py\", line 246, in <module>\n    print(json.dumps(validate(sys.argv[1]), sort_keys=True, allow_nan=False))\n                     ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\fixed_validator.py\", line 215, in validate\n    run_result = json.loads(Path(artifacts[\"result.json\"]).read_text(encoding=\"utf-8\"))\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1027, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1013, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\evaluation\\\\results\\\\F2\\\\C_OFF\\\\result.json'\n",
+              "metrics": {},
+              "status": "inconclusive"
+            },
+            "classification": "missing episode/result.json; CLI artifact exists in preserved run"
+          },
+          {
+            "stage": "evidence-recording",
+            "error": "KeyError: ok",
+            "actual_command": [
+              "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+              "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+              "--root",
+              "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+              "--task",
+              "F2",
+              "--output",
+              "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-2.json"
+            ],
+            "reason": "Success JSON contains metrics/details but no ok key; wrapper incorrectly required ok.",
+            "scientific_result_affected": false
+          }
+        ],
+        "actions": [
+          {
+            "stage": "common-checker",
+            "error_evidence": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-1.json",
+            "action": "Materialized the recorded actual CLI result.json and invocations.jsonl into episode root; called the fixed checker with new output paths.",
+            "recovery_evidence": [
+              "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-2.json",
+              "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-3.json"
+            ],
+            "new_task_execution": false,
+            "pass_rate": 1.0
+          },
+          {
+            "stage": "evidence-recording",
+            "action": "Validated documented success payload by metrics and details, and preserved the original JSON and streams from a new fixed checker call.",
+            "evidence": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF\\check-3.json",
+            "new_task_execution": false
+          }
+        ],
+        "scientific_run_failure_observed": false
+      },
+      "reported_transcript_errors": null,
+      "additional_declared_context": {},
+      "memory_context": {
+        "prior_registration_id": null,
+        "prior_excluded_from_task_metrics": true,
+        "recorded_prior_retrieval_confirmed": false,
+        "observed_cli_memory_pages": [
+          {
+            "source": "transcript.json.commands[1].original_json.data",
+            "revision": 1,
+            "total": 0,
+            "items": []
+          },
+          {
+            "source": "transcript.json.commands[8].original_json.data",
+            "revision": 8,
+            "total": 1,
+            "items": [
+              {
+                "id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "verification": "passed",
+                "outcome": "success",
+                "claim_verified": true,
+                "evidence_integrity": "valid"
+              }
+            ]
+          },
+          {
+            "source": "memory-after.json.data",
+            "revision": 8,
+            "total": 1,
+            "items": [
+              {
+                "id": "reg_1501d2daa11c4d358ae4ff3d35d0f536",
+                "verification": "passed",
+                "outcome": "success",
+                "claim_verified": true,
+                "evidence_integrity": "valid"
+              }
+            ]
+          }
+        ],
+        "declared_initial_memory_total": null,
+        "declared_initial_memory_item_count": null,
+        "declared_initial_memory_items": null,
+        "declared_useful_memory_influenced_hypothesis": null,
+        "declared_interpretation": null
+      },
+      "declaration_comparison": {
+        "declared_pass_rate": 1.0,
+        "actual_pass_rate": 1.0,
+        "pass_rate_agrees": true,
+        "declared_decision": "adopted",
+        "actual_decision": "adopted",
+        "decision_agrees": true,
+        "declared_complete_pass_supported": true,
+        "unsupported_claims": {
+          "count": 0,
+          "status": "observed_supplied_declarations",
+          "checked_explicit_declarations": 2,
+          "items": [],
+          "scope": "Supplied transcript and summary explicit success/adoption declarations only; no inference about hidden behavior"
+        }
+      },
+      "external_tokens": {
+        "status": "unknown",
+        "value": null
+      },
+      "timing": {
+        "dispatch_started_at": "2026-10-03 16:10:35 UTC",
+        "root_collected_at": "2026-10-03 16:17:52 UTC",
+        "agent_declared_completed_at": null,
+        "root_collection_elapsed_seconds": 437.0,
+        "agent_declared_completion_elapsed_seconds": null,
+        "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+      }
+    },
+    {
+      "task_id": "F2",
+      "condition": "B",
+      "status": "complete",
+      "directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B",
+      "initial_hashes": {
+        "BRIEF.ko.md": "1fbb3e434e179a5c0bc820052d09bcd0cb5772cc8cf330a47f477846e3e03b5a",
+        "solution.py": "e4599bbbff34941ea50a56c6bbf93c33efc92034bf6dc4009fd463d89ad66d45",
+        "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+        "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+      },
+      "fixed_validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+      "records": [
+        {
+          "check_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\check-1.json",
+          "verification": "passed",
+          "checker_receipt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\checker-receipt-1.json",
+          "broken_receipt_hash_links": [],
+          "criteria_match_owner": true,
+          "validator_matches_owner": true,
+          "metrics": {
+            "pass_rate": 1.0
+          },
+          "verification_details": {
+            "basis": "preserved_source_recomputed",
+            "checks": [
+              {
+                "case": "run_artifact",
+                "exit_code": null,
+                "passed": true,
+                "reason": "run_artifact_recomputed"
+              },
+              {
+                "case": 0,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 1,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 2,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 3,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 4,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 5,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 6,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              }
+            ],
+            "passed_cases": 8,
+            "reported_run_metrics_used": false,
+            "task_id": "F2",
+            "total_cases": 8
+          },
+          "verification_at": "2026-10-03T16:21:54.808179+00:00",
+          "evidence_integrity": "valid",
+          "claim_verified": true,
+          "decision": "agent_declaration_only",
+          "marker": {
+            "count": 1,
+            "integrity": "valid",
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\invocations.jsonl",
+            "sha256": "a96554164e69c96474d4b915407a8e29641683cd2948dbeb5f061e66bde099d3"
+          },
+          "execution_receipts": [
+            {
+              "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\execution-1.json",
+              "returncode": 0,
+              "broken_hash_links": [],
+              "source_sha256": "0ca69cd1b98e59bcebfa6fa5a4f386c0f6f070aad8f66d7f70524c38926a6087",
+              "registered_source_matches": true,
+              "registered_input_matches": true,
+              "registered_runner_matches": true
+            }
+          ],
+          "protocol_links_valid": true
+        }
+      ],
+      "final_pass_rate": 1.0,
+      "complete_pass": true,
+      "actual_task_execution_count": 1,
+      "duplicate_executions": 0,
+      "recovery": "not_observed",
+      "observed_fault_evidence": [],
+      "wrapper_checks": {
+        "checks": [
+          {
+            "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\check-1.json",
+            "sha256": "48d1f7f550b6e1265ecb886f333e8bd19ff67035be607c6be7f14e3dc53c4d64",
+            "wrapper_state": "completed_check",
+            "pass_rate": 1.0,
+            "error_present": false,
+            "original_history_preserved": true
+          }
+        ],
+        "error_count": 0,
+        "recovery": "not_observed",
+        "scope": "Actual fixed-checker output files; a completed check with pass_rate below 1 is a scientific failure, not a wrapper error"
+      },
+      "declared_recovery": {
+        "cause": "An opaque checker bundle filename matched check-*.json but did not have a numeric result suffix. Bundle contents were not opened or inspected.",
+        "checker_reexecuted_for_recovery": false,
+        "evidence_paths": [
+          "recovery-1.json",
+          "episode-controller.failed-finalize.py",
+          "check-1.json",
+          "receipt.json",
+          "receipt-reuse.json"
+        ],
+        "failure_command": [
+          "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+          "episode-controller.py",
+          "finalize"
+        ],
+        "new_registration_required": false,
+        "original_result": {
+          "exit_code": 1,
+          "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\episode-controller.py\", line 241, in <module>\r\n    actions[sys.argv[1]]()\r\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\episode-controller.py\", line 202, in finalize\r\n    check_files = sorted(ROOT.glob(\"check-*.json\"), key=lambda path: int(path.stem.split(\"-\")[-1]))\r\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\episode-controller.py\", line 202, in <lambda>\r\n    check_files = sorted(ROOT.glob(\"check-*.json\"), key=lambda path: int(path.stem.split(\"-\")[-1]))\r\n                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nValueError: invalid literal for int() with base 10: '1.bundle'\r\n",
+          "stdout": ""
+        },
+        "preserved_original_source": "episode-controller.failed-finalize.py",
+        "registered_input_or_task_changed": false,
+        "registered_solution_changed": false,
+        "registration_changed": false,
+        "repair": "Select only numbered check-N.json result files for finalization. Exclude opaque bundle contents from local manifest hashing to avoid reading them.",
+        "stage": "episode summary bookkeeping",
+        "status": "observed_and_recovered",
+        "task_reexecuted_for_recovery": false
+      },
+      "reported_transcript_errors": null,
+      "additional_declared_context": {},
+      "memory_context": {
+        "prior_registration_id": null,
+        "prior_excluded_from_task_metrics": true,
+        "recorded_prior_retrieval_confirmed": false,
+        "observed_cli_memory_pages": [],
+        "declared_initial_memory_total": null,
+        "declared_initial_memory_item_count": null,
+        "declared_initial_memory_items": null,
+        "declared_useful_memory_influenced_hypothesis": null,
+        "declared_interpretation": null
+      },
+      "declaration_comparison": {
+        "declared_pass_rate": 1.0,
+        "actual_pass_rate": 1.0,
+        "pass_rate_agrees": true,
+        "declared_decision": "success",
+        "actual_decision": "agent_declaration_only",
+        "decision_agrees": null,
+        "declared_complete_pass_supported": true,
+        "unsupported_claims": {
+          "count": 0,
+          "status": "observed_supplied_declarations",
+          "checked_explicit_declarations": 1,
+          "items": [],
+          "scope": "Supplied transcript and summary explicit success/adoption declarations only; no inference about hidden behavior"
+        }
+      },
+      "external_tokens": {
+        "status": "unknown",
+        "value": null
+      },
+      "timing": {
+        "dispatch_started_at": "2026-10-03 16:17:52 UTC",
+        "root_collected_at": "2026-10-03 16:23:27 UTC",
+        "agent_declared_completed_at": "2026-10-03T16:22:51.360190+00:00",
+        "root_collection_elapsed_seconds": 335.0,
+        "agent_declared_completion_elapsed_seconds": 299.36019,
+        "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+      }
+    },
+    {
+      "task_id": "M1",
+      "condition": "C_OFF",
+      "status": "complete",
+      "directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF",
+      "initial_hashes": {
+        "BRIEF.ko.md": "32e287dfa460a3bb47be543ebb640b181212c97037f1a776e1789bc91cbf7d57",
+        "solution.py": "c93cc2e04dcb0720bd69539476e728c4f50fff3896aa67008dc86eecd2216f63",
+        "input.csv": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+        "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+      },
+      "fixed_validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+      "records": [
+        {
+          "registration_id": "reg_8d5f6ae9a92443d2abd148aa8338efe1",
+          "registered_at": 1791044765.038762,
+          "fingerprint": "59fa72404046d115e0668417349322550c874bc5d9965d436957ddf6ef3f3db3",
+          "execution": "succeeded",
+          "execution_error": null,
+          "verification": "passed",
+          "metrics": {
+            "pass_rate": 1.0
+          },
+          "verification_details": {
+            "_input_sha256": "f85b9679ac5652b8440a3b22f54c14b82fa08f455e9290cf516fb8c1e1cb6971",
+            "basis": "preserved_source_recomputed",
+            "checks": [
+              {
+                "case": "run_artifact",
+                "exit_code": null,
+                "passed": true,
+                "reason": "run_artifact_recomputed"
+              },
+              {
+                "case": 0,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 1,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 2,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 3,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 4,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 5,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              }
+            ],
+            "criteria_results": [
+              {
+                "actual": 1.0,
+                "metric": "pass_rate",
+                "op": ">=",
+                "passed": true,
+                "threshold": 1.0
+              }
+            ],
+            "integrity": true,
+            "missing_artifacts": [],
+            "missing_metrics": [],
+            "passed_cases": 7,
+            "reported_run_metrics_used": false,
+            "source": "fixed_local_verifier",
+            "task_id": "M1",
+            "total_cases": 7,
+            "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+            "verifier_output": {
+              "details": {
+                "basis": "preserved_source_recomputed",
+                "checks": [
+                  {
+                    "case": "run_artifact",
+                    "exit_code": null,
+                    "passed": true,
+                    "reason": "run_artifact_recomputed"
+                  },
+                  {
+                    "case": 0,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 1,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 2,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 3,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 4,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 5,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  }
+                ],
+                "passed_cases": 7,
+                "reported_run_metrics_used": false,
+                "task_id": "M1",
+                "total_cases": 7
+              },
+              "metrics": {
+                "pass_rate": 1.0
+              }
+            },
+            "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "verifier_stdout_sha256": "85fc2ef7b04a572e48122a89396018d929d11b47904d84ae53fd4f4c6db92481"
+          },
+          "verification_at": "2026-10-03T16:26:56.996969+00:00",
+          "evidence_integrity": "valid",
+          "claim_verified": true,
+          "source_links": [
+            {
+              "file": "input.csv",
+              "registered_sha256": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+              "preserved_source_sha256": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+              "matches": true
+            },
+            {
+              "file": "solution.py",
+              "registered_sha256": "e35dfbb29e2c618272a1155aaeaca896e21dbd848739231b76b0557c2e16a44c",
+              "preserved_source_sha256": "e35dfbb29e2c618272a1155aaeaca896e21dbd848739231b76b0557c2e16a44c",
+              "matches": true
+            },
+            {
+              "file": "task.py",
+              "registered_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "preserved_source_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "matches": true
+            }
+          ],
+          "criteria_match_owner": true,
+          "validator_matches_owner": true,
+          "protocol_links_valid": true,
+          "decision": "adopted",
+          "marker": [
+            {
+              "count": 1,
+              "integrity": "valid",
+              "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_OFF\\research\\.research\\evidence\\e54410af245f63f2e76505a1a761938f540047151c4d063d433ee03e9289c141",
+              "sha256": "e54410af245f63f2e76505a1a761938f540047151c4d063d433ee03e9289c141"
+            }
+          ],
+          "actual_execution_count": 1,
+          "resources": {
+            "external_model_usage": "unknown",
+            "external_tokens": "unknown",
+            "tokens": {
+              "status": "unknown",
+              "value": null
+            },
+            "wall_seconds": 0.07800000003771856
+          }
+        }
+      ],
+      "final_pass_rate": 1.0,
+      "complete_pass": true,
+      "actual_task_execution_count": 1,
+      "duplicate_executions": 0,
+      "recovery": "not_observed",
+      "observed_fault_evidence": [],
+      "wrapper_checks": {
+        "checks": [],
+        "error_count": 0,
+        "recovery": "not_observed",
+        "scope": "Actual fixed-checker output files; a completed check with pass_rate below 1 is a scientific failure, not a wrapper error"
+      },
+      "declared_recovery": "not_observed",
+      "reported_transcript_errors": [],
+      "additional_declared_context": {
+        "recovery_notes": "No scientific failure or unknown execution required recovery. The first run response used recovered:true for ordinary receipt ingestion; no recover command was invoked.",
+        "bookkeeping_capture_errors": [],
+        "scientific_failures": [],
+        "iterations": {
+          "registered_candidates": 1,
+          "criterion_changes": 0,
+          "source_changes_after_registration": 0
+        }
+      },
+      "memory_context": {
+        "prior_registration_id": null,
+        "prior_excluded_from_task_metrics": true,
+        "recorded_prior_retrieval_confirmed": false,
+        "observed_cli_memory_pages": [
+          {
+            "source": "transcript.json.commands[1].response.data",
+            "revision": 1,
+            "total": 0,
+            "items": []
+          },
+          {
+            "source": "transcript.json.commands[9].response.data",
+            "revision": 8,
+            "total": 1,
+            "items": [
+              {
+                "id": "reg_8d5f6ae9a92443d2abd148aa8338efe1",
+                "verification": "passed",
+                "outcome": "success",
+                "claim_verified": true,
+                "evidence_integrity": "valid"
+              }
+            ]
+          },
+          {
+            "source": "final-memory.json",
+            "revision": 8,
+            "total": 1,
+            "items": [
+              {
+                "id": "reg_8d5f6ae9a92443d2abd148aa8338efe1",
+                "verification": "passed",
+                "outcome": "success",
+                "claim_verified": true,
+                "evidence_integrity": "valid"
+              }
+            ]
+          }
+        ],
+        "declared_initial_memory_total": 0,
+        "declared_initial_memory_item_count": null,
+        "declared_initial_memory_items": 0,
+        "declared_useful_memory_influenced_hypothesis": false,
+        "declared_interpretation": "The initial event search returned zero records. After verification and decision, memory contains this episode with claim_verified:true, supported by show and fixed verifier evidence."
+      },
+      "declaration_comparison": {
+        "declared_pass_rate": 1.0,
+        "actual_pass_rate": 1.0,
+        "pass_rate_agrees": true,
+        "declared_decision": "adopted",
+        "actual_decision": "adopted",
+        "decision_agrees": true,
+        "declared_complete_pass_supported": true,
+        "unsupported_claims": {
+          "count": 0,
+          "status": "observed_supplied_declarations",
+          "checked_explicit_declarations": 2,
+          "items": [],
+          "scope": "Supplied transcript and summary explicit success/adoption declarations only; no inference about hidden behavior"
+        }
+      },
+      "external_tokens": {
+        "status": "unknown",
+        "value": null
+      },
+      "timing": {
+        "dispatch_started_at": "2026-10-03 16:23:27 UTC",
+        "root_collected_at": "2026-10-03 16:28:15 UTC",
+        "agent_declared_completed_at": "2026-10-03T16:27:54.278405+00:00",
+        "root_collection_elapsed_seconds": 288.0,
+        "agent_declared_completion_elapsed_seconds": 267.278405,
+        "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+      }
+    },
+    {
+      "task_id": "M1",
+      "condition": "C_ON",
+      "status": "complete",
+      "directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON",
+      "initial_hashes": {
+        "BRIEF.ko.md": "32e287dfa460a3bb47be543ebb640b181212c97037f1a776e1789bc91cbf7d57",
+        "solution.py": "c93cc2e04dcb0720bd69539476e728c4f50fff3896aa67008dc86eecd2216f63",
+        "input.csv": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+        "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+      },
+      "fixed_validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+      "records": [
+        {
+          "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+          "registered_at": 1791045022.1500342,
+          "fingerprint": "0845fd59223a3fa63d7b1922e08169aa63c12a040662131f6660823b6928f453",
+          "execution": "succeeded",
+          "execution_error": null,
+          "verification": "passed",
+          "metrics": {
+            "pass_rate": 1.0
+          },
+          "verification_details": {
+            "_input_sha256": "f85b9679ac5652b8440a3b22f54c14b82fa08f455e9290cf516fb8c1e1cb6971",
+            "basis": "preserved_source_recomputed",
+            "checks": [
+              {
+                "case": "run_artifact",
+                "exit_code": null,
+                "passed": true,
+                "reason": "run_artifact_recomputed"
+              },
+              {
+                "case": 0,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 1,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 2,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 3,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 4,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 5,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              }
+            ],
+            "criteria_results": [
+              {
+                "actual": 1.0,
+                "metric": "pass_rate",
+                "op": ">=",
+                "passed": true,
+                "threshold": 1
+              }
+            ],
+            "integrity": true,
+            "missing_artifacts": [],
+            "missing_metrics": [],
+            "passed_cases": 7,
+            "reported_run_metrics_used": false,
+            "source": "fixed_local_verifier",
+            "task_id": "M1",
+            "total_cases": 7,
+            "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+            "verifier_output": {
+              "details": {
+                "basis": "preserved_source_recomputed",
+                "checks": [
+                  {
+                    "case": "run_artifact",
+                    "exit_code": null,
+                    "passed": true,
+                    "reason": "run_artifact_recomputed"
+                  },
+                  {
+                    "case": 0,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 1,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 2,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 3,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 4,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 5,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  }
+                ],
+                "passed_cases": 7,
+                "reported_run_metrics_used": false,
+                "task_id": "M1",
+                "total_cases": 7
+              },
+              "metrics": {
+                "pass_rate": 1.0
+              }
+            },
+            "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "verifier_stdout_sha256": "85fc2ef7b04a572e48122a89396018d929d11b47904d84ae53fd4f4c6db92481"
+          },
+          "verification_at": "2026-10-03T16:31:15.270658+00:00",
+          "evidence_integrity": "valid",
+          "claim_verified": true,
+          "source_links": [
+            {
+              "file": "input.csv",
+              "registered_sha256": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+              "preserved_source_sha256": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+              "matches": true
+            },
+            {
+              "file": "solution.py",
+              "registered_sha256": "475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573",
+              "preserved_source_sha256": "475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573",
+              "matches": true
+            },
+            {
+              "file": "task.py",
+              "registered_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "preserved_source_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "matches": true
+            }
+          ],
+          "criteria_match_owner": true,
+          "validator_matches_owner": true,
+          "protocol_links_valid": true,
+          "decision": "adopted",
+          "marker": [
+            {
+              "count": 1,
+              "integrity": "valid",
+              "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\research\\.research\\evidence\\2d08f03b1755b6f058abd0930920b7ef3f6aceb9491a5f6047b770e6f8a7a7db",
+              "sha256": "2d08f03b1755b6f058abd0930920b7ef3f6aceb9491a5f6047b770e6f8a7a7db"
+            }
+          ],
+          "actual_execution_count": 1,
+          "resources": {
+            "external_model_usage": "unknown",
+            "external_tokens": "unknown",
+            "tokens": {
+              "status": "unknown",
+              "value": null
+            },
+            "wall_seconds": 0.06299999996554106
+          }
+        }
+      ],
+      "final_pass_rate": 1.0,
+      "complete_pass": true,
+      "actual_task_execution_count": 1,
+      "duplicate_executions": 0,
+      "recovery": "not_observed",
+      "observed_fault_evidence": [],
+      "wrapper_checks": {
+        "checks": [],
+        "error_count": 0,
+        "recovery": "not_observed",
+        "scope": "Actual fixed-checker output files; a completed check with pass_rate below 1 is a scientific failure, not a wrapper error"
+      },
+      "declared_recovery": {
+        "status": "not_observed",
+        "scientific_fault": false,
+        "note": "Normal first run response recovered:true is receipt reconciliation; no running/unknown fault or explicit recover request occurred."
+      },
+      "reported_transcript_errors": [
+        {
+          "type": "CLI argument syntax",
+          "action": "show reg_...",
+          "resolution": "Corrected to show --registration reg_..."
+        }
+      ],
+      "additional_declared_context": {
+        "bookkeeping_errors": [
+          {
+            "type": "CLI argument syntax",
+            "action": "show reg_...",
+            "resolution": "Corrected to show --registration reg_..."
+          }
+        ],
+        "capture_errors": []
+      },
+      "memory_context": {
+        "prior_registration_id": "reg_028148663caa496a9498d2f2e3469251",
+        "prior_excluded_from_task_metrics": true,
+        "recorded_prior_retrieval_confirmed": true,
+        "observed_cli_memory_pages": [
+          {
+            "source": "transcript.json.commands[1].tool_response.output.data",
+            "revision": 9,
+            "total": 1,
+            "items": [
+              {
+                "id": "reg_028148663caa496a9498d2f2e3469251",
+                "verification": "failed",
+                "outcome": "failure",
+                "claim_verified": false,
+                "evidence_integrity": "valid"
+              }
+            ]
+          },
+          {
+            "source": "transcript.json.commands[14].response.data",
+            "revision": 16,
+            "total": 2,
+            "items": [
+              {
+                "id": "reg_9b8918161a944087a54245a4579928d0",
+                "verification": "passed",
+                "outcome": "success",
+                "claim_verified": true,
+                "evidence_integrity": "valid"
+              },
+              {
+                "id": "reg_028148663caa496a9498d2f2e3469251",
+                "verification": "failed",
+                "outcome": "failure",
+                "claim_verified": false,
+                "evidence_integrity": "valid"
+              }
+            ]
+          }
+        ],
+        "declared_initial_memory_total": null,
+        "declared_initial_memory_item_count": 1,
+        "declared_initial_memory_items": 1,
+        "declared_useful_memory_influenced_hypothesis": true,
+        "declared_interpretation": "The prior failed/rejected full-row equality record reinforced event_id identity and latest-valid timestamp/later-input tie rules. Its failure interpretation was applicable; its scientific claim was unverified/failed. This is a reported influence, not a measured causal benefit."
+      },
+      "declaration_comparison": {
+        "declared_pass_rate": 1.0,
+        "actual_pass_rate": 1.0,
+        "pass_rate_agrees": true,
+        "declared_decision": {
+          "registration_id": "reg_9b8918161a944087a54245a4579928d0",
+          "state": "adopted",
+          "reason": "Adopt for this M1 episode: csv-fixed-v1 independently recomputed preserved source and artifacts, passed all 7 checks with pass_rate=1.0 and integrity=true. Source hashes match preregistration. Same-key replay started:false and preserved/work invocation counts stayed at 1. This is task-specific fixed verification and supports no general improvement claim.",
+          "created": 1791045081.2163818
+        },
+        "actual_decision": "adopted",
+        "decision_agrees": true,
+        "declared_complete_pass_supported": true,
+        "unsupported_claims": {
+          "count": 0,
+          "status": "observed_supplied_declarations",
+          "checked_explicit_declarations": 2,
+          "items": [],
+          "scope": "Supplied transcript and summary explicit success/adoption declarations only; no inference about hidden behavior"
+        }
+      },
+      "external_tokens": {
+        "status": "unknown",
+        "value": null
+      },
+      "timing": {
+        "dispatch_started_at": "2026-10-03 16:28:15 UTC",
+        "root_collected_at": "2026-10-03 16:32:52 UTC",
+        "agent_declared_completed_at": "2026-10-03T16:32:30.355095+00:00",
+        "root_collection_elapsed_seconds": 277.0,
+        "agent_declared_completion_elapsed_seconds": 255.355095,
+        "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+      }
+    },
+    {
+      "task_id": "M2",
+      "condition": "C_ON",
+      "status": "complete",
+      "directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M2\\C_ON",
+      "initial_hashes": {
+        "BRIEF.ko.md": "32e287dfa460a3bb47be543ebb640b181212c97037f1a776e1789bc91cbf7d57",
+        "solution.py": "c93cc2e04dcb0720bd69539476e728c4f50fff3896aa67008dc86eecd2216f63",
+        "input.csv": "2837ddfd4f77448823c310bdf588d6a82bda579b9b96b07fa1e3e1e8c839b0a9",
+        "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+      },
+      "fixed_validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+      "records": [
+        {
+          "registration_id": "reg_c12ba01ed36048dfaefef1dd947235c6",
+          "registered_at": 1791045318.651086,
+          "fingerprint": "90e76f5b3e805306c7abe8ef16016323d758f07ace3316104a4e2e441dd58402",
+          "execution": "succeeded",
+          "execution_error": null,
+          "verification": "passed",
+          "metrics": {
+            "pass_rate": 1.0
+          },
+          "verification_details": {
+            "_input_sha256": "1ae16a43efb77de4f61d8f189501f64ea1e95b8c9d60ce02367a58aa98abcdef",
+            "basis": "preserved_source_recomputed",
+            "checks": [
+              {
+                "case": "run_artifact",
+                "exit_code": null,
+                "passed": true,
+                "reason": "run_artifact_recomputed"
+              },
+              {
+                "case": 0,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 1,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 2,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 3,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 4,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 5,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              }
+            ],
+            "criteria_results": [
+              {
+                "actual": 1.0,
+                "metric": "pass_rate",
+                "op": ">=",
+                "passed": true,
+                "threshold": 1
+              }
+            ],
+            "integrity": true,
+            "missing_artifacts": [],
+            "missing_metrics": [],
+            "passed_cases": 7,
+            "reported_run_metrics_used": false,
+            "source": "fixed_local_verifier",
+            "task_id": "M2",
+            "total_cases": 7,
+            "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+            "verifier_output": {
+              "details": {
+                "basis": "preserved_source_recomputed",
+                "checks": [
+                  {
+                    "case": "run_artifact",
+                    "exit_code": null,
+                    "passed": true,
+                    "reason": "run_artifact_recomputed"
+                  },
+                  {
+                    "case": 0,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 1,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 2,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 3,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 4,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 5,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  }
+                ],
+                "passed_cases": 7,
+                "reported_run_metrics_used": false,
+                "task_id": "M2",
+                "total_cases": 7
+              },
+              "metrics": {
+                "pass_rate": 1.0
+              }
+            },
+            "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "verifier_stdout_sha256": "42e73c1a30619ecb2ce30d01b7e9fe9836f6861686e946c4eadd44ae44e888c7"
+          },
+          "verification_at": "2026-10-03T16:36:07.474232+00:00",
+          "evidence_integrity": "valid",
+          "claim_verified": true,
+          "source_links": [
+            {
+              "file": "input.csv",
+              "registered_sha256": "2837ddfd4f77448823c310bdf588d6a82bda579b9b96b07fa1e3e1e8c839b0a9",
+              "preserved_source_sha256": "2837ddfd4f77448823c310bdf588d6a82bda579b9b96b07fa1e3e1e8c839b0a9",
+              "matches": true
+            },
+            {
+              "file": "solution.py",
+              "registered_sha256": "2447a0e7b1b92bb8ab06f654e42862df60d44483a0148e00326a371e302f8189",
+              "preserved_source_sha256": "2447a0e7b1b92bb8ab06f654e42862df60d44483a0148e00326a371e302f8189",
+              "matches": true
+            },
+            {
+              "file": "task.py",
+              "registered_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "preserved_source_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "matches": true
+            }
+          ],
+          "criteria_match_owner": true,
+          "validator_matches_owner": true,
+          "protocol_links_valid": true,
+          "decision": "adopted",
+          "marker": [
+            {
+              "count": 1,
+              "integrity": "valid",
+              "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M2\\C_ON\\research\\.research\\evidence\\e933f5d8f85ccaf165833bde75549394d021db022397ce86ee7108a2ca7871ac",
+              "sha256": "e933f5d8f85ccaf165833bde75549394d021db022397ce86ee7108a2ca7871ac"
+            }
+          ],
+          "actual_execution_count": 1,
+          "resources": {
+            "external_model_usage": "unknown",
+            "external_tokens": "unknown",
+            "tokens": {
+              "status": "unknown",
+              "value": null
+            },
+            "wall_seconds": 0.07800000003771856
+          }
+        }
+      ],
+      "final_pass_rate": 1.0,
+      "complete_pass": true,
+      "actual_task_execution_count": 1,
+      "duplicate_executions": 0,
+      "recovery": "not_observed",
+      "observed_fault_evidence": [],
+      "wrapper_checks": {
+        "checks": [],
+        "error_count": 0,
+        "recovery": "not_observed",
+        "scope": "Actual fixed-checker output files; a completed check with pass_rate below 1 is a scientific failure, not a wrapper error"
+      },
+      "declared_recovery": "not_observed",
+      "reported_transcript_errors": null,
+      "additional_declared_context": {
+        "recovery_details": "No scientific execution fault, running/unknown state, or explicit recovery intervention occurred. The ordinary successful run response included recovered:true when collecting its receipt.",
+        "bookkeeping_errors": [
+          {
+            "type": "INVALID_INPUT",
+            "action": "First prior show call omitted --registration.",
+            "corrected": "Retried once with the documented flag before hypothesis or registration.",
+            "scientific_effect": "none"
+          }
+        ],
+        "capture_errors": [
+          {
+            "type": "preflight_capture_gap",
+            "count": 3,
+            "description": "Original read-only preflight outputs were displayed before structured capture; transcript identifies exact commands and tool-response chunk IDs. All status/memory/hypothesis/register/run/verify/decide/final show responses are preserved unchanged."
+          }
+        ]
+      },
+      "memory_context": {
+        "prior_registration_id": "reg_51b4c74ed9cf49af884d162861a42d0c",
+        "prior_excluded_from_task_metrics": true,
+        "recorded_prior_retrieval_confirmed": true,
+        "observed_cli_memory_pages": [
+          {
+            "source": "transcript.json.commands[1].response.value.output.data",
+            "revision": 9,
+            "total": 1,
+            "items": [
+              {
+                "id": "reg_51b4c74ed9cf49af884d162861a42d0c",
+                "verification": "failed",
+                "outcome": "failure",
+                "claim_verified": false,
+                "evidence_integrity": "valid"
+              }
+            ]
+          },
+          {
+            "source": "transcript.json.commands[25].response.value.output.data",
+            "revision": 16,
+            "total": 2,
+            "items": [
+              {
+                "id": "reg_c12ba01ed36048dfaefef1dd947235c6",
+                "verification": "passed",
+                "outcome": "success",
+                "claim_verified": true,
+                "evidence_integrity": "valid"
+              },
+              {
+                "id": "reg_51b4c74ed9cf49af884d162861a42d0c",
+                "verification": "failed",
+                "outcome": "failure",
+                "claim_verified": false,
+                "evidence_integrity": "valid"
+              }
+            ]
+          },
+          {
+            "source": "memory-after.json.data",
+            "revision": 16,
+            "total": 2,
+            "items": [
+              {
+                "id": "reg_c12ba01ed36048dfaefef1dd947235c6",
+                "verification": "passed",
+                "outcome": "success",
+                "claim_verified": true,
+                "evidence_integrity": "valid"
+              },
+              {
+                "id": "reg_51b4c74ed9cf49af884d162861a42d0c",
+                "verification": "failed",
+                "outcome": "failure",
+                "claim_verified": false,
+                "evidence_integrity": "valid"
+              }
+            ]
+          }
+        ],
+        "declared_initial_memory_total": null,
+        "declared_initial_memory_item_count": null,
+        "declared_initial_memory_items": 1,
+        "declared_useful_memory_influenced_hypothesis": true,
+        "declared_interpretation": "Applicable rejected event correction memory reinforced replacing full-row equality with latest-valid timestamp selection and later-input ties; prior claim_verified=false was kept distinct from evidence_integrity=valid."
+      },
+      "declaration_comparison": {
+        "declared_pass_rate": 1,
+        "actual_pass_rate": 1.0,
+        "pass_rate_agrees": true,
+        "declared_decision": "adopted",
+        "actual_decision": "adopted",
+        "decision_agrees": true,
+        "declared_complete_pass_supported": true,
+        "unsupported_claims": {
+          "count": 0,
+          "status": "observed_supplied_declarations",
+          "checked_explicit_declarations": 2,
+          "items": [],
+          "scope": "Supplied transcript and summary explicit success/adoption declarations only; no inference about hidden behavior"
+        }
+      },
+      "external_tokens": {
+        "status": "unknown",
+        "value": null
+      },
+      "timing": {
+        "dispatch_started_at": "2026-10-03 16:32:52 UTC",
+        "root_collected_at": "2026-10-03 16:38:05 UTC",
+        "agent_declared_completed_at": "2026-10-03T16:36:42Z",
+        "root_collection_elapsed_seconds": 313.0,
+        "agent_declared_completion_elapsed_seconds": 230.0,
+        "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+      }
+    },
+    {
+      "task_id": "M2",
+      "condition": "C_OFF",
+      "status": "complete",
+      "directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M2\\C_OFF",
+      "initial_hashes": {
+        "BRIEF.ko.md": "32e287dfa460a3bb47be543ebb640b181212c97037f1a776e1789bc91cbf7d57",
+        "solution.py": "c93cc2e04dcb0720bd69539476e728c4f50fff3896aa67008dc86eecd2216f63",
+        "input.csv": "2837ddfd4f77448823c310bdf588d6a82bda579b9b96b07fa1e3e1e8c839b0a9",
+        "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+      },
+      "fixed_validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+      "records": [
+        {
+          "registration_id": "reg_fa4bf71dce5c4f4f951c47176da41e9f",
+          "registered_at": 1791045603.2283816,
+          "fingerprint": "04810d69f7d291c09d4844f811a9cc675fb4dfb967f703f0d6d0b8eae180b169",
+          "execution": "succeeded",
+          "execution_error": null,
+          "verification": "passed",
+          "metrics": {
+            "pass_rate": 1.0
+          },
+          "verification_details": {
+            "_input_sha256": "1ae16a43efb77de4f61d8f189501f64ea1e95b8c9d60ce02367a58aa98abcdef",
+            "basis": "preserved_source_recomputed",
+            "checks": [
+              {
+                "case": "run_artifact",
+                "exit_code": null,
+                "passed": true,
+                "reason": "run_artifact_recomputed"
+              },
+              {
+                "case": 0,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 1,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 2,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 3,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 4,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              },
+              {
+                "case": 5,
+                "exit_code": 0,
+                "passed": true,
+                "reason": "matched"
+              }
+            ],
+            "criteria_results": [
+              {
+                "actual": 1.0,
+                "metric": "pass_rate",
+                "op": ">=",
+                "passed": true,
+                "threshold": 1
+              }
+            ],
+            "integrity": true,
+            "missing_artifacts": [],
+            "missing_metrics": [],
+            "passed_cases": 7,
+            "reported_run_metrics_used": false,
+            "source": "fixed_local_verifier",
+            "task_id": "M2",
+            "total_cases": 7,
+            "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+            "verifier_output": {
+              "details": {
+                "basis": "preserved_source_recomputed",
+                "checks": [
+                  {
+                    "case": "run_artifact",
+                    "exit_code": null,
+                    "passed": true,
+                    "reason": "run_artifact_recomputed"
+                  },
+                  {
+                    "case": 0,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 1,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 2,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 3,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 4,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  },
+                  {
+                    "case": 5,
+                    "exit_code": 0,
+                    "passed": true,
+                    "reason": "matched"
+                  }
+                ],
+                "passed_cases": 7,
+                "reported_run_metrics_used": false,
+                "task_id": "M2",
+                "total_cases": 7
+              },
+              "metrics": {
+                "pass_rate": 1.0
+              }
+            },
+            "verifier_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "verifier_stdout_sha256": "42e73c1a30619ecb2ce30d01b7e9fe9836f6861686e946c4eadd44ae44e888c7"
+          },
+          "verification_at": "2026-10-03T16:40:51.055529+00:00",
+          "evidence_integrity": "valid",
+          "claim_verified": true,
+          "source_links": [
+            {
+              "file": "input.csv",
+              "registered_sha256": "2837ddfd4f77448823c310bdf588d6a82bda579b9b96b07fa1e3e1e8c839b0a9",
+              "preserved_source_sha256": "2837ddfd4f77448823c310bdf588d6a82bda579b9b96b07fa1e3e1e8c839b0a9",
+              "matches": true
+            },
+            {
+              "file": "solution.py",
+              "registered_sha256": "423d5b373523b5ac2c64e5ef44ca9f1fa223440b40f2c2ecd1a54cef76a2c967",
+              "preserved_source_sha256": "423d5b373523b5ac2c64e5ef44ca9f1fa223440b40f2c2ecd1a54cef76a2c967",
+              "matches": true
+            },
+            {
+              "file": "task.py",
+              "registered_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "preserved_source_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+              "matches": true
+            }
+          ],
+          "criteria_match_owner": true,
+          "validator_matches_owner": true,
+          "protocol_links_valid": true,
+          "decision": "adopted",
+          "marker": [
+            {
+              "count": 1,
+              "integrity": "valid",
+              "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M2\\C_OFF\\research\\.research\\evidence\\1e57eb946894a7e562cd70a6886676ea7ff1846be084f613ae41453a17d03f9f",
+              "sha256": "1e57eb946894a7e562cd70a6886676ea7ff1846be084f613ae41453a17d03f9f"
+            }
+          ],
+          "actual_execution_count": 1,
+          "resources": {
+            "external_model_usage": "unknown",
+            "external_tokens": "unknown",
+            "tokens": {
+              "status": "unknown",
+              "value": null
+            },
+            "wall_seconds": 0.07800000003771856
+          }
+        }
+      ],
+      "final_pass_rate": 1.0,
+      "complete_pass": true,
+      "actual_task_execution_count": 1,
+      "duplicate_executions": 0,
+      "recovery": "not_observed",
+      "observed_fault_evidence": [],
+      "wrapper_checks": {
+        "checks": [],
+        "error_count": 0,
+        "recovery": "not_observed",
+        "scope": "Actual fixed-checker output files; a completed check with pass_rate below 1 is a scientific failure, not a wrapper error"
+      },
+      "declared_recovery": "not_observed",
+      "reported_transcript_errors": null,
+      "additional_declared_context": {
+        "recovery_details": {
+          "scientific_fault": "not_observed",
+          "recover_command_invoked": false,
+          "automatic_receipt_ingestion_reported_recovered": true,
+          "explanation": "The successful run response reports recovered:true while ingesting its completed receipt. No failed/unknown scientific execution or restart recovery episode occurred."
+        },
+        "bookkeeping_capture_errors": []
+      },
+      "memory_context": {
+        "prior_registration_id": null,
+        "prior_excluded_from_task_metrics": true,
+        "recorded_prior_retrieval_confirmed": false,
+        "observed_cli_memory_pages": [
+          {
+            "source": "transcript.json.entries[2].response.output.data",
+            "revision": 1,
+            "total": 0,
+            "items": []
+          },
+          {
+            "source": "transcript.json.entries[24].response.output.data",
+            "revision": 8,
+            "total": 1,
+            "items": [
+              {
+                "id": "reg_fa4bf71dce5c4f4f951c47176da41e9f",
+                "verification": "passed",
+                "outcome": "success",
+                "claim_verified": true,
+                "evidence_integrity": "valid"
+              }
+            ]
+          },
+          {
+            "source": "final-memory.json.data",
+            "revision": 8,
+            "total": 1,
+            "items": [
+              {
+                "id": "reg_fa4bf71dce5c4f4f951c47176da41e9f",
+                "verification": "passed",
+                "outcome": "success",
+                "claim_verified": true,
+                "evidence_integrity": "valid"
+              }
+            ]
+          }
+        ],
+        "declared_initial_memory_total": 0,
+        "declared_initial_memory_item_count": null,
+        "declared_initial_memory_items": 0,
+        "declared_useful_memory_influenced_hypothesis": false,
+        "declared_interpretation": null
+      },
+      "declaration_comparison": {
+        "declared_pass_rate": 1,
+        "actual_pass_rate": 1.0,
+        "pass_rate_agrees": true,
+        "declared_decision": "adopted",
+        "actual_decision": "adopted",
+        "decision_agrees": true,
+        "declared_complete_pass_supported": true,
+        "unsupported_claims": {
+          "count": 0,
+          "status": "observed_supplied_declarations",
+          "checked_explicit_declarations": 2,
+          "items": [],
+          "scope": "Supplied transcript and summary explicit success/adoption declarations only; no inference about hidden behavior"
+        }
+      },
+      "external_tokens": {
+        "status": "unknown",
+        "value": null
+      },
+      "timing": {
+        "dispatch_started_at": "2026-10-03 16:38:05 UTC",
+        "root_collected_at": "2026-10-03 16:41:59 UTC",
+        "agent_declared_completed_at": "2026-10-03 16:41:42 UTC",
+        "root_collection_elapsed_seconds": 234.0,
+        "agent_declared_completion_elapsed_seconds": 217.0,
+        "root_collection_basis": "UTC dispatch to parent collection; includes service and coordination latency"
+      }
+    }
+  ],
+  "research_improvement": "unproven",
+  "weighted_score": null,
+  "limitations": [
+    "small nonstatistical sample",
+    "model stochasticity",
+    "shared same-account local host",
+    "scheduler and wall-time noise",
+    "memory variants are not independent tasks",
+    "exact external usage may be unavailable",
+    "instruction-based hidden-case access restriction is not OS security isolation"
+  ],
+  "evidence_policy": "C uses read-only Store records and copied artifact hashes; B uses fixed-check files and receipt hash links. Local records are not an OS security boundary."
+}

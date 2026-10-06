@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "data": {
+    "items": [
+      {
+        "id": "reg_5c7bb55e651348ea81eed839828fdaeb",
+        "goal_id": "goal_f4bfa7a4ce244f728ff5f92e5aa3ea73",
+        "hypothesis": "고정 입력의 가중 평균과 분산을 계산한 산출물이 독립 기대값 5와 8에 일치한다.",
+        "execution": "succeeded",
+        "verification": "passed",
+        "decision": "adopted",
+        "outcome": "success",
+        "reason": "개발용 고정 과제의 보존 산출물에서 독립 검증 pass_rate=1.0을 확인했다. 웹 연결 기능 실연이며 연구 성능 개선을 뜻하지 않는다.",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "tokens": {
+            "status": "unknown",
+            "value": null
+          },
+          "wall_seconds": 0.062000000034458935
+        },
+        "evidence_count": 6,
+        "summary": "고정 가중 입력으로 평균·분산을 계산하는 개발용 실험",
+        "conditions": {
+          "comparison": "소스와 분리해 고정한 독립 기대값 mean=5, variance=8",
+          "data_split": {
+            "development": "공개 고정 입력 [1,5,9], 가중치 [1,2,1]",
+            "evaluation": "개발용 연결 검사; 성능 비교 과제 아님"
+          },
+          "seed": 0,
+          "source_version": {
+            "files": {
+              "task.py": "844e2c448af3e5820bdef8269d7f3e5300b6f12156e738e99dfb6c72e8a18c22"
+            },
+            "label": "web-demo-v1"
+          }
+        },
+        "evidence_integrity": "valid",
+        "claim_verified": true
+      }
+    ],
+    "total": 1,
+    "limit": 5,
+    "offset": 0,
+    "revision": 8
+  }
+}

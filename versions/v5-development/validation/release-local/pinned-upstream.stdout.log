@@ -1,8 +1,0 @@
-{
-  "valid": true,
-  "upstream_commit": "d9017d90e329112d2a80b7712f37ee9094d2cd27",
-  "verified_files": 35,
-  "downloaded_files": 0,
-  "snapshot": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\versions\\v5-development\\references\\upstream\\AgentLaboratory-d9017d90e329112d2a80b7712f37ee9094d2cd27",
-  "executed_upstream_code": false
-}

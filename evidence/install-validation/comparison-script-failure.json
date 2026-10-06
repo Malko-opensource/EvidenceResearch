@@ -1,9 +1,0 @@
-{
-  "failure_kind": "owner_comparison_script_error",
-  "cause": "KeyError: observed_results; the archived report schema uses observed",
-  "completed_phases": ["doctor", "upstream-acquisition", "unit-checks", "frozen-cpu-reproduction"],
-  "completed_phase_exit_codes": [0, 0, 0, 0],
-  "repair": "Use the actual observed field and reconcile hash-checked phase completion receipts",
-  "repeat_completed_executions": false,
-  "framework_improvement_claim": false
-}

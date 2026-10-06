@@ -1,0 +1,24 @@
+{
+  "deployment": {
+    "shell_command": "$episodePath = 'C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON'; Copy-Item -LiteralPath (Join-Path $episodePath 'candidate.py') -Destination (Join-Path $episodePath 'solution.py'); $actualHash = (Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $episodePath 'solution.py')).Hash.ToLower(); @{solution_sha256=$actualHash;expected_sha256='475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573';matches=($actualHash -eq '475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573')} | ConvertTo-Json -Compress",
+    "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch",
+    "tool_response": {
+      "chunk_id": "07b500",
+      "wall_time_seconds": 0.1478634,
+      "exit_code": 0,
+      "original_token_count": 47,
+      "output": "{\"matches\":true,\"solution_sha256\":\"475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573\",\"expected_sha256\":\"475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573\"}\r\n"
+    }
+  },
+  "source_hashes": {
+    "input.csv": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+    "candidate.py": "475a51098e93a3fb27def1ef115552583464ebc3097d77c38703c0d3fd38f573"
+  },
+  "draft_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\candidate.py",
+  "spec_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\M1\\C_ON\\spec.json",
+  "notes": [
+    "Draft and spec files existed before registration. Deployment copy occurred after successful registration and before the only task launch.",
+    "Outer tool view truncated replay and final show, but capture_cli.py preserved complete original stdout/stderr before printing; no response capture was lost."
+  ]
+}

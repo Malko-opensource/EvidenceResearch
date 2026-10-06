@@ -1,0 +1,31 @@
+{
+  "protocol_id": "csv-feasibility-20261004-v1",
+  "algorithm": "sha256",
+  "files": {
+    "check.py": "fcdb86f6a87be81cf4725a0a865019a13e9a18d62fe50958cc748377332081a1",
+    "fixed_validator.py": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+    "freeze_protocol.py": "861e76717ff34a097a2b59586c77c69144edca1b387bb709c90542f6891d447a",
+    "prepare.py": "0ad801046fc78b33ae836b5ebb9d6e9b27c948ed0e69f0ce2d8fbb2c61810db9",
+    "protocol.json": "bf0cd7ede28b0866f2df4fd12339c8f4ce54c4e26199dbc828976e6b2b1e5290",
+    "PROTOCOL.ko.md": "ea7ff34460cb7f48a931cf1b2b52aa9ceb40a89fabb4fe5b50f5faf126749b99",
+    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+    "tasks/D/BRIEF.ko.md": "8e614ba6eb75eec7bd916b2152650db2892ea4865ae949983d7783fd5236785d",
+    "tasks/D/input.csv": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+    "tasks/D/solution.py": "2a99df3498a24791deb62b6815bbde3181bd6c3b29b0cc0d713e01a0489de03a",
+    "tasks/F1/BRIEF.ko.md": "f8613ce5bd8e246f3ae290d9eb97cffe833c9f56e2e8657006a525346ddace9e",
+    "tasks/F1/input.csv": "62100a2fd5250a0e8431bfdaf230ad862199be1df865035e9be93f407e2fc1ab",
+    "tasks/F1/solution.py": "148120933540d3975e979260b00ec3b062448b27ed11941f068072a69c96e0db",
+    "tasks/F2/BRIEF.ko.md": "1fbb3e434e179a5c0bc820052d09bcd0cb5772cc8cf330a47f477846e3e03b5a",
+    "tasks/F2/input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+    "tasks/F2/solution.py": "e4599bbbff34941ea50a56c6bbf93c33efc92034bf6dc4009fd463d89ad66d45",
+    "tasks/M1/BRIEF.ko.md": "32e287dfa460a3bb47be543ebb640b181212c97037f1a776e1789bc91cbf7d57",
+    "tasks/M1/input.csv": "e60e79379e9722d12a261f1937d3e8ee8fff649af5542d98a3bfaafedd458ba9",
+    "tasks/M1/solution.py": "c93cc2e04dcb0720bd69539476e728c4f50fff3896aa67008dc86eecd2216f63",
+    "tasks/M2/BRIEF.ko.md": "32e287dfa460a3bb47be543ebb640b181212c97037f1a776e1789bc91cbf7d57",
+    "tasks/M2/input.csv": "2837ddfd4f77448823c310bdf588d6a82bda579b9b96b07fa1e3e1e8c839b0a9",
+    "tasks/M2/solution.py": "c93cc2e04dcb0720bd69539476e728c4f50fff3896aa67008dc86eecd2216f63",
+    "tasks/M_PRIOR/BRIEF.ko.md": "88316739f06b617e8a47becd2b01f077acfe52792399b5294f74d0c3238128ab",
+    "tasks/M_PRIOR/input.csv": "dfccea72fbf5097e9575e651f9443037f979023ddafe24ead5aa846c9f377ef7",
+    "tasks/M_PRIOR/solution.py": "172496c3f498601977731174fedb41dfa582bef65846e992fca0e4cb84f29a62"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-04T10:30:18.2415760Z",
+  "parent": 10344,
+  "child": 1732,
+  "child_command": "\"C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" -I -m research_cli.web_server --root \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\" --port 8765",
+  "scope_verified": true
+}

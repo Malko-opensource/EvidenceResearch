@@ -1,0 +1,20 @@
+{
+  "name": "evidence-research-local",
+  "interface": {
+    "displayName": "EvidenceResearch Local"
+  },
+  "plugins": [
+    {
+      "name": "research-observatory",
+      "source": {
+        "source": "local",
+        "path": "./research-observatory"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Engineering"
+    }
+  ]
+}

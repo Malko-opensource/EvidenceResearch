@@ -1,0 +1,7 @@
+{
+  "name": "research-observatory",
+  "version": "0.8.0",
+  "description": "Design persistent research goals and explain verified evidence through the CLI and WebMCP observatory.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

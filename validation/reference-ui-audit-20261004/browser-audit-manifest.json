@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "scope": "live local UI simplicity audit; no usability experiment or research improvement claim",
+  "apps": {
+    "current": {
+      "url": "http://127.0.0.1:8765/",
+      "version": "0.8.0",
+      "workspace": "goal-plugin-demo-20261004",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "page_height": {
+        "overview": 1306,
+        "relations": 1555
+      },
+      "status_before_after_identical": true,
+      "revision": 21
+    },
+    "archify": {
+      "url": "http://127.0.0.1:8771/examples/web-app.html",
+      "version": "3.0.1",
+      "commit": "7158026e852f3aa6578c741e673b46d7878c92c1",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "page_height": {
+        "default": 1213,
+        "present": 720
+      },
+      "source": "original checked-in standalone HTML with original public sample graph; no model call"
+    },
+    "graft": {
+      "url": "http://127.0.0.1:8772/",
+      "version": "0.21.1",
+      "commit": "fe30ead39d5e6f0c921018d364da2bdbc9d4b3ad",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "page_height": 800,
+      "context": {
+        "nodes": 8,
+        "links": 12,
+        "provenance": "hand-authored source-grounded sample, original assembler/viewer"
+      },
+      "code": {
+        "nodes": 100,
+        "visible_links": 224,
+        "parser_edges": 234,
+        "provenance": "original deterministic parser on eight unchanged TS files"
+      }
+    }
+  },
+  "webmcp_calls": [
+    "status(before)",
+    "view(analysis)",
+    "view(graph)",
+    "show(registration)",
+    "inspect_evidence(summary)",
+    "view(overview)",
+    "status(after)"
+  ],
+  "screenshots": [
+    {
+      "file": "screenshots/01-current-overview.jpg",
+      "sha256": "2039d675f967b5e5ba707a4ce159ef12214aa0ac39cf90dad5080cdb3d888db0",
+      "bytes": 121300,
+      "captured_at": "2026-10-04T13:55:12.325Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/02a-current-analysis.jpg",
+      "sha256": "4294d74b11e0507672da8f1c6b7b08d6c3664ed7e88c30bdf7ee871d44c69a8d",
+      "bytes": 119251,
+      "captured_at": "2026-10-04T13:56:40.259Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/02b-current-relations.jpg",
+      "sha256": "be06eed977697904ca18d67593f2523b593b20924e2f26acc72b18c5cdc72c50",
+      "bytes": 104376,
+      "captured_at": "2026-10-04T13:56:44.132Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/03-current-evidence.jpg",
+      "sha256": "8cfe2b1f423107be7a512d84651a8403de2ce8fbc4d143dcfdb2bc0de10be733",
+      "bytes": 78999,
+      "captured_at": "2026-10-04T13:57:16.801Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/04a-archify-default.jpg",
+      "sha256": "fc6ea39a76b735931cbc77048099b7e4c3e7dc11302ef992630bc4dd18a033d8",
+      "bytes": 75934,
+      "captured_at": "2026-10-04T13:56:12.915Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/04b-archify-focus.jpg",
+      "sha256": "117376c83d098d5455eaeb8c5ef80d8be697ff94f141da496a179a557c6e5964",
+      "bytes": 75600,
+      "captured_at": "2026-10-04T13:55:12.374Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/05-archify-present.jpg",
+      "sha256": "8e3d186733c8c7e048f88222b01e5366a0fb810fd6ba4294b572420eb05cbb9b",
+      "bytes": 70406,
+      "captured_at": "2026-10-04T13:56:12.791Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/06a-graft-default.jpg",
+      "sha256": "64f8d8dcbbc7e007efd65477d2e3fb108a4bba834545ec30dbd40a74e340aac8",
+      "bytes": 31181,
+      "captured_at": "2026-10-04T13:55:12.429Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/06b-graft-focus-canvas.jpg",
+      "sha256": "68b9d9513bea597449be09f81bd1aec70007307f42b57c0587da55d186f64acc",
+      "bytes": 47951,
+      "captured_at": "2026-10-04T13:55:30.690Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/06c-graft-focus-replaced.jpg",
+      "sha256": "232c935b56fbadd6f1a077254843b8d7669bde609ca8f4b67edce16dc8b7a01d",
+      "bytes": 50002,
+      "captured_at": "2026-10-04T13:55:30.776Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/07a-graft-code.jpg",
+      "sha256": "a53f50cea267a625b0a80d991c23deeda471035e964fc165079ab9187d5853c0",
+      "bytes": 80748,
+      "captured_at": "2026-10-04T13:55:51.076Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/07b-graft-code-focus.jpg",
+      "sha256": "a173797d2d20e994321706182b7a97c1f11d7a0f490112b6eaadbdf24a43e4bf",
+      "bytes": 80209,
+      "captured_at": "2026-10-04T13:55:51.200Z",
+      "reviewed_saved_image": true
+    },
+    {
+      "file": "screenshots/07c-graft-code-reset.jpg",
+      "sha256": "fd40820210c5de1dadde8ad6e3a5866b031cb69c818658125dcae1da9e702fd1",
+      "bytes": 77706,
+      "captured_at": "2026-10-04T13:56:00.408Z",
+      "reviewed_saved_image": true
+    }
+  ],
+  "excluded_capture_attempts": [
+    "current-overview.png: original viewport only; JPEG saved with wrong extension",
+    "current-overview-1280.png: resize/CDP paint/scale artifact; excluded from comparisons",
+    "archify-default.png: original high-level JPEG saved with wrong extension",
+    "archify-default-1280.png: CDP physical scale 1920x1080, excluded from matched comparison"
+  ],
+  "limitations": [
+    "All accepted captures share 1280 CSS px width, Archify effective height remains720 vs current/Graft800; no exact pixel-area comparison",
+    "No participant study or completion-time usability measurement",
+    "Context Graft descriptions are authored audit input, not model-generated findings",
+    "Graft CLI preAction bypassed via unchanged source APIs to avoid global writes"
+  ]
+}

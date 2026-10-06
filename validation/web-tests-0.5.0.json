@@ -1,0 +1,13 @@
+{
+  "version": "0.5.0",
+  "at": "2026-10-04T06:04:06.224917+00:00",
+  "tests_run": 48,
+  "skipped": 0,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "seconds": 37.295456400024705,
+  "actual_http_transport": true,
+  "mcp_sdk_installed": true,
+  "model_calls_in_service": false
+}

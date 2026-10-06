@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "research_state": {
+      "command": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+      "args": [
+        "-I",
+        "-m",
+        "research_cli.mcp_server",
+        "--root",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\plugin-0.8.0\\research-root"
+      ]
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "version": "0.8.0",
+  "installed_module": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Lib\\site-packages\\research_cli\\__init__.py",
+  "module_matches": {
+    "cli.py": true,
+    "core.py": true,
+    "laya.py": true,
+    "mcp_bridge.py": true,
+    "mcp_server.py": true,
+    "runner.py": true,
+    "transfer.py": true,
+    "web_server.py": true,
+    "web_tools.py": true,
+    "worker.py": true,
+    "__init__.py": true,
+    "__main__.py": true
+  },
+  "assets": {
+    "app.js": {
+      "sha256": "b8934796385c91cf9365e42ae1bc4404beec0c5e82cd1b557c98d65c785a71a8",
+      "bytes": 60415
+    },
+    "index.html": {
+      "sha256": "7ef2e5b08d76d1a6e4ed6f8b078321322af13c021281aba5991c9e1bf12613a8",
+      "bytes": 3359
+    },
+    "styles.css": {
+      "sha256": "5b50e4068723e4fa944083bc0e97cb4de522704602ce44308bd80a023f39f17c",
+      "bytes": 27209
+    },
+    "view_model.js": {
+      "sha256": "a3a66143f22f26f3a5449962d1c374b56d7f8f5b5910650f4c37c7bbbefceb69",
+      "bytes": 55069
+    }
+  },
+  "tool_count": 23,
+  "tools": [
+    "research_help",
+    "research_init",
+    "research_goal",
+    "research_goal_show",
+    "research_goal_amend",
+    "research_goal_close",
+    "research_goal_resume",
+    "research_resource",
+    "research_resource_show",
+    "research_hypothesis",
+    "research_register",
+    "research_status",
+    "research_memory",
+    "research_show",
+    "research_run",
+    "research_recover",
+    "research_verify",
+    "research_decide",
+    "research_evidence",
+    "research_export",
+    "research_restore",
+    "research_laya_prepare",
+    "research_laya_resolve"
+  ],
+  "mcp_sdk_available": false,
+  "core_runtime_dependencies": [],
+  "outside_source_cwd": true,
+  "isolated_import": true,
+  "revision": 8,
+  "research_state_unchanged": true,
+  "model_calls": false,
+  "experiment_launched": false,
+  "temporary_server_stopped": true
+}

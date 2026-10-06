@@ -1,0 +1,225 @@
+{
+  "at": "2026-10-04T09:18:38.830049+00:00",
+  "version": "0.6.0",
+  "purpose": "Agent-only WebMCP spectator development episode; excluded from scientific performance comparison",
+  "url": "http://127.0.0.1:8765/",
+  "browser": "Codex in-app browser; real document.modelContext",
+  "native_tool_count": 19,
+  "core_stdio_http_tools": 17,
+  "browser_presentation_tools": 2,
+  "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\agent-observatory-20261004",
+  "registration": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+  "run": "run_06e2d954f4ac4636b1da7867197eabd0",
+  "execution_state": "succeeded",
+  "verification_state": "passed",
+  "decision_state": "adopted",
+  "metrics": {
+    "pass_rate": 1.0
+  },
+  "original_result": {
+    "mean": 5.0,
+    "variance": 9.0
+  },
+  "run_records": 1,
+  "actual_launch_marker_count": 1,
+  "repeated_request_started": false,
+  "before_verification_adoption_rejected": true,
+  "invalid_presentation_rejected": true,
+  "evidence_tampering_rejected": true,
+  "tampering_test_restored_original_bytes": true,
+  "memory_integrity_without_revision": {
+    "memory": "[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.성공고정 가중 입력의 평균과 모집단 분산 산출reg_e14e5d2699f04be5a89f71ed23adbd30실행 · 실행 성공검증 · 검증 통과결정 · 채택주장 미검증 · 실행 미확정보존 산출물 mean=5, variance=9를 고정 독립 검증기가 확인했고 pass_rate=1이다. 에이전트 관전실 개발 실연이며 연구 성능 개선을 주장하지 않는다.{\n  \"conditions\": {\n    \"comparison\": \"후보 코드와 분리해 고정한 독립 기대값 mean=5, variance=9\",\n    \"data_split\": {\n      \"development\": \"공개 고정 입력 [2,4,10], 가중치 [1,2,1]\",\n      \"evaluation\": \"웹 인터페이스 개발용 고정 과제; 과학적 개선 비교에 포함하지 않음\"\n    },\n    \"seed\": 0,\n    \"source_version\": {\n      \"files\": {\n        \"task.py\": \"9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584\"\n      },\n      \"label\": \"agent-observatory-v1\"\n    }\n  },\n  \"resources\": {\n    \"external_model_usage\": \"unknown\",\n    \"external_tokens\": \"unknown\",\n    \"tokens\": {\n      \"status\": \"unknown\",\n      \"value\": null\n    },\n    \"wall_seconds\": 119.625\n  },\n  \"evidence_integrity\": \"invalid\"\n}6개 원본 증거 연결 · 기록 존재와 주장 검증은 별개입니다.",
+    "revision": "REV 8",
+    "scene": "memory",
+    "warning": false
+  },
+  "current_claim_not_execution_unknown": {
+    "memory": "[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.성공고정 가중 입력의 평균과 모집단 분산 산출reg_e14e5d2699f04be5a89f71ed23adbd30실행 · 실행 성공검증 · 검증 통과결정 · 채택현재 주장 · 미검증보존 산출물 mean=5, variance=9를 고정 독립 검증기가 확인했고 pass_rate=1이다. 에이전트 관전실 개발 실연이며 연구 성능 개선을 주장하지 않는다.{\n  \"conditions\": {\n    \"comparison\": \"후보 코드와 분리해 고정한 독립 기대값 mean=5, variance=9\",\n    \"data_split\": {\n      \"development\": \"공개 고정 입력 [2,4,10], 가중치 [1,2,1]\",\n      \"evaluation\": \"웹 인터페이스 개발용 고정 과제; 과학적 개선 비교에 포함하지 않음\"\n    },\n    \"seed\": 0,\n    \"source_version\": {\n      \"files\": {\n        \"task.py\": \"9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584\"\n      },\n      \"label\": \"agent-observatory-v1\"\n    }\n  },\n  \"resources\": {\n    \"external_model_usage\": \"unknown\",\n    \"external_tokens\": \"unknown\",\n    \"tokens\": {\n      \"status\": \"unknown\",\n      \"value\": null\n    },\n    \"wall_seconds\": 119.625\n  },\n  \"evidence_integrity\": \"invalid\"\n}6개 원본 증거 연결 · 기록 존재와 주장 검증은 별개입니다.",
+    "revision": "REV 8"
+  },
+  "dom": {
+    "graphDescription": "목표: 목표 기록, 가설: 가설 제안, 사전등록: 조건 고정, 실행: 실행 성공, 검증: 검증 통과, 결정: 채택",
+    "graphNodes": 6,
+    "humanControls": 0,
+    "metricChart": "pass_rate1고정 기준 >= 1 · 눈금 0–1",
+    "phase": "succeeded",
+    "scene": "overview",
+    "version": "0.6.0",
+    "webmcp": "NATIVE WebMCP · 19/19",
+    "workspace": "agent-observatory-20261004"
+  },
+  "mobile": {
+    "clientWidth": 375,
+    "humanControls": 0,
+    "innerWidth": 390,
+    "nodes": 6,
+    "scrollWidth": 375,
+    "svgViewBox": "0 0 460 690"
+  },
+  "motion": {
+    "normal": {
+      "result": {
+        "type": "string",
+        "value": "{\"phase\":\"idle\",\"execution\":\"running\",\"reduced\":false,\"runningAnimations\":[\"signal-breath\"],\"humanControls\":0}"
+      }
+    },
+    "reduced": {
+      "result": {
+        "type": "string",
+        "value": "{\"reduced\":true,\"runningAnimations\":0}"
+      }
+    },
+    "scope": "Temporary browser test override; reset after observation"
+  },
+  "viewport_override_reset": true,
+  "motion_override_reset": true,
+  "preserved_native_response_count": 20,
+  "preserved_native_tools": [
+    "decide",
+    "export",
+    "inspect",
+    "memory",
+    "recover",
+    "run",
+    "show",
+    "verify",
+    "view"
+  ],
+  "prefix_original_responses_preserved": false,
+  "prefix_provenance": "Actual native init/status/memory/goal/hypothesis/register/run occurred before a browser automation Runtime.evaluate timeout and kernel reset. Their chat tool outputs and durable records/events survive; raw in-memory response array was lost. No synthetic response reconstruction is included.",
+  "durable_events": [
+    {
+      "id": 1,
+      "revision": 1,
+      "action": "goal.create",
+      "target": "goal_42464ccf19a148cc8a5e518cb21e727e",
+      "data": "{\"created\":1791104849.0369248,\"description\":\"사람의 웹 조작 없이 실제 WebMCP로 사전등록、실행、독립 검증、결정과 원문 조회를 보여주는 개발 과제. 연구 성능 평가와 구분.\",\"id\":\"goal_42464ccf19a148cc8a5e518cb21e727e\",\"title\":\"에이전트 관전실 · 가중 통계 실연\"}",
+      "created": 1791104849.0408647
+    },
+    {
+      "id": 2,
+      "revision": 2,
+      "action": "hypothesis.create",
+      "target": "hyp_0b2811c81d9a4f7a900a028e5eed6491",
+      "data": "{\"created\":1791104855.2524416,\"goal_id\":\"goal_42464ccf19a148cc8a5e518cb21e727e\",\"id\":\"hyp_0b2811c81d9a4f7a900a028e5eed6491\",\"statement\":\"[2,4,10]에 가중치 [1,2,1]을 적용한 평균과 분산 산출물이 독립 기대값 5와 9에 일치한다.\"}",
+      "created": 1791104855.2574391
+    },
+    {
+      "id": 3,
+      "revision": 3,
+      "action": "validator.register",
+      "target": "agent-observation-v1",
+      "data": "{\"command\":[\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\.mcp-venv\\\\Scripts\\\\python.exe\",\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\validators\\\\9bf37ba3c8a6a3f49c0835d195263c6a0d82c0f9599cd15cb487f8a0662ea7c4.py\",\"{bundle}\"],\"hashes\":{\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\validators\\\\9bf37ba3c8a6a3f49c0835d195263c6a0d82c0f9599cd15cb487f8a0662ea7c4.py\":\"9bf37ba3c8a6a3f49c0835d195263c6a0d82c0f9599cd15cb487f8a0662ea7c4\"},\"name\":\"agent-observation-v1\",\"original_path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\validator.py\",\"script_path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\validators\\\\9bf37ba3c8a6a3f49c0835d195263c6a0d82c0f9599cd15cb487f8a0662ea7c4.py\",\"sha256\":\"9bf37ba3c8a6a3f49c0835d195263c6a0d82c0f9599cd15cb487f8a0662ea7c4\"}",
+      "created": 1791104895.6127567
+    },
+    {
+      "id": 4,
+      "revision": 4,
+      "action": "registration.create",
+      "target": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "data": "{\"registration\":{\"created\":1791104909.4397662,\"fingerprint\":\"5a5a4563a479d213be1a835eaefd50434fc5daac2e8ae88ed24dd0e6e77cb3d2\",\"goal_id\":\"goal_42464ccf19a148cc8a5e518cb21e727e\",\"hypothesis_id\":\"hyp_0b2811c81d9a4f7a900a028e5eed6491\",\"id\":\"reg_e14e5d2699f04be5a89f71ed23adbd30\",\"spec\":{\"artifacts\":[{\"name\":\"result\",\"path\":\"result.json\"}],\"change\":\"고정 가중 입력의 평균과 모집단 분산 산출\",\"command\":[\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\.mcp-venv\\\\Scripts\\\\python.exe\",\"task.py\"],\"comparison\":\"후보 코드와 분리해 고정한 독립 기대값 mean=5, variance=9\",\"conditions\":{\"interface_test_gate\":\"외부 에이전트가 release-gate.txt를 생성하면 계산한다. 진행 모션의 실제 대기 확인을 위한 개발 실연이며 전체 연구 시간 제한이 아니다.\"},\"criteria\":[{\"metric\":\"pass_rate\",\"op\":\">=\",\"threshold\":1}],\"cwd\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\experiment\",\"data_split\":{\"development\":\"공개 고정 입력 [2,4,10], 가중치 [1,2,1]\",\"evaluation\":\"웹 인터페이스 개발용 고정 과제; 과학적 개선 비교에 포함하지 않음\"},\"hypothesis_id\":\"hyp_0b2811c81d9a4f7a900a028e5eed6491\",\"metrics\":[\"pass_rate\"],\"seed\":0,\"source_version\":{\"files\":{\"task.py\":\"9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584\"},\"label\":\"agent-observatory-v1\"},\"validator\":\"agent-observation-v1\",\"validator_sha256\":\"9bf37ba3c8a6a3f49c0835d195263c6a0d82c0f9599cd15cb487f8a0662ea7c4\"}},\"reused\":false}",
+      "created": 1791104909.4397662
+    },
+    {
+      "id": 5,
+      "revision": 5,
+      "action": "run.claim",
+      "target": "run_06e2d954f4ac4636b1da7867197eabd0",
+      "data": "{\"claimed\":true,\"run\":{\"created\":1791104926.7134354,\"finished\":null,\"id\":\"run_06e2d954f4ac4636b1da7867197eabd0\",\"reason\":null,\"receipt\":null,\"registration_id\":\"reg_e14e5d2699f04be5a89f71ed23adbd30\",\"resources\":{\"tokens\":{\"status\":\"unknown\",\"value\":null}},\"state\":\"running\"}}",
+      "created": 1791104926.7134354
+    },
+    {
+      "id": 6,
+      "revision": 6,
+      "action": "run.complete",
+      "target": "run_06e2d954f4ac4636b1da7867197eabd0",
+      "data": "{\"reused\":false,\"run\":{\"created\":1791104926.7134354,\"finished\":1791105046.454122,\"id\":\"run_06e2d954f4ac4636b1da7867197eabd0\",\"reason\":null,\"receipt\":{\"error\":null,\"exit_code\":0,\"files\":[{\"name\":\"source:task.py\",\"origin_path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\experiment\\\\task.py\",\"path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\runs\\\\run_06e2d954f4ac4636b1da7867197eabd0\\\\work\\\\task.py\",\"sha256\":\"9260fb70ee155488efab8a07b5b0d6ad999dedbb0feed7a1a50d188f0612d584\"},{\"name\":\"result\",\"origin_path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\runs\\\\run_06e2d954f4ac4636b1da7867197eabd0\\\\work\\\\result.json\",\"path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\runs\\\\run_06e2d954f4ac4636b1da7867197eabd0\\\\artifacts\\\\result.json\",\"sha256\":\"0887b0acbc4b48de3838f8a67203b6e46e6e0d7c32998741fb5683ffe1adb6e7\"},{\"name\":\"stdout\",\"origin_path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\runs\\\\run_06e2d954f4ac4636b1da7867197eabd0\\\\stdout.log\",\"path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\runs\\\\run_06e2d954f4ac4636b1da7867197eabd0\\\\stdout.log\",\"sha256\":\"09c4c259a87612a7f11c680563f7dabe906c01ace55778f410dd0018762ab083\"},{\"name\":\"stderr\",\"origin_path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\runs\\\\run_06e2d954f4ac4636b1da7867197eabd0\\\\stderr.log\",\"path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\runs\\\\run_06e2d954f4ac4636b1da7867197eabd0\\\\stderr.log\",\"sha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"},{\"name\":\"launch\",\"origin_path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\runs\\\\run_06e2d954f4ac4636b1da7867197eabd0\\\\launch.json\",\"path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\runs\\\\run_06e2d954f4ac4636b1da7867197eabd0\\\\launch.json\",\"sha256\":\"c6372114e581db2ac52c5514b674ad61d877b6eb089e69c39504d0cae02c5137\"},{\"name\":\"process\",\"origin_path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\runs\\\\run_06e2d954f4ac4636b1da7867197eabd0\\\\process.json\",\"path\":\"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\research-workspaces\\\\agent-observatory-20261004\\\\.research\\\\runs\\\\run_06e2d954f4ac4636b1da7867197eabd0\\\\process.json\",\"sha256\":\"6d28e0f3a25988197256d14836419bfc21d1699dd20d257b3a3a80d81cad78cf\"}],\"registration_id\":\"reg_e14e5d2699f04be5a89f71ed23adbd30\",\"request_sha256\":\"dde2add7921c7e46332710267e43272220419f648884451619e2b119b60a2992\",\"resources\":{\"external_model_usage\":\"unknown\",\"external_tokens\":\"unknown\",\"wall_seconds\":119.625},\"run_id\":\"run_06e2d954f4ac4636b1da7867197eabd0\",\"state\":\"succeeded\"},\"registration_id\":\"reg_e14e5d2699f04be5a89f71ed23adbd30\",\"resources\":{\"external_model_usage\":\"unknown\",\"external_tokens\":\"unknown\",\"tokens\":{\"status\":\"unknown\",\"value\":null},\"wall_seconds\":119.625},\"state\":\"succeeded\"}}",
+      "created": 1791105046.454122
+    },
+    {
+      "id": 7,
+      "revision": 7,
+      "action": "verification.complete",
+      "target": "run_06e2d954f4ac4636b1da7867197eabd0",
+      "data": "{\"reused\":false,\"verification\":{\"created\":1791105073.6577044,\"details\":{\"_input_sha256\":\"0c901bebad4ccc0e090764149c7a539550255a26f5da4d9ded6aeeb63120202e\",\"checks\":[true,true],\"criteria_results\":[{\"actual\":1.0,\"metric\":\"pass_rate\",\"op\":\">=\",\"passed\":true,\"threshold\":1}],\"independent_expected_mean\":5,\"independent_expected_variance\":9,\"integrity\":true,\"missing_artifacts\":[],\"missing_metrics\":[],\"source\":\"fixed_local_verifier\",\"validator_sha256\":\"9bf37ba3c8a6a3f49c0835d195263c6a0d82c0f9599cd15cb487f8a0662ea7c4\",\"verifier_output\":{\"details\":{\"checks\":[true,true],\"independent_expected_mean\":5,\"independent_expected_variance\":9},\"metrics\":{\"pass_rate\":1.0},\"status\":\"passed\"},\"verifier_stderr_sha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"verifier_stdout_sha256\":\"0f548b0540e6c60585f5334f1ad41b4fe8a56b37a30efff4b9cc817f2ba53b6d\"},\"metrics\":{\"pass_rate\":1.0},\"run_id\":\"run_06e2d954f4ac4636b1da7867197eabd0\",\"state\":\"passed\"}}",
+      "created": 1791105073.6577044
+    },
+    {
+      "id": 8,
+      "revision": 8,
+      "action": "decision.create",
+      "target": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+      "data": "{\"decision\":{\"created\":1791105078.361606,\"reason\":\"보존 산출물 mean=5, variance=9를 고정 독립 검증기가 확인했고 pass_rate=1이다. 에이전트 관전실 개발 실연이며 연구 성능 개선을 주장하지 않는다.\",\"registration_id\":\"reg_e14e5d2699f04be5a89f71ed23adbd30\",\"state\":\"adopted\"},\"reused\":false}",
+      "created": 1791105078.361606
+    }
+  ],
+  "observed_recovery": "Original worker survived the approximately 30-second browser automation CDP timeout. External release gate enabled completion; native recover and repeated run inspected the same execution. No replacement execution was launched.",
+  "limitations": [
+    "Long synchronous native tool calls can exceed browser automation response limits; inspect state and recover original receipts.",
+    "Only the Codex app browser native WebMCP is demonstrated; separate Chrome localhost was blocked by client.",
+    "This is functional UI/transport evidence, not research-performance improvement."
+  ],
+  "cli_model_calls": false,
+  "external_model_identifier": "unknown",
+  "external_model_tokens": "unknown",
+  "external_agent": "Current Codex assistant; model inference and experiment source work outside the research CLI/web service",
+  "export": {
+    "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\agent-web-0.6.0\\research-export.zip",
+    "sha256": "27f07e2f3cff22733dc69e1b0bc73b7bdb04cd551c8883160ff26b43bf59befa",
+    "private_keys_exported": false,
+    "reproduction": {
+      "ok": true,
+      "data": {
+        "registration_id": "reg_e14e5d2699f04be5a89f71ed23adbd30",
+        "result": {
+          "status": "passed",
+          "metrics": {
+            "pass_rate": 1.0
+          },
+          "details": {
+            "independent_expected_mean": 5,
+            "independent_expected_variance": 9,
+            "checks": [
+              true,
+              true
+            ]
+          }
+        },
+        "registered_criteria": [
+          {
+            "metric": "pass_rate",
+            "op": ">=",
+            "threshold": 1
+          }
+        ],
+        "interpreter": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.mcp-venv\\Scripts\\python.exe",
+        "validator_sha256": "9bf37ba3c8a6a3f49c0835d195263c6a0d82c0f9599cd15cb487f8a0662ea7c4",
+        "research_state_updated": false
+      }
+    }
+  },
+  "frozen_comparison_check": {
+    "ok": true,
+    "invalid": [],
+    "executed_read_only": true
+  },
+  "test_scope": {
+    "source_tests": 48,
+    "sdk_free_passed": 39,
+    "sdk_only_skipped": 9,
+    "final_js_syntax_passed": true,
+    "late_integrity_display_changes_verified_in_real_browser": true
+  },
+  "final_browser_state": {
+    "nativeRegisterTool": "function",
+    "phase": "succeeded",
+    "reduced": false,
+    "runningAnimations": 0,
+    "graph": "목표: 목표 기록, 가설: 가설 제안, 사전등록: 조건 고정, 실행: 실행 성공, 검증: 검증 통과, 결정: 채택",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "proof_screenshot": "overview-visible.png"
+}

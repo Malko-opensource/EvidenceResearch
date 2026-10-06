@@ -1,0 +1,131 @@
+{
+  "actual_task_executions": 1,
+  "completed_at": "2026-10-03T16:22:51.360190+00:00",
+  "condition": "B",
+  "decision": "success",
+  "duplicate_executions": 0,
+  "evidence_paths": {
+    "check-1.json": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\check-1.json",
+    "invocations.jsonl": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\invocations.jsonl",
+    "receipt-reuse.json": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\receipt-reuse.json",
+    "receipt.json": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\receipt.json",
+    "registration.json": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\registration.json",
+    "research-memory.md": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\research-memory.md",
+    "transcript.json": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\transcript.json"
+  },
+  "external_tokens": {
+    "status": "unknown",
+    "value": null
+  },
+  "general_improvement_claimed": false,
+  "hypothesis": "Reject malformed and non-finite rows, sort all valid measurements, group equal timestamps, and apply a strict-left three-second window using an exact rational running sum; this candidate will achieve fixed independent checker pass_rate >= 1.0.",
+  "limitations": [
+    "One synthetic episode cannot establish general agent improvement",
+    "Provider model identifier and external token usage are unobserved",
+    "The comparator has no measured baseline result",
+    "The checker source and cases remain opaque"
+  ],
+  "model_identifier": "unknown; inherited external Codex model; no override",
+  "prereg_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\registration.json",
+  "prereg_sha256": "a14df6f7344274ae94149125a75b5db19b1a0da0a9d4b53b17f834612f896279",
+  "recovery": {
+    "cause": "An opaque checker bundle filename matched check-*.json but did not have a numeric result suffix. Bundle contents were not opened or inspected.",
+    "checker_reexecuted_for_recovery": false,
+    "evidence_paths": [
+      "recovery-1.json",
+      "episode-controller.failed-finalize.py",
+      "check-1.json",
+      "receipt.json",
+      "receipt-reuse.json"
+    ],
+    "failure_command": [
+      "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "episode-controller.py",
+      "finalize"
+    ],
+    "new_registration_required": false,
+    "original_result": {
+      "exit_code": 1,
+      "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\episode-controller.py\", line 241, in <module>\r\n    actions[sys.argv[1]]()\r\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\episode-controller.py\", line 202, in finalize\r\n    check_files = sorted(ROOT.glob(\"check-*.json\"), key=lambda path: int(path.stem.split(\"-\")[-1]))\r\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\episode-controller.py\", line 202, in <lambda>\r\n    check_files = sorted(ROOT.glob(\"check-*.json\"), key=lambda path: int(path.stem.split(\"-\")[-1]))\r\n                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nValueError: invalid literal for int() with base 10: '1.bundle'\r\n",
+      "stdout": ""
+    },
+    "preserved_original_source": "episode-controller.failed-finalize.py",
+    "registered_input_or_task_changed": false,
+    "registered_solution_changed": false,
+    "registration_changed": false,
+    "repair": "Select only numbered check-N.json result files for finalization. Exclude opaque bundle contents from local manifest hashing to avoid reading them.",
+    "stage": "episode summary bookkeeping",
+    "status": "observed_and_recovered",
+    "task_reexecuted_for_recovery": false
+  },
+  "repeat_request_receipt": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\receipt-reuse.json",
+  "research_cli_used": false,
+  "task_id": "F2",
+  "task_quality": {
+    "details": {
+      "basis": "preserved_source_recomputed",
+      "checks": [
+        {
+          "case": "run_artifact",
+          "exit_code": null,
+          "passed": true,
+          "reason": "run_artifact_recomputed"
+        },
+        {
+          "case": 0,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 1,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 2,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 3,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 4,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 5,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        },
+        {
+          "case": 6,
+          "exit_code": 0,
+          "passed": true,
+          "reason": "matched"
+        }
+      ],
+      "passed_cases": 8,
+      "reported_run_metrics_used": false,
+      "task_id": "F2",
+      "total_cases": 8
+    },
+    "metric": "pass_rate",
+    "metrics": {
+      "pass_rate": 1.0
+    },
+    "source": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\check-1.json",
+    "threshold": 1.0,
+    "value": 1.0
+  },
+  "unsupported_claims": []
+}

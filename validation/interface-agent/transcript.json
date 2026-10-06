@@ -1,0 +1,1143 @@
+{
+  "task_id": "D",
+  "kind": "development interface validation",
+  "excluded_from_performance_comparisons": true,
+  "installed_cli_version_requested": "0.2",
+  "consumer_cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+  "scope": "Public README/help, own episode files, and public CLI only; no core, DB, owner key, internal evaluator, or other answers inspected.",
+  "entries": [
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "status"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:47:05.886350+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"workspace\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\", \"goals\": [], \"goal_total\": 0, \"hypotheses\": [], \"hypothesis_total\": 0, \"registrations\": [], \"total\": 0, \"limit\": 20, \"offset\": 0, \"allowed_actions\": [\"goal\", \"hypothesis\", \"register\", \"memory\", \"show\", \"export\"], \"revision\": 1}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJ3b3Jrc3BhY2UiOiAiQzpcXFVzZXJzXFxQb3RhdG9cXERvY3VtZW50c1xcQ2hhdEdQVFxcUmVzZWFyY2ggQWdlbnRcXEV2aWRlbmNlUmVzZWFyY2hcXHZhbGlkYXRpb25cXGludGVyZmFjZS1hZ2VudFxccmVzZWFyY2giLCAiZ29hbHMiOiBbXSwgImdvYWxfdG90YWwiOiAwLCAiaHlwb3RoZXNlcyI6IFtdLCAiaHlwb3RoZXNpc190b3RhbCI6IDAsICJyZWdpc3RyYXRpb25zIjogW10sICJ0b3RhbCI6IDAsICJsaW1pdCI6IDIwLCAib2Zmc2V0IjogMCwgImFsbG93ZWRfYWN0aW9ucyI6IFsiZ29hbCIsICJoeXBvdGhlc2lzIiwgInJlZ2lzdGVyIiwgIm1lbW9yeSIsICJzaG93IiwgImV4cG9ydCJdLCAicmV2aXNpb24iOiAxfX0NCg==",
+      "stderr_base64": "",
+      "stdout_bytes": 379,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+          "goals": [],
+          "goal_total": 0,
+          "hypotheses": [],
+          "hypothesis_total": 0,
+          "registrations": [],
+          "total": 0,
+          "limit": 20,
+          "offset": 0,
+          "allowed_actions": [
+            "goal",
+            "hypothesis",
+            "register",
+            "memory",
+            "show",
+            "export"
+          ],
+          "revision": 1
+        }
+      },
+      "elapsed_seconds": 0.06678689998807386,
+      "completed_at": "2026-10-03T16:47:05.952760+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "memory",
+        "--limit",
+        "10"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:47:18.151613+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"items\": [], \"total\": 0, \"limit\": 10, \"offset\": 0, \"revision\": 1}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJpdGVtcyI6IFtdLCAidG90YWwiOiAwLCAibGltaXQiOiAxMCwgIm9mZnNldCI6IDAsICJyZXZpc2lvbiI6IDF9fQ0K",
+      "stderr_base64": "",
+      "stdout_bytes": 90,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "items": [],
+          "total": 0,
+          "limit": 10,
+          "offset": 0,
+          "revision": 1
+        }
+      },
+      "elapsed_seconds": 0.06944920000387356,
+      "completed_at": "2026-10-03T16:47:18.221409+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "help"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:47:19.353684+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"version\": \"0.2.0\", \"commands\": [\"init\", \"goal\", \"hypothesis\", \"validator\", \"register\", \"status\", \"run\", \"recover\", \"verify\", \"decide\", \"evidence\", \"memory\", \"show\", \"export\", \"restore\"], \"json_input\": \"--input FILE or --input - for stdin\", \"registration_json\": \"help --topic register returns the public example; register --help shows command arguments\", \"execution_output\": \"run/recover/verify return compact data.record states, metrics and preserved artifact paths; --full or show returns full original detail\", \"memory_query\": \"Literal substring search, not token or semantic search; use limit/offset pages\", \"conflicts\": \"--expect workspace revision to reject stale writes\", \"unknown_resume\": \"recover inspects receipts; unknown executions are never automatically restarted\", \"roles\": \"agent records proposals/registers/runs; owner freezes validators; fixed verifier produces verified metrics\", \"security\": \"Local capabilities and hashes are not OS isolation\"}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJ2ZXJzaW9uIjogIjAuMi4wIiwgImNvbW1hbmRzIjogWyJpbml0IiwgImdvYWwiLCAiaHlwb3RoZXNpcyIsICJ2YWxpZGF0b3IiLCAicmVnaXN0ZXIiLCAic3RhdHVzIiwgInJ1biIsICJyZWNvdmVyIiwgInZlcmlmeSIsICJkZWNpZGUiLCAiZXZpZGVuY2UiLCAibWVtb3J5IiwgInNob3ciLCAiZXhwb3J0IiwgInJlc3RvcmUiXSwgImpzb25faW5wdXQiOiAiLS1pbnB1dCBGSUxFIG9yIC0taW5wdXQgLSBmb3Igc3RkaW4iLCAicmVnaXN0cmF0aW9uX2pzb24iOiAiaGVscCAtLXRvcGljIHJlZ2lzdGVyIHJldHVybnMgdGhlIHB1YmxpYyBleGFtcGxlOyByZWdpc3RlciAtLWhlbHAgc2hvd3MgY29tbWFuZCBhcmd1bWVudHMiLCAiZXhlY3V0aW9uX291dHB1dCI6ICJydW4vcmVjb3Zlci92ZXJpZnkgcmV0dXJuIGNvbXBhY3QgZGF0YS5yZWNvcmQgc3RhdGVzLCBtZXRyaWNzIGFuZCBwcmVzZXJ2ZWQgYXJ0aWZhY3QgcGF0aHM7IC0tZnVsbCBvciBzaG93IHJldHVybnMgZnVsbCBvcmlnaW5hbCBkZXRhaWwiLCAibWVtb3J5X3F1ZXJ5IjogIkxpdGVyYWwgc3Vic3RyaW5nIHNlYXJjaCwgbm90IHRva2VuIG9yIHNlbWFudGljIHNlYXJjaDsgdXNlIGxpbWl0L29mZnNldCBwYWdlcyIsICJjb25mbGljdHMiOiAiLS1leHBlY3Qgd29ya3NwYWNlIHJldmlzaW9uIHRvIHJlamVjdCBzdGFsZSB3cml0ZXMiLCAidW5rbm93bl9yZXN1bWUiOiAicmVjb3ZlciBpbnNwZWN0cyByZWNlaXB0czsgdW5rbm93biBleGVjdXRpb25zIGFyZSBuZXZlciBhdXRvbWF0aWNhbGx5IHJlc3RhcnRlZCIsICJyb2xlcyI6ICJhZ2VudCByZWNvcmRzIHByb3Bvc2Fscy9yZWdpc3RlcnMvcnVuczsgb3duZXIgZnJlZXplcyB2YWxpZGF0b3JzOyBmaXhlZCB2ZXJpZmllciBwcm9kdWNlcyB2ZXJpZmllZCBtZXRyaWNzIiwgInNlY3VyaXR5IjogIkxvY2FsIGNhcGFiaWxpdGllcyBhbmQgaGFzaGVzIGFyZSBub3QgT1MgaXNvbGF0aW9uIn19DQo=",
+      "stderr_base64": "",
+      "stdout_bytes": 989,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "version": "0.2.0",
+          "commands": [
+            "init",
+            "goal",
+            "hypothesis",
+            "validator",
+            "register",
+            "status",
+            "run",
+            "recover",
+            "verify",
+            "decide",
+            "evidence",
+            "memory",
+            "show",
+            "export",
+            "restore"
+          ],
+          "json_input": "--input FILE or --input - for stdin",
+          "registration_json": "help --topic register returns the public example; register --help shows command arguments",
+          "execution_output": "run/recover/verify return compact data.record states, metrics and preserved artifact paths; --full or show returns full original detail",
+          "memory_query": "Literal substring search, not token or semantic search; use limit/offset pages",
+          "conflicts": "--expect workspace revision to reject stale writes",
+          "unknown_resume": "recover inspects receipts; unknown executions are never automatically restarted",
+          "roles": "agent records proposals/registers/runs; owner freezes validators; fixed verifier produces verified metrics",
+          "security": "Local capabilities and hashes are not OS isolation"
+        }
+      },
+      "elapsed_seconds": 0.0638664000434801,
+      "completed_at": "2026-10-03T16:47:19.417815+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "help",
+        "--topic",
+        "register"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:47:20.468565+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"version\": \"0.2.0\", \"example\": {\"hypothesis_id\": \"REPLACE_WITH_HYPOTHESIS_ID\", \"change\": \"Describe the candidate change\", \"comparison\": \"Describe the comparator\", \"data_split\": {\"development\": \"Describe public data\", \"evaluation\": \"Describe independent evaluation\"}, \"seed\": 0, \"source_version\": {\"label\": \"candidate-v1\", \"files\": {\"task.py\": \"0000000000000000000000000000000000000000000000000000000000000000\"}}, \"metrics\": [\"correct\"], \"criteria\": [{\"metric\": \"correct\", \"op\": \">=\", \"threshold\": 1}], \"command\": [\"C:\\\\Users\\\\Potato\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe\", \"task.py\"], \"cwd\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\experiment\", \"artifacts\": [{\"name\": \"result\", \"path\": \"result.json\"}], \"validator\": \"REPLACE_WITH_FROZEN_VALIDATOR_NAME\"}, \"replace\": \"Replace IDs, validator, cwd, metric and all source hashes before registration. Zero hash is a placeholder.\", \"source_files\": \"Pin every experiment source/data file, including the executed Python file.\", \"output_location\": \"The runner writes outputs in its snapshot work directory; collected artifacts have preserved blob paths.\"}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJ2ZXJzaW9uIjogIjAuMi4wIiwgImV4YW1wbGUiOiB7Imh5cG90aGVzaXNfaWQiOiAiUkVQTEFDRV9XSVRIX0hZUE9USEVTSVNfSUQiLCAiY2hhbmdlIjogIkRlc2NyaWJlIHRoZSBjYW5kaWRhdGUgY2hhbmdlIiwgImNvbXBhcmlzb24iOiAiRGVzY3JpYmUgdGhlIGNvbXBhcmF0b3IiLCAiZGF0YV9zcGxpdCI6IHsiZGV2ZWxvcG1lbnQiOiAiRGVzY3JpYmUgcHVibGljIGRhdGEiLCAiZXZhbHVhdGlvbiI6ICJEZXNjcmliZSBpbmRlcGVuZGVudCBldmFsdWF0aW9uIn0sICJzZWVkIjogMCwgInNvdXJjZV92ZXJzaW9uIjogeyJsYWJlbCI6ICJjYW5kaWRhdGUtdjEiLCAiZmlsZXMiOiB7InRhc2sucHkiOiAiMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCJ9fSwgIm1ldHJpY3MiOiBbImNvcnJlY3QiXSwgImNyaXRlcmlhIjogW3sibWV0cmljIjogImNvcnJlY3QiLCAib3AiOiAiPj0iLCAidGhyZXNob2xkIjogMX1dLCAiY29tbWFuZCI6IFsiQzpcXFVzZXJzXFxQb3RhdG9cXC5jYWNoZVxcY29kZXgtcnVudGltZXNcXGNvZGV4LXByaW1hcnktcnVudGltZVxcZGVwZW5kZW5jaWVzXFxweXRob25cXHB5dGhvbi5leGUiLCAidGFzay5weSJdLCAiY3dkIjogIkM6XFxVc2Vyc1xcUG90YXRvXFxEb2N1bWVudHNcXENoYXRHUFRcXFJlc2VhcmNoIEFnZW50XFxFdmlkZW5jZVJlc2VhcmNoXFx2YWxpZGF0aW9uXFxpbnRlcmZhY2UtYWdlbnRcXHJlc2VhcmNoXFxleHBlcmltZW50IiwgImFydGlmYWN0cyI6IFt7Im5hbWUiOiAicmVzdWx0IiwgInBhdGgiOiAicmVzdWx0Lmpzb24ifV0sICJ2YWxpZGF0b3IiOiAiUkVQTEFDRV9XSVRIX0ZST1pFTl9WQUxJREFUT1JfTkFNRSJ9LCAicmVwbGFjZSI6ICJSZXBsYWNlIElEcywgdmFsaWRhdG9yLCBjd2QsIG1ldHJpYyBhbmQgYWxsIHNvdXJjZSBoYXNoZXMgYmVmb3JlIHJlZ2lzdHJhdGlvbi4gWmVybyBoYXNoIGlzIGEgcGxhY2Vob2xkZXIuIiwgInNvdXJjZV9maWxlcyI6ICJQaW4gZXZlcnkgZXhwZXJpbWVudCBzb3VyY2UvZGF0YSBmaWxlLCBpbmNsdWRpbmcgdGhlIGV4ZWN1dGVkIFB5dGhvbiBmaWxlLiIsICJvdXRwdXRfbG9jYXRpb24iOiAiVGhlIHJ1bm5lciB3cml0ZXMgb3V0cHV0cyBpbiBpdHMgc25hcHNob3Qgd29yayBkaXJlY3Rvcnk7IGNvbGxlY3RlZCBhcnRpZmFjdHMgaGF2ZSBwcmVzZXJ2ZWQgYmxvYiBwYXRocy4ifX0NCg==",
+      "stderr_base64": "",
+      "stdout_bytes": 1237,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "version": "0.2.0",
+          "example": {
+            "hypothesis_id": "REPLACE_WITH_HYPOTHESIS_ID",
+            "change": "Describe the candidate change",
+            "comparison": "Describe the comparator",
+            "data_split": {
+              "development": "Describe public data",
+              "evaluation": "Describe independent evaluation"
+            },
+            "seed": 0,
+            "source_version": {
+              "label": "candidate-v1",
+              "files": {
+                "task.py": "0000000000000000000000000000000000000000000000000000000000000000"
+              }
+            },
+            "metrics": [
+              "correct"
+            ],
+            "criteria": [
+              {
+                "metric": "correct",
+                "op": ">=",
+                "threshold": 1
+              }
+            ],
+            "command": [
+              "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+              "task.py"
+            ],
+            "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\experiment",
+            "artifacts": [
+              {
+                "name": "result",
+                "path": "result.json"
+              }
+            ],
+            "validator": "REPLACE_WITH_FROZEN_VALIDATOR_NAME"
+          },
+          "replace": "Replace IDs, validator, cwd, metric and all source hashes before registration. Zero hash is a placeholder.",
+          "source_files": "Pin every experiment source/data file, including the executed Python file.",
+          "output_location": "The runner writes outputs in its snapshot work directory; collected artifacts have preserved blob paths."
+        }
+      },
+      "elapsed_seconds": 0.07920499995816499,
+      "completed_at": "2026-10-03T16:47:20.548386+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "hypothesis",
+        "--help"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:47:35.650084+00:00",
+      "returncode": 0,
+      "stdout": "usage: research-state hypothesis [-h] --goal GOAL --statement STATEMENT\r\n                                 [--expect EXPECT]\r\n\r\noptions:\r\n  -h, --help            show this help message and exit\r\n  --goal GOAL\r\n  --statement STATEMENT\r\n  --expect EXPECT\r\n",
+      "stderr": "",
+      "stdout_base64": "dXNhZ2U6IHJlc2VhcmNoLXN0YXRlIGh5cG90aGVzaXMgWy1oXSAtLWdvYWwgR09BTCAtLXN0YXRlbWVudCBTVEFURU1FTlQNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFstLWV4cGVjdCBFWFBFQ1RdDQoNCm9wdGlvbnM6DQogIC1oLCAtLWhlbHAgICAgICAgICAgICBzaG93IHRoaXMgaGVscCBtZXNzYWdlIGFuZCBleGl0DQogIC0tZ29hbCBHT0FMDQogIC0tc3RhdGVtZW50IFNUQVRFTUVOVA0KICAtLWV4cGVjdCBFWFBFQ1QNCg==",
+      "stderr_base64": "",
+      "stdout_bytes": 253,
+      "stderr_bytes": 0,
+      "response_format": "text",
+      "elapsed_seconds": 0.07121090003056452,
+      "completed_at": "2026-10-03T16:47:35.722083+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "register",
+        "--help"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:47:36.810871+00:00",
+      "returncode": 0,
+      "stdout": "usage: research-state register [-h] --goal GOAL --input INPUT --request-key\r\n                               REQUEST_KEY [--expect EXPECT]\r\n\r\noptions:\r\n  -h, --help            show this help message and exit\r\n  --goal GOAL\r\n  --input INPUT\r\n  --request-key REQUEST_KEY\r\n  --expect EXPECT\r\n",
+      "stderr": "",
+      "stdout_base64": "dXNhZ2U6IHJlc2VhcmNoLXN0YXRlIHJlZ2lzdGVyIFstaF0gLS1nb2FsIEdPQUwgLS1pbnB1dCBJTlBVVCAtLXJlcXVlc3Qta2V5DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUkVRVUVTVF9LRVkgWy0tZXhwZWN0IEVYUEVDVF0NCg0Kb3B0aW9uczoNCiAgLWgsIC0taGVscCAgICAgICAgICAgIHNob3cgdGhpcyBoZWxwIG1lc3NhZ2UgYW5kIGV4aXQNCiAgLS1nb2FsIEdPQUwNCiAgLS1pbnB1dCBJTlBVVA0KICAtLXJlcXVlc3Qta2V5IFJFUVVFU1RfS0VZDQogIC0tZXhwZWN0IEVYUEVDVA0K",
+      "stderr_base64": "",
+      "stdout_bytes": 288,
+      "stderr_bytes": 0,
+      "response_format": "text",
+      "elapsed_seconds": 0.07387630001176149,
+      "completed_at": "2026-10-03T16:47:36.885421+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "run",
+        "--help"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:47:37.961507+00:00",
+      "returncode": 0,
+      "stdout": "usage: research-state run [-h] --registration REGISTRATION [--full]\r\n                          --request-key REQUEST_KEY [--expect EXPECT]\r\n\r\noptions:\r\n  -h, --help            show this help message and exit\r\n  --registration REGISTRATION\r\n  --full                Return original full receipts and verifier details;\r\n                        otherwise return a summary\r\n  --request-key REQUEST_KEY\r\n  --expect EXPECT\r\n",
+      "stderr": "",
+      "stdout_base64": "dXNhZ2U6IHJlc2VhcmNoLXN0YXRlIHJ1biBbLWhdIC0tcmVnaXN0cmF0aW9uIFJFR0lTVFJBVElPTiBbLS1mdWxsXQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAtLXJlcXVlc3Qta2V5IFJFUVVFU1RfS0VZIFstLWV4cGVjdCBFWFBFQ1RdDQoNCm9wdGlvbnM6DQogIC1oLCAtLWhlbHAgICAgICAgICAgICBzaG93IHRoaXMgaGVscCBtZXNzYWdlIGFuZCBleGl0DQogIC0tcmVnaXN0cmF0aW9uIFJFR0lTVFJBVElPTg0KICAtLWZ1bGwgICAgICAgICAgICAgICAgUmV0dXJuIG9yaWdpbmFsIGZ1bGwgcmVjZWlwdHMgYW5kIHZlcmlmaWVyIGRldGFpbHM7DQogICAgICAgICAgICAgICAgICAgICAgICBvdGhlcndpc2UgcmV0dXJuIGEgc3VtbWFyeQ0KICAtLXJlcXVlc3Qta2V5IFJFUVVFU1RfS0VZDQogIC0tZXhwZWN0IEVYUEVDVA0K",
+      "stderr_base64": "",
+      "stdout_bytes": 417,
+      "stderr_bytes": 0,
+      "response_format": "text",
+      "elapsed_seconds": 0.07097040000371635,
+      "completed_at": "2026-10-03T16:47:38.032569+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "verify",
+        "--help"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:47:39.089030+00:00",
+      "returncode": 0,
+      "stdout": "usage: research-state verify [-h] --registration REGISTRATION [--full]\r\n\r\noptions:\r\n  -h, --help            show this help message and exit\r\n  --registration REGISTRATION\r\n  --full                Return original full receipts and verifier details;\r\n                        otherwise return a summary\r\n",
+      "stderr": "",
+      "stdout_base64": "dXNhZ2U6IHJlc2VhcmNoLXN0YXRlIHZlcmlmeSBbLWhdIC0tcmVnaXN0cmF0aW9uIFJFR0lTVFJBVElPTiBbLS1mdWxsXQ0KDQpvcHRpb25zOg0KICAtaCwgLS1oZWxwICAgICAgICAgICAgc2hvdyB0aGlzIGhlbHAgbWVzc2FnZSBhbmQgZXhpdA0KICAtLXJlZ2lzdHJhdGlvbiBSRUdJU1RSQVRJT04NCiAgLS1mdWxsICAgICAgICAgICAgICAgIFJldHVybiBvcmlnaW5hbCBmdWxsIHJlY2VpcHRzIGFuZCB2ZXJpZmllciBkZXRhaWxzOw0KICAgICAgICAgICAgICAgICAgICAgICAgb3RoZXJ3aXNlIHJldHVybiBhIHN1bW1hcnkNCg==",
+      "stderr_base64": "",
+      "stdout_bytes": 301,
+      "stderr_bytes": 0,
+      "response_format": "text",
+      "elapsed_seconds": 0.0735385000007227,
+      "completed_at": "2026-10-03T16:47:39.162419+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "decide",
+        "--help"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:47:40.249970+00:00",
+      "returncode": 0,
+      "stdout": "usage: research-state decide [-h] --registration REGISTRATION --decision\r\n                             {adopted,rejected,inconclusive} --reason REASON\r\n                             [--expect EXPECT]\r\n\r\noptions:\r\n  -h, --help            show this help message and exit\r\n  --registration REGISTRATION\r\n  --decision {adopted,rejected,inconclusive}\r\n  --reason REASON\r\n  --expect EXPECT\r\n",
+      "stderr": "",
+      "stdout_base64": "dXNhZ2U6IHJlc2VhcmNoLXN0YXRlIGRlY2lkZSBbLWhdIC0tcmVnaXN0cmF0aW9uIFJFR0lTVFJBVElPTiAtLWRlY2lzaW9uDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIHthZG9wdGVkLHJlamVjdGVkLGluY29uY2x1c2l2ZX0gLS1yZWFzb24gUkVBU09ODQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIFstLWV4cGVjdCBFWFBFQ1RdDQoNCm9wdGlvbnM6DQogIC1oLCAtLWhlbHAgICAgICAgICAgICBzaG93IHRoaXMgaGVscCBtZXNzYWdlIGFuZCBleGl0DQogIC0tcmVnaXN0cmF0aW9uIFJFR0lTVFJBVElPTg0KICAtLWRlY2lzaW9uIHthZG9wdGVkLHJlamVjdGVkLGluY29uY2x1c2l2ZX0NCiAgLS1yZWFzb24gUkVBU09ODQogIC0tZXhwZWN0IEVYUEVDVA0K",
+      "stderr_base64": "",
+      "stdout_bytes": 384,
+      "stderr_bytes": 0,
+      "response_format": "text",
+      "elapsed_seconds": 0.06972029997268692,
+      "completed_at": "2026-10-03T16:47:40.319561+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "show",
+        "--help"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:47:41.391554+00:00",
+      "returncode": 0,
+      "stdout": "usage: research-state show [-h] --registration REGISTRATION\r\n\r\noptions:\r\n  -h, --help            show this help message and exit\r\n  --registration REGISTRATION\r\n",
+      "stderr": "",
+      "stdout_base64": "dXNhZ2U6IHJlc2VhcmNoLXN0YXRlIHNob3cgWy1oXSAtLXJlZ2lzdHJhdGlvbiBSRUdJU1RSQVRJT04NCg0Kb3B0aW9uczoNCiAgLWgsIC0taGVscCAgICAgICAgICAgIHNob3cgdGhpcyBoZWxwIG1lc3NhZ2UgYW5kIGV4aXQNCiAgLS1yZWdpc3RyYXRpb24gUkVHSVNUUkFUSU9ODQo=",
+      "stderr_base64": "",
+      "stdout_bytes": 161,
+      "stderr_bytes": 0,
+      "response_format": "text",
+      "elapsed_seconds": 0.0734968000324443,
+      "completed_at": "2026-10-03T16:47:41.465059+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "goal",
+        "--help"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:47:59.161789+00:00",
+      "returncode": 0,
+      "stdout": "usage: research-state goal [-h] --title TITLE [--description DESCRIPTION]\r\n\r\noptions:\r\n  -h, --help            show this help message and exit\r\n  --title TITLE\r\n  --description DESCRIPTION\r\n",
+      "stderr": "",
+      "stdout_base64": "dXNhZ2U6IHJlc2VhcmNoLXN0YXRlIGdvYWwgWy1oXSAtLXRpdGxlIFRJVExFIFstLWRlc2NyaXB0aW9uIERFU0NSSVBUSU9OXQ0KDQpvcHRpb25zOg0KICAtaCwgLS1oZWxwICAgICAgICAgICAgc2hvdyB0aGlzIGhlbHAgbWVzc2FnZSBhbmQgZXhpdA0KICAtLXRpdGxlIFRJVExFDQogIC0tZGVzY3JpcHRpb24gREVTQ1JJUFRJT04NCg==",
+      "stderr_base64": "",
+      "stdout_bytes": 190,
+      "stderr_bytes": 0,
+      "response_format": "text",
+      "elapsed_seconds": 0.07090920000337064,
+      "completed_at": "2026-10-03T16:47:59.232303+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "goal",
+        "--title",
+        "D development interface validation",
+        "--description",
+        "Validate the installed v0.2 CLI external-consumer flow on the public grouping-mean task, excluded from all research performance comparisons."
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:48:08.897162+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"id\": \"goal_248198e7a18b45d0a8da9e28ff7146dc\", \"title\": \"D development interface validation\", \"description\": \"Validate the installed v0.2 CLI external-consumer flow on the public grouping-mean task, excluded from all research performance comparisons.\", \"created\": 1791046088.959221, \"revision\": 2}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJpZCI6ICJnb2FsXzI0ODE5OGU3YTE4YjQ1ZDBhOGRhOWUyOGZmNzE0NmRjIiwgInRpdGxlIjogIkQgZGV2ZWxvcG1lbnQgaW50ZXJmYWNlIHZhbGlkYXRpb24iLCAiZGVzY3JpcHRpb24iOiAiVmFsaWRhdGUgdGhlIGluc3RhbGxlZCB2MC4yIENMSSBleHRlcm5hbC1jb25zdW1lciBmbG93IG9uIHRoZSBwdWJsaWMgZ3JvdXBpbmctbWVhbiB0YXNrLCBleGNsdWRlZCBmcm9tIGFsbCByZXNlYXJjaCBwZXJmb3JtYW5jZSBjb21wYXJpc29ucy4iLCAiY3JlYXRlZCI6IDE3OTEwNDYwODguOTU5MjIxLCAicmV2aXNpb24iOiAyfX0NCg==",
+      "stderr_base64": "",
+      "stdout_bytes": 322,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "id": "goal_248198e7a18b45d0a8da9e28ff7146dc",
+          "title": "D development interface validation",
+          "description": "Validate the installed v0.2 CLI external-consumer flow on the public grouping-mean task, excluded from all research performance comparisons.",
+          "created": 1791046088.959221,
+          "revision": 2
+        }
+      },
+      "response_format": "json",
+      "elapsed_seconds": 0.07358440000098199,
+      "completed_at": "2026-10-03T16:48:08.970220+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "hypothesis",
+        "--goal",
+        "goal_248198e7a18b45d0a8da9e28ff7146dc",
+        "--statement",
+        "For valid group,value inputs, accumulating a float total and count for each group returns the required arithmetic means and passes the owner-frozen independent evaluator; the existing list-based implementation is the comparator, and this development episode tests the CLI interface without a research performance claim.",
+        "--expect",
+        "2"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:48:14.344425+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"id\": \"hyp_1ccc891dcebd43049ea2636b1dab1248\", \"goal_id\": \"goal_248198e7a18b45d0a8da9e28ff7146dc\", \"statement\": \"For valid group,value inputs, accumulating a float total and count for each group returns the required arithmetic means and passes the owner-frozen independent evaluator; the existing list-based implementation is the comparator, and this development episode tests the CLI interface without a research performance claim.\", \"created\": 1791046094.4026773, \"revision\": 3}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJpZCI6ICJoeXBfMWNjYzg5MWRjZWJkNDMwNDllYTI2MzZiMWRhYjEyNDgiLCAiZ29hbF9pZCI6ICJnb2FsXzI0ODE5OGU3YTE4YjQ1ZDBhOGRhOWUyOGZmNzE0NmRjIiwgInN0YXRlbWVudCI6ICJGb3IgdmFsaWQgZ3JvdXAsdmFsdWUgaW5wdXRzLCBhY2N1bXVsYXRpbmcgYSBmbG9hdCB0b3RhbCBhbmQgY291bnQgZm9yIGVhY2ggZ3JvdXAgcmV0dXJucyB0aGUgcmVxdWlyZWQgYXJpdGhtZXRpYyBtZWFucyBhbmQgcGFzc2VzIHRoZSBvd25lci1mcm96ZW4gaW5kZXBlbmRlbnQgZXZhbHVhdG9yOyB0aGUgZXhpc3RpbmcgbGlzdC1iYXNlZCBpbXBsZW1lbnRhdGlvbiBpcyB0aGUgY29tcGFyYXRvciwgYW5kIHRoaXMgZGV2ZWxvcG1lbnQgZXBpc29kZSB0ZXN0cyB0aGUgQ0xJIGludGVyZmFjZSB3aXRob3V0IGEgcmVzZWFyY2ggcGVyZm9ybWFuY2UgY2xhaW0uIiwgImNyZWF0ZWQiOiAxNzkxMDQ2MDk0LjQwMjY3NzMsICJyZXZpc2lvbiI6IDN9fQ0K",
+      "stderr_base64": "",
+      "stdout_bytes": 504,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "id": "hyp_1ccc891dcebd43049ea2636b1dab1248",
+          "goal_id": "goal_248198e7a18b45d0a8da9e28ff7146dc",
+          "statement": "For valid group,value inputs, accumulating a float total and count for each group returns the required arithmetic means and passes the owner-frozen independent evaluator; the existing list-based implementation is the comparator, and this development episode tests the CLI interface without a research performance claim.",
+          "created": 1791046094.4026773,
+          "revision": 3
+        }
+      },
+      "response_format": "json",
+      "elapsed_seconds": 0.07059329998446628,
+      "completed_at": "2026-10-03T16:48:14.415676+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "register",
+        "--goal",
+        "goal_248198e7a18b45d0a8da9e28ff7146dc",
+        "--input",
+        "registration-spec.json",
+        "--request-key",
+        "d-interface-register-v1",
+        "--expect",
+        "3"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:48:41.199220+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"registration\": {\"id\": \"reg_23a6503d54224211b20e0c3de92dde29\", \"goal_id\": \"goal_248198e7a18b45d0a8da9e28ff7146dc\", \"hypothesis_id\": \"hyp_1ccc891dcebd43049ea2636b1dab1248\", \"spec\": {\"artifacts\": [{\"name\": \"solution.py\", \"path\": \"solution.py\"}, {\"name\": \"input.csv\", \"path\": \"input.csv\"}, {\"name\": \"result.json\", \"path\": \"result.json\"}, {\"name\": \"invocations.jsonl\", \"path\": \"invocations.jsonl\"}], \"change\": \"Replace the list-per-group draft with a standard-library implementation that accumulates a float total and count, then divides total by count for every group. Expected final solution.py SHA-256 was calculated from solution-draft.py before registration.\", \"command\": [\"C:\\\\Users\\\\Potato\\\\.cache\\\\codex-runtimes\\\\codex-primary-runtime\\\\dependencies\\\\python\\\\python.exe\", \"task.py\", \"D\"], \"comparison\": \"The provided list-based arithmetic-mean implementation in solution.py. It is a functional comparator only; no baseline run or performance comparison is claimed.\", \"criteria\": [{\"metric\": \"pass_rate\", \"op\": \">=\", \"threshold\": 1.0}], \"cwd\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\", \"data_split\": {\"development\": \"Only BRIEF.ko.md and the public input.csv were inspected: group a values 1 and 3 imply 2.0; group b value 10 implies 10.0. All group,value strings are valid according to the public brief.\", \"evaluation\": \"The separately frozen owner validator csv-fixed-v1 evaluates preserved artifacts. Its code and independent cases are not inspected by this external consumer. This DEVELOPMENT task is excluded from all research performance comparisons.\"}, \"hypothesis_id\": \"hyp_1ccc891dcebd43049ea2636b1dab1248\", \"metrics\": [\"pass_rate\"], \"seed\": 0, \"source_version\": {\"files\": {\"input.csv\": \"87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a\", \"solution.py\": \"a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3\", \"task.py\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\"}, \"label\": \"candidate-d1\"}, \"task_id\": \"D\", \"validator\": \"csv-fixed-v1\", \"validator_sha256\": \"ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed\"}, \"fingerprint\": \"a9a543d60b8d6d50ac045e0b8b59a83c8d7657f38fff6d9a921b6b27d79e8136\", \"created\": 1791046121.2644126}, \"reused\": false, \"revision\": 4}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJyZWdpc3RyYXRpb24iOiB7ImlkIjogInJlZ18yM2E2NTAzZDU0MjI0MjExYjIwZTBjM2RlOTJkZGUyOSIsICJnb2FsX2lkIjogImdvYWxfMjQ4MTk4ZTdhMThiNDVkMGE4ZGE5ZTI4ZmY3MTQ2ZGMiLCAiaHlwb3RoZXNpc19pZCI6ICJoeXBfMWNjYzg5MWRjZWJkNDMwNDllYTI2MzZiMWRhYjEyNDgiLCAic3BlYyI6IHsiYXJ0aWZhY3RzIjogW3sibmFtZSI6ICJzb2x1dGlvbi5weSIsICJwYXRoIjogInNvbHV0aW9uLnB5In0sIHsibmFtZSI6ICJpbnB1dC5jc3YiLCAicGF0aCI6ICJpbnB1dC5jc3YifSwgeyJuYW1lIjogInJlc3VsdC5qc29uIiwgInBhdGgiOiAicmVzdWx0Lmpzb24ifSwgeyJuYW1lIjogImludm9jYXRpb25zLmpzb25sIiwgInBhdGgiOiAiaW52b2NhdGlvbnMuanNvbmwifV0sICJjaGFuZ2UiOiAiUmVwbGFjZSB0aGUgbGlzdC1wZXItZ3JvdXAgZHJhZnQgd2l0aCBhIHN0YW5kYXJkLWxpYnJhcnkgaW1wbGVtZW50YXRpb24gdGhhdCBhY2N1bXVsYXRlcyBhIGZsb2F0IHRvdGFsIGFuZCBjb3VudCwgdGhlbiBkaXZpZGVzIHRvdGFsIGJ5IGNvdW50IGZvciBldmVyeSBncm91cC4gRXhwZWN0ZWQgZmluYWwgc29sdXRpb24ucHkgU0hBLTI1NiB3YXMgY2FsY3VsYXRlZCBmcm9tIHNvbHV0aW9uLWRyYWZ0LnB5IGJlZm9yZSByZWdpc3RyYXRpb24uIiwgImNvbW1hbmQiOiBbIkM6XFxVc2Vyc1xcUG90YXRvXFwuY2FjaGVcXGNvZGV4LXJ1bnRpbWVzXFxjb2RleC1wcmltYXJ5LXJ1bnRpbWVcXGRlcGVuZGVuY2llc1xccHl0aG9uXFxweXRob24uZXhlIiwgInRhc2sucHkiLCAiRCJdLCAiY29tcGFyaXNvbiI6ICJUaGUgcHJvdmlkZWQgbGlzdC1iYXNlZCBhcml0aG1ldGljLW1lYW4gaW1wbGVtZW50YXRpb24gaW4gc29sdXRpb24ucHkuIEl0IGlzIGEgZnVuY3Rpb25hbCBjb21wYXJhdG9yIG9ubHk7IG5vIGJhc2VsaW5lIHJ1biBvciBwZXJmb3JtYW5jZSBjb21wYXJpc29uIGlzIGNsYWltZWQuIiwgImNyaXRlcmlhIjogW3sibWV0cmljIjogInBhc3NfcmF0ZSIsICJvcCI6ICI+PSIsICJ0aHJlc2hvbGQiOiAxLjB9XSwgImN3ZCI6ICJDOlxcVXNlcnNcXFBvdGF0b1xcRG9jdW1lbnRzXFxDaGF0R1BUXFxSZXNlYXJjaCBBZ2VudFxcRXZpZGVuY2VSZXNlYXJjaFxcdmFsaWRhdGlvblxcaW50ZXJmYWNlLWFnZW50IiwgImRhdGFfc3BsaXQiOiB7ImRldmVsb3BtZW50IjogIk9ubHkgQlJJRUYua28ubWQgYW5kIHRoZSBwdWJsaWMgaW5wdXQuY3N2IHdlcmUgaW5zcGVjdGVkOiBncm91cCBhIHZhbHVlcyAxIGFuZCAzIGltcGx5IDIuMDsgZ3JvdXAgYiB2YWx1ZSAxMCBpbXBsaWVzIDEwLjAuIEFsbCBncm91cCx2YWx1ZSBzdHJpbmdzIGFyZSB2YWxpZCBhY2NvcmRpbmcgdG8gdGhlIHB1YmxpYyBicmllZi4iLCAiZXZhbHVhdGlvbiI6ICJUaGUgc2VwYXJhdGVseSBmcm96ZW4gb3duZXIgdmFsaWRhdG9yIGNzdi1maXhlZC12MSBldmFsdWF0ZXMgcHJlc2VydmVkIGFydGlmYWN0cy4gSXRzIGNvZGUgYW5kIGluZGVwZW5kZW50IGNhc2VzIGFyZSBub3QgaW5zcGVjdGVkIGJ5IHRoaXMgZXh0ZXJuYWwgY29uc3VtZXIuIFRoaXMgREVWRUxPUE1FTlQgdGFzayBpcyBleGNsdWRlZCBmcm9tIGFsbCByZXNlYXJjaCBwZXJmb3JtYW5jZSBjb21wYXJpc29ucy4ifSwgImh5cG90aGVzaXNfaWQiOiAiaHlwXzFjY2M4OTFkY2ViZDQzMDQ5ZWEyNjM2YjFkYWIxMjQ4IiwgIm1ldHJpY3MiOiBbInBhc3NfcmF0ZSJdLCAic2VlZCI6IDAsICJzb3VyY2VfdmVyc2lvbiI6IHsiZmlsZXMiOiB7ImlucHV0LmNzdiI6ICI4Nzk0NDcxOWVkYzVmZThmYTU0OWI3MWQxNjM1ODQ1MGJkMWEyN2JkNDIwYmZhZmUxMTk1MTJjODhiZDU1YjFhIiwgInNvbHV0aW9uLnB5IjogImEyZGYwNGNlYzBmNmU4NGNlNGMyZTRlZjgwNjQ3Y2NiMTA1OTBmMzg2MTk1NWE4YzE0OTk4MjM5YzIwMWE1YjMiLCAidGFzay5weSI6ICI1ZmI5NWNhMTJiOGJmNWNiZTA5MjVlOTk2NjMwZWU2NzhkMjVlOGM2ZDg0OTM1NzEwMDhlZWVmNzlmOWNkOTYzIn0sICJsYWJlbCI6ICJjYW5kaWRhdGUtZDEifSwgInRhc2tfaWQiOiAiRCIsICJ2YWxpZGF0b3IiOiAiY3N2LWZpeGVkLXYxIiwgInZhbGlkYXRvcl9zaGEyNTYiOiAiYWIzZGJkZWE1NzNhNmE1NTNlOTk0NjQ5NzA1Mjc5ZTc0ZDlhOTllZjkzNTM5Y2ZkZmEzZGFjZTc0NGQxNzVlZCJ9LCAiZmluZ2VycHJpbnQiOiAiYTlhNTQzZDYwYjhkNmQ1MGFjMDQ1ZTBiOGI1OWE4M2M4ZDc2NTdmMzhmZmY2ZDlhOTIxYjZiMjdkNzllODEzNiIsICJjcmVhdGVkIjogMTc5MTA0NjEyMS4yNjQ0MTI2fSwgInJldXNlZCI6IGZhbHNlLCAicmV2aXNpb24iOiA0fX0NCg==",
+      "stderr_base64": "",
+      "stdout_bytes": 2323,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "registration": {
+            "id": "reg_23a6503d54224211b20e0c3de92dde29",
+            "goal_id": "goal_248198e7a18b45d0a8da9e28ff7146dc",
+            "hypothesis_id": "hyp_1ccc891dcebd43049ea2636b1dab1248",
+            "spec": {
+              "artifacts": [
+                {
+                  "name": "solution.py",
+                  "path": "solution.py"
+                },
+                {
+                  "name": "input.csv",
+                  "path": "input.csv"
+                },
+                {
+                  "name": "result.json",
+                  "path": "result.json"
+                },
+                {
+                  "name": "invocations.jsonl",
+                  "path": "invocations.jsonl"
+                }
+              ],
+              "change": "Replace the list-per-group draft with a standard-library implementation that accumulates a float total and count, then divides total by count for every group. Expected final solution.py SHA-256 was calculated from solution-draft.py before registration.",
+              "command": [
+                "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+                "task.py",
+                "D"
+              ],
+              "comparison": "The provided list-based arithmetic-mean implementation in solution.py. It is a functional comparator only; no baseline run or performance comparison is claimed.",
+              "criteria": [
+                {
+                  "metric": "pass_rate",
+                  "op": ">=",
+                  "threshold": 1.0
+                }
+              ],
+              "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+              "data_split": {
+                "development": "Only BRIEF.ko.md and the public input.csv were inspected: group a values 1 and 3 imply 2.0; group b value 10 implies 10.0. All group,value strings are valid according to the public brief.",
+                "evaluation": "The separately frozen owner validator csv-fixed-v1 evaluates preserved artifacts. Its code and independent cases are not inspected by this external consumer. This DEVELOPMENT task is excluded from all research performance comparisons."
+              },
+              "hypothesis_id": "hyp_1ccc891dcebd43049ea2636b1dab1248",
+              "metrics": [
+                "pass_rate"
+              ],
+              "seed": 0,
+              "source_version": {
+                "files": {
+                  "input.csv": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+                  "solution.py": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+                  "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+                },
+                "label": "candidate-d1"
+              },
+              "task_id": "D",
+              "validator": "csv-fixed-v1",
+              "validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed"
+            },
+            "fingerprint": "a9a543d60b8d6d50ac045e0b8b59a83c8d7657f38fff6d9a921b6b27d79e8136",
+            "created": 1791046121.2644126
+          },
+          "reused": false,
+          "revision": 4
+        }
+      },
+      "response_format": "json",
+      "elapsed_seconds": 0.07753569999476895,
+      "completed_at": "2026-10-03T16:48:41.276413+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "run",
+        "--registration",
+        "reg_23a6503d54224211b20e0c3de92dde29",
+        "--request-key",
+        "d-interface-run-v1",
+        "--expect",
+        "4"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:48:48.990667+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"started\": true, \"receipt_collected\": true, \"record\": {\"registration\": {\"id\": \"reg_23a6503d54224211b20e0c3de92dde29\", \"goal_id\": \"goal_248198e7a18b45d0a8da9e28ff7146dc\", \"fingerprint\": \"a9a543d60b8d6d50ac045e0b8b59a83c8d7657f38fff6d9a921b6b27d79e8136\"}, \"run\": {\"id\": \"run_cb960ef01169473983badc2927351938\", \"state\": \"succeeded\", \"resources\": {\"external_model_usage\": \"unknown\", \"external_tokens\": \"unknown\", \"tokens\": {\"status\": \"unknown\", \"value\": null}, \"wall_seconds\": 0.06300000002374873}, \"execution_directory\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\runs\\\\run_cb960ef01169473983badc2927351938\\\\work\"}, \"verification\": null, \"decision\": {\"state\": \"pending\"}, \"revision\": 6, \"evidence_integrity\": \"valid\", \"evidence_summary\": {\"total\": 11, \"invalid\": 0, \"missing_artifact_count\": 0, \"missing_artifacts\": []}, \"artifacts\": [{\"name\": \"result.json\", \"sha256\": \"4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f\", \"integrity\": \"valid\", \"verified\": false, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f\"}, {\"name\": \"invocations.jsonl\", \"sha256\": \"dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3\", \"integrity\": \"valid\", \"verified\": false, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3\"}, {\"name\": \"solution.py\", \"sha256\": \"a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3\", \"integrity\": \"valid\", \"verified\": false, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3\"}, {\"name\": \"input.csv\", \"sha256\": \"87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a\", \"integrity\": \"valid\", \"verified\": false, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a\"}], \"artifact_total\": 4, \"artifacts_remaining\": 0, \"claim_verified\": false, \"detail_retrieval\": {\"command\": \"show\", \"registration_id\": \"reg_23a6503d54224211b20e0c3de92dde29\", \"workspace\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\"}}}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJzdGFydGVkIjogdHJ1ZSwgInJlY2VpcHRfY29sbGVjdGVkIjogdHJ1ZSwgInJlY29yZCI6IHsicmVnaXN0cmF0aW9uIjogeyJpZCI6ICJyZWdfMjNhNjUwM2Q1NDIyNDIxMWIyMGUwYzNkZTkyZGRlMjkiLCAiZ29hbF9pZCI6ICJnb2FsXzI0ODE5OGU3YTE4YjQ1ZDBhOGRhOWUyOGZmNzE0NmRjIiwgImZpbmdlcnByaW50IjogImE5YTU0M2Q2MGI4ZDZkNTBhYzA0NWUwYjhiNTlhODNjOGQ3NjU3ZjM4ZmZmNmQ5YTkyMWI2YjI3ZDc5ZTgxMzYifSwgInJ1biI6IHsiaWQiOiAicnVuX2NiOTYwZWYwMTE2OTQ3Mzk4M2JhZGMyOTI3MzUxOTM4IiwgInN0YXRlIjogInN1Y2NlZWRlZCIsICJyZXNvdXJjZXMiOiB7ImV4dGVybmFsX21vZGVsX3VzYWdlIjogInVua25vd24iLCAiZXh0ZXJuYWxfdG9rZW5zIjogInVua25vd24iLCAidG9rZW5zIjogeyJzdGF0dXMiOiAidW5rbm93biIsICJ2YWx1ZSI6IG51bGx9LCAid2FsbF9zZWNvbmRzIjogMC4wNjMwMDAwMDAwMjM3NDg3M30sICJleGVjdXRpb25fZGlyZWN0b3J5IjogIkM6XFxVc2Vyc1xcUG90YXRvXFxEb2N1bWVudHNcXENoYXRHUFRcXFJlc2VhcmNoIEFnZW50XFxFdmlkZW5jZVJlc2VhcmNoXFx2YWxpZGF0aW9uXFxpbnRlcmZhY2UtYWdlbnRcXHJlc2VhcmNoXFwucmVzZWFyY2hcXHJ1bnNcXHJ1bl9jYjk2MGVmMDExNjk0NzM5ODNiYWRjMjkyNzM1MTkzOFxcd29yayJ9LCAidmVyaWZpY2F0aW9uIjogbnVsbCwgImRlY2lzaW9uIjogeyJzdGF0ZSI6ICJwZW5kaW5nIn0sICJyZXZpc2lvbiI6IDYsICJldmlkZW5jZV9pbnRlZ3JpdHkiOiAidmFsaWQiLCAiZXZpZGVuY2Vfc3VtbWFyeSI6IHsidG90YWwiOiAxMSwgImludmFsaWQiOiAwLCAibWlzc2luZ19hcnRpZmFjdF9jb3VudCI6IDAsICJtaXNzaW5nX2FydGlmYWN0cyI6IFtdfSwgImFydGlmYWN0cyI6IFt7Im5hbWUiOiAicmVzdWx0Lmpzb24iLCAic2hhMjU2IjogIjQyNjliMTBiOTBhMTI1MTNlZDA0NjU1NTliYmZhODMzY2IzMGEzNTY2MDBkNDE1MThjZGQ0Zjk2YWQ3NzZmNGYiLCAiaW50ZWdyaXR5IjogInZhbGlkIiwgInZlcmlmaWVkIjogZmFsc2UsICJwYXRoIjogIkM6XFxVc2Vyc1xcUG90YXRvXFxEb2N1bWVudHNcXENoYXRHUFRcXFJlc2VhcmNoIEFnZW50XFxFdmlkZW5jZVJlc2VhcmNoXFx2YWxpZGF0aW9uXFxpbnRlcmZhY2UtYWdlbnRcXHJlc2VhcmNoXFwucmVzZWFyY2hcXGV2aWRlbmNlXFw0MjY5YjEwYjkwYTEyNTEzZWQwNDY1NTU5YmJmYTgzM2NiMzBhMzU2NjAwZDQxNTE4Y2RkNGY5NmFkNzc2ZjRmIn0sIHsibmFtZSI6ICJpbnZvY2F0aW9ucy5qc29ubCIsICJzaGEyNTYiOiAiZGRkZmRmNjIwNzRkOGU4MWI3M2U3NjZlMzRhM2JjNDQyMjE5ZjNmN2Q5YTk5MmEzMDRkZjNjMDgzNjRhNjhjMyIsICJpbnRlZ3JpdHkiOiAidmFsaWQiLCAidmVyaWZpZWQiOiBmYWxzZSwgInBhdGgiOiAiQzpcXFVzZXJzXFxQb3RhdG9cXERvY3VtZW50c1xcQ2hhdEdQVFxcUmVzZWFyY2ggQWdlbnRcXEV2aWRlbmNlUmVzZWFyY2hcXHZhbGlkYXRpb25cXGludGVyZmFjZS1hZ2VudFxccmVzZWFyY2hcXC5yZXNlYXJjaFxcZXZpZGVuY2VcXGRkZGZkZjYyMDc0ZDhlODFiNzNlNzY2ZTM0YTNiYzQ0MjIxOWYzZjdkOWE5OTJhMzA0ZGYzYzA4MzY0YTY4YzMifSwgeyJuYW1lIjogInNvbHV0aW9uLnB5IiwgInNoYTI1NiI6ICJhMmRmMDRjZWMwZjZlODRjZTRjMmU0ZWY4MDY0N2NjYjEwNTkwZjM4NjE5NTVhOGMxNDk5ODIzOWMyMDFhNWIzIiwgImludGVncml0eSI6ICJ2YWxpZCIsICJ2ZXJpZmllZCI6IGZhbHNlLCAicGF0aCI6ICJDOlxcVXNlcnNcXFBvdGF0b1xcRG9jdW1lbnRzXFxDaGF0R1BUXFxSZXNlYXJjaCBBZ2VudFxcRXZpZGVuY2VSZXNlYXJjaFxcdmFsaWRhdGlvblxcaW50ZXJmYWNlLWFnZW50XFxyZXNlYXJjaFxcLnJlc2VhcmNoXFxldmlkZW5jZVxcYTJkZjA0Y2VjMGY2ZTg0Y2U0YzJlNGVmODA2NDdjY2IxMDU5MGYzODYxOTU1YThjMTQ5OTgyMzljMjAxYTViMyJ9LCB7Im5hbWUiOiAiaW5wdXQuY3N2IiwgInNoYTI1NiI6ICI4Nzk0NDcxOWVkYzVmZThmYTU0OWI3MWQxNjM1ODQ1MGJkMWEyN2JkNDIwYmZhZmUxMTk1MTJjODhiZDU1YjFhIiwgImludGVncml0eSI6ICJ2YWxpZCIsICJ2ZXJpZmllZCI6IGZhbHNlLCAicGF0aCI6ICJDOlxcVXNlcnNcXFBvdGF0b1xcRG9jdW1lbnRzXFxDaGF0R1BUXFxSZXNlYXJjaCBBZ2VudFxcRXZpZGVuY2VSZXNlYXJjaFxcdmFsaWRhdGlvblxcaW50ZXJmYWNlLWFnZW50XFxyZXNlYXJjaFxcLnJlc2VhcmNoXFxldmlkZW5jZVxcODc5NDQ3MTllZGM1ZmU4ZmE1NDliNzFkMTYzNTg0NTBiZDFhMjdiZDQyMGJmYWZlMTE5NTEyYzg4YmQ1NWIxYSJ9XSwgImFydGlmYWN0X3RvdGFsIjogNCwgImFydGlmYWN0c19yZW1haW5pbmciOiAwLCAiY2xhaW1fdmVyaWZpZWQiOiBmYWxzZSwgImRldGFpbF9yZXRyaWV2YWwiOiB7ImNvbW1hbmQiOiAic2hvdyIsICJyZWdpc3RyYXRpb25faWQiOiAicmVnXzIzYTY1MDNkNTQyMjQyMTFiMjBlMGMzZGU5MmRkZTI5IiwgIndvcmtzcGFjZSI6ICJDOlxcVXNlcnNcXFBvdGF0b1xcRG9jdW1lbnRzXFxDaGF0R1BUXFxSZXNlYXJjaCBBZ2VudFxcRXZpZGVuY2VSZXNlYXJjaFxcdmFsaWRhdGlvblxcaW50ZXJmYWNlLWFnZW50XFxyZXNlYXJjaCJ9fX19DQo=",
+      "stderr_base64": "",
+      "stdout_bytes": 2654,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "started": true,
+          "receipt_collected": true,
+          "record": {
+            "registration": {
+              "id": "reg_23a6503d54224211b20e0c3de92dde29",
+              "goal_id": "goal_248198e7a18b45d0a8da9e28ff7146dc",
+              "fingerprint": "a9a543d60b8d6d50ac045e0b8b59a83c8d7657f38fff6d9a921b6b27d79e8136"
+            },
+            "run": {
+              "id": "run_cb960ef01169473983badc2927351938",
+              "state": "succeeded",
+              "resources": {
+                "external_model_usage": "unknown",
+                "external_tokens": "unknown",
+                "tokens": {
+                  "status": "unknown",
+                  "value": null
+                },
+                "wall_seconds": 0.06300000002374873
+              },
+              "execution_directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\runs\\run_cb960ef01169473983badc2927351938\\work"
+            },
+            "verification": null,
+            "decision": {
+              "state": "pending"
+            },
+            "revision": 6,
+            "evidence_integrity": "valid",
+            "evidence_summary": {
+              "total": 11,
+              "invalid": 0,
+              "missing_artifact_count": 0,
+              "missing_artifacts": []
+            },
+            "artifacts": [
+              {
+                "name": "result.json",
+                "sha256": "4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+                "integrity": "valid",
+                "verified": false,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f"
+              },
+              {
+                "name": "invocations.jsonl",
+                "sha256": "dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+                "integrity": "valid",
+                "verified": false,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3"
+              },
+              {
+                "name": "solution.py",
+                "sha256": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+                "integrity": "valid",
+                "verified": false,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3"
+              },
+              {
+                "name": "input.csv",
+                "sha256": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+                "integrity": "valid",
+                "verified": false,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a"
+              }
+            ],
+            "artifact_total": 4,
+            "artifacts_remaining": 0,
+            "claim_verified": false,
+            "detail_retrieval": {
+              "command": "show",
+              "registration_id": "reg_23a6503d54224211b20e0c3de92dde29",
+              "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research"
+            }
+          }
+        }
+      },
+      "response_format": "json",
+      "elapsed_seconds": 0.2732245000079274,
+      "completed_at": "2026-10-03T16:48:49.264023+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "run",
+        "--registration",
+        "reg_23a6503d54224211b20e0c3de92dde29",
+        "--request-key",
+        "d-interface-run-v1"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:49:20.720034+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"started\": false, \"resume\": \"Use recover for running/unknown; completed executions are reused.\", \"record\": {\"registration\": {\"id\": \"reg_23a6503d54224211b20e0c3de92dde29\", \"goal_id\": \"goal_248198e7a18b45d0a8da9e28ff7146dc\", \"fingerprint\": \"a9a543d60b8d6d50ac045e0b8b59a83c8d7657f38fff6d9a921b6b27d79e8136\"}, \"run\": {\"id\": \"run_cb960ef01169473983badc2927351938\", \"state\": \"succeeded\", \"resources\": {\"external_model_usage\": \"unknown\", \"external_tokens\": \"unknown\", \"tokens\": {\"status\": \"unknown\", \"value\": null}, \"wall_seconds\": 0.06300000002374873}, \"execution_directory\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\runs\\\\run_cb960ef01169473983badc2927351938\\\\work\"}, \"verification\": null, \"decision\": {\"state\": \"pending\"}, \"revision\": 6, \"evidence_integrity\": \"valid\", \"evidence_summary\": {\"total\": 11, \"invalid\": 0, \"missing_artifact_count\": 0, \"missing_artifacts\": []}, \"artifacts\": [{\"name\": \"result.json\", \"sha256\": \"4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f\", \"integrity\": \"valid\", \"verified\": false, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f\"}, {\"name\": \"invocations.jsonl\", \"sha256\": \"dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3\", \"integrity\": \"valid\", \"verified\": false, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3\"}, {\"name\": \"solution.py\", \"sha256\": \"a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3\", \"integrity\": \"valid\", \"verified\": false, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3\"}, {\"name\": \"input.csv\", \"sha256\": \"87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a\", \"integrity\": \"valid\", \"verified\": false, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a\"}], \"artifact_total\": 4, \"artifacts_remaining\": 0, \"claim_verified\": false, \"detail_retrieval\": {\"command\": \"show\", \"registration_id\": \"reg_23a6503d54224211b20e0c3de92dde29\", \"workspace\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\"}}}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJzdGFydGVkIjogZmFsc2UsICJyZXN1bWUiOiAiVXNlIHJlY292ZXIgZm9yIHJ1bm5pbmcvdW5rbm93bjsgY29tcGxldGVkIGV4ZWN1dGlvbnMgYXJlIHJldXNlZC4iLCAicmVjb3JkIjogeyJyZWdpc3RyYXRpb24iOiB7ImlkIjogInJlZ18yM2E2NTAzZDU0MjI0MjExYjIwZTBjM2RlOTJkZGUyOSIsICJnb2FsX2lkIjogImdvYWxfMjQ4MTk4ZTdhMThiNDVkMGE4ZGE5ZTI4ZmY3MTQ2ZGMiLCAiZmluZ2VycHJpbnQiOiAiYTlhNTQzZDYwYjhkNmQ1MGFjMDQ1ZTBiOGI1OWE4M2M4ZDc2NTdmMzhmZmY2ZDlhOTIxYjZiMjdkNzllODEzNiJ9LCAicnVuIjogeyJpZCI6ICJydW5fY2I5NjBlZjAxMTY5NDczOTgzYmFkYzI5MjczNTE5MzgiLCAic3RhdGUiOiAic3VjY2VlZGVkIiwgInJlc291cmNlcyI6IHsiZXh0ZXJuYWxfbW9kZWxfdXNhZ2UiOiAidW5rbm93biIsICJleHRlcm5hbF90b2tlbnMiOiAidW5rbm93biIsICJ0b2tlbnMiOiB7InN0YXR1cyI6ICJ1bmtub3duIiwgInZhbHVlIjogbnVsbH0sICJ3YWxsX3NlY29uZHMiOiAwLjA2MzAwMDAwMDAyMzc0ODczfSwgImV4ZWN1dGlvbl9kaXJlY3RvcnkiOiAiQzpcXFVzZXJzXFxQb3RhdG9cXERvY3VtZW50c1xcQ2hhdEdQVFxcUmVzZWFyY2ggQWdlbnRcXEV2aWRlbmNlUmVzZWFyY2hcXHZhbGlkYXRpb25cXGludGVyZmFjZS1hZ2VudFxccmVzZWFyY2hcXC5yZXNlYXJjaFxccnVuc1xccnVuX2NiOTYwZWYwMTE2OTQ3Mzk4M2JhZGMyOTI3MzUxOTM4XFx3b3JrIn0sICJ2ZXJpZmljYXRpb24iOiBudWxsLCAiZGVjaXNpb24iOiB7InN0YXRlIjogInBlbmRpbmcifSwgInJldmlzaW9uIjogNiwgImV2aWRlbmNlX2ludGVncml0eSI6ICJ2YWxpZCIsICJldmlkZW5jZV9zdW1tYXJ5IjogeyJ0b3RhbCI6IDExLCAiaW52YWxpZCI6IDAsICJtaXNzaW5nX2FydGlmYWN0X2NvdW50IjogMCwgIm1pc3NpbmdfYXJ0aWZhY3RzIjogW119LCAiYXJ0aWZhY3RzIjogW3sibmFtZSI6ICJyZXN1bHQuanNvbiIsICJzaGEyNTYiOiAiNDI2OWIxMGI5MGExMjUxM2VkMDQ2NTU1OWJiZmE4MzNjYjMwYTM1NjYwMGQ0MTUxOGNkZDRmOTZhZDc3NmY0ZiIsICJpbnRlZ3JpdHkiOiAidmFsaWQiLCAidmVyaWZpZWQiOiBmYWxzZSwgInBhdGgiOiAiQzpcXFVzZXJzXFxQb3RhdG9cXERvY3VtZW50c1xcQ2hhdEdQVFxcUmVzZWFyY2ggQWdlbnRcXEV2aWRlbmNlUmVzZWFyY2hcXHZhbGlkYXRpb25cXGludGVyZmFjZS1hZ2VudFxccmVzZWFyY2hcXC5yZXNlYXJjaFxcZXZpZGVuY2VcXDQyNjliMTBiOTBhMTI1MTNlZDA0NjU1NTliYmZhODMzY2IzMGEzNTY2MDBkNDE1MThjZGQ0Zjk2YWQ3NzZmNGYifSwgeyJuYW1lIjogImludm9jYXRpb25zLmpzb25sIiwgInNoYTI1NiI6ICJkZGRmZGY2MjA3NGQ4ZTgxYjczZTc2NmUzNGEzYmM0NDIyMTlmM2Y3ZDlhOTkyYTMwNGRmM2MwODM2NGE2OGMzIiwgImludGVncml0eSI6ICJ2YWxpZCIsICJ2ZXJpZmllZCI6IGZhbHNlLCAicGF0aCI6ICJDOlxcVXNlcnNcXFBvdGF0b1xcRG9jdW1lbnRzXFxDaGF0R1BUXFxSZXNlYXJjaCBBZ2VudFxcRXZpZGVuY2VSZXNlYXJjaFxcdmFsaWRhdGlvblxcaW50ZXJmYWNlLWFnZW50XFxyZXNlYXJjaFxcLnJlc2VhcmNoXFxldmlkZW5jZVxcZGRkZmRmNjIwNzRkOGU4MWI3M2U3NjZlMzRhM2JjNDQyMjE5ZjNmN2Q5YTk5MmEzMDRkZjNjMDgzNjRhNjhjMyJ9LCB7Im5hbWUiOiAic29sdXRpb24ucHkiLCAic2hhMjU2IjogImEyZGYwNGNlYzBmNmU4NGNlNGMyZTRlZjgwNjQ3Y2NiMTA1OTBmMzg2MTk1NWE4YzE0OTk4MjM5YzIwMWE1YjMiLCAiaW50ZWdyaXR5IjogInZhbGlkIiwgInZlcmlmaWVkIjogZmFsc2UsICJwYXRoIjogIkM6XFxVc2Vyc1xcUG90YXRvXFxEb2N1bWVudHNcXENoYXRHUFRcXFJlc2VhcmNoIEFnZW50XFxFdmlkZW5jZVJlc2VhcmNoXFx2YWxpZGF0aW9uXFxpbnRlcmZhY2UtYWdlbnRcXHJlc2VhcmNoXFwucmVzZWFyY2hcXGV2aWRlbmNlXFxhMmRmMDRjZWMwZjZlODRjZTRjMmU0ZWY4MDY0N2NjYjEwNTkwZjM4NjE5NTVhOGMxNDk5ODIzOWMyMDFhNWIzIn0sIHsibmFtZSI6ICJpbnB1dC5jc3YiLCAic2hhMjU2IjogIjg3OTQ0NzE5ZWRjNWZlOGZhNTQ5YjcxZDE2MzU4NDUwYmQxYTI3YmQ0MjBiZmFmZTExOTUxMmM4OGJkNTViMWEiLCAiaW50ZWdyaXR5IjogInZhbGlkIiwgInZlcmlmaWVkIjogZmFsc2UsICJwYXRoIjogIkM6XFxVc2Vyc1xcUG90YXRvXFxEb2N1bWVudHNcXENoYXRHUFRcXFJlc2VhcmNoIEFnZW50XFxFdmlkZW5jZVJlc2VhcmNoXFx2YWxpZGF0aW9uXFxpbnRlcmZhY2UtYWdlbnRcXHJlc2VhcmNoXFwucmVzZWFyY2hcXGV2aWRlbmNlXFw4Nzk0NDcxOWVkYzVmZThmYTU0OWI3MWQxNjM1ODQ1MGJkMWEyN2JkNDIwYmZhZmUxMTk1MTJjODhiZDU1YjFhIn1dLCAiYXJ0aWZhY3RfdG90YWwiOiA0LCAiYXJ0aWZhY3RzX3JlbWFpbmluZyI6IDAsICJjbGFpbV92ZXJpZmllZCI6IGZhbHNlLCAiZGV0YWlsX3JldHJpZXZhbCI6IHsiY29tbWFuZCI6ICJzaG93IiwgInJlZ2lzdHJhdGlvbl9pZCI6ICJyZWdfMjNhNjUwM2Q1NDIyNDIxMWIyMGUwYzNkZTkyZGRlMjkiLCAid29ya3NwYWNlIjogIkM6XFxVc2Vyc1xcUG90YXRvXFxEb2N1bWVudHNcXENoYXRHUFRcXFJlc2VhcmNoIEFnZW50XFxFdmlkZW5jZVJlc2VhcmNoXFx2YWxpZGF0aW9uXFxpbnRlcmZhY2UtYWdlbnRcXHJlc2VhcmNoIn19fX0NCg==",
+      "stderr_base64": "",
+      "stdout_bytes": 2707,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "started": false,
+          "resume": "Use recover for running/unknown; completed executions are reused.",
+          "record": {
+            "registration": {
+              "id": "reg_23a6503d54224211b20e0c3de92dde29",
+              "goal_id": "goal_248198e7a18b45d0a8da9e28ff7146dc",
+              "fingerprint": "a9a543d60b8d6d50ac045e0b8b59a83c8d7657f38fff6d9a921b6b27d79e8136"
+            },
+            "run": {
+              "id": "run_cb960ef01169473983badc2927351938",
+              "state": "succeeded",
+              "resources": {
+                "external_model_usage": "unknown",
+                "external_tokens": "unknown",
+                "tokens": {
+                  "status": "unknown",
+                  "value": null
+                },
+                "wall_seconds": 0.06300000002374873
+              },
+              "execution_directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\runs\\run_cb960ef01169473983badc2927351938\\work"
+            },
+            "verification": null,
+            "decision": {
+              "state": "pending"
+            },
+            "revision": 6,
+            "evidence_integrity": "valid",
+            "evidence_summary": {
+              "total": 11,
+              "invalid": 0,
+              "missing_artifact_count": 0,
+              "missing_artifacts": []
+            },
+            "artifacts": [
+              {
+                "name": "result.json",
+                "sha256": "4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+                "integrity": "valid",
+                "verified": false,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f"
+              },
+              {
+                "name": "invocations.jsonl",
+                "sha256": "dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+                "integrity": "valid",
+                "verified": false,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3"
+              },
+              {
+                "name": "solution.py",
+                "sha256": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+                "integrity": "valid",
+                "verified": false,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3"
+              },
+              {
+                "name": "input.csv",
+                "sha256": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+                "integrity": "valid",
+                "verified": false,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a"
+              }
+            ],
+            "artifact_total": 4,
+            "artifacts_remaining": 0,
+            "claim_verified": false,
+            "detail_retrieval": {
+              "command": "show",
+              "registration_id": "reg_23a6503d54224211b20e0c3de92dde29",
+              "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research"
+            }
+          }
+        }
+      },
+      "response_format": "json",
+      "elapsed_seconds": 0.07580029999371618,
+      "completed_at": "2026-10-03T16:49:20.795456+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "verify",
+        "--registration",
+        "reg_23a6503d54224211b20e0c3de92dde29"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:49:23.393568+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"record\": {\"registration\": {\"id\": \"reg_23a6503d54224211b20e0c3de92dde29\", \"goal_id\": \"goal_248198e7a18b45d0a8da9e28ff7146dc\", \"fingerprint\": \"a9a543d60b8d6d50ac045e0b8b59a83c8d7657f38fff6d9a921b6b27d79e8136\"}, \"run\": {\"id\": \"run_cb960ef01169473983badc2927351938\", \"state\": \"succeeded\", \"resources\": {\"external_model_usage\": \"unknown\", \"external_tokens\": \"unknown\", \"tokens\": {\"status\": \"unknown\", \"value\": null}, \"wall_seconds\": 0.06300000002374873}, \"execution_directory\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\runs\\\\run_cb960ef01169473983badc2927351938\\\\work\"}, \"verification\": {\"run_id\": \"run_cb960ef01169473983badc2927351938\", \"state\": \"passed\", \"metrics\": {\"pass_rate\": 1.0}, \"metric_total\": 1, \"criteria_results\": [{\"actual\": 1.0, \"metric\": \"pass_rate\", \"op\": \">=\", \"passed\": true, \"threshold\": 1.0}], \"criteria_total\": 1}, \"decision\": {\"state\": \"pending\"}, \"revision\": 7, \"evidence_integrity\": \"valid\", \"evidence_summary\": {\"total\": 11, \"invalid\": 0, \"missing_artifact_count\": 0, \"missing_artifacts\": []}, \"artifacts\": [{\"name\": \"result.json\", \"sha256\": \"4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f\", \"integrity\": \"valid\", \"verified\": true, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f\"}, {\"name\": \"invocations.jsonl\", \"sha256\": \"dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3\", \"integrity\": \"valid\", \"verified\": true, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3\"}, {\"name\": \"solution.py\", \"sha256\": \"a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3\", \"integrity\": \"valid\", \"verified\": true, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3\"}, {\"name\": \"input.csv\", \"sha256\": \"87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a\", \"integrity\": \"valid\", \"verified\": true, \"path\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\\\\.research\\\\evidence\\\\87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a\"}], \"artifact_total\": 4, \"artifacts_remaining\": 0, \"claim_verified\": true, \"detail_retrieval\": {\"command\": \"show\", \"registration_id\": \"reg_23a6503d54224211b20e0c3de92dde29\", \"workspace\": \"C:\\\\Users\\\\Potato\\\\Documents\\\\ChatGPT\\\\Research Agent\\\\EvidenceResearch\\\\validation\\\\interface-agent\\\\research\"}}}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJyZWNvcmQiOiB7InJlZ2lzdHJhdGlvbiI6IHsiaWQiOiAicmVnXzIzYTY1MDNkNTQyMjQyMTFiMjBlMGMzZGU5MmRkZTI5IiwgImdvYWxfaWQiOiAiZ29hbF8yNDgxOThlN2ExOGI0NWQwYThkYTllMjhmZjcxNDZkYyIsICJmaW5nZXJwcmludCI6ICJhOWE1NDNkNjBiOGQ2ZDUwYWMwNDVlMGI4YjU5YTgzYzhkNzY1N2YzOGZmZjZkOWE5MjFiNmIyN2Q3OWU4MTM2In0sICJydW4iOiB7ImlkIjogInJ1bl9jYjk2MGVmMDExNjk0NzM5ODNiYWRjMjkyNzM1MTkzOCIsICJzdGF0ZSI6ICJzdWNjZWVkZWQiLCAicmVzb3VyY2VzIjogeyJleHRlcm5hbF9tb2RlbF91c2FnZSI6ICJ1bmtub3duIiwgImV4dGVybmFsX3Rva2VucyI6ICJ1bmtub3duIiwgInRva2VucyI6IHsic3RhdHVzIjogInVua25vd24iLCAidmFsdWUiOiBudWxsfSwgIndhbGxfc2Vjb25kcyI6IDAuMDYzMDAwMDAwMDIzNzQ4NzN9LCAiZXhlY3V0aW9uX2RpcmVjdG9yeSI6ICJDOlxcVXNlcnNcXFBvdGF0b1xcRG9jdW1lbnRzXFxDaGF0R1BUXFxSZXNlYXJjaCBBZ2VudFxcRXZpZGVuY2VSZXNlYXJjaFxcdmFsaWRhdGlvblxcaW50ZXJmYWNlLWFnZW50XFxyZXNlYXJjaFxcLnJlc2VhcmNoXFxydW5zXFxydW5fY2I5NjBlZjAxMTY5NDczOTgzYmFkYzI5MjczNTE5MzhcXHdvcmsifSwgInZlcmlmaWNhdGlvbiI6IHsicnVuX2lkIjogInJ1bl9jYjk2MGVmMDExNjk0NzM5ODNiYWRjMjkyNzM1MTkzOCIsICJzdGF0ZSI6ICJwYXNzZWQiLCAibWV0cmljcyI6IHsicGFzc19yYXRlIjogMS4wfSwgIm1ldHJpY190b3RhbCI6IDEsICJjcml0ZXJpYV9yZXN1bHRzIjogW3siYWN0dWFsIjogMS4wLCAibWV0cmljIjogInBhc3NfcmF0ZSIsICJvcCI6ICI+PSIsICJwYXNzZWQiOiB0cnVlLCAidGhyZXNob2xkIjogMS4wfV0sICJjcml0ZXJpYV90b3RhbCI6IDF9LCAiZGVjaXNpb24iOiB7InN0YXRlIjogInBlbmRpbmcifSwgInJldmlzaW9uIjogNywgImV2aWRlbmNlX2ludGVncml0eSI6ICJ2YWxpZCIsICJldmlkZW5jZV9zdW1tYXJ5IjogeyJ0b3RhbCI6IDExLCAiaW52YWxpZCI6IDAsICJtaXNzaW5nX2FydGlmYWN0X2NvdW50IjogMCwgIm1pc3NpbmdfYXJ0aWZhY3RzIjogW119LCAiYXJ0aWZhY3RzIjogW3sibmFtZSI6ICJyZXN1bHQuanNvbiIsICJzaGEyNTYiOiAiNDI2OWIxMGI5MGExMjUxM2VkMDQ2NTU1OWJiZmE4MzNjYjMwYTM1NjYwMGQ0MTUxOGNkZDRmOTZhZDc3NmY0ZiIsICJpbnRlZ3JpdHkiOiAidmFsaWQiLCAidmVyaWZpZWQiOiB0cnVlLCAicGF0aCI6ICJDOlxcVXNlcnNcXFBvdGF0b1xcRG9jdW1lbnRzXFxDaGF0R1BUXFxSZXNlYXJjaCBBZ2VudFxcRXZpZGVuY2VSZXNlYXJjaFxcdmFsaWRhdGlvblxcaW50ZXJmYWNlLWFnZW50XFxyZXNlYXJjaFxcLnJlc2VhcmNoXFxldmlkZW5jZVxcNDI2OWIxMGI5MGExMjUxM2VkMDQ2NTU1OWJiZmE4MzNjYjMwYTM1NjYwMGQ0MTUxOGNkZDRmOTZhZDc3NmY0ZiJ9LCB7Im5hbWUiOiAiaW52b2NhdGlvbnMuanNvbmwiLCAic2hhMjU2IjogImRkZGZkZjYyMDc0ZDhlODFiNzNlNzY2ZTM0YTNiYzQ0MjIxOWYzZjdkOWE5OTJhMzA0ZGYzYzA4MzY0YTY4YzMiLCAiaW50ZWdyaXR5IjogInZhbGlkIiwgInZlcmlmaWVkIjogdHJ1ZSwgInBhdGgiOiAiQzpcXFVzZXJzXFxQb3RhdG9cXERvY3VtZW50c1xcQ2hhdEdQVFxcUmVzZWFyY2ggQWdlbnRcXEV2aWRlbmNlUmVzZWFyY2hcXHZhbGlkYXRpb25cXGludGVyZmFjZS1hZ2VudFxccmVzZWFyY2hcXC5yZXNlYXJjaFxcZXZpZGVuY2VcXGRkZGZkZjYyMDc0ZDhlODFiNzNlNzY2ZTM0YTNiYzQ0MjIxOWYzZjdkOWE5OTJhMzA0ZGYzYzA4MzY0YTY4YzMifSwgeyJuYW1lIjogInNvbHV0aW9uLnB5IiwgInNoYTI1NiI6ICJhMmRmMDRjZWMwZjZlODRjZTRjMmU0ZWY4MDY0N2NjYjEwNTkwZjM4NjE5NTVhOGMxNDk5ODIzOWMyMDFhNWIzIiwgImludGVncml0eSI6ICJ2YWxpZCIsICJ2ZXJpZmllZCI6IHRydWUsICJwYXRoIjogIkM6XFxVc2Vyc1xcUG90YXRvXFxEb2N1bWVudHNcXENoYXRHUFRcXFJlc2VhcmNoIEFnZW50XFxFdmlkZW5jZVJlc2VhcmNoXFx2YWxpZGF0aW9uXFxpbnRlcmZhY2UtYWdlbnRcXHJlc2VhcmNoXFwucmVzZWFyY2hcXGV2aWRlbmNlXFxhMmRmMDRjZWMwZjZlODRjZTRjMmU0ZWY4MDY0N2NjYjEwNTkwZjM4NjE5NTVhOGMxNDk5ODIzOWMyMDFhNWIzIn0sIHsibmFtZSI6ICJpbnB1dC5jc3YiLCAic2hhMjU2IjogIjg3OTQ0NzE5ZWRjNWZlOGZhNTQ5YjcxZDE2MzU4NDUwYmQxYTI3YmQ0MjBiZmFmZTExOTUxMmM4OGJkNTViMWEiLCAiaW50ZWdyaXR5IjogInZhbGlkIiwgInZlcmlmaWVkIjogdHJ1ZSwgInBhdGgiOiAiQzpcXFVzZXJzXFxQb3RhdG9cXERvY3VtZW50c1xcQ2hhdEdQVFxcUmVzZWFyY2ggQWdlbnRcXEV2aWRlbmNlUmVzZWFyY2hcXHZhbGlkYXRpb25cXGludGVyZmFjZS1hZ2VudFxccmVzZWFyY2hcXC5yZXNlYXJjaFxcZXZpZGVuY2VcXDg3OTQ0NzE5ZWRjNWZlOGZhNTQ5YjcxZDE2MzU4NDUwYmQxYTI3YmQ0MjBiZmFmZTExOTUxMmM4OGJkNTViMWEifV0sICJhcnRpZmFjdF90b3RhbCI6IDQsICJhcnRpZmFjdHNfcmVtYWluaW5nIjogMCwgImNsYWltX3ZlcmlmaWVkIjogdHJ1ZSwgImRldGFpbF9yZXRyaWV2YWwiOiB7ImNvbW1hbmQiOiAic2hvdyIsICJyZWdpc3RyYXRpb25faWQiOiAicmVnXzIzYTY1MDNkNTQyMjQyMTFiMjBlMGMzZGU5MmRkZTI5IiwgIndvcmtzcGFjZSI6ICJDOlxcVXNlcnNcXFBvdGF0b1xcRG9jdW1lbnRzXFxDaGF0R1BUXFxSZXNlYXJjaCBBZ2VudFxcRXZpZGVuY2VSZXNlYXJjaFxcdmFsaWRhdGlvblxcaW50ZXJmYWNlLWFnZW50XFxyZXNlYXJjaCJ9fX19DQo=",
+      "stderr_base64": "",
+      "stdout_bytes": 2849,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "record": {
+            "registration": {
+              "id": "reg_23a6503d54224211b20e0c3de92dde29",
+              "goal_id": "goal_248198e7a18b45d0a8da9e28ff7146dc",
+              "fingerprint": "a9a543d60b8d6d50ac045e0b8b59a83c8d7657f38fff6d9a921b6b27d79e8136"
+            },
+            "run": {
+              "id": "run_cb960ef01169473983badc2927351938",
+              "state": "succeeded",
+              "resources": {
+                "external_model_usage": "unknown",
+                "external_tokens": "unknown",
+                "tokens": {
+                  "status": "unknown",
+                  "value": null
+                },
+                "wall_seconds": 0.06300000002374873
+              },
+              "execution_directory": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\runs\\run_cb960ef01169473983badc2927351938\\work"
+            },
+            "verification": {
+              "run_id": "run_cb960ef01169473983badc2927351938",
+              "state": "passed",
+              "metrics": {
+                "pass_rate": 1.0
+              },
+              "metric_total": 1,
+              "criteria_results": [
+                {
+                  "actual": 1.0,
+                  "metric": "pass_rate",
+                  "op": ">=",
+                  "passed": true,
+                  "threshold": 1.0
+                }
+              ],
+              "criteria_total": 1
+            },
+            "decision": {
+              "state": "pending"
+            },
+            "revision": 7,
+            "evidence_integrity": "valid",
+            "evidence_summary": {
+              "total": 11,
+              "invalid": 0,
+              "missing_artifact_count": 0,
+              "missing_artifacts": []
+            },
+            "artifacts": [
+              {
+                "name": "result.json",
+                "sha256": "4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+                "integrity": "valid",
+                "verified": true,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f"
+              },
+              {
+                "name": "invocations.jsonl",
+                "sha256": "dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+                "integrity": "valid",
+                "verified": true,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3"
+              },
+              {
+                "name": "solution.py",
+                "sha256": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+                "integrity": "valid",
+                "verified": true,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3"
+              },
+              {
+                "name": "input.csv",
+                "sha256": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+                "integrity": "valid",
+                "verified": true,
+                "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a"
+              }
+            ],
+            "artifact_total": 4,
+            "artifacts_remaining": 0,
+            "claim_verified": true,
+            "detail_retrieval": {
+              "command": "show",
+              "registration_id": "reg_23a6503d54224211b20e0c3de92dde29",
+              "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research"
+            }
+          }
+        }
+      },
+      "response_format": "json",
+      "elapsed_seconds": 0.22436309995828196,
+      "completed_at": "2026-10-03T16:49:23.617450+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "decide",
+        "--registration",
+        "reg_23a6503d54224211b20e0c3de92dde29",
+        "--decision",
+        "adopted",
+        "--reason",
+        "Adopted for this development interface episode: the owner-frozen independent verifier reports pass_rate 1.0, meeting the preregistered threshold 1.0; evidence integrity is valid and all four artifacts are preserved and verified. Repeating the same run key reused the succeeded run and the preserved invocation log still contains one invocation. This validates the external-consumer CLI flow only and is excluded from research performance comparisons.",
+        "--expect",
+        "7"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:49:37.910084+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"decision\": {\"registration_id\": \"reg_23a6503d54224211b20e0c3de92dde29\", \"state\": \"adopted\", \"reason\": \"Adopted for this development interface episode: the owner-frozen independent verifier reports pass_rate 1.0, meeting the preregistered threshold 1.0; evidence integrity is valid and all four artifacts are preserved and verified. Repeating the same run key reused the succeeded run and the preserved invocation log still contains one invocation. This validates the external-consumer CLI flow only and is excluded from research performance comparisons.\", \"created\": 1791046177.9801867}, \"reused\": false, \"revision\": 8}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJkZWNpc2lvbiI6IHsicmVnaXN0cmF0aW9uX2lkIjogInJlZ18yM2E2NTAzZDU0MjI0MjExYjIwZTBjM2RlOTJkZGUyOSIsICJzdGF0ZSI6ICJhZG9wdGVkIiwgInJlYXNvbiI6ICJBZG9wdGVkIGZvciB0aGlzIGRldmVsb3BtZW50IGludGVyZmFjZSBlcGlzb2RlOiB0aGUgb3duZXItZnJvemVuIGluZGVwZW5kZW50IHZlcmlmaWVyIHJlcG9ydHMgcGFzc19yYXRlIDEuMCwgbWVldGluZyB0aGUgcHJlcmVnaXN0ZXJlZCB0aHJlc2hvbGQgMS4wOyBldmlkZW5jZSBpbnRlZ3JpdHkgaXMgdmFsaWQgYW5kIGFsbCBmb3VyIGFydGlmYWN0cyBhcmUgcHJlc2VydmVkIGFuZCB2ZXJpZmllZC4gUmVwZWF0aW5nIHRoZSBzYW1lIHJ1biBrZXkgcmV1c2VkIHRoZSBzdWNjZWVkZWQgcnVuIGFuZCB0aGUgcHJlc2VydmVkIGludm9jYXRpb24gbG9nIHN0aWxsIGNvbnRhaW5zIG9uZSBpbnZvY2F0aW9uLiBUaGlzIHZhbGlkYXRlcyB0aGUgZXh0ZXJuYWwtY29uc3VtZXIgQ0xJIGZsb3cgb25seSBhbmQgaXMgZXhjbHVkZWQgZnJvbSByZXNlYXJjaCBwZXJmb3JtYW5jZSBjb21wYXJpc29ucy4iLCAiY3JlYXRlZCI6IDE3OTEwNDYxNzcuOTgwMTg2N30sICJyZXVzZWQiOiBmYWxzZSwgInJldmlzaW9uIjogOH19DQo=",
+      "stderr_base64": "",
+      "stdout_bytes": 644,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "decision": {
+            "registration_id": "reg_23a6503d54224211b20e0c3de92dde29",
+            "state": "adopted",
+            "reason": "Adopted for this development interface episode: the owner-frozen independent verifier reports pass_rate 1.0, meeting the preregistered threshold 1.0; evidence integrity is valid and all four artifacts are preserved and verified. Repeating the same run key reused the succeeded run and the preserved invocation log still contains one invocation. This validates the external-consumer CLI flow only and is excluded from research performance comparisons.",
+            "created": 1791046177.9801867
+          },
+          "reused": false,
+          "revision": 8
+        }
+      },
+      "response_format": "json",
+      "elapsed_seconds": 0.07883680000668392,
+      "completed_at": "2026-10-03T16:49:37.989186+00:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+        "-m",
+        "research_cli",
+        "--workspace",
+        "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research",
+        "memory",
+        "--limit",
+        "10"
+      ],
+      "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent",
+      "started_at": "2026-10-03T16:49:39.052052+00:00",
+      "returncode": 0,
+      "stdout": "{\"ok\": true, \"data\": {\"items\": [{\"id\": \"reg_23a6503d54224211b20e0c3de92dde29\", \"goal_id\": \"goal_248198e7a18b45d0a8da9e28ff7146dc\", \"hypothesis\": \"For valid group,value inputs, accumulating a float total and count for each group returns the required arithmetic means and passes the owner-frozen independent evaluator; the existing list-based implementation is the comparator, and this development episode tests the CLI interface without a research performance claim.\", \"execution\": \"succeeded\", \"verification\": \"passed\", \"decision\": \"adopted\", \"outcome\": \"success\", \"reason\": \"Adopted for this development interface episode: the owner-frozen independent verifier reports pass_rate 1.0, meeting the preregistered threshold 1.0; evidence integrity is valid and all four artifacts are preserved and verified. Repeating the same run key reused the succeeded run and the preserved invocation log still contains one invocation. This validates the external-consumer CLI flow only and is excluded from research performance comparisons.\", \"resources\": {\"external_model_usage\": \"unknown\", \"external_tokens\": \"unknown\", \"tokens\": {\"status\": \"unknown\", \"value\": null}, \"wall_seconds\": 0.06300000002374873}, \"evidence_count\": 11, \"summary\": \"Replace the list-per-group draft with a standard-library implementation that accumulates a float total and count, then divides total by count for every group. Expected final solution.py SHA-256 was calculated from solution-draft.py before registration.\", \"conditions\": {\"comparison\": \"The provided list-based arithmetic-mean implementation in solution.py. It is a functional comparator only; no baseline run or performance comparison is claimed.\", \"data_split\": {\"development\": \"Only BRIEF.ko.md and the public input.csv were inspected: group a values 1 and 3 imply 2.0; group b value 10 implies 10.0. All group,value strings are valid according to the public brief.\", \"evaluation\": \"The separately frozen owner validator csv-fixed-v1 evaluates preserved artifacts. Its code and independent cases are not inspected by this external consumer. This DEVELOPMENT task is excluded from all research performance comparisons.\"}, \"seed\": 0, \"source_version\": {\"files\": {\"input.csv\": \"87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a\", \"solution.py\": \"a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3\", \"task.py\": \"5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963\"}, \"label\": \"candidate-d1\"}}, \"evidence_integrity\": \"valid\", \"claim_verified\": true}], \"total\": 1, \"limit\": 10, \"offset\": 0, \"revision\": 8}}\r\n",
+      "stderr": "",
+      "stdout_base64": "eyJvayI6IHRydWUsICJkYXRhIjogeyJpdGVtcyI6IFt7ImlkIjogInJlZ18yM2E2NTAzZDU0MjI0MjExYjIwZTBjM2RlOTJkZGUyOSIsICJnb2FsX2lkIjogImdvYWxfMjQ4MTk4ZTdhMThiNDVkMGE4ZGE5ZTI4ZmY3MTQ2ZGMiLCAiaHlwb3RoZXNpcyI6ICJGb3IgdmFsaWQgZ3JvdXAsdmFsdWUgaW5wdXRzLCBhY2N1bXVsYXRpbmcgYSBmbG9hdCB0b3RhbCBhbmQgY291bnQgZm9yIGVhY2ggZ3JvdXAgcmV0dXJucyB0aGUgcmVxdWlyZWQgYXJpdGhtZXRpYyBtZWFucyBhbmQgcGFzc2VzIHRoZSBvd25lci1mcm96ZW4gaW5kZXBlbmRlbnQgZXZhbHVhdG9yOyB0aGUgZXhpc3RpbmcgbGlzdC1iYXNlZCBpbXBsZW1lbnRhdGlvbiBpcyB0aGUgY29tcGFyYXRvciwgYW5kIHRoaXMgZGV2ZWxvcG1lbnQgZXBpc29kZSB0ZXN0cyB0aGUgQ0xJIGludGVyZmFjZSB3aXRob3V0IGEgcmVzZWFyY2ggcGVyZm9ybWFuY2UgY2xhaW0uIiwgImV4ZWN1dGlvbiI6ICJzdWNjZWVkZWQiLCAidmVyaWZpY2F0aW9uIjogInBhc3NlZCIsICJkZWNpc2lvbiI6ICJhZG9wdGVkIiwgIm91dGNvbWUiOiAic3VjY2VzcyIsICJyZWFzb24iOiAiQWRvcHRlZCBmb3IgdGhpcyBkZXZlbG9wbWVudCBpbnRlcmZhY2UgZXBpc29kZTogdGhlIG93bmVyLWZyb3plbiBpbmRlcGVuZGVudCB2ZXJpZmllciByZXBvcnRzIHBhc3NfcmF0ZSAxLjAsIG1lZXRpbmcgdGhlIHByZXJlZ2lzdGVyZWQgdGhyZXNob2xkIDEuMDsgZXZpZGVuY2UgaW50ZWdyaXR5IGlzIHZhbGlkIGFuZCBhbGwgZm91ciBhcnRpZmFjdHMgYXJlIHByZXNlcnZlZCBhbmQgdmVyaWZpZWQuIFJlcGVhdGluZyB0aGUgc2FtZSBydW4ga2V5IHJldXNlZCB0aGUgc3VjY2VlZGVkIHJ1biBhbmQgdGhlIHByZXNlcnZlZCBpbnZvY2F0aW9uIGxvZyBzdGlsbCBjb250YWlucyBvbmUgaW52b2NhdGlvbi4gVGhpcyB2YWxpZGF0ZXMgdGhlIGV4dGVybmFsLWNvbnN1bWVyIENMSSBmbG93IG9ubHkgYW5kIGlzIGV4Y2x1ZGVkIGZyb20gcmVzZWFyY2ggcGVyZm9ybWFuY2UgY29tcGFyaXNvbnMuIiwgInJlc291cmNlcyI6IHsiZXh0ZXJuYWxfbW9kZWxfdXNhZ2UiOiAidW5rbm93biIsICJleHRlcm5hbF90b2tlbnMiOiAidW5rbm93biIsICJ0b2tlbnMiOiB7InN0YXR1cyI6ICJ1bmtub3duIiwgInZhbHVlIjogbnVsbH0sICJ3YWxsX3NlY29uZHMiOiAwLjA2MzAwMDAwMDAyMzc0ODczfSwgImV2aWRlbmNlX2NvdW50IjogMTEsICJzdW1tYXJ5IjogIlJlcGxhY2UgdGhlIGxpc3QtcGVyLWdyb3VwIGRyYWZ0IHdpdGggYSBzdGFuZGFyZC1saWJyYXJ5IGltcGxlbWVudGF0aW9uIHRoYXQgYWNjdW11bGF0ZXMgYSBmbG9hdCB0b3RhbCBhbmQgY291bnQsIHRoZW4gZGl2aWRlcyB0b3RhbCBieSBjb3VudCBmb3IgZXZlcnkgZ3JvdXAuIEV4cGVjdGVkIGZpbmFsIHNvbHV0aW9uLnB5IFNIQS0yNTYgd2FzIGNhbGN1bGF0ZWQgZnJvbSBzb2x1dGlvbi1kcmFmdC5weSBiZWZvcmUgcmVnaXN0cmF0aW9uLiIsICJjb25kaXRpb25zIjogeyJjb21wYXJpc29uIjogIlRoZSBwcm92aWRlZCBsaXN0LWJhc2VkIGFyaXRobWV0aWMtbWVhbiBpbXBsZW1lbnRhdGlvbiBpbiBzb2x1dGlvbi5weS4gSXQgaXMgYSBmdW5jdGlvbmFsIGNvbXBhcmF0b3Igb25seTsgbm8gYmFzZWxpbmUgcnVuIG9yIHBlcmZvcm1hbmNlIGNvbXBhcmlzb24gaXMgY2xhaW1lZC4iLCAiZGF0YV9zcGxpdCI6IHsiZGV2ZWxvcG1lbnQiOiAiT25seSBCUklFRi5rby5tZCBhbmQgdGhlIHB1YmxpYyBpbnB1dC5jc3Ygd2VyZSBpbnNwZWN0ZWQ6IGdyb3VwIGEgdmFsdWVzIDEgYW5kIDMgaW1wbHkgMi4wOyBncm91cCBiIHZhbHVlIDEwIGltcGxpZXMgMTAuMC4gQWxsIGdyb3VwLHZhbHVlIHN0cmluZ3MgYXJlIHZhbGlkIGFjY29yZGluZyB0byB0aGUgcHVibGljIGJyaWVmLiIsICJldmFsdWF0aW9uIjogIlRoZSBzZXBhcmF0ZWx5IGZyb3plbiBvd25lciB2YWxpZGF0b3IgY3N2LWZpeGVkLXYxIGV2YWx1YXRlcyBwcmVzZXJ2ZWQgYXJ0aWZhY3RzLiBJdHMgY29kZSBhbmQgaW5kZXBlbmRlbnQgY2FzZXMgYXJlIG5vdCBpbnNwZWN0ZWQgYnkgdGhpcyBleHRlcm5hbCBjb25zdW1lci4gVGhpcyBERVZFTE9QTUVOVCB0YXNrIGlzIGV4Y2x1ZGVkIGZyb20gYWxsIHJlc2VhcmNoIHBlcmZvcm1hbmNlIGNvbXBhcmlzb25zLiJ9LCAic2VlZCI6IDAsICJzb3VyY2VfdmVyc2lvbiI6IHsiZmlsZXMiOiB7ImlucHV0LmNzdiI6ICI4Nzk0NDcxOWVkYzVmZThmYTU0OWI3MWQxNjM1ODQ1MGJkMWEyN2JkNDIwYmZhZmUxMTk1MTJjODhiZDU1YjFhIiwgInNvbHV0aW9uLnB5IjogImEyZGYwNGNlYzBmNmU4NGNlNGMyZTRlZjgwNjQ3Y2NiMTA1OTBmMzg2MTk1NWE4YzE0OTk4MjM5YzIwMWE1YjMiLCAidGFzay5weSI6ICI1ZmI5NWNhMTJiOGJmNWNiZTA5MjVlOTk2NjMwZWU2NzhkMjVlOGM2ZDg0OTM1NzEwMDhlZWVmNzlmOWNkOTYzIn0sICJsYWJlbCI6ICJjYW5kaWRhdGUtZDEifX0sICJldmlkZW5jZV9pbnRlZ3JpdHkiOiAidmFsaWQiLCAiY2xhaW1fdmVyaWZpZWQiOiB0cnVlfV0sICJ0b3RhbCI6IDEsICJsaW1pdCI6IDEwLCAib2Zmc2V0IjogMCwgInJldmlzaW9uIjogOH19DQo=",
+      "stderr_base64": "",
+      "stdout_bytes": 2573,
+      "stderr_bytes": 0,
+      "response": {
+        "ok": true,
+        "data": {
+          "items": [
+            {
+              "id": "reg_23a6503d54224211b20e0c3de92dde29",
+              "goal_id": "goal_248198e7a18b45d0a8da9e28ff7146dc",
+              "hypothesis": "For valid group,value inputs, accumulating a float total and count for each group returns the required arithmetic means and passes the owner-frozen independent evaluator; the existing list-based implementation is the comparator, and this development episode tests the CLI interface without a research performance claim.",
+              "execution": "succeeded",
+              "verification": "passed",
+              "decision": "adopted",
+              "outcome": "success",
+              "reason": "Adopted for this development interface episode: the owner-frozen independent verifier reports pass_rate 1.0, meeting the preregistered threshold 1.0; evidence integrity is valid and all four artifacts are preserved and verified. Repeating the same run key reused the succeeded run and the preserved invocation log still contains one invocation. This validates the external-consumer CLI flow only and is excluded from research performance comparisons.",
+              "resources": {
+                "external_model_usage": "unknown",
+                "external_tokens": "unknown",
+                "tokens": {
+                  "status": "unknown",
+                  "value": null
+                },
+                "wall_seconds": 0.06300000002374873
+              },
+              "evidence_count": 11,
+              "summary": "Replace the list-per-group draft with a standard-library implementation that accumulates a float total and count, then divides total by count for every group. Expected final solution.py SHA-256 was calculated from solution-draft.py before registration.",
+              "conditions": {
+                "comparison": "The provided list-based arithmetic-mean implementation in solution.py. It is a functional comparator only; no baseline run or performance comparison is claimed.",
+                "data_split": {
+                  "development": "Only BRIEF.ko.md and the public input.csv were inspected: group a values 1 and 3 imply 2.0; group b value 10 implies 10.0. All group,value strings are valid according to the public brief.",
+                  "evaluation": "The separately frozen owner validator csv-fixed-v1 evaluates preserved artifacts. Its code and independent cases are not inspected by this external consumer. This DEVELOPMENT task is excluded from all research performance comparisons."
+                },
+                "seed": 0,
+                "source_version": {
+                  "files": {
+                    "input.csv": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+                    "solution.py": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+                    "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+                  },
+                  "label": "candidate-d1"
+                }
+              },
+              "evidence_integrity": "valid",
+              "claim_verified": true
+            }
+          ],
+          "total": 1,
+          "limit": 10,
+          "offset": 0,
+          "revision": 8
+        }
+      },
+      "response_format": "json",
+      "elapsed_seconds": 0.07607479998841882,
+      "completed_at": "2026-10-03T16:49:39.128060+00:00"
+    }
+  ],
+  "artifact_observations": [
+    {
+      "label": "before-duplicate",
+      "observed_at": "2026-10-03T16:49:19.642043+00:00",
+      "provenance": "Paths taken directly from latest public DEFAULT compact run response.",
+      "run_id": "run_cb960ef01169473983badc2927351938",
+      "artifacts": [
+        {
+          "name": "result.json",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+          "declared_sha256": "4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+          "actual_sha256": "4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+          "bytes": 177,
+          "content_base64": "eyJyZXNvdXJjZXMiOiB7ImVsYXBzZWRfc2Vjb25kcyI6IDguNTAwMDA2NTE1NTMyNzMyZS0wNiwgImV4dGVybmFsX3Rva2VucyI6IHsic3RhdHVzIjogInVua25vd24iLCAidmFsdWUiOiBudWxsfX0sICJyZXN1bHQiOiB7Imdyb3VwcyI6IHsiYSI6IDIuMCwgImIiOiAxMC4wfX0sICJ0YXNrX2lkIjogIkQifQ0K",
+          "text": "{\"resources\": {\"elapsed_seconds\": 8.500006515532732e-06, \"external_tokens\": {\"status\": \"unknown\", \"value\": null}}, \"result\": {\"groups\": {\"a\": 2.0, \"b\": 10.0}}, \"task_id\": \"D\"}\r\n"
+        },
+        {
+          "name": "invocations.jsonl",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+          "declared_sha256": "dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+          "actual_sha256": "dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+          "bytes": 53,
+          "content_base64": "eyJ0YXNrX2lkIjogIkQiLCAic3RhcnRlZF9ucyI6IDE3OTEwNDYxMjkxNzI5ODYyMDB9DQo=",
+          "text": "{\"task_id\": \"D\", \"started_ns\": 1791046129172986200}\r\n",
+          "invocations": [
+            {
+              "task_id": "D",
+              "started_ns": 1791046129172986200
+            }
+          ]
+        },
+        {
+          "name": "solution.py",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+          "declared_sha256": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+          "actual_sha256": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+          "bytes": 310,
+          "content_base64": "ZGVmIHN1bW1hcml6ZShyb3dzKToKICAgIHRvdGFscyA9IHt9CiAgICBjb3VudHMgPSB7fQogICAgZm9yIHJvdyBpbiByb3dzOgogICAgICAgIGdyb3VwID0gcm93WyJncm91cCJdCiAgICAgICAgdG90YWxzW2dyb3VwXSA9IHRvdGFscy5nZXQoZ3JvdXAsIDAuMCkgKyBmbG9hdChyb3dbInZhbHVlIl0pCiAgICAgICAgY291bnRzW2dyb3VwXSA9IGNvdW50cy5nZXQoZ3JvdXAsIDApICsgMQogICAgcmV0dXJuIHsiZ3JvdXBzIjoge2dyb3VwOiB0b3RhbCAvIGNvdW50c1tncm91cF0gZm9yIGdyb3VwLCB0b3RhbCBpbiB0b3RhbHMuaXRlbXMoKX19Cg=="
+        },
+        {
+          "name": "input.csv",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+          "declared_sha256": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+          "actual_sha256": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+          "bytes": 25,
+          "content_base64": "Z3JvdXAsdmFsdWUKYSwxCmEsMwpiLDEwCg=="
+        }
+      ],
+      "actual_invocations": 1
+    },
+    {
+      "label": "after-duplicate",
+      "observed_at": "2026-10-03T16:49:21.846476+00:00",
+      "provenance": "Paths taken directly from latest public DEFAULT compact run response.",
+      "run_id": "run_cb960ef01169473983badc2927351938",
+      "artifacts": [
+        {
+          "name": "result.json",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+          "declared_sha256": "4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+          "actual_sha256": "4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+          "bytes": 177,
+          "content_base64": "eyJyZXNvdXJjZXMiOiB7ImVsYXBzZWRfc2Vjb25kcyI6IDguNTAwMDA2NTE1NTMyNzMyZS0wNiwgImV4dGVybmFsX3Rva2VucyI6IHsic3RhdHVzIjogInVua25vd24iLCAidmFsdWUiOiBudWxsfX0sICJyZXN1bHQiOiB7Imdyb3VwcyI6IHsiYSI6IDIuMCwgImIiOiAxMC4wfX0sICJ0YXNrX2lkIjogIkQifQ0K",
+          "text": "{\"resources\": {\"elapsed_seconds\": 8.500006515532732e-06, \"external_tokens\": {\"status\": \"unknown\", \"value\": null}}, \"result\": {\"groups\": {\"a\": 2.0, \"b\": 10.0}}, \"task_id\": \"D\"}\r\n"
+        },
+        {
+          "name": "invocations.jsonl",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+          "declared_sha256": "dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+          "actual_sha256": "dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+          "bytes": 53,
+          "content_base64": "eyJ0YXNrX2lkIjogIkQiLCAic3RhcnRlZF9ucyI6IDE3OTEwNDYxMjkxNzI5ODYyMDB9DQo=",
+          "text": "{\"task_id\": \"D\", \"started_ns\": 1791046129172986200}\r\n",
+          "invocations": [
+            {
+              "task_id": "D",
+              "started_ns": 1791046129172986200
+            }
+          ]
+        },
+        {
+          "name": "solution.py",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+          "declared_sha256": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+          "actual_sha256": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+          "bytes": 310,
+          "content_base64": "ZGVmIHN1bW1hcml6ZShyb3dzKToKICAgIHRvdGFscyA9IHt9CiAgICBjb3VudHMgPSB7fQogICAgZm9yIHJvdyBpbiByb3dzOgogICAgICAgIGdyb3VwID0gcm93WyJncm91cCJdCiAgICAgICAgdG90YWxzW2dyb3VwXSA9IHRvdGFscy5nZXQoZ3JvdXAsIDAuMCkgKyBmbG9hdChyb3dbInZhbHVlIl0pCiAgICAgICAgY291bnRzW2dyb3VwXSA9IGNvdW50cy5nZXQoZ3JvdXAsIDApICsgMQogICAgcmV0dXJuIHsiZ3JvdXBzIjoge2dyb3VwOiB0b3RhbCAvIGNvdW50c1tncm91cF0gZm9yIGdyb3VwLCB0b3RhbCBpbiB0b3RhbHMuaXRlbXMoKX19Cg=="
+        },
+        {
+          "name": "input.csv",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+          "declared_sha256": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+          "actual_sha256": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+          "bytes": 25,
+          "content_base64": "Z3JvdXAsdmFsdWUKYSwxCmEsMwpiLDEwCg=="
+        }
+      ],
+      "actual_invocations": 1
+    },
+    {
+      "label": "final-live-invocation-check",
+      "observed_at": "2026-10-03T16:50:31.243443+00:00",
+      "provenance": "Paths taken directly from latest public DEFAULT compact run response.",
+      "run_id": "run_cb960ef01169473983badc2927351938",
+      "artifacts": [
+        {
+          "name": "result.json",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+          "declared_sha256": "4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+          "actual_sha256": "4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+          "bytes": 177,
+          "content_base64": "eyJyZXNvdXJjZXMiOiB7ImVsYXBzZWRfc2Vjb25kcyI6IDguNTAwMDA2NTE1NTMyNzMyZS0wNiwgImV4dGVybmFsX3Rva2VucyI6IHsic3RhdHVzIjogInVua25vd24iLCAidmFsdWUiOiBudWxsfX0sICJyZXN1bHQiOiB7Imdyb3VwcyI6IHsiYSI6IDIuMCwgImIiOiAxMC4wfX0sICJ0YXNrX2lkIjogIkQifQ0K",
+          "text": "{\"resources\": {\"elapsed_seconds\": 8.500006515532732e-06, \"external_tokens\": {\"status\": \"unknown\", \"value\": null}}, \"result\": {\"groups\": {\"a\": 2.0, \"b\": 10.0}}, \"task_id\": \"D\"}\r\n"
+        },
+        {
+          "name": "invocations.jsonl",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+          "declared_sha256": "dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+          "actual_sha256": "dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+          "bytes": 53,
+          "content_base64": "eyJ0YXNrX2lkIjogIkQiLCAic3RhcnRlZF9ucyI6IDE3OTEwNDYxMjkxNzI5ODYyMDB9DQo=",
+          "text": "{\"task_id\": \"D\", \"started_ns\": 1791046129172986200}\r\n",
+          "invocations": [
+            {
+              "task_id": "D",
+              "started_ns": 1791046129172986200
+            }
+          ]
+        },
+        {
+          "name": "solution.py",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+          "declared_sha256": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+          "actual_sha256": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+          "bytes": 310,
+          "content_base64": "ZGVmIHN1bW1hcml6ZShyb3dzKToKICAgIHRvdGFscyA9IHt9CiAgICBjb3VudHMgPSB7fQogICAgZm9yIHJvdyBpbiByb3dzOgogICAgICAgIGdyb3VwID0gcm93WyJncm91cCJdCiAgICAgICAgdG90YWxzW2dyb3VwXSA9IHRvdGFscy5nZXQoZ3JvdXAsIDAuMCkgKyBmbG9hdChyb3dbInZhbHVlIl0pCiAgICAgICAgY291bnRzW2dyb3VwXSA9IGNvdW50cy5nZXQoZ3JvdXAsIDApICsgMQogICAgcmV0dXJuIHsiZ3JvdXBzIjoge2dyb3VwOiB0b3RhbCAvIGNvdW50c1tncm91cF0gZm9yIGdyb3VwLCB0b3RhbCBpbiB0b3RhbHMuaXRlbXMoKX19Cg=="
+        },
+        {
+          "name": "input.csv",
+          "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+          "declared_sha256": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+          "actual_sha256": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+          "bytes": 25,
+          "content_base64": "Z3JvdXAsdmFsdWUKYSwxCmEsMwpiLDEwCg=="
+        }
+      ],
+      "live_invocations": {
+        "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\runs\\run_cb960ef01169473983badc2927351938\\work\\invocations.jsonl",
+        "provenance": "Public record.run.execution_directory plus preregistered invocations.jsonl artifact path.",
+        "content_base64": "eyJ0YXNrX2lkIjogIkQiLCAic3RhcnRlZF9ucyI6IDE3OTEwNDYxMjkxNzI5ODYyMDB9DQo=",
+        "sha256": "dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+        "actual_invocations": 1
+      },
+      "actual_invocations": 1
+    }
+  ]
+}

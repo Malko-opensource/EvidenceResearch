@@ -1,0 +1,133 @@
+{
+  "original_request": "누락값이 섞인 고객 응답 CSV로 팀별 만족도를 믿고 보고할 수 있는지 연구해 줘.",
+  "long_term_goal": "고정 공개 합성 CSV의 합의된 기술통계를 재현·독립 검증하고 계산 정확성과 80% 사업 기준의 충족 여부를 분리해 답한다.",
+  "context": "비전문 연구 분야 엔지니어를 위한 설치 스킬·CLI·웹 개발 실연",
+  "scope": {
+    "population": "public synthetic data.csv only",
+    "exclusions": [
+      "population generalization",
+      "causal effects",
+      "performance improvement",
+      "power or population intervals"
+    ]
+  },
+  "facts": [
+    "ratings 1–5 valid; empty excluded and counted",
+    "satisfaction_pct = mean valid rating / 5 * 100; percentage",
+    "business criterion >=80",
+    "local writes/execution approved",
+    "three fixed-input display replications seed0,1,2 prescribed",
+    "owner frozen csv-owner-fixed-v1"
+  ],
+  "assumptions": [
+    {
+      "assumption": "team is fixture reporting unit; complete-case descriptive means describe observed responses only",
+      "impact_if_false": "revise interpretation with explicit new goal version"
+    }
+  ],
+  "unknowns": [
+    {
+      "item": "external agent tokens and costs",
+      "owner": "agent telemetry observation",
+      "resolution": "record unavailable per-demo telemetry as unknown, without inventing a receipt"
+    }
+  ],
+  "deliverables": [
+    "goal prompt and structured brief",
+    "task.py and source/data hashes",
+    "preregistered real runs and original evidence",
+    "fixed independent verifier results",
+    "decisions",
+    "Korean report and resume handoff"
+  ],
+  "completion_criteria": [
+    "three prescribed fixed-input runs collected and fixed verifier checked",
+    "answer exact CSV calculation and >=80 business criterion separately",
+    "evidence-backed negative result can complete question",
+    "no unknown/running executions left at closure"
+  ],
+  "evaluation": {
+    "metrics": [
+      "calculation_matches",
+      "satisfaction_pct"
+    ],
+    "units": {
+      "calculation_matches": "boolean represented as 0 or 1",
+      "satisfaction_pct": "percentage"
+    },
+    "criteria": [
+      {
+        "metric": "calculation_matches",
+        "op": "==",
+        "threshold": 1
+      },
+      {
+        "metric": "satisfaction_pct",
+        "op": ">=",
+        "threshold": 80
+      }
+    ],
+    "comparison": "owner fixed independent recalculation and supplied 80% threshold; no improvement baseline",
+    "split": "all public fixed fixture; no held-out population inference",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "repeat_design": "three_fixed_input_replications",
+    "repeat_rationale": "prescribed minimal development display fixture; deterministic repeat distribution only"
+  },
+  "permissions": {
+    "allowed": [
+      "dedicated workspace writes",
+      "local execution of supplied fixture",
+      "same root CLI/stdio/WebMCP"
+    ],
+    "excluded": [
+      "network",
+      "external model cost spending",
+      "global config mutation",
+      "frozen validator mutation",
+      "owner key mutation",
+      "original CSV mutation"
+    ],
+    "source": "validation/skill-demo-request.ko.md"
+  },
+  "resource_constraints": {
+    "cost": "unknown; no external spending authorized",
+    "tokens": "unknown",
+    "time": "not set",
+    "whole_research_iteration_limit": "not set"
+  },
+  "initial_plan": [
+    "status then memory",
+    "idempotent goal",
+    "hypothesis",
+    "external-agent code and hash-pinned preregistration",
+    "actual run and fixed independent verify",
+    "decision and telemetry observation",
+    "goal close and exact completed-request replay"
+  ],
+  "reporting": {
+    "language": "Korean",
+    "persona": "engineering owner with no research expertise required",
+    "first": [
+      "phase",
+      "observed metrics versus goal",
+      "cost scope",
+      "elapsed time",
+      "results and verification"
+    ],
+    "scientific_scope": "fixed-input technical descriptive verification only"
+  },
+  "handoff": {
+    "root": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces",
+    "workspace": "goal-plugin-demo-20261004",
+    "prompt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\long-term-goal-prompt.v1.ko.md",
+    "prompt_version": 1,
+    "prompt_sha256": "a7a3ddd4a59c116782181c10615bed8ce2ac70219392bd5918f411c7124c864d",
+    "manifest_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\demonstration-manifest.json",
+    "goal_request_key": "skill-demo-goal-original-20261004-v1",
+    "resume": "goal_show/status/memory, inspect original run IDs; recover unknown rather than create replacement; resume only if authorized new work remains"
+  }
+}

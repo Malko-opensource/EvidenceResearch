@@ -1,0 +1,59 @@
+{
+  "hypothesis_id": "hyp_94ef0c7a1a7e4fd6b7caf08981069891",
+  "change": "Replace incremental input-order summary with sorted grouped sliding windows and exact rational accumulation of parsed finite floats.",
+  "comparison": "Initial solution supplied in episode.json; owner-fixed csv-fixed-v1 task cases.",
+  "data_split": "Provided input.csv execution and independent owner-fixed validation; no case inspection or tuning.",
+  "seed": 0,
+  "source_version": {
+    "label": "F2-C_OFF-candidate-1",
+    "files": {
+      "solution.py": "a5baf8e5898f34819e2a36890611240789a93330bcf72d59b4e67a69c09efe34",
+      "input.csv": "8ede75d5fa0d0f390b2c60220d18d20734b6bcad7c2320715f0af9b6730be7f2",
+      "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+    }
+  },
+  "metrics": [
+    "pass_rate"
+  ],
+  "criteria": [
+    {
+      "metric": "pass_rate",
+      "op": ">=",
+      "threshold": 1.0
+    }
+  ],
+  "command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "task.py",
+    "F2"
+  ],
+  "cwd": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\C_OFF",
+  "artifacts": [
+    {
+      "name": "result.json",
+      "path": "result.json"
+    },
+    {
+      "name": "invocations.jsonl",
+      "path": "invocations.jsonl"
+    },
+    {
+      "name": "solution.py",
+      "path": "solution.py"
+    },
+    {
+      "name": "input.csv",
+      "path": "input.csv"
+    }
+  ],
+  "validator": "csv-fixed-v1",
+  "task_id": "F2",
+  "conditions": {
+    "libraries": "Python standard library only",
+    "window_seconds": 3.0,
+    "left_boundary": "excluded",
+    "duplicates": "all measurements contribute; one output per unique timestamp",
+    "input_mutation": false,
+    "prior_memory": "off; initial query returned no items"
+  }
+}

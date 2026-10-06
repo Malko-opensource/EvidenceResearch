@@ -1,0 +1,63 @@
+{
+  "registration_id": "F1-B-1",
+  "registered_at": "2026-10-03T16:01:13.945027+00:00",
+  "task_id": "F1",
+  "condition": "B",
+  "framework": "Existing external Codex fresh subagent, inherited parent model and reasoning effort",
+  "model_identifier": "unknown",
+  "research_cli_used": false,
+  "hypothesis": "Reject missing, malformed, nonfinite, blank-group and nonpositive-weight rows; exact rational weighted calculations centered at the first valid value preserve small deviations at large common offsets and achieve fixed-validator pass_rate >= 1.0.",
+  "changes": [
+    "Trim group names and reject missing or blank group fields.",
+    "Parse numeric fields as binary64 floats; reject parse failures, missing values, NaN, infinities and weights <= 0.",
+    "Convert accepted binary64 values to exact Fraction values; calculate the weighted mean and weighted population variance using centered exact arithmetic, then round outputs to floats.",
+    "Return only the prescribed groups and rejected fields without mutating input rows."
+  ],
+  "comparison": {
+    "baseline": "Initial supplied source preserved as source-initial.py; inspected statically and not executed.",
+    "baseline_source_sha256": "148120933540d3975e979260b00ec3b062448b27ed11941f068072a69c96e0db",
+    "candidate": "candidate-1.py to be installed as solution.py",
+    "comparison_type": "Candidate measured against fixed pass_rate criterion, with no measured baseline quality claim."
+  },
+  "split": {
+    "development_input": "Provided public input.csv and BRIEF.ko.md only",
+    "independent_evaluation": "Owner fixed validator called as an opaque subprocess; evaluator implementation and hidden cases not read",
+    "hidden_case_access": false,
+    "other_condition_access": false,
+    "past_implementation_access": false
+  },
+  "seed": 0,
+  "source_sha256": "00fd9536a220bc378de45a66f69d34bdb6db051ee44f5be4c8e03df2ec8b6214",
+  "input_sha256": "62100a2fd5250a0e8431bfdaf230ad862199be1df865035e9be93f407e2fc1ab",
+  "runner_sha256": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963",
+  "brief_sha256": "f8613ce5bd8e246f3ae290d9eb97cffe833c9f56e2e8657006a525346ddace9e",
+  "fixed_validator_sha256": "ab3dbdea573a6a553e994649705279e74d9a99ef93539cfdfa3dace744d175ed",
+  "criteria": [
+    {
+      "metric": "pass_rate",
+      "op": ">=",
+      "threshold": 1.0
+    }
+  ],
+  "criteria_policy": "No successful/adopted claim before independent verification; preserve a failed registration and run, then register a changed candidate if recovery is needed.",
+  "planned_task_command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "task.py",
+    "F1"
+  ],
+  "planned_check_command": [
+    "C:\\Users\\Potato\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\check.py",
+    "--root",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B",
+    "--task",
+    "F1",
+    "--output",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F1\\B\\check-1.json"
+  ],
+  "iteration_or_time_limit": null,
+  "external_tokens": {
+    "status": "unknown",
+    "value": null
+  }
+}

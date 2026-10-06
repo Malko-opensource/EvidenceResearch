@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evaluation\results\F2\B\episode-controller.py", line 241, in <module>
+    actions[sys.argv[1]]()
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evaluation\results\F2\B\episode-controller.py", line 202, in finalize
+    check_files = sorted(ROOT.glob("check-*.json"), key=lambda path: int(path.stem.split("-")[-1]))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Potato\Documents\ChatGPT\Research Agent\EvidenceResearch\evaluation\results\F2\B\episode-controller.py", line 202, in <lambda>
+    check_files = sorted(ROOT.glob("check-*.json"), key=lambda path: int(path.stem.split("-")[-1]))
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '1.bundle'

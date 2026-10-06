@@ -1,0 +1,66 @@
+{
+  "at": "2026-10-04T06:15:40.542125+00:00",
+  "version": "0.5.0",
+  "files": {
+    "pyproject.toml": "87eb4ccc56b9644e7ef002a14f68f6b9f2ed6de54c4762d598dd981c86c12920",
+    "research_cli/__init__.py": "677a3e775fea0a54f38294e26d2ec22bd9f854ff9f6ee3e12f1358a441fbd23c",
+    "research_cli/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "research_cli/cli.py": "685b46ed9bb8e8961a3c225802fd738f541f5202a8fc41ed8d566b37f05c6e72",
+    "research_cli/core.py": "f314b51fb1fc1e27a66c91638ce104d35e2e1679c8cf77f03e9815aa6aa9b86b",
+    "research_cli/laya.py": "957f96a76accef10901a3967e29b56388b0d73cd3bd8a0d68a3533aef67401c3",
+    "research_cli/mcp_bridge.py": "a927ec9bcd38fce9f4ca146a9cfa516154de532c7227c4171431370c4d6a6ff6",
+    "research_cli/mcp_server.py": "2919fe9e8b379603563072d0338f95d86d116291d5d89719ffd258d5d510b4e4",
+    "research_cli/runner.py": "264ddda30a0bfd8702289209f132e20c4cf8aea67ce31a822ba3540d90e8f27f",
+    "research_cli/transfer.py": "2ba9f2d45f589cf59562ea7a53d3d5699632fbbf431beb759b1d22b280a3f195",
+    "research_cli/web/app.js": "fec80308f6268decb08c2eca2284661fa551b5f411f3a4714b097e5c51c3c44f",
+    "research_cli/web/index.html": "a498826c2b67f57dcf351ec6fa79c6464c49b8a5f1d98d38fc3224072d158dfd",
+    "research_cli/web/styles.css": "b2ebc3acbf20dff1a164745a00eb0f082726340c99243c828b1e0dcce751609b",
+    "research_cli/web_server.py": "a1faa1ff637f8a3152dda5f97853446e1374b949fb75130dcac3acb5773fb41e",
+    "research_cli/web_tools.py": "fefdd1d06a84cdf4dfe94c98b8b4652911522d734cef0a601f330cf9165e67c3",
+    "research_cli/worker.py": "49041f8606ccf8b6f6d15016ca26e801a6daa074ee32a9f448a642d1b0d58953",
+    "tests/test_cli_output.py": "72ff9b68714e68a702e7c7e20cd463e603b30a25efd58769920af89102b05e0d",
+    "tests/test_contract.py": "80d61fce43a298d409ced51f62cd0919762ee3372a8cd3a299ec5304dcda01b6",
+    "tests/test_evaluation.py": "c18932d5aca18d978a00138887544ef26855c58cc14095ddadd7dc511706e338",
+    "tests/test_laya.py": "5b751a29b409ec387b4662d8cf48a29e5ab7dd2e9522adedb658a74be16d2283",
+    "tests/test_mcp.py": "9db16dc2237794f137a43278e4bee1b45ac515936592ec5dfb635b332b3e0b11",
+    "tests/test_web.py": "89676184f7e0ac02ae875576a17212d2493044cca90c86604e00f40d1d3c7014",
+    "validation/mcp_install_check.py": "c17c84ddb2c477d715c22b3819e8a0c58f5a3418408ab51a1a5f58ad7163f9fe"
+  },
+  "state_components_unchanged_from_0.4.0": {
+    "research_cli/core.py": true,
+    "research_cli/runner.py": true,
+    "research_cli/worker.py": true,
+    "research_cli/transfer.py": true
+  },
+  "installed_package_matches_current_source": {
+    "research_cli/__init__.py": true,
+    "research_cli/__main__.py": true,
+    "research_cli/cli.py": true,
+    "research_cli/core.py": true,
+    "research_cli/laya.py": true,
+    "research_cli/mcp_bridge.py": true,
+    "research_cli/mcp_server.py": true,
+    "research_cli/runner.py": true,
+    "research_cli/transfer.py": true,
+    "research_cli/web/app.js": true,
+    "research_cli/web/index.html": true,
+    "research_cli/web/styles.css": true,
+    "research_cli/web_server.py": true,
+    "research_cli/web_tools.py": true,
+    "research_cli/worker.py": true
+  },
+  "wheel": {
+    "file": "validation/wheels/research_state_cli-0.5.0-py3-none-any.whl",
+    "sha256": "fc7b6523a363859505faf5563090ce9059a263f84ac7751b0e04a4a6fd151dde"
+  },
+  "comparison_version": "0.1.0",
+  "frozen_comparison_check": {
+    "ok": true,
+    "invalid": []
+  },
+  "core_runtime_dependencies": [],
+  "web_runtime_dependencies": [],
+  "optional_mcp_dependency": "mcp==2.3.0",
+  "model_calls_in_cli_or_web_service": false,
+  "actual_laya_inference": false
+}

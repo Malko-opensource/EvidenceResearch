@@ -1,0 +1,1 @@
+{"resources": {"elapsed_seconds": 5.670002428814769e-05, "external_tokens": {"status": "unknown", "value": null}}, "result": {"groups": {"a": {"count": 2, "mean": 2.5, "variance": 0.75, "weight": 4.0}, "offset": {"count": 3, "mean": 1000000000000.0, "variance": 2.6666666666666665, "weight": 3.0}}, "rejected": 2}, "task_id": "F1"}

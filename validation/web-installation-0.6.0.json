@@ -1,0 +1,58 @@
+{
+  "at": "2026-10-04T09:16:20.540083+00:00",
+  "version": "0.6.0",
+  "packages": [
+    {
+      "name": "pip",
+      "version": "25.0.1"
+    },
+    {
+      "name": "research-state-cli",
+      "version": "0.6.0"
+    }
+  ],
+  "mcp_sdk_installed": false,
+  "core_runtime_dependencies": [],
+  "web_runtime_dependencies": [],
+  "installed_module": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Lib\\site-packages\\research_cli\\__init__.py",
+  "isolated_outside_source": true,
+  "installed_modules_match": {
+    "__init__.py": true,
+    "__main__.py": true,
+    "cli.py": true,
+    "core.py": true,
+    "laya.py": true,
+    "mcp_bridge.py": true,
+    "mcp_server.py": true,
+    "runner.py": true,
+    "transfer.py": true,
+    "web_server.py": true,
+    "web_tools.py": true,
+    "worker.py": true
+  },
+  "installed_assets_match": {
+    "app.js": "9ed80da76b9749b0c1e3d9220f3ef915d083799b51f6bad331269fbe5408e5d5",
+    "index.html": "382bee94ac26d4c0b2194bf77de12044e84af0d77c57d3cd23aea76e98207b58",
+    "styles.css": "fcbdbcf8210adaab707717cbca955d84ccf78096afa37785f4ac4c518c6a3bb5"
+  },
+  "actual_http_served_assets_match_source": {
+    "index.html": true,
+    "app.js": true,
+    "styles.css": true
+  },
+  "actual_http_bootstrap": true,
+  "tool_count": 17,
+  "browser_presentation_tools_not_in_http_api": true,
+  "static_human_controls_absent": true,
+  "startup_created_workspace": false,
+  "research_workspace_mutations": false,
+  "temporary_server_closed": true,
+  "temporary_root_cleaned": true,
+  "model_calls_in_service": false,
+  "rechecked_after_browser_findings": [
+    "Off-page overview distinguishes an empty page from zero total",
+    "Memory/evidence poll current file integrity even when workspace revision is unchanged",
+    "Verified and unverified claims use distinct display labels rather than execution unknown"
+  ],
+  "previous_installation_check_at": "2026-10-04T09:13:59.901127+00:00"
+}

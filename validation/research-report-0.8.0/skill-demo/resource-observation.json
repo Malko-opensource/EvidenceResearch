@@ -1,0 +1,16 @@
+{
+  "source": "actual external-agent session and CLI execution receipts",
+  "source_ref": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\research-report-0.8.0\\skill-demo\\resource-telemetry-evidence.json",
+  "cost": {
+    "status": "unknown",
+    "amount": null,
+    "currency": null
+  },
+  "tokens": {
+    "status": "unknown",
+    "value": null
+  },
+  "period_start": 1791114275.6848257,
+  "period_end": 1791114299.1960316,
+  "note": "Actual pinned local runner receipts report external_model_usage and external_tokens unknown. No per-demo external agent billing/token receipt is exposed. Source file records actual availability evidence; this is not a fabricated invoice or zero cost."
+}

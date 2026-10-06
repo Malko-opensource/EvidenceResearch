@@ -1,0 +1,189 @@
+{
+  "task_id": "D",
+  "kind": "development interface validation",
+  "excluded_from_performance_comparisons": true,
+  "cli_version": "0.2.0",
+  "registration_id": "reg_23a6503d54224211b20e0c3de92dde29",
+  "run_id": "run_cb960ef01169473983badc2927351938",
+  "goal_id": "goal_248198e7a18b45d0a8da9e28ff7146dc",
+  "hypothesis_id": "hyp_1ccc891dcebd43049ea2636b1dab1248",
+  "run_state": "succeeded",
+  "verification_state": "passed",
+  "independent_metric": {
+    "pass_rate": 1.0
+  },
+  "criteria_results": [
+    {
+      "actual": 1.0,
+      "metric": "pass_rate",
+      "op": ">=",
+      "passed": true,
+      "threshold": 1.0
+    }
+  ],
+  "decision": {
+    "registration_id": "reg_23a6503d54224211b20e0c3de92dde29",
+    "state": "adopted",
+    "reason": "Adopted for this development interface episode: the owner-frozen independent verifier reports pass_rate 1.0, meeting the preregistered threshold 1.0; evidence integrity is valid and all four artifacts are preserved and verified. Repeating the same run key reused the succeeded run and the preserved invocation log still contains one invocation. This validates the external-consumer CLI flow only and is excluded from research performance comparisons.",
+    "created": 1791046177.9801867
+  },
+  "actual_invocations": 1,
+  "preserved_invocation_count_before_duplicate": 1,
+  "preserved_invocation_count_after_duplicate": 1,
+  "duplicates": {
+    "requests_repeated": 1,
+    "request_key": "d-interface-run-v1",
+    "same_run_id": true,
+    "duplicate_started": false,
+    "additional_invocations": 0
+  },
+  "default_response_bytes": {
+    "run": 2654,
+    "duplicate_run": 2707,
+    "verify": 2849,
+    "combined_run_verify": 5503,
+    "counting_rule": "Original stdout bytes including trailing CRLF; responses are default compact, without --full. stderr was empty."
+  },
+  "public_output": {
+    "groups": {
+      "a": 2.0,
+      "b": 10.0
+    }
+  },
+  "artifacts": [
+    {
+      "name": "result.json",
+      "sha256": "4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f",
+      "integrity": "valid",
+      "verified": true,
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\4269b10b90a12513ed0465559bbfa833cb30a356600d41518cdd4f96ad776f4f"
+    },
+    {
+      "name": "invocations.jsonl",
+      "sha256": "dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3",
+      "integrity": "valid",
+      "verified": true,
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\dddfdf62074d8e81b73e766e34a3bc442219f3f7d9a992a304df3c08364a68c3"
+    },
+    {
+      "name": "solution.py",
+      "sha256": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+      "integrity": "valid",
+      "verified": true,
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3"
+    },
+    {
+      "name": "input.csv",
+      "sha256": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+      "integrity": "valid",
+      "verified": true,
+      "path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\research\\.research\\evidence\\87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a"
+    }
+  ],
+  "artifact_total": 4,
+  "evidence_integrity": "valid",
+  "claim_verified": true,
+  "final_memory": {
+    "items": [
+      {
+        "id": "reg_23a6503d54224211b20e0c3de92dde29",
+        "goal_id": "goal_248198e7a18b45d0a8da9e28ff7146dc",
+        "hypothesis": "For valid group,value inputs, accumulating a float total and count for each group returns the required arithmetic means and passes the owner-frozen independent evaluator; the existing list-based implementation is the comparator, and this development episode tests the CLI interface without a research performance claim.",
+        "execution": "succeeded",
+        "verification": "passed",
+        "decision": "adopted",
+        "outcome": "success",
+        "reason": "Adopted for this development interface episode: the owner-frozen independent verifier reports pass_rate 1.0, meeting the preregistered threshold 1.0; evidence integrity is valid and all four artifacts are preserved and verified. Repeating the same run key reused the succeeded run and the preserved invocation log still contains one invocation. This validates the external-consumer CLI flow only and is excluded from research performance comparisons.",
+        "resources": {
+          "external_model_usage": "unknown",
+          "external_tokens": "unknown",
+          "tokens": {
+            "status": "unknown",
+            "value": null
+          },
+          "wall_seconds": 0.06300000002374873
+        },
+        "evidence_count": 11,
+        "summary": "Replace the list-per-group draft with a standard-library implementation that accumulates a float total and count, then divides total by count for every group. Expected final solution.py SHA-256 was calculated from solution-draft.py before registration.",
+        "conditions": {
+          "comparison": "The provided list-based arithmetic-mean implementation in solution.py. It is a functional comparator only; no baseline run or performance comparison is claimed.",
+          "data_split": {
+            "development": "Only BRIEF.ko.md and the public input.csv were inspected: group a values 1 and 3 imply 2.0; group b value 10 implies 10.0. All group,value strings are valid according to the public brief.",
+            "evaluation": "The separately frozen owner validator csv-fixed-v1 evaluates preserved artifacts. Its code and independent cases are not inspected by this external consumer. This DEVELOPMENT task is excluded from all research performance comparisons."
+          },
+          "seed": 0,
+          "source_version": {
+            "files": {
+              "input.csv": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+              "solution.py": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+              "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+            },
+            "label": "candidate-d1"
+          }
+        },
+        "evidence_integrity": "valid",
+        "claim_verified": true
+      }
+    ],
+    "total": 1,
+    "limit": 10,
+    "offset": 0,
+    "revision": 8
+  },
+  "source_version": {
+    "files": {
+      "input.csv": "87944719edc5fe8fa549b71d16358450bd1a27bd420bfafe119512c88bd55b1a",
+      "solution.py": "a2df04cec0f6e84ce4c2e4ef80647ccb10590f3861955a8c14998239c201a5b3",
+      "task.py": "5fb95ca12b8bf5cbe0925e996630ee678d25e8c6d8493571008eeef79f9cd963"
+    },
+    "label": "candidate-d1"
+  },
+  "sequence": [
+    "status",
+    "memory",
+    "external candidate draft and expected source hash",
+    "goal",
+    "hypothesis",
+    "register",
+    "final solution placement",
+    "run",
+    "same-key duplicate run",
+    "verify",
+    "decide",
+    "memory"
+  ],
+  "preregistration_before_solution_placement": true,
+  "cli_errors": [],
+  "capture_errors": [],
+  "schema_clarification_needed": false,
+  "schema_notes": "Public JSON help example supplied the actual stored interpreter. Public command help supplied goal/hypothesis/register/run/verify/decide/memory arguments. Default record fields and artifact paths sufficed; no undocumented field or internal store inspection was needed.",
+  "tokens": {
+    "status": "unknown",
+    "value": null
+  },
+  "resources": {
+    "external_model_usage": "unknown",
+    "external_tokens": "unknown",
+    "tokens": {
+      "status": "unknown",
+      "value": null
+    },
+    "wall_seconds": 0.06300000002374873
+  },
+  "files": {
+    "transcript": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\transcript.json",
+    "candidate_plan": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\candidate-plan.json",
+    "registration_spec": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\registration-spec.json",
+    "solution": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\validation\\interface-agent\\solution.py"
+  },
+  "limitations": [
+    "This is one development interface episode, excluded from all research performance comparisons; it supports no research-effectiveness or speed claim.",
+    "The supplied baseline already computes the visible arithmetic means. The candidate is a different standard-library implementation, not evidence of a baseline bug fix.",
+    "Independent evaluator code/cases, core source, database, owner key, internal keys, and other answers were not inspected.",
+    "Only the normal succeeded path and one duplicate same-key request were tested; recovery/unknown-run semantics were not exercised.",
+    "Default compact responses were consumed directly. Public show retrieval was advertised but not required or invoked in this episode.",
+    "External model tokens and exact inherited model identifier are unavailable and recorded as unknown.",
+    "One observed invocation does not establish a general exactly-once guarantee."
+  ],
+  "completed_at": "2026-10-03T16:50:32.328832+00:00"
+}

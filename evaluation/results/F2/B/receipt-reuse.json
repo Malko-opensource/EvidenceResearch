@@ -1,0 +1,10 @@
+{
+  "actual_new_task_executions": 0,
+  "completed_receipt_reused": true,
+  "invocations_after": 1,
+  "invocations_before": 1,
+  "logical_request": "F2-B-registered-task-001",
+  "receipt_path": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\evaluation\\results\\F2\\B\\receipt.json",
+  "receipt_sha256": "3a35cf1f54002912a874d506003f782c1436aa76885667e900a0c69b834b73e0",
+  "reused_at": "2026-10-03T16:22:01.551194+00:00"
+}

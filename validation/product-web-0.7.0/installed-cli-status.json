@@ -1,0 +1,127 @@
+{
+  "command": [
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+    "-I",
+    "-X",
+    "utf8",
+    "-m",
+    "research_cli",
+    "--workspace",
+    "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\product-fixtures-20261004",
+    "status",
+    "--limit",
+    "5",
+    "--offset",
+    "20"
+  ],
+  "outside_source": true,
+  "response": {
+    "ok": true,
+    "data": {
+      "workspace": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\research-workspaces\\product-fixtures-20261004",
+      "goals": [],
+      "goal_total": 1,
+      "hypotheses": [],
+      "hypothesis_total": 2,
+      "registrations": [
+        {
+          "id": "reg_c0b489ce6b8147f7b1e122debd05bfd0",
+          "execution": "registered",
+          "verification": "pending",
+          "decision": "pending",
+          "allowed_actions": [
+            "show",
+            "memory",
+            "evidence",
+            "run",
+            "decide"
+          ],
+          "missing_evidence": [
+            "execution receipt",
+            "verified artifact metrics"
+          ]
+        },
+        {
+          "id": "reg_4cd9d4adcfbc41d6b2f6297ddc37c5f6",
+          "execution": "registered",
+          "verification": "pending",
+          "decision": "pending",
+          "allowed_actions": [
+            "show",
+            "memory",
+            "evidence",
+            "run",
+            "decide"
+          ],
+          "missing_evidence": [
+            "execution receipt",
+            "verified artifact metrics"
+          ]
+        },
+        {
+          "id": "reg_97af312c319f41c1a3594550e1f29bfd",
+          "execution": "registered",
+          "verification": "pending",
+          "decision": "pending",
+          "allowed_actions": [
+            "show",
+            "memory",
+            "evidence",
+            "run",
+            "decide"
+          ],
+          "missing_evidence": [
+            "execution receipt",
+            "verified artifact metrics"
+          ]
+        },
+        {
+          "id": "reg_9fb328f7bc5147bf812bad78c7b5b368",
+          "execution": "registered",
+          "verification": "pending",
+          "decision": "pending",
+          "allowed_actions": [
+            "show",
+            "memory",
+            "evidence",
+            "run",
+            "decide"
+          ],
+          "missing_evidence": [
+            "execution receipt",
+            "verified artifact metrics"
+          ]
+        },
+        {
+          "id": "reg_535dc9d10e334460a4b7c37a5a117808",
+          "execution": "registered",
+          "verification": "pending",
+          "decision": "pending",
+          "allowed_actions": [
+            "show",
+            "memory",
+            "evidence",
+            "run",
+            "decide"
+          ],
+          "missing_evidence": [
+            "execution receipt",
+            "verified artifact metrics"
+          ]
+        }
+      ],
+      "total": 32,
+      "limit": 5,
+      "offset": 20,
+      "allowed_actions": [
+        "goal",
+        "hypothesis",
+        "register",
+        "memory",
+        "show",
+        "export"
+      ],
+      "revision": 44
+    }
+  }
+}

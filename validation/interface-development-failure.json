@@ -1,0 +1,14 @@
+{
+  "attempt": "first v0.2 compact formatter model-free run",
+  "tests_run": 22,
+  "status": "failed",
+  "failures": 2,
+  "exit_code": 1,
+  "observed_error": "INVALID_INPUT: 'id'",
+  "affected_tests": ["compact_defaults_preserve_detail_retrieval_integrity_and_idempotent_execution", "export_restore_preserves_records_and_reuses_completed_execution"],
+  "cause": "The new presentation code expected verification.id; the actual existing schema uses verification.run_id",
+  "fix": "Use the existing run_id field; no core state or comparison record changed",
+  "original_full_log_retained": false,
+  "retained_evidence": "Tool output contains failure names, exit status and traceback excerpt. The original full development log was overwritten by the corrected rerun.",
+  "scientific_experiment_affected": false
+}

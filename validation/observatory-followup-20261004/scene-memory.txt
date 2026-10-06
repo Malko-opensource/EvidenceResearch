@@ -1,0 +1,62 @@
+- banner:
+  - strong: Research State
+  - generic: v0.8.0
+  - paragraph: 에이전트 제어 · 함께 보는 연구
+  - generic "연결 상태":
+    - generic: 연구 상태 연결
+    - generic: NATIVE WebMCP · 25/25
+- main:
+  - heading "이전 시도에서 배운 것" [level=1]
+  - paragraph: 결과와 적용 조건을 함께 읽습니다.
+  - generic: 기록 21
+  - generic: 오후 11:27:54 조회 · 읽기 상태 동기화
+  - region "연구 질문과 시험한 변경점":
+    - generic: 함께 살펴보는 연구
+    - heading "고정 고객 응답 CSV의 팀별 만족도 보고 검증" [level=2]
+    - generic: 연구 종료
+    - generic: 외부 연구 상태 보고
+  - region "이전 시도에서 배운 것":
+    - paragraph: 에이전트 검색 “전체” · 모든 결과 · 조회 3 / 검색 결과 3건
+    - generic: 실패
+    - heading "조건과 함께 읽는 교훈" [level=2]
+    - heading "External agent CSV summary under supplied missing-exclusion rule; one deterministic source for all prescribed…" [level=3]
+    - paragraph: 합의된 누락 제외 공식의 정확한 계산에서 이 고정 CSV의 전체 만족도가 사업 기준 80% 이상이다. 팀별 기술통계의 계산 정확성은 이 사업 기준과 별도로 검증한다.
+    - paragraph: 동일 고정 입력의 세 번째 기능 반복도 전체 72%, 독립 계산 일치 1이며 80% 조건을 충족하지 않는다. 세 반복은 동일 소스 개발 fixture 분포 확인이며 모집단 독립 검증이 아니다.
+    - paragraph: 독립 검증 실패 기록 · 현재 원본 해시 일치
+    - term: 비교 기준
+    - definition: Frozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline
+    - term: 데이터 분할
+    - definition: "development: all rows of supplied public synthetic data.csv · evaluation: same pinned input, independently implemented owner frozen validator; no independent population or holdout inference"
+    - term: Seed
+    - definition: "2"
+    - paragraph: 표시 3 / 4개 조건 · 원본은 에이전트가 조회합니다.
+    - generic: 실패
+    - heading "조건과 함께 읽는 교훈" [level=2]
+    - heading "External agent CSV summary under supplied missing-exclusion rule; one deterministic source for all prescribed…" [level=3]
+    - paragraph: 합의된 누락 제외 공식의 정확한 계산에서 이 고정 CSV의 전체 만족도가 사업 기준 80% 이상이다. 팀별 기술통계의 계산 정확성은 이 사업 기준과 별도로 검증한다.
+    - paragraph: 동일 고정 입력의 두 번째 기능 반복도 전체 72%, 독립 계산 일치 1이며 80% 조건을 충족하지 않는다. 반대 증거를 유지하고 독립 표본 또는 성능 개선으로 해석하지 않는다.
+    - paragraph: 독립 검증 실패 기록 · 현재 원본 해시 일치
+    - term: 비교 기준
+    - definition: Frozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline
+    - term: 데이터 분할
+    - definition: "development: all rows of supplied public synthetic data.csv · evaluation: same pinned input, independently implemented owner frozen validator; no independent population or holdout inference"
+    - term: Seed
+    - definition: "1"
+    - paragraph: 표시 3 / 4개 조건 · 원본은 에이전트가 조회합니다.
+    - generic: 실패
+    - heading "조건과 함께 읽는 교훈" [level=2]
+    - heading "External agent CSV summary under supplied missing-exclusion rule; one deterministic source for all prescribed…" [level=3]
+    - paragraph: 합의된 누락 제외 공식의 정확한 계산에서 이 고정 CSV의 전체 만족도가 사업 기준 80% 이상이다. 팀별 기술통계의 계산 정확성은 이 사업 기준과 별도로 검증한다.
+    - paragraph: 전체 만족도는 72%로 사전등록 사업 기준 80%보다 8 percentage points 낮다. 실행은 성공하고 고정 독립 계산 일치 지표는 1이나 전체 기준 검증은 실패다. 이 고정 CSV의 80% 가설을 기각하며 기술통계 계산의 정확성과 모집단 추론은 별개다.
+    - paragraph: 독립 검증 실패 기록 · 현재 원본 해시 일치
+    - term: 비교 기준
+    - definition: Frozen owner independent recalculation of fixed fixture and supplied overall 80% business criterion; no performance baseline
+    - term: 데이터 분할
+    - definition: "development: all rows of supplied public synthetic data.csv · evaluation: same pinned input, independently implemented owner frozen validator; no independent population or holdout inference"
+    - term: Seed
+    - definition: "0"
+    - paragraph: 표시 3 / 4개 조건 · 원본은 에이전트가 조회합니다.
+    - paragraph: 화면 표시 3 / 이번 조회 3건 · 에이전트가 limit/offset으로 다른 페이지를 펼칩니다.
+  - complementary "외부 에이전트의 현재 도구 호출":
+    - generic: 요청 완료
+    - paragraph: 사용자는 보고 싶은 내용을 에이전트에게 요청하세요

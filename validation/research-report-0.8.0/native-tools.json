@@ -1,0 +1,1175 @@
+[
+  {
+    "name": "research_decide__b87adf51-c5ed-49ba-a216-3623f7c20de4",
+    "title": "",
+    "description": "Record an external decision. Adoption requires successful execution and valid independently verified evidence.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "decision": {
+          "enum": [
+            "adopted",
+            "rejected",
+            "inconclusive"
+          ],
+          "type": "string"
+        },
+        "expect": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "reason": {
+          "type": "string"
+        },
+        "registration": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "registration",
+        "decision",
+        "reason"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_evidence__b17ba81f-b0d3-47cd-9092-17dc487e5fd2",
+    "title": "",
+    "description": "Append an unverified claim and optional evidence file. This never certifies an experiment.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "claim": {
+          "type": "string"
+        },
+        "expect": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "kind": {
+          "enum": [
+            "measured",
+            "literature",
+            "inference",
+            "proposal"
+          ],
+          "type": "string"
+        },
+        "path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "registration": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "registration",
+        "kind",
+        "claim"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_export__58888414-a09f-4864-a974-b89bdf997863",
+    "title": "",
+    "description": "Create a consistent hashed archive beneath the configured root. Existing output is not overwritten.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "output": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "output"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_goal__c76b92a1-947d-4952-9a2d-0cc7c176e042",
+    "title": "",
+    "description": "Record an externally chosen research objective.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "brief": {
+          "additionalProperties": true,
+          "default": {},
+          "type": "object"
+        },
+        "description": {
+          "default": "",
+          "type": "string"
+        },
+        "expect": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "request_key": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "title": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_goal_amend__1eed21b8-b683-44b0-b7a7-cd528d6972d0",
+    "title": "",
+    "description": "Append an explicit goal meaning/scope/plan version; frozen experiments retain their original version and criteria. An identical request key reuses its result.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "brief": {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        "change_kind": {
+          "enum": [
+            "meaning",
+            "scope",
+            "plan"
+          ],
+          "type": "string"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "expect": {
+          "type": "integer"
+        },
+        "goal": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "request_key": {
+          "type": "string"
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "goal",
+        "brief",
+        "reason",
+        "change_kind",
+        "request_key",
+        "expect"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_goal_close__f8249993-ff2f-41fc-94a8-b2375acce5fe",
+    "title": "",
+    "description": "Record completed/paused/cancelled research with reason, obtained results and incomplete scope. This external report is not scientific verification and never cancels a worker.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "expect": {
+          "type": "integer"
+        },
+        "goal": {
+          "type": "string"
+        },
+        "incomplete": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "request_key": {
+          "type": "string"
+        },
+        "results": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "state": {
+          "enum": [
+            "completed",
+            "paused",
+            "cancelled"
+          ],
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "goal",
+        "state",
+        "reason",
+        "results",
+        "incomplete",
+        "request_key",
+        "expect"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_goal_resume__a5754ed1-1594-4fb7-9e00-0d623eb15389",
+    "title": "",
+    "description": "Resume the same goal after closure or legacy unknown lifecycle; no experiment is duplicated or started.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "expect": {
+          "type": "integer"
+        },
+        "goal": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "request_key": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "goal",
+        "reason",
+        "request_key",
+        "expect"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_goal_show__e1ee2379-b940-4840-87af-58466d5e5a08",
+    "title": "",
+    "description": "Read the current goal and immutable brief/lifecycle history with paginated source records.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "goal": {
+          "type": "string"
+        },
+        "limit": {
+          "default": 20,
+          "type": "integer"
+        },
+        "offset": {
+          "default": 0,
+          "type": "integer"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "goal"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_help__f1524aea-475d-4676-bc49-fc3bc3717893",
+    "title": "",
+    "description": "Read command help or a public preregistration/Laya JSON example.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "topic": {
+          "anyOf": [
+            {
+              "enum": [
+                "register",
+                "laya",
+                "goal"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_hypothesis__1fd1d1e4-9a8c-452c-a6bd-7bf16c13e449",
+    "title": "",
+    "description": "Record a proposed hypothesis. Optional expect rejects a stale workspace revision.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "expect": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "goal": {
+          "type": "string"
+        },
+        "statement": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "goal",
+        "statement"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_init__4036de7c-6284-406d-a8af-f86ccc5e3d98",
+    "title": "",
+    "description": "Initialize a research workspace; private local capability contents are not returned.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_inspect_evidence__b9fe5208-bd1f-4d08-857f-6497323ce99c",
+    "title": "",
+    "description": "Open one preserved evidence file in a full-width evidence scene. Obtain IDs with research_show. Hash checked through the existing evidence API. Does not execute, verify, adopt, or mutate state. Return via research_view.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "evidence": {
+          "type": "string"
+        },
+        "explanation": {
+          "maxLength": 2000,
+          "type": "string"
+        },
+        "registration": {
+          "type": "string"
+        },
+        "workspace": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "registration",
+        "evidence"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_laya_prepare__d900a854-20a3-499c-874b-7a6a37ff7fac",
+    "title": "",
+    "description": "Bind candidates and current evidence to an external Laya request. Inference remains external.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "payload": {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "payload"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_laya_resolve__b0ba93eb-0ef8-4a2e-a2a5-580926cc947d",
+    "title": "",
+    "description": "Map an external Laya response to a bound, unverified proposal; no automatic scientific choice or adoption.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "bundle": {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        "expected_sha256": {
+          "type": "string"
+        },
+        "response": {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "bundle",
+        "response",
+        "expected_sha256"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_memory__7e6010d2-f35e-43d9-81f2-47e23f4dab49",
+    "title": "",
+    "description": "Search paginated research summaries; record existence and claim verification are separate.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "limit": {
+          "default": 20,
+          "type": "integer"
+        },
+        "offset": {
+          "default": 0,
+          "type": "integer"
+        },
+        "outcome": {
+          "anyOf": [
+            {
+              "enum": [
+                "success",
+                "failure",
+                "inconclusive"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "query": {
+          "default": "",
+          "type": "string"
+        },
+        "verification": {
+          "anyOf": [
+            {
+              "enum": [
+                "pending",
+                "passed",
+                "failed",
+                "inconclusive"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_recover__2b30454f-c5be-47f3-b219-3fbad73084fd",
+    "title": "",
+    "description": "Collect a surviving worker receipt after interruption or report unknown; never launch a replacement run.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "full": {
+          "default": false,
+          "type": "boolean"
+        },
+        "registration": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "registration"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_register__7608b25a-bbb8-4055-9361-82791158d3a0",
+    "title": "",
+    "description": "Freeze conditions and success criteria before execution. A local owner first freezes the validator through the CLI. Changed conditions require a new registration.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "expect": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "goal": {
+          "type": "string"
+        },
+        "request_key": {
+          "type": "string"
+        },
+        "spec": {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "goal",
+        "spec",
+        "request_key"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_resource__2a7692b4-79e8-469b-9c3c-15e25ae57241",
+    "title": "",
+    "description": "Append a sourced external cost/token observation. Observed subtotals never imply complete cost or independent verification; repeated source references are not double counted.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "expect": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "goal": {
+          "type": "string"
+        },
+        "observation": {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        "request_key": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "goal",
+        "observation",
+        "request_key"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_resource_show__36d1158e-18a9-4d52-85ff-d9ff31cbef5c",
+    "title": "",
+    "description": "Read paginated external resource observations and currency-separated observed subtotals with unknown coverage.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "goal": {
+          "type": "string"
+        },
+        "limit": {
+          "default": 20,
+          "type": "integer"
+        },
+        "offset": {
+          "default": 0,
+          "type": "integer"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "goal"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_restore__a516f3d1-36b5-4b0f-961c-95c09d6c7722",
+    "title": "",
+    "description": "Restore an archive beneath the root into an empty workspace; restoration never executes an experiment.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "input": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "input"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_run__dfea849d-3389-4b28-bcd2-c28950cad1a1",
+    "title": "",
+    "description": "Execute a preregistered local experiment after claiming it. Repeated requests reuse known state; unknown execution is not automatically rerun. External side effects are not guaranteed exactly once.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "expect": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "full": {
+          "default": false,
+          "type": "boolean"
+        },
+        "registration": {
+          "type": "string"
+        },
+        "request_key": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "registration",
+        "request_key"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_show__dedec78e-113b-45d0-a211-bd45c372aed1",
+    "title": "",
+    "description": "Read a complete registration, original evidence links, current integrity, and separate verification/decision states.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "registration": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "registration"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_status__99d7bcf7-00f5-4b6d-85be-32a120b28e0f",
+    "title": "",
+    "description": "Read paginated state, currently allowed operations, and missing evidence without scientific ranking.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "goal": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "limit": {
+          "default": 20,
+          "type": "integer"
+        },
+        "offset": {
+          "default": 0,
+          "type": "integer"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_verify__096fa80e-acc4-40f5-bd22-5cd5f6024aff",
+    "title": "",
+    "description": "Run the owner's frozen validator against actual evidence and registered criteria. Agent numbers cannot certify success.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "full": {
+          "default": false,
+          "type": "boolean"
+        },
+        "registration": {
+          "type": "string"
+        },
+        "workspace": {
+          "default": "default",
+          "description": "Relative research workspace beneath the configured root.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "registration"
+      ],
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": false,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  },
+  {
+    "name": "research_view__5be67937-42bb-44e6-a11c-84cf8972e9a3",
+    "title": "",
+    "description": "Control spectator reports without human clicks or research mutations. overview reports the goal lifecycle, metrics, scoped cost/time and actual semantic path; analysis shows frozen criteria; comparison groups at most six full records by evaluation conditions; graph shows documented relationships and unmet criteria; stability shows descriptive registered repeat distributions; memory searches lessons; activity shows actual events and resource observations. All summaries return versioned references and structured judgment facts. explanation is an unverified external-agent statement.",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "compare": {
+          "description": "comparison, graph or stability: explicit records beneath the configured root. No scientific ranking.",
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "registration": {
+                "type": "string"
+              },
+              "workspace": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "workspace",
+              "registration"
+            ],
+            "type": "object"
+          },
+          "maxItems": 6,
+          "type": "array"
+        },
+        "explanation": {
+          "description": "External-agent statement; separate from verified evidence.",
+          "maxLength": 2000,
+          "type": "string"
+        },
+        "focus": {
+          "description": "Agent-selected explanation focus; does not change research state.",
+          "enum": [
+            "hypothesis",
+            "experiment",
+            "evidence",
+            "verification",
+            "conclusion"
+          ],
+          "type": "string"
+        },
+        "goal": {
+          "description": "Optional persistent goal to report; uses the same goal as CLI and stdio MCP.",
+          "type": "string"
+        },
+        "limit": {
+          "default": 20,
+          "maximum": 100,
+          "minimum": 1,
+          "type": "integer"
+        },
+        "offset": {
+          "default": 0,
+          "minimum": 0,
+          "type": "integer"
+        },
+        "outcome": {
+          "enum": [
+            null,
+            "success",
+            "failure",
+            "inconclusive"
+          ],
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "query": {
+          "default": "",
+          "type": "string"
+        },
+        "registration": {
+          "description": "Optional experiment to focus, including an off-page record.",
+          "type": "string"
+        },
+        "scene": {
+          "default": "overview",
+          "enum": [
+            "overview",
+            "analysis",
+            "comparison",
+            "memory",
+            "activity",
+            "graph",
+            "stability"
+          ],
+          "type": "string"
+        },
+        "verification": {
+          "enum": [
+            null,
+            "pending",
+            "passed",
+            "failed",
+            "inconclusive"
+          ],
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "workspace": {
+          "description": "Relative workspace; defaults to current display.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "untrustedContentHint": false,
+      "consequentialHint": false
+    },
+    "origin": "http://127.0.0.1:8766",
+    "pageUrl": "http://127.0.0.1:8766/"
+  }
+]

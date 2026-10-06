@@ -1,6 +1,0 @@
-execution_kind=actual_cpu_execution
-actual_invocation=in_process:evidence_research.tasks.run_task(spec,run_dir)
-implementation=trusted allow-listed polynomial ridge
-test_access=withheld
-error=ValueError: degree must be an integer from 1 to 8
-execution_seconds=0.002532500

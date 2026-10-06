@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-04T10:44:06.870767+00:00",
+  "version": "0.7.0",
+  "ok": true,
+  "isolated_python": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Scripts\\python.exe",
+  "model_calls": false,
+  "experiment_launched": false,
+  "workspace_created": false,
+  "tested_outside_source_directory": true,
+  "temporary_server_started": true,
+  "temporary_server_stopped": true,
+  "installed_module": "C:\\Users\\Potato\\Documents\\ChatGPT\\Research Agent\\EvidenceResearch\\.validation-venv\\Lib\\site-packages\\research_cli\\__init__.py",
+  "mcp_sdk_available": false,
+  "core_runtime_dependencies": [],
+  "module_matches": {
+    "cli.py": true,
+    "core.py": true,
+    "laya.py": true,
+    "mcp_bridge.py": true,
+    "mcp_server.py": true,
+    "runner.py": true,
+    "transfer.py": true,
+    "web_server.py": true,
+    "web_tools.py": true,
+    "worker.py": true,
+    "__init__.py": true,
+    "__main__.py": true
+  },
+  "temporary_server_pid": 49504,
+  "tool_count": 17,
+  "tools": [
+    "research_decide",
+    "research_evidence",
+    "research_export",
+    "research_goal",
+    "research_help",
+    "research_hypothesis",
+    "research_init",
+    "research_laya_prepare",
+    "research_laya_resolve",
+    "research_memory",
+    "research_recover",
+    "research_register",
+    "research_restore",
+    "research_run",
+    "research_show",
+    "research_status",
+    "research_verify"
+  ],
+  "assets": {
+    "index.html": {
+      "sha256": "7ef2e5b08d76d1a6e4ed6f8b078321322af13c021281aba5991c9e1bf12613a8",
+      "bytes": 3359,
+      "source_matches": true
+    },
+    "styles.css": {
+      "sha256": "d81633a851d3e2648986c12b8ba633a6760133b569843ef148ecad690358816d",
+      "bytes": 21121,
+      "source_matches": true
+    },
+    "app.js": {
+      "sha256": "afa4c7f6d1b6aa8f3ef875dd321ca018ad14c9f9c84810c0471475c05606f545",
+      "bytes": 44103,
+      "source_matches": true
+    },
+    "view_model.js": {
+      "sha256": "73eb4715adaccc18a0401f6aad9fc46afd11fe00eb4ae8d5574e097831d6f5eb",
+      "bytes": 28839,
+      "source_matches": true
+    }
+  },
+  "workspace": "agent-observatory-20261004",
+  "read_only_snapshot_unchanged": true,
+  "revision": 8,
+  "temporary_server_socket_closed": true
+}
